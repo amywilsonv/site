@@ -18,7 +18,7 @@ export default function AboutPage() {
   return (
     <>
       <section className="py-16 lg:py-20 max-w-2xl">
-        <h1 className="font-heading italic font-light text-6xl lg:text-7xl tracking-tight mb-8">About</h1>
+        <h1 className="text-6xl lg:text-7xl font-light tracking-tighter mb-8">About</h1>
 
         <div className="space-y-5 text-base leading-relaxed text-foreground">
           <p>

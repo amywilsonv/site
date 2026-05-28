@@ -1,20 +1,25 @@
 import type { Metadata } from "next"
+import { FilmStrip } from "@/components/film-strip"
 
 export const metadata: Metadata = { title: "Writing" }
 
-const categories = [
-  "Streaming Strategy",
-  "Audience Behavior",
-  "Product & UX",
-  "AI & Media",
-  "Data & Analytics",
+const frames = [
+  { n: "01", category: "Streaming Strategy" },
+  { n: "02", category: "Audience Behavior" },
+  { n: "03", category: "Product & UX" },
+  { n: "04", category: "AI & Media" },
+  { n: "05", category: "Data & Analytics" },
+  { n: "06", category: "Streaming Strategy" },
+  { n: "07", category: "Audience Behavior" },
+  { n: "08", category: "AI & Media" },
+  { n: "09", category: "Product & UX" },
 ]
 
 export default function WritingPage() {
   return (
     <>
-      <section className="pt-16 pb-12 lg:pt-24">
-        <h1 className="font-heading italic font-light text-6xl lg:text-7xl tracking-tight mb-5">
+      <section className="pt-16 pb-10 lg:pt-24">
+        <h1 className="text-6xl lg:text-7xl font-light tracking-tighter mb-5">
           Writing
         </h1>
         <p className="text-muted-foreground text-base max-w-md leading-relaxed">
@@ -22,16 +27,9 @@ export default function WritingPage() {
         </p>
       </section>
 
-      <div className="space-y-10 pb-20">
-        {categories.map((category) => (
-          <section key={category} className="border-t pt-8">
-            <p className="text-xs font-medium uppercase tracking-widest text-muted-foreground mb-6">
-              {category}
-            </p>
-            <p className="text-sm text-muted-foreground">Coming soon.</p>
-          </section>
-        ))}
-      </div>
+      <FilmStrip frames={frames} />
+
+      <div className="pb-20" />
     </>
   )
 }

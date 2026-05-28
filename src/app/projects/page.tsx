@@ -47,7 +47,7 @@ export default function ProjectsPage() {
   return (
     <>
       <section className="pt-16 pb-12 lg:pt-24">
-        <h1 className="font-heading italic font-light text-6xl lg:text-7xl tracking-tight mb-5">
+        <h1 className="text-6xl lg:text-7xl font-light tracking-tighter mb-5">
           Projects
         </h1>
         <p className="text-muted-foreground text-base max-w-md leading-relaxed">

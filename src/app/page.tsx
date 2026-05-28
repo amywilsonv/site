@@ -1,7 +1,6 @@
 import Link from "next/link"
-import { Code, Mail } from "lucide-react"
-import { cn } from "@/lib/utils"
-import { buttonVariants } from "@/components/ui/button"
+import { Code, Mail, Clapperboard } from "lucide-react"
+import { FilmStrip } from "@/components/film-strip"
 
 const work = [
   { n: "01", status: "In Progress" },
@@ -9,18 +8,33 @@ const work = [
   { n: "03", status: "Planned" },
 ]
 
+const writingFrames = [
+  { n: "01", category: "Streaming Strategy" },
+  { n: "02", category: "Audience Behavior" },
+  { n: "03", category: "Product & UX" },
+  { n: "04", category: "AI & Media" },
+  { n: "05", category: "Data & Analytics" },
+  { n: "06", category: "Streaming Strategy" },
+]
+
 export default function Home() {
   return (
     <>
       <section className="pt-16 pb-20 lg:pt-24 lg:pb-28">
-        <h1 className="font-heading italic font-light text-7xl lg:text-8xl tracking-tight mb-6">
+        <h1 className="text-7xl lg:text-[6.5rem] font-light tracking-tighter leading-[1.02] mb-6">
           Amy Wilson
         </h1>
         <p className="text-muted-foreground text-base max-w-sm leading-relaxed mb-8">
-          {/* Add your intro here */}
           More here soon.
         </p>
         <div className="flex items-center gap-5 text-sm text-muted-foreground">
+          <a
+            href="https://letterboxd.com/amywilson"
+            className="hover:text-foreground transition-colors flex items-center gap-1.5"
+          >
+            <Clapperboard className="size-3.5" />
+            Letterboxd
+          </a>
           <a
             href="https://github.com/amywilsonv"
             className="hover:text-foreground transition-colors flex items-center gap-1.5"
@@ -48,7 +62,7 @@ export default function Home() {
             All →
           </Link>
         </div>
-        <div className="divide-y">
+        <div className="divide-y mb-12">
           {work.map(({ n, status }) => (
             <div key={n} className="flex items-center justify-between py-4">
               <span className="text-sm text-muted-foreground tabular-nums">{n}</span>
@@ -68,8 +82,9 @@ export default function Home() {
             All →
           </Link>
         </div>
-        <p className="pb-12 text-sm text-muted-foreground">Coming soon.</p>
       </section>
+
+      <FilmStrip frames={writingFrames} />
 
       <div className="pb-20" />
     </>

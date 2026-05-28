@@ -15,7 +15,7 @@ const sections: NowSection[] = [
     items: [
       "Oscars prediction model — building out the precursor data pipeline",
       "This site — adding content as it gets created",
-      "AI job market tracker — automating the scraping and categorization layer",
+      "AI project — automating the data pipeline",
     ],
   },
   {
@@ -51,7 +51,7 @@ export default function NowPage() {
   return (
     <>
       <section className="py-16 lg:py-20 max-w-2xl">
-        <h1 className="font-heading italic font-light text-6xl lg:text-7xl tracking-tight mb-4">Now</h1>
+        <h1 className="text-6xl lg:text-7xl font-light tracking-tighter mb-4">Now</h1>
         <p className="text-base text-muted-foreground leading-relaxed">
           A snapshot of what I'm actively working on, learning, and thinking about.
           Updated as things shift — which they do.

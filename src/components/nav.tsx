@@ -1,12 +1,12 @@
 import Link from "next/link"
-import { Code, Mail } from "lucide-react"
+import { Clapperboard, Code, Mail } from "lucide-react"
 import { cn } from "@/lib/utils"
 import { buttonVariants } from "@/components/ui/button"
 
 const navLinks = [
+  { href: "/", label: "Home" },
   { href: "/projects", label: "Projects" },
   { href: "/writing", label: "Writing" },
-  { href: "/now", label: "Now" },
   { href: "/about", label: "About" },
 ]
 
@@ -26,6 +26,13 @@ export function Nav() {
             {label}
           </Link>
         ))}
+        <a
+          aria-label="Letterboxd"
+          href="https://letterboxd.com/amywilson"
+          className={cn(buttonVariants({ variant: "ghost", size: "icon" }))}
+        >
+          <Clapperboard className="size-4" />
+        </a>
         <a
           aria-label="GitHub"
           href="https://github.com/amywilsonv"
