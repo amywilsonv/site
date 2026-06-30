@@ -1,0 +1,1352 @@
+[
+  {
+    "category_key": "best_picture",
+    "category": "Best Picture",
+    "feature_set": "full_with_precursors",
+    "model_name": "logistic_regression",
+    "feature": "pga_win",
+    "importance": 0.0888569463718978,
+    "rank": 1
+  },
+  {
+    "category_key": "best_picture",
+    "category": "Best Picture",
+    "feature_set": "full_with_precursors",
+    "model_name": "logistic_regression",
+    "feature": "dga_win",
+    "importance": 0.0787182347144206,
+    "rank": 2
+  },
+  {
+    "category_key": "best_picture",
+    "category": "Best Picture",
+    "feature_set": "full_with_precursors",
+    "model_name": "logistic_regression",
+    "feature": "tmdb_popularity",
+    "importance": 0.03998977062568,
+    "rank": 3
+  },
+  {
+    "category_key": "best_picture",
+    "category": "Best Picture",
+    "feature_set": "full_with_precursors",
+    "model_name": "logistic_regression",
+    "feature": "critics_choice_picture_win",
+    "importance": 0.0396320065098007,
+    "rank": 4
+  },
+  {
+    "category_key": "best_picture",
+    "category": "Best Picture",
+    "feature_set": "full_with_precursors",
+    "model_name": "logistic_regression",
+    "feature": "tmdb_vote_average",
+    "importance": 0.0165006369117637,
+    "rank": 5
+  },
+  {
+    "category_key": "best_picture",
+    "category": "Best Picture",
+    "feature_set": "full_with_precursors",
+    "model_name": "logistic_regression",
+    "feature": "sag_ensemble_win",
+    "importance": 0.0117956404632514,
+    "rank": 6
+  },
+  {
+    "category_key": "best_picture",
+    "category": "Best Picture",
+    "feature_set": "full_with_precursors",
+    "model_name": "logistic_regression",
+    "feature": "picture_precursor_strength",
+    "importance": 0.0106147446754164,
+    "rank": 7
+  },
+  {
+    "category_key": "best_picture",
+    "category": "Best Picture",
+    "feature_set": "full_with_precursors",
+    "model_name": "logistic_regression",
+    "feature": "golden_globe_acting_win",
+    "importance": 0.0105783074509048,
+    "rank": 8
+  },
+  {
+    "category_key": "best_picture",
+    "category": "Best Picture",
+    "feature_set": "full_with_precursors",
+    "model_name": "logistic_regression",
+    "feature": "picture_precursor_wins",
+    "importance": 0.0090964494550323,
+    "rank": 9
+  },
+  {
+    "category_key": "best_picture",
+    "category": "Best Picture",
+    "feature_set": "full_with_precursors",
+    "model_name": "logistic_regression",
+    "feature": "critics_choice_acting_win",
+    "importance": 0.0077232021591762,
+    "rank": 10
+  },
+  {
+    "category_key": "best_picture",
+    "category": "Best Picture",
+    "feature_set": "full_with_precursors",
+    "model_name": "logistic_regression",
+    "feature": "box_office_to_budget",
+    "importance": 0.0059805132763864,
+    "rank": 11
+  },
+  {
+    "category_key": "best_picture",
+    "category": "Best Picture",
+    "feature_set": "full_with_precursors",
+    "model_name": "logistic_regression",
+    "feature": "golden_globe_picture_win",
+    "importance": 0.0058771855303768,
+    "rank": 12
+  },
+  {
+    "category_key": "best_picture",
+    "category": "Best Picture",
+    "feature_set": "full_with_precursors",
+    "model_name": "logistic_regression",
+    "feature": "sag_acting_win",
+    "importance": 0.0053625660657967,
+    "rank": 13
+  },
+  {
+    "category_key": "best_picture",
+    "category": "Best Picture",
+    "feature_set": "full_with_precursors",
+    "model_name": "logistic_regression",
+    "feature": "tmdb_vote_count",
+    "importance": 0.0044938150709428,
+    "rank": 14
+  },
+  {
+    "category_key": "best_picture",
+    "category": "Best Picture",
+    "feature_set": "full_with_precursors",
+    "model_name": "logistic_regression",
+    "feature": "golden_globe_director_nomination",
+    "importance": 0.0042346453717611,
+    "rank": 15
+  },
+  {
+    "category_key": "best_picture",
+    "category": "Best Picture",
+    "feature_set": "full_with_precursors",
+    "model_name": "logistic_regression",
+    "feature": "sag_acting_nomination",
+    "importance": 0.0032748140569345,
+    "rank": 16
+  },
+  {
+    "category_key": "best_picture",
+    "category": "Best Picture",
+    "feature_set": "full_with_precursors",
+    "model_name": "logistic_regression",
+    "feature": "directing_precursor_strength",
+    "importance": 0.0029475546765406,
+    "rank": 17
+  },
+  {
+    "category_key": "best_picture",
+    "category": "Best Picture",
+    "feature_set": "full_with_precursors",
+    "model_name": "logistic_regression",
+    "feature": "bafta_director_nomination",
+    "importance": 0.0025424394067043,
+    "rank": 18
+  },
+  {
+    "category_key": "best_picture",
+    "category": "Best Picture",
+    "feature_set": "full_with_precursors",
+    "model_name": "logistic_regression",
+    "feature": "runtime_minutes",
+    "importance": 0.0018815807524958,
+    "rank": 19
+  },
+  {
+    "category_key": "best_picture",
+    "category": "Best Picture",
+    "feature_set": "full_with_precursors",
+    "model_name": "logistic_regression",
+    "feature": "major_precursor_wins",
+    "importance": 0.0016667712006927,
+    "rank": 20
+  },
+  {
+    "category_key": "best_picture",
+    "category": "Best Picture",
+    "feature_set": "full_with_precursors",
+    "model_name": "logistic_regression",
+    "feature": "precursor_wins_total",
+    "importance": 0.0016667712006927,
+    "rank": 21
+  },
+  {
+    "category_key": "best_picture",
+    "category": "Best Picture",
+    "feature_set": "full_with_precursors",
+    "model_name": "logistic_regression",
+    "feature": "total_precursor_wins",
+    "importance": 0.0016667712006927,
+    "rank": 22
+  },
+  {
+    "category_key": "best_picture",
+    "category": "Best Picture",
+    "feature_set": "full_with_precursors",
+    "model_name": "logistic_regression",
+    "feature": "precursor_consensus_score",
+    "importance": 0.0015501094996806,
+    "rank": 23
+  },
+  {
+    "category_key": "best_picture",
+    "category": "Best Picture",
+    "feature_set": "full_with_precursors",
+    "model_name": "logistic_regression",
+    "feature": "precursor_momentum_score",
+    "importance": 0.0014105904195899,
+    "rank": 24
+  },
+  {
+    "category_key": "best_picture",
+    "category": "Best Picture",
+    "feature_set": "full_with_precursors",
+    "model_name": "logistic_regression",
+    "feature": "precursor_win_percentage",
+    "importance": 0.0012599050454519,
+    "rank": 25
+  },
+  {
+    "category_key": "best_director",
+    "category": "Best Director",
+    "feature_set": "full_with_precursors",
+    "model_name": "xgboost",
+    "feature": "dga_win",
+    "importance": 0.1407182812690735,
+    "rank": 1
+  },
+  {
+    "category_key": "best_director",
+    "category": "Best Director",
+    "feature_set": "full_with_precursors",
+    "model_name": "xgboost",
+    "feature": "total_precursor_wins",
+    "importance": 0.1083460599184036,
+    "rank": 2
+  },
+  {
+    "category_key": "best_director",
+    "category": "Best Director",
+    "feature_set": "full_with_precursors",
+    "model_name": "xgboost",
+    "feature": "directing_precursor_strength",
+    "importance": 0.0747856423258781,
+    "rank": 3
+  },
+  {
+    "category_key": "best_director",
+    "category": "Best Director",
+    "feature_set": "full_with_precursors",
+    "model_name": "xgboost",
+    "feature": "precursor_consensus_score",
+    "importance": 0.0589503459632396,
+    "rank": 4
+  },
+  {
+    "category_key": "best_director",
+    "category": "Best Director",
+    "feature_set": "full_with_precursors",
+    "model_name": "xgboost",
+    "feature": "person_precursor_nominations_total",
+    "importance": 0.0507958754897117,
+    "rank": 5
+  },
+  {
+    "category_key": "best_director",
+    "category": "Best Director",
+    "feature_set": "full_with_precursors",
+    "model_name": "xgboost",
+    "feature": "director_precursor_nominations",
+    "importance": 0.0424646511673927,
+    "rank": 6
+  },
+  {
+    "category_key": "best_director",
+    "category": "Best Director",
+    "feature_set": "full_with_precursors",
+    "model_name": "xgboost",
+    "feature": "person_precursor_strength",
+    "importance": 0.034216035157442,
+    "rank": 7
+  },
+  {
+    "category_key": "best_director",
+    "category": "Best Director",
+    "feature_set": "full_with_precursors",
+    "model_name": "xgboost",
+    "feature": "age_bucket_40s",
+    "importance": 0.0279727932065725,
+    "rank": 8
+  },
+  {
+    "category_key": "best_director",
+    "category": "Best Director",
+    "feature_set": "full_with_precursors",
+    "model_name": "xgboost",
+    "feature": "sag_ensemble_win",
+    "importance": 0.0276270639151334,
+    "rank": 9
+  },
+  {
+    "category_key": "best_director",
+    "category": "Best Director",
+    "feature_set": "full_with_precursors",
+    "model_name": "xgboost",
+    "feature": "critics_choice_acting_nomination",
+    "importance": 0.0236459039151668,
+    "rank": 10
+  },
+  {
+    "category_key": "best_director",
+    "category": "Best Director",
+    "feature_set": "full_with_precursors",
+    "model_name": "xgboost",
+    "feature": "tmdb_vote_count",
+    "importance": 0.0234891455620527,
+    "rank": 11
+  },
+  {
+    "category_key": "best_director",
+    "category": "Best Director",
+    "feature_set": "full_with_precursors",
+    "model_name": "xgboost",
+    "feature": "box_office_musd",
+    "importance": 0.0206445790827274,
+    "rank": 12
+  },
+  {
+    "category_key": "best_director",
+    "category": "Best Director",
+    "feature_set": "full_with_precursors",
+    "model_name": "xgboost",
+    "feature": "pga_nomination",
+    "importance": 0.0198312178254127,
+    "rank": 13
+  },
+  {
+    "category_key": "best_director",
+    "category": "Best Director",
+    "feature_set": "full_with_precursors",
+    "model_name": "xgboost",
+    "feature": "budget_musd",
+    "importance": 0.0171044524759054,
+    "rank": 14
+  },
+  {
+    "category_key": "best_director",
+    "category": "Best Director",
+    "feature_set": "full_with_precursors",
+    "model_name": "xgboost",
+    "feature": "golden_globe_acting_nomination",
+    "importance": 0.0170028209686279,
+    "rank": 15
+  },
+  {
+    "category_key": "best_director",
+    "category": "Best Director",
+    "feature_set": "full_with_precursors",
+    "model_name": "xgboost",
+    "feature": "picture_precursor_nominations",
+    "importance": 0.0152830826118588,
+    "rank": 16
+  },
+  {
+    "category_key": "best_director",
+    "category": "Best Director",
+    "feature_set": "full_with_precursors",
+    "model_name": "xgboost",
+    "feature": "major_precursor_nominations",
+    "importance": 0.0145382257178425,
+    "rank": 17
+  },
+  {
+    "category_key": "best_director",
+    "category": "Best Director",
+    "feature_set": "full_with_precursors",
+    "model_name": "xgboost",
+    "feature": "years_since_first_credit",
+    "importance": 0.0136542757973074,
+    "rank": 18
+  },
+  {
+    "category_key": "best_director",
+    "category": "Best Director",
+    "feature_set": "full_with_precursors",
+    "model_name": "xgboost",
+    "feature": "director_precursor_wins",
+    "importance": 0.0135643221437931,
+    "rank": 19
+  },
+  {
+    "category_key": "best_director",
+    "category": "Best Director",
+    "feature_set": "full_with_precursors",
+    "model_name": "xgboost",
+    "feature": "precursor_momentum_score",
+    "importance": 0.0135016981512308,
+    "rank": 20
+  },
+  {
+    "category_key": "best_director",
+    "category": "Best Director",
+    "feature_set": "full_with_precursors",
+    "model_name": "xgboost",
+    "feature": "bafta_acting_nomination",
+    "importance": 0.0133512550964951,
+    "rank": 21
+  },
+  {
+    "category_key": "best_director",
+    "category": "Best Director",
+    "feature_set": "full_with_precursors",
+    "model_name": "xgboost",
+    "feature": "letterboxd_rating_count",
+    "importance": 0.0132014332339167,
+    "rank": 22
+  },
+  {
+    "category_key": "best_director",
+    "category": "Best Director",
+    "feature_set": "full_with_precursors",
+    "model_name": "xgboost",
+    "feature": "acting_precursor_nominations",
+    "importance": 0.0125504750758409,
+    "rank": 23
+  },
+  {
+    "category_key": "best_director",
+    "category": "Best Director",
+    "feature_set": "full_with_precursors",
+    "model_name": "xgboost",
+    "feature": "picture_precursor_wins",
+    "importance": 0.0123899709433317,
+    "rank": 24
+  },
+  {
+    "category_key": "best_director",
+    "category": "Best Director",
+    "feature_set": "full_with_precursors",
+    "model_name": "xgboost",
+    "feature": "tmdb_vote_average",
+    "importance": 0.0122736310586333,
+    "rank": 25
+  },
+  {
+    "category_key": "best_actor",
+    "category": "Best Actor",
+    "feature_set": "full_with_precursors",
+    "model_name": "catboost",
+    "feature": "person_precursor_strength",
+    "importance": 25.931342108630783,
+    "rank": 1
+  },
+  {
+    "category_key": "best_actor",
+    "category": "Best Actor",
+    "feature_set": "full_with_precursors",
+    "model_name": "catboost",
+    "feature": "person_precursor_wins_total",
+    "importance": 12.182425963310097,
+    "rank": 2
+  },
+  {
+    "category_key": "best_actor",
+    "category": "Best Actor",
+    "feature_set": "full_with_precursors",
+    "model_name": "catboost",
+    "feature": "critic_score_average",
+    "importance": 6.695353254398595,
+    "rank": 3
+  },
+  {
+    "category_key": "best_actor",
+    "category": "Best Actor",
+    "feature_set": "full_with_precursors",
+    "model_name": "catboost",
+    "feature": "sag_person_win",
+    "importance": 6.421368563554013,
+    "rank": 4
+  },
+  {
+    "category_key": "best_actor",
+    "category": "Best Actor",
+    "feature_set": "full_with_precursors",
+    "model_name": "catboost",
+    "feature": "tmdb_genres_Action; Crime; Drama",
+    "importance": 3.1931190739003856,
+    "rank": 5
+  },
+  {
+    "category_key": "best_actor",
+    "category": "Best Actor",
+    "feature_set": "full_with_precursors",
+    "model_name": "catboost",
+    "feature": "letterboxd_score",
+    "importance": 3.1780997473095547,
+    "rank": 6
+  },
+  {
+    "category_key": "best_actor",
+    "category": "Best Actor",
+    "feature_set": "full_with_precursors",
+    "model_name": "catboost",
+    "feature": "major_precursor_wins",
+    "importance": 2.924872739729592,
+    "rank": 7
+  },
+  {
+    "category_key": "best_actor",
+    "category": "Best Actor",
+    "feature_set": "full_with_precursors",
+    "model_name": "catboost",
+    "feature": "release_month",
+    "importance": 2.5998411576897715,
+    "rank": 8
+  },
+  {
+    "category_key": "best_actor",
+    "category": "Best Actor",
+    "feature_set": "full_with_precursors",
+    "model_name": "catboost",
+    "feature": "release_season_summer",
+    "importance": 2.51338041551054,
+    "rank": 9
+  },
+  {
+    "category_key": "best_actor",
+    "category": "Best Actor",
+    "feature_set": "full_with_precursors",
+    "model_name": "catboost",
+    "feature": "release_timing_score",
+    "importance": 2.4653225735555173,
+    "rank": 10
+  },
+  {
+    "category_key": "best_actor",
+    "category": "Best Actor",
+    "feature_set": "full_with_precursors",
+    "model_name": "catboost",
+    "feature": "critics_choice_person_win",
+    "importance": 2.4251276355536446,
+    "rank": 11
+  },
+  {
+    "category_key": "best_actor",
+    "category": "Best Actor",
+    "feature_set": "full_with_precursors",
+    "model_name": "catboost",
+    "feature": "tmdb_revenue_to_budget",
+    "importance": 1.9982543982071463,
+    "rank": 12
+  },
+  {
+    "category_key": "best_actor",
+    "category": "Best Actor",
+    "feature_set": "full_with_precursors",
+    "model_name": "catboost",
+    "feature": "tmdb_vote_average",
+    "importance": 1.8494493183586096,
+    "rank": 13
+  },
+  {
+    "category_key": "best_actor",
+    "category": "Best Actor",
+    "feature_set": "full_with_precursors",
+    "model_name": "catboost",
+    "feature": "bafta_person_win",
+    "importance": 1.3945261840062493,
+    "rank": 14
+  },
+  {
+    "category_key": "best_actor",
+    "category": "Best Actor",
+    "feature_set": "full_with_precursors",
+    "model_name": "catboost",
+    "feature": "bafta_acting_win",
+    "importance": 1.3405590934377307,
+    "rank": 15
+  },
+  {
+    "category_key": "best_actor",
+    "category": "Best Actor",
+    "feature_set": "full_with_precursors",
+    "model_name": "catboost",
+    "feature": "sag_acting_win",
+    "importance": 1.2506603420942857,
+    "rank": 16
+  },
+  {
+    "category_key": "best_actor",
+    "category": "Best Actor",
+    "feature_set": "full_with_precursors",
+    "model_name": "catboost",
+    "feature": "release_quarter",
+    "importance": 0.997837345323073,
+    "rank": 17
+  },
+  {
+    "category_key": "best_actor",
+    "category": "Best Actor",
+    "feature_set": "full_with_precursors",
+    "model_name": "catboost",
+    "feature": "box_office_to_budget",
+    "importance": 0.9793549148428108,
+    "rank": 18
+  },
+  {
+    "category_key": "best_actor",
+    "category": "Best Actor",
+    "feature_set": "full_with_precursors",
+    "model_name": "catboost",
+    "feature": "budget_musd",
+    "importance": 0.955929751536154,
+    "rank": 19
+  },
+  {
+    "category_key": "best_actor",
+    "category": "Best Actor",
+    "feature_set": "full_with_precursors",
+    "model_name": "catboost",
+    "feature": "precursor_win_percentage",
+    "importance": 0.9454710963479198,
+    "rank": 20
+  },
+  {
+    "category_key": "best_actor",
+    "category": "Best Actor",
+    "feature_set": "full_with_precursors",
+    "model_name": "catboost",
+    "feature": "tmdb_budget_usd",
+    "importance": 0.8246204071947836,
+    "rank": 21
+  },
+  {
+    "category_key": "best_actor",
+    "category": "Best Actor",
+    "feature_set": "full_with_precursors",
+    "model_name": "catboost",
+    "feature": "acting_precursor_strength",
+    "importance": 0.6949542876306267,
+    "rank": 22
+  },
+  {
+    "category_key": "best_actor",
+    "category": "Best Actor",
+    "feature_set": "full_with_precursors",
+    "model_name": "catboost",
+    "feature": "letterboxd_rating_count",
+    "importance": 0.6929621138934776,
+    "rank": 23
+  },
+  {
+    "category_key": "best_actor",
+    "category": "Best Actor",
+    "feature_set": "full_with_precursors",
+    "model_name": "catboost",
+    "feature": "tmdb_popularity",
+    "importance": 0.6473550551837506,
+    "rank": 24
+  },
+  {
+    "category_key": "best_actor",
+    "category": "Best Actor",
+    "feature_set": "full_with_precursors",
+    "model_name": "catboost",
+    "feature": "acting_precursor_wins",
+    "importance": 0.6406514960733937,
+    "rank": 25
+  },
+  {
+    "category_key": "best_actress",
+    "category": "Best Actress",
+    "feature_set": "full_with_precursors",
+    "model_name": "catboost",
+    "feature": "person_precursor_strength",
+    "importance": 20.627993892566067,
+    "rank": 1
+  },
+  {
+    "category_key": "best_actress",
+    "category": "Best Actress",
+    "feature_set": "full_with_precursors",
+    "model_name": "catboost",
+    "feature": "precursor_win_percentage",
+    "importance": 16.105616969828542,
+    "rank": 2
+  },
+  {
+    "category_key": "best_actress",
+    "category": "Best Actress",
+    "feature_set": "full_with_precursors",
+    "model_name": "catboost",
+    "feature": "bafta_acting_win",
+    "importance": 7.325111430998431,
+    "rank": 3
+  },
+  {
+    "category_key": "best_actress",
+    "category": "Best Actress",
+    "feature_set": "full_with_precursors",
+    "model_name": "catboost",
+    "feature": "bafta_person_win",
+    "importance": 7.278801961644773,
+    "rank": 4
+  },
+  {
+    "category_key": "best_actress",
+    "category": "Best Actress",
+    "feature_set": "full_with_precursors",
+    "model_name": "catboost",
+    "feature": "sag_person_win",
+    "importance": 6.328417962912115,
+    "rank": 5
+  },
+  {
+    "category_key": "best_actress",
+    "category": "Best Actress",
+    "feature_set": "full_with_precursors",
+    "model_name": "catboost",
+    "feature": "major_precursor_wins",
+    "importance": 3.758519637663016,
+    "rank": 6
+  },
+  {
+    "category_key": "best_actress",
+    "category": "Best Actress",
+    "feature_set": "full_with_precursors",
+    "model_name": "catboost",
+    "feature": "total_precursor_wins",
+    "importance": 3.4636872925012185,
+    "rank": 7
+  },
+  {
+    "category_key": "best_actress",
+    "category": "Best Actress",
+    "feature_set": "full_with_precursors",
+    "model_name": "catboost",
+    "feature": "tmdb_revenue_to_budget",
+    "importance": 2.6110747437240107,
+    "rank": 8
+  },
+  {
+    "category_key": "best_actress",
+    "category": "Best Actress",
+    "feature_set": "full_with_precursors",
+    "model_name": "catboost",
+    "feature": "tmdb_revenue_usd",
+    "importance": 2.5154993216149184,
+    "rank": 9
+  },
+  {
+    "category_key": "best_actress",
+    "category": "Best Actress",
+    "feature_set": "full_with_precursors",
+    "model_name": "catboost",
+    "feature": "acting_precursor_wins",
+    "importance": 2.3811552412574732,
+    "rank": 10
+  },
+  {
+    "category_key": "best_actress",
+    "category": "Best Actress",
+    "feature_set": "full_with_precursors",
+    "model_name": "catboost",
+    "feature": "person_precursor_wins_total",
+    "importance": 2.129936327879246,
+    "rank": 11
+  },
+  {
+    "category_key": "best_actress",
+    "category": "Best Actress",
+    "feature_set": "full_with_precursors",
+    "model_name": "catboost",
+    "feature": "nominee_age_at_ceremony",
+    "importance": 1.4722219194438646,
+    "rank": 12
+  },
+  {
+    "category_key": "best_actress",
+    "category": "Best Actress",
+    "feature_set": "full_with_precursors",
+    "model_name": "catboost",
+    "feature": "tmdb_popularity",
+    "importance": 1.311974574514213,
+    "rank": 13
+  },
+  {
+    "category_key": "best_actress",
+    "category": "Best Actress",
+    "feature_set": "full_with_precursors",
+    "model_name": "catboost",
+    "feature": "letterboxd_rating_count",
+    "importance": 1.2750211767750967,
+    "rank": 14
+  },
+  {
+    "category_key": "best_actress",
+    "category": "Best Actress",
+    "feature_set": "full_with_precursors",
+    "model_name": "catboost",
+    "feature": "sag_acting_win",
+    "importance": 1.0496201651748345,
+    "rank": 15
+  },
+  {
+    "category_key": "best_actress",
+    "category": "Best Actress",
+    "feature_set": "full_with_precursors",
+    "model_name": "catboost",
+    "feature": "tmdb_vote_count",
+    "importance": 0.9426926699307264,
+    "rank": 16
+  },
+  {
+    "category_key": "best_actress",
+    "category": "Best Actress",
+    "feature_set": "full_with_precursors",
+    "model_name": "catboost",
+    "feature": "precursor_momentum_score",
+    "importance": 0.9064178496645774,
+    "rank": 17
+  },
+  {
+    "category_key": "best_actress",
+    "category": "Best Actress",
+    "feature_set": "full_with_precursors",
+    "model_name": "catboost",
+    "feature": "picture_precursor_strength",
+    "importance": 0.7941126909178122,
+    "rank": 18
+  },
+  {
+    "category_key": "best_actress",
+    "category": "Best Actress",
+    "feature_set": "full_with_precursors",
+    "model_name": "catboost",
+    "feature": "total_precursor_nominations",
+    "importance": 0.7799328893628402,
+    "rank": 19
+  },
+  {
+    "category_key": "best_actress",
+    "category": "Best Actress",
+    "feature_set": "full_with_precursors",
+    "model_name": "catboost",
+    "feature": "golden_globe_person_win",
+    "importance": 0.7752732664013186,
+    "rank": 20
+  },
+  {
+    "category_key": "best_actress",
+    "category": "Best Actress",
+    "feature_set": "full_with_precursors",
+    "model_name": "catboost",
+    "feature": "bafta_acting_nomination",
+    "importance": 0.7520134128069991,
+    "rank": 21
+  },
+  {
+    "category_key": "best_actress",
+    "category": "Best Actress",
+    "feature_set": "full_with_precursors",
+    "model_name": "catboost",
+    "feature": "billing_order",
+    "importance": 0.731165632589066,
+    "rank": 22
+  },
+  {
+    "category_key": "best_actress",
+    "category": "Best Actress",
+    "feature_set": "full_with_precursors",
+    "model_name": "catboost",
+    "feature": "release_month",
+    "importance": 0.7084409804150376,
+    "rank": 23
+  },
+  {
+    "category_key": "best_actress",
+    "category": "Best Actress",
+    "feature_set": "full_with_precursors",
+    "model_name": "catboost",
+    "feature": "runtime_minutes",
+    "importance": 0.6970870364530644,
+    "rank": 24
+  },
+  {
+    "category_key": "best_actress",
+    "category": "Best Actress",
+    "feature_set": "full_with_precursors",
+    "model_name": "catboost",
+    "feature": "tmdb_runtime_minutes",
+    "importance": 0.6865017540321353,
+    "rank": 25
+  },
+  {
+    "category_key": "best_supporting_actor",
+    "category": "Best Supporting Actor",
+    "feature_set": "full_with_precursors",
+    "model_name": "xgboost",
+    "feature": "person_precursor_wins_total",
+    "importance": 0.1260643601417541,
+    "rank": 1
+  },
+  {
+    "category_key": "best_supporting_actor",
+    "category": "Best Supporting Actor",
+    "feature_set": "full_with_precursors",
+    "model_name": "xgboost",
+    "feature": "golden_globe_person_win",
+    "importance": 0.119617648422718,
+    "rank": 2
+  },
+  {
+    "category_key": "best_supporting_actor",
+    "category": "Best Supporting Actor",
+    "feature_set": "full_with_precursors",
+    "model_name": "xgboost",
+    "feature": "pga_win",
+    "importance": 0.0349759943783283,
+    "rank": 3
+  },
+  {
+    "category_key": "best_supporting_actor",
+    "category": "Best Supporting Actor",
+    "feature_set": "full_with_precursors",
+    "model_name": "xgboost",
+    "feature": "sag_ensemble_win",
+    "importance": 0.0330238118767738,
+    "rank": 4
+  },
+  {
+    "category_key": "best_supporting_actor",
+    "category": "Best Supporting Actor",
+    "feature_set": "full_with_precursors",
+    "model_name": "xgboost",
+    "feature": "critic_score_average",
+    "importance": 0.0318229757249355,
+    "rank": 5
+  },
+  {
+    "category_key": "best_supporting_actor",
+    "category": "Best Supporting Actor",
+    "feature_set": "full_with_precursors",
+    "model_name": "xgboost",
+    "feature": "person_precursor_strength",
+    "importance": 0.0312352944165468,
+    "rank": 6
+  },
+  {
+    "category_key": "best_supporting_actor",
+    "category": "Best Supporting Actor",
+    "feature_set": "full_with_precursors",
+    "model_name": "xgboost",
+    "feature": "precursor_consensus_score",
+    "importance": 0.0294727347791194,
+    "rank": 7
+  },
+  {
+    "category_key": "best_supporting_actor",
+    "category": "Best Supporting Actor",
+    "feature_set": "full_with_precursors",
+    "model_name": "xgboost",
+    "feature": "billing_order",
+    "importance": 0.0267128404229879,
+    "rank": 8
+  },
+  {
+    "category_key": "best_supporting_actor",
+    "category": "Best Supporting Actor",
+    "feature_set": "full_with_precursors",
+    "model_name": "xgboost",
+    "feature": "budget_musd",
+    "importance": 0.0267051830887794,
+    "rank": 9
+  },
+  {
+    "category_key": "best_supporting_actor",
+    "category": "Best Supporting Actor",
+    "feature_set": "full_with_precursors",
+    "model_name": "xgboost",
+    "feature": "afi_top_10",
+    "importance": 0.0240069404244422,
+    "rank": 10
+  },
+  {
+    "category_key": "best_supporting_actor",
+    "category": "Best Supporting Actor",
+    "feature_set": "full_with_precursors",
+    "model_name": "xgboost",
+    "feature": "bafta_acting_nomination",
+    "importance": 0.0211469046771526,
+    "rank": 11
+  },
+  {
+    "category_key": "best_supporting_actor",
+    "category": "Best Supporting Actor",
+    "feature_set": "full_with_precursors",
+    "model_name": "xgboost",
+    "feature": "sag_person_win",
+    "importance": 0.0206333138048648,
+    "rank": 12
+  },
+  {
+    "category_key": "best_supporting_actor",
+    "category": "Best Supporting Actor",
+    "feature_set": "full_with_precursors",
+    "model_name": "xgboost",
+    "feature": "nominee_age_at_ceremony",
+    "importance": 0.0197437368333339,
+    "rank": 13
+  },
+  {
+    "category_key": "best_supporting_actor",
+    "category": "Best Supporting Actor",
+    "feature_set": "full_with_precursors",
+    "model_name": "xgboost",
+    "feature": "director_precursor_nominations",
+    "importance": 0.0190343894064426,
+    "rank": 14
+  },
+  {
+    "category_key": "best_supporting_actor",
+    "category": "Best Supporting Actor",
+    "feature_set": "full_with_precursors",
+    "model_name": "xgboost",
+    "feature": "sag_acting_win",
+    "importance": 0.0188074093312025,
+    "rank": 15
+  },
+  {
+    "category_key": "best_supporting_actor",
+    "category": "Best Supporting Actor",
+    "feature_set": "full_with_precursors",
+    "model_name": "xgboost",
+    "feature": "runtime_minutes",
+    "importance": 0.0185583401471376,
+    "rank": 16
+  },
+  {
+    "category_key": "best_supporting_actor",
+    "category": "Best Supporting Actor",
+    "feature_set": "full_with_precursors",
+    "model_name": "xgboost",
+    "feature": "golden_globe_picture_win",
+    "importance": 0.0177785344421863,
+    "rank": 17
+  },
+  {
+    "category_key": "best_supporting_actor",
+    "category": "Best Supporting Actor",
+    "feature_set": "full_with_precursors",
+    "model_name": "xgboost",
+    "feature": "letterboxd_score",
+    "importance": 0.0174697991460561,
+    "rank": 18
+  },
+  {
+    "category_key": "best_supporting_actor",
+    "category": "Best Supporting Actor",
+    "feature_set": "full_with_precursors",
+    "model_name": "xgboost",
+    "feature": "precursor_momentum_score",
+    "importance": 0.0174679886549711,
+    "rank": 19
+  },
+  {
+    "category_key": "best_supporting_actor",
+    "category": "Best Supporting Actor",
+    "feature_set": "full_with_precursors",
+    "model_name": "xgboost",
+    "feature": "precursor_nominations_total",
+    "importance": 0.0173657294362783,
+    "rank": 20
+  },
+  {
+    "category_key": "best_supporting_actor",
+    "category": "Best Supporting Actor",
+    "feature_set": "full_with_precursors",
+    "model_name": "xgboost",
+    "feature": "age_bucket_50s",
+    "importance": 0.0166852679103612,
+    "rank": 21
+  },
+  {
+    "category_key": "best_supporting_actor",
+    "category": "Best Supporting Actor",
+    "feature_set": "full_with_precursors",
+    "model_name": "xgboost",
+    "feature": "sag_ensemble_nomination",
+    "importance": 0.0165695287287235,
+    "rank": 22
+  },
+  {
+    "category_key": "best_supporting_actor",
+    "category": "Best Supporting Actor",
+    "feature_set": "full_with_precursors",
+    "model_name": "xgboost",
+    "feature": "release_season_fall_festival",
+    "importance": 0.0157295390963554,
+    "rank": 23
+  },
+  {
+    "category_key": "best_supporting_actor",
+    "category": "Best Supporting Actor",
+    "feature_set": "full_with_precursors",
+    "model_name": "xgboost",
+    "feature": "acting_precursor_nominations",
+    "importance": 0.0153062511235475,
+    "rank": 24
+  },
+  {
+    "category_key": "best_supporting_actor",
+    "category": "Best Supporting Actor",
+    "feature_set": "full_with_precursors",
+    "model_name": "xgboost",
+    "feature": "critics_choice_director_nomination",
+    "importance": 0.0150438537821173,
+    "rank": 25
+  },
+  {
+    "category_key": "best_supporting_actress",
+    "category": "Best Supporting Actress",
+    "feature_set": "full_with_precursors",
+    "model_name": "xgboost",
+    "feature": "person_precursor_strength",
+    "importance": 0.2025283128023147,
+    "rank": 1
+  },
+  {
+    "category_key": "best_supporting_actress",
+    "category": "Best Supporting Actress",
+    "feature_set": "full_with_precursors",
+    "model_name": "xgboost",
+    "feature": "person_precursor_wins_total",
+    "importance": 0.0617242157459259,
+    "rank": 2
+  },
+  {
+    "category_key": "best_supporting_actress",
+    "category": "Best Supporting Actress",
+    "feature_set": "full_with_precursors",
+    "model_name": "xgboost",
+    "feature": "career_stage_veteran",
+    "importance": 0.051081296056509,
+    "rank": 3
+  },
+  {
+    "category_key": "best_supporting_actress",
+    "category": "Best Supporting Actress",
+    "feature_set": "full_with_precursors",
+    "model_name": "xgboost",
+    "feature": "career_stage_established",
+    "importance": 0.0405687354505062,
+    "rank": 4
+  },
+  {
+    "category_key": "best_supporting_actress",
+    "category": "Best Supporting Actress",
+    "feature_set": "full_with_precursors",
+    "model_name": "xgboost",
+    "feature": "sag_person_win",
+    "importance": 0.0380117185413837,
+    "rank": 5
+  },
+  {
+    "category_key": "best_supporting_actress",
+    "category": "Best Supporting Actress",
+    "feature_set": "full_with_precursors",
+    "model_name": "xgboost",
+    "feature": "release_quarter",
+    "importance": 0.0360991097986698,
+    "rank": 6
+  },
+  {
+    "category_key": "best_supporting_actress",
+    "category": "Best Supporting Actress",
+    "feature_set": "full_with_precursors",
+    "model_name": "xgboost",
+    "feature": "critic_score_average",
+    "importance": 0.0324894599616527,
+    "rank": 7
+  },
+  {
+    "category_key": "best_supporting_actress",
+    "category": "Best Supporting Actress",
+    "feature_set": "full_with_precursors",
+    "model_name": "xgboost",
+    "feature": "release_month",
+    "importance": 0.0311442986130714,
+    "rank": 8
+  },
+  {
+    "category_key": "best_supporting_actress",
+    "category": "Best Supporting Actress",
+    "feature_set": "full_with_precursors",
+    "model_name": "xgboost",
+    "feature": "dga_nomination",
+    "importance": 0.029106255620718,
+    "rank": 9
+  },
+  {
+    "category_key": "best_supporting_actress",
+    "category": "Best Supporting Actress",
+    "feature_set": "full_with_precursors",
+    "model_name": "xgboost",
+    "feature": "person_precursor_nominations_total",
+    "importance": 0.0280364658683538,
+    "rank": 10
+  },
+  {
+    "category_key": "best_supporting_actress",
+    "category": "Best Supporting Actress",
+    "feature_set": "full_with_precursors",
+    "model_name": "xgboost",
+    "feature": "box_office_to_budget",
+    "importance": 0.0254730992019176,
+    "rank": 11
+  },
+  {
+    "category_key": "best_supporting_actress",
+    "category": "Best Supporting Actress",
+    "feature_set": "full_with_precursors",
+    "model_name": "xgboost",
+    "feature": "years_since_first_credit",
+    "importance": 0.0246914811432361,
+    "rank": 12
+  },
+  {
+    "category_key": "best_supporting_actress",
+    "category": "Best Supporting Actress",
+    "feature_set": "full_with_precursors",
+    "model_name": "xgboost",
+    "feature": "precursor_consensus_score",
+    "importance": 0.0224491581320762,
+    "rank": 13
+  },
+  {
+    "category_key": "best_supporting_actress",
+    "category": "Best Supporting Actress",
+    "feature_set": "full_with_precursors",
+    "model_name": "xgboost",
+    "feature": "tmdb_revenue_to_budget",
+    "importance": 0.0224036481231451,
+    "rank": 14
+  },
+  {
+    "category_key": "best_supporting_actress",
+    "category": "Best Supporting Actress",
+    "feature_set": "full_with_precursors",
+    "model_name": "xgboost",
+    "feature": "tmdb_vote_average",
+    "importance": 0.0203348249197006,
+    "rank": 15
+  },
+  {
+    "category_key": "best_supporting_actress",
+    "category": "Best Supporting Actress",
+    "feature_set": "full_with_precursors",
+    "model_name": "xgboost",
+    "feature": "tmdb_vote_count",
+    "importance": 0.016638221219182,
+    "rank": 16
+  },
+  {
+    "category_key": "best_supporting_actress",
+    "category": "Best Supporting Actress",
+    "feature_set": "full_with_precursors",
+    "model_name": "xgboost",
+    "feature": "sag_acting_win",
+    "importance": 0.0164501741528511,
+    "rank": 17
+  },
+  {
+    "category_key": "best_supporting_actress",
+    "category": "Best Supporting Actress",
+    "feature_set": "full_with_precursors",
+    "model_name": "xgboost",
+    "feature": "box_office_musd",
+    "importance": 0.0160397626459598,
+    "rank": 18
+  },
+  {
+    "category_key": "best_supporting_actress",
+    "category": "Best Supporting Actress",
+    "feature_set": "full_with_precursors",
+    "model_name": "xgboost",
+    "feature": "letterboxd_rating_count",
+    "importance": 0.015851316973567,
+    "rank": 19
+  },
+  {
+    "category_key": "best_supporting_actress",
+    "category": "Best Supporting Actress",
+    "feature_set": "full_with_precursors",
+    "model_name": "xgboost",
+    "feature": "age_bucket_40s",
+    "importance": 0.0146865909919142,
+    "rank": 20
+  },
+  {
+    "category_key": "best_supporting_actress",
+    "category": "Best Supporting Actress",
+    "feature_set": "full_with_precursors",
+    "model_name": "xgboost",
+    "feature": "tmdb_genres_Drama",
+    "importance": 0.0144808022305369,
+    "rank": 21
+  },
+  {
+    "category_key": "best_supporting_actress",
+    "category": "Best Supporting Actress",
+    "feature_set": "full_with_precursors",
+    "model_name": "xgboost",
+    "feature": "tmdb_popularity",
+    "importance": 0.0141196679323911,
+    "rank": 22
+  },
+  {
+    "category_key": "best_supporting_actress",
+    "category": "Best Supporting Actress",
+    "feature_set": "full_with_precursors",
+    "model_name": "xgboost",
+    "feature": "acting_precursor_wins",
+    "importance": 0.0131864491850137,
+    "rank": 23
+  },
+  {
+    "category_key": "best_supporting_actress",
+    "category": "Best Supporting Actress",
+    "feature_set": "full_with_precursors",
+    "model_name": "xgboost",
+    "feature": "letterboxd_score",
+    "importance": 0.0130435954779386,
+    "rank": 24
+  },
+  {
+    "category_key": "best_supporting_actress",
+    "category": "Best Supporting Actress",
+    "feature_set": "full_with_precursors",
+    "model_name": "xgboost",
+    "feature": "picture_precursor_nominations",
+    "importance": 0.0121755022555589,
+    "rank": 25
+  }
+]

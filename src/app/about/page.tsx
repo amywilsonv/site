@@ -22,20 +22,20 @@ export default function AboutPage() {
 
         <div className="space-y-5 text-base leading-relaxed text-foreground">
           <p>
-            I'm a strategy and analytics professional building a focused practice at the
+            I&apos;m a strategy and analytics professional building a focused practice at the
             intersection of entertainment, media, and AI. My background is in consulting and
             operations — cross-functional work, structured problem-solving, and translating
             ambiguous questions into clear frameworks.
           </p>
           <p>
-            I'm now applying that operator mindset to entertainment: studying how streaming
+            I&apos;m now applying that operator mindset to entertainment: studying how streaming
             platforms make decisions, how audiences behave, how AI is reshaping the skillset
             the industry requires, and how data can tell a more interesting story than a
             standard box office summary.
           </p>
           <p>
             This site is where I work in public — projects, writing, and the thinking behind
-            both. It's not a finished portfolio. It's a living record of someone taking the
+            both. It&apos;s not a finished portfolio. It&apos;s a living record of someone taking the
             work seriously.
           </p>
         </div>
@@ -60,7 +60,7 @@ export default function AboutPage() {
           Get in touch
         </h2>
         <p className="text-sm text-muted-foreground mb-6 leading-relaxed">
-          I'm always interested in conversations about entertainment strategy, analytics
+          I&apos;m always interested in conversations about entertainment strategy, analytics
           projects, or opportunities at the intersection of media and technology.
         </p>
         <div className="flex flex-col sm:flex-row gap-3">

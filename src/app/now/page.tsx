@@ -53,7 +53,7 @@ export default function NowPage() {
       <section className="py-16 lg:py-20 max-w-2xl">
         <h1 className="text-6xl lg:text-7xl font-light tracking-tighter mb-4">Now</h1>
         <p className="text-base text-muted-foreground leading-relaxed">
-          A snapshot of what I'm actively working on, learning, and thinking about.
+          A snapshot of what I&apos;m actively working on, learning, and thinking about.
           Updated as things shift — which they do.
         </p>
       </section>

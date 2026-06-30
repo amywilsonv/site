@@ -1,0 +1,28 @@
+{
+  "summary": "A data-driven Oscar prediction model trained on historical nominees, precursor awards, TMDb metadata, person-level features, and walk-forward backtesting.",
+  "data_sources": [
+    "Oscar Big Six nominee and winner history",
+    "Historical precursor awards",
+    "TMDb film and person metadata",
+    "Reception scores and audience signals",
+    "Media sentiment and awards-buzz feature layers"
+  ],
+  "feature_layers": [
+    "Precursor awards",
+    "Review and audience scores",
+    "Release timing",
+    "Person Oscar history",
+    "Person-level precursor strength",
+    "Media sentiment and narrative signals"
+  ],
+  "validation": [
+    "Walk-forward validation trains only on prior years when predicting a held-out year.",
+    "Winner models are category-specific instead of one giant cross-category model.",
+    "Current production winner models use the untuned best model family selected by backtesting."
+  ],
+  "limitations": [
+    "Ranks known nominees only; it does not yet discover all eligible films.",
+    "Some source data is sparse or sample-based, especially media sentiment.",
+    "Feature explanations summarize model signals and should not be treated as causal proof."
+  ]
+}
