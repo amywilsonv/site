@@ -1,10 +1,14 @@
 import type { Metadata } from "next"
+import Link from "next/link"
 
 export const metadata: Metadata = { title: "Projects" }
 
 type Project = {
   n: string
+  title: string
   label: string
+  href?: string
+  cta?: string
   status: "In Progress" | "Planned" | "Published"
 }
 
@@ -17,22 +21,30 @@ const categories: Category[] = [
   {
     name: "Data & Analytics",
     projects: [
-      { n: "01", label: "Forecasting model", status: "In Progress" },
-      { n: "02", label: "Retention analysis", status: "Planned" },
-      { n: "03", label: "Audience study", status: "Planned" },
+      {
+        n: "01",
+        title: "Awards Intelligence",
+        label:
+          "A machine learning forecasting system that ranks Academy Award nominees and predicts winners using historical results, precursor awards, film metadata, person-level features, and media signals.",
+        href: "/projects/oscar-prediction",
+        cta: "View project",
+        status: "Published",
+      },
+      { n: "02", title: "Retention analysis", label: "Customer retention analysis.", status: "Planned" },
+      { n: "03", title: "Audience study", label: "Audience research study.", status: "Planned" },
     ],
   },
   {
     name: "AI & Automation",
     projects: [
-      { n: "01", label: "Automation pipeline", status: "In Progress" },
-      { n: "02", label: "Analysis tool", status: "Planned" },
+      { n: "01", title: "Automation pipeline", label: "Automation pipeline.", status: "In Progress" },
+      { n: "02", title: "Analysis tool", label: "Analysis tool.", status: "Planned" },
     ],
   },
   {
     name: "Strategy & Research",
     projects: [
-      { n: "01", label: "Industry research", status: "Planned" },
+      { n: "01", title: "Industry research", label: "Industry research.", status: "Planned" },
     ],
   },
 ]
@@ -63,25 +75,60 @@ export default function ProjectsPage() {
             </p>
             <div className="divide-y">
               {category.projects.map((project) => (
-                <div
+                <ProjectRow
                   key={`${category.name}-${project.n}`}
-                  className="flex items-center justify-between py-4"
-                >
-                  <div className="flex items-center gap-4">
-                    <span className="text-xs text-muted-foreground tabular-nums w-5">
-                      {project.n}
-                    </span>
-                    <span className="text-sm">{project.label}</span>
-                  </div>
-                  <span className={`text-xs ${statusColor[project.status]}`}>
-                    {project.status}
-                  </span>
-                </div>
+                  project={project}
+                />
               ))}
             </div>
           </section>
         ))}
       </div>
     </>
+  )
+}
+
+function ProjectRow({ project }: { project: Project }) {
+  const content = (
+    <>
+      <div className="flex min-w-0 gap-4">
+        <span className="mt-1 w-5 shrink-0 text-xs tabular-nums text-muted-foreground">
+          {project.n}
+        </span>
+        <div className="min-w-0">
+          <span className="block text-sm">{project.title}</span>
+          <p className="mt-2 max-w-2xl text-sm leading-relaxed text-muted-foreground">
+            {project.label}
+          </p>
+        </div>
+      </div>
+      <div className="flex shrink-0 flex-col items-end gap-2">
+        <span className={`text-xs ${statusColor[project.status]}`}>
+          {project.status}
+        </span>
+        {project.cta ? (
+          <span className="text-xs text-muted-foreground transition-colors group-hover:text-foreground group-focus-visible:text-foreground">
+            {project.cta}
+          </span>
+        ) : null}
+      </div>
+    </>
+  )
+
+  if (project.href) {
+    return (
+      <Link
+        className="group flex items-start justify-between gap-6 py-4 transition-colors hover:text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-foreground/30"
+        href={project.href}
+      >
+        {content}
+      </Link>
+    )
+  }
+
+  return (
+    <div className="flex items-start justify-between gap-6 py-4">
+      {content}
+    </div>
   )
 }
