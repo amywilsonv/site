@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Screening Room</title>
+    <meta name="description" content="Films worth following.">
+    <meta property="og:title" content="The Screening Room">
+    <meta property="og:description" content="Films worth following.">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary">
+    <link rel="canonical" href="./discovery.html">
+    <link rel="icon" href="awards-intelligence.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="discovery.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="wordmark" href="./discovery.html" data-route="home">
+        <span class="brand-name">The Screening Room</span>
+        <span class="brand-subtitle">Films worth following.</span>
+      </a>
+      <nav class="primary-nav" aria-label="Primary navigation">
+        <button class="nav-link active" type="button" data-route="home">Home</button>
+        <button class="nav-link" type="button" data-route="discover">Discover</button>
+        <button class="nav-link" type="button" data-route="discover" data-nav-view="festivals">Festival Radar</button>
+        <button class="nav-link" type="button" data-route="discover" data-nav-view="awards">Awards Intelligence</button>
+        <button class="nav-link" type="button" data-about-open>About</button>
+      </nav>
+      <label class="quick-search">
+        <span>Search</span>
+        <input id="globalSearch" aria-label="Search films" placeholder="Title, director, cast">
+      </label>
+    </header>
+    <main class="app-shell">
+      <section id="homeView"></section>
+      <section id="discoverView" class="hidden"></section>
+    </main>
+    <aside id="hoverPreview" class="hover-preview" aria-live="polite"></aside>
+    <div id="searchPanel" class="search-panel hidden" role="listbox" aria-label="Search suggestions"></div>
+    <div id="modalScrim" class="modal-scrim hidden"></div>
+    <section id="filmModal" class="film-modal hidden" role="dialog" aria-modal="true" aria-label="Film details"></section>
+    <section id="aboutPanel" class="film-modal about-modal hidden" role="dialog" aria-modal="true" aria-label="About The Screening Room"></section>
+    <footer class="site-footer">
+      <div>
+        <strong>The Screening Room</strong>
+        <span>Built by Amy Wilson</span>
+      </div>
+      <nav aria-label="Footer navigation">
+        <button type="button" data-about-open>About</button>
+        <a href="/projects/awards-intelligence">Methodology</a>
+        <a href="/projects">Portfolio</a>
+      </nav>
+    </footer>
+    <script src="analytics.js"></script>
+    <script src="seo.js"></script>
+    <script src="search-ui.js"></script>
+    <script src="discovery-app.js"></script>
+  </body>
+</html>

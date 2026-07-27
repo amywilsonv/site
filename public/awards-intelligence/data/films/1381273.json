@@ -1,0 +1,651 @@
+{
+  "attention_intelligence": {
+    "anticipation_level": "Developing",
+    "attention_confidence": "High",
+    "attention_reasons": [
+      "Most Anticipated",
+      "Major Filmmaker",
+      "Awards Watch",
+      "Festival Signal"
+    ],
+    "attention_score": 41.0,
+    "attention_version": "phase7e_attention_v1",
+    "audience_interest": "Developing",
+    "conversation_level": "Unavailable",
+    "cultural_relevance": null,
+    "early_reception": null,
+    "evidence_sources": [
+      {
+        "evidence": "Principal cast listed: Adam Driver, Miles Teller, Scarlett Johansson, Gavin Goudey",
+        "source": "cast_interest",
+        "status": "verified"
+      },
+      {
+        "evidence": "Festival signal in current data",
+        "source": "festival_attention",
+        "status": "verified"
+      },
+      {
+        "evidence": "Prestige distributor: Neon",
+        "source": "prestige_distributor",
+        "status": "verified"
+      },
+      {
+        "evidence": "Release date: 2026-11-13",
+        "source": "release_proximity",
+        "status": "verified"
+      },
+      {
+        "evidence": "Current awards or craft-category potential",
+        "source": "awards_potential",
+        "status": "inferred"
+      },
+      {
+        "evidence": "TMDb popularity 2.5951",
+        "source": "audience_popularity",
+        "status": "verified"
+      },
+      {
+        "evidence": "Editorial distinctiveness score",
+        "source": "editorial_importance",
+        "status": "inferred"
+      },
+      {
+        "evidence": "Director: James Gray",
+        "source": "filmmaker_interest",
+        "status": "verified"
+      }
+    ],
+    "homepage_spotlight_override": null,
+    "homepage_spotlight_score": 41.0,
+    "industry_interest": "High",
+    "last_updated": "20260722T161339Z",
+    "promotional_response": null,
+    "score_families": {
+      "audience/popularity": {
+        "evidence_count": 1,
+        "score": 6.6,
+        "statuses": [
+          "verified"
+        ]
+      },
+      "industry/cultural": {
+        "evidence_count": 4,
+        "score": 15.2,
+        "statuses": [
+          "inferred",
+          "verified"
+        ]
+      },
+      "release": {
+        "evidence_count": 1,
+        "score": 7.0,
+        "statuses": [
+          "verified"
+        ]
+      },
+      "talent/prestige": {
+        "evidence_count": 2,
+        "score": 12.2,
+        "statuses": [
+          "verified"
+        ]
+      }
+    },
+    "unavailable_attention_fields": [
+      {
+        "field": "search_interest",
+        "reason": "No configured Google Trends or comparable provider.",
+        "status": "unavailable"
+      },
+      {
+        "field": "trailer_engagement",
+        "reason": "Trailer URL is available, but engagement metrics are not ingested.",
+        "status": "unavailable"
+      },
+      {
+        "field": "social_conversation",
+        "reason": "No authorized social-listening provider configured.",
+        "status": "unavailable"
+      },
+      {
+        "field": "press_volume",
+        "reason": "No press-volume ingestion configured.",
+        "status": "unavailable"
+      },
+      {
+        "field": "watchlist_interest",
+        "reason": "No legally available watchlist source configured.",
+        "status": "unavailable"
+      },
+      {
+        "field": "verified_budget",
+        "reason": "No verified production-budget source configured.",
+        "status": "unavailable"
+      }
+    ]
+  },
+  "awards": {
+    "award_history": [],
+    "awards_tier": "Strong Contender",
+    "comparable_nominees": [],
+    "confidence": "High",
+    "current_awards_profile": "Festival Watch",
+    "explanation": "high awards relevance with multiple independent evidence families",
+    "predicted_categories": [
+      "Director",
+      "Acting",
+      "Original Screenplay"
+    ],
+    "probabilities": {}
+  },
+  "commercial": {
+    "commercial_significance": 0,
+    "distributor": "Neon",
+    "franchise": "",
+    "release_strategy": "Festival platform",
+    "studio": [
+      "RT Features",
+      "Leone Film Group",
+      "Keep Your Head Productions",
+      "The Launch Company"
+    ]
+  },
+  "diagnostics": {
+    "completeness_score": 100,
+    "confidence": "High",
+    "missing_fields": [],
+    "relationship_counts": {
+      "related_films": 6,
+      "related_people": 7,
+      "related_studios": 5
+    }
+  },
+  "editorial": {
+    "discovery_reason": "Awards Contender - Credible current awards evidence across independent signals.",
+    "editorial_category": "Awards Contender",
+    "editorial_summary": "Paper Tiger is verified as the NYFF64 Opening Night film, with James Gray directing and NEON attached for release. Its current awards profile is Festival Watch pending NYFF reception and campaign signals.",
+    "importance_tier": "Watchlist",
+    "primary_story": "awards profile: Festival Watch; major-category path; verified festival positioning with major-category path; prestige distributor plus talent/path evidence",
+    "story_strength": "Strong",
+    "why_it_matters": "James Gray\u2019s Paper Tiger is a verified NYFF64 Opening Night selection, making it an early festival and awards-season signal to monitor as release and reception develop."
+  },
+  "festival": {
+    "awards_received": [],
+    "display_status": "Verified festival information: New York Film Festival.",
+    "festival_history": [
+      {
+        "award": "",
+        "confidence": "High",
+        "edition_year": "2026",
+        "festival_id": "new_york_film_festival",
+        "festival_name": "New York Film Festival",
+        "last_updated": "2026-07-18",
+        "nomination": "",
+        "premiere_type": "Premiere",
+        "screening_date": "",
+        "section": "Opening Night",
+        "selection_status": "Selected",
+        "signal": "Selected as the opening-night film of NYFF 2026.",
+        "source": "Structured Awards Intelligence record: New York Film Festival",
+        "source_type": "structured_festival_fields",
+        "verified": true
+      }
+    ],
+    "festival_status": "Official Selection",
+    "premiere_type": ""
+  },
+  "film_identity": {
+    "backdrop": "",
+    "country": [],
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "id": "1381273",
+    "imdb_id": "",
+    "language": "",
+    "original_title": "Paper Tiger",
+    "poster": "https://image.tmdb.org/t/p/original/9txURTPuB1W85km06SAnrFcOCFF.jpg",
+    "profile_payload_url": "data/films/1381273.json",
+    "profile_url": "film.html?id=1381273",
+    "release_date": "2026-11-13",
+    "release_display": "In theaters Nov. 13",
+    "runtime": 115,
+    "synopsis": "Two brothers become entangled in a scheme that turns out to be too good to be true. As they try to navigate their way through the dangerous world of the Russian mafia, family bonds begin to fray with life-altering consequences.",
+    "title": "Paper Tiger",
+    "tmdb_id": "1381273"
+  },
+  "metadata": {
+    "algorithm_version": "phase5b",
+    "generated_at": "20260722T161339Z",
+    "profile_version": "phase6a",
+    "source_data_date": "2026-07-20"
+  },
+  "related": {
+    "related_films": [
+      {
+        "profile_url": "film.html?id=1437882",
+        "relationship_score": 30,
+        "shared_signals": [
+          "Drama",
+          "Thriller",
+          "Acting",
+          "Neon"
+        ],
+        "title": "A Place in Hell",
+        "tmdb_id": "1437882"
+      },
+      {
+        "profile_url": "film.html?id=1631807",
+        "relationship_score": 26,
+        "shared_signals": [
+          "Crime",
+          "Drama",
+          "Acting"
+        ],
+        "title": "The Secret Woman",
+        "tmdb_id": "1631807"
+      },
+      {
+        "profile_url": "film.html?id=1487864",
+        "relationship_score": 20,
+        "shared_signals": [
+          "Crime",
+          "Drama",
+          "Acting"
+        ],
+        "title": "Nando Between Two Worlds - A Sintonia Film",
+        "tmdb_id": "1487864"
+      },
+      {
+        "profile_url": "film.html?id=1457866",
+        "relationship_score": 20,
+        "shared_signals": [
+          "Drama",
+          "Thriller",
+          "Acting"
+        ],
+        "title": "The Adventures of Cliff Booth",
+        "tmdb_id": "1457866"
+      },
+      {
+        "profile_url": "film.html?id=1495293",
+        "relationship_score": 18,
+        "shared_signals": [
+          "Crime",
+          "Drama"
+        ],
+        "title": "Arasan",
+        "tmdb_id": "1495293"
+      },
+      {
+        "profile_url": "film.html?id=1425784",
+        "relationship_score": 14,
+        "shared_signals": [
+          "Drama",
+          "Acting"
+        ],
+        "title": "Animol",
+        "tmdb_id": "1425784"
+      }
+    ],
+    "related_people": [
+      {
+        "name": "James Gray",
+        "role": "director"
+      },
+      {
+        "name": "Adam Driver",
+        "role": "actor"
+      },
+      {
+        "name": "Miles Teller",
+        "role": "actor"
+      },
+      {
+        "name": "Scarlett Johansson",
+        "role": "actor"
+      },
+      {
+        "name": "Gavin Goudey",
+        "role": "actor"
+      },
+      {
+        "name": "Roman Engel",
+        "role": "actor"
+      },
+      {
+        "name": "Cindy Katz",
+        "role": "actor"
+      }
+    ],
+    "related_studios": [
+      {
+        "name": "Neon",
+        "role": "distributor"
+      },
+      {
+        "name": "RT Features",
+        "role": "production_company"
+      },
+      {
+        "name": "Leone Film Group",
+        "role": "production_company"
+      },
+      {
+        "name": "Keep Your Head Productions",
+        "role": "production_company"
+      },
+      {
+        "name": "The Launch Company",
+        "role": "production_company"
+      }
+    ]
+  },
+  "signals": {
+    "cultural_significance": 0,
+    "last_updated": "2026-11-13",
+    "latest_event": {
+      "confidence": "Inferred",
+      "event_id": "1381273-aa8e969a5440",
+      "event_type": "Release Scheduled",
+      "film_id": "1381273",
+      "importance": "Medium",
+      "metadata": {
+        "release_date": "2026-11-13"
+      },
+      "source_type": "metadata",
+      "summary": "Release currently scheduled for In theaters Nov. 13.",
+      "timestamp": "2026-11-13",
+      "title": "Release scheduled"
+    },
+    "latest_intelligence": "Paper Tiger is verified as the NYFF64 Opening Night film, with James Gray directing and NEON attached for release. Its current awards profile is Festival Watch pending NYFF reception and campaign signals.",
+    "momentum": 28.6,
+    "narrative_importance": 46.7,
+    "next_signal": "Monitor NYFF reception, reviews, and any official release-campaign updates.",
+    "recent_activity": [
+      {
+        "confidence": "Inferred",
+        "event_id": "1381273-aa8e969a5440",
+        "event_type": "Release Scheduled",
+        "film_id": "1381273",
+        "importance": "Medium",
+        "metadata": {
+          "release_date": "2026-11-13"
+        },
+        "source_type": "metadata",
+        "summary": "Release currently scheduled for In theaters Nov. 13.",
+        "timestamp": "2026-11-13",
+        "title": "Release scheduled"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1381273-c6d0d409f6a2",
+        "event_type": "Awards Tier Changed",
+        "film_id": "1381273",
+        "importance": "High",
+        "metadata": {
+          "awards_tier": "Strong Contender",
+          "categories": [
+            "Director",
+            "Acting",
+            "Original Screenplay"
+          ]
+        },
+        "source_type": "editorial_model",
+        "summary": "high awards relevance with multiple independent evidence families",
+        "timestamp": "2026-07-22T16:13:39Z",
+        "title": "Awards tier assigned: Strong Contender"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1381273-22fbdeb646e8",
+        "event_type": "Homepage Featured",
+        "film_id": "1381273",
+        "importance": "Medium",
+        "metadata": {
+          "editorial_category": "Awards Contender"
+        },
+        "source_type": "discovery_homepage",
+        "summary": "Paper Tiger is currently selected for the homepage experience.",
+        "timestamp": "2026-07-22T16:13:39Z",
+        "title": "Featured in The Screening Room"
+      }
+    ],
+    "release_relevance": 39.5,
+    "watch_triggers": [
+      "Festival Premiere",
+      "Prestige Distributor",
+      "Awards-Season Release"
+    ],
+    "whats_changed": "Selected as the opening-night film of NYFF 2026."
+  },
+  "talent": {
+    "director": "James Gray",
+    "principal_cast": [
+      "Adam Driver",
+      "Miles Teller",
+      "Scarlett Johansson",
+      "Gavin Goudey",
+      "Roman Engel",
+      "Cindy Katz",
+      "Yavor Vesselinov",
+      "Victor Ptak"
+    ],
+    "producers": [],
+    "writers": []
+  },
+  "timeline": {
+    "events": [
+      {
+        "confidence": "Inferred",
+        "event_id": "1381273-aa8e969a5440",
+        "event_type": "Release Scheduled",
+        "film_id": "1381273",
+        "importance": "Medium",
+        "metadata": {
+          "release_date": "2026-11-13"
+        },
+        "source_type": "metadata",
+        "summary": "Release currently scheduled for In theaters Nov. 13.",
+        "timestamp": "2026-11-13",
+        "title": "Release scheduled"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1381273-c6d0d409f6a2",
+        "event_type": "Awards Tier Changed",
+        "film_id": "1381273",
+        "importance": "High",
+        "metadata": {
+          "awards_tier": "Strong Contender",
+          "categories": [
+            "Director",
+            "Acting",
+            "Original Screenplay"
+          ]
+        },
+        "source_type": "editorial_model",
+        "summary": "high awards relevance with multiple independent evidence families",
+        "timestamp": "2026-07-22T16:13:39Z",
+        "title": "Awards tier assigned: Strong Contender"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1381273-22fbdeb646e8",
+        "event_type": "Homepage Featured",
+        "film_id": "1381273",
+        "importance": "Medium",
+        "metadata": {
+          "editorial_category": "Awards Contender"
+        },
+        "source_type": "discovery_homepage",
+        "summary": "Paper Tiger is currently selected for the homepage experience.",
+        "timestamp": "2026-07-22T16:13:39Z",
+        "title": "Featured in The Screening Room"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1381273-2722ced3756f",
+        "event_type": "Distributor Change",
+        "film_id": "1381273",
+        "importance": "Medium",
+        "metadata": {
+          "distributor": "Neon"
+        },
+        "source_type": "metadata",
+        "summary": "Current distributor is Neon.",
+        "timestamp": "2026-07-22T16:13:39Z",
+        "title": "Distributor set: Neon"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1381273-fa86ac45e6b0",
+        "event_type": "Added To Database",
+        "film_id": "1381273",
+        "importance": "Low",
+        "metadata": {
+          "profile_version": "phase6a"
+        },
+        "source_type": "system",
+        "summary": "Paper Tiger is tracked in the Film Intelligence profile set.",
+        "timestamp": "2026-07-22T16:13:39Z",
+        "title": "Added to Awards Intelligence"
+      },
+      {
+        "confidence": "Verified",
+        "event_id": "1381273-9a6fb3b6e3c8",
+        "event_type": "Festival Selection",
+        "film_id": "1381273",
+        "importance": "High",
+        "metadata": {
+          "next_signal": "Monitor NYFF reception, reviews, and any official release-campaign updates."
+        },
+        "source_type": "refresh_log",
+        "summary": "Selected as the opening-night film of NYFF 2026.",
+        "timestamp": "2026-07-20",
+        "title": "Selected as the opening-night film of NYFF 2026"
+      },
+      {
+        "confidence": "Verified",
+        "event_id": "1381273-c9ff7cb1d3fc",
+        "event_type": "Festival Selection",
+        "film_id": "1381273",
+        "importance": "High",
+        "metadata": {
+          "award": "",
+          "confidence": "High",
+          "edition_year": "2026",
+          "festival_id": "new_york_film_festival",
+          "festival_name": "New York Film Festival",
+          "last_updated": "2026-07-18",
+          "nomination": "",
+          "premiere_type": "Premiere",
+          "screening_date": "",
+          "section": "Opening Night",
+          "selection_status": "Selected",
+          "signal": "Selected as the opening-night film of NYFF 2026.",
+          "source": "Structured Awards Intelligence record: New York Film Festival",
+          "source_type": "structured_festival_fields",
+          "verified": true
+        },
+        "source_type": "festival_metadata",
+        "summary": "Selected as the opening-night film of NYFF 2026.",
+        "timestamp": "2026-07-18",
+        "title": "Selected for New York Film Festival"
+      }
+    ],
+    "latest_event": {
+      "confidence": "Inferred",
+      "event_id": "1381273-aa8e969a5440",
+      "event_type": "Release Scheduled",
+      "film_id": "1381273",
+      "importance": "Medium",
+      "metadata": {
+        "release_date": "2026-11-13"
+      },
+      "source_type": "metadata",
+      "summary": "Release currently scheduled for In theaters Nov. 13.",
+      "timestamp": "2026-11-13",
+      "title": "Release scheduled"
+    },
+    "recent_activity": [
+      {
+        "confidence": "Inferred",
+        "event_id": "1381273-aa8e969a5440",
+        "event_type": "Release Scheduled",
+        "film_id": "1381273",
+        "importance": "Medium",
+        "metadata": {
+          "release_date": "2026-11-13"
+        },
+        "source_type": "metadata",
+        "summary": "Release currently scheduled for In theaters Nov. 13.",
+        "timestamp": "2026-11-13",
+        "title": "Release scheduled"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1381273-c6d0d409f6a2",
+        "event_type": "Awards Tier Changed",
+        "film_id": "1381273",
+        "importance": "High",
+        "metadata": {
+          "awards_tier": "Strong Contender",
+          "categories": [
+            "Director",
+            "Acting",
+            "Original Screenplay"
+          ]
+        },
+        "source_type": "editorial_model",
+        "summary": "high awards relevance with multiple independent evidence families",
+        "timestamp": "2026-07-22T16:13:39Z",
+        "title": "Awards tier assigned: Strong Contender"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1381273-22fbdeb646e8",
+        "event_type": "Homepage Featured",
+        "film_id": "1381273",
+        "importance": "Medium",
+        "metadata": {
+          "editorial_category": "Awards Contender"
+        },
+        "source_type": "discovery_homepage",
+        "summary": "Paper Tiger is currently selected for the homepage experience.",
+        "timestamp": "2026-07-22T16:13:39Z",
+        "title": "Featured in The Screening Room"
+      }
+    ],
+    "supported_event_types": [
+      "Trailer Released",
+      "Teaser Released",
+      "Poster Released",
+      "Festival Selection",
+      "Festival Premiere",
+      "Festival Award",
+      "Release Date Change",
+      "Release",
+      "Distributor Change",
+      "Cast Added",
+      "Director Added",
+      "Production Started",
+      "Production Wrapped",
+      "Oscar Prediction Changed",
+      "Awards Tier Changed",
+      "Review Published",
+      "Critics Score Updated",
+      "Audience Score Updated",
+      "Box Office Milestone",
+      "Streaming Release",
+      "Editorial Note",
+      "Manual Override",
+      "Added To Database",
+      "Release Scheduled",
+      "Homepage Featured"
+    ]
+  }
+}

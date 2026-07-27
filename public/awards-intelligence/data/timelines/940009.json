@@ -1,0 +1,87 @@
+{
+  "events": [
+    {
+      "confidence": "Inferred",
+      "event_id": "940009-64147b9f21a5",
+      "event_type": "Release Scheduled",
+      "film_id": "940009",
+      "importance": "Medium",
+      "metadata": {
+        "release_date": "2026-12-18"
+      },
+      "source_type": "metadata",
+      "summary": "Release currently scheduled for In theaters Dec. 18.",
+      "timestamp": "2026-12-18",
+      "title": "Release scheduled"
+    },
+    {
+      "confidence": "Inferred",
+      "event_id": "940009-b75ce83be66b",
+      "event_type": "Distributor Change",
+      "film_id": "940009",
+      "importance": "Medium",
+      "metadata": {
+        "distributor": "Netflix"
+      },
+      "source_type": "metadata",
+      "summary": "Current distributor is Netflix.",
+      "timestamp": "2026-07-22T16:13:39Z",
+      "title": "Distributor set: Netflix"
+    },
+    {
+      "confidence": "Inferred",
+      "event_id": "940009-bc927de56d53",
+      "event_type": "Awards Tier Changed",
+      "film_id": "940009",
+      "importance": "Medium",
+      "metadata": {
+        "awards_tier": "Category Contender",
+        "categories": [
+          "Animated Feature",
+          "Craft Categories",
+          "Multiple Pathways"
+        ]
+      },
+      "source_type": "editorial_model",
+      "summary": "category-specific awards case without broader contender evidence",
+      "timestamp": "2026-07-22T16:13:39Z",
+      "title": "Awards tier assigned: Category Contender"
+    },
+    {
+      "confidence": "Inferred",
+      "event_id": "940009-975e90b7c044",
+      "event_type": "Added To Database",
+      "film_id": "940009",
+      "importance": "Low",
+      "metadata": {
+        "profile_version": "phase6a"
+      },
+      "source_type": "system",
+      "summary": "Ray Gunn is tracked in the Film Intelligence profile set.",
+      "timestamp": "2026-07-22T16:13:39Z",
+      "title": "Added to Awards Intelligence"
+    }
+  ],
+  "latest_event": {
+    "confidence": "Inferred",
+    "event_id": "940009-64147b9f21a5",
+    "event_type": "Release Scheduled",
+    "film_id": "940009",
+    "importance": "Medium",
+    "metadata": {
+      "release_date": "2026-12-18"
+    },
+    "source_type": "metadata",
+    "summary": "Release currently scheduled for In theaters Dec. 18.",
+    "timestamp": "2026-12-18",
+    "title": "Release scheduled"
+  },
+  "metadata": {
+    "event_count": 4,
+    "film_id": "940009",
+    "generated_at": "20260722T161339Z",
+    "timeline_version": "phase6b",
+    "title": "Ray Gunn",
+    "tmdb_id": "940009"
+  }
+}

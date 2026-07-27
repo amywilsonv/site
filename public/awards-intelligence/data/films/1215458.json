@@ -1,0 +1,528 @@
+{
+  "attention_intelligence": {
+    "anticipation_level": "Developing",
+    "attention_confidence": "High",
+    "attention_reasons": [
+      "Most Anticipated",
+      "Major Filmmaker"
+    ],
+    "attention_score": 29.2,
+    "attention_version": "phase7e_attention_v1",
+    "audience_interest": "Developing",
+    "conversation_level": "Unavailable",
+    "cultural_relevance": null,
+    "early_reception": null,
+    "evidence_sources": [
+      {
+        "evidence": "Principal cast listed: Isabel Hagen, Dylan Baker, Ling Ling Huang, Frederick Weller",
+        "source": "cast_interest",
+        "status": "verified"
+      },
+      {
+        "evidence": "Trailer URL present",
+        "source": "trailer_available",
+        "status": "verified"
+      },
+      {
+        "evidence": "Release date: 2026-09-11",
+        "source": "release_proximity",
+        "status": "verified"
+      },
+      {
+        "evidence": "Director: Isabel Hagen",
+        "source": "filmmaker_interest",
+        "status": "verified"
+      },
+      {
+        "evidence": "TMDb popularity 0.385",
+        "source": "audience_popularity",
+        "status": "verified"
+      },
+      {
+        "evidence": "Editorial distinctiveness score",
+        "source": "editorial_importance",
+        "status": "inferred"
+      }
+    ],
+    "homepage_spotlight_override": null,
+    "homepage_spotlight_score": 29.2,
+    "industry_interest": null,
+    "last_updated": "20260722T161339Z",
+    "promotional_response": "Trailer available",
+    "score_families": {
+      "audience/popularity": {
+        "evidence_count": 2,
+        "score": 8.9,
+        "statuses": [
+          "verified"
+        ]
+      },
+      "industry/cultural": {
+        "evidence_count": 1,
+        "score": 1.1,
+        "statuses": [
+          "inferred"
+        ]
+      },
+      "release": {
+        "evidence_count": 1,
+        "score": 7.0,
+        "statuses": [
+          "verified"
+        ]
+      },
+      "talent/prestige": {
+        "evidence_count": 2,
+        "score": 12.2,
+        "statuses": [
+          "verified"
+        ]
+      }
+    },
+    "unavailable_attention_fields": [
+      {
+        "field": "search_interest",
+        "reason": "No configured Google Trends or comparable provider.",
+        "status": "unavailable"
+      },
+      {
+        "field": "trailer_engagement",
+        "reason": "Trailer URL is available, but engagement metrics are not ingested.",
+        "status": "unavailable"
+      },
+      {
+        "field": "social_conversation",
+        "reason": "No authorized social-listening provider configured.",
+        "status": "unavailable"
+      },
+      {
+        "field": "press_volume",
+        "reason": "No press-volume ingestion configured.",
+        "status": "unavailable"
+      },
+      {
+        "field": "watchlist_interest",
+        "reason": "No legally available watchlist source configured.",
+        "status": "unavailable"
+      },
+      {
+        "field": "verified_budget",
+        "reason": "No verified production-budget source configured.",
+        "status": "unavailable"
+      }
+    ]
+  },
+  "awards": {
+    "award_history": [],
+    "awards_tier": "No Current Awards Case",
+    "comparable_nominees": [],
+    "confidence": "High",
+    "current_awards_profile": "Unknown",
+    "explanation": "insufficient credible awards evidence",
+    "predicted_categories": [
+      "Song / Score"
+    ],
+    "probabilities": {}
+  },
+  "commercial": {
+    "commercial_significance": 0,
+    "distributor": "Unknown",
+    "franchise": "",
+    "release_strategy": "Release radar monitoring",
+    "studio": [
+      "Dweck Productions",
+      "Bradford Operations"
+    ]
+  },
+  "diagnostics": {
+    "completeness_score": 89,
+    "confidence": "High",
+    "missing_fields": [
+      "distributor"
+    ],
+    "relationship_counts": {
+      "related_films": 6,
+      "related_people": 6,
+      "related_studios": 2
+    }
+  },
+  "editorial": {
+    "discovery_reason": "Upcoming Isabel Hagen film with Song / Score monitoring value.",
+    "editorial_category": "General Watch",
+    "editorial_summary": "As of 2026-07-18, this is a unknown distributor release dated 2026-09-11 with Song / Score relevance; current awards profile is Unknown and data status is limited data.",
+    "importance_tier": "Monitoring",
+    "primary_story": "filmmaker/editorial hook",
+    "story_strength": "Strong",
+    "why_it_matters": "Upcoming Isabel Hagen film with Song / Score monitoring value."
+  },
+  "festival": {
+    "awards_received": [],
+    "display_status": "No verified festival information in the current dataset.",
+    "festival_history": [],
+    "festival_status": "",
+    "premiere_type": ""
+  },
+  "film_identity": {
+    "backdrop": "",
+    "country": [],
+    "genres": [
+      "Comedy",
+      "Music"
+    ],
+    "id": "1215458",
+    "imdb_id": "",
+    "language": "",
+    "original_title": "On a String",
+    "poster": "https://image.tmdb.org/t/p/original/fhEDrzV2Y24UoGq6q9MFHRZPllW.jpg",
+    "profile_payload_url": "data/films/1215458.json",
+    "profile_url": "film.html?id=1215458",
+    "release_date": "2026-09-11",
+    "release_display": "In theaters Sep. 11",
+    "runtime": 78,
+    "synopsis": "A young, Juilliard-trained violist is still living at home with her parents in the heart of NYC, while trying to make a living playing gigs with her friends in the homes of strangers.",
+    "title": "On a String",
+    "tmdb_id": "1215458"
+  },
+  "metadata": {
+    "algorithm_version": "phase5b",
+    "generated_at": "20260722T161339Z",
+    "profile_version": "phase6a",
+    "source_data_date": "2026-07-20"
+  },
+  "related": {
+    "related_films": [
+      {
+        "profile_url": "film.html?id=1504358",
+        "relationship_score": 46,
+        "shared_signals": [
+          "General Watch",
+          "Comedy",
+          "Music",
+          "Song / Score"
+        ],
+        "title": "Don't Say Good Luck",
+        "tmdb_id": "1504358"
+      },
+      {
+        "profile_url": "film.html?id=1461432",
+        "relationship_score": 42,
+        "shared_signals": [
+          "General Watch",
+          "Comedy",
+          "Unknown"
+        ],
+        "title": "Adult Supervision",
+        "tmdb_id": "1461432"
+      },
+      {
+        "profile_url": "film.html?id=1200804",
+        "relationship_score": 42,
+        "shared_signals": [
+          "General Watch",
+          "Comedy",
+          "Unknown"
+        ],
+        "title": "Alice J\u00fanior Summer Break",
+        "tmdb_id": "1200804"
+      },
+      {
+        "profile_url": "film.html?id=1643567",
+        "relationship_score": 42,
+        "shared_signals": [
+          "General Watch",
+          "Comedy",
+          "Unknown"
+        ],
+        "title": "Ghosts: The Possession of Button House",
+        "tmdb_id": "1643567"
+      },
+      {
+        "profile_url": "film.html?id=1530151",
+        "relationship_score": 42,
+        "shared_signals": [
+          "General Watch",
+          "Comedy",
+          "Unknown"
+        ],
+        "title": "H\u00f6sten med G\u00f6ran",
+        "tmdb_id": "1530151"
+      },
+      {
+        "profile_url": "film.html?id=1668297",
+        "relationship_score": 42,
+        "shared_signals": [
+          "General Watch",
+          "Comedy",
+          "Unknown"
+        ],
+        "title": "Living Book",
+        "tmdb_id": "1668297"
+      }
+    ],
+    "related_people": [
+      {
+        "name": "Isabel Hagen",
+        "role": "director"
+      },
+      {
+        "name": "Dylan Baker",
+        "role": "actor"
+      },
+      {
+        "name": "Ling Ling Huang",
+        "role": "actor"
+      },
+      {
+        "name": "Frederick Weller",
+        "role": "actor"
+      },
+      {
+        "name": "Eric Bogosian",
+        "role": "actor"
+      },
+      {
+        "name": "Jamie Lee",
+        "role": "actor"
+      }
+    ],
+    "related_studios": [
+      {
+        "name": "Dweck Productions",
+        "role": "production_company"
+      },
+      {
+        "name": "Bradford Operations",
+        "role": "production_company"
+      }
+    ]
+  },
+  "signals": {
+    "cultural_significance": 0,
+    "last_updated": "2026-09-11",
+    "latest_event": {
+      "confidence": "Inferred",
+      "event_id": "1215458-ef8130e0527e",
+      "event_type": "Release Scheduled",
+      "film_id": "1215458",
+      "importance": "Medium",
+      "metadata": {
+        "release_date": "2026-09-11"
+      },
+      "source_type": "metadata",
+      "summary": "Release currently scheduled for In theaters Sep. 11.",
+      "timestamp": "2026-09-11",
+      "title": "Release scheduled"
+    },
+    "latest_intelligence": "As of 2026-07-18, this is a unknown distributor release dated 2026-09-11 with Song / Score relevance; current awards profile is Unknown and data status is limited data.",
+    "momentum": 0.0,
+    "narrative_importance": 10.9,
+    "next_signal": "Confirm US distributor/release plan.",
+    "recent_activity": [
+      {
+        "confidence": "Inferred",
+        "event_id": "1215458-ef8130e0527e",
+        "event_type": "Release Scheduled",
+        "film_id": "1215458",
+        "importance": "Medium",
+        "metadata": {
+          "release_date": "2026-09-11"
+        },
+        "source_type": "metadata",
+        "summary": "Release currently scheduled for In theaters Sep. 11.",
+        "timestamp": "2026-09-11",
+        "title": "Release scheduled"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1215458-a2152ce5d897",
+        "event_type": "Awards Tier Changed",
+        "film_id": "1215458",
+        "importance": "Medium",
+        "metadata": {
+          "awards_tier": "No Current Awards Case",
+          "categories": [
+            "Song / Score"
+          ]
+        },
+        "source_type": "editorial_model",
+        "summary": "insufficient credible awards evidence",
+        "timestamp": "2026-07-22T16:13:39Z",
+        "title": "Awards tier assigned: No Current Awards Case"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1215458-1e53fd7215fe",
+        "event_type": "Added To Database",
+        "film_id": "1215458",
+        "importance": "Low",
+        "metadata": {
+          "profile_version": "phase6a"
+        },
+        "source_type": "system",
+        "summary": "On a String is tracked in the Film Intelligence profile set.",
+        "timestamp": "2026-07-22T16:13:39Z",
+        "title": "Added to Awards Intelligence"
+      }
+    ],
+    "release_relevance": 24.7,
+    "watch_triggers": [
+      "Awards-Season Release",
+      "Awards-Friendly Genre",
+      "Adaptation/Biographical",
+      "Trailer Available"
+    ],
+    "whats_changed": ""
+  },
+  "talent": {
+    "director": "Isabel Hagen",
+    "principal_cast": [
+      "Isabel Hagen",
+      "Dylan Baker",
+      "Ling Ling Huang",
+      "Frederick Weller",
+      "Eric Bogosian",
+      "Jamie Lee",
+      "John Kroner",
+      "Charlie Ray"
+    ],
+    "producers": [],
+    "writers": []
+  },
+  "timeline": {
+    "events": [
+      {
+        "confidence": "Inferred",
+        "event_id": "1215458-ef8130e0527e",
+        "event_type": "Release Scheduled",
+        "film_id": "1215458",
+        "importance": "Medium",
+        "metadata": {
+          "release_date": "2026-09-11"
+        },
+        "source_type": "metadata",
+        "summary": "Release currently scheduled for In theaters Sep. 11.",
+        "timestamp": "2026-09-11",
+        "title": "Release scheduled"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1215458-a2152ce5d897",
+        "event_type": "Awards Tier Changed",
+        "film_id": "1215458",
+        "importance": "Medium",
+        "metadata": {
+          "awards_tier": "No Current Awards Case",
+          "categories": [
+            "Song / Score"
+          ]
+        },
+        "source_type": "editorial_model",
+        "summary": "insufficient credible awards evidence",
+        "timestamp": "2026-07-22T16:13:39Z",
+        "title": "Awards tier assigned: No Current Awards Case"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1215458-1e53fd7215fe",
+        "event_type": "Added To Database",
+        "film_id": "1215458",
+        "importance": "Low",
+        "metadata": {
+          "profile_version": "phase6a"
+        },
+        "source_type": "system",
+        "summary": "On a String is tracked in the Film Intelligence profile set.",
+        "timestamp": "2026-07-22T16:13:39Z",
+        "title": "Added to Awards Intelligence"
+      }
+    ],
+    "latest_event": {
+      "confidence": "Inferred",
+      "event_id": "1215458-ef8130e0527e",
+      "event_type": "Release Scheduled",
+      "film_id": "1215458",
+      "importance": "Medium",
+      "metadata": {
+        "release_date": "2026-09-11"
+      },
+      "source_type": "metadata",
+      "summary": "Release currently scheduled for In theaters Sep. 11.",
+      "timestamp": "2026-09-11",
+      "title": "Release scheduled"
+    },
+    "recent_activity": [
+      {
+        "confidence": "Inferred",
+        "event_id": "1215458-ef8130e0527e",
+        "event_type": "Release Scheduled",
+        "film_id": "1215458",
+        "importance": "Medium",
+        "metadata": {
+          "release_date": "2026-09-11"
+        },
+        "source_type": "metadata",
+        "summary": "Release currently scheduled for In theaters Sep. 11.",
+        "timestamp": "2026-09-11",
+        "title": "Release scheduled"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1215458-a2152ce5d897",
+        "event_type": "Awards Tier Changed",
+        "film_id": "1215458",
+        "importance": "Medium",
+        "metadata": {
+          "awards_tier": "No Current Awards Case",
+          "categories": [
+            "Song / Score"
+          ]
+        },
+        "source_type": "editorial_model",
+        "summary": "insufficient credible awards evidence",
+        "timestamp": "2026-07-22T16:13:39Z",
+        "title": "Awards tier assigned: No Current Awards Case"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1215458-1e53fd7215fe",
+        "event_type": "Added To Database",
+        "film_id": "1215458",
+        "importance": "Low",
+        "metadata": {
+          "profile_version": "phase6a"
+        },
+        "source_type": "system",
+        "summary": "On a String is tracked in the Film Intelligence profile set.",
+        "timestamp": "2026-07-22T16:13:39Z",
+        "title": "Added to Awards Intelligence"
+      }
+    ],
+    "supported_event_types": [
+      "Trailer Released",
+      "Teaser Released",
+      "Poster Released",
+      "Festival Selection",
+      "Festival Premiere",
+      "Festival Award",
+      "Release Date Change",
+      "Release",
+      "Distributor Change",
+      "Cast Added",
+      "Director Added",
+      "Production Started",
+      "Production Wrapped",
+      "Oscar Prediction Changed",
+      "Awards Tier Changed",
+      "Review Published",
+      "Critics Score Updated",
+      "Audience Score Updated",
+      "Box Office Milestone",
+      "Streaming Release",
+      "Editorial Note",
+      "Manual Override",
+      "Added To Database",
+      "Release Scheduled",
+      "Homepage Featured"
+    ]
+  }
+}

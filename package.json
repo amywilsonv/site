@@ -6,7 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "test": "node scripts/validate-awards-integration.mjs",
+    "phase7b:report": "node scripts/generate-phase7b-launch-readiness.mjs",
+    "phase7c:report": "node scripts/generate-phase7c-product-reframe.mjs",
+    "phase7d:report": "node scripts/generate-phase7d-homepage-clarity.mjs",
+    "phase7e:report": "node scripts/generate-phase7e-attention-labels.mjs"
   },
   "dependencies": {
     "@base-ui/react": "^1.4.1",

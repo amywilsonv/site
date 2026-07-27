@@ -1,0 +1,85 @@
+{
+  "events": [
+    {
+      "confidence": "Inferred",
+      "event_id": "1147572-28ae58806495",
+      "event_type": "Release Scheduled",
+      "film_id": "1147572",
+      "importance": "Medium",
+      "metadata": {
+        "release_date": "2027-02-12"
+      },
+      "source_type": "metadata",
+      "summary": "Release currently scheduled for Feb. 12, 2027.",
+      "timestamp": "2027-02-12",
+      "title": "Release scheduled"
+    },
+    {
+      "confidence": "Inferred",
+      "event_id": "1147572-2514b58bb6cd",
+      "event_type": "Distributor Change",
+      "film_id": "1147572",
+      "importance": "Medium",
+      "metadata": {
+        "distributor": "Netflix"
+      },
+      "source_type": "metadata",
+      "summary": "Current distributor is Netflix.",
+      "timestamp": "2026-07-22T16:13:39Z",
+      "title": "Distributor set: Netflix"
+    },
+    {
+      "confidence": "Inferred",
+      "event_id": "1147572-c31721139686",
+      "event_type": "Awards Tier Changed",
+      "film_id": "1147572",
+      "importance": "Medium",
+      "metadata": {
+        "awards_tier": "No Current Awards Case",
+        "categories": [
+          "Craft Categories"
+        ]
+      },
+      "source_type": "editorial_model",
+      "summary": "insufficient credible awards evidence",
+      "timestamp": "2026-07-22T16:13:39Z",
+      "title": "Awards tier assigned: No Current Awards Case"
+    },
+    {
+      "confidence": "Inferred",
+      "event_id": "1147572-c9a5bddeca24",
+      "event_type": "Added To Database",
+      "film_id": "1147572",
+      "importance": "Low",
+      "metadata": {
+        "profile_version": "phase6a"
+      },
+      "source_type": "system",
+      "summary": "Narnia: The Magician's Nephew is tracked in the Film Intelligence profile set.",
+      "timestamp": "2026-07-22T16:13:39Z",
+      "title": "Added to Awards Intelligence"
+    }
+  ],
+  "latest_event": {
+    "confidence": "Inferred",
+    "event_id": "1147572-28ae58806495",
+    "event_type": "Release Scheduled",
+    "film_id": "1147572",
+    "importance": "Medium",
+    "metadata": {
+      "release_date": "2027-02-12"
+    },
+    "source_type": "metadata",
+    "summary": "Release currently scheduled for Feb. 12, 2027.",
+    "timestamp": "2027-02-12",
+    "title": "Release scheduled"
+  },
+  "metadata": {
+    "event_count": 4,
+    "film_id": "1147572",
+    "generated_at": "20260722T161339Z",
+    "timeline_version": "phase6b",
+    "title": "Narnia: The Magician's Nephew",
+    "tmdb_id": "1147572"
+  }
+}

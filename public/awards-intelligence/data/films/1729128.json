@@ -1,0 +1,557 @@
+{
+  "attention_intelligence": {
+    "anticipation_level": "Moderate",
+    "attention_confidence": "High",
+    "attention_reasons": [
+      "Most Anticipated",
+      "Major Filmmaker",
+      "Event Release",
+      "Awards Watch"
+    ],
+    "attention_score": 61.2,
+    "attention_version": "phase7e_attention_v1",
+    "audience_interest": "Developing",
+    "conversation_level": "Unavailable",
+    "cultural_relevance": null,
+    "early_reception": null,
+    "evidence_sources": [
+      {
+        "evidence": "Public-interest, franchise, event, or major-studio tracking signal",
+        "source": "event_awareness",
+        "status": "inferred"
+      },
+      {
+        "evidence": "Franchise, sequel, or recognizable IP signal in available metadata",
+        "source": "franchise_ip_recognition",
+        "status": "inferred"
+      },
+      {
+        "evidence": "Principal cast listed: Yasukaze Motomiya, Yoshiyuki Yamaguchi, Yoshimi Tachi, Takashi Kitadai",
+        "source": "cast_interest",
+        "status": "verified"
+      },
+      {
+        "evidence": "Commercial scale and release context",
+        "source": "commercial_scale",
+        "status": "inferred"
+      },
+      {
+        "evidence": "Release date: 2026-09-02",
+        "source": "release_proximity",
+        "status": "verified"
+      },
+      {
+        "evidence": "Current awards or craft-category potential",
+        "source": "awards_potential",
+        "status": "inferred"
+      },
+      {
+        "evidence": "TMDb popularity 1.518",
+        "source": "audience_popularity",
+        "status": "verified"
+      },
+      {
+        "evidence": "Director: Hiroyuki Tsuji",
+        "source": "filmmaker_interest",
+        "status": "verified"
+      }
+    ],
+    "homepage_spotlight_override": null,
+    "homepage_spotlight_score": 61.2,
+    "industry_interest": "Moderate",
+    "last_updated": "20260722T161339Z",
+    "promotional_response": null,
+    "score_families": {
+      "audience/popularity": {
+        "evidence_count": 1,
+        "score": 4.8,
+        "statuses": [
+          "verified"
+        ]
+      },
+      "commercial": {
+        "evidence_count": 1,
+        "score": 9.6,
+        "statuses": [
+          "inferred"
+        ]
+      },
+      "industry/cultural": {
+        "evidence_count": 1,
+        "score": 7.0,
+        "statuses": [
+          "inferred"
+        ]
+      },
+      "release": {
+        "evidence_count": 1,
+        "score": 7.0,
+        "statuses": [
+          "verified"
+        ]
+      },
+      "scale/event": {
+        "evidence_count": 2,
+        "score": 20.6,
+        "statuses": [
+          "inferred"
+        ]
+      },
+      "talent/prestige": {
+        "evidence_count": 2,
+        "score": 12.2,
+        "statuses": [
+          "verified"
+        ]
+      }
+    },
+    "unavailable_attention_fields": [
+      {
+        "field": "search_interest",
+        "reason": "No configured Google Trends or comparable provider.",
+        "status": "unavailable"
+      },
+      {
+        "field": "trailer_engagement",
+        "reason": "Trailer URL is available, but engagement metrics are not ingested.",
+        "status": "unavailable"
+      },
+      {
+        "field": "social_conversation",
+        "reason": "No authorized social-listening provider configured.",
+        "status": "unavailable"
+      },
+      {
+        "field": "press_volume",
+        "reason": "No press-volume ingestion configured.",
+        "status": "unavailable"
+      },
+      {
+        "field": "watchlist_interest",
+        "reason": "No legally available watchlist source configured.",
+        "status": "unavailable"
+      },
+      {
+        "field": "verified_budget",
+        "reason": "No verified production-budget source configured.",
+        "status": "unavailable"
+      }
+    ]
+  },
+  "awards": {
+    "award_history": [],
+    "awards_tier": "Emerging",
+    "comparable_nominees": [],
+    "confidence": "Medium",
+    "current_awards_profile": "Craft Potential",
+    "explanation": "plausible but incomplete awards evidence",
+    "predicted_categories": [
+      "Craft Categories"
+    ],
+    "probabilities": {}
+  },
+  "commercial": {
+    "commercial_significance": 37.0,
+    "distributor": "Unknown",
+    "franchise": "Franchise/Event",
+    "release_strategy": "Release radar monitoring",
+    "studio": [
+      "Solid Feature"
+    ]
+  },
+  "diagnostics": {
+    "completeness_score": 78,
+    "confidence": "Medium",
+    "missing_fields": [
+      "runtime",
+      "distributor"
+    ],
+    "relationship_counts": {
+      "related_films": 6,
+      "related_people": 7,
+      "related_studios": 1
+    }
+  },
+  "editorial": {
+    "discovery_reason": "Upcoming Hiroyuki Tsuji film with Craft Categories monitoring value.",
+    "editorial_category": "General Watch",
+    "editorial_summary": "Upcoming Hiroyuki Tsuji film with Craft Categories monitoring value.",
+    "importance_tier": "Monitoring",
+    "primary_story": "generic generated rationale",
+    "story_strength": "Developing",
+    "why_it_matters": "Upcoming Hiroyuki Tsuji film with Craft Categories monitoring value."
+  },
+  "festival": {
+    "awards_received": [],
+    "display_status": "No verified festival information in the current dataset.",
+    "festival_history": [],
+    "festival_status": "",
+    "premiere_type": ""
+  },
+  "film_identity": {
+    "backdrop": "",
+    "country": [],
+    "genres": [
+      "Action",
+      "Crime",
+      "Drama"
+    ],
+    "id": "1729128",
+    "imdb_id": "",
+    "language": "",
+    "original_title": "Unification of Japan 76",
+    "poster": "https://image.tmdb.org/t/p/original/zTlz9Z0QGjjyb2xKJN4aq2F6eWS.jpg",
+    "profile_payload_url": "data/films/1729128.json",
+    "profile_url": "film.html?id=1729128",
+    "release_date": "2026-09-02",
+    "release_display": "In theaters Sep. 2",
+    "runtime": null,
+    "synopsis": "Following the death of acting chairman Baba (Akihiko Kuwata), Kyowakai continues its hunt for Adachi (Atsushi Arai), while the Marugami-kai and the Special Investigation Unit closely monitor their movements. As expected by Himuro (Yasukaze Motomiya), Adachi contacts the Keihin Alliance's Sakagami (Yoshiki Kanahashi), prompting the Yamazaki Ichimon to stake out the group's key locations. Adachi attempts to strike a deal with Sunaga (Masataka Naruse) but flees when it falls through, escaping Teru (Yutaka Kyan) and Ryuji (Tatsuya Kishida). Himuro and Tamura (Yoshiyuki Yamaguchi) then change tactics by kidnapping Sunaga. Meanwhile, reports pour in that Yamazaki faction members are attacking the Keihin Alliance's affiliated groups, leaving everyone to wonder what Himuro's true plan is.",
+    "title": "Unification of Japan 76",
+    "tmdb_id": "1729128"
+  },
+  "metadata": {
+    "algorithm_version": "phase5b",
+    "generated_at": "20260722T161339Z",
+    "profile_version": "phase6a",
+    "source_data_date": "2026-07-20"
+  },
+  "related": {
+    "related_films": [
+      {
+        "profile_url": "film.html?id=1495293",
+        "relationship_score": 74,
+        "shared_signals": [
+          "General Watch",
+          "Action",
+          "Crime",
+          "Craft Categories"
+        ],
+        "title": "Arasan",
+        "tmdb_id": "1495293"
+      },
+      {
+        "profile_url": "film.html?id=1567149",
+        "relationship_score": 68,
+        "shared_signals": [
+          "General Watch",
+          "Action",
+          "Drama",
+          "Craft Categories"
+        ],
+        "title": "Kamen Rider Kabuto 20th: The One Who Inherits the Heavens",
+        "tmdb_id": "1567149"
+      },
+      {
+        "profile_url": "film.html?id=656908",
+        "relationship_score": 68,
+        "shared_signals": [
+          "General Watch",
+          "Action",
+          "Drama",
+          "Craft Categories"
+        ],
+        "title": "Ramayana",
+        "tmdb_id": "656908"
+      },
+      {
+        "profile_url": "film.html?id=1579129",
+        "relationship_score": 68,
+        "shared_signals": [
+          "General Watch",
+          "Action",
+          "Drama",
+          "Craft Categories"
+        ],
+        "title": "The First Gokturk: Prologue",
+        "tmdb_id": "1579129"
+      },
+      {
+        "profile_url": "film.html?id=1620873",
+        "relationship_score": 56,
+        "shared_signals": [
+          "General Watch",
+          "Craft Categories",
+          "Unknown"
+        ],
+        "title": "HalloWiebe: Overdrive",
+        "tmdb_id": "1620873"
+      },
+      {
+        "profile_url": "film.html?id=1700889",
+        "relationship_score": 48,
+        "shared_signals": [
+          "General Watch",
+          "Unknown"
+        ],
+        "title": "\u0420\u0443\u043a\u0438 \u0432\u0432\u0435\u0440\u0445! 2",
+        "tmdb_id": "1700889"
+      }
+    ],
+    "related_people": [
+      {
+        "name": "Hiroyuki Tsuji",
+        "role": "director"
+      },
+      {
+        "name": "Yasukaze Motomiya",
+        "role": "actor"
+      },
+      {
+        "name": "Yoshiyuki Yamaguchi",
+        "role": "actor"
+      },
+      {
+        "name": "Yoshimi Tachi",
+        "role": "actor"
+      },
+      {
+        "name": "Takashi Kitadai",
+        "role": "actor"
+      },
+      {
+        "name": "Katsuya",
+        "role": "actor"
+      },
+      {
+        "name": "Tatsuya Nakazawa",
+        "role": "actor"
+      }
+    ],
+    "related_studios": [
+      {
+        "name": "Solid Feature",
+        "role": "production_company"
+      }
+    ]
+  },
+  "signals": {
+    "cultural_significance": 37.0,
+    "last_updated": "2026-09-02",
+    "latest_event": {
+      "confidence": "Inferred",
+      "event_id": "1729128-095a5ce9fc28",
+      "event_type": "Release Scheduled",
+      "film_id": "1729128",
+      "importance": "Medium",
+      "metadata": {
+        "release_date": "2026-09-02"
+      },
+      "source_type": "metadata",
+      "summary": "Release currently scheduled for In theaters Sep. 2.",
+      "timestamp": "2026-09-02",
+      "title": "Release scheduled"
+    },
+    "latest_intelligence": "As of 2026-07-18, this is a unknown distributor release dated 2026-09-02 with Craft Categories relevance; current awards profile is Craft Potential and data status is developing.",
+    "momentum": 0.0,
+    "narrative_importance": 0,
+    "next_signal": "Confirm US distributor/release plan.",
+    "recent_activity": [
+      {
+        "confidence": "Inferred",
+        "event_id": "1729128-095a5ce9fc28",
+        "event_type": "Release Scheduled",
+        "film_id": "1729128",
+        "importance": "Medium",
+        "metadata": {
+          "release_date": "2026-09-02"
+        },
+        "source_type": "metadata",
+        "summary": "Release currently scheduled for In theaters Sep. 2.",
+        "timestamp": "2026-09-02",
+        "title": "Release scheduled"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1729128-b3d65ed0a340",
+        "event_type": "Awards Tier Changed",
+        "film_id": "1729128",
+        "importance": "Medium",
+        "metadata": {
+          "awards_tier": "Emerging",
+          "categories": [
+            "Craft Categories"
+          ]
+        },
+        "source_type": "editorial_model",
+        "summary": "plausible but incomplete awards evidence",
+        "timestamp": "2026-07-22T16:13:39Z",
+        "title": "Awards tier assigned: Emerging"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1729128-24527b8a2c32",
+        "event_type": "Added To Database",
+        "film_id": "1729128",
+        "importance": "Low",
+        "metadata": {
+          "profile_version": "phase6a"
+        },
+        "source_type": "system",
+        "summary": "Unification of Japan 76 is tracked in the Film Intelligence profile set.",
+        "timestamp": "2026-07-22T16:13:39Z",
+        "title": "Added to Awards Intelligence"
+      }
+    ],
+    "release_relevance": 40.9,
+    "watch_triggers": [
+      "Awards-Season Release",
+      "Awards-Friendly Genre",
+      "Franchise/Event",
+      "Craft Potential"
+    ],
+    "whats_changed": ""
+  },
+  "talent": {
+    "director": "Hiroyuki Tsuji",
+    "principal_cast": [
+      "Yasukaze Motomiya",
+      "Yoshiyuki Yamaguchi",
+      "Yoshimi Tachi",
+      "Takashi Kitadai",
+      "Katsuya",
+      "Tatsuya Nakazawa",
+      "Hiroto Honda",
+      "Kenta Kawasaki"
+    ],
+    "producers": [],
+    "writers": []
+  },
+  "timeline": {
+    "events": [
+      {
+        "confidence": "Inferred",
+        "event_id": "1729128-095a5ce9fc28",
+        "event_type": "Release Scheduled",
+        "film_id": "1729128",
+        "importance": "Medium",
+        "metadata": {
+          "release_date": "2026-09-02"
+        },
+        "source_type": "metadata",
+        "summary": "Release currently scheduled for In theaters Sep. 2.",
+        "timestamp": "2026-09-02",
+        "title": "Release scheduled"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1729128-b3d65ed0a340",
+        "event_type": "Awards Tier Changed",
+        "film_id": "1729128",
+        "importance": "Medium",
+        "metadata": {
+          "awards_tier": "Emerging",
+          "categories": [
+            "Craft Categories"
+          ]
+        },
+        "source_type": "editorial_model",
+        "summary": "plausible but incomplete awards evidence",
+        "timestamp": "2026-07-22T16:13:39Z",
+        "title": "Awards tier assigned: Emerging"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1729128-24527b8a2c32",
+        "event_type": "Added To Database",
+        "film_id": "1729128",
+        "importance": "Low",
+        "metadata": {
+          "profile_version": "phase6a"
+        },
+        "source_type": "system",
+        "summary": "Unification of Japan 76 is tracked in the Film Intelligence profile set.",
+        "timestamp": "2026-07-22T16:13:39Z",
+        "title": "Added to Awards Intelligence"
+      }
+    ],
+    "latest_event": {
+      "confidence": "Inferred",
+      "event_id": "1729128-095a5ce9fc28",
+      "event_type": "Release Scheduled",
+      "film_id": "1729128",
+      "importance": "Medium",
+      "metadata": {
+        "release_date": "2026-09-02"
+      },
+      "source_type": "metadata",
+      "summary": "Release currently scheduled for In theaters Sep. 2.",
+      "timestamp": "2026-09-02",
+      "title": "Release scheduled"
+    },
+    "recent_activity": [
+      {
+        "confidence": "Inferred",
+        "event_id": "1729128-095a5ce9fc28",
+        "event_type": "Release Scheduled",
+        "film_id": "1729128",
+        "importance": "Medium",
+        "metadata": {
+          "release_date": "2026-09-02"
+        },
+        "source_type": "metadata",
+        "summary": "Release currently scheduled for In theaters Sep. 2.",
+        "timestamp": "2026-09-02",
+        "title": "Release scheduled"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1729128-b3d65ed0a340",
+        "event_type": "Awards Tier Changed",
+        "film_id": "1729128",
+        "importance": "Medium",
+        "metadata": {
+          "awards_tier": "Emerging",
+          "categories": [
+            "Craft Categories"
+          ]
+        },
+        "source_type": "editorial_model",
+        "summary": "plausible but incomplete awards evidence",
+        "timestamp": "2026-07-22T16:13:39Z",
+        "title": "Awards tier assigned: Emerging"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1729128-24527b8a2c32",
+        "event_type": "Added To Database",
+        "film_id": "1729128",
+        "importance": "Low",
+        "metadata": {
+          "profile_version": "phase6a"
+        },
+        "source_type": "system",
+        "summary": "Unification of Japan 76 is tracked in the Film Intelligence profile set.",
+        "timestamp": "2026-07-22T16:13:39Z",
+        "title": "Added to Awards Intelligence"
+      }
+    ],
+    "supported_event_types": [
+      "Trailer Released",
+      "Teaser Released",
+      "Poster Released",
+      "Festival Selection",
+      "Festival Premiere",
+      "Festival Award",
+      "Release Date Change",
+      "Release",
+      "Distributor Change",
+      "Cast Added",
+      "Director Added",
+      "Production Started",
+      "Production Wrapped",
+      "Oscar Prediction Changed",
+      "Awards Tier Changed",
+      "Review Published",
+      "Critics Score Updated",
+      "Audience Score Updated",
+      "Box Office Milestone",
+      "Streaming Release",
+      "Editorial Note",
+      "Manual Override",
+      "Added To Database",
+      "Release Scheduled",
+      "Homepage Featured"
+    ]
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "events": [
+    {
+      "confidence": "Inferred",
+      "event_id": "980431-b9f9ae7bffcc",
+      "event_type": "Release Scheduled",
+      "film_id": "980431",
+      "importance": "Medium",
+      "metadata": {
+        "release_date": "2026-07-24"
+      },
+      "source_type": "metadata",
+      "summary": "Release currently scheduled for In theaters Jul. 24.",
+      "timestamp": "2026-07-24",
+      "title": "Release scheduled"
+    },
+    {
+      "confidence": "Inferred",
+      "event_id": "980431-970b38163437",
+      "event_type": "Homepage Featured",
+      "film_id": "980431",
+      "importance": "Medium",
+      "metadata": {
+        "editorial_category": "Major Release"
+      },
+      "source_type": "discovery_homepage",
+      "summary": "Avatar Aang: The Last Airbender is currently selected for the homepage experience.",
+      "timestamp": "2026-07-22T16:13:39Z",
+      "title": "Featured in The Screening Room"
+    },
+    {
+      "confidence": "Inferred",
+      "event_id": "980431-6cb7f0a05f1a",
+      "event_type": "Distributor Change",
+      "film_id": "980431",
+      "importance": "Medium",
+      "metadata": {
+        "distributor": "Paramount Pictures"
+      },
+      "source_type": "metadata",
+      "summary": "Current distributor is Paramount Pictures.",
+      "timestamp": "2026-07-22T16:13:39Z",
+      "title": "Distributor set: Paramount Pictures"
+    },
+    {
+      "confidence": "Inferred",
+      "event_id": "980431-befd73654394",
+      "event_type": "Awards Tier Changed",
+      "film_id": "980431",
+      "importance": "Medium",
+      "metadata": {
+        "awards_tier": "Category Contender",
+        "categories": [
+          "Animated Feature",
+          "Craft Categories",
+          "Multiple Pathways"
+        ]
+      },
+      "source_type": "editorial_model",
+      "summary": "category-specific awards case without broader contender evidence",
+      "timestamp": "2026-07-22T16:13:39Z",
+      "title": "Awards tier assigned: Category Contender"
+    },
+    {
+      "confidence": "Inferred",
+      "event_id": "980431-7fb653bbcac5",
+      "event_type": "Added To Database",
+      "film_id": "980431",
+      "importance": "Low",
+      "metadata": {
+        "profile_version": "phase6a"
+      },
+      "source_type": "system",
+      "summary": "Avatar Aang: The Last Airbender is tracked in the Film Intelligence profile set.",
+      "timestamp": "2026-07-22T16:13:39Z",
+      "title": "Added to Awards Intelligence"
+    },
+    {
+      "confidence": "Verified",
+      "event_id": "980431-5899d5b4e999",
+      "event_type": "Release Date Change",
+      "film_id": "980431",
+      "importance": "High",
+      "metadata": {
+        "next_signal": "Watch for festival placement, reviews, and release-date movement."
+      },
+      "source_type": "refresh_log",
+      "summary": "Release moved up to 2026-07-24.",
+      "timestamp": "2026-07-20",
+      "title": "Release moved up to 2026-07-24"
+    }
+  ],
+  "latest_event": {
+    "confidence": "Inferred",
+    "event_id": "980431-b9f9ae7bffcc",
+    "event_type": "Release Scheduled",
+    "film_id": "980431",
+    "importance": "Medium",
+    "metadata": {
+      "release_date": "2026-07-24"
+    },
+    "source_type": "metadata",
+    "summary": "Release currently scheduled for In theaters Jul. 24.",
+    "timestamp": "2026-07-24",
+    "title": "Release scheduled"
+  },
+  "metadata": {
+    "event_count": 6,
+    "film_id": "980431",
+    "generated_at": "20260722T161339Z",
+    "timeline_version": "phase6b",
+    "title": "Avatar Aang: The Last Airbender",
+    "tmdb_id": "980431"
+  }
+}

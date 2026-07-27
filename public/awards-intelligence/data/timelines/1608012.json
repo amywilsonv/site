@@ -1,0 +1,69 @@
+{
+  "events": [
+    {
+      "confidence": "Inferred",
+      "event_id": "1608012-0ec6bb5cab2e",
+      "event_type": "Release Scheduled",
+      "film_id": "1608012",
+      "importance": "Medium",
+      "metadata": {
+        "release_date": "2026-11-20"
+      },
+      "source_type": "metadata",
+      "summary": "Release currently scheduled for In theaters Nov. 20.",
+      "timestamp": "2026-11-20",
+      "title": "Release scheduled"
+    },
+    {
+      "confidence": "Inferred",
+      "event_id": "1608012-8d8d17586e83",
+      "event_type": "Awards Tier Changed",
+      "film_id": "1608012",
+      "importance": "Medium",
+      "metadata": {
+        "awards_tier": "No Current Awards Case",
+        "categories": []
+      },
+      "source_type": "editorial_model",
+      "summary": "insufficient credible awards evidence",
+      "timestamp": "2026-07-22T16:13:39Z",
+      "title": "Awards tier assigned: No Current Awards Case"
+    },
+    {
+      "confidence": "Inferred",
+      "event_id": "1608012-105c8a5ac5a0",
+      "event_type": "Added To Database",
+      "film_id": "1608012",
+      "importance": "Low",
+      "metadata": {
+        "profile_version": "phase6a"
+      },
+      "source_type": "system",
+      "summary": "A\u015fk Tesad\u00fcfleri Sever 3 is tracked in the Film Intelligence profile set.",
+      "timestamp": "2026-07-22T16:13:39Z",
+      "title": "Added to Awards Intelligence"
+    }
+  ],
+  "latest_event": {
+    "confidence": "Inferred",
+    "event_id": "1608012-0ec6bb5cab2e",
+    "event_type": "Release Scheduled",
+    "film_id": "1608012",
+    "importance": "Medium",
+    "metadata": {
+      "release_date": "2026-11-20"
+    },
+    "source_type": "metadata",
+    "summary": "Release currently scheduled for In theaters Nov. 20.",
+    "timestamp": "2026-11-20",
+    "title": "Release scheduled"
+  },
+  "metadata": {
+    "event_count": 3,
+    "film_id": "1608012",
+    "generated_at": "20260722T161339Z",
+    "timeline_version": "phase6b",
+    "title": "A\u015fk Tesad\u00fcfleri Sever 3",
+    "tmdb_id": "1608012"
+  }
+}

@@ -11,6 +11,7 @@ const bricolage = Bricolage_Grotesque({
 const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://amywilson.com"),
   title: { default: "Amy Wilson", template: "%s · Amy Wilson" },
   description:
     "Strategy and analytics at the intersection of entertainment, streaming, and AI.",

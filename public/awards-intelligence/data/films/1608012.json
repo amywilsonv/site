@@ -1,0 +1,534 @@
+{
+  "attention_intelligence": {
+    "anticipation_level": "Moderate",
+    "attention_confidence": "High",
+    "attention_reasons": [
+      "Most Anticipated",
+      "Major Filmmaker",
+      "Event Release"
+    ],
+    "attention_score": 52.3,
+    "attention_version": "phase7e_attention_v1",
+    "audience_interest": "Developing",
+    "conversation_level": "Unavailable",
+    "cultural_relevance": null,
+    "early_reception": null,
+    "evidence_sources": [
+      {
+        "evidence": "Public-interest, franchise, event, or major-studio tracking signal",
+        "source": "event_awareness",
+        "status": "inferred"
+      },
+      {
+        "evidence": "Franchise, sequel, or recognizable IP signal in available metadata",
+        "source": "franchise_ip_recognition",
+        "status": "inferred"
+      },
+      {
+        "evidence": "Principal cast listed: Mehmet G\u00fcns\u00fcr, Devrim \u00d6zkan, \u00dclk\u00fc Hilal \u00c7ift\u00e7i, Ayda Aksel",
+        "source": "cast_interest",
+        "status": "verified"
+      },
+      {
+        "evidence": "Commercial scale and release context",
+        "source": "commercial_scale",
+        "status": "inferred"
+      },
+      {
+        "evidence": "Release date: 2026-11-20",
+        "source": "release_proximity",
+        "status": "verified"
+      },
+      {
+        "evidence": "TMDb popularity 1.589",
+        "source": "audience_popularity",
+        "status": "verified"
+      },
+      {
+        "evidence": "Director: Ipek Sorak",
+        "source": "filmmaker_interest",
+        "status": "verified"
+      }
+    ],
+    "homepage_spotlight_override": null,
+    "homepage_spotlight_score": 52.3,
+    "industry_interest": "Moderate",
+    "last_updated": "20260722T161339Z",
+    "promotional_response": null,
+    "score_families": {
+      "audience/popularity": {
+        "evidence_count": 1,
+        "score": 4.9,
+        "statuses": [
+          "verified"
+        ]
+      },
+      "commercial": {
+        "evidence_count": 1,
+        "score": 9.6,
+        "statuses": [
+          "inferred"
+        ]
+      },
+      "release": {
+        "evidence_count": 1,
+        "score": 5.0,
+        "statuses": [
+          "verified"
+        ]
+      },
+      "scale/event": {
+        "evidence_count": 2,
+        "score": 20.6,
+        "statuses": [
+          "inferred"
+        ]
+      },
+      "talent/prestige": {
+        "evidence_count": 2,
+        "score": 12.2,
+        "statuses": [
+          "verified"
+        ]
+      }
+    },
+    "unavailable_attention_fields": [
+      {
+        "field": "search_interest",
+        "reason": "No configured Google Trends or comparable provider.",
+        "status": "unavailable"
+      },
+      {
+        "field": "trailer_engagement",
+        "reason": "Trailer URL is available, but engagement metrics are not ingested.",
+        "status": "unavailable"
+      },
+      {
+        "field": "social_conversation",
+        "reason": "No authorized social-listening provider configured.",
+        "status": "unavailable"
+      },
+      {
+        "field": "press_volume",
+        "reason": "No press-volume ingestion configured.",
+        "status": "unavailable"
+      },
+      {
+        "field": "watchlist_interest",
+        "reason": "No legally available watchlist source configured.",
+        "status": "unavailable"
+      },
+      {
+        "field": "verified_budget",
+        "reason": "No verified production-budget source configured.",
+        "status": "unavailable"
+      }
+    ]
+  },
+  "awards": {
+    "award_history": [],
+    "awards_tier": "No Current Awards Case",
+    "comparable_nominees": [],
+    "confidence": "Medium",
+    "current_awards_profile": "Unknown",
+    "explanation": "insufficient credible awards evidence",
+    "predicted_categories": [],
+    "probabilities": {}
+  },
+  "commercial": {
+    "commercial_significance": 37.0,
+    "distributor": "Unknown",
+    "franchise": "Franchise/Event",
+    "release_strategy": "Release radar monitoring",
+    "studio": [
+      "B\u00f6cek Film"
+    ]
+  },
+  "diagnostics": {
+    "completeness_score": 67,
+    "confidence": "Medium",
+    "missing_fields": [
+      "runtime",
+      "synopsis",
+      "distributor"
+    ],
+    "relationship_counts": {
+      "related_films": 6,
+      "related_people": 7,
+      "related_studios": 1
+    }
+  },
+  "editorial": {
+    "discovery_reason": "Upcoming Ipek Sorak film with editorial monitoring value.",
+    "editorial_category": "General Watch",
+    "editorial_summary": "Upcoming Ipek Sorak film with editorial monitoring value.",
+    "importance_tier": "Monitoring",
+    "primary_story": "generic generated rationale",
+    "story_strength": "Developing",
+    "why_it_matters": "Upcoming Ipek Sorak film with editorial monitoring value."
+  },
+  "festival": {
+    "awards_received": [],
+    "display_status": "No verified festival information in the current dataset.",
+    "festival_history": [],
+    "festival_status": "",
+    "premiere_type": ""
+  },
+  "film_identity": {
+    "backdrop": "",
+    "country": [],
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "id": "1608012",
+    "imdb_id": "",
+    "language": "",
+    "original_title": "A\u015fk Tesad\u00fcfleri Sever 3",
+    "poster": "https://image.tmdb.org/t/p/original/wrGthNKFe3UVKxXbAU470aspxlL.jpg",
+    "profile_payload_url": "data/films/1608012.json",
+    "profile_url": "film.html?id=1608012",
+    "release_date": "2026-11-20",
+    "release_display": "In theaters Nov. 20",
+    "runtime": null,
+    "synopsis": "",
+    "title": "A\u015fk Tesad\u00fcfleri Sever 3",
+    "tmdb_id": "1608012"
+  },
+  "metadata": {
+    "algorithm_version": "phase5b",
+    "generated_at": "20260722T161339Z",
+    "profile_version": "phase6a",
+    "source_data_date": "2026-07-20"
+  },
+  "related": {
+    "related_films": [
+      {
+        "profile_url": "film.html?id=1324688",
+        "relationship_score": 60,
+        "shared_signals": [
+          "General Watch",
+          "Drama",
+          "Romance",
+          "Unknown"
+        ],
+        "title": "7G Rainbow Colony 2",
+        "tmdb_id": "1324688"
+      },
+      {
+        "profile_url": "film.html?id=1440098",
+        "relationship_score": 60,
+        "shared_signals": [
+          "General Watch",
+          "Drama",
+          "Romance",
+          "Unknown"
+        ],
+        "title": "Drawn Together",
+        "tmdb_id": "1440098"
+      },
+      {
+        "profile_url": "film.html?id=1705668",
+        "relationship_score": 54,
+        "shared_signals": [
+          "General Watch",
+          "Drama",
+          "Unknown"
+        ],
+        "title": "Aa Bata Aama 2",
+        "tmdb_id": "1705668"
+      },
+      {
+        "profile_url": "film.html?id=1518403",
+        "relationship_score": 54,
+        "shared_signals": [
+          "General Watch",
+          "Drama",
+          "Unknown"
+        ],
+        "title": "Air Bud Returns",
+        "tmdb_id": "1518403"
+      },
+      {
+        "profile_url": "film.html?id=1200804",
+        "relationship_score": 54,
+        "shared_signals": [
+          "General Watch",
+          "Romance",
+          "Unknown"
+        ],
+        "title": "Alice J\u00fanior Summer Break",
+        "tmdb_id": "1200804"
+      },
+      {
+        "profile_url": "film.html?id=1323717",
+        "relationship_score": 54,
+        "shared_signals": [
+          "General Watch",
+          "Drama",
+          "Unknown"
+        ],
+        "title": "Confessions of a Brazilian Call Girl 2",
+        "tmdb_id": "1323717"
+      }
+    ],
+    "related_people": [
+      {
+        "name": "Ipek Sorak",
+        "role": "director"
+      },
+      {
+        "name": "Mehmet G\u00fcns\u00fcr",
+        "role": "actor"
+      },
+      {
+        "name": "Devrim \u00d6zkan",
+        "role": "actor"
+      },
+      {
+        "name": "\u00dclk\u00fc Hilal \u00c7ift\u00e7i",
+        "role": "actor"
+      },
+      {
+        "name": "Ayda Aksel",
+        "role": "actor"
+      },
+      {
+        "name": "H\u00fcseyin Avni Danyal",
+        "role": "actor"
+      },
+      {
+        "name": "G\u00fcler \u00d6kten",
+        "role": "actor"
+      }
+    ],
+    "related_studios": [
+      {
+        "name": "B\u00f6cek Film",
+        "role": "production_company"
+      }
+    ]
+  },
+  "signals": {
+    "cultural_significance": 37.0,
+    "last_updated": "2026-11-20",
+    "latest_event": {
+      "confidence": "Inferred",
+      "event_id": "1608012-0ec6bb5cab2e",
+      "event_type": "Release Scheduled",
+      "film_id": "1608012",
+      "importance": "Medium",
+      "metadata": {
+        "release_date": "2026-11-20"
+      },
+      "source_type": "metadata",
+      "summary": "Release currently scheduled for In theaters Nov. 20.",
+      "timestamp": "2026-11-20",
+      "title": "Release scheduled"
+    },
+    "latest_intelligence": "As of 2026-07-18, this is a unknown distributor release dated 2026-11-20 with general awards monitoring relevance; current awards profile is Unknown and data status is limited data.",
+    "momentum": 0.0,
+    "narrative_importance": 0,
+    "next_signal": "Confirm US distributor/release plan.",
+    "recent_activity": [
+      {
+        "confidence": "Inferred",
+        "event_id": "1608012-0ec6bb5cab2e",
+        "event_type": "Release Scheduled",
+        "film_id": "1608012",
+        "importance": "Medium",
+        "metadata": {
+          "release_date": "2026-11-20"
+        },
+        "source_type": "metadata",
+        "summary": "Release currently scheduled for In theaters Nov. 20.",
+        "timestamp": "2026-11-20",
+        "title": "Release scheduled"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1608012-8d8d17586e83",
+        "event_type": "Awards Tier Changed",
+        "film_id": "1608012",
+        "importance": "Medium",
+        "metadata": {
+          "awards_tier": "No Current Awards Case",
+          "categories": []
+        },
+        "source_type": "editorial_model",
+        "summary": "insufficient credible awards evidence",
+        "timestamp": "2026-07-22T16:13:39Z",
+        "title": "Awards tier assigned: No Current Awards Case"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1608012-105c8a5ac5a0",
+        "event_type": "Added To Database",
+        "film_id": "1608012",
+        "importance": "Low",
+        "metadata": {
+          "profile_version": "phase6a"
+        },
+        "source_type": "system",
+        "summary": "A\u015fk Tesad\u00fcfleri Sever 3 is tracked in the Film Intelligence profile set.",
+        "timestamp": "2026-07-22T16:13:39Z",
+        "title": "Added to Awards Intelligence"
+      }
+    ],
+    "release_relevance": 22.9,
+    "watch_triggers": [
+      "Awards-Season Release",
+      "Awards-Friendly Genre",
+      "Franchise/Event"
+    ],
+    "whats_changed": ""
+  },
+  "talent": {
+    "director": "Ipek Sorak",
+    "principal_cast": [
+      "Mehmet G\u00fcns\u00fcr",
+      "Devrim \u00d6zkan",
+      "\u00dclk\u00fc Hilal \u00c7ift\u00e7i",
+      "Ayda Aksel",
+      "H\u00fcseyin Avni Danyal",
+      "G\u00fcler \u00d6kten",
+      "U\u011fur Polat",
+      "Bennu Y\u0131ld\u0131r\u0131mlar"
+    ],
+    "producers": [],
+    "writers": []
+  },
+  "timeline": {
+    "events": [
+      {
+        "confidence": "Inferred",
+        "event_id": "1608012-0ec6bb5cab2e",
+        "event_type": "Release Scheduled",
+        "film_id": "1608012",
+        "importance": "Medium",
+        "metadata": {
+          "release_date": "2026-11-20"
+        },
+        "source_type": "metadata",
+        "summary": "Release currently scheduled for In theaters Nov. 20.",
+        "timestamp": "2026-11-20",
+        "title": "Release scheduled"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1608012-8d8d17586e83",
+        "event_type": "Awards Tier Changed",
+        "film_id": "1608012",
+        "importance": "Medium",
+        "metadata": {
+          "awards_tier": "No Current Awards Case",
+          "categories": []
+        },
+        "source_type": "editorial_model",
+        "summary": "insufficient credible awards evidence",
+        "timestamp": "2026-07-22T16:13:39Z",
+        "title": "Awards tier assigned: No Current Awards Case"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1608012-105c8a5ac5a0",
+        "event_type": "Added To Database",
+        "film_id": "1608012",
+        "importance": "Low",
+        "metadata": {
+          "profile_version": "phase6a"
+        },
+        "source_type": "system",
+        "summary": "A\u015fk Tesad\u00fcfleri Sever 3 is tracked in the Film Intelligence profile set.",
+        "timestamp": "2026-07-22T16:13:39Z",
+        "title": "Added to Awards Intelligence"
+      }
+    ],
+    "latest_event": {
+      "confidence": "Inferred",
+      "event_id": "1608012-0ec6bb5cab2e",
+      "event_type": "Release Scheduled",
+      "film_id": "1608012",
+      "importance": "Medium",
+      "metadata": {
+        "release_date": "2026-11-20"
+      },
+      "source_type": "metadata",
+      "summary": "Release currently scheduled for In theaters Nov. 20.",
+      "timestamp": "2026-11-20",
+      "title": "Release scheduled"
+    },
+    "recent_activity": [
+      {
+        "confidence": "Inferred",
+        "event_id": "1608012-0ec6bb5cab2e",
+        "event_type": "Release Scheduled",
+        "film_id": "1608012",
+        "importance": "Medium",
+        "metadata": {
+          "release_date": "2026-11-20"
+        },
+        "source_type": "metadata",
+        "summary": "Release currently scheduled for In theaters Nov. 20.",
+        "timestamp": "2026-11-20",
+        "title": "Release scheduled"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1608012-8d8d17586e83",
+        "event_type": "Awards Tier Changed",
+        "film_id": "1608012",
+        "importance": "Medium",
+        "metadata": {
+          "awards_tier": "No Current Awards Case",
+          "categories": []
+        },
+        "source_type": "editorial_model",
+        "summary": "insufficient credible awards evidence",
+        "timestamp": "2026-07-22T16:13:39Z",
+        "title": "Awards tier assigned: No Current Awards Case"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1608012-105c8a5ac5a0",
+        "event_type": "Added To Database",
+        "film_id": "1608012",
+        "importance": "Low",
+        "metadata": {
+          "profile_version": "phase6a"
+        },
+        "source_type": "system",
+        "summary": "A\u015fk Tesad\u00fcfleri Sever 3 is tracked in the Film Intelligence profile set.",
+        "timestamp": "2026-07-22T16:13:39Z",
+        "title": "Added to Awards Intelligence"
+      }
+    ],
+    "supported_event_types": [
+      "Trailer Released",
+      "Teaser Released",
+      "Poster Released",
+      "Festival Selection",
+      "Festival Premiere",
+      "Festival Award",
+      "Release Date Change",
+      "Release",
+      "Distributor Change",
+      "Cast Added",
+      "Director Added",
+      "Production Started",
+      "Production Wrapped",
+      "Oscar Prediction Changed",
+      "Awards Tier Changed",
+      "Review Published",
+      "Critics Score Updated",
+      "Audience Score Updated",
+      "Box Office Milestone",
+      "Streaming Release",
+      "Editorial Note",
+      "Manual Override",
+      "Added To Database",
+      "Release Scheduled",
+      "Homepage Featured"
+    ]
+  }
+}

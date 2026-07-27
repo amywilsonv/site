@@ -3,9 +3,19 @@ import { Code, Mail, Clapperboard } from "lucide-react"
 import { FilmStrip } from "@/components/film-strip"
 
 const work = [
-  { n: "01", status: "In Progress" },
-  { n: "02", status: "In Progress" },
-  { n: "03", status: "Planned" },
+  {
+    n: "01",
+    title: "The Screening Room",
+    href: "/projects/awards-intelligence",
+    status: "Hidden beta",
+  },
+  {
+    n: "02",
+    title: "Oscar Prediction Model",
+    href: "/projects/oscar-prediction",
+    status: "Published",
+  },
+  { n: "03", title: "Audience study", href: "/projects", status: "Planned" },
 ]
 
 const writingFrames = [
@@ -63,11 +73,22 @@ export default function Home() {
           </Link>
         </div>
         <div className="divide-y mb-12">
-          {work.map(({ n, status }) => (
-            <div key={n} className="flex items-center justify-between py-4">
-              <span className="text-sm text-muted-foreground tabular-nums">{n}</span>
-              <span className="text-xs text-muted-foreground">{status}</span>
-            </div>
+          {work.map(({ n, title, href, status }) => (
+            <Link
+              key={n}
+              href={href}
+              className="group flex items-center justify-between gap-6 py-4 transition-colors hover:text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-foreground/30"
+            >
+              <span className="flex min-w-0 items-center gap-4">
+                <span className="w-5 shrink-0 text-xs tabular-nums text-muted-foreground">
+                  {n}
+                </span>
+                <span className="truncate text-sm">{title}</span>
+              </span>
+              <span className="shrink-0 text-xs text-muted-foreground">
+                {status}
+              </span>
+            </Link>
           ))}
         </div>
       </section>

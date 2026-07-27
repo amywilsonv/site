@@ -1,0 +1,612 @@
+{
+  "attention_intelligence": {
+    "anticipation_level": "High",
+    "attention_confidence": "High",
+    "attention_reasons": [
+      "Most Anticipated",
+      "Major Filmmaker",
+      "Event Release"
+    ],
+    "attention_score": 77.3,
+    "attention_version": "phase7e_attention_v1",
+    "audience_interest": "Moderate",
+    "conversation_level": "Unavailable",
+    "cultural_relevance": "High",
+    "early_reception": null,
+    "evidence_sources": [
+      {
+        "evidence": "TMDb popularity 38.696",
+        "source": "audience_popularity",
+        "status": "verified"
+      },
+      {
+        "evidence": "Commercial scale and release context",
+        "source": "commercial_scale",
+        "status": "inferred"
+      },
+      {
+        "evidence": "Public-interest, franchise, event, or major-studio tracking signal",
+        "source": "event_awareness",
+        "status": "inferred"
+      },
+      {
+        "evidence": "Major distributor: Netflix",
+        "source": "distributor_scale",
+        "status": "verified"
+      },
+      {
+        "evidence": "Principal cast listed: Kit Connor, Joe Locke, William Gao, Yasmin Finney",
+        "source": "cast_interest",
+        "status": "verified"
+      },
+      {
+        "evidence": "Director: Wash Westmoreland",
+        "source": "filmmaker_interest",
+        "status": "verified"
+      },
+      {
+        "evidence": "Trailer URL present",
+        "source": "trailer_available",
+        "status": "verified"
+      },
+      {
+        "evidence": "Release date: 2026-07-17",
+        "source": "release_proximity",
+        "status": "verified"
+      },
+      {
+        "evidence": "41",
+        "source": "tmdb_vote_count",
+        "status": "verified"
+      }
+    ],
+    "homepage_spotlight_override": null,
+    "homepage_spotlight_score": 77.3,
+    "industry_interest": "High",
+    "last_updated": "20260722T161339Z",
+    "promotional_response": "Trailer available",
+    "score_families": {
+      "audience/popularity": {
+        "evidence_count": 2,
+        "score": 23.4,
+        "statuses": [
+          "verified"
+        ]
+      },
+      "commercial": {
+        "evidence_count": 1,
+        "score": 18.0,
+        "statuses": [
+          "inferred"
+        ]
+      },
+      "release": {
+        "evidence_count": 1,
+        "score": 2.0,
+        "statuses": [
+          "verified"
+        ]
+      },
+      "scale/event": {
+        "evidence_count": 2,
+        "score": 19.5,
+        "statuses": [
+          "inferred",
+          "verified"
+        ]
+      },
+      "talent/prestige": {
+        "evidence_count": 2,
+        "score": 14.4,
+        "statuses": [
+          "verified"
+        ]
+      }
+    },
+    "unavailable_attention_fields": [
+      {
+        "field": "search_interest",
+        "reason": "No configured Google Trends or comparable provider.",
+        "status": "unavailable"
+      },
+      {
+        "field": "trailer_engagement",
+        "reason": "Trailer URL is available, but engagement metrics are not ingested.",
+        "status": "unavailable"
+      },
+      {
+        "field": "social_conversation",
+        "reason": "No authorized social-listening provider configured.",
+        "status": "unavailable"
+      },
+      {
+        "field": "press_volume",
+        "reason": "No press-volume ingestion configured.",
+        "status": "unavailable"
+      },
+      {
+        "field": "watchlist_interest",
+        "reason": "No legally available watchlist source configured.",
+        "status": "unavailable"
+      },
+      {
+        "field": "verified_budget",
+        "reason": "No verified production-budget source configured.",
+        "status": "unavailable"
+      }
+    ]
+  },
+  "awards": {
+    "award_history": [],
+    "awards_tier": "No Current Awards Case",
+    "comparable_nominees": [],
+    "confidence": "High",
+    "current_awards_profile": "Developing",
+    "explanation": "insufficient credible awards evidence",
+    "predicted_categories": [
+      "Best Picture",
+      "Acting",
+      "Multiple Pathways"
+    ],
+    "probabilities": {}
+  },
+  "commercial": {
+    "commercial_significance": 82.0,
+    "distributor": "Netflix",
+    "franchise": "",
+    "release_strategy": "Active release campaign",
+    "studio": [
+      "See-Saw Films"
+    ]
+  },
+  "diagnostics": {
+    "completeness_score": 100,
+    "confidence": "High",
+    "missing_fields": [],
+    "relationship_counts": {
+      "related_films": 6,
+      "related_people": 7,
+      "related_studios": 2
+    }
+  },
+  "editorial": {
+    "discovery_reason": "Major Release - Wash Westmoreland film with large-scale commercial or public-interest signals.",
+    "editorial_category": "Major Release",
+    "editorial_summary": "Netflix release worth monitoring for Best Picture, Acting potential.",
+    "importance_tier": "Priority Watchlist",
+    "primary_story": "franchise/event-release signal; major studio or streamer scale; moderate TMDb popularity; public-interest release signal; filmmaker attached to large-scale release",
+    "story_strength": "Strong",
+    "why_it_matters": "Netflix release worth monitoring for Best Picture, Acting potential."
+  },
+  "festival": {
+    "awards_received": [],
+    "display_status": "No verified festival information in the current dataset.",
+    "festival_history": [],
+    "festival_status": "",
+    "premiere_type": ""
+  },
+  "film_identity": {
+    "backdrop": "https://image.tmdb.org/t/p/original/vvE7zc2aie3ozZcy5xYbg5QTFrF.jpg",
+    "country": [
+      "GB"
+    ],
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "id": "1468683",
+    "imdb_id": "",
+    "language": "en",
+    "original_title": "Heartstopper Forever",
+    "poster": "https://image.tmdb.org/t/p/original/r4lVJVO1BeBb11cBcXBdbHc9e9k.jpg",
+    "profile_payload_url": "data/films/1468683.json",
+    "profile_url": "film.html?id=1468683",
+    "release_date": "2026-07-17",
+    "release_display": "In theaters Jul. 17",
+    "runtime": 114,
+    "synopsis": "It's a new school year for the Truham-Higgs gang. As Nick and Charlie's relationship deepens, their thoughts turn to life after the last bell rings.",
+    "title": "Heartstopper Forever",
+    "tmdb_id": "1468683"
+  },
+  "metadata": {
+    "algorithm_version": "phase5b",
+    "generated_at": "20260722T161339Z",
+    "profile_version": "phase6a",
+    "source_data_date": "2026-07-20"
+  },
+  "related": {
+    "related_films": [
+      {
+        "profile_url": "film.html?id=1522689",
+        "relationship_score": 72,
+        "shared_signals": [
+          "Major Release",
+          "Drama",
+          "Romance",
+          "Acting"
+        ],
+        "title": "Why Did I Get Married Again?",
+        "tmdb_id": "1522689"
+      },
+      {
+        "profile_url": "film.html?id=1457866",
+        "relationship_score": 66,
+        "shared_signals": [
+          "Major Release",
+          "Drama",
+          "Acting",
+          "Best Picture"
+        ],
+        "title": "The Adventures of Cliff Booth",
+        "tmdb_id": "1457866"
+      },
+      {
+        "profile_url": "film.html?id=1365884",
+        "relationship_score": 50,
+        "shared_signals": [
+          "Drama",
+          "Acting",
+          "Best Picture",
+          "Netflix"
+        ],
+        "title": "Call My Agent! The Movie",
+        "tmdb_id": "1365884"
+      },
+      {
+        "profile_url": "film.html?id=1504358",
+        "relationship_score": 50,
+        "shared_signals": [
+          "Drama",
+          "Acting",
+          "Best Picture",
+          "Netflix"
+        ],
+        "title": "Don't Say Good Luck",
+        "tmdb_id": "1504358"
+      },
+      {
+        "profile_url": "film.html?id=1422041",
+        "relationship_score": 50,
+        "shared_signals": [
+          "Drama",
+          "Acting",
+          "Best Picture",
+          "Netflix"
+        ],
+        "title": "La Bola Negra",
+        "tmdb_id": "1422041"
+      },
+      {
+        "profile_url": "film.html?id=1487864",
+        "relationship_score": 50,
+        "shared_signals": [
+          "Drama",
+          "Acting",
+          "Best Picture",
+          "Netflix"
+        ],
+        "title": "Nando Between Two Worlds - A Sintonia Film",
+        "tmdb_id": "1487864"
+      }
+    ],
+    "related_people": [
+      {
+        "name": "Wash Westmoreland",
+        "role": "director"
+      },
+      {
+        "name": "Kit Connor",
+        "role": "actor"
+      },
+      {
+        "name": "Joe Locke",
+        "role": "actor"
+      },
+      {
+        "name": "William Gao",
+        "role": "actor"
+      },
+      {
+        "name": "Yasmin Finney",
+        "role": "actor"
+      },
+      {
+        "name": "Corinna Brown",
+        "role": "actor"
+      },
+      {
+        "name": "Kizzy Edgell",
+        "role": "actor"
+      }
+    ],
+    "related_studios": [
+      {
+        "name": "Netflix",
+        "role": "distributor"
+      },
+      {
+        "name": "See-Saw Films",
+        "role": "production_company"
+      }
+    ]
+  },
+  "signals": {
+    "cultural_significance": 82.0,
+    "last_updated": "2026-07-22T16:13:39Z",
+    "latest_event": {
+      "confidence": "Inferred",
+      "event_id": "1468683-a936bfbeac3c",
+      "event_type": "Homepage Featured",
+      "film_id": "1468683",
+      "importance": "Medium",
+      "metadata": {
+        "editorial_category": "Major Release"
+      },
+      "source_type": "discovery_homepage",
+      "summary": "Heartstopper Forever is currently selected for the homepage experience.",
+      "timestamp": "2026-07-22T16:13:39Z",
+      "title": "Featured in The Screening Room"
+    },
+    "latest_intelligence": "As of 2026-07-18, this is a Netflix release dated 2026-07-17 with Best Picture, Acting relevance; current awards profile is Developing and data status is developing.",
+    "momentum": 5.1,
+    "narrative_importance": 0,
+    "next_signal": "Watch for festival placement, reviews, and release-date movement.",
+    "recent_activity": [
+      {
+        "confidence": "Inferred",
+        "event_id": "1468683-a936bfbeac3c",
+        "event_type": "Homepage Featured",
+        "film_id": "1468683",
+        "importance": "Medium",
+        "metadata": {
+          "editorial_category": "Major Release"
+        },
+        "source_type": "discovery_homepage",
+        "summary": "Heartstopper Forever is currently selected for the homepage experience.",
+        "timestamp": "2026-07-22T16:13:39Z",
+        "title": "Featured in The Screening Room"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1468683-ac64b9796b00",
+        "event_type": "Distributor Change",
+        "film_id": "1468683",
+        "importance": "Medium",
+        "metadata": {
+          "distributor": "Netflix"
+        },
+        "source_type": "metadata",
+        "summary": "Current distributor is Netflix.",
+        "timestamp": "2026-07-22T16:13:39Z",
+        "title": "Distributor set: Netflix"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1468683-4f12f4e76c28",
+        "event_type": "Awards Tier Changed",
+        "film_id": "1468683",
+        "importance": "Medium",
+        "metadata": {
+          "awards_tier": "No Current Awards Case",
+          "categories": [
+            "Best Picture",
+            "Acting",
+            "Multiple Pathways"
+          ]
+        },
+        "source_type": "editorial_model",
+        "summary": "insufficient credible awards evidence",
+        "timestamp": "2026-07-22T16:13:39Z",
+        "title": "Awards tier assigned: No Current Awards Case"
+      }
+    ],
+    "release_relevance": 28.6,
+    "watch_triggers": [
+      "Prestige Distributor",
+      "Prestige Producer",
+      "Major Studio/Streamer",
+      "Awards-Friendly Genre",
+      "Public Interest",
+      "Trailer Available"
+    ],
+    "whats_changed": "TMDb audience ratings are now available."
+  },
+  "talent": {
+    "director": "Wash Westmoreland",
+    "principal_cast": [
+      "Kit Connor",
+      "Joe Locke",
+      "William Gao",
+      "Yasmin Finney",
+      "Corinna Brown",
+      "Kizzy Edgell",
+      "Tobie Donovan",
+      "Jenny Walser"
+    ],
+    "producers": [],
+    "writers": []
+  },
+  "timeline": {
+    "events": [
+      {
+        "confidence": "Inferred",
+        "event_id": "1468683-a936bfbeac3c",
+        "event_type": "Homepage Featured",
+        "film_id": "1468683",
+        "importance": "Medium",
+        "metadata": {
+          "editorial_category": "Major Release"
+        },
+        "source_type": "discovery_homepage",
+        "summary": "Heartstopper Forever is currently selected for the homepage experience.",
+        "timestamp": "2026-07-22T16:13:39Z",
+        "title": "Featured in The Screening Room"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1468683-ac64b9796b00",
+        "event_type": "Distributor Change",
+        "film_id": "1468683",
+        "importance": "Medium",
+        "metadata": {
+          "distributor": "Netflix"
+        },
+        "source_type": "metadata",
+        "summary": "Current distributor is Netflix.",
+        "timestamp": "2026-07-22T16:13:39Z",
+        "title": "Distributor set: Netflix"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1468683-4f12f4e76c28",
+        "event_type": "Awards Tier Changed",
+        "film_id": "1468683",
+        "importance": "Medium",
+        "metadata": {
+          "awards_tier": "No Current Awards Case",
+          "categories": [
+            "Best Picture",
+            "Acting",
+            "Multiple Pathways"
+          ]
+        },
+        "source_type": "editorial_model",
+        "summary": "insufficient credible awards evidence",
+        "timestamp": "2026-07-22T16:13:39Z",
+        "title": "Awards tier assigned: No Current Awards Case"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1468683-a3d45ef96dc2",
+        "event_type": "Added To Database",
+        "film_id": "1468683",
+        "importance": "Low",
+        "metadata": {
+          "profile_version": "phase6a"
+        },
+        "source_type": "system",
+        "summary": "Heartstopper Forever is tracked in the Film Intelligence profile set.",
+        "timestamp": "2026-07-22T16:13:39Z",
+        "title": "Added to Awards Intelligence"
+      },
+      {
+        "confidence": "Verified",
+        "event_id": "1468683-f8587a2196a7",
+        "event_type": "Audience Score Updated",
+        "film_id": "1468683",
+        "importance": "Medium",
+        "metadata": {
+          "next_signal": "Watch for festival placement, reviews, and release-date movement."
+        },
+        "source_type": "refresh_log",
+        "summary": "TMDb audience ratings are now available.",
+        "timestamp": "2026-07-20",
+        "title": "TMDb audience ratings are now available"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1468683-9c59e96b3e29",
+        "event_type": "Release Scheduled",
+        "film_id": "1468683",
+        "importance": "Medium",
+        "metadata": {
+          "release_date": "2026-07-17"
+        },
+        "source_type": "metadata",
+        "summary": "Release currently scheduled for In theaters Jul. 17.",
+        "timestamp": "2026-07-17",
+        "title": "Release scheduled"
+      }
+    ],
+    "latest_event": {
+      "confidence": "Inferred",
+      "event_id": "1468683-a936bfbeac3c",
+      "event_type": "Homepage Featured",
+      "film_id": "1468683",
+      "importance": "Medium",
+      "metadata": {
+        "editorial_category": "Major Release"
+      },
+      "source_type": "discovery_homepage",
+      "summary": "Heartstopper Forever is currently selected for the homepage experience.",
+      "timestamp": "2026-07-22T16:13:39Z",
+      "title": "Featured in The Screening Room"
+    },
+    "recent_activity": [
+      {
+        "confidence": "Inferred",
+        "event_id": "1468683-a936bfbeac3c",
+        "event_type": "Homepage Featured",
+        "film_id": "1468683",
+        "importance": "Medium",
+        "metadata": {
+          "editorial_category": "Major Release"
+        },
+        "source_type": "discovery_homepage",
+        "summary": "Heartstopper Forever is currently selected for the homepage experience.",
+        "timestamp": "2026-07-22T16:13:39Z",
+        "title": "Featured in The Screening Room"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1468683-ac64b9796b00",
+        "event_type": "Distributor Change",
+        "film_id": "1468683",
+        "importance": "Medium",
+        "metadata": {
+          "distributor": "Netflix"
+        },
+        "source_type": "metadata",
+        "summary": "Current distributor is Netflix.",
+        "timestamp": "2026-07-22T16:13:39Z",
+        "title": "Distributor set: Netflix"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1468683-4f12f4e76c28",
+        "event_type": "Awards Tier Changed",
+        "film_id": "1468683",
+        "importance": "Medium",
+        "metadata": {
+          "awards_tier": "No Current Awards Case",
+          "categories": [
+            "Best Picture",
+            "Acting",
+            "Multiple Pathways"
+          ]
+        },
+        "source_type": "editorial_model",
+        "summary": "insufficient credible awards evidence",
+        "timestamp": "2026-07-22T16:13:39Z",
+        "title": "Awards tier assigned: No Current Awards Case"
+      }
+    ],
+    "supported_event_types": [
+      "Trailer Released",
+      "Teaser Released",
+      "Poster Released",
+      "Festival Selection",
+      "Festival Premiere",
+      "Festival Award",
+      "Release Date Change",
+      "Release",
+      "Distributor Change",
+      "Cast Added",
+      "Director Added",
+      "Production Started",
+      "Production Wrapped",
+      "Oscar Prediction Changed",
+      "Awards Tier Changed",
+      "Review Published",
+      "Critics Score Updated",
+      "Audience Score Updated",
+      "Box Office Milestone",
+      "Streaming Release",
+      "Editorial Note",
+      "Manual Override",
+      "Added To Database",
+      "Release Scheduled",
+      "Homepage Featured"
+    ]
+  }
+}

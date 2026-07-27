@@ -1,0 +1,83 @@
+{
+  "events": [
+    {
+      "confidence": "Inferred",
+      "event_id": "1549315-2c4d454cf25b",
+      "event_type": "Release Scheduled",
+      "film_id": "1549315",
+      "importance": "Medium",
+      "metadata": {
+        "release_date": "2026-09-04"
+      },
+      "source_type": "metadata",
+      "summary": "Release currently scheduled for In theaters Sep. 4.",
+      "timestamp": "2026-09-04",
+      "title": "Release scheduled"
+    },
+    {
+      "confidence": "Inferred",
+      "event_id": "1549315-16c526216472",
+      "event_type": "Awards Tier Changed",
+      "film_id": "1549315",
+      "importance": "Medium",
+      "metadata": {
+        "awards_tier": "No Current Awards Case",
+        "categories": []
+      },
+      "source_type": "editorial_model",
+      "summary": "insufficient credible awards evidence",
+      "timestamp": "2026-07-22T16:13:39Z",
+      "title": "Awards tier assigned: No Current Awards Case"
+    },
+    {
+      "confidence": "Inferred",
+      "event_id": "1549315-8bf3b3145c63",
+      "event_type": "Added To Database",
+      "film_id": "1549315",
+      "importance": "Low",
+      "metadata": {
+        "profile_version": "phase6a"
+      },
+      "source_type": "system",
+      "summary": "Operation Cronos is tracked in the Film Intelligence profile set.",
+      "timestamp": "2026-07-22T16:13:39Z",
+      "title": "Added to Awards Intelligence"
+    },
+    {
+      "confidence": "Verified",
+      "event_id": "1549315-4f9f5f78c596",
+      "event_type": "Release Date Change",
+      "film_id": "1549315",
+      "importance": "High",
+      "metadata": {
+        "next_signal": "Confirm US distributor/release plan."
+      },
+      "source_type": "refresh_log",
+      "summary": "Release moved up to 2026-09-04.",
+      "timestamp": "2026-07-20",
+      "title": "Release moved up to 2026-09-04"
+    }
+  ],
+  "latest_event": {
+    "confidence": "Inferred",
+    "event_id": "1549315-2c4d454cf25b",
+    "event_type": "Release Scheduled",
+    "film_id": "1549315",
+    "importance": "Medium",
+    "metadata": {
+      "release_date": "2026-09-04"
+    },
+    "source_type": "metadata",
+    "summary": "Release currently scheduled for In theaters Sep. 4.",
+    "timestamp": "2026-09-04",
+    "title": "Release scheduled"
+  },
+  "metadata": {
+    "event_count": 4,
+    "film_id": "1549315",
+    "generated_at": "20260722T161339Z",
+    "timeline_version": "phase6b",
+    "title": "Operation Cronos",
+    "tmdb_id": "1549315"
+  }
+}

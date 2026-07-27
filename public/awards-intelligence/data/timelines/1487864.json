@@ -1,0 +1,87 @@
+{
+  "events": [
+    {
+      "confidence": "Inferred",
+      "event_id": "1487864-78cd09e64f47",
+      "event_type": "Release Scheduled",
+      "film_id": "1487864",
+      "importance": "Medium",
+      "metadata": {
+        "release_date": "2026-08-12"
+      },
+      "source_type": "metadata",
+      "summary": "Release currently scheduled for In theaters Aug. 12.",
+      "timestamp": "2026-08-12",
+      "title": "Release scheduled"
+    },
+    {
+      "confidence": "Inferred",
+      "event_id": "1487864-05ccf99de661",
+      "event_type": "Distributor Change",
+      "film_id": "1487864",
+      "importance": "Medium",
+      "metadata": {
+        "distributor": "Netflix"
+      },
+      "source_type": "metadata",
+      "summary": "Current distributor is Netflix.",
+      "timestamp": "2026-07-22T16:13:39Z",
+      "title": "Distributor set: Netflix"
+    },
+    {
+      "confidence": "Inferred",
+      "event_id": "1487864-b0dc8e191f5b",
+      "event_type": "Awards Tier Changed",
+      "film_id": "1487864",
+      "importance": "Medium",
+      "metadata": {
+        "awards_tier": "No Current Awards Case",
+        "categories": [
+          "Best Picture",
+          "Acting",
+          "Multiple Pathways"
+        ]
+      },
+      "source_type": "editorial_model",
+      "summary": "insufficient credible awards evidence",
+      "timestamp": "2026-07-22T16:13:39Z",
+      "title": "Awards tier assigned: No Current Awards Case"
+    },
+    {
+      "confidence": "Inferred",
+      "event_id": "1487864-ee14e7e482a5",
+      "event_type": "Added To Database",
+      "film_id": "1487864",
+      "importance": "Low",
+      "metadata": {
+        "profile_version": "phase6a"
+      },
+      "source_type": "system",
+      "summary": "Nando Between Two Worlds - A Sintonia Film is tracked in the Film Intelligence profile set.",
+      "timestamp": "2026-07-22T16:13:39Z",
+      "title": "Added to Awards Intelligence"
+    }
+  ],
+  "latest_event": {
+    "confidence": "Inferred",
+    "event_id": "1487864-78cd09e64f47",
+    "event_type": "Release Scheduled",
+    "film_id": "1487864",
+    "importance": "Medium",
+    "metadata": {
+      "release_date": "2026-08-12"
+    },
+    "source_type": "metadata",
+    "summary": "Release currently scheduled for In theaters Aug. 12.",
+    "timestamp": "2026-08-12",
+    "title": "Release scheduled"
+  },
+  "metadata": {
+    "event_count": 4,
+    "film_id": "1487864",
+    "generated_at": "20260722T161339Z",
+    "timeline_version": "phase6b",
+    "title": "Nando Between Two Worlds - A Sintonia Film",
+    "tmdb_id": "1487864"
+  }
+}

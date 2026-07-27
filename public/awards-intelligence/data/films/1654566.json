@@ -1,0 +1,572 @@
+{
+  "attention_intelligence": {
+    "anticipation_level": "Developing",
+    "attention_confidence": "High",
+    "attention_reasons": [
+      "Most Anticipated",
+      "Major Filmmaker",
+      "Event Release"
+    ],
+    "attention_score": 48.1,
+    "attention_version": "phase7e_attention_v1",
+    "audience_interest": "Developing",
+    "conversation_level": "Unavailable",
+    "cultural_relevance": null,
+    "early_reception": null,
+    "evidence_sources": [
+      {
+        "evidence": "Public-interest, franchise, event, or major-studio tracking signal",
+        "source": "event_awareness",
+        "status": "inferred"
+      },
+      {
+        "evidence": "Major distributor: Amazon MGM Studios",
+        "source": "distributor_scale",
+        "status": "verified"
+      },
+      {
+        "evidence": "Principal cast listed: Preity Zinta, Kunal Khemu, Sparsh Shrivastava, Vanshika dhir",
+        "source": "cast_interest",
+        "status": "verified"
+      },
+      {
+        "evidence": "Release date: 2026-09-18",
+        "source": "release_proximity",
+        "status": "verified"
+      },
+      {
+        "evidence": "TMDb popularity 2.238",
+        "source": "audience_popularity",
+        "status": "verified"
+      },
+      {
+        "evidence": "Commercial scale and release context",
+        "source": "commercial_scale",
+        "status": "inferred"
+      },
+      {
+        "evidence": "Director: Kunal Khemu",
+        "source": "filmmaker_interest",
+        "status": "verified"
+      }
+    ],
+    "homepage_spotlight_override": null,
+    "homepage_spotlight_score": 48.1,
+    "industry_interest": null,
+    "last_updated": "20260722T161339Z",
+    "promotional_response": null,
+    "score_families": {
+      "audience/popularity": {
+        "evidence_count": 1,
+        "score": 6.1,
+        "statuses": [
+          "verified"
+        ]
+      },
+      "commercial": {
+        "evidence_count": 1,
+        "score": 4.9,
+        "statuses": [
+          "inferred"
+        ]
+      },
+      "release": {
+        "evidence_count": 1,
+        "score": 7.0,
+        "statuses": [
+          "verified"
+        ]
+      },
+      "scale/event": {
+        "evidence_count": 2,
+        "score": 19.5,
+        "statuses": [
+          "inferred",
+          "verified"
+        ]
+      },
+      "talent/prestige": {
+        "evidence_count": 2,
+        "score": 10.6,
+        "statuses": [
+          "verified"
+        ]
+      }
+    },
+    "unavailable_attention_fields": [
+      {
+        "field": "search_interest",
+        "reason": "No configured Google Trends or comparable provider.",
+        "status": "unavailable"
+      },
+      {
+        "field": "trailer_engagement",
+        "reason": "Trailer URL is available, but engagement metrics are not ingested.",
+        "status": "unavailable"
+      },
+      {
+        "field": "social_conversation",
+        "reason": "No authorized social-listening provider configured.",
+        "status": "unavailable"
+      },
+      {
+        "field": "press_volume",
+        "reason": "No press-volume ingestion configured.",
+        "status": "unavailable"
+      },
+      {
+        "field": "watchlist_interest",
+        "reason": "No legally available watchlist source configured.",
+        "status": "unavailable"
+      },
+      {
+        "field": "verified_budget",
+        "reason": "No verified production-budget source configured.",
+        "status": "unavailable"
+      }
+    ]
+  },
+  "awards": {
+    "award_history": [],
+    "awards_tier": "No Current Awards Case",
+    "comparable_nominees": [],
+    "confidence": "Medium",
+    "current_awards_profile": "Developing",
+    "explanation": "insufficient credible awards evidence",
+    "predicted_categories": [
+      "Best Picture",
+      "Acting",
+      "Multiple Pathways"
+    ],
+    "probabilities": {}
+  },
+  "commercial": {
+    "commercial_significance": 19.0,
+    "distributor": "Amazon MGM Studios",
+    "franchise": "",
+    "release_strategy": "Streamer awards release",
+    "studio": [
+      "Drongo Films",
+      "Amazon MGM Studios"
+    ]
+  },
+  "diagnostics": {
+    "completeness_score": 78,
+    "confidence": "Medium",
+    "missing_fields": [
+      "runtime",
+      "poster"
+    ],
+    "relationship_counts": {
+      "related_films": 6,
+      "related_people": 6,
+      "related_studios": 3
+    }
+  },
+  "editorial": {
+    "discovery_reason": "Amazon MGM Studios release worth monitoring for Acting potential.",
+    "editorial_category": "General Watch",
+    "editorial_summary": "Amazon MGM Studios release worth monitoring for Acting potential.",
+    "importance_tier": "Priority Watchlist",
+    "primary_story": "generic generated rationale",
+    "story_strength": "Developing",
+    "why_it_matters": "Amazon MGM Studios release worth monitoring for Acting potential."
+  },
+  "festival": {
+    "awards_received": [],
+    "display_status": "No verified festival information in the current dataset.",
+    "festival_history": [],
+    "festival_status": "",
+    "premiere_type": ""
+  },
+  "film_identity": {
+    "backdrop": "",
+    "country": [],
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "id": "1654566",
+    "imdb_id": "",
+    "language": "",
+    "original_title": "Vibe",
+    "poster": "",
+    "profile_payload_url": "data/films/1654566.json",
+    "profile_url": "film.html?id=1654566",
+    "release_date": "2026-09-18",
+    "release_display": "In theaters Sep. 18",
+    "runtime": null,
+    "synopsis": "Two inseparable friends' ordinary, unassuming lives spiral into an unpredictable, high-energy adventure that pushes their survival instincts and friendship to the limit.",
+    "title": "Vibe",
+    "tmdb_id": "1654566"
+  },
+  "metadata": {
+    "algorithm_version": "phase5b",
+    "generated_at": "20260722T161339Z",
+    "profile_version": "phase6a",
+    "source_data_date": "2026-07-20"
+  },
+  "related": {
+    "related_films": [
+      {
+        "profile_url": "film.html?id=1479690",
+        "relationship_score": 66,
+        "shared_signals": [
+          "General Watch",
+          "Drama",
+          "Acting",
+          "Best Picture"
+        ],
+        "title": "RaftaaR",
+        "tmdb_id": "1479690"
+      },
+      {
+        "profile_url": "film.html?id=1365884",
+        "relationship_score": 62,
+        "shared_signals": [
+          "General Watch",
+          "Comedy",
+          "Drama",
+          "Acting"
+        ],
+        "title": "Call My Agent! The Movie",
+        "tmdb_id": "1365884"
+      },
+      {
+        "profile_url": "film.html?id=1504358",
+        "relationship_score": 62,
+        "shared_signals": [
+          "General Watch",
+          "Comedy",
+          "Drama",
+          "Acting"
+        ],
+        "title": "Don't Say Good Luck",
+        "tmdb_id": "1504358"
+      },
+      {
+        "profile_url": "film.html?id=1437882",
+        "relationship_score": 56,
+        "shared_signals": [
+          "General Watch",
+          "Drama",
+          "Acting",
+          "Best Picture"
+        ],
+        "title": "A Place in Hell",
+        "tmdb_id": "1437882"
+      },
+      {
+        "profile_url": "film.html?id=1286656",
+        "relationship_score": 56,
+        "shared_signals": [
+          "General Watch",
+          "Drama",
+          "Acting",
+          "Best Picture"
+        ],
+        "title": "I Play Rocky",
+        "tmdb_id": "1286656"
+      },
+      {
+        "profile_url": "film.html?id=1422041",
+        "relationship_score": 56,
+        "shared_signals": [
+          "General Watch",
+          "Drama",
+          "Acting",
+          "Best Picture"
+        ],
+        "title": "La Bola Negra",
+        "tmdb_id": "1422041"
+      }
+    ],
+    "related_people": [
+      {
+        "name": "Kunal Khemu",
+        "role": "director"
+      },
+      {
+        "name": "Preity Zinta",
+        "role": "actor"
+      },
+      {
+        "name": "Sparsh Shrivastava",
+        "role": "actor"
+      },
+      {
+        "name": "Vanshika dhir",
+        "role": "actor"
+      },
+      {
+        "name": "Dinesh Lal Yadav Nirahua",
+        "role": "actor"
+      },
+      {
+        "name": "Yashpal Sharma",
+        "role": "actor"
+      }
+    ],
+    "related_studios": [
+      {
+        "name": "Amazon MGM Studios",
+        "role": "distributor"
+      },
+      {
+        "name": "Drongo Films",
+        "role": "production_company"
+      },
+      {
+        "name": "Amazon MGM Studios",
+        "role": "production_company"
+      }
+    ]
+  },
+  "signals": {
+    "cultural_significance": 19.0,
+    "last_updated": "2026-09-18",
+    "latest_event": {
+      "confidence": "Inferred",
+      "event_id": "1654566-b3b7a47ba1c4",
+      "event_type": "Release Scheduled",
+      "film_id": "1654566",
+      "importance": "Medium",
+      "metadata": {
+        "release_date": "2026-09-18"
+      },
+      "source_type": "metadata",
+      "summary": "Release currently scheduled for In theaters Sep. 18.",
+      "timestamp": "2026-09-18",
+      "title": "Release scheduled"
+    },
+    "latest_intelligence": "As of 2026-07-18, this is a Amazon MGM Studios release dated 2026-09-18 with Best Picture, Acting relevance; current awards profile is Developing and data status is developing.",
+    "momentum": 0.0,
+    "narrative_importance": 0,
+    "next_signal": "Watch for trailer and first campaign positioning.",
+    "recent_activity": [
+      {
+        "confidence": "Inferred",
+        "event_id": "1654566-b3b7a47ba1c4",
+        "event_type": "Release Scheduled",
+        "film_id": "1654566",
+        "importance": "Medium",
+        "metadata": {
+          "release_date": "2026-09-18"
+        },
+        "source_type": "metadata",
+        "summary": "Release currently scheduled for In theaters Sep. 18.",
+        "timestamp": "2026-09-18",
+        "title": "Release scheduled"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1654566-91d659c06505",
+        "event_type": "Distributor Change",
+        "film_id": "1654566",
+        "importance": "Medium",
+        "metadata": {
+          "distributor": "Amazon MGM Studios"
+        },
+        "source_type": "metadata",
+        "summary": "Current distributor is Amazon MGM Studios.",
+        "timestamp": "2026-07-22T16:13:39Z",
+        "title": "Distributor set: Amazon MGM Studios"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1654566-3ef9a7c4357c",
+        "event_type": "Awards Tier Changed",
+        "film_id": "1654566",
+        "importance": "Medium",
+        "metadata": {
+          "awards_tier": "No Current Awards Case",
+          "categories": [
+            "Best Picture",
+            "Acting",
+            "Multiple Pathways"
+          ]
+        },
+        "source_type": "editorial_model",
+        "summary": "insufficient credible awards evidence",
+        "timestamp": "2026-07-22T16:13:39Z",
+        "title": "Awards tier assigned: No Current Awards Case"
+      }
+    ],
+    "release_relevance": 28.0,
+    "watch_triggers": [
+      "Prestige Distributor",
+      "Major Studio/Streamer",
+      "Awards-Season Release",
+      "Awards-Friendly Genre"
+    ],
+    "whats_changed": ""
+  },
+  "talent": {
+    "director": "Kunal Khemu",
+    "principal_cast": [
+      "Preity Zinta",
+      "Kunal Khemu",
+      "Sparsh Shrivastava",
+      "Vanshika dhir",
+      "Dinesh Lal Yadav Nirahua",
+      "Yashpal Sharma"
+    ],
+    "producers": [],
+    "writers": []
+  },
+  "timeline": {
+    "events": [
+      {
+        "confidence": "Inferred",
+        "event_id": "1654566-b3b7a47ba1c4",
+        "event_type": "Release Scheduled",
+        "film_id": "1654566",
+        "importance": "Medium",
+        "metadata": {
+          "release_date": "2026-09-18"
+        },
+        "source_type": "metadata",
+        "summary": "Release currently scheduled for In theaters Sep. 18.",
+        "timestamp": "2026-09-18",
+        "title": "Release scheduled"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1654566-91d659c06505",
+        "event_type": "Distributor Change",
+        "film_id": "1654566",
+        "importance": "Medium",
+        "metadata": {
+          "distributor": "Amazon MGM Studios"
+        },
+        "source_type": "metadata",
+        "summary": "Current distributor is Amazon MGM Studios.",
+        "timestamp": "2026-07-22T16:13:39Z",
+        "title": "Distributor set: Amazon MGM Studios"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1654566-3ef9a7c4357c",
+        "event_type": "Awards Tier Changed",
+        "film_id": "1654566",
+        "importance": "Medium",
+        "metadata": {
+          "awards_tier": "No Current Awards Case",
+          "categories": [
+            "Best Picture",
+            "Acting",
+            "Multiple Pathways"
+          ]
+        },
+        "source_type": "editorial_model",
+        "summary": "insufficient credible awards evidence",
+        "timestamp": "2026-07-22T16:13:39Z",
+        "title": "Awards tier assigned: No Current Awards Case"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1654566-4b12989e0167",
+        "event_type": "Added To Database",
+        "film_id": "1654566",
+        "importance": "Low",
+        "metadata": {
+          "profile_version": "phase6a"
+        },
+        "source_type": "system",
+        "summary": "Vibe is tracked in the Film Intelligence profile set.",
+        "timestamp": "2026-07-22T16:13:39Z",
+        "title": "Added to Awards Intelligence"
+      }
+    ],
+    "latest_event": {
+      "confidence": "Inferred",
+      "event_id": "1654566-b3b7a47ba1c4",
+      "event_type": "Release Scheduled",
+      "film_id": "1654566",
+      "importance": "Medium",
+      "metadata": {
+        "release_date": "2026-09-18"
+      },
+      "source_type": "metadata",
+      "summary": "Release currently scheduled for In theaters Sep. 18.",
+      "timestamp": "2026-09-18",
+      "title": "Release scheduled"
+    },
+    "recent_activity": [
+      {
+        "confidence": "Inferred",
+        "event_id": "1654566-b3b7a47ba1c4",
+        "event_type": "Release Scheduled",
+        "film_id": "1654566",
+        "importance": "Medium",
+        "metadata": {
+          "release_date": "2026-09-18"
+        },
+        "source_type": "metadata",
+        "summary": "Release currently scheduled for In theaters Sep. 18.",
+        "timestamp": "2026-09-18",
+        "title": "Release scheduled"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1654566-91d659c06505",
+        "event_type": "Distributor Change",
+        "film_id": "1654566",
+        "importance": "Medium",
+        "metadata": {
+          "distributor": "Amazon MGM Studios"
+        },
+        "source_type": "metadata",
+        "summary": "Current distributor is Amazon MGM Studios.",
+        "timestamp": "2026-07-22T16:13:39Z",
+        "title": "Distributor set: Amazon MGM Studios"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1654566-3ef9a7c4357c",
+        "event_type": "Awards Tier Changed",
+        "film_id": "1654566",
+        "importance": "Medium",
+        "metadata": {
+          "awards_tier": "No Current Awards Case",
+          "categories": [
+            "Best Picture",
+            "Acting",
+            "Multiple Pathways"
+          ]
+        },
+        "source_type": "editorial_model",
+        "summary": "insufficient credible awards evidence",
+        "timestamp": "2026-07-22T16:13:39Z",
+        "title": "Awards tier assigned: No Current Awards Case"
+      }
+    ],
+    "supported_event_types": [
+      "Trailer Released",
+      "Teaser Released",
+      "Poster Released",
+      "Festival Selection",
+      "Festival Premiere",
+      "Festival Award",
+      "Release Date Change",
+      "Release",
+      "Distributor Change",
+      "Cast Added",
+      "Director Added",
+      "Production Started",
+      "Production Wrapped",
+      "Oscar Prediction Changed",
+      "Awards Tier Changed",
+      "Review Published",
+      "Critics Score Updated",
+      "Audience Score Updated",
+      "Box Office Milestone",
+      "Streaming Release",
+      "Editorial Note",
+      "Manual Override",
+      "Added To Database",
+      "Release Scheduled",
+      "Homepage Featured"
+    ]
+  }
+}

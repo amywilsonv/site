@@ -1,0 +1,533 @@
+{
+  "attention_intelligence": {
+    "anticipation_level": "Moderate",
+    "attention_confidence": "High",
+    "attention_reasons": [
+      "Most Anticipated",
+      "Major Filmmaker",
+      "Event Release"
+    ],
+    "attention_score": 52.7,
+    "attention_version": "phase7e_attention_v1",
+    "audience_interest": "Developing",
+    "conversation_level": "Unavailable",
+    "cultural_relevance": null,
+    "early_reception": null,
+    "evidence_sources": [
+      {
+        "evidence": "Public-interest, franchise, event, or major-studio tracking signal",
+        "source": "event_awareness",
+        "status": "inferred"
+      },
+      {
+        "evidence": "Franchise, sequel, or recognizable IP signal in available metadata",
+        "source": "franchise_ip_recognition",
+        "status": "inferred"
+      },
+      {
+        "evidence": "Principal cast listed: Roscoe, Aydin Artis, Tracy Ifeachor, Edwin Lee Gibson",
+        "source": "cast_interest",
+        "status": "verified"
+      },
+      {
+        "evidence": "Commercial scale and release context",
+        "source": "commercial_scale",
+        "status": "inferred"
+      },
+      {
+        "evidence": "TMDb popularity 1.787",
+        "source": "audience_popularity",
+        "status": "verified"
+      },
+      {
+        "evidence": "Release date: 2027-01-22",
+        "source": "release_proximity",
+        "status": "verified"
+      },
+      {
+        "evidence": "Director: Robert Vince",
+        "source": "filmmaker_interest",
+        "status": "verified"
+      }
+    ],
+    "homepage_spotlight_override": null,
+    "homepage_spotlight_score": 52.7,
+    "industry_interest": "Moderate",
+    "last_updated": "20260722T161339Z",
+    "promotional_response": null,
+    "score_families": {
+      "audience/popularity": {
+        "evidence_count": 1,
+        "score": 5.3,
+        "statuses": [
+          "verified"
+        ]
+      },
+      "commercial": {
+        "evidence_count": 1,
+        "score": 9.6,
+        "statuses": [
+          "inferred"
+        ]
+      },
+      "release": {
+        "evidence_count": 1,
+        "score": 5.0,
+        "statuses": [
+          "verified"
+        ]
+      },
+      "scale/event": {
+        "evidence_count": 2,
+        "score": 20.6,
+        "statuses": [
+          "inferred"
+        ]
+      },
+      "talent/prestige": {
+        "evidence_count": 2,
+        "score": 12.2,
+        "statuses": [
+          "verified"
+        ]
+      }
+    },
+    "unavailable_attention_fields": [
+      {
+        "field": "search_interest",
+        "reason": "No configured Google Trends or comparable provider.",
+        "status": "unavailable"
+      },
+      {
+        "field": "trailer_engagement",
+        "reason": "Trailer URL is available, but engagement metrics are not ingested.",
+        "status": "unavailable"
+      },
+      {
+        "field": "social_conversation",
+        "reason": "No authorized social-listening provider configured.",
+        "status": "unavailable"
+      },
+      {
+        "field": "press_volume",
+        "reason": "No press-volume ingestion configured.",
+        "status": "unavailable"
+      },
+      {
+        "field": "watchlist_interest",
+        "reason": "No legally available watchlist source configured.",
+        "status": "unavailable"
+      },
+      {
+        "field": "verified_budget",
+        "reason": "No verified production-budget source configured.",
+        "status": "unavailable"
+      }
+    ]
+  },
+  "awards": {
+    "award_history": [],
+    "awards_tier": "No Current Awards Case",
+    "comparable_nominees": [],
+    "confidence": "Medium",
+    "current_awards_profile": "Unknown",
+    "explanation": "insufficient credible awards evidence",
+    "predicted_categories": [],
+    "probabilities": {}
+  },
+  "commercial": {
+    "commercial_significance": 37.0,
+    "distributor": "Unknown",
+    "franchise": "Franchise/Event",
+    "release_strategy": "Release radar monitoring",
+    "studio": [
+      "Air Bud Entertainment"
+    ]
+  },
+  "diagnostics": {
+    "completeness_score": 78,
+    "confidence": "Medium",
+    "missing_fields": [
+      "runtime",
+      "distributor"
+    ],
+    "relationship_counts": {
+      "related_films": 6,
+      "related_people": 7,
+      "related_studios": 1
+    }
+  },
+  "editorial": {
+    "discovery_reason": "Upcoming Robert Vince film with editorial monitoring value.",
+    "editorial_category": "General Watch",
+    "editorial_summary": "Upcoming Robert Vince film with editorial monitoring value.",
+    "importance_tier": "Monitoring",
+    "primary_story": "filmmaker/editorial hook; generic generated rationale",
+    "story_strength": "Developing",
+    "why_it_matters": "Upcoming Robert Vince film with editorial monitoring value."
+  },
+  "festival": {
+    "awards_received": [],
+    "display_status": "No verified festival information in the current dataset.",
+    "festival_history": [],
+    "festival_status": "",
+    "premiere_type": ""
+  },
+  "film_identity": {
+    "backdrop": "",
+    "country": [],
+    "genres": [
+      "Family",
+      "Drama"
+    ],
+    "id": "1518403",
+    "imdb_id": "",
+    "language": "",
+    "original_title": "Air Bud Returns",
+    "poster": "https://image.tmdb.org/t/p/original/jn9IycsqyLsLluBPVkcHDyWHdGb.jpg",
+    "profile_payload_url": "data/films/1518403.json",
+    "profile_url": "film.html?id=1518403",
+    "release_date": "2027-01-22",
+    "release_display": "Jan. 22, 2027",
+    "runtime": null,
+    "synopsis": "12-year-old Jacob is an aspiring basketball player coping with the recent loss of his father. After he and his mother move to his dad\u2019s childhood home in Fernfield, Jacob discovers a VHS tape of his old man playing basketball on the same court as a hoops-shooting golden retriever. Soon, Jacob begins his own adventure with a neglected golden retriever that he names Buddy.",
+    "title": "Air Bud Returns",
+    "tmdb_id": "1518403"
+  },
+  "metadata": {
+    "algorithm_version": "phase5b",
+    "generated_at": "20260722T161339Z",
+    "profile_version": "phase6a",
+    "source_data_date": "2026-07-20"
+  },
+  "related": {
+    "related_films": [
+      {
+        "profile_url": "film.html?id=1705668",
+        "relationship_score": 60,
+        "shared_signals": [
+          "General Watch",
+          "Drama",
+          "Family",
+          "Unknown"
+        ],
+        "title": "Aa Bata Aama 2",
+        "tmdb_id": "1705668"
+      },
+      {
+        "profile_url": "film.html?id=1693902",
+        "relationship_score": 60,
+        "shared_signals": [
+          "General Watch",
+          "Drama",
+          "Family",
+          "Unknown"
+        ],
+        "title": "Jhingedaau 2",
+        "tmdb_id": "1693902"
+      },
+      {
+        "profile_url": "film.html?id=1324688",
+        "relationship_score": 54,
+        "shared_signals": [
+          "General Watch",
+          "Drama",
+          "Unknown"
+        ],
+        "title": "7G Rainbow Colony 2",
+        "tmdb_id": "1324688"
+      },
+      {
+        "profile_url": "film.html?id=1608012",
+        "relationship_score": 54,
+        "shared_signals": [
+          "General Watch",
+          "Drama",
+          "Unknown"
+        ],
+        "title": "A\u015fk Tesad\u00fcfleri Sever 3",
+        "tmdb_id": "1608012"
+      },
+      {
+        "profile_url": "film.html?id=1323717",
+        "relationship_score": 54,
+        "shared_signals": [
+          "General Watch",
+          "Drama",
+          "Unknown"
+        ],
+        "title": "Confessions of a Brazilian Call Girl 2",
+        "tmdb_id": "1323717"
+      },
+      {
+        "profile_url": "film.html?id=1440098",
+        "relationship_score": 54,
+        "shared_signals": [
+          "General Watch",
+          "Drama",
+          "Unknown"
+        ],
+        "title": "Drawn Together",
+        "tmdb_id": "1440098"
+      }
+    ],
+    "related_people": [
+      {
+        "name": "Robert Vince",
+        "role": "director"
+      },
+      {
+        "name": "Roscoe",
+        "role": "actor"
+      },
+      {
+        "name": "Aydin Artis",
+        "role": "actor"
+      },
+      {
+        "name": "Tracy Ifeachor",
+        "role": "actor"
+      },
+      {
+        "name": "Edwin Lee Gibson",
+        "role": "actor"
+      },
+      {
+        "name": "Tyler Labine",
+        "role": "actor"
+      },
+      {
+        "name": "Erik Gow",
+        "role": "actor"
+      }
+    ],
+    "related_studios": [
+      {
+        "name": "Air Bud Entertainment",
+        "role": "production_company"
+      }
+    ]
+  },
+  "signals": {
+    "cultural_significance": 37.0,
+    "last_updated": "2027-01-22",
+    "latest_event": {
+      "confidence": "Inferred",
+      "event_id": "1518403-9e806c6314c0",
+      "event_type": "Release Scheduled",
+      "film_id": "1518403",
+      "importance": "Medium",
+      "metadata": {
+        "release_date": "2027-01-22"
+      },
+      "source_type": "metadata",
+      "summary": "Release currently scheduled for Jan. 22, 2027.",
+      "timestamp": "2027-01-22",
+      "title": "Release scheduled"
+    },
+    "latest_intelligence": "As of 2026-07-18, this is a unknown distributor release dated 2027-01-22 with general awards monitoring relevance; current awards profile is Unknown and data status is limited data.",
+    "momentum": 0.0,
+    "narrative_importance": 0,
+    "next_signal": "Confirm US distributor/release plan.",
+    "recent_activity": [
+      {
+        "confidence": "Inferred",
+        "event_id": "1518403-9e806c6314c0",
+        "event_type": "Release Scheduled",
+        "film_id": "1518403",
+        "importance": "Medium",
+        "metadata": {
+          "release_date": "2027-01-22"
+        },
+        "source_type": "metadata",
+        "summary": "Release currently scheduled for Jan. 22, 2027.",
+        "timestamp": "2027-01-22",
+        "title": "Release scheduled"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1518403-9ad5192a53de",
+        "event_type": "Awards Tier Changed",
+        "film_id": "1518403",
+        "importance": "Medium",
+        "metadata": {
+          "awards_tier": "No Current Awards Case",
+          "categories": []
+        },
+        "source_type": "editorial_model",
+        "summary": "insufficient credible awards evidence",
+        "timestamp": "2026-07-22T16:13:39Z",
+        "title": "Awards tier assigned: No Current Awards Case"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1518403-f9f47ba25f6c",
+        "event_type": "Added To Database",
+        "film_id": "1518403",
+        "importance": "Low",
+        "metadata": {
+          "profile_version": "phase6a"
+        },
+        "source_type": "system",
+        "summary": "Air Bud Returns is tracked in the Film Intelligence profile set.",
+        "timestamp": "2026-07-22T16:13:39Z",
+        "title": "Added to Awards Intelligence"
+      }
+    ],
+    "release_relevance": 9.8,
+    "watch_triggers": [
+      "Awards-Friendly Genre",
+      "Adaptation/Biographical",
+      "Franchise/Event"
+    ],
+    "whats_changed": ""
+  },
+  "talent": {
+    "director": "Robert Vince",
+    "principal_cast": [
+      "Roscoe",
+      "Aydin Artis",
+      "Tracy Ifeachor",
+      "Edwin Lee Gibson",
+      "Tyler Labine",
+      "Erik Gow",
+      "Maxim Swinton",
+      "Elijah Fox"
+    ],
+    "producers": [],
+    "writers": []
+  },
+  "timeline": {
+    "events": [
+      {
+        "confidence": "Inferred",
+        "event_id": "1518403-9e806c6314c0",
+        "event_type": "Release Scheduled",
+        "film_id": "1518403",
+        "importance": "Medium",
+        "metadata": {
+          "release_date": "2027-01-22"
+        },
+        "source_type": "metadata",
+        "summary": "Release currently scheduled for Jan. 22, 2027.",
+        "timestamp": "2027-01-22",
+        "title": "Release scheduled"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1518403-9ad5192a53de",
+        "event_type": "Awards Tier Changed",
+        "film_id": "1518403",
+        "importance": "Medium",
+        "metadata": {
+          "awards_tier": "No Current Awards Case",
+          "categories": []
+        },
+        "source_type": "editorial_model",
+        "summary": "insufficient credible awards evidence",
+        "timestamp": "2026-07-22T16:13:39Z",
+        "title": "Awards tier assigned: No Current Awards Case"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1518403-f9f47ba25f6c",
+        "event_type": "Added To Database",
+        "film_id": "1518403",
+        "importance": "Low",
+        "metadata": {
+          "profile_version": "phase6a"
+        },
+        "source_type": "system",
+        "summary": "Air Bud Returns is tracked in the Film Intelligence profile set.",
+        "timestamp": "2026-07-22T16:13:39Z",
+        "title": "Added to Awards Intelligence"
+      }
+    ],
+    "latest_event": {
+      "confidence": "Inferred",
+      "event_id": "1518403-9e806c6314c0",
+      "event_type": "Release Scheduled",
+      "film_id": "1518403",
+      "importance": "Medium",
+      "metadata": {
+        "release_date": "2027-01-22"
+      },
+      "source_type": "metadata",
+      "summary": "Release currently scheduled for Jan. 22, 2027.",
+      "timestamp": "2027-01-22",
+      "title": "Release scheduled"
+    },
+    "recent_activity": [
+      {
+        "confidence": "Inferred",
+        "event_id": "1518403-9e806c6314c0",
+        "event_type": "Release Scheduled",
+        "film_id": "1518403",
+        "importance": "Medium",
+        "metadata": {
+          "release_date": "2027-01-22"
+        },
+        "source_type": "metadata",
+        "summary": "Release currently scheduled for Jan. 22, 2027.",
+        "timestamp": "2027-01-22",
+        "title": "Release scheduled"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1518403-9ad5192a53de",
+        "event_type": "Awards Tier Changed",
+        "film_id": "1518403",
+        "importance": "Medium",
+        "metadata": {
+          "awards_tier": "No Current Awards Case",
+          "categories": []
+        },
+        "source_type": "editorial_model",
+        "summary": "insufficient credible awards evidence",
+        "timestamp": "2026-07-22T16:13:39Z",
+        "title": "Awards tier assigned: No Current Awards Case"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1518403-f9f47ba25f6c",
+        "event_type": "Added To Database",
+        "film_id": "1518403",
+        "importance": "Low",
+        "metadata": {
+          "profile_version": "phase6a"
+        },
+        "source_type": "system",
+        "summary": "Air Bud Returns is tracked in the Film Intelligence profile set.",
+        "timestamp": "2026-07-22T16:13:39Z",
+        "title": "Added to Awards Intelligence"
+      }
+    ],
+    "supported_event_types": [
+      "Trailer Released",
+      "Teaser Released",
+      "Poster Released",
+      "Festival Selection",
+      "Festival Premiere",
+      "Festival Award",
+      "Release Date Change",
+      "Release",
+      "Distributor Change",
+      "Cast Added",
+      "Director Added",
+      "Production Started",
+      "Production Wrapped",
+      "Oscar Prediction Changed",
+      "Awards Tier Changed",
+      "Review Published",
+      "Critics Score Updated",
+      "Audience Score Updated",
+      "Box Office Milestone",
+      "Streaming Release",
+      "Editorial Note",
+      "Manual Override",
+      "Added To Database",
+      "Release Scheduled",
+      "Homepage Featured"
+    ]
+  }
+}

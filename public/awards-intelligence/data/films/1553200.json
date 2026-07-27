@@ -1,0 +1,576 @@
+{
+  "attention_intelligence": {
+    "anticipation_level": "Moderate",
+    "attention_confidence": "High",
+    "attention_reasons": [
+      "Most Anticipated",
+      "Major Filmmaker",
+      "Event Release",
+      "Awards Watch"
+    ],
+    "attention_score": 67.3,
+    "attention_version": "phase7e_attention_v1",
+    "audience_interest": "Developing",
+    "conversation_level": "Unavailable",
+    "cultural_relevance": null,
+    "early_reception": null,
+    "evidence_sources": [
+      {
+        "evidence": "Public-interest, franchise, event, or major-studio tracking signal",
+        "source": "event_awareness",
+        "status": "inferred"
+      },
+      {
+        "evidence": "Franchise, sequel, or recognizable IP signal in available metadata",
+        "source": "franchise_ip_recognition",
+        "status": "inferred"
+      },
+      {
+        "evidence": "Principal cast listed: Kaito Ishikawa, Asami Seto, Sora Amamiya, Aya Yamane",
+        "source": "cast_interest",
+        "status": "verified"
+      },
+      {
+        "evidence": "Commercial scale and release context",
+        "source": "commercial_scale",
+        "status": "inferred"
+      },
+      {
+        "evidence": "Trailer URL present",
+        "source": "trailer_available",
+        "status": "verified"
+      },
+      {
+        "evidence": "Release date: 2026-10-16",
+        "source": "release_proximity",
+        "status": "verified"
+      },
+      {
+        "evidence": "Current awards or craft-category potential",
+        "source": "awards_potential",
+        "status": "inferred"
+      },
+      {
+        "evidence": "TMDb popularity 1.753",
+        "source": "audience_popularity",
+        "status": "verified"
+      },
+      {
+        "evidence": "Director: Soichi Masui",
+        "source": "filmmaker_interest",
+        "status": "verified"
+      }
+    ],
+    "homepage_spotlight_override": null,
+    "homepage_spotlight_score": 67.3,
+    "industry_interest": "Moderate",
+    "last_updated": "20260722T161339Z",
+    "promotional_response": "Trailer available",
+    "score_families": {
+      "audience/popularity": {
+        "evidence_count": 2,
+        "score": 10.9,
+        "statuses": [
+          "verified"
+        ]
+      },
+      "commercial": {
+        "evidence_count": 1,
+        "score": 9.6,
+        "statuses": [
+          "inferred"
+        ]
+      },
+      "industry/cultural": {
+        "evidence_count": 1,
+        "score": 7.0,
+        "statuses": [
+          "inferred"
+        ]
+      },
+      "release": {
+        "evidence_count": 1,
+        "score": 7.0,
+        "statuses": [
+          "verified"
+        ]
+      },
+      "scale/event": {
+        "evidence_count": 2,
+        "score": 20.6,
+        "statuses": [
+          "inferred"
+        ]
+      },
+      "talent/prestige": {
+        "evidence_count": 2,
+        "score": 12.2,
+        "statuses": [
+          "verified"
+        ]
+      }
+    },
+    "unavailable_attention_fields": [
+      {
+        "field": "search_interest",
+        "reason": "No configured Google Trends or comparable provider.",
+        "status": "unavailable"
+      },
+      {
+        "field": "trailer_engagement",
+        "reason": "Trailer URL is available, but engagement metrics are not ingested.",
+        "status": "unavailable"
+      },
+      {
+        "field": "social_conversation",
+        "reason": "No authorized social-listening provider configured.",
+        "status": "unavailable"
+      },
+      {
+        "field": "press_volume",
+        "reason": "No press-volume ingestion configured.",
+        "status": "unavailable"
+      },
+      {
+        "field": "watchlist_interest",
+        "reason": "No legally available watchlist source configured.",
+        "status": "unavailable"
+      },
+      {
+        "field": "verified_budget",
+        "reason": "No verified production-budget source configured.",
+        "status": "unavailable"
+      }
+    ]
+  },
+  "awards": {
+    "award_history": [],
+    "awards_tier": "Category Contender",
+    "comparable_nominees": [],
+    "confidence": "Medium",
+    "current_awards_profile": "Craft Potential",
+    "explanation": "category-specific awards case without broader contender evidence",
+    "predicted_categories": [
+      "Craft Categories",
+      "Animated Feature",
+      "Multiple Pathways"
+    ],
+    "probabilities": {}
+  },
+  "commercial": {
+    "commercial_significance": 37.0,
+    "distributor": "Unknown",
+    "franchise": "Franchise/Event",
+    "release_strategy": "Release radar monitoring",
+    "studio": [
+      "CloverWorks"
+    ]
+  },
+  "diagnostics": {
+    "completeness_score": 78,
+    "confidence": "Medium",
+    "missing_fields": [
+      "runtime",
+      "distributor"
+    ],
+    "relationship_counts": {
+      "related_films": 6,
+      "related_people": 7,
+      "related_studios": 1
+    }
+  },
+  "editorial": {
+    "discovery_reason": "Animation Spotlight - Animated release with category or commercial relevance.",
+    "editorial_category": "Animation Spotlight",
+    "editorial_summary": "Upcoming Soichi Masui film with Animated Feature monitoring value.",
+    "importance_tier": "Watchlist",
+    "primary_story": "category-specific path; animation category pathway; technical/craft upside for event release",
+    "story_strength": "Developing",
+    "why_it_matters": "Upcoming Soichi Masui film with Animated Feature monitoring value."
+  },
+  "festival": {
+    "awards_received": [],
+    "display_status": "No verified festival information in the current dataset.",
+    "festival_history": [],
+    "festival_status": "",
+    "premiere_type": ""
+  },
+  "film_identity": {
+    "backdrop": "",
+    "country": [],
+    "genres": [
+      "Animation",
+      "Drama",
+      "Mystery",
+      "Romance"
+    ],
+    "id": "1553200",
+    "imdb_id": "",
+    "language": "",
+    "original_title": "Rascal Does Not Dream of a Dear Friend",
+    "poster": "https://image.tmdb.org/t/p/original/4R2Ztal9sGkoSDaCqQPjMZVTN1H.jpg",
+    "profile_payload_url": "data/films/1553200.json",
+    "profile_url": "film.html?id=1553200",
+    "release_date": "2026-10-16",
+    "release_display": "In theaters Oct. 16",
+    "runtime": null,
+    "synopsis": "Faced with the truth about Miori and Touko Kirishima, Sakuta must make a choice. This will be his final case of Adolescence Syndrome!",
+    "title": "Rascal Does Not Dream of a Dear Friend",
+    "tmdb_id": "1553200"
+  },
+  "metadata": {
+    "algorithm_version": "phase5b",
+    "generated_at": "20260722T161339Z",
+    "profile_version": "phase6a",
+    "source_data_date": "2026-07-20"
+  },
+  "related": {
+    "related_films": [
+      {
+        "profile_url": "film.html?id=822653",
+        "relationship_score": 90,
+        "shared_signals": [
+          "Animation Spotlight",
+          "Animation",
+          "Drama",
+          "Animated Feature"
+        ],
+        "title": "Puella Magi Madoka Magica the Movie -Walpurgisnacht: Rising-",
+        "tmdb_id": "822653"
+      },
+      {
+        "profile_url": "film.html?id=1722484",
+        "relationship_score": 84,
+        "shared_signals": [
+          "Animation Spotlight",
+          "Animation",
+          "Drama",
+          "Animated Feature"
+        ],
+        "title": "Brohr",
+        "tmdb_id": "1722484"
+      },
+      {
+        "profile_url": "film.html?id=1494419",
+        "relationship_score": 84,
+        "shared_signals": [
+          "Animation Spotlight",
+          "Animation",
+          "Drama",
+          "Animated Feature"
+        ],
+        "title": "Sound! Euphonium: The Final Movie, Part 2",
+        "tmdb_id": "1494419"
+      },
+      {
+        "profile_url": "film.html?id=1185806",
+        "relationship_score": 78,
+        "shared_signals": [
+          "Animation Spotlight",
+          "Animation",
+          "Animated Feature",
+          "Craft Categories"
+        ],
+        "title": "PAW Patrol: The Dino Movie",
+        "tmdb_id": "1185806"
+      },
+      {
+        "profile_url": "film.html?id=1477104",
+        "relationship_score": 78,
+        "shared_signals": [
+          "Animation Spotlight",
+          "Animation",
+          "Animated Feature",
+          "Craft Categories"
+        ],
+        "title": "Shaun the Sheep: The Beast of Mossy Bottom",
+        "tmdb_id": "1477104"
+      },
+      {
+        "profile_url": "film.html?id=1663937",
+        "relationship_score": 78,
+        "shared_signals": [
+          "Animation Spotlight",
+          "Animation",
+          "Animated Feature",
+          "Craft Categories"
+        ],
+        "title": "Star Detective Pretty Cure! The Movie: The Mysterious Garden and The Pair\u2019s Secret",
+        "tmdb_id": "1663937"
+      }
+    ],
+    "related_people": [
+      {
+        "name": "Soichi Masui",
+        "role": "director"
+      },
+      {
+        "name": "Kaito Ishikawa",
+        "role": "actor"
+      },
+      {
+        "name": "Asami Seto",
+        "role": "actor"
+      },
+      {
+        "name": "Sora Amamiya",
+        "role": "actor"
+      },
+      {
+        "name": "Aya Yamane",
+        "role": "actor"
+      },
+      {
+        "name": "Konomi Kohara",
+        "role": "actor"
+      },
+      {
+        "name": "Manaka Iwami",
+        "role": "actor"
+      }
+    ],
+    "related_studios": [
+      {
+        "name": "CloverWorks",
+        "role": "production_company"
+      }
+    ]
+  },
+  "signals": {
+    "cultural_significance": 37.0,
+    "last_updated": "2026-10-16",
+    "latest_event": {
+      "confidence": "Inferred",
+      "event_id": "1553200-3f10d0f7c97d",
+      "event_type": "Release Scheduled",
+      "film_id": "1553200",
+      "importance": "Medium",
+      "metadata": {
+        "release_date": "2026-10-16"
+      },
+      "source_type": "metadata",
+      "summary": "Release currently scheduled for In theaters Oct. 16.",
+      "timestamp": "2026-10-16",
+      "title": "Release scheduled"
+    },
+    "latest_intelligence": "As of 2026-07-18, this is a unknown distributor release dated 2026-10-16 with Craft Categories, Animated Feature relevance; current awards profile is Craft Potential and data status is developing.",
+    "momentum": 0.0,
+    "narrative_importance": 0,
+    "next_signal": "Confirm US distributor/release plan.",
+    "recent_activity": [
+      {
+        "confidence": "Inferred",
+        "event_id": "1553200-3f10d0f7c97d",
+        "event_type": "Release Scheduled",
+        "film_id": "1553200",
+        "importance": "Medium",
+        "metadata": {
+          "release_date": "2026-10-16"
+        },
+        "source_type": "metadata",
+        "summary": "Release currently scheduled for In theaters Oct. 16.",
+        "timestamp": "2026-10-16",
+        "title": "Release scheduled"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1553200-e8b8f4718ab8",
+        "event_type": "Awards Tier Changed",
+        "film_id": "1553200",
+        "importance": "Medium",
+        "metadata": {
+          "awards_tier": "Category Contender",
+          "categories": [
+            "Craft Categories",
+            "Animated Feature",
+            "Multiple Pathways"
+          ]
+        },
+        "source_type": "editorial_model",
+        "summary": "category-specific awards case without broader contender evidence",
+        "timestamp": "2026-07-22T16:13:39Z",
+        "title": "Awards tier assigned: Category Contender"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1553200-33d4875c309d",
+        "event_type": "Added To Database",
+        "film_id": "1553200",
+        "importance": "Low",
+        "metadata": {
+          "profile_version": "phase6a"
+        },
+        "source_type": "system",
+        "summary": "Rascal Does Not Dream of a Dear Friend is tracked in the Film Intelligence profile set.",
+        "timestamp": "2026-07-22T16:13:39Z",
+        "title": "Added to Awards Intelligence"
+      }
+    ],
+    "release_relevance": 31.1,
+    "watch_triggers": [
+      "Awards-Season Release",
+      "Awards-Friendly Genre",
+      "Franchise/Event",
+      "Craft Potential",
+      "Animated Feature",
+      "Trailer Available"
+    ],
+    "whats_changed": ""
+  },
+  "talent": {
+    "director": "Soichi Masui",
+    "principal_cast": [
+      "Kaito Ishikawa",
+      "Asami Seto",
+      "Sora Amamiya",
+      "Aya Yamane",
+      "Konomi Kohara",
+      "Manaka Iwami",
+      "Reina Ueda",
+      "Nao Toyama"
+    ],
+    "producers": [],
+    "writers": []
+  },
+  "timeline": {
+    "events": [
+      {
+        "confidence": "Inferred",
+        "event_id": "1553200-3f10d0f7c97d",
+        "event_type": "Release Scheduled",
+        "film_id": "1553200",
+        "importance": "Medium",
+        "metadata": {
+          "release_date": "2026-10-16"
+        },
+        "source_type": "metadata",
+        "summary": "Release currently scheduled for In theaters Oct. 16.",
+        "timestamp": "2026-10-16",
+        "title": "Release scheduled"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1553200-e8b8f4718ab8",
+        "event_type": "Awards Tier Changed",
+        "film_id": "1553200",
+        "importance": "Medium",
+        "metadata": {
+          "awards_tier": "Category Contender",
+          "categories": [
+            "Craft Categories",
+            "Animated Feature",
+            "Multiple Pathways"
+          ]
+        },
+        "source_type": "editorial_model",
+        "summary": "category-specific awards case without broader contender evidence",
+        "timestamp": "2026-07-22T16:13:39Z",
+        "title": "Awards tier assigned: Category Contender"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1553200-33d4875c309d",
+        "event_type": "Added To Database",
+        "film_id": "1553200",
+        "importance": "Low",
+        "metadata": {
+          "profile_version": "phase6a"
+        },
+        "source_type": "system",
+        "summary": "Rascal Does Not Dream of a Dear Friend is tracked in the Film Intelligence profile set.",
+        "timestamp": "2026-07-22T16:13:39Z",
+        "title": "Added to Awards Intelligence"
+      }
+    ],
+    "latest_event": {
+      "confidence": "Inferred",
+      "event_id": "1553200-3f10d0f7c97d",
+      "event_type": "Release Scheduled",
+      "film_id": "1553200",
+      "importance": "Medium",
+      "metadata": {
+        "release_date": "2026-10-16"
+      },
+      "source_type": "metadata",
+      "summary": "Release currently scheduled for In theaters Oct. 16.",
+      "timestamp": "2026-10-16",
+      "title": "Release scheduled"
+    },
+    "recent_activity": [
+      {
+        "confidence": "Inferred",
+        "event_id": "1553200-3f10d0f7c97d",
+        "event_type": "Release Scheduled",
+        "film_id": "1553200",
+        "importance": "Medium",
+        "metadata": {
+          "release_date": "2026-10-16"
+        },
+        "source_type": "metadata",
+        "summary": "Release currently scheduled for In theaters Oct. 16.",
+        "timestamp": "2026-10-16",
+        "title": "Release scheduled"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1553200-e8b8f4718ab8",
+        "event_type": "Awards Tier Changed",
+        "film_id": "1553200",
+        "importance": "Medium",
+        "metadata": {
+          "awards_tier": "Category Contender",
+          "categories": [
+            "Craft Categories",
+            "Animated Feature",
+            "Multiple Pathways"
+          ]
+        },
+        "source_type": "editorial_model",
+        "summary": "category-specific awards case without broader contender evidence",
+        "timestamp": "2026-07-22T16:13:39Z",
+        "title": "Awards tier assigned: Category Contender"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1553200-33d4875c309d",
+        "event_type": "Added To Database",
+        "film_id": "1553200",
+        "importance": "Low",
+        "metadata": {
+          "profile_version": "phase6a"
+        },
+        "source_type": "system",
+        "summary": "Rascal Does Not Dream of a Dear Friend is tracked in the Film Intelligence profile set.",
+        "timestamp": "2026-07-22T16:13:39Z",
+        "title": "Added to Awards Intelligence"
+      }
+    ],
+    "supported_event_types": [
+      "Trailer Released",
+      "Teaser Released",
+      "Poster Released",
+      "Festival Selection",
+      "Festival Premiere",
+      "Festival Award",
+      "Release Date Change",
+      "Release",
+      "Distributor Change",
+      "Cast Added",
+      "Director Added",
+      "Production Started",
+      "Production Wrapped",
+      "Oscar Prediction Changed",
+      "Awards Tier Changed",
+      "Review Published",
+      "Critics Score Updated",
+      "Audience Score Updated",
+      "Box Office Milestone",
+      "Streaming Release",
+      "Editorial Note",
+      "Manual Override",
+      "Added To Database",
+      "Release Scheduled",
+      "Homepage Featured"
+    ]
+  }
+}

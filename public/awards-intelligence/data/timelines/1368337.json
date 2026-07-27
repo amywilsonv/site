@@ -1,0 +1,99 @@
+{
+  "events": [
+    {
+      "confidence": "Inferred",
+      "event_id": "1368337-b2799485deb3",
+      "event_type": "Homepage Featured",
+      "film_id": "1368337",
+      "importance": "Medium",
+      "metadata": {
+        "editorial_category": "Major Release"
+      },
+      "source_type": "discovery_homepage",
+      "summary": "The Odyssey is currently selected for the homepage experience.",
+      "timestamp": "2026-07-22T16:13:39Z",
+      "title": "Featured in The Screening Room"
+    },
+    {
+      "confidence": "Inferred",
+      "event_id": "1368337-aa784424deaf",
+      "event_type": "Distributor Change",
+      "film_id": "1368337",
+      "importance": "Medium",
+      "metadata": {
+        "distributor": "Universal Pictures"
+      },
+      "source_type": "metadata",
+      "summary": "Current distributor is Universal Pictures.",
+      "timestamp": "2026-07-22T16:13:39Z",
+      "title": "Distributor set: Universal Pictures"
+    },
+    {
+      "confidence": "Inferred",
+      "event_id": "1368337-2e12fa400a3b",
+      "event_type": "Awards Tier Changed",
+      "film_id": "1368337",
+      "importance": "Medium",
+      "metadata": {
+        "awards_tier": "Emerging",
+        "categories": [
+          "Craft Categories"
+        ]
+      },
+      "source_type": "editorial_model",
+      "summary": "plausible but incomplete awards evidence",
+      "timestamp": "2026-07-22T16:13:39Z",
+      "title": "Awards tier assigned: Emerging"
+    },
+    {
+      "confidence": "Inferred",
+      "event_id": "1368337-c1c3f2ef6c5d",
+      "event_type": "Added To Database",
+      "film_id": "1368337",
+      "importance": "Low",
+      "metadata": {
+        "profile_version": "phase6a"
+      },
+      "source_type": "system",
+      "summary": "The Odyssey is tracked in the Film Intelligence profile set.",
+      "timestamp": "2026-07-22T16:13:39Z",
+      "title": "Added to Awards Intelligence"
+    },
+    {
+      "confidence": "Inferred",
+      "event_id": "1368337-6de275b2bd12",
+      "event_type": "Release Scheduled",
+      "film_id": "1368337",
+      "importance": "Medium",
+      "metadata": {
+        "release_date": "2026-07-17"
+      },
+      "source_type": "metadata",
+      "summary": "Release currently scheduled for In theaters Jul. 17.",
+      "timestamp": "2026-07-17",
+      "title": "Release scheduled"
+    }
+  ],
+  "latest_event": {
+    "confidence": "Inferred",
+    "event_id": "1368337-b2799485deb3",
+    "event_type": "Homepage Featured",
+    "film_id": "1368337",
+    "importance": "Medium",
+    "metadata": {
+      "editorial_category": "Major Release"
+    },
+    "source_type": "discovery_homepage",
+    "summary": "The Odyssey is currently selected for the homepage experience.",
+    "timestamp": "2026-07-22T16:13:39Z",
+    "title": "Featured in The Screening Room"
+  },
+  "metadata": {
+    "event_count": 5,
+    "film_id": "1368337",
+    "generated_at": "20260722T161339Z",
+    "timeline_version": "phase6b",
+    "title": "The Odyssey",
+    "tmdb_id": "1368337"
+  }
+}

@@ -1,0 +1,588 @@
+{
+  "attention_intelligence": {
+    "anticipation_level": "Moderate",
+    "attention_confidence": "High",
+    "attention_reasons": [
+      "Most Anticipated",
+      "Major Filmmaker",
+      "Event Release",
+      "Awards Watch"
+    ],
+    "attention_score": 59.0,
+    "attention_version": "phase7e_attention_v1",
+    "audience_interest": "Developing",
+    "conversation_level": "Unavailable",
+    "cultural_relevance": null,
+    "early_reception": null,
+    "evidence_sources": [
+      {
+        "evidence": "Public-interest, franchise, event, or major-studio tracking signal",
+        "source": "event_awareness",
+        "status": "inferred"
+      },
+      {
+        "evidence": "Principal cast listed: Riley Kai Vargas, Terry McGurrin, Rob Tinkler, Grace Nicolaou-Wood",
+        "source": "cast_interest",
+        "status": "verified"
+      },
+      {
+        "evidence": "Release date: 2026-07-31",
+        "source": "release_proximity",
+        "status": "verified"
+      },
+      {
+        "evidence": "Trailer URL present",
+        "source": "trailer_available",
+        "status": "verified"
+      },
+      {
+        "evidence": "Current awards or craft-category potential",
+        "source": "awards_potential",
+        "status": "inferred"
+      },
+      {
+        "evidence": "TMDb popularity 1.747",
+        "source": "audience_popularity",
+        "status": "verified"
+      },
+      {
+        "evidence": "Commercial scale and release context",
+        "source": "commercial_scale",
+        "status": "inferred"
+      },
+      {
+        "evidence": "Director: Ridd Sorensen",
+        "source": "filmmaker_interest",
+        "status": "verified"
+      }
+    ],
+    "homepage_spotlight_override": null,
+    "homepage_spotlight_score": 59.0,
+    "industry_interest": null,
+    "last_updated": "20260722T161339Z",
+    "promotional_response": "Trailer available",
+    "score_families": {
+      "audience/popularity": {
+        "evidence_count": 2,
+        "score": 10.9,
+        "statuses": [
+          "verified"
+        ]
+      },
+      "commercial": {
+        "evidence_count": 1,
+        "score": 4.9,
+        "statuses": [
+          "inferred"
+        ]
+      },
+      "industry/cultural": {
+        "evidence_count": 1,
+        "score": 7.0,
+        "statuses": [
+          "inferred"
+        ]
+      },
+      "release": {
+        "evidence_count": 1,
+        "score": 10.0,
+        "statuses": [
+          "verified"
+        ]
+      },
+      "scale/event": {
+        "evidence_count": 1,
+        "score": 14.0,
+        "statuses": [
+          "inferred"
+        ]
+      },
+      "talent/prestige": {
+        "evidence_count": 2,
+        "score": 12.2,
+        "statuses": [
+          "verified"
+        ]
+      }
+    },
+    "unavailable_attention_fields": [
+      {
+        "field": "search_interest",
+        "reason": "No configured Google Trends or comparable provider.",
+        "status": "unavailable"
+      },
+      {
+        "field": "trailer_engagement",
+        "reason": "Trailer URL is available, but engagement metrics are not ingested.",
+        "status": "unavailable"
+      },
+      {
+        "field": "social_conversation",
+        "reason": "No authorized social-listening provider configured.",
+        "status": "unavailable"
+      },
+      {
+        "field": "press_volume",
+        "reason": "No press-volume ingestion configured.",
+        "status": "unavailable"
+      },
+      {
+        "field": "watchlist_interest",
+        "reason": "No legally available watchlist source configured.",
+        "status": "unavailable"
+      },
+      {
+        "field": "verified_budget",
+        "reason": "No verified production-budget source configured.",
+        "status": "unavailable"
+      }
+    ]
+  },
+  "awards": {
+    "award_history": [],
+    "awards_tier": "Category Contender",
+    "comparable_nominees": [],
+    "confidence": "High",
+    "current_awards_profile": "Craft Potential",
+    "explanation": "category-specific awards case without broader contender evidence",
+    "predicted_categories": [
+      "Craft Categories",
+      "Animated Feature",
+      "Multiple Pathways"
+    ],
+    "probabilities": {}
+  },
+  "commercial": {
+    "commercial_significance": 19.0,
+    "distributor": "Apple TV",
+    "franchise": "",
+    "release_strategy": "Active release campaign",
+    "studio": [
+      "WildBrain Studios",
+      "Charles M. Schulz Creative Associates"
+    ]
+  },
+  "diagnostics": {
+    "completeness_score": 100,
+    "confidence": "High",
+    "missing_fields": [],
+    "relationship_counts": {
+      "related_films": 6,
+      "related_people": 7,
+      "related_studios": 3
+    }
+  },
+  "editorial": {
+    "discovery_reason": "Animation Spotlight - Animated release with category or commercial relevance.",
+    "editorial_category": "Animation Spotlight",
+    "editorial_summary": "Apple TV release worth monitoring for Animated Feature potential.",
+    "importance_tier": "Watchlist",
+    "primary_story": "category-specific path; animation category pathway",
+    "story_strength": "Strong",
+    "why_it_matters": "Apple TV release worth monitoring for Animated Feature potential."
+  },
+  "festival": {
+    "awards_received": [],
+    "display_status": "No verified festival information in the current dataset.",
+    "festival_history": [],
+    "festival_status": "",
+    "premiere_type": ""
+  },
+  "film_identity": {
+    "backdrop": "",
+    "country": [],
+    "genres": [
+      "Animation",
+      "Family"
+    ],
+    "id": "1698575",
+    "imdb_id": "",
+    "language": "",
+    "original_title": "Snoopy Presents: There's No Place Like Home, Snoopy",
+    "poster": "https://image.tmdb.org/t/p/original/YbC4SlzE030BgxWdKDdlatMh5W.jpg",
+    "profile_payload_url": "data/films/1698575.json",
+    "profile_url": "film.html?id=1698575",
+    "release_date": "2026-07-31",
+    "release_display": "In theaters Jul. 31",
+    "runtime": 31,
+    "synopsis": "When Snoopy's beloved doghouse goes missing, he tries to track it down, and learns what makes a house feel like home.",
+    "title": "Snoopy Presents: There's No Place Like Home, Snoopy",
+    "tmdb_id": "1698575"
+  },
+  "metadata": {
+    "algorithm_version": "phase5b",
+    "generated_at": "20260722T161339Z",
+    "profile_version": "phase6a",
+    "source_data_date": "2026-07-20"
+  },
+  "related": {
+    "related_films": [
+      {
+        "profile_url": "film.html?id=1185806",
+        "relationship_score": 62,
+        "shared_signals": [
+          "Animation Spotlight",
+          "Animation",
+          "Family",
+          "Animated Feature"
+        ],
+        "title": "PAW Patrol: The Dino Movie",
+        "tmdb_id": "1185806"
+      },
+      {
+        "profile_url": "film.html?id=1477104",
+        "relationship_score": 62,
+        "shared_signals": [
+          "Animation Spotlight",
+          "Animation",
+          "Family",
+          "Animated Feature"
+        ],
+        "title": "Shaun the Sheep: The Beast of Mossy Bottom",
+        "tmdb_id": "1477104"
+      },
+      {
+        "profile_url": "film.html?id=1663937",
+        "relationship_score": 62,
+        "shared_signals": [
+          "Animation Spotlight",
+          "Animation",
+          "Family",
+          "Animated Feature"
+        ],
+        "title": "Star Detective Pretty Cure! The Movie: The Mysterious Garden and The Pair\u2019s Secret",
+        "tmdb_id": "1663937"
+      },
+      {
+        "profile_url": "film.html?id=1595124",
+        "relationship_score": 62,
+        "shared_signals": [
+          "Animation Spotlight",
+          "Animation",
+          "Family",
+          "Animated Feature"
+        ],
+        "title": "Steps",
+        "tmdb_id": "1595124"
+      },
+      {
+        "profile_url": "film.html?id=1300926",
+        "relationship_score": 62,
+        "shared_signals": [
+          "Animation Spotlight",
+          "Animation",
+          "Family",
+          "Animated Feature"
+        ],
+        "title": "The Angry Birds Movie 3",
+        "tmdb_id": "1300926"
+      },
+      {
+        "profile_url": "film.html?id=1138528",
+        "relationship_score": 56,
+        "shared_signals": [
+          "Animation Spotlight",
+          "Animation",
+          "Animated Feature",
+          "Craft Categories"
+        ],
+        "title": "Bad Fairies",
+        "tmdb_id": "1138528"
+      }
+    ],
+    "related_people": [
+      {
+        "name": "Ridd Sorensen",
+        "role": "director"
+      },
+      {
+        "name": "Riley Kai Vargas",
+        "role": "actor"
+      },
+      {
+        "name": "Terry McGurrin",
+        "role": "actor"
+      },
+      {
+        "name": "Rob Tinkler",
+        "role": "actor"
+      },
+      {
+        "name": "Grace Nicolaou-Wood",
+        "role": "actor"
+      },
+      {
+        "name": "Lexi Perri",
+        "role": "actor"
+      },
+      {
+        "name": "Athan Giazitzidis",
+        "role": "actor"
+      }
+    ],
+    "related_studios": [
+      {
+        "name": "Apple TV",
+        "role": "distributor"
+      },
+      {
+        "name": "WildBrain Studios",
+        "role": "production_company"
+      },
+      {
+        "name": "Charles M. Schulz Creative Associates",
+        "role": "production_company"
+      }
+    ]
+  },
+  "signals": {
+    "cultural_significance": 19.0,
+    "last_updated": "2026-07-31",
+    "latest_event": {
+      "confidence": "Inferred",
+      "event_id": "1698575-d70367310936",
+      "event_type": "Release Scheduled",
+      "film_id": "1698575",
+      "importance": "Medium",
+      "metadata": {
+        "release_date": "2026-07-31"
+      },
+      "source_type": "metadata",
+      "summary": "Release currently scheduled for In theaters Jul. 31.",
+      "timestamp": "2026-07-31",
+      "title": "Release scheduled"
+    },
+    "latest_intelligence": "As of 2026-07-18, this is a Apple TV release dated 2026-07-31 with Craft Categories, Animated Feature relevance; current awards profile is Craft Potential and data status is developing.",
+    "momentum": 0.0,
+    "narrative_importance": 0,
+    "next_signal": "Watch for festival placement, reviews, and release-date movement.",
+    "recent_activity": [
+      {
+        "confidence": "Inferred",
+        "event_id": "1698575-d70367310936",
+        "event_type": "Release Scheduled",
+        "film_id": "1698575",
+        "importance": "Medium",
+        "metadata": {
+          "release_date": "2026-07-31"
+        },
+        "source_type": "metadata",
+        "summary": "Release currently scheduled for In theaters Jul. 31.",
+        "timestamp": "2026-07-31",
+        "title": "Release scheduled"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1698575-56e61a232e4f",
+        "event_type": "Distributor Change",
+        "film_id": "1698575",
+        "importance": "Medium",
+        "metadata": {
+          "distributor": "Apple TV"
+        },
+        "source_type": "metadata",
+        "summary": "Current distributor is Apple TV.",
+        "timestamp": "2026-07-22T16:13:39Z",
+        "title": "Distributor set: Apple TV"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1698575-3bcf85c4b877",
+        "event_type": "Awards Tier Changed",
+        "film_id": "1698575",
+        "importance": "Medium",
+        "metadata": {
+          "awards_tier": "Category Contender",
+          "categories": [
+            "Craft Categories",
+            "Animated Feature",
+            "Multiple Pathways"
+          ]
+        },
+        "source_type": "editorial_model",
+        "summary": "category-specific awards case without broader contender evidence",
+        "timestamp": "2026-07-22T16:13:39Z",
+        "title": "Awards tier assigned: Category Contender"
+      }
+    ],
+    "release_relevance": 44.2,
+    "watch_triggers": [
+      "Prestige Distributor",
+      "Major Studio/Streamer",
+      "Craft Potential",
+      "Animated Feature",
+      "Trailer Available"
+    ],
+    "whats_changed": ""
+  },
+  "talent": {
+    "director": "Ridd Sorensen",
+    "principal_cast": [
+      "Riley Kai Vargas",
+      "Terry McGurrin",
+      "Rob Tinkler",
+      "Grace Nicolaou-Wood",
+      "Lexi Perri",
+      "Athan Giazitzidis",
+      "Kitai O'Garro",
+      "Josephine Nisbett"
+    ],
+    "producers": [],
+    "writers": []
+  },
+  "timeline": {
+    "events": [
+      {
+        "confidence": "Inferred",
+        "event_id": "1698575-d70367310936",
+        "event_type": "Release Scheduled",
+        "film_id": "1698575",
+        "importance": "Medium",
+        "metadata": {
+          "release_date": "2026-07-31"
+        },
+        "source_type": "metadata",
+        "summary": "Release currently scheduled for In theaters Jul. 31.",
+        "timestamp": "2026-07-31",
+        "title": "Release scheduled"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1698575-56e61a232e4f",
+        "event_type": "Distributor Change",
+        "film_id": "1698575",
+        "importance": "Medium",
+        "metadata": {
+          "distributor": "Apple TV"
+        },
+        "source_type": "metadata",
+        "summary": "Current distributor is Apple TV.",
+        "timestamp": "2026-07-22T16:13:39Z",
+        "title": "Distributor set: Apple TV"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1698575-3bcf85c4b877",
+        "event_type": "Awards Tier Changed",
+        "film_id": "1698575",
+        "importance": "Medium",
+        "metadata": {
+          "awards_tier": "Category Contender",
+          "categories": [
+            "Craft Categories",
+            "Animated Feature",
+            "Multiple Pathways"
+          ]
+        },
+        "source_type": "editorial_model",
+        "summary": "category-specific awards case without broader contender evidence",
+        "timestamp": "2026-07-22T16:13:39Z",
+        "title": "Awards tier assigned: Category Contender"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1698575-f52eed27cb5f",
+        "event_type": "Added To Database",
+        "film_id": "1698575",
+        "importance": "Low",
+        "metadata": {
+          "profile_version": "phase6a"
+        },
+        "source_type": "system",
+        "summary": "Snoopy Presents: There's No Place Like Home, Snoopy is tracked in the Film Intelligence profile set.",
+        "timestamp": "2026-07-22T16:13:39Z",
+        "title": "Added to Awards Intelligence"
+      }
+    ],
+    "latest_event": {
+      "confidence": "Inferred",
+      "event_id": "1698575-d70367310936",
+      "event_type": "Release Scheduled",
+      "film_id": "1698575",
+      "importance": "Medium",
+      "metadata": {
+        "release_date": "2026-07-31"
+      },
+      "source_type": "metadata",
+      "summary": "Release currently scheduled for In theaters Jul. 31.",
+      "timestamp": "2026-07-31",
+      "title": "Release scheduled"
+    },
+    "recent_activity": [
+      {
+        "confidence": "Inferred",
+        "event_id": "1698575-d70367310936",
+        "event_type": "Release Scheduled",
+        "film_id": "1698575",
+        "importance": "Medium",
+        "metadata": {
+          "release_date": "2026-07-31"
+        },
+        "source_type": "metadata",
+        "summary": "Release currently scheduled for In theaters Jul. 31.",
+        "timestamp": "2026-07-31",
+        "title": "Release scheduled"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1698575-56e61a232e4f",
+        "event_type": "Distributor Change",
+        "film_id": "1698575",
+        "importance": "Medium",
+        "metadata": {
+          "distributor": "Apple TV"
+        },
+        "source_type": "metadata",
+        "summary": "Current distributor is Apple TV.",
+        "timestamp": "2026-07-22T16:13:39Z",
+        "title": "Distributor set: Apple TV"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1698575-3bcf85c4b877",
+        "event_type": "Awards Tier Changed",
+        "film_id": "1698575",
+        "importance": "Medium",
+        "metadata": {
+          "awards_tier": "Category Contender",
+          "categories": [
+            "Craft Categories",
+            "Animated Feature",
+            "Multiple Pathways"
+          ]
+        },
+        "source_type": "editorial_model",
+        "summary": "category-specific awards case without broader contender evidence",
+        "timestamp": "2026-07-22T16:13:39Z",
+        "title": "Awards tier assigned: Category Contender"
+      }
+    ],
+    "supported_event_types": [
+      "Trailer Released",
+      "Teaser Released",
+      "Poster Released",
+      "Festival Selection",
+      "Festival Premiere",
+      "Festival Award",
+      "Release Date Change",
+      "Release",
+      "Distributor Change",
+      "Cast Added",
+      "Director Added",
+      "Production Started",
+      "Production Wrapped",
+      "Oscar Prediction Changed",
+      "Awards Tier Changed",
+      "Review Published",
+      "Critics Score Updated",
+      "Audience Score Updated",
+      "Box Office Milestone",
+      "Streaming Release",
+      "Editorial Note",
+      "Manual Override",
+      "Added To Database",
+      "Release Scheduled",
+      "Homepage Featured"
+    ]
+  }
+}

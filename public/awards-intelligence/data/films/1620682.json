@@ -1,0 +1,532 @@
+{
+  "attention_intelligence": {
+    "anticipation_level": "Developing",
+    "attention_confidence": "High",
+    "attention_reasons": [
+      "Most Anticipated",
+      "Major Filmmaker",
+      "Event Release"
+    ],
+    "attention_score": 46.3,
+    "attention_version": "phase7e_attention_v1",
+    "audience_interest": "Developing",
+    "conversation_level": "Unavailable",
+    "cultural_relevance": null,
+    "early_reception": null,
+    "evidence_sources": [
+      {
+        "evidence": "Public-interest, franchise, event, or major-studio tracking signal",
+        "source": "event_awareness",
+        "status": "inferred"
+      },
+      {
+        "evidence": "Major distributor: Netflix",
+        "source": "distributor_scale",
+        "status": "verified"
+      },
+      {
+        "evidence": "Principal cast listed: Nour Al-Ghandour, Ali Kakule, Fatma Al Sherif, Shoug Al-Hadi",
+        "source": "cast_interest",
+        "status": "verified"
+      },
+      {
+        "evidence": "Release date: 2026-07-23",
+        "source": "release_proximity",
+        "status": "verified"
+      },
+      {
+        "evidence": "TMDb popularity 1.458",
+        "source": "audience_popularity",
+        "status": "verified"
+      },
+      {
+        "evidence": "Director: Elie El Semaan",
+        "source": "filmmaker_interest",
+        "status": "verified"
+      }
+    ],
+    "homepage_spotlight_override": null,
+    "homepage_spotlight_score": 46.3,
+    "industry_interest": null,
+    "last_updated": "20260722T161339Z",
+    "promotional_response": null,
+    "score_families": {
+      "audience/popularity": {
+        "evidence_count": 1,
+        "score": 4.6,
+        "statuses": [
+          "verified"
+        ]
+      },
+      "release": {
+        "evidence_count": 1,
+        "score": 10.0,
+        "statuses": [
+          "verified"
+        ]
+      },
+      "scale/event": {
+        "evidence_count": 2,
+        "score": 19.5,
+        "statuses": [
+          "inferred",
+          "verified"
+        ]
+      },
+      "talent/prestige": {
+        "evidence_count": 2,
+        "score": 12.2,
+        "statuses": [
+          "verified"
+        ]
+      }
+    },
+    "unavailable_attention_fields": [
+      {
+        "field": "search_interest",
+        "reason": "No configured Google Trends or comparable provider.",
+        "status": "unavailable"
+      },
+      {
+        "field": "trailer_engagement",
+        "reason": "Trailer URL is available, but engagement metrics are not ingested.",
+        "status": "unavailable"
+      },
+      {
+        "field": "social_conversation",
+        "reason": "No authorized social-listening provider configured.",
+        "status": "unavailable"
+      },
+      {
+        "field": "press_volume",
+        "reason": "No press-volume ingestion configured.",
+        "status": "unavailable"
+      },
+      {
+        "field": "watchlist_interest",
+        "reason": "No legally available watchlist source configured.",
+        "status": "unavailable"
+      },
+      {
+        "field": "verified_budget",
+        "reason": "No verified production-budget source configured.",
+        "status": "unavailable"
+      }
+    ]
+  },
+  "awards": {
+    "award_history": [],
+    "awards_tier": "No Current Awards Case",
+    "comparable_nominees": [],
+    "confidence": "Medium",
+    "current_awards_profile": "Developing",
+    "explanation": "insufficient credible awards evidence",
+    "predicted_categories": [],
+    "probabilities": {}
+  },
+  "commercial": {
+    "commercial_significance": 0,
+    "distributor": "Netflix",
+    "franchise": "",
+    "release_strategy": "Streamer awards release",
+    "studio": []
+  },
+  "diagnostics": {
+    "completeness_score": 78,
+    "confidence": "Medium",
+    "missing_fields": [
+      "runtime",
+      "production_companies"
+    ],
+    "relationship_counts": {
+      "related_films": 6,
+      "related_people": 7,
+      "related_studios": 1
+    }
+  },
+  "editorial": {
+    "discovery_reason": "Netflix release worth monitoring for awards-season potential.",
+    "editorial_category": "General Watch",
+    "editorial_summary": "Netflix release worth monitoring for awards-season potential.",
+    "importance_tier": "Watchlist",
+    "primary_story": "generic generated rationale",
+    "story_strength": "Developing",
+    "why_it_matters": "Netflix release worth monitoring for awards-season potential."
+  },
+  "festival": {
+    "awards_received": [],
+    "display_status": "No verified festival information in the current dataset.",
+    "festival_history": [],
+    "festival_status": "",
+    "premiere_type": ""
+  },
+  "film_identity": {
+    "backdrop": "",
+    "country": [],
+    "genres": [
+      "Romance",
+      "Comedy"
+    ],
+    "id": "1620682",
+    "imdb_id": "",
+    "language": "",
+    "original_title": "Love in Slow Motion",
+    "poster": "https://image.tmdb.org/t/p/original/31x1VCgNfTiPBR3xtYBocagHLry.jpg",
+    "profile_payload_url": "data/films/1620682.json",
+    "profile_url": "film.html?id=1620682",
+    "release_date": "2026-07-23",
+    "release_display": "In theaters Jul. 23",
+    "runtime": null,
+    "synopsis": "When Haya's best friend Jawad gets engaged, her chronically-single world unravels \u2014 because who knew true love could be hiding in the friend zone?",
+    "title": "Love in Slow Motion",
+    "tmdb_id": "1620682"
+  },
+  "metadata": {
+    "algorithm_version": "phase5b",
+    "generated_at": "20260722T161339Z",
+    "profile_version": "phase6a",
+    "source_data_date": "2026-07-20"
+  },
+  "related": {
+    "related_films": [
+      {
+        "profile_url": "film.html?id=949838",
+        "relationship_score": 42,
+        "shared_signals": [
+          "General Watch",
+          "Comedy",
+          "Netflix"
+        ],
+        "title": "72 HOURS",
+        "tmdb_id": "949838"
+      },
+      {
+        "profile_url": "film.html?id=1514863",
+        "relationship_score": 42,
+        "shared_signals": [
+          "General Watch",
+          "Comedy",
+          "Netflix"
+        ],
+        "title": "Best of the Best",
+        "tmdb_id": "1514863"
+      },
+      {
+        "profile_url": "film.html?id=1365884",
+        "relationship_score": 42,
+        "shared_signals": [
+          "General Watch",
+          "Comedy",
+          "Netflix"
+        ],
+        "title": "Call My Agent! The Movie",
+        "tmdb_id": "1365884"
+      },
+      {
+        "profile_url": "film.html?id=1504358",
+        "relationship_score": 42,
+        "shared_signals": [
+          "General Watch",
+          "Comedy",
+          "Netflix"
+        ],
+        "title": "Don't Say Good Luck",
+        "tmdb_id": "1504358"
+      },
+      {
+        "profile_url": "film.html?id=1200804",
+        "relationship_score": 38,
+        "shared_signals": [
+          "General Watch",
+          "Comedy",
+          "Romance"
+        ],
+        "title": "Alice J\u00fanior Summer Break",
+        "tmdb_id": "1200804"
+      },
+      {
+        "profile_url": "film.html?id=1530151",
+        "relationship_score": 38,
+        "shared_signals": [
+          "General Watch",
+          "Comedy",
+          "Romance"
+        ],
+        "title": "H\u00f6sten med G\u00f6ran",
+        "tmdb_id": "1530151"
+      }
+    ],
+    "related_people": [
+      {
+        "name": "Elie El Semaan",
+        "role": "director"
+      },
+      {
+        "name": "Nour Al-Ghandour",
+        "role": "actor"
+      },
+      {
+        "name": "Ali Kakule",
+        "role": "actor"
+      },
+      {
+        "name": "Fatma Al Sherif",
+        "role": "actor"
+      },
+      {
+        "name": "Shoug Al-Hadi",
+        "role": "actor"
+      },
+      {
+        "name": "Noha Nabil",
+        "role": "actor"
+      },
+      {
+        "name": "Elie Mitri",
+        "role": "actor"
+      }
+    ],
+    "related_studios": [
+      {
+        "name": "Netflix",
+        "role": "distributor"
+      }
+    ]
+  },
+  "signals": {
+    "cultural_significance": 0,
+    "last_updated": "2026-07-23",
+    "latest_event": {
+      "confidence": "Inferred",
+      "event_id": "1620682-30ee3fdea078",
+      "event_type": "Release Scheduled",
+      "film_id": "1620682",
+      "importance": "Medium",
+      "metadata": {
+        "release_date": "2026-07-23"
+      },
+      "source_type": "metadata",
+      "summary": "Release currently scheduled for In theaters Jul. 23.",
+      "timestamp": "2026-07-23",
+      "title": "Release scheduled"
+    },
+    "latest_intelligence": "As of 2026-07-18, this is a Netflix release dated 2026-07-23 with general awards monitoring relevance; current awards profile is Developing and data status is developing.",
+    "momentum": 0.0,
+    "narrative_importance": 0,
+    "next_signal": "Watch for trailer and first campaign positioning.",
+    "recent_activity": [
+      {
+        "confidence": "Inferred",
+        "event_id": "1620682-30ee3fdea078",
+        "event_type": "Release Scheduled",
+        "film_id": "1620682",
+        "importance": "Medium",
+        "metadata": {
+          "release_date": "2026-07-23"
+        },
+        "source_type": "metadata",
+        "summary": "Release currently scheduled for In theaters Jul. 23.",
+        "timestamp": "2026-07-23",
+        "title": "Release scheduled"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1620682-56533cfbe7c8",
+        "event_type": "Distributor Change",
+        "film_id": "1620682",
+        "importance": "Medium",
+        "metadata": {
+          "distributor": "Netflix"
+        },
+        "source_type": "metadata",
+        "summary": "Current distributor is Netflix.",
+        "timestamp": "2026-07-22T16:13:39Z",
+        "title": "Distributor set: Netflix"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1620682-a8e39c546313",
+        "event_type": "Awards Tier Changed",
+        "film_id": "1620682",
+        "importance": "Medium",
+        "metadata": {
+          "awards_tier": "No Current Awards Case",
+          "categories": []
+        },
+        "source_type": "editorial_model",
+        "summary": "insufficient credible awards evidence",
+        "timestamp": "2026-07-22T16:13:39Z",
+        "title": "Awards tier assigned: No Current Awards Case"
+      }
+    ],
+    "release_relevance": 39.0,
+    "watch_triggers": [
+      "Prestige Distributor",
+      "Major Studio/Streamer",
+      "Awards-Friendly Genre"
+    ],
+    "whats_changed": ""
+  },
+  "talent": {
+    "director": "Elie El Semaan",
+    "principal_cast": [
+      "Nour Al-Ghandour",
+      "Ali Kakule",
+      "Fatma Al Sherif",
+      "Shoug Al-Hadi",
+      "Noha Nabil",
+      "Elie Mitri",
+      "Mahira Abdel Aziz",
+      "Neshan Der Haroutiounian"
+    ],
+    "producers": [],
+    "writers": []
+  },
+  "timeline": {
+    "events": [
+      {
+        "confidence": "Inferred",
+        "event_id": "1620682-30ee3fdea078",
+        "event_type": "Release Scheduled",
+        "film_id": "1620682",
+        "importance": "Medium",
+        "metadata": {
+          "release_date": "2026-07-23"
+        },
+        "source_type": "metadata",
+        "summary": "Release currently scheduled for In theaters Jul. 23.",
+        "timestamp": "2026-07-23",
+        "title": "Release scheduled"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1620682-56533cfbe7c8",
+        "event_type": "Distributor Change",
+        "film_id": "1620682",
+        "importance": "Medium",
+        "metadata": {
+          "distributor": "Netflix"
+        },
+        "source_type": "metadata",
+        "summary": "Current distributor is Netflix.",
+        "timestamp": "2026-07-22T16:13:39Z",
+        "title": "Distributor set: Netflix"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1620682-a8e39c546313",
+        "event_type": "Awards Tier Changed",
+        "film_id": "1620682",
+        "importance": "Medium",
+        "metadata": {
+          "awards_tier": "No Current Awards Case",
+          "categories": []
+        },
+        "source_type": "editorial_model",
+        "summary": "insufficient credible awards evidence",
+        "timestamp": "2026-07-22T16:13:39Z",
+        "title": "Awards tier assigned: No Current Awards Case"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1620682-f4745f082d1a",
+        "event_type": "Added To Database",
+        "film_id": "1620682",
+        "importance": "Low",
+        "metadata": {
+          "profile_version": "phase6a"
+        },
+        "source_type": "system",
+        "summary": "Love in Slow Motion is tracked in the Film Intelligence profile set.",
+        "timestamp": "2026-07-22T16:13:39Z",
+        "title": "Added to Awards Intelligence"
+      }
+    ],
+    "latest_event": {
+      "confidence": "Inferred",
+      "event_id": "1620682-30ee3fdea078",
+      "event_type": "Release Scheduled",
+      "film_id": "1620682",
+      "importance": "Medium",
+      "metadata": {
+        "release_date": "2026-07-23"
+      },
+      "source_type": "metadata",
+      "summary": "Release currently scheduled for In theaters Jul. 23.",
+      "timestamp": "2026-07-23",
+      "title": "Release scheduled"
+    },
+    "recent_activity": [
+      {
+        "confidence": "Inferred",
+        "event_id": "1620682-30ee3fdea078",
+        "event_type": "Release Scheduled",
+        "film_id": "1620682",
+        "importance": "Medium",
+        "metadata": {
+          "release_date": "2026-07-23"
+        },
+        "source_type": "metadata",
+        "summary": "Release currently scheduled for In theaters Jul. 23.",
+        "timestamp": "2026-07-23",
+        "title": "Release scheduled"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1620682-56533cfbe7c8",
+        "event_type": "Distributor Change",
+        "film_id": "1620682",
+        "importance": "Medium",
+        "metadata": {
+          "distributor": "Netflix"
+        },
+        "source_type": "metadata",
+        "summary": "Current distributor is Netflix.",
+        "timestamp": "2026-07-22T16:13:39Z",
+        "title": "Distributor set: Netflix"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1620682-a8e39c546313",
+        "event_type": "Awards Tier Changed",
+        "film_id": "1620682",
+        "importance": "Medium",
+        "metadata": {
+          "awards_tier": "No Current Awards Case",
+          "categories": []
+        },
+        "source_type": "editorial_model",
+        "summary": "insufficient credible awards evidence",
+        "timestamp": "2026-07-22T16:13:39Z",
+        "title": "Awards tier assigned: No Current Awards Case"
+      }
+    ],
+    "supported_event_types": [
+      "Trailer Released",
+      "Teaser Released",
+      "Poster Released",
+      "Festival Selection",
+      "Festival Premiere",
+      "Festival Award",
+      "Release Date Change",
+      "Release",
+      "Distributor Change",
+      "Cast Added",
+      "Director Added",
+      "Production Started",
+      "Production Wrapped",
+      "Oscar Prediction Changed",
+      "Awards Tier Changed",
+      "Review Published",
+      "Critics Score Updated",
+      "Audience Score Updated",
+      "Box Office Milestone",
+      "Streaming Release",
+      "Editorial Note",
+      "Manual Override",
+      "Added To Database",
+      "Release Scheduled",
+      "Homepage Featured"
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "events": [
+    {
+      "confidence": "Inferred",
+      "event_id": "1494419-7836c1ef96cc",
+      "event_type": "Release Scheduled",
+      "film_id": "1494419",
+      "importance": "Medium",
+      "metadata": {
+        "release_date": "2026-09-11"
+      },
+      "source_type": "metadata",
+      "summary": "Release currently scheduled for In theaters Sep. 11.",
+      "timestamp": "2026-09-11",
+      "title": "Release scheduled"
+    },
+    {
+      "confidence": "Inferred",
+      "event_id": "1494419-1b35aa22867b",
+      "event_type": "Awards Tier Changed",
+      "film_id": "1494419",
+      "importance": "Medium",
+      "metadata": {
+        "awards_tier": "Category Contender",
+        "categories": [
+          "Craft Categories",
+          "Animated Feature",
+          "Song / Score",
+          "Multiple Pathways"
+        ]
+      },
+      "source_type": "editorial_model",
+      "summary": "category-specific awards case without broader contender evidence",
+      "timestamp": "2026-07-22T16:13:39Z",
+      "title": "Awards tier assigned: Category Contender"
+    },
+    {
+      "confidence": "Inferred",
+      "event_id": "1494419-f43812d5d112",
+      "event_type": "Added To Database",
+      "film_id": "1494419",
+      "importance": "Low",
+      "metadata": {
+        "profile_version": "phase6a"
+      },
+      "source_type": "system",
+      "summary": "Sound! Euphonium: The Final Movie, Part 2 is tracked in the Film Intelligence profile set.",
+      "timestamp": "2026-07-22T16:13:39Z",
+      "title": "Added to Awards Intelligence"
+    }
+  ],
+  "latest_event": {
+    "confidence": "Inferred",
+    "event_id": "1494419-7836c1ef96cc",
+    "event_type": "Release Scheduled",
+    "film_id": "1494419",
+    "importance": "Medium",
+    "metadata": {
+      "release_date": "2026-09-11"
+    },
+    "source_type": "metadata",
+    "summary": "Release currently scheduled for In theaters Sep. 11.",
+    "timestamp": "2026-09-11",
+    "title": "Release scheduled"
+  },
+  "metadata": {
+    "event_count": 3,
+    "film_id": "1494419",
+    "generated_at": "20260722T161339Z",
+    "timeline_version": "phase6b",
+    "title": "Sound! Euphonium: The Final Movie, Part 2",
+    "tmdb_id": "1494419"
+  }
+}

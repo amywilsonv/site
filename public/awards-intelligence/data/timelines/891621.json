@@ -1,0 +1,83 @@
+{
+  "events": [
+    {
+      "confidence": "Inferred",
+      "event_id": "891621-18b2681a4f8a",
+      "event_type": "Release Scheduled",
+      "film_id": "891621",
+      "importance": "Medium",
+      "metadata": {
+        "release_date": "2026-11-06"
+      },
+      "source_type": "metadata",
+      "summary": "Release currently scheduled for In theaters Nov. 6.",
+      "timestamp": "2026-11-06",
+      "title": "Release scheduled"
+    },
+    {
+      "confidence": "Inferred",
+      "event_id": "891621-b8d4ed4bdcce",
+      "event_type": "Distributor Change",
+      "film_id": "891621",
+      "importance": "Medium",
+      "metadata": {
+        "distributor": "Searchlight Pictures"
+      },
+      "source_type": "metadata",
+      "summary": "Current distributor is Searchlight Pictures.",
+      "timestamp": "2026-07-22T16:13:39Z",
+      "title": "Distributor set: Searchlight Pictures"
+    },
+    {
+      "confidence": "Inferred",
+      "event_id": "891621-28cbccf5eb97",
+      "event_type": "Awards Tier Changed",
+      "film_id": "891621",
+      "importance": "Medium",
+      "metadata": {
+        "awards_tier": "No Current Awards Case",
+        "categories": []
+      },
+      "source_type": "editorial_model",
+      "summary": "insufficient credible awards evidence",
+      "timestamp": "2026-07-22T16:13:39Z",
+      "title": "Awards tier assigned: No Current Awards Case"
+    },
+    {
+      "confidence": "Inferred",
+      "event_id": "891621-3fc385dc24c3",
+      "event_type": "Added To Database",
+      "film_id": "891621",
+      "importance": "Low",
+      "metadata": {
+        "profile_version": "phase6a"
+      },
+      "source_type": "system",
+      "summary": "Wild Horse Nine is tracked in the Film Intelligence profile set.",
+      "timestamp": "2026-07-22T16:13:39Z",
+      "title": "Added to Awards Intelligence"
+    }
+  ],
+  "latest_event": {
+    "confidence": "Inferred",
+    "event_id": "891621-18b2681a4f8a",
+    "event_type": "Release Scheduled",
+    "film_id": "891621",
+    "importance": "Medium",
+    "metadata": {
+      "release_date": "2026-11-06"
+    },
+    "source_type": "metadata",
+    "summary": "Release currently scheduled for In theaters Nov. 6.",
+    "timestamp": "2026-11-06",
+    "title": "Release scheduled"
+  },
+  "metadata": {
+    "event_count": 4,
+    "film_id": "891621",
+    "generated_at": "20260722T161339Z",
+    "timeline_version": "phase6b",
+    "title": "Wild Horse Nine",
+    "tmdb_id": "891621"
+  }
+}

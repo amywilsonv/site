@@ -23,15 +23,24 @@ const categories: Category[] = [
     projects: [
       {
         n: "01",
-        title: "Awards Intelligence",
+        title: "The Screening Room",
+        label:
+          "A hidden-beta movie-intelligence platform for understanding which films matter, why they matter, and what changed across release, festival, attention, reception, and awards signals.",
+        href: "/projects/awards-intelligence",
+        cta: "View project",
+        status: "Published",
+      },
+      {
+        n: "02",
+        title: "Oscar Prediction Model",
         label:
           "A machine learning forecasting system that ranks Academy Award nominees and predicts winners using historical results, precursor awards, film metadata, person-level features, and media signals.",
         href: "/projects/oscar-prediction",
         cta: "View project",
         status: "Published",
       },
-      { n: "02", title: "Retention analysis", label: "Customer retention analysis.", status: "Planned" },
-      { n: "03", title: "Audience study", label: "Audience research study.", status: "Planned" },
+      { n: "03", title: "Retention analysis", label: "Customer retention analysis.", status: "Planned" },
+      { n: "04", title: "Audience study", label: "Audience research study.", status: "Planned" },
     ],
   },
   {

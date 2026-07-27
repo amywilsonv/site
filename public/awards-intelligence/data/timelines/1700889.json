@@ -1,0 +1,71 @@
+{
+  "events": [
+    {
+      "confidence": "Inferred",
+      "event_id": "1700889-7c0926263824",
+      "event_type": "Release Scheduled",
+      "film_id": "1700889",
+      "importance": "Medium",
+      "metadata": {
+        "release_date": "2026-10-15"
+      },
+      "source_type": "metadata",
+      "summary": "Release currently scheduled for In theaters Oct. 15.",
+      "timestamp": "2026-10-15",
+      "title": "Release scheduled"
+    },
+    {
+      "confidence": "Inferred",
+      "event_id": "1700889-13aa9d037a2a",
+      "event_type": "Awards Tier Changed",
+      "film_id": "1700889",
+      "importance": "Medium",
+      "metadata": {
+        "awards_tier": "Emerging",
+        "categories": [
+          "Song / Score"
+        ]
+      },
+      "source_type": "editorial_model",
+      "summary": "plausible but incomplete awards evidence",
+      "timestamp": "2026-07-22T16:13:39Z",
+      "title": "Awards tier assigned: Emerging"
+    },
+    {
+      "confidence": "Inferred",
+      "event_id": "1700889-d873ca1d1a7b",
+      "event_type": "Added To Database",
+      "film_id": "1700889",
+      "importance": "Low",
+      "metadata": {
+        "profile_version": "phase6a"
+      },
+      "source_type": "system",
+      "summary": "\u0420\u0443\u043a\u0438 \u0432\u0432\u0435\u0440\u0445! 2 is tracked in the Film Intelligence profile set.",
+      "timestamp": "2026-07-22T16:13:39Z",
+      "title": "Added to Awards Intelligence"
+    }
+  ],
+  "latest_event": {
+    "confidence": "Inferred",
+    "event_id": "1700889-7c0926263824",
+    "event_type": "Release Scheduled",
+    "film_id": "1700889",
+    "importance": "Medium",
+    "metadata": {
+      "release_date": "2026-10-15"
+    },
+    "source_type": "metadata",
+    "summary": "Release currently scheduled for In theaters Oct. 15.",
+    "timestamp": "2026-10-15",
+    "title": "Release scheduled"
+  },
+  "metadata": {
+    "event_count": 3,
+    "film_id": "1700889",
+    "generated_at": "20260722T161339Z",
+    "timeline_version": "phase6b",
+    "title": "\u0420\u0443\u043a\u0438 \u0432\u0432\u0435\u0440\u0445! 2",
+    "tmdb_id": "1700889"
+  }
+}

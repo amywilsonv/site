@@ -1,0 +1,102 @@
+{
+  "events": [
+    {
+      "confidence": "Inferred",
+      "event_id": "977942-d1ad81cf3419",
+      "event_type": "Release Scheduled",
+      "film_id": "977942",
+      "importance": "Medium",
+      "metadata": {
+        "release_date": "2026-09-11"
+      },
+      "source_type": "metadata",
+      "summary": "Release currently scheduled for In theaters Sep. 11.",
+      "timestamp": "2026-09-11",
+      "title": "Release scheduled"
+    },
+    {
+      "confidence": "Inferred",
+      "event_id": "977942-6c4a0ec1ec09",
+      "event_type": "Distributor Change",
+      "film_id": "977942",
+      "importance": "Medium",
+      "metadata": {
+        "distributor": "Focus Features"
+      },
+      "source_type": "metadata",
+      "summary": "Current distributor is Focus Features.",
+      "timestamp": "2026-07-22T16:13:39Z",
+      "title": "Distributor set: Focus Features"
+    },
+    {
+      "confidence": "Inferred",
+      "event_id": "977942-9a95e0613692",
+      "event_type": "Awards Tier Changed",
+      "film_id": "977942",
+      "importance": "Medium",
+      "metadata": {
+        "awards_tier": "No Current Awards Case",
+        "categories": [
+          "Best Picture",
+          "Acting",
+          "Craft Categories",
+          "Multiple Pathways"
+        ]
+      },
+      "source_type": "editorial_model",
+      "summary": "insufficient credible awards evidence",
+      "timestamp": "2026-07-22T16:13:39Z",
+      "title": "Awards tier assigned: No Current Awards Case"
+    },
+    {
+      "confidence": "Inferred",
+      "event_id": "977942-e2e794c973b0",
+      "event_type": "Added To Database",
+      "film_id": "977942",
+      "importance": "Low",
+      "metadata": {
+        "profile_version": "phase6a"
+      },
+      "source_type": "system",
+      "summary": "The Uprising is tracked in the Film Intelligence profile set.",
+      "timestamp": "2026-07-22T16:13:39Z",
+      "title": "Added to Awards Intelligence"
+    },
+    {
+      "confidence": "Verified",
+      "event_id": "977942-31a1a9c56246",
+      "event_type": "Trailer Released",
+      "film_id": "977942",
+      "importance": "High",
+      "metadata": {
+        "next_signal": "Confirm US distributor/release plan."
+      },
+      "source_type": "refresh_log",
+      "summary": "Trailer released.",
+      "timestamp": "2026-07-20",
+      "title": "Trailer released"
+    }
+  ],
+  "latest_event": {
+    "confidence": "Inferred",
+    "event_id": "977942-d1ad81cf3419",
+    "event_type": "Release Scheduled",
+    "film_id": "977942",
+    "importance": "Medium",
+    "metadata": {
+      "release_date": "2026-09-11"
+    },
+    "source_type": "metadata",
+    "summary": "Release currently scheduled for In theaters Sep. 11.",
+    "timestamp": "2026-09-11",
+    "title": "Release scheduled"
+  },
+  "metadata": {
+    "event_count": 5,
+    "film_id": "977942",
+    "generated_at": "20260722T161339Z",
+    "timeline_version": "phase6b",
+    "title": "The Uprising",
+    "tmdb_id": "977942"
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "events": [
+    {
+      "confidence": "Inferred",
+      "event_id": "1381273-aa8e969a5440",
+      "event_type": "Release Scheduled",
+      "film_id": "1381273",
+      "importance": "Medium",
+      "metadata": {
+        "release_date": "2026-11-13"
+      },
+      "source_type": "metadata",
+      "summary": "Release currently scheduled for In theaters Nov. 13.",
+      "timestamp": "2026-11-13",
+      "title": "Release scheduled"
+    },
+    {
+      "confidence": "Inferred",
+      "event_id": "1381273-c6d0d409f6a2",
+      "event_type": "Awards Tier Changed",
+      "film_id": "1381273",
+      "importance": "High",
+      "metadata": {
+        "awards_tier": "Strong Contender",
+        "categories": [
+          "Director",
+          "Acting",
+          "Original Screenplay"
+        ]
+      },
+      "source_type": "editorial_model",
+      "summary": "high awards relevance with multiple independent evidence families",
+      "timestamp": "2026-07-22T16:13:39Z",
+      "title": "Awards tier assigned: Strong Contender"
+    },
+    {
+      "confidence": "Inferred",
+      "event_id": "1381273-22fbdeb646e8",
+      "event_type": "Homepage Featured",
+      "film_id": "1381273",
+      "importance": "Medium",
+      "metadata": {
+        "editorial_category": "Awards Contender"
+      },
+      "source_type": "discovery_homepage",
+      "summary": "Paper Tiger is currently selected for the homepage experience.",
+      "timestamp": "2026-07-22T16:13:39Z",
+      "title": "Featured in The Screening Room"
+    },
+    {
+      "confidence": "Inferred",
+      "event_id": "1381273-2722ced3756f",
+      "event_type": "Distributor Change",
+      "film_id": "1381273",
+      "importance": "Medium",
+      "metadata": {
+        "distributor": "Neon"
+      },
+      "source_type": "metadata",
+      "summary": "Current distributor is Neon.",
+      "timestamp": "2026-07-22T16:13:39Z",
+      "title": "Distributor set: Neon"
+    },
+    {
+      "confidence": "Inferred",
+      "event_id": "1381273-fa86ac45e6b0",
+      "event_type": "Added To Database",
+      "film_id": "1381273",
+      "importance": "Low",
+      "metadata": {
+        "profile_version": "phase6a"
+      },
+      "source_type": "system",
+      "summary": "Paper Tiger is tracked in the Film Intelligence profile set.",
+      "timestamp": "2026-07-22T16:13:39Z",
+      "title": "Added to Awards Intelligence"
+    },
+    {
+      "confidence": "Verified",
+      "event_id": "1381273-9a6fb3b6e3c8",
+      "event_type": "Festival Selection",
+      "film_id": "1381273",
+      "importance": "High",
+      "metadata": {
+        "next_signal": "Monitor NYFF reception, reviews, and any official release-campaign updates."
+      },
+      "source_type": "refresh_log",
+      "summary": "Selected as the opening-night film of NYFF 2026.",
+      "timestamp": "2026-07-20",
+      "title": "Selected as the opening-night film of NYFF 2026"
+    },
+    {
+      "confidence": "Verified",
+      "event_id": "1381273-c9ff7cb1d3fc",
+      "event_type": "Festival Selection",
+      "film_id": "1381273",
+      "importance": "High",
+      "metadata": {
+        "award": "",
+        "confidence": "High",
+        "edition_year": "2026",
+        "festival_id": "new_york_film_festival",
+        "festival_name": "New York Film Festival",
+        "last_updated": "2026-07-18",
+        "nomination": "",
+        "premiere_type": "Premiere",
+        "screening_date": "",
+        "section": "Opening Night",
+        "selection_status": "Selected",
+        "signal": "Selected as the opening-night film of NYFF 2026.",
+        "source": "Structured Awards Intelligence record: New York Film Festival",
+        "source_type": "structured_festival_fields",
+        "verified": true
+      },
+      "source_type": "festival_metadata",
+      "summary": "Selected as the opening-night film of NYFF 2026.",
+      "timestamp": "2026-07-18",
+      "title": "Selected for New York Film Festival"
+    }
+  ],
+  "latest_event": {
+    "confidence": "Inferred",
+    "event_id": "1381273-aa8e969a5440",
+    "event_type": "Release Scheduled",
+    "film_id": "1381273",
+    "importance": "Medium",
+    "metadata": {
+      "release_date": "2026-11-13"
+    },
+    "source_type": "metadata",
+    "summary": "Release currently scheduled for In theaters Nov. 13.",
+    "timestamp": "2026-11-13",
+    "title": "Release scheduled"
+  },
+  "metadata": {
+    "event_count": 7,
+    "film_id": "1381273",
+    "generated_at": "20260722T161339Z",
+    "timeline_version": "phase6b",
+    "title": "Paper Tiger",
+    "tmdb_id": "1381273"
+  }
+}

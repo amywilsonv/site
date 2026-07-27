@@ -1,0 +1,517 @@
+{
+  "attention_intelligence": {
+    "anticipation_level": "Developing",
+    "attention_confidence": "High",
+    "attention_reasons": [
+      "Most Anticipated",
+      "Major Filmmaker",
+      "Event Release"
+    ],
+    "attention_score": 47.4,
+    "attention_version": "phase7e_attention_v1",
+    "audience_interest": "Developing",
+    "conversation_level": "Unavailable",
+    "cultural_relevance": null,
+    "early_reception": null,
+    "evidence_sources": [
+      {
+        "evidence": "Public-interest, franchise, event, or major-studio tracking signal",
+        "source": "event_awareness",
+        "status": "inferred"
+      },
+      {
+        "evidence": "Franchise, sequel, or recognizable IP signal in available metadata",
+        "source": "franchise_ip_recognition",
+        "status": "inferred"
+      },
+      {
+        "evidence": "Commercial scale and release context",
+        "source": "commercial_scale",
+        "status": "inferred"
+      },
+      {
+        "evidence": "Principal cast listed: Peter Magnusson, David Hellenius, Frida Andersson, Vint\u00e4ng Emma",
+        "source": "cast_interest",
+        "status": "verified"
+      },
+      {
+        "evidence": "Release date: 2026-12-25",
+        "source": "release_proximity",
+        "status": "verified"
+      },
+      {
+        "evidence": "Director: Staffan Lindberg",
+        "source": "filmmaker_interest",
+        "status": "verified"
+      },
+      {
+        "evidence": "TMDb popularity 0.794",
+        "source": "audience_popularity",
+        "status": "verified"
+      }
+    ],
+    "homepage_spotlight_override": null,
+    "homepage_spotlight_score": 47.4,
+    "industry_interest": "Moderate",
+    "last_updated": "20260722T161339Z",
+    "promotional_response": null,
+    "score_families": {
+      "audience/popularity": {
+        "evidence_count": 1,
+        "score": 3.0,
+        "statuses": [
+          "verified"
+        ]
+      },
+      "commercial": {
+        "evidence_count": 1,
+        "score": 9.6,
+        "statuses": [
+          "inferred"
+        ]
+      },
+      "release": {
+        "evidence_count": 1,
+        "score": 5.0,
+        "statuses": [
+          "verified"
+        ]
+      },
+      "scale/event": {
+        "evidence_count": 2,
+        "score": 20.6,
+        "statuses": [
+          "inferred"
+        ]
+      },
+      "talent/prestige": {
+        "evidence_count": 2,
+        "score": 9.2,
+        "statuses": [
+          "verified"
+        ]
+      }
+    },
+    "unavailable_attention_fields": [
+      {
+        "field": "search_interest",
+        "reason": "No configured Google Trends or comparable provider.",
+        "status": "unavailable"
+      },
+      {
+        "field": "trailer_engagement",
+        "reason": "Trailer URL is available, but engagement metrics are not ingested.",
+        "status": "unavailable"
+      },
+      {
+        "field": "social_conversation",
+        "reason": "No authorized social-listening provider configured.",
+        "status": "unavailable"
+      },
+      {
+        "field": "press_volume",
+        "reason": "No press-volume ingestion configured.",
+        "status": "unavailable"
+      },
+      {
+        "field": "watchlist_interest",
+        "reason": "No legally available watchlist source configured.",
+        "status": "unavailable"
+      },
+      {
+        "field": "verified_budget",
+        "reason": "No verified production-budget source configured.",
+        "status": "unavailable"
+      }
+    ]
+  },
+  "awards": {
+    "award_history": [],
+    "awards_tier": "No Current Awards Case",
+    "comparable_nominees": [],
+    "confidence": "Medium",
+    "current_awards_profile": "Unknown",
+    "explanation": "insufficient credible awards evidence",
+    "predicted_categories": [],
+    "probabilities": {}
+  },
+  "commercial": {
+    "commercial_significance": 37.0,
+    "distributor": "Unknown",
+    "franchise": "Franchise/Event",
+    "release_strategy": "Release radar monitoring",
+    "studio": []
+  },
+  "diagnostics": {
+    "completeness_score": 67,
+    "confidence": "Medium",
+    "missing_fields": [
+      "runtime",
+      "distributor",
+      "production_companies"
+    ],
+    "relationship_counts": {
+      "related_films": 6,
+      "related_people": 6,
+      "related_studios": 0
+    }
+  },
+  "editorial": {
+    "discovery_reason": "Upcoming Staffan Lindberg film with editorial monitoring value.",
+    "editorial_category": "General Watch",
+    "editorial_summary": "Upcoming Staffan Lindberg film with editorial monitoring value.",
+    "importance_tier": "Monitoring",
+    "primary_story": "generic generated rationale",
+    "story_strength": "Developing",
+    "why_it_matters": "Upcoming Staffan Lindberg film with editorial monitoring value."
+  },
+  "festival": {
+    "awards_received": [],
+    "display_status": "No verified festival information in the current dataset.",
+    "festival_history": [],
+    "festival_status": "",
+    "premiere_type": ""
+  },
+  "film_identity": {
+    "backdrop": "",
+    "country": [],
+    "genres": [
+      "Comedy",
+      "Romance"
+    ],
+    "id": "1530151",
+    "imdb_id": "",
+    "language": "",
+    "original_title": "H\u00f6sten med G\u00f6ran",
+    "poster": "https://image.tmdb.org/t/p/original/lQ2xrg0BEg2E2wvP7yI3CSXOWiy.jpg",
+    "profile_payload_url": "data/films/1530151.json",
+    "profile_url": "film.html?id=1530151",
+    "release_date": "2026-12-25",
+    "release_display": "In theaters Dec. 25",
+    "runtime": null,
+    "synopsis": "The film follows the narcissist and divorced father G\u00f6ran as he tries to balance his life between having children, an expensive ADHD diagnosis and the search for love. At the same time, his best friend Alex struggles with a failing marriage. Together, they try to find joy in life, hope and maybe even love.",
+    "title": "H\u00f6sten med G\u00f6ran",
+    "tmdb_id": "1530151"
+  },
+  "metadata": {
+    "algorithm_version": "phase5b",
+    "generated_at": "20260722T161339Z",
+    "profile_version": "phase6a",
+    "source_data_date": "2026-07-20"
+  },
+  "related": {
+    "related_films": [
+      {
+        "profile_url": "film.html?id=1200804",
+        "relationship_score": 60,
+        "shared_signals": [
+          "General Watch",
+          "Comedy",
+          "Romance",
+          "Unknown"
+        ],
+        "title": "Alice J\u00fanior Summer Break",
+        "tmdb_id": "1200804"
+      },
+      {
+        "profile_url": "film.html?id=1324688",
+        "relationship_score": 54,
+        "shared_signals": [
+          "General Watch",
+          "Romance",
+          "Unknown"
+        ],
+        "title": "7G Rainbow Colony 2",
+        "tmdb_id": "1324688"
+      },
+      {
+        "profile_url": "film.html?id=1608012",
+        "relationship_score": 54,
+        "shared_signals": [
+          "General Watch",
+          "Romance",
+          "Unknown"
+        ],
+        "title": "A\u015fk Tesad\u00fcfleri Sever 3",
+        "tmdb_id": "1608012"
+      },
+      {
+        "profile_url": "film.html?id=1440098",
+        "relationship_score": 54,
+        "shared_signals": [
+          "General Watch",
+          "Romance",
+          "Unknown"
+        ],
+        "title": "Drawn Together",
+        "tmdb_id": "1440098"
+      },
+      {
+        "profile_url": "film.html?id=1705668",
+        "relationship_score": 48,
+        "shared_signals": [
+          "General Watch",
+          "Unknown"
+        ],
+        "title": "Aa Bata Aama 2",
+        "tmdb_id": "1705668"
+      },
+      {
+        "profile_url": "film.html?id=1518403",
+        "relationship_score": 48,
+        "shared_signals": [
+          "General Watch",
+          "Unknown"
+        ],
+        "title": "Air Bud Returns",
+        "tmdb_id": "1518403"
+      }
+    ],
+    "related_people": [
+      {
+        "name": "Staffan Lindberg",
+        "role": "director"
+      },
+      {
+        "name": "Peter Magnusson",
+        "role": "actor"
+      },
+      {
+        "name": "David Hellenius",
+        "role": "actor"
+      },
+      {
+        "name": "Frida Andersson",
+        "role": "actor"
+      },
+      {
+        "name": "Vint\u00e4ng Emma",
+        "role": "actor"
+      },
+      {
+        "name": "Mattias \u00d6sterman",
+        "role": "actor"
+      }
+    ],
+    "related_studios": []
+  },
+  "signals": {
+    "cultural_significance": 37.0,
+    "last_updated": "2026-12-25",
+    "latest_event": {
+      "confidence": "Inferred",
+      "event_id": "1530151-f3a210418f5e",
+      "event_type": "Release Scheduled",
+      "film_id": "1530151",
+      "importance": "Medium",
+      "metadata": {
+        "release_date": "2026-12-25"
+      },
+      "source_type": "metadata",
+      "summary": "Release currently scheduled for In theaters Dec. 25.",
+      "timestamp": "2026-12-25",
+      "title": "Release scheduled"
+    },
+    "latest_intelligence": "As of 2026-07-18, this is a unknown distributor release dated 2026-12-25 with general awards monitoring relevance; current awards profile is Unknown and data status is limited data.",
+    "momentum": 0.0,
+    "narrative_importance": 0,
+    "next_signal": "Confirm US distributor/release plan.",
+    "recent_activity": [
+      {
+        "confidence": "Inferred",
+        "event_id": "1530151-f3a210418f5e",
+        "event_type": "Release Scheduled",
+        "film_id": "1530151",
+        "importance": "Medium",
+        "metadata": {
+          "release_date": "2026-12-25"
+        },
+        "source_type": "metadata",
+        "summary": "Release currently scheduled for In theaters Dec. 25.",
+        "timestamp": "2026-12-25",
+        "title": "Release scheduled"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1530151-6dd73a4da0bf",
+        "event_type": "Awards Tier Changed",
+        "film_id": "1530151",
+        "importance": "Medium",
+        "metadata": {
+          "awards_tier": "No Current Awards Case",
+          "categories": []
+        },
+        "source_type": "editorial_model",
+        "summary": "insufficient credible awards evidence",
+        "timestamp": "2026-07-22T16:13:39Z",
+        "title": "Awards tier assigned: No Current Awards Case"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1530151-c91f8f099099",
+        "event_type": "Added To Database",
+        "film_id": "1530151",
+        "importance": "Low",
+        "metadata": {
+          "profile_version": "phase6a"
+        },
+        "source_type": "system",
+        "summary": "H\u00f6sten med G\u00f6ran is tracked in the Film Intelligence profile set.",
+        "timestamp": "2026-07-22T16:13:39Z",
+        "title": "Added to Awards Intelligence"
+      }
+    ],
+    "release_relevance": 22.9,
+    "watch_triggers": [
+      "Awards-Season Release",
+      "Awards-Friendly Genre",
+      "Franchise/Event"
+    ],
+    "whats_changed": ""
+  },
+  "talent": {
+    "director": "Staffan Lindberg",
+    "principal_cast": [
+      "Peter Magnusson",
+      "David Hellenius",
+      "Frida Andersson",
+      "Vint\u00e4ng Emma",
+      "Mattias \u00d6sterman"
+    ],
+    "producers": [],
+    "writers": []
+  },
+  "timeline": {
+    "events": [
+      {
+        "confidence": "Inferred",
+        "event_id": "1530151-f3a210418f5e",
+        "event_type": "Release Scheduled",
+        "film_id": "1530151",
+        "importance": "Medium",
+        "metadata": {
+          "release_date": "2026-12-25"
+        },
+        "source_type": "metadata",
+        "summary": "Release currently scheduled for In theaters Dec. 25.",
+        "timestamp": "2026-12-25",
+        "title": "Release scheduled"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1530151-6dd73a4da0bf",
+        "event_type": "Awards Tier Changed",
+        "film_id": "1530151",
+        "importance": "Medium",
+        "metadata": {
+          "awards_tier": "No Current Awards Case",
+          "categories": []
+        },
+        "source_type": "editorial_model",
+        "summary": "insufficient credible awards evidence",
+        "timestamp": "2026-07-22T16:13:39Z",
+        "title": "Awards tier assigned: No Current Awards Case"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1530151-c91f8f099099",
+        "event_type": "Added To Database",
+        "film_id": "1530151",
+        "importance": "Low",
+        "metadata": {
+          "profile_version": "phase6a"
+        },
+        "source_type": "system",
+        "summary": "H\u00f6sten med G\u00f6ran is tracked in the Film Intelligence profile set.",
+        "timestamp": "2026-07-22T16:13:39Z",
+        "title": "Added to Awards Intelligence"
+      }
+    ],
+    "latest_event": {
+      "confidence": "Inferred",
+      "event_id": "1530151-f3a210418f5e",
+      "event_type": "Release Scheduled",
+      "film_id": "1530151",
+      "importance": "Medium",
+      "metadata": {
+        "release_date": "2026-12-25"
+      },
+      "source_type": "metadata",
+      "summary": "Release currently scheduled for In theaters Dec. 25.",
+      "timestamp": "2026-12-25",
+      "title": "Release scheduled"
+    },
+    "recent_activity": [
+      {
+        "confidence": "Inferred",
+        "event_id": "1530151-f3a210418f5e",
+        "event_type": "Release Scheduled",
+        "film_id": "1530151",
+        "importance": "Medium",
+        "metadata": {
+          "release_date": "2026-12-25"
+        },
+        "source_type": "metadata",
+        "summary": "Release currently scheduled for In theaters Dec. 25.",
+        "timestamp": "2026-12-25",
+        "title": "Release scheduled"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1530151-6dd73a4da0bf",
+        "event_type": "Awards Tier Changed",
+        "film_id": "1530151",
+        "importance": "Medium",
+        "metadata": {
+          "awards_tier": "No Current Awards Case",
+          "categories": []
+        },
+        "source_type": "editorial_model",
+        "summary": "insufficient credible awards evidence",
+        "timestamp": "2026-07-22T16:13:39Z",
+        "title": "Awards tier assigned: No Current Awards Case"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1530151-c91f8f099099",
+        "event_type": "Added To Database",
+        "film_id": "1530151",
+        "importance": "Low",
+        "metadata": {
+          "profile_version": "phase6a"
+        },
+        "source_type": "system",
+        "summary": "H\u00f6sten med G\u00f6ran is tracked in the Film Intelligence profile set.",
+        "timestamp": "2026-07-22T16:13:39Z",
+        "title": "Added to Awards Intelligence"
+      }
+    ],
+    "supported_event_types": [
+      "Trailer Released",
+      "Teaser Released",
+      "Poster Released",
+      "Festival Selection",
+      "Festival Premiere",
+      "Festival Award",
+      "Release Date Change",
+      "Release",
+      "Distributor Change",
+      "Cast Added",
+      "Director Added",
+      "Production Started",
+      "Production Wrapped",
+      "Oscar Prediction Changed",
+      "Awards Tier Changed",
+      "Review Published",
+      "Critics Score Updated",
+      "Audience Score Updated",
+      "Box Office Milestone",
+      "Streaming Release",
+      "Editorial Note",
+      "Manual Override",
+      "Added To Database",
+      "Release Scheduled",
+      "Homepage Featured"
+    ]
+  }
+}

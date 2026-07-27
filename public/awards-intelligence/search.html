@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Screening Room - Search</title>
+    <meta name="description" content="Search The Screening Room film database.">
+    <meta property="og:title" content="The Screening Room - Search">
+    <meta property="og:description" content="Search The Screening Room film database.">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary">
+    <link rel="canonical" href="./search.html">
+    <link rel="icon" href="awards-intelligence.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="discovery.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="wordmark" href="./discovery.html">The Screening Room</a>
+      <nav class="primary-nav" aria-label="Primary navigation">
+        <a class="nav-link" href="./discovery.html">Home</a>
+        <a class="nav-link" href="./discovery.html#discover">Discover</a>
+        <a class="nav-link" href="./discovery.html#festival-radar">Festival Radar</a>
+        <a class="nav-link" href="./discovery.html#awards-intelligence">Awards Intelligence</a>
+        <a class="nav-link" href="./discovery.html">About</a>
+      </nav>
+      <label class="quick-search">
+        <span>Search</span>
+        <input id="globalSearch" aria-label="Search films" placeholder="Title, director, studio">
+      </label>
+    </header>
+    <main class="app-shell">
+      <section class="intro">
+        <p class="eyebrow">Search</p>
+        <h1 id="searchHeading">Search</h1>
+        <p id="searchSubhead">Search across films, filmmakers, studios, genres, and distributors.</p>
+      </section>
+      <section id="searchResults"></section>
+    </main>
+    <div id="searchPanel" class="search-panel hidden" role="listbox" aria-label="Search suggestions"></div>
+    <script src="analytics.js"></script>
+    <script src="seo.js"></script>
+    <script src="search-ui.js"></script>
+    <script src="search-app.js"></script>
+  </body>
+</html>

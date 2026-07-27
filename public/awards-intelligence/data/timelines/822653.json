@@ -1,0 +1,73 @@
+{
+  "events": [
+    {
+      "confidence": "Inferred",
+      "event_id": "822653-3c6fc0f86468",
+      "event_type": "Release Scheduled",
+      "film_id": "822653",
+      "importance": "Medium",
+      "metadata": {
+        "release_date": "2026-08-28"
+      },
+      "source_type": "metadata",
+      "summary": "Release currently scheduled for In theaters Aug. 28.",
+      "timestamp": "2026-08-28",
+      "title": "Release scheduled"
+    },
+    {
+      "confidence": "Inferred",
+      "event_id": "822653-6a17a836b4ce",
+      "event_type": "Awards Tier Changed",
+      "film_id": "822653",
+      "importance": "Medium",
+      "metadata": {
+        "awards_tier": "Category Contender",
+        "categories": [
+          "Animated Feature",
+          "Craft Categories",
+          "Multiple Pathways"
+        ]
+      },
+      "source_type": "editorial_model",
+      "summary": "category-specific awards case without broader contender evidence",
+      "timestamp": "2026-07-22T16:13:39Z",
+      "title": "Awards tier assigned: Category Contender"
+    },
+    {
+      "confidence": "Inferred",
+      "event_id": "822653-840708390204",
+      "event_type": "Added To Database",
+      "film_id": "822653",
+      "importance": "Low",
+      "metadata": {
+        "profile_version": "phase6a"
+      },
+      "source_type": "system",
+      "summary": "Puella Magi Madoka Magica the Movie -Walpurgisnacht: Rising- is tracked in the Film Intelligence profile set.",
+      "timestamp": "2026-07-22T16:13:39Z",
+      "title": "Added to Awards Intelligence"
+    }
+  ],
+  "latest_event": {
+    "confidence": "Inferred",
+    "event_id": "822653-3c6fc0f86468",
+    "event_type": "Release Scheduled",
+    "film_id": "822653",
+    "importance": "Medium",
+    "metadata": {
+      "release_date": "2026-08-28"
+    },
+    "source_type": "metadata",
+    "summary": "Release currently scheduled for In theaters Aug. 28.",
+    "timestamp": "2026-08-28",
+    "title": "Release scheduled"
+  },
+  "metadata": {
+    "event_count": 3,
+    "film_id": "822653",
+    "generated_at": "20260722T161339Z",
+    "timeline_version": "phase6b",
+    "title": "Puella Magi Madoka Magica the Movie -Walpurgisnacht: Rising-",
+    "tmdb_id": "822653"
+  }
+}

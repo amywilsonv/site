@@ -1,0 +1,477 @@
+{
+  "attention_intelligence": {
+    "anticipation_level": null,
+    "attention_confidence": "High",
+    "attention_reasons": [
+      "Most Anticipated",
+      "Major Filmmaker"
+    ],
+    "attention_score": 21.3,
+    "attention_version": "phase7e_attention_v1",
+    "audience_interest": "Developing",
+    "conversation_level": "Unavailable",
+    "cultural_relevance": null,
+    "early_reception": null,
+    "evidence_sources": [
+      {
+        "evidence": "Trailer URL present",
+        "source": "trailer_available",
+        "status": "verified"
+      },
+      {
+        "evidence": "Release date: 2026-10-24",
+        "source": "release_proximity",
+        "status": "verified"
+      },
+      {
+        "evidence": "Director: Zander Mapes",
+        "source": "filmmaker_interest",
+        "status": "verified"
+      },
+      {
+        "evidence": "Principal cast listed: Zander Mapes, Abigail Owers",
+        "source": "cast_interest",
+        "status": "verified"
+      },
+      {
+        "evidence": "TMDb popularity 0.309",
+        "source": "audience_popularity",
+        "status": "verified"
+      }
+    ],
+    "homepage_spotlight_override": null,
+    "homepage_spotlight_score": 21.3,
+    "industry_interest": null,
+    "last_updated": "20260722T161339Z",
+    "promotional_response": "Trailer available",
+    "score_families": {
+      "audience/popularity": {
+        "evidence_count": 2,
+        "score": 8.8,
+        "statuses": [
+          "verified"
+        ]
+      },
+      "release": {
+        "evidence_count": 1,
+        "score": 7.0,
+        "statuses": [
+          "verified"
+        ]
+      },
+      "talent/prestige": {
+        "evidence_count": 2,
+        "score": 5.5,
+        "statuses": [
+          "verified"
+        ]
+      }
+    },
+    "unavailable_attention_fields": [
+      {
+        "field": "search_interest",
+        "reason": "No configured Google Trends or comparable provider.",
+        "status": "unavailable"
+      },
+      {
+        "field": "trailer_engagement",
+        "reason": "Trailer URL is available, but engagement metrics are not ingested.",
+        "status": "unavailable"
+      },
+      {
+        "field": "social_conversation",
+        "reason": "No authorized social-listening provider configured.",
+        "status": "unavailable"
+      },
+      {
+        "field": "press_volume",
+        "reason": "No press-volume ingestion configured.",
+        "status": "unavailable"
+      },
+      {
+        "field": "watchlist_interest",
+        "reason": "No legally available watchlist source configured.",
+        "status": "unavailable"
+      },
+      {
+        "field": "verified_budget",
+        "reason": "No verified production-budget source configured.",
+        "status": "unavailable"
+      }
+    ]
+  },
+  "awards": {
+    "award_history": [],
+    "awards_tier": "No Current Awards Case",
+    "comparable_nominees": [],
+    "confidence": "Medium",
+    "current_awards_profile": "Unknown",
+    "explanation": "insufficient credible awards evidence",
+    "predicted_categories": [],
+    "probabilities": {}
+  },
+  "commercial": {
+    "commercial_significance": 0,
+    "distributor": "Unknown",
+    "franchise": "",
+    "release_strategy": "Release radar monitoring",
+    "studio": []
+  },
+  "diagnostics": {
+    "completeness_score": 78,
+    "confidence": "Medium",
+    "missing_fields": [
+      "distributor",
+      "production_companies"
+    ],
+    "relationship_counts": {
+      "related_films": 6,
+      "related_people": 2,
+      "related_studios": 0
+    }
+  },
+  "editorial": {
+    "discovery_reason": "Upcoming Zander Mapes film with editorial monitoring value.",
+    "editorial_category": "General Watch",
+    "editorial_summary": "Upcoming Zander Mapes film with editorial monitoring value.",
+    "importance_tier": "Monitoring",
+    "primary_story": "filmmaker/editorial hook; generic generated rationale",
+    "story_strength": "Developing",
+    "why_it_matters": "Upcoming Zander Mapes film with editorial monitoring value."
+  },
+  "festival": {
+    "awards_received": [],
+    "display_status": "No verified festival information in the current dataset.",
+    "festival_history": [],
+    "festival_status": "",
+    "premiere_type": ""
+  },
+  "film_identity": {
+    "backdrop": "",
+    "country": [],
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "id": "1664866",
+    "imdb_id": "",
+    "language": "",
+    "original_title": "Wired Together",
+    "poster": "https://image.tmdb.org/t/p/original/6HyIPkTlQq8xyGSnqQJPiRgeZvL.jpg",
+    "profile_payload_url": "data/films/1664866.json",
+    "profile_url": "film.html?id=1664866",
+    "release_date": "2026-10-24",
+    "release_display": "In theaters Oct. 24",
+    "runtime": 15,
+    "synopsis": "Told through the memories of a young writer, Wired Together follows a relationship that unfolds chapter by chapter as Ivy transforms moments of first meetings, shared adventures, and growing distance into the pages of her novel. As past and present intertwine, she discovers that some stories continue to shape us long after they are written.",
+    "title": "Wired Together",
+    "tmdb_id": "1664866"
+  },
+  "metadata": {
+    "algorithm_version": "phase5b",
+    "generated_at": "20260722T161339Z",
+    "profile_version": "phase6a",
+    "source_data_date": "2026-07-20"
+  },
+  "related": {
+    "related_films": [
+      {
+        "profile_url": "film.html?id=1324688",
+        "relationship_score": 48,
+        "shared_signals": [
+          "General Watch",
+          "Drama",
+          "Romance",
+          "Unknown"
+        ],
+        "title": "7G Rainbow Colony 2",
+        "tmdb_id": "1324688"
+      },
+      {
+        "profile_url": "film.html?id=1608012",
+        "relationship_score": 48,
+        "shared_signals": [
+          "General Watch",
+          "Drama",
+          "Romance",
+          "Unknown"
+        ],
+        "title": "A\u015fk Tesad\u00fcfleri Sever 3",
+        "tmdb_id": "1608012"
+      },
+      {
+        "profile_url": "film.html?id=1440098",
+        "relationship_score": 48,
+        "shared_signals": [
+          "General Watch",
+          "Drama",
+          "Romance",
+          "Unknown"
+        ],
+        "title": "Drawn Together",
+        "tmdb_id": "1440098"
+      },
+      {
+        "profile_url": "film.html?id=1705668",
+        "relationship_score": 42,
+        "shared_signals": [
+          "General Watch",
+          "Drama",
+          "Unknown"
+        ],
+        "title": "Aa Bata Aama 2",
+        "tmdb_id": "1705668"
+      },
+      {
+        "profile_url": "film.html?id=1461432",
+        "relationship_score": 42,
+        "shared_signals": [
+          "General Watch",
+          "Drama",
+          "Unknown"
+        ],
+        "title": "Adult Supervision",
+        "tmdb_id": "1461432"
+      },
+      {
+        "profile_url": "film.html?id=1518403",
+        "relationship_score": 42,
+        "shared_signals": [
+          "General Watch",
+          "Drama",
+          "Unknown"
+        ],
+        "title": "Air Bud Returns",
+        "tmdb_id": "1518403"
+      }
+    ],
+    "related_people": [
+      {
+        "name": "Zander Mapes",
+        "role": "director"
+      },
+      {
+        "name": "Abigail Owers",
+        "role": "actor"
+      }
+    ],
+    "related_studios": []
+  },
+  "signals": {
+    "cultural_significance": 0,
+    "last_updated": "2026-10-24",
+    "latest_event": {
+      "confidence": "Inferred",
+      "event_id": "1664866-179a059fea83",
+      "event_type": "Release Scheduled",
+      "film_id": "1664866",
+      "importance": "Medium",
+      "metadata": {
+        "release_date": "2026-10-24"
+      },
+      "source_type": "metadata",
+      "summary": "Release currently scheduled for In theaters Oct. 24.",
+      "timestamp": "2026-10-24",
+      "title": "Release scheduled"
+    },
+    "latest_intelligence": "As of 2026-07-18, this is a unknown distributor release dated 2026-10-24 with general awards monitoring relevance; current awards profile is Unknown and data status is limited data.",
+    "momentum": 0.0,
+    "narrative_importance": 0,
+    "next_signal": "Confirm US distributor/release plan.",
+    "recent_activity": [
+      {
+        "confidence": "Inferred",
+        "event_id": "1664866-179a059fea83",
+        "event_type": "Release Scheduled",
+        "film_id": "1664866",
+        "importance": "Medium",
+        "metadata": {
+          "release_date": "2026-10-24"
+        },
+        "source_type": "metadata",
+        "summary": "Release currently scheduled for In theaters Oct. 24.",
+        "timestamp": "2026-10-24",
+        "title": "Release scheduled"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1664866-f0a2222ca7c8",
+        "event_type": "Awards Tier Changed",
+        "film_id": "1664866",
+        "importance": "Medium",
+        "metadata": {
+          "awards_tier": "No Current Awards Case",
+          "categories": []
+        },
+        "source_type": "editorial_model",
+        "summary": "insufficient credible awards evidence",
+        "timestamp": "2026-07-22T16:13:39Z",
+        "title": "Awards tier assigned: No Current Awards Case"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1664866-c3d48f0b9fc1",
+        "event_type": "Added To Database",
+        "film_id": "1664866",
+        "importance": "Low",
+        "metadata": {
+          "profile_version": "phase6a"
+        },
+        "source_type": "system",
+        "summary": "Wired Together is tracked in the Film Intelligence profile set.",
+        "timestamp": "2026-07-22T16:13:39Z",
+        "title": "Added to Awards Intelligence"
+      }
+    ],
+    "release_relevance": 24.7,
+    "watch_triggers": [
+      "Awards-Season Release",
+      "Awards-Friendly Genre",
+      "Adaptation/Biographical",
+      "Trailer Available"
+    ],
+    "whats_changed": ""
+  },
+  "talent": {
+    "director": "Zander Mapes",
+    "principal_cast": [
+      "Zander Mapes",
+      "Abigail Owers"
+    ],
+    "producers": [],
+    "writers": []
+  },
+  "timeline": {
+    "events": [
+      {
+        "confidence": "Inferred",
+        "event_id": "1664866-179a059fea83",
+        "event_type": "Release Scheduled",
+        "film_id": "1664866",
+        "importance": "Medium",
+        "metadata": {
+          "release_date": "2026-10-24"
+        },
+        "source_type": "metadata",
+        "summary": "Release currently scheduled for In theaters Oct. 24.",
+        "timestamp": "2026-10-24",
+        "title": "Release scheduled"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1664866-f0a2222ca7c8",
+        "event_type": "Awards Tier Changed",
+        "film_id": "1664866",
+        "importance": "Medium",
+        "metadata": {
+          "awards_tier": "No Current Awards Case",
+          "categories": []
+        },
+        "source_type": "editorial_model",
+        "summary": "insufficient credible awards evidence",
+        "timestamp": "2026-07-22T16:13:39Z",
+        "title": "Awards tier assigned: No Current Awards Case"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1664866-c3d48f0b9fc1",
+        "event_type": "Added To Database",
+        "film_id": "1664866",
+        "importance": "Low",
+        "metadata": {
+          "profile_version": "phase6a"
+        },
+        "source_type": "system",
+        "summary": "Wired Together is tracked in the Film Intelligence profile set.",
+        "timestamp": "2026-07-22T16:13:39Z",
+        "title": "Added to Awards Intelligence"
+      }
+    ],
+    "latest_event": {
+      "confidence": "Inferred",
+      "event_id": "1664866-179a059fea83",
+      "event_type": "Release Scheduled",
+      "film_id": "1664866",
+      "importance": "Medium",
+      "metadata": {
+        "release_date": "2026-10-24"
+      },
+      "source_type": "metadata",
+      "summary": "Release currently scheduled for In theaters Oct. 24.",
+      "timestamp": "2026-10-24",
+      "title": "Release scheduled"
+    },
+    "recent_activity": [
+      {
+        "confidence": "Inferred",
+        "event_id": "1664866-179a059fea83",
+        "event_type": "Release Scheduled",
+        "film_id": "1664866",
+        "importance": "Medium",
+        "metadata": {
+          "release_date": "2026-10-24"
+        },
+        "source_type": "metadata",
+        "summary": "Release currently scheduled for In theaters Oct. 24.",
+        "timestamp": "2026-10-24",
+        "title": "Release scheduled"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1664866-f0a2222ca7c8",
+        "event_type": "Awards Tier Changed",
+        "film_id": "1664866",
+        "importance": "Medium",
+        "metadata": {
+          "awards_tier": "No Current Awards Case",
+          "categories": []
+        },
+        "source_type": "editorial_model",
+        "summary": "insufficient credible awards evidence",
+        "timestamp": "2026-07-22T16:13:39Z",
+        "title": "Awards tier assigned: No Current Awards Case"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1664866-c3d48f0b9fc1",
+        "event_type": "Added To Database",
+        "film_id": "1664866",
+        "importance": "Low",
+        "metadata": {
+          "profile_version": "phase6a"
+        },
+        "source_type": "system",
+        "summary": "Wired Together is tracked in the Film Intelligence profile set.",
+        "timestamp": "2026-07-22T16:13:39Z",
+        "title": "Added to Awards Intelligence"
+      }
+    ],
+    "supported_event_types": [
+      "Trailer Released",
+      "Teaser Released",
+      "Poster Released",
+      "Festival Selection",
+      "Festival Premiere",
+      "Festival Award",
+      "Release Date Change",
+      "Release",
+      "Distributor Change",
+      "Cast Added",
+      "Director Added",
+      "Production Started",
+      "Production Wrapped",
+      "Oscar Prediction Changed",
+      "Awards Tier Changed",
+      "Review Published",
+      "Critics Score Updated",
+      "Audience Score Updated",
+      "Box Office Milestone",
+      "Streaming Release",
+      "Editorial Note",
+      "Manual Override",
+      "Added To Database",
+      "Release Scheduled",
+      "Homepage Featured"
+    ]
+  }
+}
