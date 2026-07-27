@@ -16,7 +16,7 @@
     },
     {
       "confidence": "Inferred",
-      "event_id": "1643567-aa5f614aea61",
+      "event_id": "1643567-ee44765baa5a",
       "event_type": "Awards Tier Changed",
       "film_id": "1643567",
       "importance": "Medium",
@@ -28,12 +28,12 @@
       },
       "source_type": "editorial_model",
       "summary": "insufficient credible awards evidence",
-      "timestamp": "2026-07-22T16:13:39Z",
+      "timestamp": "2026-07-27T21:25:11Z",
       "title": "Awards tier assigned: No Current Awards Case"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1643567-3c08e02ea9ab",
+      "event_id": "1643567-c8f5d7f084dc",
       "event_type": "Added To Database",
       "film_id": "1643567",
       "importance": "Low",
@@ -42,7 +42,7 @@
       },
       "source_type": "system",
       "summary": "Ghosts: The Possession of Button House is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-07-22T16:13:39Z",
+      "timestamp": "2026-07-27T21:25:11Z",
       "title": "Added to Awards Intelligence"
     }
   ],
@@ -63,7 +63,7 @@
   "metadata": {
     "event_count": 3,
     "film_id": "1643567",
-    "generated_at": "20260722T161339Z",
+    "generated_at": "20260727T212511Z",
     "timeline_version": "phase6b",
     "title": "Ghosts: The Possession of Button House",
     "tmdb_id": "1643567"

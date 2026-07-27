@@ -7,7 +7,7 @@
       "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 61.6,
+    "attention_score": 63.0,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -40,7 +40,7 @@
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 1.806",
+        "evidence": "TMDb popularity 2.6644",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -51,14 +51,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 61.6,
+    "homepage_spotlight_score": 63.0,
     "industry_interest": "High",
-    "last_updated": "20260722T161339Z",
+    "last_updated": "20260727T212511Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
         "evidence_count": 1,
-        "score": 5.3,
+        "score": 6.7,
         "statuses": [
           "verified"
         ]
@@ -174,14 +174,16 @@
     "premiere_type": ""
   },
   "film_identity": {
-    "backdrop": "",
-    "country": [],
+    "backdrop": "https://image.tmdb.org/t/p/original/uLCH0RWdJoj0GOoaJfsqpOCMODr.jpg",
+    "country": [
+      "US"
+    ],
     "genres": [
       "Drama"
     ],
     "id": "532652",
     "imdb_id": "",
-    "language": "",
+    "language": "en",
     "original_title": "The Resurrection of the Christ: Part One",
     "poster": "https://image.tmdb.org/t/p/original/qx3QVH1eVqtrdvL1dndXPhCktLq.jpg",
     "profile_payload_url": "data/films/532652.json",
@@ -193,9 +195,60 @@
     "title": "The Resurrection of the Christ: Part One",
     "tmdb_id": "532652"
   },
+  "intelligence": {
+    "confidence": "High",
+    "confidence_score": 0.85,
+    "generated_at": "2026-07-27T21:24:57Z",
+    "headline": "The Resurrection of the Christ: Part One: popularity signal available",
+    "metadata": {
+      "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
+      "signal_values": {
+        "legacy_dashboard_awards_category_count": 0,
+        "legacy_dashboard_awards_tier": "No Current Awards Case",
+        "legacy_dashboard_credited_talent_count": 9,
+        "legacy_dashboard_director_profile_present": true,
+        "legacy_dashboard_festival_award_count": 0,
+        "legacy_dashboard_festival_selection_count": 0,
+        "legacy_dashboard_festival_status": "",
+        "legacy_dashboard_precursor_award_count": 0,
+        "legacy_dashboard_principal_cast_count": 8,
+        "streaming_available_us": false,
+        "streaming_flatrate_provider_count_us": 0,
+        "streaming_provider_count_us": 0,
+        "tmdb_backdrop_count": 1,
+        "tmdb_canonical_trailer_available": false,
+        "tmdb_popularity": 2.6644,
+        "tmdb_poster_count": 2,
+        "tmdb_release_date_us_primary": "2027-05-06",
+        "tmdb_release_date_us_theatrical": "2027-05-06",
+        "tmdb_release_status": "Post Production",
+        "tmdb_vote_average": 0,
+        "tmdb_vote_count": 0,
+        "tmdb_watch_provider_count_us": 0,
+        "trailer_available": false,
+        "trailer_count": 2
+      },
+      "source_signal_count": 24,
+      "stale_signal_count": 0
+    },
+    "schema_version": "phase2b_intelligence_explanation_v1",
+    "summary": "TMDb popularity is 2.6644.",
+    "supporting_drivers": [
+      {
+        "confidence_weight": 0.65,
+        "driver_type": "popularity_observed",
+        "evidence": "TMDb popularity is 2.6644.",
+        "label": "Popularity signal available",
+        "retrieved_at": "2026-07-27T21:24:57Z",
+        "source_metric": "tmdb_popularity",
+        "source_provider": "tmdb",
+        "source_status": "available"
+      }
+    ]
+  },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260722T161339Z",
+    "generated_at": "20260727T212511Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -307,6 +360,11 @@
   },
   "signals": {
     "cultural_significance": 62.8,
+    "external_intelligence": {
+      "confidence": "High",
+      "headline": "The Resurrection of the Christ: Part One: popularity signal available",
+      "summary": "TMDb popularity is 2.6644."
+    },
     "last_updated": "2027-05-06",
     "latest_event": {
       "confidence": "Inferred",
@@ -343,7 +401,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "532652-fc649f24ea75",
+        "event_id": "532652-43972db35442",
         "event_type": "Distributor Change",
         "film_id": "532652",
         "importance": "Medium",
@@ -352,12 +410,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Lionsgate.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Distributor set: Lionsgate"
       },
       {
         "confidence": "Inferred",
-        "event_id": "532652-53829930a9a9",
+        "event_id": "532652-c168a6f116a5",
         "event_type": "Awards Tier Changed",
         "film_id": "532652",
         "importance": "Medium",
@@ -367,7 +425,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],
@@ -412,7 +470,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "532652-fc649f24ea75",
+        "event_id": "532652-43972db35442",
         "event_type": "Distributor Change",
         "film_id": "532652",
         "importance": "Medium",
@@ -421,12 +479,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Lionsgate.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Distributor set: Lionsgate"
       },
       {
         "confidence": "Inferred",
-        "event_id": "532652-53829930a9a9",
+        "event_id": "532652-c168a6f116a5",
         "event_type": "Awards Tier Changed",
         "film_id": "532652",
         "importance": "Medium",
@@ -436,12 +494,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "532652-1fa5c892c247",
+        "event_id": "532652-6a19c121a365",
         "event_type": "Added To Database",
         "film_id": "532652",
         "importance": "Low",
@@ -450,7 +508,7 @@
         },
         "source_type": "system",
         "summary": "The Resurrection of the Christ: Part One is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -485,7 +543,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "532652-fc649f24ea75",
+        "event_id": "532652-43972db35442",
         "event_type": "Distributor Change",
         "film_id": "532652",
         "importance": "Medium",
@@ -494,12 +552,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Lionsgate.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Distributor set: Lionsgate"
       },
       {
         "confidence": "Inferred",
-        "event_id": "532652-53829930a9a9",
+        "event_id": "532652-c168a6f116a5",
         "event_type": "Awards Tier Changed",
         "film_id": "532652",
         "importance": "Medium",
@@ -509,7 +567,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],

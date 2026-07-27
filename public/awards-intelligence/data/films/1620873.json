@@ -8,7 +8,7 @@
       "Event Release",
       "Awards Watch"
     ],
-    "attention_score": 66.9,
+    "attention_score": 67.9,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -51,7 +51,7 @@
         "status": "inferred"
       },
       {
-        "evidence": "TMDb popularity 1.437",
+        "evidence": "TMDb popularity 2.4792",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -62,14 +62,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 66.9,
+    "homepage_spotlight_score": 67.9,
     "industry_interest": "Moderate",
-    "last_updated": "20260722T161339Z",
+    "last_updated": "20260727T212511Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
         "evidence_count": 2,
-        "score": 10.5,
+        "score": 11.5,
         "statuses": [
           "verified"
         ]
@@ -183,7 +183,7 @@
     "editorial_category": "General Watch",
     "editorial_summary": "Upcoming Jasper ten Hoor; Ivan Hidayat film with Craft Categories monitoring value.",
     "importance_tier": "Monitoring",
-    "primary_story": "generic generated rationale",
+    "primary_story": "international profile; generic generated rationale",
     "story_strength": "Developing",
     "why_it_matters": "Upcoming Jasper ten Hoor; Ivan Hidayat film with Craft Categories monitoring value."
   },
@@ -196,7 +196,9 @@
   },
   "film_identity": {
     "backdrop": "",
-    "country": [],
+    "country": [
+      "NL"
+    ],
     "genres": [
       "Family",
       "Comedy",
@@ -204,7 +206,7 @@
     ],
     "id": "1620873",
     "imdb_id": "",
-    "language": "",
+    "language": "nl",
     "original_title": "HalloWiebe: Overdrive",
     "poster": "https://image.tmdb.org/t/p/original/rT0te2330z0NyqqpMEotn20M9mg.jpg",
     "profile_payload_url": "data/films/1620873.json",
@@ -216,9 +218,72 @@
     "title": "HalloWiebe: Overdrive",
     "tmdb_id": "1620873"
   },
+  "intelligence": {
+    "confidence": "High",
+    "confidence_score": 0.99,
+    "generated_at": "2026-07-27T21:24:57Z",
+    "headline": "HalloWiebe: Overdrive: popularity signal available",
+    "metadata": {
+      "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
+      "signal_values": {
+        "legacy_dashboard_awards_category_count": 1,
+        "legacy_dashboard_awards_tier": "Emerging",
+        "legacy_dashboard_credited_talent_count": 9,
+        "legacy_dashboard_director_profile_present": true,
+        "legacy_dashboard_festival_award_count": 0,
+        "legacy_dashboard_festival_selection_count": 0,
+        "legacy_dashboard_festival_status": "",
+        "legacy_dashboard_precursor_award_count": 0,
+        "legacy_dashboard_principal_cast_count": 8,
+        "streaming_available_us": false,
+        "streaming_flatrate_provider_count_us": 0,
+        "streaming_provider_count_us": 0,
+        "tmdb_backdrop_count": 0,
+        "tmdb_canonical_trailer_available": true,
+        "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=SpzbCgVXgJY",
+        "tmdb_popularity": 2.4792,
+        "tmdb_poster_count": 0,
+        "tmdb_release_date_us_primary": "",
+        "tmdb_release_date_us_theatrical": "",
+        "tmdb_release_status": "In Production",
+        "tmdb_vote_average": 0,
+        "tmdb_vote_count": 0,
+        "tmdb_watch_provider_count_us": 0,
+        "trailer_available": true,
+        "trailer_count": 1,
+        "trailer_url": "https://www.youtube.com/watch?v=SpzbCgVXgJY"
+      },
+      "source_signal_count": 26,
+      "stale_signal_count": 0
+    },
+    "schema_version": "phase2b_intelligence_explanation_v1",
+    "summary": "TMDb popularity is 2.4792. A canonical TMDb trailer URL is available.",
+    "supporting_drivers": [
+      {
+        "confidence_weight": 0.65,
+        "driver_type": "popularity_observed",
+        "evidence": "TMDb popularity is 2.4792.",
+        "label": "Popularity signal available",
+        "retrieved_at": "2026-07-27T21:24:57Z",
+        "source_metric": "tmdb_popularity",
+        "source_provider": "tmdb",
+        "source_status": "available"
+      },
+      {
+        "confidence_weight": 0.85,
+        "driver_type": "trailer_available",
+        "evidence": "A canonical TMDb trailer URL is available.",
+        "label": "Trailer available",
+        "retrieved_at": "2026-07-27T21:24:57Z",
+        "source_metric": "tmdb_canonical_trailer_url",
+        "source_provider": "tmdb",
+        "source_status": "available"
+      }
+    ]
+  },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260722T161339Z",
+    "generated_at": "20260727T212511Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -255,7 +320,7 @@
           "Craft Categories",
           "Unknown"
         ],
-        "title": "Kamen Rider Kabuto 20th: The One Who Inherits the Heavens",
+        "title": "Kamen Rider Kabuto 20th: \u200b\u200bThe One Who Inherits the Heavens",
         "tmdb_id": "1567149"
       },
       {
@@ -288,7 +353,7 @@
           "Comedy",
           "Craft Categories"
         ],
-        "title": "Coyote vs ACME",
+        "title": "Coyote vs. Acme",
         "tmdb_id": "1204680"
       }
     ],
@@ -335,6 +400,11 @@
   },
   "signals": {
     "cultural_significance": 37.0,
+    "external_intelligence": {
+      "confidence": "High",
+      "headline": "HalloWiebe: Overdrive: popularity signal available",
+      "summary": "TMDb popularity is 2.4792. A canonical TMDb trailer URL is available."
+    },
     "last_updated": "2026-09-23",
     "latest_event": {
       "confidence": "Inferred",
@@ -371,7 +441,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1620873-65de7e57e19f",
+        "event_id": "1620873-127ec7228ee4",
         "event_type": "Awards Tier Changed",
         "film_id": "1620873",
         "importance": "Medium",
@@ -383,12 +453,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1620873-86ef0ae8fd25",
+        "event_id": "1620873-3e8674d895de",
         "event_type": "Added To Database",
         "film_id": "1620873",
         "importance": "Low",
@@ -397,7 +467,7 @@
         },
         "source_type": "system",
         "summary": "HalloWiebe: Overdrive is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -443,7 +513,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1620873-65de7e57e19f",
+        "event_id": "1620873-127ec7228ee4",
         "event_type": "Awards Tier Changed",
         "film_id": "1620873",
         "importance": "Medium",
@@ -455,12 +525,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1620873-86ef0ae8fd25",
+        "event_id": "1620873-3e8674d895de",
         "event_type": "Added To Database",
         "film_id": "1620873",
         "importance": "Low",
@@ -469,7 +539,7 @@
         },
         "source_type": "system",
         "summary": "HalloWiebe: Overdrive is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -504,7 +574,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1620873-65de7e57e19f",
+        "event_id": "1620873-127ec7228ee4",
         "event_type": "Awards Tier Changed",
         "film_id": "1620873",
         "importance": "Medium",
@@ -516,12 +586,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1620873-86ef0ae8fd25",
+        "event_id": "1620873-3e8674d895de",
         "event_type": "Added To Database",
         "film_id": "1620873",
         "importance": "Low",
@@ -530,7 +600,7 @@
         },
         "source_type": "system",
         "summary": "HalloWiebe: Overdrive is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Added to Awards Intelligence"
       }
     ],

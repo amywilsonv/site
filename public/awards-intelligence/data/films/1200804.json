@@ -7,7 +7,7 @@
       "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 52.3,
+    "attention_score": 53.9,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -35,13 +35,13 @@
         "status": "inferred"
       },
       {
-        "evidence": "Release date: 2026-12-17",
-        "source": "release_proximity",
+        "evidence": "TMDb popularity 2.5271",
+        "source": "audience_popularity",
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 1.58",
-        "source": "audience_popularity",
+        "evidence": "Release date: 2026-12-17",
+        "source": "release_proximity",
         "status": "verified"
       },
       {
@@ -51,14 +51,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 52.3,
+    "homepage_spotlight_score": 53.9,
     "industry_interest": "Moderate",
-    "last_updated": "20260722T161339Z",
+    "last_updated": "20260727T212511Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
         "evidence_count": 1,
-        "score": 4.9,
+        "score": 6.5,
         "statuses": [
           "verified"
         ]
@@ -163,7 +163,7 @@
     "editorial_category": "General Watch",
     "editorial_summary": "Upcoming Gil Baroni film with editorial monitoring value.",
     "importance_tier": "Monitoring",
-    "primary_story": "generic generated rationale",
+    "primary_story": "international profile; generic generated rationale",
     "story_strength": "Developing",
     "why_it_matters": "Upcoming Gil Baroni film with editorial monitoring value."
   },
@@ -176,15 +176,17 @@
   },
   "film_identity": {
     "backdrop": "",
-    "country": [],
+    "country": [
+      "BR"
+    ],
     "genres": [
       "Comedy",
       "Romance"
     ],
     "id": "1200804",
     "imdb_id": "",
-    "language": "",
-    "original_title": "Alice J\u00fanior Summer Break",
+    "language": "pt",
+    "original_title": "Alice J\u00fanior: F\u00e9rias de Ver\u00e3o",
     "poster": "https://image.tmdb.org/t/p/original/jyyVxt7VEDzVJovZtBhix82I097.jpg",
     "profile_payload_url": "data/films/1200804.json",
     "profile_url": "film.html?id=1200804",
@@ -195,9 +197,60 @@
     "title": "Alice J\u00fanior Summer Break",
     "tmdb_id": "1200804"
   },
+  "intelligence": {
+    "confidence": "High",
+    "confidence_score": 0.85,
+    "generated_at": "2026-07-27T21:24:57Z",
+    "headline": "Alice J\u00fanior Summer Break: popularity signal available",
+    "metadata": {
+      "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
+      "signal_values": {
+        "legacy_dashboard_awards_category_count": 0,
+        "legacy_dashboard_awards_tier": "No Current Awards Case",
+        "legacy_dashboard_credited_talent_count": 9,
+        "legacy_dashboard_director_profile_present": true,
+        "legacy_dashboard_festival_award_count": 0,
+        "legacy_dashboard_festival_selection_count": 0,
+        "legacy_dashboard_festival_status": "",
+        "legacy_dashboard_precursor_award_count": 0,
+        "legacy_dashboard_principal_cast_count": 8,
+        "streaming_available_us": false,
+        "streaming_flatrate_provider_count_us": 0,
+        "streaming_provider_count_us": 0,
+        "tmdb_backdrop_count": 0,
+        "tmdb_canonical_trailer_available": false,
+        "tmdb_popularity": 2.5271,
+        "tmdb_poster_count": 0,
+        "tmdb_release_date_us_primary": "",
+        "tmdb_release_date_us_theatrical": "",
+        "tmdb_release_status": "In Production",
+        "tmdb_vote_average": 0,
+        "tmdb_vote_count": 0,
+        "tmdb_watch_provider_count_us": 0,
+        "trailer_available": false,
+        "trailer_count": 0
+      },
+      "source_signal_count": 24,
+      "stale_signal_count": 0
+    },
+    "schema_version": "phase2b_intelligence_explanation_v1",
+    "summary": "TMDb popularity is 2.5271.",
+    "supporting_drivers": [
+      {
+        "confidence_weight": 0.65,
+        "driver_type": "popularity_observed",
+        "evidence": "TMDb popularity is 2.5271.",
+        "label": "Popularity signal available",
+        "retrieved_at": "2026-07-27T21:24:57Z",
+        "source_metric": "tmdb_popularity",
+        "source_provider": "tmdb",
+        "source_status": "available"
+      }
+    ]
+  },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260722T161339Z",
+    "generated_at": "20260727T212511Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -308,6 +361,11 @@
   },
   "signals": {
     "cultural_significance": 37.0,
+    "external_intelligence": {
+      "confidence": "High",
+      "headline": "Alice J\u00fanior Summer Break: popularity signal available",
+      "summary": "TMDb popularity is 2.5271."
+    },
     "last_updated": "2026-12-17",
     "latest_event": {
       "confidence": "Inferred",
@@ -344,7 +402,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1200804-52632adfaa7b",
+        "event_id": "1200804-202f4bdf046c",
         "event_type": "Awards Tier Changed",
         "film_id": "1200804",
         "importance": "Medium",
@@ -354,12 +412,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1200804-b9275c3e1e61",
+        "event_id": "1200804-0f7147ee61db",
         "event_type": "Added To Database",
         "film_id": "1200804",
         "importance": "Low",
@@ -368,7 +426,7 @@
         },
         "source_type": "system",
         "summary": "Alice J\u00fanior Summer Break is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -413,7 +471,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1200804-52632adfaa7b",
+        "event_id": "1200804-202f4bdf046c",
         "event_type": "Awards Tier Changed",
         "film_id": "1200804",
         "importance": "Medium",
@@ -423,12 +481,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1200804-b9275c3e1e61",
+        "event_id": "1200804-0f7147ee61db",
         "event_type": "Added To Database",
         "film_id": "1200804",
         "importance": "Low",
@@ -437,7 +495,7 @@
         },
         "source_type": "system",
         "summary": "Alice J\u00fanior Summer Break is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -472,7 +530,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1200804-52632adfaa7b",
+        "event_id": "1200804-202f4bdf046c",
         "event_type": "Awards Tier Changed",
         "film_id": "1200804",
         "importance": "Medium",
@@ -482,12 +540,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1200804-b9275c3e1e61",
+        "event_id": "1200804-0f7147ee61db",
         "event_type": "Added To Database",
         "film_id": "1200804",
         "importance": "Low",
@@ -496,7 +554,7 @@
         },
         "source_type": "system",
         "summary": "Alice J\u00fanior Summer Break is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Added to Awards Intelligence"
       }
     ],

@@ -7,7 +7,7 @@
       "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 64.4,
+    "attention_score": 65.0,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -50,20 +50,20 @@
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 1.0184",
+        "evidence": "TMDb popularity 1.2757",
         "source": "audience_popularity",
         "status": "verified"
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 64.4,
+    "homepage_spotlight_score": 65.0,
     "industry_interest": "High",
-    "last_updated": "20260722T161339Z",
+    "last_updated": "20260727T212511Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
         "evidence_count": 1,
-        "score": 3.6,
+        "score": 4.2,
         "statuses": [
           "verified"
         ]
@@ -204,9 +204,60 @@
     "title": "Why Did I Get Married Again?",
     "tmdb_id": "1522689"
   },
+  "intelligence": {
+    "confidence": "High",
+    "confidence_score": 0.85,
+    "generated_at": "2026-07-27T21:24:57Z",
+    "headline": "Why Did I Get Married Again?: popularity signal available",
+    "metadata": {
+      "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
+      "signal_values": {
+        "legacy_dashboard_awards_category_count": 3,
+        "legacy_dashboard_awards_tier": "No Current Awards Case",
+        "legacy_dashboard_credited_talent_count": 9,
+        "legacy_dashboard_director_profile_present": true,
+        "legacy_dashboard_festival_award_count": 0,
+        "legacy_dashboard_festival_selection_count": 0,
+        "legacy_dashboard_festival_status": "",
+        "legacy_dashboard_precursor_award_count": 0,
+        "legacy_dashboard_principal_cast_count": 8,
+        "streaming_available_us": false,
+        "streaming_flatrate_provider_count_us": 0,
+        "streaming_provider_count_us": 0,
+        "tmdb_backdrop_count": 0,
+        "tmdb_canonical_trailer_available": false,
+        "tmdb_popularity": 1.2757,
+        "tmdb_poster_count": 2,
+        "tmdb_release_date_us_primary": "2026-09-09",
+        "tmdb_release_date_us_theatrical": "",
+        "tmdb_release_status": "Post Production",
+        "tmdb_vote_average": 0,
+        "tmdb_vote_count": 0,
+        "tmdb_watch_provider_count_us": 0,
+        "trailer_available": false,
+        "trailer_count": 1
+      },
+      "source_signal_count": 24,
+      "stale_signal_count": 0
+    },
+    "schema_version": "phase2b_intelligence_explanation_v1",
+    "summary": "TMDb popularity is 1.2757.",
+    "supporting_drivers": [
+      {
+        "confidence_weight": 0.65,
+        "driver_type": "popularity_observed",
+        "evidence": "TMDb popularity is 1.2757.",
+        "label": "Popularity signal available",
+        "retrieved_at": "2026-07-27T21:24:57Z",
+        "source_metric": "tmdb_popularity",
+        "source_provider": "tmdb",
+        "source_status": "available"
+      }
+    ]
+  },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260722T161339Z",
+    "generated_at": "20260727T212511Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -323,6 +374,11 @@
   },
   "signals": {
     "cultural_significance": 62.8,
+    "external_intelligence": {
+      "confidence": "High",
+      "headline": "Why Did I Get Married Again?: popularity signal available",
+      "summary": "TMDb popularity is 1.2757."
+    },
     "last_updated": "2026-09-09",
     "latest_event": {
       "confidence": "Inferred",
@@ -359,7 +415,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1522689-d07d4b8f4adb",
+        "event_id": "1522689-9eccd1194aa4",
         "event_type": "Distributor Change",
         "film_id": "1522689",
         "importance": "Medium",
@@ -368,12 +424,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1522689-fb096e08dc48",
+        "event_id": "1522689-bbf300e11b6e",
         "event_type": "Awards Tier Changed",
         "film_id": "1522689",
         "importance": "Medium",
@@ -387,7 +443,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],
@@ -434,7 +490,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1522689-d07d4b8f4adb",
+        "event_id": "1522689-9eccd1194aa4",
         "event_type": "Distributor Change",
         "film_id": "1522689",
         "importance": "Medium",
@@ -443,12 +499,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1522689-fb096e08dc48",
+        "event_id": "1522689-bbf300e11b6e",
         "event_type": "Awards Tier Changed",
         "film_id": "1522689",
         "importance": "Medium",
@@ -462,12 +518,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1522689-e0d80baf4d4d",
+        "event_id": "1522689-50f40b4130f3",
         "event_type": "Added To Database",
         "film_id": "1522689",
         "importance": "Low",
@@ -476,7 +532,7 @@
         },
         "source_type": "system",
         "summary": "Why Did I Get Married Again? is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -511,7 +567,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1522689-d07d4b8f4adb",
+        "event_id": "1522689-9eccd1194aa4",
         "event_type": "Distributor Change",
         "film_id": "1522689",
         "importance": "Medium",
@@ -520,12 +576,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1522689-fb096e08dc48",
+        "event_id": "1522689-bbf300e11b6e",
         "event_type": "Awards Tier Changed",
         "film_id": "1522689",
         "importance": "Medium",
@@ -539,7 +595,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],

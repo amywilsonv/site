@@ -8,7 +8,7 @@
       "Event Release",
       "Awards Watch"
     ],
-    "attention_score": 79.8,
+    "attention_score": 80.2,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -41,6 +41,11 @@
         "status": "verified"
       },
       {
+        "evidence": "TMDb popularity 3.7233",
+        "source": "audience_popularity",
+        "status": "verified"
+      },
+      {
         "evidence": "Director: Susanne Bier",
         "source": "filmmaker_interest",
         "status": "verified"
@@ -48,11 +53,6 @@
       {
         "evidence": "Trailer URL present",
         "source": "trailer_available",
-        "status": "verified"
-      },
-      {
-        "evidence": "TMDb popularity 3.027",
-        "source": "audience_popularity",
         "status": "verified"
       },
       {
@@ -67,14 +67,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 79.8,
+    "homepage_spotlight_score": 80.2,
     "industry_interest": "High",
-    "last_updated": "20260722T161339Z",
+    "last_updated": "20260727T212511Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
         "evidence_count": 2,
-        "score": 12.0,
+        "score": 12.4,
         "statuses": [
           "verified"
         ]
@@ -204,8 +204,10 @@
     "premiere_type": ""
   },
   "film_identity": {
-    "backdrop": "",
-    "country": [],
+    "backdrop": "https://image.tmdb.org/t/p/original/yDgYYuz8jDQCRJbHC3XM7IIGoeR.jpg",
+    "country": [
+      "US"
+    ],
     "genres": [
       "Fantasy",
       "Drama",
@@ -213,7 +215,7 @@
     ],
     "id": "1302904",
     "imdb_id": "",
-    "language": "",
+    "language": "en",
     "original_title": "Practical Magic 2",
     "poster": "https://image.tmdb.org/t/p/original/uA8ytJv17alSiREcUthbYAdiPCX.jpg",
     "profile_payload_url": "data/films/1302904.json",
@@ -225,9 +227,72 @@
     "title": "Practical Magic 2",
     "tmdb_id": "1302904"
   },
+  "intelligence": {
+    "confidence": "High",
+    "confidence_score": 0.99,
+    "generated_at": "2026-07-27T21:24:57Z",
+    "headline": "Practical Magic 2: popularity signal available",
+    "metadata": {
+      "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
+      "signal_values": {
+        "legacy_dashboard_awards_category_count": 1,
+        "legacy_dashboard_awards_tier": "Emerging",
+        "legacy_dashboard_credited_talent_count": 9,
+        "legacy_dashboard_director_profile_present": true,
+        "legacy_dashboard_festival_award_count": 0,
+        "legacy_dashboard_festival_selection_count": 0,
+        "legacy_dashboard_festival_status": "",
+        "legacy_dashboard_precursor_award_count": 0,
+        "legacy_dashboard_principal_cast_count": 8,
+        "streaming_available_us": false,
+        "streaming_flatrate_provider_count_us": 0,
+        "streaming_provider_count_us": 0,
+        "tmdb_backdrop_count": 0,
+        "tmdb_canonical_trailer_available": true,
+        "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=Ho10_4IX1jE",
+        "tmdb_popularity": 3.7233,
+        "tmdb_poster_count": 2,
+        "tmdb_release_date_us_primary": "2026-09-11",
+        "tmdb_release_date_us_theatrical": "2026-09-11",
+        "tmdb_release_status": "Post Production",
+        "tmdb_vote_average": 0,
+        "tmdb_vote_count": 0,
+        "tmdb_watch_provider_count_us": 0,
+        "trailer_available": true,
+        "trailer_count": 8,
+        "trailer_url": "https://www.youtube.com/watch?v=Ho10_4IX1jE"
+      },
+      "source_signal_count": 26,
+      "stale_signal_count": 0
+    },
+    "schema_version": "phase2b_intelligence_explanation_v1",
+    "summary": "TMDb popularity is 3.7233. A canonical TMDb trailer URL is available.",
+    "supporting_drivers": [
+      {
+        "confidence_weight": 0.65,
+        "driver_type": "popularity_observed",
+        "evidence": "TMDb popularity is 3.7233.",
+        "label": "Popularity signal available",
+        "retrieved_at": "2026-07-27T21:24:57Z",
+        "source_metric": "tmdb_popularity",
+        "source_provider": "tmdb",
+        "source_status": "available"
+      },
+      {
+        "confidence_weight": 0.85,
+        "driver_type": "trailer_available",
+        "evidence": "A canonical TMDb trailer URL is available.",
+        "label": "Trailer available",
+        "retrieved_at": "2026-07-27T21:24:57Z",
+        "source_metric": "tmdb_canonical_trailer_url",
+        "source_provider": "tmdb",
+        "source_status": "available"
+      }
+    ]
+  },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260722T161339Z",
+    "generated_at": "20260727T212511Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -242,7 +307,7 @@
           "Craft Categories",
           "Warner Bros. Pictures"
         ],
-        "title": "Coyote vs ACME",
+        "title": "Coyote vs. Acme",
         "tmdb_id": "1204680"
       },
       {
@@ -366,6 +431,11 @@
   },
   "signals": {
     "cultural_significance": 62.8,
+    "external_intelligence": {
+      "confidence": "High",
+      "headline": "Practical Magic 2: popularity signal available",
+      "summary": "TMDb popularity is 3.7233. A canonical TMDb trailer URL is available."
+    },
     "last_updated": "2026-09-11",
     "latest_event": {
       "confidence": "Inferred",
@@ -402,7 +472,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1302904-f567358b2814",
+        "event_id": "1302904-db8b56449677",
         "event_type": "Distributor Change",
         "film_id": "1302904",
         "importance": "Medium",
@@ -411,12 +481,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Warner Bros. Pictures.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Distributor set: Warner Bros. Pictures"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1302904-cdb1abf8cdd9",
+        "event_id": "1302904-ec4ca5d5af65",
         "event_type": "Awards Tier Changed",
         "film_id": "1302904",
         "importance": "Medium",
@@ -428,7 +498,7 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: Emerging"
       }
     ],
@@ -476,7 +546,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1302904-f567358b2814",
+        "event_id": "1302904-db8b56449677",
         "event_type": "Distributor Change",
         "film_id": "1302904",
         "importance": "Medium",
@@ -485,12 +555,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Warner Bros. Pictures.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Distributor set: Warner Bros. Pictures"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1302904-cdb1abf8cdd9",
+        "event_id": "1302904-ec4ca5d5af65",
         "event_type": "Awards Tier Changed",
         "film_id": "1302904",
         "importance": "Medium",
@@ -502,12 +572,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1302904-7ec1b08138a3",
+        "event_id": "1302904-460f90817355",
         "event_type": "Added To Database",
         "film_id": "1302904",
         "importance": "Low",
@@ -516,7 +586,7 @@
         },
         "source_type": "system",
         "summary": "Practical Magic 2 is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -551,7 +621,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1302904-f567358b2814",
+        "event_id": "1302904-db8b56449677",
         "event_type": "Distributor Change",
         "film_id": "1302904",
         "importance": "Medium",
@@ -560,12 +630,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Warner Bros. Pictures.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Distributor set: Warner Bros. Pictures"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1302904-cdb1abf8cdd9",
+        "event_id": "1302904-ec4ca5d5af65",
         "event_type": "Awards Tier Changed",
         "film_id": "1302904",
         "importance": "Medium",
@@ -577,7 +647,7 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: Emerging"
       }
     ],

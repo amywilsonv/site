@@ -7,7 +7,7 @@
       "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 50.7,
+    "attention_score": 51.7,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -25,7 +25,7 @@
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 3.814",
+        "evidence": "TMDb popularity 4.8191",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -51,14 +51,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 50.7,
+    "homepage_spotlight_score": 51.7,
     "industry_interest": null,
-    "last_updated": "20260722T161339Z",
+    "last_updated": "20260727T212511Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
         "evidence_count": 2,
-        "score": 12.5,
+        "score": 13.5,
         "statuses": [
           "verified"
         ]
@@ -175,14 +175,17 @@
     "premiere_type": ""
   },
   "film_identity": {
-    "backdrop": "",
-    "country": [],
+    "backdrop": "https://image.tmdb.org/t/p/original/jmW9NkzbpI9vhyxJU2x644Nj7VU.jpg",
+    "country": [
+      "GB",
+      "US"
+    ],
     "genres": [
       "Horror"
     ],
     "id": "1421903",
     "imdb_id": "",
-    "language": "",
+    "language": "en",
     "original_title": "Werwulf",
     "poster": "https://image.tmdb.org/t/p/original/qXqCece01iDhDoeX1V3y6rbPkNK.jpg",
     "profile_payload_url": "data/films/1421903.json",
@@ -194,9 +197,72 @@
     "title": "Werwulf",
     "tmdb_id": "1421903"
   },
+  "intelligence": {
+    "confidence": "High",
+    "confidence_score": 0.99,
+    "generated_at": "2026-07-27T21:24:57Z",
+    "headline": "Werwulf: popularity signal available",
+    "metadata": {
+      "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
+      "signal_values": {
+        "legacy_dashboard_awards_category_count": 0,
+        "legacy_dashboard_awards_tier": "No Current Awards Case",
+        "legacy_dashboard_credited_talent_count": 9,
+        "legacy_dashboard_director_profile_present": true,
+        "legacy_dashboard_festival_award_count": 0,
+        "legacy_dashboard_festival_selection_count": 0,
+        "legacy_dashboard_festival_status": "",
+        "legacy_dashboard_precursor_award_count": 0,
+        "legacy_dashboard_principal_cast_count": 8,
+        "streaming_available_us": false,
+        "streaming_flatrate_provider_count_us": 0,
+        "streaming_provider_count_us": 0,
+        "tmdb_backdrop_count": 1,
+        "tmdb_canonical_trailer_available": true,
+        "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=cmjpadVj-Vk",
+        "tmdb_popularity": 4.8191,
+        "tmdb_poster_count": 16,
+        "tmdb_release_date_us_primary": "2026-12-25",
+        "tmdb_release_date_us_theatrical": "2026-12-25",
+        "tmdb_release_status": "Post Production",
+        "tmdb_vote_average": 0,
+        "tmdb_vote_count": 0,
+        "tmdb_watch_provider_count_us": 0,
+        "trailer_available": true,
+        "trailer_count": 1,
+        "trailer_url": "https://www.youtube.com/watch?v=cmjpadVj-Vk"
+      },
+      "source_signal_count": 26,
+      "stale_signal_count": 0
+    },
+    "schema_version": "phase2b_intelligence_explanation_v1",
+    "summary": "TMDb popularity is 4.8191. A canonical TMDb trailer URL is available.",
+    "supporting_drivers": [
+      {
+        "confidence_weight": 0.65,
+        "driver_type": "popularity_observed",
+        "evidence": "TMDb popularity is 4.8191.",
+        "label": "Popularity signal available",
+        "retrieved_at": "2026-07-27T21:24:57Z",
+        "source_metric": "tmdb_popularity",
+        "source_provider": "tmdb",
+        "source_status": "available"
+      },
+      {
+        "confidence_weight": 0.85,
+        "driver_type": "trailer_available",
+        "evidence": "A canonical TMDb trailer URL is available.",
+        "label": "Trailer available",
+        "retrieved_at": "2026-07-27T21:24:57Z",
+        "source_metric": "tmdb_canonical_trailer_url",
+        "source_provider": "tmdb",
+        "source_status": "available"
+      }
+    ]
+  },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260722T161339Z",
+    "generated_at": "20260727T212511Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -253,13 +319,13 @@
         "tmdb_id": "1284041"
       },
       {
-        "profile_url": "film.html?id=949838",
+        "profile_url": "film.html?id=1324688",
         "relationship_score": 26,
         "shared_signals": [
           "General Watch"
         ],
-        "title": "72 HOURS",
-        "tmdb_id": "949838"
+        "title": "7G Rainbow Colony 2",
+        "tmdb_id": "1324688"
       }
     ],
     "related_people": [
@@ -313,6 +379,11 @@
   },
   "signals": {
     "cultural_significance": 0,
+    "external_intelligence": {
+      "confidence": "High",
+      "headline": "Werwulf: popularity signal available",
+      "summary": "TMDb popularity is 4.8191. A canonical TMDb trailer URL is available."
+    },
     "last_updated": "2026-12-25",
     "latest_event": {
       "confidence": "Inferred",
@@ -349,7 +420,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1421903-5b2cf8daebeb",
+        "event_id": "1421903-89f3b82f4cb2",
         "event_type": "Distributor Change",
         "film_id": "1421903",
         "importance": "Medium",
@@ -358,12 +429,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Focus Features.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Distributor set: Focus Features"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1421903-8ea312454ac6",
+        "event_id": "1421903-c7de00f95008",
         "event_type": "Awards Tier Changed",
         "film_id": "1421903",
         "importance": "Medium",
@@ -373,7 +444,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],
@@ -420,7 +491,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1421903-5b2cf8daebeb",
+        "event_id": "1421903-89f3b82f4cb2",
         "event_type": "Distributor Change",
         "film_id": "1421903",
         "importance": "Medium",
@@ -429,12 +500,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Focus Features.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Distributor set: Focus Features"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1421903-8ea312454ac6",
+        "event_id": "1421903-c7de00f95008",
         "event_type": "Awards Tier Changed",
         "film_id": "1421903",
         "importance": "Medium",
@@ -444,12 +515,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1421903-73a521d6d8ae",
+        "event_id": "1421903-1be7d6e41fd2",
         "event_type": "Added To Database",
         "film_id": "1421903",
         "importance": "Low",
@@ -458,7 +529,7 @@
         },
         "source_type": "system",
         "summary": "Werwulf is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -493,7 +564,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1421903-5b2cf8daebeb",
+        "event_id": "1421903-89f3b82f4cb2",
         "event_type": "Distributor Change",
         "film_id": "1421903",
         "importance": "Medium",
@@ -502,12 +573,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Focus Features.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Distributor set: Focus Features"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1421903-8ea312454ac6",
+        "event_id": "1421903-c7de00f95008",
         "event_type": "Awards Tier Changed",
         "film_id": "1421903",
         "importance": "Medium",
@@ -517,7 +588,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],

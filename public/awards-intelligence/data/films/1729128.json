@@ -8,7 +8,7 @@
       "Event Release",
       "Awards Watch"
     ],
-    "attention_score": 61.2,
+    "attention_score": 60.2,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -46,25 +46,25 @@
         "status": "inferred"
       },
       {
-        "evidence": "TMDb popularity 1.518",
-        "source": "audience_popularity",
+        "evidence": "Director: Hiroyuki Tsuji",
+        "source": "filmmaker_interest",
         "status": "verified"
       },
       {
-        "evidence": "Director: Hiroyuki Tsuji",
-        "source": "filmmaker_interest",
+        "evidence": "TMDb popularity 1.0995",
+        "source": "audience_popularity",
         "status": "verified"
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 61.2,
+    "homepage_spotlight_score": 60.2,
     "industry_interest": "Moderate",
-    "last_updated": "20260722T161339Z",
+    "last_updated": "20260727T212511Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
         "evidence_count": 1,
-        "score": 4.8,
+        "score": 3.8,
         "statuses": [
           "verified"
         ]
@@ -177,7 +177,7 @@
     "editorial_category": "General Watch",
     "editorial_summary": "Upcoming Hiroyuki Tsuji film with Craft Categories monitoring value.",
     "importance_tier": "Monitoring",
-    "primary_story": "generic generated rationale",
+    "primary_story": "international profile; generic generated rationale",
     "story_strength": "Developing",
     "why_it_matters": "Upcoming Hiroyuki Tsuji film with Craft Categories monitoring value."
   },
@@ -189,8 +189,10 @@
     "premiere_type": ""
   },
   "film_identity": {
-    "backdrop": "",
-    "country": [],
+    "backdrop": "https://image.tmdb.org/t/p/original/4fk4caJBmOBcee6gKJkpyuVQHbW.jpg",
+    "country": [
+      "JP"
+    ],
     "genres": [
       "Action",
       "Crime",
@@ -198,8 +200,8 @@
     ],
     "id": "1729128",
     "imdb_id": "",
-    "language": "",
-    "original_title": "Unification of Japan 76",
+    "language": "ja",
+    "original_title": "\u65e5\u672c\u7d71\u4e00\uff17\uff16",
     "poster": "https://image.tmdb.org/t/p/original/zTlz9Z0QGjjyb2xKJN4aq2F6eWS.jpg",
     "profile_payload_url": "data/films/1729128.json",
     "profile_url": "film.html?id=1729128",
@@ -210,9 +212,60 @@
     "title": "Unification of Japan 76",
     "tmdb_id": "1729128"
   },
+  "intelligence": {
+    "confidence": "High",
+    "confidence_score": 0.85,
+    "generated_at": "2026-07-27T21:24:57Z",
+    "headline": "Unification of Japan 76: popularity signal available",
+    "metadata": {
+      "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
+      "signal_values": {
+        "legacy_dashboard_awards_category_count": 1,
+        "legacy_dashboard_awards_tier": "Emerging",
+        "legacy_dashboard_credited_talent_count": 9,
+        "legacy_dashboard_director_profile_present": true,
+        "legacy_dashboard_festival_award_count": 0,
+        "legacy_dashboard_festival_selection_count": 0,
+        "legacy_dashboard_festival_status": "",
+        "legacy_dashboard_precursor_award_count": 0,
+        "legacy_dashboard_principal_cast_count": 8,
+        "streaming_available_us": false,
+        "streaming_flatrate_provider_count_us": 0,
+        "streaming_provider_count_us": 0,
+        "tmdb_backdrop_count": 0,
+        "tmdb_canonical_trailer_available": false,
+        "tmdb_popularity": 1.0995,
+        "tmdb_poster_count": 0,
+        "tmdb_release_date_us_primary": "",
+        "tmdb_release_date_us_theatrical": "",
+        "tmdb_release_status": "In Production",
+        "tmdb_vote_average": 0,
+        "tmdb_vote_count": 0,
+        "tmdb_watch_provider_count_us": 0,
+        "trailer_available": false,
+        "trailer_count": 0
+      },
+      "source_signal_count": 24,
+      "stale_signal_count": 0
+    },
+    "schema_version": "phase2b_intelligence_explanation_v1",
+    "summary": "TMDb popularity is 1.0995.",
+    "supporting_drivers": [
+      {
+        "confidence_weight": 0.65,
+        "driver_type": "popularity_observed",
+        "evidence": "TMDb popularity is 1.0995.",
+        "label": "Popularity signal available",
+        "retrieved_at": "2026-07-27T21:24:57Z",
+        "source_metric": "tmdb_popularity",
+        "source_provider": "tmdb",
+        "source_status": "available"
+      }
+    ]
+  },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260722T161339Z",
+    "generated_at": "20260727T212511Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -239,7 +292,7 @@
           "Drama",
           "Craft Categories"
         ],
-        "title": "Kamen Rider Kabuto 20th: The One Who Inherits the Heavens",
+        "title": "Kamen Rider Kabuto 20th: \u200b\u200bThe One Who Inherits the Heavens",
         "tmdb_id": "1567149"
       },
       {
@@ -278,14 +331,16 @@
         "tmdb_id": "1620873"
       },
       {
-        "profile_url": "film.html?id=1700889",
-        "relationship_score": 48,
+        "profile_url": "film.html?id=1670061",
+        "relationship_score": 52,
         "shared_signals": [
           "General Watch",
-          "Unknown"
+          "Action",
+          "Crime",
+          "Craft Categories"
         ],
-        "title": "\u0420\u0443\u043a\u0438 \u0432\u0432\u0435\u0440\u0445! 2",
-        "tmdb_id": "1700889"
+        "title": "Beasts Clutching at Straws",
+        "tmdb_id": "1670061"
       }
     ],
     "related_people": [
@@ -327,6 +382,11 @@
   },
   "signals": {
     "cultural_significance": 37.0,
+    "external_intelligence": {
+      "confidence": "High",
+      "headline": "Unification of Japan 76: popularity signal available",
+      "summary": "TMDb popularity is 1.0995."
+    },
     "last_updated": "2026-09-02",
     "latest_event": {
       "confidence": "Inferred",
@@ -363,7 +423,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1729128-b3d65ed0a340",
+        "event_id": "1729128-bad01ffa9b06",
         "event_type": "Awards Tier Changed",
         "film_id": "1729128",
         "importance": "Medium",
@@ -375,12 +435,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1729128-24527b8a2c32",
+        "event_id": "1729128-b9c89f4cc4f8",
         "event_type": "Added To Database",
         "film_id": "1729128",
         "importance": "Low",
@@ -389,7 +449,7 @@
         },
         "source_type": "system",
         "summary": "Unification of Japan 76 is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -435,7 +495,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1729128-b3d65ed0a340",
+        "event_id": "1729128-bad01ffa9b06",
         "event_type": "Awards Tier Changed",
         "film_id": "1729128",
         "importance": "Medium",
@@ -447,12 +507,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1729128-24527b8a2c32",
+        "event_id": "1729128-b9c89f4cc4f8",
         "event_type": "Added To Database",
         "film_id": "1729128",
         "importance": "Low",
@@ -461,7 +521,7 @@
         },
         "source_type": "system",
         "summary": "Unification of Japan 76 is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -496,7 +556,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1729128-b3d65ed0a340",
+        "event_id": "1729128-bad01ffa9b06",
         "event_type": "Awards Tier Changed",
         "film_id": "1729128",
         "importance": "Medium",
@@ -508,12 +568,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1729128-24527b8a2c32",
+        "event_id": "1729128-b9c89f4cc4f8",
         "event_type": "Added To Database",
         "film_id": "1729128",
         "importance": "Low",
@@ -522,7 +582,7 @@
         },
         "source_type": "system",
         "summary": "Unification of Japan 76 is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Added to Awards Intelligence"
       }
     ],

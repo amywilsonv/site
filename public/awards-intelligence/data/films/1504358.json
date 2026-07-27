@@ -1,13 +1,13 @@
 {
   "attention_intelligence": {
-    "anticipation_level": "Developing",
+    "anticipation_level": "Moderate",
     "attention_confidence": "High",
     "attention_reasons": [
       "Most Anticipated",
       "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 49.7,
+    "attention_score": 57.6,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -35,6 +35,16 @@
         "status": "verified"
       },
       {
+        "evidence": "Trailer URL present",
+        "source": "trailer_available",
+        "status": "verified"
+      },
+      {
+        "evidence": "TMDb popularity 2.1291",
+        "source": "audience_popularity",
+        "status": "verified"
+      },
+      {
         "evidence": "Commercial scale and release context",
         "source": "commercial_scale",
         "status": "inferred"
@@ -43,22 +53,17 @@
         "evidence": "Director: Julia Hart",
         "source": "filmmaker_interest",
         "status": "verified"
-      },
-      {
-        "evidence": "TMDb popularity 0.8939",
-        "source": "audience_popularity",
-        "status": "verified"
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 49.7,
+    "homepage_spotlight_score": 57.6,
     "industry_interest": null,
-    "last_updated": "20260722T161339Z",
-    "promotional_response": null,
+    "last_updated": "20260727T212511Z",
+    "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
-        "evidence_count": 1,
-        "score": 3.3,
+        "evidence_count": 2,
+        "score": 11.2,
         "statuses": [
           "verified"
         ]
@@ -130,7 +135,7 @@
     "award_history": [],
     "awards_tier": "No Current Awards Case",
     "comparable_nominees": [],
-    "confidence": "Medium",
+    "confidence": "High",
     "current_awards_profile": "Developing",
     "explanation": "insufficient credible awards evidence",
     "predicted_categories": [
@@ -145,7 +150,7 @@
     "commercial_significance": 19.0,
     "distributor": "Netflix",
     "franchise": "",
-    "release_strategy": "Streamer awards release",
+    "release_strategy": "Active release campaign",
     "studio": [
       "Original Headquarters",
       "Range Studios",
@@ -153,11 +158,10 @@
     ]
   },
   "diagnostics": {
-    "completeness_score": 78,
-    "confidence": "Medium",
+    "completeness_score": 89,
+    "confidence": "High",
     "missing_fields": [
-      "runtime",
-      "poster"
+      "runtime"
     ],
     "relationship_counts": {
       "related_films": 6,
@@ -171,7 +175,7 @@
     "editorial_summary": "Netflix release worth monitoring for Best Picture, Song / Score, Acting potential.",
     "importance_tier": "Watchlist",
     "primary_story": "filmmaker/editorial hook; generic generated rationale",
-    "story_strength": "Developing",
+    "story_strength": "Strong",
     "why_it_matters": "Netflix release worth monitoring for Best Picture, Song / Score, Acting potential."
   },
   "festival": {
@@ -195,7 +199,7 @@
     "imdb_id": "",
     "language": "en",
     "original_title": "Don't Say Good Luck",
-    "poster": "",
+    "poster": "https://image.tmdb.org/t/p/original/w3NNwo7kImaJS7fL6YlBsJx0i6R.jpg",
     "profile_payload_url": "data/films/1504358.json",
     "profile_url": "film.html?id=1504358",
     "release_date": "2026-08-14",
@@ -205,9 +209,82 @@
     "title": "Don't Say Good Luck",
     "tmdb_id": "1504358"
   },
+  "intelligence": {
+    "confidence": "High",
+    "confidence_score": 0.99,
+    "generated_at": "2026-07-27T21:24:57Z",
+    "headline": "Don't Say Good Luck: release approaching",
+    "metadata": {
+      "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
+      "signal_values": {
+        "legacy_dashboard_awards_category_count": 4,
+        "legacy_dashboard_awards_tier": "No Current Awards Case",
+        "legacy_dashboard_credited_talent_count": 8,
+        "legacy_dashboard_director_profile_present": true,
+        "legacy_dashboard_festival_award_count": 0,
+        "legacy_dashboard_festival_selection_count": 0,
+        "legacy_dashboard_festival_status": "",
+        "legacy_dashboard_precursor_award_count": 0,
+        "legacy_dashboard_principal_cast_count": 7,
+        "streaming_available_us": false,
+        "streaming_flatrate_provider_count_us": 0,
+        "streaming_provider_count_us": 0,
+        "tmdb_backdrop_count": 0,
+        "tmdb_canonical_trailer_available": true,
+        "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=bvWqHSFkO5s",
+        "tmdb_popularity": 2.1291,
+        "tmdb_poster_count": 1,
+        "tmdb_release_date_us_primary": "2026-08-14",
+        "tmdb_release_date_us_theatrical": "",
+        "tmdb_release_status": "Post Production",
+        "tmdb_vote_average": 0,
+        "tmdb_vote_count": 0,
+        "tmdb_watch_provider_count_us": 0,
+        "trailer_available": true,
+        "trailer_count": 1,
+        "trailer_url": "https://www.youtube.com/watch?v=bvWqHSFkO5s"
+      },
+      "source_signal_count": 26,
+      "stale_signal_count": 0
+    },
+    "schema_version": "phase2b_intelligence_explanation_v1",
+    "summary": "TMDb popularity is 2.1291. US release is 25 days away on 2026-08-14. A canonical TMDb trailer URL is available.",
+    "supporting_drivers": [
+      {
+        "confidence_weight": 0.65,
+        "driver_type": "popularity_observed",
+        "evidence": "TMDb popularity is 2.1291.",
+        "label": "Popularity signal available",
+        "retrieved_at": "2026-07-27T21:24:57Z",
+        "source_metric": "tmdb_popularity",
+        "source_provider": "tmdb",
+        "source_status": "available"
+      },
+      {
+        "confidence_weight": 0.8,
+        "driver_type": "release_approaching",
+        "evidence": "US release is 25 days away on 2026-08-14.",
+        "label": "Release approaching",
+        "retrieved_at": "2026-07-27T21:24:57Z",
+        "source_metric": "tmdb_release_date_us_primary",
+        "source_provider": "tmdb",
+        "source_status": "available"
+      },
+      {
+        "confidence_weight": 0.85,
+        "driver_type": "trailer_available",
+        "evidence": "A canonical TMDb trailer URL is available.",
+        "label": "Trailer available",
+        "retrieved_at": "2026-07-27T21:24:57Z",
+        "source_metric": "tmdb_canonical_trailer_url",
+        "source_provider": "tmdb",
+        "source_status": "available"
+      }
+    ]
+  },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260722T161339Z",
+    "generated_at": "20260727T212511Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -337,6 +414,11 @@
   },
   "signals": {
     "cultural_significance": 19.0,
+    "external_intelligence": {
+      "confidence": "High",
+      "headline": "Don't Say Good Luck: release approaching",
+      "summary": "TMDb popularity is 2.1291. US release is 25 days away on 2026-08-14. A canonical TMDb trailer URL is available."
+    },
     "last_updated": "2026-08-14",
     "latest_event": {
       "confidence": "Inferred",
@@ -373,7 +455,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1504358-7a1027c18f36",
+        "event_id": "1504358-5541950f1d36",
         "event_type": "Distributor Change",
         "film_id": "1504358",
         "importance": "Medium",
@@ -382,12 +464,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1504358-821cf84e4d96",
+        "event_id": "1504358-a86cb9822584",
         "event_type": "Awards Tier Changed",
         "film_id": "1504358",
         "importance": "Medium",
@@ -402,7 +484,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],
@@ -447,7 +529,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1504358-7a1027c18f36",
+        "event_id": "1504358-5541950f1d36",
         "event_type": "Distributor Change",
         "film_id": "1504358",
         "importance": "Medium",
@@ -456,12 +538,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1504358-821cf84e4d96",
+        "event_id": "1504358-a86cb9822584",
         "event_type": "Awards Tier Changed",
         "film_id": "1504358",
         "importance": "Medium",
@@ -476,12 +558,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1504358-564d5f495484",
+        "event_id": "1504358-d971044d5e4c",
         "event_type": "Added To Database",
         "film_id": "1504358",
         "importance": "Low",
@@ -490,7 +572,7 @@
         },
         "source_type": "system",
         "summary": "Don't Say Good Luck is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -525,7 +607,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1504358-7a1027c18f36",
+        "event_id": "1504358-5541950f1d36",
         "event_type": "Distributor Change",
         "film_id": "1504358",
         "importance": "Medium",
@@ -534,12 +616,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1504358-821cf84e4d96",
+        "event_id": "1504358-a86cb9822584",
         "event_type": "Awards Tier Changed",
         "film_id": "1504358",
         "importance": "Medium",
@@ -554,7 +636,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],

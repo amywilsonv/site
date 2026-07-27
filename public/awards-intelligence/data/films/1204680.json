@@ -8,7 +8,7 @@
       "Event Release",
       "Awards Watch"
     ],
-    "attention_score": 80.2,
+    "attention_score": 84.4,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -26,6 +26,11 @@
         "status": "inferred"
       },
       {
+        "evidence": "TMDb popularity 9.7115",
+        "source": "audience_popularity",
+        "status": "verified"
+      },
+      {
         "evidence": "Franchise, sequel, or recognizable IP signal in available metadata",
         "source": "franchise_ip_recognition",
         "status": "inferred"
@@ -38,11 +43,6 @@
       {
         "evidence": "Principal cast listed: Will Forte, Lana Condor, Tone Bell, John Cena",
         "source": "cast_interest",
-        "status": "verified"
-      },
-      {
-        "evidence": "TMDb popularity 3.723",
-        "source": "audience_popularity",
         "status": "verified"
       },
       {
@@ -67,14 +67,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 80.2,
+    "homepage_spotlight_score": 84.4,
     "industry_interest": "High",
-    "last_updated": "20260722T161339Z",
+    "last_updated": "20260727T212511Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
         "evidence_count": 2,
-        "score": 12.4,
+        "score": 16.6,
         "statuses": [
           "verified"
         ]
@@ -200,18 +200,19 @@
     "premiere_type": ""
   },
   "film_identity": {
-    "backdrop": "",
-    "country": [],
+    "backdrop": "https://image.tmdb.org/t/p/original/AbQYEHieBJsMheLFKM02rFu0xnc.jpg",
+    "country": [
+      "US"
+    ],
     "genres": [
       "Comedy",
       "Adventure",
-      "Mystery",
       "Family"
     ],
     "id": "1204680",
     "imdb_id": "",
-    "language": "",
-    "original_title": "Coyote vs ACME",
+    "language": "en",
+    "original_title": "Coyote vs. Acme",
     "poster": "https://image.tmdb.org/t/p/original/7zNmJP6z6mDAp4LouacYkGSBUQv.jpg",
     "profile_payload_url": "data/films/1204680.json",
     "profile_url": "film.html?id=1204680",
@@ -219,12 +220,85 @@
     "release_display": "In theaters Aug. 28",
     "runtime": 103,
     "synopsis": "After Acme products fail him one too many times in his dogged pursuit of the Roadrunner, Wile E. Coyote decides to hire a billboard lawyer to sue the Acme Corporation.",
-    "title": "Coyote vs ACME",
+    "title": "Coyote vs. Acme",
     "tmdb_id": "1204680"
+  },
+  "intelligence": {
+    "confidence": "High",
+    "confidence_score": 0.99,
+    "generated_at": "2026-07-27T21:24:57Z",
+    "headline": "Coyote vs. Acme: release approaching",
+    "metadata": {
+      "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
+      "signal_values": {
+        "legacy_dashboard_awards_category_count": 1,
+        "legacy_dashboard_awards_tier": "Emerging",
+        "legacy_dashboard_credited_talent_count": 9,
+        "legacy_dashboard_director_profile_present": true,
+        "legacy_dashboard_festival_award_count": 0,
+        "legacy_dashboard_festival_selection_count": 0,
+        "legacy_dashboard_festival_status": "",
+        "legacy_dashboard_precursor_award_count": 0,
+        "legacy_dashboard_principal_cast_count": 8,
+        "streaming_available_us": false,
+        "streaming_flatrate_provider_count_us": 0,
+        "streaming_provider_count_us": 0,
+        "tmdb_backdrop_count": 6,
+        "tmdb_canonical_trailer_available": true,
+        "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=kMsiD1Nky5I",
+        "tmdb_popularity": 9.7115,
+        "tmdb_poster_count": 16,
+        "tmdb_release_date_us_primary": "2026-08-28",
+        "tmdb_release_date_us_theatrical": "2026-08-28",
+        "tmdb_release_status": "Post Production",
+        "tmdb_vote_average": 0,
+        "tmdb_vote_count": 0,
+        "tmdb_watch_provider_count_us": 0,
+        "trailer_available": true,
+        "trailer_count": 6,
+        "trailer_url": "https://www.youtube.com/watch?v=kMsiD1Nky5I"
+      },
+      "source_signal_count": 26,
+      "stale_signal_count": 0
+    },
+    "schema_version": "phase2b_intelligence_explanation_v1",
+    "summary": "TMDb popularity is 9.7115. US release is 39 days away on 2026-08-28. A canonical TMDb trailer URL is available.",
+    "supporting_drivers": [
+      {
+        "confidence_weight": 0.65,
+        "driver_type": "popularity_observed",
+        "evidence": "TMDb popularity is 9.7115.",
+        "label": "Popularity signal available",
+        "retrieved_at": "2026-07-27T21:24:57Z",
+        "source_metric": "tmdb_popularity",
+        "source_provider": "tmdb",
+        "source_status": "available"
+      },
+      {
+        "confidence_weight": 0.8,
+        "driver_type": "release_approaching",
+        "evidence": "US release is 39 days away on 2026-08-28.",
+        "label": "Release approaching",
+        "retrieved_at": "2026-07-27T21:24:57Z",
+        "source_metric": "tmdb_release_date_us_primary",
+        "source_provider": "tmdb",
+        "source_status": "available"
+      },
+      {
+        "confidence_weight": 0.85,
+        "driver_type": "trailer_available",
+        "evidence": "A canonical TMDb trailer URL is available.",
+        "label": "Trailer available",
+        "retrieved_at": "2026-07-27T21:24:57Z",
+        "source_metric": "tmdb_canonical_trailer_url",
+        "source_provider": "tmdb",
+        "source_status": "available"
+      }
+    ]
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260722T161339Z",
+    "generated_at": "20260727T212511Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -276,6 +350,18 @@
         "tmdb_id": "1620873"
       },
       {
+        "profile_url": "film.html?id=1318621",
+        "relationship_score": 46,
+        "shared_signals": [
+          "Major Release",
+          "Adventure",
+          "Family",
+          "Craft Categories"
+        ],
+        "title": "Descendants: Wicked Wonderland",
+        "tmdb_id": "1318621"
+      },
+      {
         "profile_url": "film.html?id=1260649",
         "relationship_score": 46,
         "shared_signals": [
@@ -286,18 +372,6 @@
         ],
         "title": "Jumanji: Open World",
         "tmdb_id": "1260649"
-      },
-      {
-        "profile_url": "film.html?id=1401586",
-        "relationship_score": 46,
-        "shared_signals": [
-          "Major Release",
-          "Comedy",
-          "Family",
-          "Craft Categories"
-        ],
-        "title": "Sonic the Hedgehog 4",
-        "tmdb_id": "1401586"
       }
     ],
     "related_people": [
@@ -355,6 +429,11 @@
   },
   "signals": {
     "cultural_significance": 62.8,
+    "external_intelligence": {
+      "confidence": "High",
+      "headline": "Coyote vs. Acme: release approaching",
+      "summary": "TMDb popularity is 9.7115. US release is 39 days away on 2026-08-28. A canonical TMDb trailer URL is available."
+    },
     "last_updated": "2026-08-28",
     "latest_event": {
       "confidence": "Inferred",
@@ -391,7 +470,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1204680-b0ab752cdc69",
+        "event_id": "1204680-ddda38330e5f",
         "event_type": "Distributor Change",
         "film_id": "1204680",
         "importance": "Medium",
@@ -400,12 +479,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Warner Bros. Pictures.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Distributor set: Warner Bros. Pictures"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1204680-3b26235efabb",
+        "event_id": "1204680-978a537fcf13",
         "event_type": "Awards Tier Changed",
         "film_id": "1204680",
         "importance": "Medium",
@@ -417,7 +496,7 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: Emerging"
       }
     ],
@@ -463,7 +542,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1204680-b0ab752cdc69",
+        "event_id": "1204680-ddda38330e5f",
         "event_type": "Distributor Change",
         "film_id": "1204680",
         "importance": "Medium",
@@ -472,12 +551,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Warner Bros. Pictures.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Distributor set: Warner Bros. Pictures"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1204680-3b26235efabb",
+        "event_id": "1204680-978a537fcf13",
         "event_type": "Awards Tier Changed",
         "film_id": "1204680",
         "importance": "Medium",
@@ -489,12 +568,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1204680-5e1032708d7a",
+        "event_id": "1204680-07c825151003",
         "event_type": "Added To Database",
         "film_id": "1204680",
         "importance": "Low",
@@ -502,8 +581,8 @@
           "profile_version": "phase6a"
         },
         "source_type": "system",
-        "summary": "Coyote vs ACME is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "summary": "Coyote vs. Acme is tracked in the Film Intelligence profile set.",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -538,7 +617,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1204680-b0ab752cdc69",
+        "event_id": "1204680-ddda38330e5f",
         "event_type": "Distributor Change",
         "film_id": "1204680",
         "importance": "Medium",
@@ -547,12 +626,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Warner Bros. Pictures.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Distributor set: Warner Bros. Pictures"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1204680-3b26235efabb",
+        "event_id": "1204680-978a537fcf13",
         "event_type": "Awards Tier Changed",
         "film_id": "1204680",
         "importance": "Medium",
@@ -564,7 +643,7 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: Emerging"
       }
     ],

@@ -35,7 +35,7 @@
         "status": "inferred"
       },
       {
-        "evidence": "TMDb popularity 1.787",
+        "evidence": "TMDb popularity 1.7883",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -53,7 +53,7 @@
     "homepage_spotlight_override": null,
     "homepage_spotlight_score": 52.7,
     "industry_interest": "Moderate",
-    "last_updated": "20260722T161339Z",
+    "last_updated": "20260727T212511Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
@@ -174,15 +174,17 @@
     "premiere_type": ""
   },
   "film_identity": {
-    "backdrop": "",
-    "country": [],
+    "backdrop": "https://image.tmdb.org/t/p/original/datpCoCjLKrqhRDRrLbu2T6fgMH.jpg",
+    "country": [
+      "US"
+    ],
     "genres": [
       "Family",
       "Drama"
     ],
     "id": "1518403",
     "imdb_id": "",
-    "language": "",
+    "language": "en",
     "original_title": "Air Bud Returns",
     "poster": "https://image.tmdb.org/t/p/original/jn9IycsqyLsLluBPVkcHDyWHdGb.jpg",
     "profile_payload_url": "data/films/1518403.json",
@@ -194,9 +196,60 @@
     "title": "Air Bud Returns",
     "tmdb_id": "1518403"
   },
+  "intelligence": {
+    "confidence": "High",
+    "confidence_score": 0.85,
+    "generated_at": "2026-07-27T21:24:57Z",
+    "headline": "Air Bud Returns: popularity signal available",
+    "metadata": {
+      "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
+      "signal_values": {
+        "legacy_dashboard_awards_category_count": 0,
+        "legacy_dashboard_awards_tier": "No Current Awards Case",
+        "legacy_dashboard_credited_talent_count": 9,
+        "legacy_dashboard_director_profile_present": true,
+        "legacy_dashboard_festival_award_count": 0,
+        "legacy_dashboard_festival_selection_count": 0,
+        "legacy_dashboard_festival_status": "",
+        "legacy_dashboard_precursor_award_count": 0,
+        "legacy_dashboard_principal_cast_count": 8,
+        "streaming_available_us": false,
+        "streaming_flatrate_provider_count_us": 0,
+        "streaming_provider_count_us": 0,
+        "tmdb_backdrop_count": 0,
+        "tmdb_canonical_trailer_available": false,
+        "tmdb_popularity": 1.7883,
+        "tmdb_poster_count": 2,
+        "tmdb_release_date_us_primary": "2027-01-22",
+        "tmdb_release_date_us_theatrical": "2027-01-22",
+        "tmdb_release_status": "Post Production",
+        "tmdb_vote_average": 0,
+        "tmdb_vote_count": 0,
+        "tmdb_watch_provider_count_us": 0,
+        "trailer_available": false,
+        "trailer_count": 2
+      },
+      "source_signal_count": 24,
+      "stale_signal_count": 0
+    },
+    "schema_version": "phase2b_intelligence_explanation_v1",
+    "summary": "TMDb popularity is 1.7883.",
+    "supporting_drivers": [
+      {
+        "confidence_weight": 0.65,
+        "driver_type": "popularity_observed",
+        "evidence": "TMDb popularity is 1.7883.",
+        "label": "Popularity signal available",
+        "retrieved_at": "2026-07-27T21:24:57Z",
+        "source_metric": "tmdb_popularity",
+        "source_provider": "tmdb",
+        "source_status": "available"
+      }
+    ]
+  },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260722T161339Z",
+    "generated_at": "20260727T212511Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -310,6 +363,11 @@
   },
   "signals": {
     "cultural_significance": 37.0,
+    "external_intelligence": {
+      "confidence": "High",
+      "headline": "Air Bud Returns: popularity signal available",
+      "summary": "TMDb popularity is 1.7883."
+    },
     "last_updated": "2027-01-22",
     "latest_event": {
       "confidence": "Inferred",
@@ -346,7 +404,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1518403-9ad5192a53de",
+        "event_id": "1518403-1418afb4c066",
         "event_type": "Awards Tier Changed",
         "film_id": "1518403",
         "importance": "Medium",
@@ -356,12 +414,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1518403-f9f47ba25f6c",
+        "event_id": "1518403-0ebf4dd8cca2",
         "event_type": "Added To Database",
         "film_id": "1518403",
         "importance": "Low",
@@ -370,7 +428,7 @@
         },
         "source_type": "system",
         "summary": "Air Bud Returns is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -415,7 +473,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1518403-9ad5192a53de",
+        "event_id": "1518403-1418afb4c066",
         "event_type": "Awards Tier Changed",
         "film_id": "1518403",
         "importance": "Medium",
@@ -425,12 +483,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1518403-f9f47ba25f6c",
+        "event_id": "1518403-0ebf4dd8cca2",
         "event_type": "Added To Database",
         "film_id": "1518403",
         "importance": "Low",
@@ -439,7 +497,7 @@
         },
         "source_type": "system",
         "summary": "Air Bud Returns is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -474,7 +532,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1518403-9ad5192a53de",
+        "event_id": "1518403-1418afb4c066",
         "event_type": "Awards Tier Changed",
         "film_id": "1518403",
         "importance": "Medium",
@@ -484,12 +542,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1518403-f9f47ba25f6c",
+        "event_id": "1518403-0ebf4dd8cca2",
         "event_type": "Added To Database",
         "film_id": "1518403",
         "importance": "Low",
@@ -498,7 +556,7 @@
         },
         "source_type": "system",
         "summary": "Air Bud Returns is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Added to Awards Intelligence"
       }
     ],

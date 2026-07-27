@@ -1,19 +1,24 @@
 {
   "attention_intelligence": {
-    "anticipation_level": "Developing",
+    "anticipation_level": "Moderate",
     "attention_confidence": "High",
     "attention_reasons": [
       "Most Anticipated",
       "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 46.3,
+    "attention_score": 71.2,
     "attention_version": "phase7e_attention_v1",
-    "audience_interest": "Developing",
+    "audience_interest": "Moderate",
     "conversation_level": "Unavailable",
     "cultural_relevance": null,
     "early_reception": null,
     "evidence_sources": [
+      {
+        "evidence": "TMDb popularity 31.5814",
+        "source": "audience_popularity",
+        "status": "verified"
+      },
       {
         "evidence": "Public-interest, franchise, event, or major-studio tracking signal",
         "source": "event_awareness",
@@ -35,27 +40,44 @@
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 1.458",
-        "source": "audience_popularity",
+        "evidence": "Trailer URL present",
+        "source": "trailer_available",
         "status": "verified"
+      },
+      {
+        "evidence": "Commercial scale and release context",
+        "source": "commercial_scale",
+        "status": "inferred"
       },
       {
         "evidence": "Director: Elie El Semaan",
         "source": "filmmaker_interest",
         "status": "verified"
+      },
+      {
+        "evidence": "5",
+        "source": "tmdb_vote_count",
+        "status": "verified"
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 46.3,
+    "homepage_spotlight_score": 71.2,
     "industry_interest": null,
-    "last_updated": "20260722T161339Z",
-    "promotional_response": null,
+    "last_updated": "20260727T212511Z",
+    "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
-        "evidence_count": 1,
-        "score": 4.6,
+        "evidence_count": 2,
+        "score": 22.4,
         "statuses": [
           "verified"
+        ]
+      },
+      "commercial": {
+        "evidence_count": 1,
+        "score": 7.1,
+        "statuses": [
+          "inferred"
         ]
       },
       "release": {
@@ -125,23 +147,22 @@
     "probabilities": {}
   },
   "commercial": {
-    "commercial_significance": 0,
+    "commercial_significance": 27.2,
     "distributor": "Netflix",
     "franchise": "",
-    "release_strategy": "Streamer awards release",
-    "studio": []
+    "release_strategy": "Active release campaign",
+    "studio": [
+      "Eagle Films Arabia"
+    ]
   },
   "diagnostics": {
-    "completeness_score": 78,
+    "completeness_score": 100,
     "confidence": "Medium",
-    "missing_fields": [
-      "runtime",
-      "production_companies"
-    ],
+    "missing_fields": [],
     "relationship_counts": {
       "related_films": 6,
       "related_people": 7,
-      "related_studios": 1
+      "related_studios": 2
     }
   },
   "editorial": {
@@ -149,7 +170,7 @@
     "editorial_category": "General Watch",
     "editorial_summary": "Netflix release worth monitoring for awards-season potential.",
     "importance_tier": "Watchlist",
-    "primary_story": "generic generated rationale",
+    "primary_story": "international profile; generic generated rationale",
     "story_strength": "Developing",
     "why_it_matters": "Netflix release worth monitoring for awards-season potential."
   },
@@ -161,45 +182,110 @@
     "premiere_type": ""
   },
   "film_identity": {
-    "backdrop": "",
-    "country": [],
+    "backdrop": "https://image.tmdb.org/t/p/original/rivKhEJWZirF7UtnCnaN44YaJ69.jpg",
+    "country": [
+      "KW",
+      "LB"
+    ],
     "genres": [
       "Romance",
       "Comedy"
     ],
     "id": "1620682",
     "imdb_id": "",
-    "language": "",
-    "original_title": "Love in Slow Motion",
-    "poster": "https://image.tmdb.org/t/p/original/31x1VCgNfTiPBR3xtYBocagHLry.jpg",
+    "language": "ar",
+    "original_title": "\u0623\u062d\u0628\u0643 \u0645\u0646 \u0632\u0645\u0627\u0646",
+    "poster": "https://image.tmdb.org/t/p/original/j19wB0UM0ZQ1D3fmJTB4tC1wFOw.jpg",
     "profile_payload_url": "data/films/1620682.json",
     "profile_url": "film.html?id=1620682",
     "release_date": "2026-07-23",
     "release_display": "In theaters Jul. 23",
-    "runtime": null,
+    "runtime": 93,
     "synopsis": "When Haya's best friend Jawad gets engaged, her chronically-single world unravels \u2014 because who knew true love could be hiding in the friend zone?",
     "title": "Love in Slow Motion",
     "tmdb_id": "1620682"
   },
+  "intelligence": {
+    "confidence": "High",
+    "confidence_score": 0.99,
+    "generated_at": "2026-07-27T21:24:57Z",
+    "headline": "Love in Slow Motion: release approaching",
+    "metadata": {
+      "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
+      "signal_values": {
+        "legacy_dashboard_awards_category_count": 0,
+        "legacy_dashboard_awards_tier": "No Current Awards Case",
+        "legacy_dashboard_credited_talent_count": 9,
+        "legacy_dashboard_director_profile_present": true,
+        "legacy_dashboard_festival_award_count": 0,
+        "legacy_dashboard_festival_selection_count": 0,
+        "legacy_dashboard_festival_status": "",
+        "legacy_dashboard_precursor_award_count": 0,
+        "legacy_dashboard_principal_cast_count": 8,
+        "streaming_available_us": true,
+        "streaming_flatrate_provider_count_us": 2,
+        "streaming_provider_count_us": 2,
+        "tmdb_backdrop_count": 1,
+        "tmdb_canonical_trailer_available": true,
+        "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=oCg2wXznjLo",
+        "tmdb_popularity": 31.5814,
+        "tmdb_poster_count": 2,
+        "tmdb_release_date_us_primary": "2026-07-23",
+        "tmdb_release_date_us_theatrical": "",
+        "tmdb_release_status": "Released",
+        "tmdb_vote_average": 4.4,
+        "tmdb_vote_count": 5,
+        "tmdb_watch_provider_count_us": 2,
+        "trailer_available": true,
+        "trailer_count": 1,
+        "trailer_url": "https://www.youtube.com/watch?v=oCg2wXznjLo"
+      },
+      "source_signal_count": 26,
+      "stale_signal_count": 0
+    },
+    "schema_version": "phase2b_intelligence_explanation_v1",
+    "summary": "TMDb popularity is 31.5814. US release is 3 days away on 2026-07-23. A canonical TMDb trailer URL is available.",
+    "supporting_drivers": [
+      {
+        "confidence_weight": 0.65,
+        "driver_type": "popularity_observed",
+        "evidence": "TMDb popularity is 31.5814.",
+        "label": "Popularity signal available",
+        "retrieved_at": "2026-07-27T21:24:57Z",
+        "source_metric": "tmdb_popularity",
+        "source_provider": "tmdb",
+        "source_status": "available"
+      },
+      {
+        "confidence_weight": 0.8,
+        "driver_type": "release_approaching",
+        "evidence": "US release is 3 days away on 2026-07-23.",
+        "label": "Release approaching",
+        "retrieved_at": "2026-07-27T21:24:57Z",
+        "source_metric": "tmdb_release_date_us_primary",
+        "source_provider": "tmdb",
+        "source_status": "available"
+      },
+      {
+        "confidence_weight": 0.85,
+        "driver_type": "trailer_available",
+        "evidence": "A canonical TMDb trailer URL is available.",
+        "label": "Trailer available",
+        "retrieved_at": "2026-07-27T21:24:57Z",
+        "source_metric": "tmdb_canonical_trailer_url",
+        "source_provider": "tmdb",
+        "source_status": "available"
+      }
+    ]
+  },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260722T161339Z",
+    "generated_at": "20260727T212511Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
   "related": {
     "related_films": [
-      {
-        "profile_url": "film.html?id=949838",
-        "relationship_score": 42,
-        "shared_signals": [
-          "General Watch",
-          "Comedy",
-          "Netflix"
-        ],
-        "title": "72 HOURS",
-        "tmdb_id": "949838"
-      },
       {
         "profile_url": "film.html?id=1514863",
         "relationship_score": 42,
@@ -254,6 +340,17 @@
         ],
         "title": "H\u00f6sten med G\u00f6ran",
         "tmdb_id": "1530151"
+      },
+      {
+        "profile_url": "film.html?id=1032863",
+        "relationship_score": 38,
+        "shared_signals": [
+          "General Watch",
+          "Comedy",
+          "Romance"
+        ],
+        "title": "The Love Hypothesis",
+        "tmdb_id": "1032863"
       }
     ],
     "related_people": [
@@ -290,25 +387,34 @@
       {
         "name": "Netflix",
         "role": "distributor"
+      },
+      {
+        "name": "Eagle Films Arabia",
+        "role": "production_company"
       }
     ]
   },
   "signals": {
-    "cultural_significance": 0,
-    "last_updated": "2026-07-23",
+    "cultural_significance": 27.2,
+    "external_intelligence": {
+      "confidence": "High",
+      "headline": "Love in Slow Motion: release approaching",
+      "summary": "TMDb popularity is 31.5814. US release is 3 days away on 2026-07-23. A canonical TMDb trailer URL is available."
+    },
+    "last_updated": "2026-07-27T21:25:11Z",
     "latest_event": {
       "confidence": "Inferred",
-      "event_id": "1620682-30ee3fdea078",
-      "event_type": "Release Scheduled",
+      "event_id": "1620682-59245820fc60",
+      "event_type": "Distributor Change",
       "film_id": "1620682",
       "importance": "Medium",
       "metadata": {
-        "release_date": "2026-07-23"
+        "distributor": "Netflix"
       },
       "source_type": "metadata",
-      "summary": "Release currently scheduled for In theaters Jul. 23.",
-      "timestamp": "2026-07-23",
-      "title": "Release scheduled"
+      "summary": "Current distributor is Netflix.",
+      "timestamp": "2026-07-27T21:25:11Z",
+      "title": "Distributor set: Netflix"
     },
     "latest_intelligence": "As of 2026-07-18, this is a Netflix release dated 2026-07-23 with general awards monitoring relevance; current awards profile is Developing and data status is developing.",
     "momentum": 0.0,
@@ -317,21 +423,7 @@
     "recent_activity": [
       {
         "confidence": "Inferred",
-        "event_id": "1620682-30ee3fdea078",
-        "event_type": "Release Scheduled",
-        "film_id": "1620682",
-        "importance": "Medium",
-        "metadata": {
-          "release_date": "2026-07-23"
-        },
-        "source_type": "metadata",
-        "summary": "Release currently scheduled for In theaters Jul. 23.",
-        "timestamp": "2026-07-23",
-        "title": "Release scheduled"
-      },
-      {
-        "confidence": "Inferred",
-        "event_id": "1620682-56533cfbe7c8",
+        "event_id": "1620682-59245820fc60",
         "event_type": "Distributor Change",
         "film_id": "1620682",
         "importance": "Medium",
@@ -340,12 +432,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1620682-a8e39c546313",
+        "event_id": "1620682-efed2f4521c6",
         "event_type": "Awards Tier Changed",
         "film_id": "1620682",
         "importance": "Medium",
@@ -355,11 +447,25 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: No Current Awards Case"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1620682-8a603b7a9997",
+        "event_type": "Added To Database",
+        "film_id": "1620682",
+        "importance": "Low",
+        "metadata": {
+          "profile_version": "phase6a"
+        },
+        "source_type": "system",
+        "summary": "Love in Slow Motion is tracked in the Film Intelligence profile set.",
+        "timestamp": "2026-07-27T21:25:11Z",
+        "title": "Added to Awards Intelligence"
       }
     ],
-    "release_relevance": 39.0,
+    "release_relevance": 46.4,
     "watch_triggers": [
       "Prestige Distributor",
       "Major Studio/Streamer",
@@ -386,21 +492,7 @@
     "events": [
       {
         "confidence": "Inferred",
-        "event_id": "1620682-30ee3fdea078",
-        "event_type": "Release Scheduled",
-        "film_id": "1620682",
-        "importance": "Medium",
-        "metadata": {
-          "release_date": "2026-07-23"
-        },
-        "source_type": "metadata",
-        "summary": "Release currently scheduled for In theaters Jul. 23.",
-        "timestamp": "2026-07-23",
-        "title": "Release scheduled"
-      },
-      {
-        "confidence": "Inferred",
-        "event_id": "1620682-56533cfbe7c8",
+        "event_id": "1620682-59245820fc60",
         "event_type": "Distributor Change",
         "film_id": "1620682",
         "importance": "Medium",
@@ -409,12 +501,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1620682-a8e39c546313",
+        "event_id": "1620682-efed2f4521c6",
         "event_type": "Awards Tier Changed",
         "film_id": "1620682",
         "importance": "Medium",
@@ -424,12 +516,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1620682-f4745f082d1a",
+        "event_id": "1620682-8a603b7a9997",
         "event_type": "Added To Database",
         "film_id": "1620682",
         "importance": "Low",
@@ -438,25 +530,9 @@
         },
         "source_type": "system",
         "summary": "Love in Slow Motion is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Added to Awards Intelligence"
-      }
-    ],
-    "latest_event": {
-      "confidence": "Inferred",
-      "event_id": "1620682-30ee3fdea078",
-      "event_type": "Release Scheduled",
-      "film_id": "1620682",
-      "importance": "Medium",
-      "metadata": {
-        "release_date": "2026-07-23"
       },
-      "source_type": "metadata",
-      "summary": "Release currently scheduled for In theaters Jul. 23.",
-      "timestamp": "2026-07-23",
-      "title": "Release scheduled"
-    },
-    "recent_activity": [
       {
         "confidence": "Inferred",
         "event_id": "1620682-30ee3fdea078",
@@ -470,10 +546,26 @@
         "summary": "Release currently scheduled for In theaters Jul. 23.",
         "timestamp": "2026-07-23",
         "title": "Release scheduled"
+      }
+    ],
+    "latest_event": {
+      "confidence": "Inferred",
+      "event_id": "1620682-59245820fc60",
+      "event_type": "Distributor Change",
+      "film_id": "1620682",
+      "importance": "Medium",
+      "metadata": {
+        "distributor": "Netflix"
       },
+      "source_type": "metadata",
+      "summary": "Current distributor is Netflix.",
+      "timestamp": "2026-07-27T21:25:11Z",
+      "title": "Distributor set: Netflix"
+    },
+    "recent_activity": [
       {
         "confidence": "Inferred",
-        "event_id": "1620682-56533cfbe7c8",
+        "event_id": "1620682-59245820fc60",
         "event_type": "Distributor Change",
         "film_id": "1620682",
         "importance": "Medium",
@@ -482,12 +574,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1620682-a8e39c546313",
+        "event_id": "1620682-efed2f4521c6",
         "event_type": "Awards Tier Changed",
         "film_id": "1620682",
         "importance": "Medium",
@@ -497,8 +589,22 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: No Current Awards Case"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1620682-8a603b7a9997",
+        "event_type": "Added To Database",
+        "film_id": "1620682",
+        "importance": "Low",
+        "metadata": {
+          "profile_version": "phase6a"
+        },
+        "source_type": "system",
+        "summary": "Love in Slow Motion is tracked in the Film Intelligence profile set.",
+        "timestamp": "2026-07-27T21:25:11Z",
+        "title": "Added to Awards Intelligence"
       }
     ],
     "supported_event_types": [

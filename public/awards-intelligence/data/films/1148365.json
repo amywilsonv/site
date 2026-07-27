@@ -8,7 +8,7 @@
       "Event Release",
       "Awards Watch"
     ],
-    "attention_score": 52.3,
+    "attention_score": 64.3,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -21,14 +21,24 @@
         "status": "inferred"
       },
       {
-        "evidence": "Principal cast listed: John Cena, Jessica Biel, Danai Gurira, Sam Richardson",
+        "evidence": "TMDb popularity 10.5302",
+        "source": "audience_popularity",
+        "status": "verified"
+      },
+      {
+        "evidence": "Principal cast listed: John Cena, Jessica Biel, Sam Richardson, Arturo Castro",
         "source": "cast_interest",
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 3.0046",
-        "source": "audience_popularity",
+        "evidence": "Trailer URL present",
+        "source": "trailer_available",
         "status": "verified"
+      },
+      {
+        "evidence": "Commercial scale and release context",
+        "source": "commercial_scale",
+        "status": "inferred"
       },
       {
         "evidence": "Release date: 2026-10-08",
@@ -41,32 +51,27 @@
         "status": "inferred"
       },
       {
-        "evidence": "Commercial scale and release context",
-        "source": "commercial_scale",
-        "status": "inferred"
-      },
-      {
         "evidence": "Director: Sam Hargrave",
         "source": "filmmaker_interest",
         "status": "verified"
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 52.3,
+    "homepage_spotlight_score": 64.3,
     "industry_interest": null,
-    "last_updated": "20260722T161339Z",
-    "promotional_response": null,
+    "last_updated": "20260727T212511Z",
+    "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
-        "evidence_count": 1,
-        "score": 7.2,
+        "evidence_count": 2,
+        "score": 17.0,
         "statuses": [
           "verified"
         ]
       },
       "commercial": {
         "evidence_count": 1,
-        "score": 4.9,
+        "score": 7.1,
         "statuses": [
           "inferred"
         ]
@@ -146,16 +151,13 @@
     "probabilities": {}
   },
   "commercial": {
-    "commercial_significance": 19.0,
+    "commercial_significance": 27.2,
     "distributor": "Apple TV",
     "franchise": "",
     "release_strategy": "Release radar monitoring",
     "studio": [
       "Mattel Studios",
-      "Skydance Media",
-      "Apple Studios",
-      "Business Affairs",
-      "Stone Management"
+      "Skydance Media"
     ]
   },
   "diagnostics": {
@@ -165,7 +167,7 @@
     "relationship_counts": {
       "related_films": 6,
       "related_people": 7,
-      "related_studios": 6
+      "related_studios": 3
     }
   },
   "editorial": {
@@ -185,7 +187,7 @@
     "premiere_type": ""
   },
   "film_identity": {
-    "backdrop": "https://image.tmdb.org/t/p/original/bDHCTnzeWqNEajyFPhyRnWo0E4O.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/oOI92vnBIWFuMCUNqPWvoU1l6ri.jpg",
     "country": [
       "US"
     ],
@@ -197,20 +199,83 @@
     "id": "1148365",
     "imdb_id": "",
     "language": "en",
-    "original_title": "Matchbox",
-    "poster": "https://image.tmdb.org/t/p/original/nR6GyhyS1skt36VM4TKyqtUyQN3.jpg",
+    "original_title": "Matchbox: The Movie",
+    "poster": "https://image.tmdb.org/t/p/original/dR9sg6nwSBq7qpFJqk9znQ42rre.jpg",
     "profile_payload_url": "data/films/1148365.json",
     "profile_url": "film.html?id=1148365",
     "release_date": "2026-10-08",
     "release_display": "In theaters Oct. 8",
-    "runtime": 126,
+    "runtime": 127,
     "synopsis": "When a group of former childhood friends reconnect, their reunion takes a wild turn as they stumble upon a dangerous international plot\u2014and must save the world.",
-    "title": "Matchbox",
+    "title": "Matchbox: The Movie",
     "tmdb_id": "1148365"
+  },
+  "intelligence": {
+    "confidence": "High",
+    "confidence_score": 0.99,
+    "generated_at": "2026-07-27T21:24:57Z",
+    "headline": "Matchbox: The Movie: popularity signal available",
+    "metadata": {
+      "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
+      "signal_values": {
+        "legacy_dashboard_awards_category_count": 1,
+        "legacy_dashboard_awards_tier": "No Current Awards Case",
+        "legacy_dashboard_credited_talent_count": 9,
+        "legacy_dashboard_director_profile_present": true,
+        "legacy_dashboard_festival_award_count": 0,
+        "legacy_dashboard_festival_selection_count": 0,
+        "legacy_dashboard_festival_status": "",
+        "legacy_dashboard_precursor_award_count": 0,
+        "legacy_dashboard_principal_cast_count": 8,
+        "streaming_available_us": false,
+        "streaming_flatrate_provider_count_us": 0,
+        "streaming_provider_count_us": 0,
+        "tmdb_backdrop_count": 3,
+        "tmdb_canonical_trailer_available": true,
+        "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=7xfqITrMDcI",
+        "tmdb_popularity": 10.5302,
+        "tmdb_poster_count": 6,
+        "tmdb_release_date_us_primary": "2026-10-08",
+        "tmdb_release_date_us_theatrical": "",
+        "tmdb_release_status": "Post Production",
+        "tmdb_vote_average": 0,
+        "tmdb_vote_count": 0,
+        "tmdb_watch_provider_count_us": 0,
+        "trailer_available": true,
+        "trailer_count": 1,
+        "trailer_url": "https://www.youtube.com/watch?v=7xfqITrMDcI"
+      },
+      "source_signal_count": 26,
+      "stale_signal_count": 0
+    },
+    "schema_version": "phase2b_intelligence_explanation_v1",
+    "summary": "TMDb popularity is 10.5302. A canonical TMDb trailer URL is available.",
+    "supporting_drivers": [
+      {
+        "confidence_weight": 0.65,
+        "driver_type": "popularity_observed",
+        "evidence": "TMDb popularity is 10.5302.",
+        "label": "Popularity signal available",
+        "retrieved_at": "2026-07-27T21:24:57Z",
+        "source_metric": "tmdb_popularity",
+        "source_provider": "tmdb",
+        "source_status": "available"
+      },
+      {
+        "confidence_weight": 0.85,
+        "driver_type": "trailer_available",
+        "evidence": "A canonical TMDb trailer URL is available.",
+        "label": "Trailer available",
+        "retrieved_at": "2026-07-27T21:24:57Z",
+        "source_metric": "tmdb_canonical_trailer_url",
+        "source_provider": "tmdb",
+        "source_status": "available"
+      }
+    ]
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260722T161339Z",
+    "generated_at": "20260727T212511Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -265,17 +330,6 @@
         "tmdb_id": "1288211"
       },
       {
-        "profile_url": "film.html?id=1361774",
-        "relationship_score": 42,
-        "shared_signals": [
-          "General Watch",
-          "Comedy",
-          "Apple TV"
-        ],
-        "title": "The Dink",
-        "tmdb_id": "1361774"
-      },
-      {
         "profile_url": "film.html?id=1670061",
         "relationship_score": 40,
         "shared_signals": [
@@ -283,8 +337,19 @@
           "Action",
           "Craft Categories"
         ],
-        "title": "Beasts Clawing at Straws",
+        "title": "Beasts Clutching at Straws",
         "tmdb_id": "1670061"
+      },
+      {
+        "profile_url": "film.html?id=1147572",
+        "relationship_score": 40,
+        "shared_signals": [
+          "General Watch",
+          "Adventure",
+          "Craft Categories"
+        ],
+        "title": "Narnia: The Magician's Nephew",
+        "tmdb_id": "1147572"
       }
     ],
     "related_people": [
@@ -301,19 +366,19 @@
         "role": "actor"
       },
       {
-        "name": "Danai Gurira",
-        "role": "actor"
-      },
-      {
         "name": "Sam Richardson",
         "role": "actor"
       },
       {
-        "name": "Corey Stoll",
+        "name": "Arturo Castro",
         "role": "actor"
       },
       {
         "name": "Teyonah Parris",
+        "role": "actor"
+      },
+      {
+        "name": "Danai Gurira",
         "role": "actor"
       }
     ],
@@ -329,23 +394,16 @@
       {
         "name": "Skydance Media",
         "role": "production_company"
-      },
-      {
-        "name": "Apple Studios",
-        "role": "production_company"
-      },
-      {
-        "name": "Business Affairs",
-        "role": "production_company"
-      },
-      {
-        "name": "Stone Management",
-        "role": "production_company"
       }
     ]
   },
   "signals": {
-    "cultural_significance": 19.0,
+    "cultural_significance": 27.2,
+    "external_intelligence": {
+      "confidence": "High",
+      "headline": "Matchbox: The Movie: popularity signal available",
+      "summary": "TMDb popularity is 10.5302. A canonical TMDb trailer URL is available."
+    },
     "last_updated": "2026-10-08",
     "latest_event": {
       "confidence": "Inferred",
@@ -382,7 +440,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1148365-438c80af2831",
+        "event_id": "1148365-91ce6bac3a47",
         "event_type": "Distributor Change",
         "film_id": "1148365",
         "importance": "Medium",
@@ -391,12 +449,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Apple TV.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Distributor set: Apple TV"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1148365-44c630d60583",
+        "event_id": "1148365-2d989e7ddbf6",
         "event_type": "Awards Tier Changed",
         "film_id": "1148365",
         "importance": "Medium",
@@ -408,11 +466,11 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],
-    "release_relevance": 28.0,
+    "release_relevance": 29.4,
     "watch_triggers": [
       "Prestige Distributor",
       "Major Studio/Streamer",
@@ -426,12 +484,12 @@
     "principal_cast": [
       "John Cena",
       "Jessica Biel",
-      "Danai Gurira",
       "Sam Richardson",
-      "Corey Stoll",
+      "Arturo Castro",
       "Teyonah Parris",
-      "Daniel Bernhardt",
-      "Arturo Castro"
+      "Danai Gurira",
+      "Corey Stoll",
+      "Bill Camp"
     ],
     "producers": [],
     "writers": []
@@ -454,7 +512,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1148365-438c80af2831",
+        "event_id": "1148365-91ce6bac3a47",
         "event_type": "Distributor Change",
         "film_id": "1148365",
         "importance": "Medium",
@@ -463,12 +521,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Apple TV.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Distributor set: Apple TV"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1148365-44c630d60583",
+        "event_id": "1148365-2d989e7ddbf6",
         "event_type": "Awards Tier Changed",
         "film_id": "1148365",
         "importance": "Medium",
@@ -480,12 +538,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1148365-b3aaaa9dd6ef",
+        "event_id": "1148365-71b5f3c46d2b",
         "event_type": "Added To Database",
         "film_id": "1148365",
         "importance": "Low",
@@ -493,8 +551,8 @@
           "profile_version": "phase6a"
         },
         "source_type": "system",
-        "summary": "Matchbox is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "summary": "Matchbox: The Movie is tracked in the Film Intelligence profile set.",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -529,7 +587,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1148365-438c80af2831",
+        "event_id": "1148365-91ce6bac3a47",
         "event_type": "Distributor Change",
         "film_id": "1148365",
         "importance": "Medium",
@@ -538,12 +596,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Apple TV.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Distributor set: Apple TV"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1148365-44c630d60583",
+        "event_id": "1148365-2d989e7ddbf6",
         "event_type": "Awards Tier Changed",
         "film_id": "1148365",
         "importance": "Medium",
@@ -555,7 +613,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],

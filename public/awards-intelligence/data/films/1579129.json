@@ -8,7 +8,7 @@
       "Event Release",
       "Awards Watch"
     ],
-    "attention_score": 61.3,
+    "attention_score": 61.6,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -56,7 +56,7 @@
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 0.8629",
+        "evidence": "TMDb popularity 1.0974",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -67,14 +67,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 61.3,
+    "homepage_spotlight_score": 61.6,
     "industry_interest": "Moderate",
-    "last_updated": "20260722T161339Z",
+    "last_updated": "20260727T212511Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
         "evidence_count": 2,
-        "score": 9.8,
+        "score": 10.1,
         "statuses": [
           "verified"
         ]
@@ -224,9 +224,72 @@
     "title": "The First Gokturk: Prologue",
     "tmdb_id": "1579129"
   },
+  "intelligence": {
+    "confidence": "High",
+    "confidence_score": 0.99,
+    "generated_at": "2026-07-27T21:24:57Z",
+    "headline": "The First Gokturk: Prologue: popularity signal available",
+    "metadata": {
+      "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
+      "signal_values": {
+        "legacy_dashboard_awards_category_count": 1,
+        "legacy_dashboard_awards_tier": "Emerging",
+        "legacy_dashboard_credited_talent_count": 6,
+        "legacy_dashboard_director_profile_present": true,
+        "legacy_dashboard_festival_award_count": 0,
+        "legacy_dashboard_festival_selection_count": 0,
+        "legacy_dashboard_festival_status": "",
+        "legacy_dashboard_precursor_award_count": 0,
+        "legacy_dashboard_principal_cast_count": 5,
+        "streaming_available_us": false,
+        "streaming_flatrate_provider_count_us": 0,
+        "streaming_provider_count_us": 0,
+        "tmdb_backdrop_count": 0,
+        "tmdb_canonical_trailer_available": true,
+        "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=u8H9scv6S1Y",
+        "tmdb_popularity": 1.0974,
+        "tmdb_poster_count": 0,
+        "tmdb_release_date_us_primary": "",
+        "tmdb_release_date_us_theatrical": "",
+        "tmdb_release_status": "In Production",
+        "tmdb_vote_average": 0,
+        "tmdb_vote_count": 0,
+        "tmdb_watch_provider_count_us": 0,
+        "trailer_available": true,
+        "trailer_count": 1,
+        "trailer_url": "https://www.youtube.com/watch?v=u8H9scv6S1Y"
+      },
+      "source_signal_count": 26,
+      "stale_signal_count": 0
+    },
+    "schema_version": "phase2b_intelligence_explanation_v1",
+    "summary": "TMDb popularity is 1.0974. A canonical TMDb trailer URL is available.",
+    "supporting_drivers": [
+      {
+        "confidence_weight": 0.65,
+        "driver_type": "popularity_observed",
+        "evidence": "TMDb popularity is 1.0974.",
+        "label": "Popularity signal available",
+        "retrieved_at": "2026-07-27T21:24:57Z",
+        "source_metric": "tmdb_popularity",
+        "source_provider": "tmdb",
+        "source_status": "available"
+      },
+      {
+        "confidence_weight": 0.85,
+        "driver_type": "trailer_available",
+        "evidence": "A canonical TMDb trailer URL is available.",
+        "label": "Trailer available",
+        "retrieved_at": "2026-07-27T21:24:57Z",
+        "source_metric": "tmdb_canonical_trailer_url",
+        "source_provider": "tmdb",
+        "source_status": "available"
+      }
+    ]
+  },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260722T161339Z",
+    "generated_at": "20260727T212511Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -253,7 +316,7 @@
           "Drama",
           "Craft Categories"
         ],
-        "title": "Kamen Rider Kabuto 20th: The One Who Inherits the Heavens",
+        "title": "Kamen Rider Kabuto 20th: \u200b\u200bThe One Who Inherits the Heavens",
         "tmdb_id": "1567149"
       },
       {
@@ -344,6 +407,11 @@
   },
   "signals": {
     "cultural_significance": 37.0,
+    "external_intelligence": {
+      "confidence": "High",
+      "headline": "The First Gokturk: Prologue: popularity signal available",
+      "summary": "TMDb popularity is 1.0974. A canonical TMDb trailer URL is available."
+    },
     "last_updated": "2026-12-31",
     "latest_event": {
       "confidence": "Inferred",
@@ -380,7 +448,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1579129-743c6b1b81b2",
+        "event_id": "1579129-dca1c2b3bce6",
         "event_type": "Awards Tier Changed",
         "film_id": "1579129",
         "importance": "Medium",
@@ -392,12 +460,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1579129-9089e8c12ca6",
+        "event_id": "1579129-f57809552a0a",
         "event_type": "Added To Database",
         "film_id": "1579129",
         "importance": "Low",
@@ -406,7 +474,7 @@
         },
         "source_type": "system",
         "summary": "The First Gokturk: Prologue is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -451,7 +519,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1579129-743c6b1b81b2",
+        "event_id": "1579129-dca1c2b3bce6",
         "event_type": "Awards Tier Changed",
         "film_id": "1579129",
         "importance": "Medium",
@@ -463,12 +531,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1579129-9089e8c12ca6",
+        "event_id": "1579129-f57809552a0a",
         "event_type": "Added To Database",
         "film_id": "1579129",
         "importance": "Low",
@@ -477,7 +545,7 @@
         },
         "source_type": "system",
         "summary": "The First Gokturk: Prologue is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -512,7 +580,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1579129-743c6b1b81b2",
+        "event_id": "1579129-dca1c2b3bce6",
         "event_type": "Awards Tier Changed",
         "film_id": "1579129",
         "importance": "Medium",
@@ -524,12 +592,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1579129-9089e8c12ca6",
+        "event_id": "1579129-f57809552a0a",
         "event_type": "Added To Database",
         "film_id": "1579129",
         "importance": "Low",
@@ -538,7 +606,7 @@
         },
         "source_type": "system",
         "summary": "The First Gokturk: Prologue is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Added to Awards Intelligence"
       }
     ],

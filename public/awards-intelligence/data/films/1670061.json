@@ -7,7 +7,7 @@
       "Major Filmmaker",
       "Awards Watch"
     ],
-    "attention_score": 30.8,
+    "attention_score": 30.6,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -40,7 +40,7 @@
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 0.852",
+        "evidence": "TMDb popularity 0.6574",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -51,21 +51,21 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 30.8,
+    "homepage_spotlight_score": 30.6,
     "industry_interest": null,
-    "last_updated": "20260722T161339Z",
+    "last_updated": "20260727T212511Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
         "evidence_count": 2,
-        "score": 9.8,
+        "score": 9.4,
         "statuses": [
           "verified"
         ]
       },
       "industry/cultural": {
         "evidence_count": 2,
-        "score": 7.6,
+        "score": 7.8,
         "statuses": [
           "inferred"
         ]
@@ -141,10 +141,9 @@
     ]
   },
   "diagnostics": {
-    "completeness_score": 78,
-    "confidence": "Medium",
+    "completeness_score": 89,
+    "confidence": "High",
     "missing_fields": [
-      "runtime",
       "distributor"
     ],
     "relationship_counts": {
@@ -158,7 +157,7 @@
     "editorial_category": "General Watch",
     "editorial_summary": "As of 2026-07-18, this is a unknown distributor release dated 2026-09-25 with Craft Categories relevance; current awards profile is Craft Potential and data status is limited data.",
     "importance_tier": "Monitoring",
-    "primary_story": "filmmaker/editorial hook",
+    "primary_story": "filmmaker/editorial hook; international profile",
     "story_strength": "Strong",
     "why_it_matters": "Upcoming Hideo Jojo film with Craft Categories monitoring value."
   },
@@ -170,36 +169,114 @@
     "premiere_type": ""
   },
   "film_identity": {
-    "backdrop": "",
-    "country": [],
+    "backdrop": "https://image.tmdb.org/t/p/original/fMrUAdZkpcVopuO6FbVcSLPXenW.jpg",
+    "country": [
+      "JP"
+    ],
     "genres": [
       "Mystery",
       "Drama",
       "Action",
-      "Thriller"
+      "Thriller",
+      "Crime"
     ],
     "id": "1670061",
     "imdb_id": "",
-    "language": "",
-    "original_title": "Beasts Clawing at Straws",
+    "language": "ja",
+    "original_title": "\u85c1\u306b\u3082\u3059\u304c\u308b\u7363\u305f\u3061",
     "poster": "https://image.tmdb.org/t/p/original/n5gXSMpvetQzC2wAYUc4Hl0VCge.jpg",
     "profile_payload_url": "data/films/1670061.json",
     "profile_url": "film.html?id=1670061",
     "release_date": "2026-09-25",
     "release_display": "In theaters Sep. 25",
-    "runtime": null,
+    "runtime": 94,
     "synopsis": "After stumbling upon 100m yen at work, Kanji finds himself involved in a battle royal for the money. Based on the novel by Keisuke Sone",
-    "title": "Beasts Clawing at Straws",
+    "title": "Beasts Clutching at Straws",
     "tmdb_id": "1670061"
+  },
+  "intelligence": {
+    "confidence": "High",
+    "confidence_score": 0.99,
+    "generated_at": "2026-07-27T21:24:57Z",
+    "headline": "Beasts Clutching at Straws: popularity signal available",
+    "metadata": {
+      "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
+      "signal_values": {
+        "legacy_dashboard_awards_category_count": 1,
+        "legacy_dashboard_awards_tier": "No Current Awards Case",
+        "legacy_dashboard_credited_talent_count": 4,
+        "legacy_dashboard_director_profile_present": true,
+        "legacy_dashboard_festival_award_count": 0,
+        "legacy_dashboard_festival_selection_count": 0,
+        "legacy_dashboard_festival_status": "",
+        "legacy_dashboard_precursor_award_count": 0,
+        "legacy_dashboard_principal_cast_count": 3,
+        "streaming_available_us": false,
+        "streaming_flatrate_provider_count_us": 0,
+        "streaming_provider_count_us": 0,
+        "tmdb_backdrop_count": 0,
+        "tmdb_canonical_trailer_available": true,
+        "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=7sH5Zy4KhE8",
+        "tmdb_popularity": 0.6574,
+        "tmdb_poster_count": 0,
+        "tmdb_release_date_us_primary": "",
+        "tmdb_release_date_us_theatrical": "",
+        "tmdb_release_status": "Released",
+        "tmdb_vote_average": 0,
+        "tmdb_vote_count": 0,
+        "tmdb_watch_provider_count_us": 0,
+        "trailer_available": true,
+        "trailer_count": 1,
+        "trailer_url": "https://www.youtube.com/watch?v=7sH5Zy4KhE8"
+      },
+      "source_signal_count": 26,
+      "stale_signal_count": 0
+    },
+    "schema_version": "phase2b_intelligence_explanation_v1",
+    "summary": "TMDb popularity is 0.6574. A canonical TMDb trailer URL is available.",
+    "supporting_drivers": [
+      {
+        "confidence_weight": 0.65,
+        "driver_type": "popularity_observed",
+        "evidence": "TMDb popularity is 0.6574.",
+        "label": "Popularity signal available",
+        "retrieved_at": "2026-07-27T21:24:57Z",
+        "source_metric": "tmdb_popularity",
+        "source_provider": "tmdb",
+        "source_status": "available"
+      },
+      {
+        "confidence_weight": 0.85,
+        "driver_type": "trailer_available",
+        "evidence": "A canonical TMDb trailer URL is available.",
+        "label": "Trailer available",
+        "retrieved_at": "2026-07-27T21:24:57Z",
+        "source_metric": "tmdb_canonical_trailer_url",
+        "source_provider": "tmdb",
+        "source_status": "available"
+      }
+    ]
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260722T161339Z",
+    "generated_at": "20260727T212511Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
   "related": {
     "related_films": [
+      {
+        "profile_url": "film.html?id=1495293",
+        "relationship_score": 58,
+        "shared_signals": [
+          "General Watch",
+          "Action",
+          "Crime",
+          "Craft Categories"
+        ],
+        "title": "Arasan",
+        "tmdb_id": "1495293"
+      },
       {
         "profile_url": "film.html?id=1269325",
         "relationship_score": 54,
@@ -237,16 +314,16 @@
         "tmdb_id": "1728408"
       },
       {
-        "profile_url": "film.html?id=1495293",
+        "profile_url": "film.html?id=1729128",
         "relationship_score": 52,
         "shared_signals": [
           "General Watch",
           "Action",
-          "Drama",
+          "Crime",
           "Craft Categories"
         ],
-        "title": "Arasan",
-        "tmdb_id": "1495293"
+        "title": "Unification of Japan 76",
+        "tmdb_id": "1729128"
       },
       {
         "profile_url": "film.html?id=1284186",
@@ -259,18 +336,6 @@
         ],
         "title": "Sacrifice",
         "tmdb_id": "1284186"
-      },
-      {
-        "profile_url": "film.html?id=1717258",
-        "relationship_score": 50,
-        "shared_signals": [
-          "General Watch",
-          "Drama",
-          "Craft Categories",
-          "Unknown"
-        ],
-        "title": "Travel Reminiscence",
-        "tmdb_id": "1717258"
       }
     ],
     "related_people": [
@@ -304,6 +369,11 @@
   },
   "signals": {
     "cultural_significance": 0,
+    "external_intelligence": {
+      "confidence": "High",
+      "headline": "Beasts Clutching at Straws: popularity signal available",
+      "summary": "TMDb popularity is 0.6574. A canonical TMDb trailer URL is available."
+    },
     "last_updated": "2026-09-25",
     "latest_event": {
       "confidence": "Inferred",
@@ -321,7 +391,7 @@
     },
     "latest_intelligence": "As of 2026-07-18, this is a unknown distributor release dated 2026-09-25 with Craft Categories relevance; current awards profile is Craft Potential and data status is limited data.",
     "momentum": 0.0,
-    "narrative_importance": 10.9,
+    "narrative_importance": 14.4,
     "next_signal": "Confirm US distributor/release plan.",
     "recent_activity": [
       {
@@ -340,7 +410,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1670061-fc93157ccc4f",
+        "event_id": "1670061-ee7b4c14c1e7",
         "event_type": "Awards Tier Changed",
         "film_id": "1670061",
         "importance": "Medium",
@@ -352,12 +422,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1670061-1e44d1b1bd47",
+        "event_id": "1670061-e0f79215f2d0",
         "event_type": "Added To Database",
         "film_id": "1670061",
         "importance": "Low",
@@ -365,8 +435,8 @@
           "profile_version": "phase6a"
         },
         "source_type": "system",
-        "summary": "Beasts Clawing at Straws is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "summary": "Beasts Clutching at Straws is tracked in the Film Intelligence profile set.",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -408,7 +478,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1670061-fc93157ccc4f",
+        "event_id": "1670061-ee7b4c14c1e7",
         "event_type": "Awards Tier Changed",
         "film_id": "1670061",
         "importance": "Medium",
@@ -420,12 +490,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1670061-1e44d1b1bd47",
+        "event_id": "1670061-e0f79215f2d0",
         "event_type": "Added To Database",
         "film_id": "1670061",
         "importance": "Low",
@@ -433,8 +503,8 @@
           "profile_version": "phase6a"
         },
         "source_type": "system",
-        "summary": "Beasts Clawing at Straws is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "summary": "Beasts Clutching at Straws is tracked in the Film Intelligence profile set.",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -469,7 +539,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1670061-fc93157ccc4f",
+        "event_id": "1670061-ee7b4c14c1e7",
         "event_type": "Awards Tier Changed",
         "film_id": "1670061",
         "importance": "Medium",
@@ -481,12 +551,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1670061-1e44d1b1bd47",
+        "event_id": "1670061-e0f79215f2d0",
         "event_type": "Added To Database",
         "film_id": "1670061",
         "importance": "Low",
@@ -494,8 +564,8 @@
           "profile_version": "phase6a"
         },
         "source_type": "system",
-        "summary": "Beasts Clawing at Straws is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "summary": "Beasts Clutching at Straws is tracked in the Film Intelligence profile set.",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Added to Awards Intelligence"
       }
     ],

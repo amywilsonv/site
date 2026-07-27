@@ -1,22 +1,32 @@
 {
   "attention_intelligence": {
-    "anticipation_level": "Moderate",
+    "anticipation_level": "High",
     "attention_confidence": "High",
     "attention_reasons": [
       "Most Anticipated",
       "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 55.9,
+    "attention_score": 81.8,
     "attention_version": "phase7e_attention_v1",
-    "audience_interest": "Developing",
+    "audience_interest": "Moderate",
     "conversation_level": "Unavailable",
-    "cultural_relevance": null,
+    "cultural_relevance": "Moderate",
     "early_reception": null,
     "evidence_sources": [
       {
+        "evidence": "TMDb popularity 52.9506",
+        "source": "audience_popularity",
+        "status": "verified"
+      },
+      {
         "evidence": "Public-interest, franchise, event, or major-studio tracking signal",
         "source": "event_awareness",
+        "status": "inferred"
+      },
+      {
+        "evidence": "Commercial scale and release context",
+        "source": "commercial_scale",
         "status": "inferred"
       },
       {
@@ -35,42 +45,37 @@
         "status": "verified"
       },
       {
+        "evidence": "Director: Roger Gual",
+        "source": "filmmaker_interest",
+        "status": "verified"
+      },
+      {
         "evidence": "Trailer URL present",
         "source": "trailer_available",
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 1.741",
-        "source": "audience_popularity",
-        "status": "verified"
-      },
-      {
-        "evidence": "Commercial scale and release context",
-        "source": "commercial_scale",
-        "status": "inferred"
-      },
-      {
-        "evidence": "Director: Roger Gual",
-        "source": "filmmaker_interest",
+        "evidence": "18",
+        "source": "tmdb_vote_count",
         "status": "verified"
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 55.9,
-    "industry_interest": null,
-    "last_updated": "20260722T161339Z",
+    "homepage_spotlight_score": 81.8,
+    "industry_interest": "Moderate",
+    "last_updated": "20260727T212511Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
         "evidence_count": 2,
-        "score": 10.9,
+        "score": 25.0,
         "statuses": [
           "verified"
         ]
       },
       "commercial": {
         "evidence_count": 1,
-        "score": 4.9,
+        "score": 13.1,
         "statuses": [
           "inferred"
         ]
@@ -92,7 +97,7 @@
       },
       "talent/prestige": {
         "evidence_count": 2,
-        "score": 10.6,
+        "score": 14.2,
         "statuses": [
           "verified"
         ]
@@ -142,7 +147,7 @@
     "probabilities": {}
   },
   "commercial": {
-    "commercial_significance": 19.0,
+    "commercial_significance": 50.5,
     "distributor": "Netflix",
     "franchise": "",
     "release_strategy": "Active release campaign",
@@ -151,11 +156,9 @@
     ]
   },
   "diagnostics": {
-    "completeness_score": 89,
+    "completeness_score": 100,
     "confidence": "Medium",
-    "missing_fields": [
-      "runtime"
-    ],
+    "missing_fields": [],
     "relationship_counts": {
       "related_films": 6,
       "related_people": 7,
@@ -163,11 +166,11 @@
     }
   },
   "editorial": {
-    "discovery_reason": "Netflix release worth monitoring for awards-season potential.",
-    "editorial_category": "General Watch",
+    "discovery_reason": "Major Release - Roger Gual film with large-scale commercial or public-interest signals.",
+    "editorial_category": "Major Release",
     "editorial_summary": "Netflix release worth monitoring for awards-season potential.",
     "importance_tier": "Watchlist",
-    "primary_story": "generic generated rationale",
+    "primary_story": "major studio or streamer scale; high TMDb popularity; filmmaker attached to large-scale release",
     "story_strength": "Developing",
     "why_it_matters": "Netflix release worth monitoring for awards-season potential."
   },
@@ -179,38 +182,150 @@
     "premiere_type": ""
   },
   "film_identity": {
-    "backdrop": "",
-    "country": [],
+    "backdrop": "https://image.tmdb.org/t/p/original/2kQ71k6dq7DVNYuYY9ylNvRFKTv.jpg",
+    "country": [
+      "ES"
+    ],
     "genres": [
-      "Thriller"
+      "Thriller",
+      "Drama",
+      "Mystery"
     ],
     "id": "1659155",
     "imdb_id": "",
-    "language": "",
-    "original_title": "The Truthers",
+    "language": "es",
+    "original_title": "Los creyentes",
     "poster": "https://image.tmdb.org/t/p/original/ltuAheARdaUHbaS8lX1ZPrNOXe5.jpg",
     "profile_payload_url": "data/films/1659155.json",
     "profile_url": "film.html?id=1659155",
     "release_date": "2026-07-24",
     "release_display": "In theaters Jul. 24",
-    "runtime": null,
+    "runtime": 106,
     "synopsis": "After her mother's sudden death, Ruth returns to her hometown and reunites with her father, whose odd behavior makes her question what really happened.",
     "title": "The Truthers",
     "tmdb_id": "1659155"
   },
+  "intelligence": {
+    "confidence": "High",
+    "confidence_score": 0.99,
+    "generated_at": "2026-07-27T21:24:57Z",
+    "headline": "The Truthers: release approaching",
+    "metadata": {
+      "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
+      "signal_values": {
+        "legacy_dashboard_awards_category_count": 0,
+        "legacy_dashboard_awards_tier": "No Current Awards Case",
+        "legacy_dashboard_credited_talent_count": 8,
+        "legacy_dashboard_director_profile_present": true,
+        "legacy_dashboard_festival_award_count": 0,
+        "legacy_dashboard_festival_selection_count": 0,
+        "legacy_dashboard_festival_status": "",
+        "legacy_dashboard_precursor_award_count": 0,
+        "legacy_dashboard_principal_cast_count": 7,
+        "streaming_available_us": true,
+        "streaming_flatrate_provider_count_us": 2,
+        "streaming_provider_count_us": 2,
+        "tmdb_backdrop_count": 1,
+        "tmdb_canonical_trailer_available": true,
+        "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=IvL0oT13djs",
+        "tmdb_popularity": 52.9506,
+        "tmdb_poster_count": 3,
+        "tmdb_release_date_us_primary": "2026-07-24",
+        "tmdb_release_date_us_theatrical": "",
+        "tmdb_release_status": "Released",
+        "tmdb_vote_average": 6.111,
+        "tmdb_vote_count": 18,
+        "tmdb_watch_provider_count_us": 2,
+        "trailer_available": true,
+        "trailer_count": 1,
+        "trailer_url": "https://www.youtube.com/watch?v=IvL0oT13djs"
+      },
+      "source_signal_count": 26,
+      "stale_signal_count": 0
+    },
+    "schema_version": "phase2b_intelligence_explanation_v1",
+    "summary": "TMDb popularity is 52.9506. US release is 4 days away on 2026-07-24. A canonical TMDb trailer URL is available.",
+    "supporting_drivers": [
+      {
+        "confidence_weight": 0.65,
+        "driver_type": "popularity_observed",
+        "evidence": "TMDb popularity is 52.9506.",
+        "label": "Popularity signal available",
+        "retrieved_at": "2026-07-27T21:24:57Z",
+        "source_metric": "tmdb_popularity",
+        "source_provider": "tmdb",
+        "source_status": "available"
+      },
+      {
+        "confidence_weight": 0.8,
+        "driver_type": "release_approaching",
+        "evidence": "US release is 4 days away on 2026-07-24.",
+        "label": "Release approaching",
+        "retrieved_at": "2026-07-27T21:24:57Z",
+        "source_metric": "tmdb_release_date_us_primary",
+        "source_provider": "tmdb",
+        "source_status": "available"
+      },
+      {
+        "confidence_weight": 0.85,
+        "driver_type": "trailer_available",
+        "evidence": "A canonical TMDb trailer URL is available.",
+        "label": "Trailer available",
+        "retrieved_at": "2026-07-27T21:24:57Z",
+        "source_metric": "tmdb_canonical_trailer_url",
+        "source_provider": "tmdb",
+        "source_status": "available"
+      }
+    ]
+  },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260722T161339Z",
+    "generated_at": "20260727T212511Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
   "related": {
     "related_films": [
       {
+        "profile_url": "film.html?id=1487861",
+        "relationship_score": 48,
+        "shared_signals": [
+          "Major Release",
+          "Drama",
+          "Thriller",
+          "Netflix"
+        ],
+        "title": "Elize: Shadows of a Woman",
+        "tmdb_id": "1487861"
+      },
+      {
+        "profile_url": "film.html?id=1457866",
+        "relationship_score": 48,
+        "shared_signals": [
+          "Major Release",
+          "Drama",
+          "Thriller",
+          "Netflix"
+        ],
+        "title": "The Adventures of Cliff Booth",
+        "tmdb_id": "1457866"
+      },
+      {
+        "profile_url": "film.html?id=1468683",
+        "relationship_score": 42,
+        "shared_signals": [
+          "Major Release",
+          "Drama",
+          "Netflix"
+        ],
+        "title": "Heartstopper Forever",
+        "tmdb_id": "1468683"
+      },
+      {
         "profile_url": "film.html?id=1630409",
         "relationship_score": 42,
         "shared_signals": [
-          "General Watch",
+          "Major Release",
           "Thriller",
           "Netflix"
         ],
@@ -218,57 +333,26 @@
         "tmdb_id": "1630409"
       },
       {
-        "profile_url": "film.html?id=1284041",
+        "profile_url": "film.html?id=1522689",
         "relationship_score": 42,
         "shared_signals": [
-          "General Watch",
-          "Thriller",
+          "Major Release",
+          "Drama",
           "Netflix"
         ],
-        "title": "The Last House",
-        "tmdb_id": "1284041"
+        "title": "Why Did I Get Married Again?",
+        "tmdb_id": "1522689"
       },
       {
         "profile_url": "film.html?id=1631807",
-        "relationship_score": 42,
+        "relationship_score": 38,
         "shared_signals": [
-          "General Watch",
-          "Thriller",
+          "Drama",
+          "Mystery",
           "Netflix"
         ],
         "title": "The Secret Woman",
         "tmdb_id": "1631807"
-      },
-      {
-        "profile_url": "film.html?id=860508",
-        "relationship_score": 42,
-        "shared_signals": [
-          "General Watch",
-          "Thriller",
-          "Netflix"
-        ],
-        "title": "The Whisper Man",
-        "tmdb_id": "860508"
-      },
-      {
-        "profile_url": "film.html?id=949838",
-        "relationship_score": 36,
-        "shared_signals": [
-          "General Watch",
-          "Netflix"
-        ],
-        "title": "72 HOURS",
-        "tmdb_id": "949838"
-      },
-      {
-        "profile_url": "film.html?id=1723460",
-        "relationship_score": 36,
-        "shared_signals": [
-          "General Watch",
-          "Netflix"
-        ],
-        "title": "A Toxic Love Story",
-        "tmdb_id": "1723460"
       }
     ],
     "related_people": [
@@ -313,21 +397,26 @@
     ]
   },
   "signals": {
-    "cultural_significance": 19.0,
-    "last_updated": "2026-07-24",
+    "cultural_significance": 50.5,
+    "external_intelligence": {
+      "confidence": "High",
+      "headline": "The Truthers: release approaching",
+      "summary": "TMDb popularity is 52.9506. US release is 4 days away on 2026-07-24. A canonical TMDb trailer URL is available."
+    },
+    "last_updated": "2026-07-27T21:25:11Z",
     "latest_event": {
       "confidence": "Inferred",
-      "event_id": "1659155-9950d193be3e",
-      "event_type": "Release Scheduled",
+      "event_id": "1659155-4eee31329b42",
+      "event_type": "Distributor Change",
       "film_id": "1659155",
       "importance": "Medium",
       "metadata": {
-        "release_date": "2026-07-24"
+        "distributor": "Netflix"
       },
       "source_type": "metadata",
-      "summary": "Release currently scheduled for In theaters Jul. 24.",
-      "timestamp": "2026-07-24",
-      "title": "Release scheduled"
+      "summary": "Current distributor is Netflix.",
+      "timestamp": "2026-07-27T21:25:11Z",
+      "title": "Distributor set: Netflix"
     },
     "latest_intelligence": "As of 2026-07-18, this is a Netflix release dated 2026-07-24 with general awards monitoring relevance; current awards profile is Developing and data status is developing.",
     "momentum": 0.0,
@@ -336,21 +425,7 @@
     "recent_activity": [
       {
         "confidence": "Inferred",
-        "event_id": "1659155-9950d193be3e",
-        "event_type": "Release Scheduled",
-        "film_id": "1659155",
-        "importance": "Medium",
-        "metadata": {
-          "release_date": "2026-07-24"
-        },
-        "source_type": "metadata",
-        "summary": "Release currently scheduled for In theaters Jul. 24.",
-        "timestamp": "2026-07-24",
-        "title": "Release scheduled"
-      },
-      {
-        "confidence": "Inferred",
-        "event_id": "1659155-39e5c30d7387",
+        "event_id": "1659155-4eee31329b42",
         "event_type": "Distributor Change",
         "film_id": "1659155",
         "importance": "Medium",
@@ -359,12 +434,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1659155-615b5178aa0b",
+        "event_id": "1659155-11221074425b",
         "event_type": "Awards Tier Changed",
         "film_id": "1659155",
         "importance": "Medium",
@@ -374,11 +449,25 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: No Current Awards Case"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1659155-b69ed888872f",
+        "event_type": "Added To Database",
+        "film_id": "1659155",
+        "importance": "Low",
+        "metadata": {
+          "profile_version": "phase6a"
+        },
+        "source_type": "system",
+        "summary": "The Truthers is tracked in the Film Intelligence profile set.",
+        "timestamp": "2026-07-27T21:25:11Z",
+        "title": "Added to Awards Intelligence"
       }
     ],
-    "release_relevance": 44.2,
+    "release_relevance": 52.8,
     "watch_triggers": [
       "Prestige Distributor",
       "Major Studio/Streamer",
@@ -394,7 +483,8 @@
       "Fanny Gautier",
       "Alberto Olmo",
       "Israel Ruiz",
-      "Olaya Lopez"
+      "Olaya Lopez",
+      "Armando Pita"
     ],
     "producers": [],
     "writers": []
@@ -403,21 +493,7 @@
     "events": [
       {
         "confidence": "Inferred",
-        "event_id": "1659155-9950d193be3e",
-        "event_type": "Release Scheduled",
-        "film_id": "1659155",
-        "importance": "Medium",
-        "metadata": {
-          "release_date": "2026-07-24"
-        },
-        "source_type": "metadata",
-        "summary": "Release currently scheduled for In theaters Jul. 24.",
-        "timestamp": "2026-07-24",
-        "title": "Release scheduled"
-      },
-      {
-        "confidence": "Inferred",
-        "event_id": "1659155-39e5c30d7387",
+        "event_id": "1659155-4eee31329b42",
         "event_type": "Distributor Change",
         "film_id": "1659155",
         "importance": "Medium",
@@ -426,12 +502,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1659155-615b5178aa0b",
+        "event_id": "1659155-11221074425b",
         "event_type": "Awards Tier Changed",
         "film_id": "1659155",
         "importance": "Medium",
@@ -441,12 +517,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1659155-201d76c14ffc",
+        "event_id": "1659155-b69ed888872f",
         "event_type": "Added To Database",
         "film_id": "1659155",
         "importance": "Low",
@@ -455,25 +531,9 @@
         },
         "source_type": "system",
         "summary": "The Truthers is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Added to Awards Intelligence"
-      }
-    ],
-    "latest_event": {
-      "confidence": "Inferred",
-      "event_id": "1659155-9950d193be3e",
-      "event_type": "Release Scheduled",
-      "film_id": "1659155",
-      "importance": "Medium",
-      "metadata": {
-        "release_date": "2026-07-24"
       },
-      "source_type": "metadata",
-      "summary": "Release currently scheduled for In theaters Jul. 24.",
-      "timestamp": "2026-07-24",
-      "title": "Release scheduled"
-    },
-    "recent_activity": [
       {
         "confidence": "Inferred",
         "event_id": "1659155-9950d193be3e",
@@ -487,10 +547,26 @@
         "summary": "Release currently scheduled for In theaters Jul. 24.",
         "timestamp": "2026-07-24",
         "title": "Release scheduled"
+      }
+    ],
+    "latest_event": {
+      "confidence": "Inferred",
+      "event_id": "1659155-4eee31329b42",
+      "event_type": "Distributor Change",
+      "film_id": "1659155",
+      "importance": "Medium",
+      "metadata": {
+        "distributor": "Netflix"
       },
+      "source_type": "metadata",
+      "summary": "Current distributor is Netflix.",
+      "timestamp": "2026-07-27T21:25:11Z",
+      "title": "Distributor set: Netflix"
+    },
+    "recent_activity": [
       {
         "confidence": "Inferred",
-        "event_id": "1659155-39e5c30d7387",
+        "event_id": "1659155-4eee31329b42",
         "event_type": "Distributor Change",
         "film_id": "1659155",
         "importance": "Medium",
@@ -499,12 +575,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1659155-615b5178aa0b",
+        "event_id": "1659155-11221074425b",
         "event_type": "Awards Tier Changed",
         "film_id": "1659155",
         "importance": "Medium",
@@ -514,8 +590,22 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: No Current Awards Case"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1659155-b69ed888872f",
+        "event_type": "Added To Database",
+        "film_id": "1659155",
+        "importance": "Low",
+        "metadata": {
+          "profile_version": "phase6a"
+        },
+        "source_type": "system",
+        "summary": "The Truthers is tracked in the Film Intelligence profile set.",
+        "timestamp": "2026-07-27T21:25:11Z",
+        "title": "Added to Awards Intelligence"
       }
     ],
     "supported_event_types": [

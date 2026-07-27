@@ -1,22 +1,32 @@
 {
   "attention_intelligence": {
-    "anticipation_level": "Moderate",
+    "anticipation_level": "High",
     "attention_confidence": "High",
     "attention_reasons": [
       "Most Anticipated",
       "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 56.4,
+    "attention_score": 83.2,
     "attention_version": "phase7e_attention_v1",
-    "audience_interest": "Developing",
+    "audience_interest": "Moderate",
     "conversation_level": "Unavailable",
-    "cultural_relevance": null,
+    "cultural_relevance": "Moderate",
     "early_reception": null,
     "evidence_sources": [
       {
+        "evidence": "TMDb popularity 66.9419",
+        "source": "audience_popularity",
+        "status": "verified"
+      },
+      {
         "evidence": "Public-interest, franchise, event, or major-studio tracking signal",
         "source": "event_awareness",
+        "status": "inferred"
+      },
+      {
+        "evidence": "Commercial scale and release context",
+        "source": "commercial_scale",
         "status": "inferred"
       },
       {
@@ -25,13 +35,18 @@
         "status": "verified"
       },
       {
+        "evidence": "Principal cast listed: Lorena Comparato, Henrique Kimura, Denise Weinberg, Gustavo Falc\u00e3o",
+        "source": "cast_interest",
+        "status": "verified"
+      },
+      {
         "evidence": "Release date: 2026-07-22",
         "source": "release_proximity",
         "status": "verified"
       },
       {
-        "evidence": "Principal cast listed: Lorena Comparato, Luciano Quirino, Denise Weinberg, Julia Shimura",
-        "source": "cast_interest",
+        "evidence": "Director: Vellas",
+        "source": "filmmaker_interest",
         "status": "verified"
       },
       {
@@ -40,37 +55,27 @@
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 2.314",
-        "source": "audience_popularity",
-        "status": "verified"
-      },
-      {
-        "evidence": "Commercial scale and release context",
-        "source": "commercial_scale",
-        "status": "inferred"
-      },
-      {
-        "evidence": "Director: Vellas",
-        "source": "filmmaker_interest",
+        "evidence": "43",
+        "source": "tmdb_vote_count",
         "status": "verified"
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 56.4,
-    "industry_interest": null,
-    "last_updated": "20260722T161339Z",
+    "homepage_spotlight_score": 83.2,
+    "industry_interest": "Moderate",
+    "last_updated": "20260727T212511Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
         "evidence_count": 2,
-        "score": 11.4,
+        "score": 26.2,
         "statuses": [
           "verified"
         ]
       },
       "commercial": {
         "evidence_count": 1,
-        "score": 4.9,
+        "score": 13.1,
         "statuses": [
           "inferred"
         ]
@@ -92,7 +97,7 @@
       },
       "talent/prestige": {
         "evidence_count": 2,
-        "score": 10.6,
+        "score": 14.4,
         "statuses": [
           "verified"
         ]
@@ -142,7 +147,7 @@
     "probabilities": {}
   },
   "commercial": {
-    "commercial_significance": 19.0,
+    "commercial_significance": 50.5,
     "distributor": "Netflix",
     "franchise": "",
     "release_strategy": "Active release campaign",
@@ -151,11 +156,9 @@
     ]
   },
   "diagnostics": {
-    "completeness_score": 89,
+    "completeness_score": 100,
     "confidence": "Medium",
-    "missing_fields": [
-      "runtime"
-    ],
+    "missing_fields": [],
     "relationship_counts": {
       "related_films": 6,
       "related_people": 7,
@@ -163,11 +166,11 @@
     }
   },
   "editorial": {
-    "discovery_reason": "Netflix release worth monitoring for awards-season potential.",
-    "editorial_category": "General Watch",
+    "discovery_reason": "Major Release - Vellas film with large-scale commercial or public-interest signals.",
+    "editorial_category": "Major Release",
     "editorial_summary": "Netflix release worth monitoring for awards-season potential.",
     "importance_tier": "Watchlist",
-    "primary_story": "generic generated rationale",
+    "primary_story": "major studio or streamer scale; high TMDb popularity; filmmaker attached to large-scale release",
     "story_strength": "Developing",
     "why_it_matters": "Netflix release worth monitoring for awards-season potential."
   },
@@ -179,97 +182,178 @@
     "premiere_type": ""
   },
   "film_identity": {
-    "backdrop": "",
-    "country": [],
+    "backdrop": "https://image.tmdb.org/t/p/original/z8mTDyKdAWjKsD0vwa7e9LTSY1j.jpg",
+    "country": [
+      "BR"
+    ],
     "genres": [
-      "Crime"
+      "Thriller",
+      "Crime",
+      "Drama"
     ],
     "id": "1487861",
     "imdb_id": "",
-    "language": "",
-    "original_title": "Elize: Shadows of a Woman",
-    "poster": "https://image.tmdb.org/t/p/original/ujiviZywbMEr4RQh9zhUwJdLkt.jpg",
+    "language": "pt",
+    "original_title": "Elize: Sombras de uma Mulher",
+    "poster": "https://image.tmdb.org/t/p/original/l3wevYWTpiZSUEM5B0Q8c21ALAD.jpg",
     "profile_payload_url": "data/films/1487861.json",
     "profile_url": "film.html?id=1487861",
     "release_date": "2026-07-22",
     "release_display": "In theaters Jul. 22",
-    "runtime": null,
+    "runtime": 93,
     "synopsis": "In this retelling of a real case, a former escort discovers her wealthy husband's infidelity and struggles to cope as betrayal poisons their marriage.",
     "title": "Elize: Shadows of a Woman",
     "tmdb_id": "1487861"
   },
+  "intelligence": {
+    "confidence": "High",
+    "confidence_score": 0.99,
+    "generated_at": "2026-07-27T21:24:57Z",
+    "headline": "Elize: Shadows of a Woman: release approaching",
+    "metadata": {
+      "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
+      "signal_values": {
+        "legacy_dashboard_awards_category_count": 0,
+        "legacy_dashboard_awards_tier": "No Current Awards Case",
+        "legacy_dashboard_credited_talent_count": 9,
+        "legacy_dashboard_director_profile_present": true,
+        "legacy_dashboard_festival_award_count": 0,
+        "legacy_dashboard_festival_selection_count": 0,
+        "legacy_dashboard_festival_status": "",
+        "legacy_dashboard_precursor_award_count": 0,
+        "legacy_dashboard_principal_cast_count": 8,
+        "streaming_available_us": true,
+        "streaming_flatrate_provider_count_us": 2,
+        "streaming_provider_count_us": 2,
+        "tmdb_backdrop_count": 0,
+        "tmdb_canonical_trailer_available": true,
+        "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=KiKnd3cusPo",
+        "tmdb_popularity": 66.9419,
+        "tmdb_poster_count": 4,
+        "tmdb_release_date_us_primary": "2026-07-22",
+        "tmdb_release_date_us_theatrical": "",
+        "tmdb_release_status": "Released",
+        "tmdb_vote_average": 6.6,
+        "tmdb_vote_count": 43,
+        "tmdb_watch_provider_count_us": 2,
+        "trailer_available": true,
+        "trailer_count": 1,
+        "trailer_url": "https://www.youtube.com/watch?v=KiKnd3cusPo"
+      },
+      "source_signal_count": 26,
+      "stale_signal_count": 0
+    },
+    "schema_version": "phase2b_intelligence_explanation_v1",
+    "summary": "TMDb popularity is 66.9419. US release is 2 days away on 2026-07-22. A canonical TMDb trailer URL is available.",
+    "supporting_drivers": [
+      {
+        "confidence_weight": 0.65,
+        "driver_type": "popularity_observed",
+        "evidence": "TMDb popularity is 66.9419.",
+        "label": "Popularity signal available",
+        "retrieved_at": "2026-07-27T21:24:57Z",
+        "source_metric": "tmdb_popularity",
+        "source_provider": "tmdb",
+        "source_status": "available"
+      },
+      {
+        "confidence_weight": 0.8,
+        "driver_type": "release_approaching",
+        "evidence": "US release is 2 days away on 2026-07-22.",
+        "label": "Release approaching",
+        "retrieved_at": "2026-07-27T21:24:57Z",
+        "source_metric": "tmdb_release_date_us_primary",
+        "source_provider": "tmdb",
+        "source_status": "available"
+      },
+      {
+        "confidence_weight": 0.85,
+        "driver_type": "trailer_available",
+        "evidence": "A canonical TMDb trailer URL is available.",
+        "label": "Trailer available",
+        "retrieved_at": "2026-07-27T21:24:57Z",
+        "source_metric": "tmdb_canonical_trailer_url",
+        "source_provider": "tmdb",
+        "source_status": "available"
+      }
+    ]
+  },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260722T161339Z",
+    "generated_at": "20260727T212511Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
   "related": {
     "related_films": [
       {
-        "profile_url": "film.html?id=1487864",
-        "relationship_score": 42,
+        "profile_url": "film.html?id=1457866",
+        "relationship_score": 48,
         "shared_signals": [
-          "General Watch",
-          "Crime",
+          "Major Release",
+          "Drama",
+          "Thriller",
           "Netflix"
         ],
-        "title": "Nando Between Two Worlds - A Sintonia Film",
-        "tmdb_id": "1487864"
+        "title": "The Adventures of Cliff Booth",
+        "tmdb_id": "1457866"
       },
       {
         "profile_url": "film.html?id=1630409",
-        "relationship_score": 42,
+        "relationship_score": 48,
         "shared_signals": [
-          "General Watch",
+          "Major Release",
           "Crime",
+          "Thriller",
           "Netflix"
         ],
         "title": "The Debt Collector",
         "tmdb_id": "1630409"
       },
       {
-        "profile_url": "film.html?id=1631807",
-        "relationship_score": 42,
+        "profile_url": "film.html?id=1659155",
+        "relationship_score": 48,
         "shared_signals": [
-          "General Watch",
-          "Crime",
+          "Major Release",
+          "Drama",
+          "Thriller",
           "Netflix"
         ],
-        "title": "The Secret Woman",
-        "tmdb_id": "1631807"
-      },
-      {
-        "profile_url": "film.html?id=860508",
-        "relationship_score": 42,
-        "shared_signals": [
-          "General Watch",
-          "Crime",
-          "Netflix"
-        ],
-        "title": "The Whisper Man",
-        "tmdb_id": "860508"
-      },
-      {
-        "profile_url": "film.html?id=1421594",
-        "relationship_score": 42,
-        "shared_signals": [
-          "General Watch",
-          "Crime",
-          "Netflix"
-        ],
-        "title": "Trustor",
-        "tmdb_id": "1421594"
+        "title": "The Truthers",
+        "tmdb_id": "1659155"
       },
       {
         "profile_url": "film.html?id=949838",
-        "relationship_score": 36,
+        "relationship_score": 42,
         "shared_signals": [
-          "General Watch",
+          "Major Release",
+          "Crime",
           "Netflix"
         ],
         "title": "72 HOURS",
         "tmdb_id": "949838"
+      },
+      {
+        "profile_url": "film.html?id=1468683",
+        "relationship_score": 42,
+        "shared_signals": [
+          "Major Release",
+          "Drama",
+          "Netflix"
+        ],
+        "title": "Heartstopper Forever",
+        "tmdb_id": "1468683"
+      },
+      {
+        "profile_url": "film.html?id=1522689",
+        "relationship_score": 42,
+        "shared_signals": [
+          "Major Release",
+          "Drama",
+          "Netflix"
+        ],
+        "title": "Why Did I Get Married Again?",
+        "tmdb_id": "1522689"
       }
     ],
     "related_people": [
@@ -282,7 +366,7 @@
         "role": "actor"
       },
       {
-        "name": "Luciano Quirino",
+        "name": "Henrique Kimura",
         "role": "actor"
       },
       {
@@ -290,15 +374,15 @@
         "role": "actor"
       },
       {
+        "name": "Gustavo Falc\u00e3o",
+        "role": "actor"
+      },
+      {
         "name": "Julia Shimura",
         "role": "actor"
       },
       {
-        "name": "Miwa Yanagizawa",
-        "role": "actor"
-      },
-      {
-        "name": "Henrique Kimura",
+        "name": "Flora Sandy\u00e1",
         "role": "actor"
       }
     ],
@@ -314,11 +398,16 @@
     ]
   },
   "signals": {
-    "cultural_significance": 19.0,
-    "last_updated": "2026-07-22T16:13:39Z",
+    "cultural_significance": 50.5,
+    "external_intelligence": {
+      "confidence": "High",
+      "headline": "Elize: Shadows of a Woman: release approaching",
+      "summary": "TMDb popularity is 66.9419. US release is 2 days away on 2026-07-22. A canonical TMDb trailer URL is available."
+    },
+    "last_updated": "2026-07-27T21:25:11Z",
     "latest_event": {
       "confidence": "Inferred",
-      "event_id": "1487861-74e5d4e91dd4",
+      "event_id": "1487861-298c858e5d62",
       "event_type": "Distributor Change",
       "film_id": "1487861",
       "importance": "Medium",
@@ -327,7 +416,7 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Netflix.",
-      "timestamp": "2026-07-22T16:13:39Z",
+      "timestamp": "2026-07-27T21:25:11Z",
       "title": "Distributor set: Netflix"
     },
     "latest_intelligence": "As of 2026-07-18, this is a Netflix release dated 2026-07-22 with general awards monitoring relevance; current awards profile is Developing and data status is developing.",
@@ -337,7 +426,7 @@
     "recent_activity": [
       {
         "confidence": "Inferred",
-        "event_id": "1487861-74e5d4e91dd4",
+        "event_id": "1487861-298c858e5d62",
         "event_type": "Distributor Change",
         "film_id": "1487861",
         "importance": "Medium",
@@ -346,12 +435,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1487861-c81f66ab6f2f",
+        "event_id": "1487861-5d091458e4c6",
         "event_type": "Awards Tier Changed",
         "film_id": "1487861",
         "importance": "Medium",
@@ -361,12 +450,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1487861-6e14ac579dc5",
+        "event_id": "1487861-6c00801de1d6",
         "event_type": "Added To Database",
         "film_id": "1487861",
         "importance": "Low",
@@ -375,11 +464,11 @@
         },
         "source_type": "system",
         "summary": "Elize: Shadows of a Woman is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Added to Awards Intelligence"
       }
     ],
-    "release_relevance": 44.2,
+    "release_relevance": 52.8,
     "watch_triggers": [
       "Prestige Distributor",
       "Major Studio/Streamer",
@@ -391,11 +480,13 @@
     "director": "Vellas",
     "principal_cast": [
       "Lorena Comparato",
-      "Luciano Quirino",
+      "Henrique Kimura",
       "Denise Weinberg",
+      "Gustavo Falc\u00e3o",
       "Julia Shimura",
-      "Miwa Yanagizawa",
-      "Henrique Kimura"
+      "Flora Sandy\u00e1",
+      "Edson Kameda",
+      "Miwa Yanagizawa"
     ],
     "producers": [],
     "writers": []
@@ -404,7 +495,7 @@
     "events": [
       {
         "confidence": "Inferred",
-        "event_id": "1487861-74e5d4e91dd4",
+        "event_id": "1487861-298c858e5d62",
         "event_type": "Distributor Change",
         "film_id": "1487861",
         "importance": "Medium",
@@ -413,12 +504,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1487861-c81f66ab6f2f",
+        "event_id": "1487861-5d091458e4c6",
         "event_type": "Awards Tier Changed",
         "film_id": "1487861",
         "importance": "Medium",
@@ -428,12 +519,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1487861-6e14ac579dc5",
+        "event_id": "1487861-6c00801de1d6",
         "event_type": "Added To Database",
         "film_id": "1487861",
         "importance": "Low",
@@ -442,7 +533,7 @@
         },
         "source_type": "system",
         "summary": "Elize: Shadows of a Woman is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Added to Awards Intelligence"
       },
       {
@@ -462,7 +553,7 @@
     ],
     "latest_event": {
       "confidence": "Inferred",
-      "event_id": "1487861-74e5d4e91dd4",
+      "event_id": "1487861-298c858e5d62",
       "event_type": "Distributor Change",
       "film_id": "1487861",
       "importance": "Medium",
@@ -471,13 +562,13 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Netflix.",
-      "timestamp": "2026-07-22T16:13:39Z",
+      "timestamp": "2026-07-27T21:25:11Z",
       "title": "Distributor set: Netflix"
     },
     "recent_activity": [
       {
         "confidence": "Inferred",
-        "event_id": "1487861-74e5d4e91dd4",
+        "event_id": "1487861-298c858e5d62",
         "event_type": "Distributor Change",
         "film_id": "1487861",
         "importance": "Medium",
@@ -486,12 +577,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1487861-c81f66ab6f2f",
+        "event_id": "1487861-5d091458e4c6",
         "event_type": "Awards Tier Changed",
         "film_id": "1487861",
         "importance": "Medium",
@@ -501,12 +592,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1487861-6e14ac579dc5",
+        "event_id": "1487861-6c00801de1d6",
         "event_type": "Added To Database",
         "film_id": "1487861",
         "importance": "Low",
@@ -515,7 +606,7 @@
         },
         "source_type": "system",
         "summary": "Elize: Shadows of a Woman is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Added to Awards Intelligence"
       }
     ],

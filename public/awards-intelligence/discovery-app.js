@@ -104,6 +104,7 @@ function renderHome() {
   const spotlight = h.spotlight || spotlightFromFirstCard(h.screening_room[0]);
   const festivalItems = state.discover?.views?.festivals?.all_items || [];
   home.innerHTML = `
+    ${renderLastUpdatedIndicator(h.metadata?.last_updated)}
     ${nowInFocus(spotlight)}
     ${comingSoonSection(dedupeItems(h.opening_soon, [spotlight.tmdb_id]))}
     ${festivalRadarSection(festivalItems, h.latest_signals || [])}
@@ -117,9 +118,20 @@ function renderHome() {
   });
 }
 
+function renderLastUpdatedIndicator(value) {
+  const formatted = formatLastUpdatedDate(value);
+  return formatted ? `<p class="last-updated">Last updated ${escapeHtml(formatted)}</p>` : "";
+}
+
+function formatLastUpdatedDate(value) {
+  if (!value || typeof value !== "string") return "";
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return "";
+  return new Intl.DateTimeFormat(undefined, { month: "long", day: "numeric", year: "numeric" }).format(date);
+}
+
 function nowInFocus(spotlight) {
   const backdrop = heroBackdrop(spotlight);
-  const poster = spotlight.poster_url || "";
   const label = spotlightPrimaryLabel(spotlight);
   const meta = [spotlight.release_display, label].filter(Boolean).join(" · ");
   return `
@@ -132,7 +144,7 @@ function nowInFocus(spotlight) {
         <button class="spotlight-action" type="button" data-signal="${escapeHtml(spotlight.tmdb_id || "")}">View Film <span aria-hidden="true">→</span></button>
       </div>
       <div class="now-focus-image">
-        ${backdrop || poster ? `<img src="${escapeHtml(backdrop || poster)}" alt="${escapeHtml(spotlight.title || "Featured film")}">` : `<div class="now-focus-placeholder">${escapeHtml(spotlight.title || "Featured film")}</div>`}
+        ${backdrop ? `<img src="${escapeHtml(backdrop)}" alt="${escapeHtml(spotlight.title || "Featured film")}">` : `<div class="now-focus-placeholder">${escapeHtml(spotlight.title || "Featured film")}</div>`}
       </div>
     </article>
   `;

@@ -8,7 +8,7 @@
       "Event Release",
       "Awards Watch"
     ],
-    "attention_score": 59.0,
+    "attention_score": 58.5,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -26,7 +26,7 @@
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 5.263",
+        "evidence": "TMDb popularity 4.6716",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -57,14 +57,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 59.0,
+    "homepage_spotlight_score": 58.5,
     "industry_interest": null,
-    "last_updated": "20260722T161339Z",
+    "last_updated": "20260727T212511Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
         "evidence_count": 2,
-        "score": 13.9,
+        "score": 13.4,
         "statuses": [
           "verified"
         ]
@@ -188,7 +188,7 @@
     "premiere_type": ""
   },
   "film_identity": {
-    "backdrop": "https://image.tmdb.org/t/p/original/aJL1x3CjiV2kKZMu0JxJrGMAjCt.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/iIn6exNbm1wtMJ1YNybXlSOTNoj.jpg",
     "country": [
       "US"
     ],
@@ -201,7 +201,7 @@
     "imdb_id": "",
     "language": "en",
     "original_title": "Mayday",
-    "poster": "https://image.tmdb.org/t/p/original/kkMnUfG5qO8BfTV9MVPOoH78YS8.jpg",
+    "poster": "https://image.tmdb.org/t/p/original/hyenJuiOPuyHqASGF8GLiYEfjET.jpg",
     "profile_payload_url": "data/films/1137844.json",
     "profile_url": "film.html?id=1137844",
     "release_date": "2026-09-03",
@@ -211,9 +211,82 @@
     "title": "Mayday",
     "tmdb_id": "1137844"
   },
+  "intelligence": {
+    "confidence": "High",
+    "confidence_score": 0.99,
+    "generated_at": "2026-07-27T21:24:57Z",
+    "headline": "Mayday: release approaching",
+    "metadata": {
+      "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
+      "signal_values": {
+        "legacy_dashboard_awards_category_count": 1,
+        "legacy_dashboard_awards_tier": "No Current Awards Case",
+        "legacy_dashboard_credited_talent_count": 9,
+        "legacy_dashboard_director_profile_present": true,
+        "legacy_dashboard_festival_award_count": 0,
+        "legacy_dashboard_festival_selection_count": 0,
+        "legacy_dashboard_festival_status": "",
+        "legacy_dashboard_precursor_award_count": 0,
+        "legacy_dashboard_principal_cast_count": 8,
+        "streaming_available_us": false,
+        "streaming_flatrate_provider_count_us": 0,
+        "streaming_provider_count_us": 0,
+        "tmdb_backdrop_count": 4,
+        "tmdb_canonical_trailer_available": true,
+        "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=om5Un9X720M",
+        "tmdb_popularity": 4.6716,
+        "tmdb_poster_count": 5,
+        "tmdb_release_date_us_primary": "2026-09-03",
+        "tmdb_release_date_us_theatrical": "",
+        "tmdb_release_status": "Post Production",
+        "tmdb_vote_average": 0,
+        "tmdb_vote_count": 0,
+        "tmdb_watch_provider_count_us": 0,
+        "trailer_available": true,
+        "trailer_count": 1,
+        "trailer_url": "https://www.youtube.com/watch?v=om5Un9X720M"
+      },
+      "source_signal_count": 26,
+      "stale_signal_count": 0
+    },
+    "schema_version": "phase2b_intelligence_explanation_v1",
+    "summary": "TMDb popularity is 4.6716. US release is 45 days away on 2026-09-03. A canonical TMDb trailer URL is available.",
+    "supporting_drivers": [
+      {
+        "confidence_weight": 0.65,
+        "driver_type": "popularity_observed",
+        "evidence": "TMDb popularity is 4.6716.",
+        "label": "Popularity signal available",
+        "retrieved_at": "2026-07-27T21:24:57Z",
+        "source_metric": "tmdb_popularity",
+        "source_provider": "tmdb",
+        "source_status": "available"
+      },
+      {
+        "confidence_weight": 0.8,
+        "driver_type": "release_approaching",
+        "evidence": "US release is 45 days away on 2026-09-03.",
+        "label": "Release approaching",
+        "retrieved_at": "2026-07-27T21:24:57Z",
+        "source_metric": "tmdb_release_date_us_primary",
+        "source_provider": "tmdb",
+        "source_status": "available"
+      },
+      {
+        "confidence_weight": 0.85,
+        "driver_type": "trailer_available",
+        "evidence": "A canonical TMDb trailer URL is available.",
+        "label": "Trailer available",
+        "retrieved_at": "2026-07-27T21:24:57Z",
+        "source_metric": "tmdb_canonical_trailer_url",
+        "source_provider": "tmdb",
+        "source_status": "available"
+      }
+    ]
+  },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260722T161339Z",
+    "generated_at": "20260727T212511Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -228,7 +301,7 @@
           "Adventure",
           "Craft Categories"
         ],
-        "title": "Matchbox",
+        "title": "Matchbox: The Movie",
         "tmdb_id": "1148365"
       },
       {
@@ -268,17 +341,6 @@
         "tmdb_id": "1288211"
       },
       {
-        "profile_url": "film.html?id=1361774",
-        "relationship_score": 42,
-        "shared_signals": [
-          "General Watch",
-          "Comedy",
-          "Apple TV"
-        ],
-        "title": "The Dink",
-        "tmdb_id": "1361774"
-      },
-      {
         "profile_url": "film.html?id=1670061",
         "relationship_score": 40,
         "shared_signals": [
@@ -286,8 +348,19 @@
           "Action",
           "Craft Categories"
         ],
-        "title": "Beasts Clawing at Straws",
+        "title": "Beasts Clutching at Straws",
         "tmdb_id": "1670061"
+      },
+      {
+        "profile_url": "film.html?id=1147572",
+        "relationship_score": 40,
+        "shared_signals": [
+          "General Watch",
+          "Adventure",
+          "Craft Categories"
+        ],
+        "title": "Narnia: The Magician's Nephew",
+        "tmdb_id": "1147572"
       }
     ],
     "related_people": [
@@ -341,6 +414,11 @@
   },
   "signals": {
     "cultural_significance": 19.0,
+    "external_intelligence": {
+      "confidence": "High",
+      "headline": "Mayday: release approaching",
+      "summary": "TMDb popularity is 4.6716. US release is 45 days away on 2026-09-03. A canonical TMDb trailer URL is available."
+    },
     "last_updated": "2026-09-03",
     "latest_event": {
       "confidence": "Inferred",
@@ -377,7 +455,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1137844-c36279699fc7",
+        "event_id": "1137844-263cb5856a8c",
         "event_type": "Distributor Change",
         "film_id": "1137844",
         "importance": "Medium",
@@ -386,12 +464,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Apple TV.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Distributor set: Apple TV"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1137844-d62a31d4e637",
+        "event_id": "1137844-d6cd71d8bc43",
         "event_type": "Awards Tier Changed",
         "film_id": "1137844",
         "importance": "Medium",
@@ -403,7 +481,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],
@@ -450,7 +528,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1137844-c36279699fc7",
+        "event_id": "1137844-263cb5856a8c",
         "event_type": "Distributor Change",
         "film_id": "1137844",
         "importance": "Medium",
@@ -459,12 +537,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Apple TV.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Distributor set: Apple TV"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1137844-d62a31d4e637",
+        "event_id": "1137844-d6cd71d8bc43",
         "event_type": "Awards Tier Changed",
         "film_id": "1137844",
         "importance": "Medium",
@@ -476,12 +554,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1137844-9b4a5de1e4c9",
+        "event_id": "1137844-d04703e68ea9",
         "event_type": "Added To Database",
         "film_id": "1137844",
         "importance": "Low",
@@ -490,7 +568,7 @@
         },
         "source_type": "system",
         "summary": "Mayday is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -525,7 +603,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1137844-c36279699fc7",
+        "event_id": "1137844-263cb5856a8c",
         "event_type": "Distributor Change",
         "film_id": "1137844",
         "importance": "Medium",
@@ -534,12 +612,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Apple TV.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Distributor set: Apple TV"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1137844-d62a31d4e637",
+        "event_id": "1137844-d6cd71d8bc43",
         "event_type": "Awards Tier Changed",
         "film_id": "1137844",
         "importance": "Medium",
@@ -551,7 +629,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],

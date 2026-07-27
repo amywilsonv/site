@@ -7,7 +7,7 @@
       "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 62.2,
+    "attention_score": 63.5,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -45,20 +45,20 @@
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 1.2753",
+        "evidence": "TMDb popularity 1.9202",
         "source": "audience_popularity",
         "status": "verified"
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 62.2,
+    "homepage_spotlight_score": 63.5,
     "industry_interest": "High",
-    "last_updated": "20260722T161339Z",
+    "last_updated": "20260727T212511Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
         "evidence_count": 1,
-        "score": 4.2,
+        "score": 5.5,
         "statuses": [
           "verified"
         ]
@@ -195,9 +195,70 @@
     "title": "The Mouse Trap: Welcome to the Mickeyverse",
     "tmdb_id": "1353167"
   },
+  "intelligence": {
+    "confidence": "High",
+    "confidence_score": 0.99,
+    "generated_at": "2026-07-27T21:24:57Z",
+    "headline": "The Mouse Trap: Welcome to the Mickeyverse: release approaching",
+    "metadata": {
+      "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
+      "signal_values": {
+        "legacy_dashboard_awards_category_count": 0,
+        "legacy_dashboard_awards_tier": "No Current Awards Case",
+        "legacy_dashboard_credited_talent_count": 5,
+        "legacy_dashboard_director_profile_present": true,
+        "legacy_dashboard_festival_award_count": 0,
+        "legacy_dashboard_festival_selection_count": 0,
+        "legacy_dashboard_festival_status": "",
+        "legacy_dashboard_precursor_award_count": 0,
+        "legacy_dashboard_principal_cast_count": 4,
+        "streaming_available_us": false,
+        "streaming_flatrate_provider_count_us": 0,
+        "streaming_provider_count_us": 0,
+        "tmdb_backdrop_count": 0,
+        "tmdb_canonical_trailer_available": false,
+        "tmdb_popularity": 1.9202,
+        "tmdb_poster_count": 2,
+        "tmdb_release_date_us_primary": "2026-08-01",
+        "tmdb_release_date_us_theatrical": "",
+        "tmdb_release_status": "In Production",
+        "tmdb_vote_average": 0,
+        "tmdb_vote_count": 0,
+        "tmdb_watch_provider_count_us": 0,
+        "trailer_available": false,
+        "trailer_count": 0
+      },
+      "source_signal_count": 24,
+      "stale_signal_count": 0
+    },
+    "schema_version": "phase2b_intelligence_explanation_v1",
+    "summary": "TMDb popularity is 1.9202. US release is 12 days away on 2026-08-01.",
+    "supporting_drivers": [
+      {
+        "confidence_weight": 0.65,
+        "driver_type": "popularity_observed",
+        "evidence": "TMDb popularity is 1.9202.",
+        "label": "Popularity signal available",
+        "retrieved_at": "2026-07-27T21:24:57Z",
+        "source_metric": "tmdb_popularity",
+        "source_provider": "tmdb",
+        "source_status": "available"
+      },
+      {
+        "confidence_weight": 0.8,
+        "driver_type": "release_approaching",
+        "evidence": "US release is 12 days away on 2026-08-01.",
+        "label": "Release approaching",
+        "retrieved_at": "2026-07-27T21:24:57Z",
+        "source_metric": "tmdb_release_date_us_primary",
+        "source_provider": "tmdb",
+        "source_status": "available"
+      }
+    ]
+  },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260722T161339Z",
+    "generated_at": "20260727T212511Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -250,13 +311,14 @@
         "tmdb_id": "1522689"
       },
       {
-        "profile_url": "film.html?id=1493400",
-        "relationship_score": 28,
+        "profile_url": "film.html?id=1361774",
+        "relationship_score": 36,
         "shared_signals": [
-          "Major Release"
+          "Major Release",
+          "Apple TV"
         ],
-        "title": "Camp Rock 3",
-        "tmdb_id": "1493400"
+        "title": "The Dink",
+        "tmdb_id": "1361774"
       }
     ],
     "related_people": [
@@ -294,6 +356,11 @@
   },
   "signals": {
     "cultural_significance": 62.8,
+    "external_intelligence": {
+      "confidence": "High",
+      "headline": "The Mouse Trap: Welcome to the Mickeyverse: release approaching",
+      "summary": "TMDb popularity is 1.9202. US release is 12 days away on 2026-08-01."
+    },
     "last_updated": "2026-08-01",
     "latest_event": {
       "confidence": "Inferred",
@@ -330,7 +397,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1353167-bf023a27ffa2",
+        "event_id": "1353167-696cd05616d6",
         "event_type": "Distributor Change",
         "film_id": "1353167",
         "importance": "Medium",
@@ -339,12 +406,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Apple TV.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Distributor set: Apple TV"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1353167-97e3868f9e3e",
+        "event_id": "1353167-f4e32bd7a2cf",
         "event_type": "Awards Tier Changed",
         "film_id": "1353167",
         "importance": "Medium",
@@ -354,7 +421,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],
@@ -395,7 +462,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1353167-bf023a27ffa2",
+        "event_id": "1353167-696cd05616d6",
         "event_type": "Distributor Change",
         "film_id": "1353167",
         "importance": "Medium",
@@ -404,12 +471,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Apple TV.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Distributor set: Apple TV"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1353167-97e3868f9e3e",
+        "event_id": "1353167-f4e32bd7a2cf",
         "event_type": "Awards Tier Changed",
         "film_id": "1353167",
         "importance": "Medium",
@@ -419,12 +486,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1353167-6e3c20fc2c10",
+        "event_id": "1353167-cd6f5502824f",
         "event_type": "Added To Database",
         "film_id": "1353167",
         "importance": "Low",
@@ -433,7 +500,7 @@
         },
         "source_type": "system",
         "summary": "The Mouse Trap: Welcome to the Mickeyverse is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -468,7 +535,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1353167-bf023a27ffa2",
+        "event_id": "1353167-696cd05616d6",
         "event_type": "Distributor Change",
         "film_id": "1353167",
         "importance": "Medium",
@@ -477,12 +544,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Apple TV.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Distributor set: Apple TV"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1353167-97e3868f9e3e",
+        "event_id": "1353167-f4e32bd7a2cf",
         "event_type": "Awards Tier Changed",
         "film_id": "1353167",
         "importance": "Medium",
@@ -492,7 +559,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],

@@ -16,7 +16,7 @@
     "early_reception": null,
     "evidence_sources": [
       {
-        "evidence": "TMDb popularity 108.107",
+        "evidence": "TMDb popularity 211.904",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -59,12 +59,17 @@
         "evidence": "Current awards or craft-category potential",
         "source": "awards_potential",
         "status": "inferred"
+      },
+      {
+        "evidence": "14",
+        "source": "tmdb_vote_count",
+        "status": "verified"
       }
     ],
     "homepage_spotlight_override": null,
     "homepage_spotlight_score": 96.4,
     "industry_interest": "High",
-    "last_updated": "20260722T161339Z",
+    "last_updated": "20260727T212511Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
@@ -194,8 +199,10 @@
     "premiere_type": ""
   },
   "film_identity": {
-    "backdrop": "",
-    "country": [],
+    "backdrop": "https://image.tmdb.org/t/p/original/vjMvFSmGUxEtqVdaZgvFee9XkZl.jpg",
+    "country": [
+      "US"
+    ],
     "genres": [
       "Science Fiction",
       "Action",
@@ -203,9 +210,9 @@
     ],
     "id": "969681",
     "imdb_id": "",
-    "language": "",
+    "language": "en",
     "original_title": "Spider-Man: Brand New Day",
-    "poster": "https://image.tmdb.org/t/p/original/yyB2VJEW3an2xCdcYCPQhn9QERR.jpg",
+    "poster": "https://image.tmdb.org/t/p/original/6Q21yptoOCUq4ErwVncesLPVplb.jpg",
     "profile_payload_url": "data/films/969681.json",
     "profile_url": "film.html?id=969681",
     "release_date": "2026-07-31",
@@ -215,9 +222,82 @@
     "title": "Spider-Man: Brand New Day",
     "tmdb_id": "969681"
   },
+  "intelligence": {
+    "confidence": "High",
+    "confidence_score": 0.99,
+    "generated_at": "2026-07-27T21:24:57Z",
+    "headline": "Spider-Man: Brand New Day: release approaching",
+    "metadata": {
+      "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
+      "signal_values": {
+        "legacy_dashboard_awards_category_count": 1,
+        "legacy_dashboard_awards_tier": "Emerging",
+        "legacy_dashboard_credited_talent_count": 9,
+        "legacy_dashboard_director_profile_present": true,
+        "legacy_dashboard_festival_award_count": 0,
+        "legacy_dashboard_festival_selection_count": 0,
+        "legacy_dashboard_festival_status": "",
+        "legacy_dashboard_precursor_award_count": 0,
+        "legacy_dashboard_principal_cast_count": 8,
+        "streaming_available_us": false,
+        "streaming_flatrate_provider_count_us": 0,
+        "streaming_provider_count_us": 0,
+        "tmdb_backdrop_count": 2,
+        "tmdb_canonical_trailer_available": true,
+        "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=P3uI5sLosKU",
+        "tmdb_popularity": 211.9043,
+        "tmdb_poster_count": 68,
+        "tmdb_release_date_us_primary": "2026-07-31",
+        "tmdb_release_date_us_theatrical": "2026-07-31",
+        "tmdb_release_status": "Released",
+        "tmdb_vote_average": 9.1,
+        "tmdb_vote_count": 14,
+        "tmdb_watch_provider_count_us": 0,
+        "trailer_available": true,
+        "trailer_count": 122,
+        "trailer_url": "https://www.youtube.com/watch?v=P3uI5sLosKU"
+      },
+      "source_signal_count": 26,
+      "stale_signal_count": 0
+    },
+    "schema_version": "phase2b_intelligence_explanation_v1",
+    "summary": "TMDb popularity is 211.904. US release is 11 days away on 2026-07-31. A canonical TMDb trailer URL is available.",
+    "supporting_drivers": [
+      {
+        "confidence_weight": 0.65,
+        "driver_type": "popularity_observed",
+        "evidence": "TMDb popularity is 211.904.",
+        "label": "Popularity signal available",
+        "retrieved_at": "2026-07-27T21:24:57Z",
+        "source_metric": "tmdb_popularity",
+        "source_provider": "tmdb",
+        "source_status": "available"
+      },
+      {
+        "confidence_weight": 0.8,
+        "driver_type": "release_approaching",
+        "evidence": "US release is 11 days away on 2026-07-31.",
+        "label": "Release approaching",
+        "retrieved_at": "2026-07-27T21:24:57Z",
+        "source_metric": "tmdb_release_date_us_primary",
+        "source_provider": "tmdb",
+        "source_status": "available"
+      },
+      {
+        "confidence_weight": 0.85,
+        "driver_type": "trailer_available",
+        "evidence": "A canonical TMDb trailer URL is available.",
+        "label": "Trailer available",
+        "retrieved_at": "2026-07-27T21:24:57Z",
+        "source_metric": "tmdb_canonical_trailer_url",
+        "source_provider": "tmdb",
+        "source_status": "available"
+      }
+    ]
+  },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260722T161339Z",
+    "generated_at": "20260727T212511Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -248,18 +328,6 @@
         "tmdb_id": "1003596"
       },
       {
-        "profile_url": "film.html?id=1170608",
-        "relationship_score": 52,
-        "shared_signals": [
-          "Major Release",
-          "Action",
-          "Adventure",
-          "Craft Categories"
-        ],
-        "title": "Dune: Part Three",
-        "tmdb_id": "1170608"
-      },
-      {
         "profile_url": "film.html?id=1300968",
         "relationship_score": 52,
         "shared_signals": [
@@ -282,6 +350,18 @@
         ],
         "title": "Jumanji: Open World",
         "tmdb_id": "1260649"
+      },
+      {
+        "profile_url": "film.html?id=1170608",
+        "relationship_score": 46,
+        "shared_signals": [
+          "Major Release",
+          "Adventure",
+          "Science Fiction",
+          "Craft Categories"
+        ],
+        "title": "Dune: Part Three",
+        "tmdb_id": "1170608"
       },
       {
         "profile_url": "film.html?id=1401586",
@@ -351,6 +431,11 @@
   },
   "signals": {
     "cultural_significance": 100,
+    "external_intelligence": {
+      "confidence": "High",
+      "headline": "Spider-Man: Brand New Day: release approaching",
+      "summary": "TMDb popularity is 211.904. US release is 11 days away on 2026-07-31. A canonical TMDb trailer URL is available."
+    },
     "last_updated": "2026-07-31",
     "latest_event": {
       "confidence": "Inferred",
@@ -387,7 +472,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "969681-569dbdec8ce9",
+        "event_id": "969681-1f78ed91e7f3",
         "event_type": "Homepage Featured",
         "film_id": "969681",
         "importance": "Medium",
@@ -396,12 +481,12 @@
         },
         "source_type": "discovery_homepage",
         "summary": "Spider-Man: Brand New Day is currently selected for the homepage experience.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Featured in The Screening Room"
       },
       {
         "confidence": "Inferred",
-        "event_id": "969681-6f31d1071417",
+        "event_id": "969681-cb2e914dfba7",
         "event_type": "Distributor Change",
         "film_id": "969681",
         "importance": "Medium",
@@ -410,7 +495,7 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Columbia Pictures.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Distributor set: Columbia Pictures"
       }
     ],
@@ -457,7 +542,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "969681-569dbdec8ce9",
+        "event_id": "969681-1f78ed91e7f3",
         "event_type": "Homepage Featured",
         "film_id": "969681",
         "importance": "Medium",
@@ -466,12 +551,12 @@
         },
         "source_type": "discovery_homepage",
         "summary": "Spider-Man: Brand New Day is currently selected for the homepage experience.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Featured in The Screening Room"
       },
       {
         "confidence": "Inferred",
-        "event_id": "969681-6f31d1071417",
+        "event_id": "969681-cb2e914dfba7",
         "event_type": "Distributor Change",
         "film_id": "969681",
         "importance": "Medium",
@@ -480,12 +565,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Columbia Pictures.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Distributor set: Columbia Pictures"
       },
       {
         "confidence": "Inferred",
-        "event_id": "969681-8fe9a9189aa1",
+        "event_id": "969681-08da6813a2e5",
         "event_type": "Awards Tier Changed",
         "film_id": "969681",
         "importance": "Medium",
@@ -497,12 +582,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "969681-f5036fb45a72",
+        "event_id": "969681-c59cf3edaf71",
         "event_type": "Added To Database",
         "film_id": "969681",
         "importance": "Low",
@@ -511,7 +596,7 @@
         },
         "source_type": "system",
         "summary": "Spider-Man: Brand New Day is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -546,7 +631,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "969681-569dbdec8ce9",
+        "event_id": "969681-1f78ed91e7f3",
         "event_type": "Homepage Featured",
         "film_id": "969681",
         "importance": "Medium",
@@ -555,12 +640,12 @@
         },
         "source_type": "discovery_homepage",
         "summary": "Spider-Man: Brand New Day is currently selected for the homepage experience.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Featured in The Screening Room"
       },
       {
         "confidence": "Inferred",
-        "event_id": "969681-6f31d1071417",
+        "event_id": "969681-cb2e914dfba7",
         "event_type": "Distributor Change",
         "film_id": "969681",
         "importance": "Medium",
@@ -569,7 +654,7 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Columbia Pictures.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Distributor set: Columbia Pictures"
       }
     ],

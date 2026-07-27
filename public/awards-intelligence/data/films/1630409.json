@@ -1,6 +1,6 @@
 {
   "attention_intelligence": {
-    "anticipation_level": "Moderate",
+    "anticipation_level": "High",
     "attention_confidence": "High",
     "attention_reasons": [
       "Most Anticipated",
@@ -8,13 +8,23 @@
       "Event Release",
       "Awards Watch"
     ],
-    "attention_score": 62.8,
+    "attention_score": 92.7,
     "attention_version": "phase7e_attention_v1",
-    "audience_interest": "Developing",
+    "audience_interest": "High",
     "conversation_level": "Unavailable",
-    "cultural_relevance": null,
+    "cultural_relevance": "Moderate",
     "early_reception": null,
     "evidence_sources": [
+      {
+        "evidence": "TMDb popularity 214.393",
+        "source": "audience_popularity",
+        "status": "verified"
+      },
+      {
+        "evidence": "Commercial scale and release context",
+        "source": "commercial_scale",
+        "status": "inferred"
+      },
       {
         "evidence": "Public-interest, franchise, event, or major-studio tracking signal",
         "source": "event_awareness",
@@ -26,13 +36,18 @@
         "status": "verified"
       },
       {
+        "evidence": "Principal cast listed: Nadech Kugimiya, Pittaya Saechua, Chaiwat Thongsaeng, Nuanprang Treechit",
+        "source": "cast_interest",
+        "status": "verified"
+      },
+      {
         "evidence": "Release date: 2026-07-23",
         "source": "release_proximity",
         "status": "verified"
       },
       {
-        "evidence": "Principal cast listed: Nadech Kugimiya, Pittaya Saechua, Chaiwat Thongsaeng, Saichia Wongwirot",
-        "source": "cast_interest",
+        "evidence": "Director: Surapong Ploensang",
+        "source": "filmmaker_interest",
         "status": "verified"
       },
       {
@@ -46,37 +61,27 @@
         "status": "inferred"
       },
       {
-        "evidence": "TMDb popularity 1.64",
-        "source": "audience_popularity",
-        "status": "verified"
-      },
-      {
-        "evidence": "Commercial scale and release context",
-        "source": "commercial_scale",
-        "status": "inferred"
-      },
-      {
-        "evidence": "Director: Surapong Ploensang",
-        "source": "filmmaker_interest",
+        "evidence": "15",
+        "source": "tmdb_vote_count",
         "status": "verified"
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 62.8,
-    "industry_interest": null,
-    "last_updated": "20260722T161339Z",
+    "homepage_spotlight_score": 92.7,
+    "industry_interest": "Moderate",
+    "last_updated": "20260727T212511Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
         "evidence_count": 2,
-        "score": 10.8,
+        "score": 26.4,
         "statuses": [
           "verified"
         ]
       },
       "commercial": {
         "evidence_count": 1,
-        "score": 4.9,
+        "score": 15.4,
         "statuses": [
           "inferred"
         ]
@@ -105,7 +110,7 @@
       },
       "talent/prestige": {
         "evidence_count": 2,
-        "score": 10.6,
+        "score": 14.4,
         "statuses": [
           "verified"
         ]
@@ -157,7 +162,7 @@
     "probabilities": {}
   },
   "commercial": {
-    "commercial_significance": 19.0,
+    "commercial_significance": 59.3,
     "distributor": "Netflix",
     "franchise": "",
     "release_strategy": "Active release campaign",
@@ -176,11 +181,11 @@
     }
   },
   "editorial": {
-    "discovery_reason": "Netflix release worth monitoring for Craft Categories potential.",
-    "editorial_category": "General Watch",
+    "discovery_reason": "Major Release - Surapong Ploensang film with large-scale commercial or public-interest signals.",
+    "editorial_category": "Major Release",
     "editorial_summary": "Netflix release worth monitoring for Craft Categories potential.",
     "importance_tier": "Watchlist",
-    "primary_story": "generic generated rationale",
+    "primary_story": "major studio or streamer scale; exceptional TMDb popularity; filmmaker attached to large-scale release",
     "story_strength": "Strong",
     "why_it_matters": "Netflix release worth monitoring for Craft Categories potential."
   },
@@ -192,8 +197,10 @@
     "premiere_type": ""
   },
   "film_identity": {
-    "backdrop": "",
-    "country": [],
+    "backdrop": "https://image.tmdb.org/t/p/original/dk68ykaNd3HdrDJyPJqEGsgvag7.jpg",
+    "country": [
+      "TH"
+    ],
     "genres": [
       "Action",
       "Thriller",
@@ -201,95 +208,164 @@
     ],
     "id": "1630409",
     "imdb_id": "",
-    "language": "",
-    "original_title": "The Debt Collector",
-    "poster": "https://image.tmdb.org/t/p/original/qADBUb5ybrkRVGZEFF8Z4RuOwys.jpg",
+    "language": "th",
+    "original_title": "\u0e04\u0e19\u0e40\u0e14\u0e37\u0e2d\u0e14\u0e17\u0e27\u0e07\u0e41\u0e04\u0e49\u0e19",
+    "poster": "https://image.tmdb.org/t/p/original/7HEMg4ZonD0YIcztf1Sp199cBb9.jpg",
     "profile_payload_url": "data/films/1630409.json",
     "profile_url": "film.html?id=1630409",
     "release_date": "2026-07-23",
     "release_display": "In theaters Jul. 23",
-    "runtime": 132,
-    "synopsis": "Haunted by guilt after prison, a former debt collector races against a terminal illness, returning to his old world to avenge loan shark victims.",
+    "runtime": 134,
+    "synopsis": "Tormented by past mistakes and a terminal diagnosis, an ex-debt collector returns to the underworld to protect the victims of a violent organization.",
     "title": "The Debt Collector",
     "tmdb_id": "1630409"
   },
+  "intelligence": {
+    "confidence": "High",
+    "confidence_score": 0.99,
+    "generated_at": "2026-07-27T21:24:57Z",
+    "headline": "The Debt Collector: release approaching",
+    "metadata": {
+      "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
+      "signal_values": {
+        "legacy_dashboard_awards_category_count": 1,
+        "legacy_dashboard_awards_tier": "No Current Awards Case",
+        "legacy_dashboard_credited_talent_count": 9,
+        "legacy_dashboard_director_profile_present": true,
+        "legacy_dashboard_festival_award_count": 0,
+        "legacy_dashboard_festival_selection_count": 0,
+        "legacy_dashboard_festival_status": "",
+        "legacy_dashboard_precursor_award_count": 0,
+        "legacy_dashboard_principal_cast_count": 8,
+        "streaming_available_us": true,
+        "streaming_flatrate_provider_count_us": 2,
+        "streaming_provider_count_us": 2,
+        "tmdb_backdrop_count": 0,
+        "tmdb_canonical_trailer_available": true,
+        "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=U9vJ2Z4SFQI",
+        "tmdb_popularity": 214.3933,
+        "tmdb_poster_count": 0,
+        "tmdb_release_date_us_primary": "2026-07-23",
+        "tmdb_release_date_us_theatrical": "",
+        "tmdb_release_status": "Released",
+        "tmdb_vote_average": 6.7,
+        "tmdb_vote_count": 15,
+        "tmdb_watch_provider_count_us": 2,
+        "trailer_available": true,
+        "trailer_count": 1,
+        "trailer_url": "https://www.youtube.com/watch?v=U9vJ2Z4SFQI"
+      },
+      "source_signal_count": 26,
+      "stale_signal_count": 0
+    },
+    "schema_version": "phase2b_intelligence_explanation_v1",
+    "summary": "TMDb popularity is 214.393. US release is 3 days away on 2026-07-23. A canonical TMDb trailer URL is available.",
+    "supporting_drivers": [
+      {
+        "confidence_weight": 0.65,
+        "driver_type": "popularity_observed",
+        "evidence": "TMDb popularity is 214.393.",
+        "label": "Popularity signal available",
+        "retrieved_at": "2026-07-27T21:24:57Z",
+        "source_metric": "tmdb_popularity",
+        "source_provider": "tmdb",
+        "source_status": "available"
+      },
+      {
+        "confidence_weight": 0.8,
+        "driver_type": "release_approaching",
+        "evidence": "US release is 3 days away on 2026-07-23.",
+        "label": "Release approaching",
+        "retrieved_at": "2026-07-27T21:24:57Z",
+        "source_metric": "tmdb_release_date_us_primary",
+        "source_provider": "tmdb",
+        "source_status": "available"
+      },
+      {
+        "confidence_weight": 0.85,
+        "driver_type": "trailer_available",
+        "evidence": "A canonical TMDb trailer URL is available.",
+        "label": "Trailer available",
+        "retrieved_at": "2026-07-27T21:24:57Z",
+        "source_metric": "tmdb_canonical_trailer_url",
+        "source_provider": "tmdb",
+        "source_status": "available"
+      }
+    ]
+  },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260722T161339Z",
+    "generated_at": "20260727T212511Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
   "related": {
     "related_films": [
       {
-        "profile_url": "film.html?id=1284041",
-        "relationship_score": 50,
-        "shared_signals": [
-          "General Watch",
-          "Thriller",
-          "Craft Categories",
-          "Netflix"
-        ],
-        "title": "The Last House",
-        "tmdb_id": "1284041"
-      },
-      {
-        "profile_url": "film.html?id=1631807",
+        "profile_url": "film.html?id=1487861",
         "relationship_score": 48,
         "shared_signals": [
-          "General Watch",
+          "Major Release",
           "Crime",
           "Thriller",
           "Netflix"
         ],
-        "title": "The Secret Woman",
-        "tmdb_id": "1631807"
+        "title": "Elize: Shadows of a Woman",
+        "tmdb_id": "1487861"
       },
       {
-        "profile_url": "film.html?id=860508",
-        "relationship_score": 48,
+        "profile_url": "film.html?id=949838",
+        "relationship_score": 42,
         "shared_signals": [
-          "General Watch",
+          "Major Release",
           "Crime",
+          "Netflix"
+        ],
+        "title": "72 HOURS",
+        "tmdb_id": "949838"
+      },
+      {
+        "profile_url": "film.html?id=1457866",
+        "relationship_score": 42,
+        "shared_signals": [
+          "Major Release",
           "Thriller",
           "Netflix"
         ],
-        "title": "The Whisper Man",
-        "tmdb_id": "860508"
+        "title": "The Adventures of Cliff Booth",
+        "tmdb_id": "1457866"
+      },
+      {
+        "profile_url": "film.html?id=1659155",
+        "relationship_score": 42,
+        "shared_signals": [
+          "Major Release",
+          "Thriller",
+          "Netflix"
+        ],
+        "title": "The Truthers",
+        "tmdb_id": "1659155"
       },
       {
         "profile_url": "film.html?id=1670061",
-        "relationship_score": 46,
+        "relationship_score": 36,
         "shared_signals": [
-          "General Watch",
           "Action",
-          "Thriller",
+          "Crime",
           "Craft Categories"
         ],
-        "title": "Beasts Clawing at Straws",
+        "title": "Beasts Clutching at Straws",
         "tmdb_id": "1670061"
       },
       {
-        "profile_url": "film.html?id=1422041",
-        "relationship_score": 44,
+        "profile_url": "film.html?id=1468683",
+        "relationship_score": 36,
         "shared_signals": [
-          "General Watch",
-          "Craft Categories",
+          "Major Release",
           "Netflix"
         ],
-        "title": "La Bola Negra",
-        "tmdb_id": "1422041"
-      },
-      {
-        "profile_url": "film.html?id=1147572",
-        "relationship_score": 44,
-        "shared_signals": [
-          "General Watch",
-          "Craft Categories",
-          "Netflix"
-        ],
-        "title": "Narnia: The Magician's Nephew",
-        "tmdb_id": "1147572"
+        "title": "Heartstopper Forever",
+        "tmdb_id": "1468683"
       }
     ],
     "related_people": [
@@ -310,15 +386,15 @@
         "role": "actor"
       },
       {
-        "name": "Saichia Wongwirot",
+        "name": "Nuanprang Treechit",
         "role": "actor"
       },
       {
-        "name": "Piyaphong Vongkumlao",
+        "name": "Jonathan Holman",
         "role": "actor"
       },
       {
-        "name": "Torphong Kul-on",
+        "name": "Ploypaphas Fonkaewsiwaporn",
         "role": "actor"
       }
     ],
@@ -334,21 +410,26 @@
     ]
   },
   "signals": {
-    "cultural_significance": 19.0,
-    "last_updated": "2026-07-23",
+    "cultural_significance": 59.3,
+    "external_intelligence": {
+      "confidence": "High",
+      "headline": "The Debt Collector: release approaching",
+      "summary": "TMDb popularity is 214.393. US release is 3 days away on 2026-07-23. A canonical TMDb trailer URL is available."
+    },
+    "last_updated": "2026-07-27T21:25:11Z",
     "latest_event": {
       "confidence": "Inferred",
-      "event_id": "1630409-2f9dfc1d5089",
-      "event_type": "Release Scheduled",
+      "event_id": "1630409-d3300c67cc5c",
+      "event_type": "Distributor Change",
       "film_id": "1630409",
       "importance": "Medium",
       "metadata": {
-        "release_date": "2026-07-23"
+        "distributor": "Netflix"
       },
       "source_type": "metadata",
-      "summary": "Release currently scheduled for In theaters Jul. 23.",
-      "timestamp": "2026-07-23",
-      "title": "Release scheduled"
+      "summary": "Current distributor is Netflix.",
+      "timestamp": "2026-07-27T21:25:11Z",
+      "title": "Distributor set: Netflix"
     },
     "latest_intelligence": "As of 2026-07-18, this is a Netflix release dated 2026-07-23 with Craft Categories relevance; current awards profile is Craft Potential and data status is developing.",
     "momentum": 0.0,
@@ -357,21 +438,7 @@
     "recent_activity": [
       {
         "confidence": "Inferred",
-        "event_id": "1630409-2f9dfc1d5089",
-        "event_type": "Release Scheduled",
-        "film_id": "1630409",
-        "importance": "Medium",
-        "metadata": {
-          "release_date": "2026-07-23"
-        },
-        "source_type": "metadata",
-        "summary": "Release currently scheduled for In theaters Jul. 23.",
-        "timestamp": "2026-07-23",
-        "title": "Release scheduled"
-      },
-      {
-        "confidence": "Inferred",
-        "event_id": "1630409-3ada1ed08435",
+        "event_id": "1630409-d3300c67cc5c",
         "event_type": "Distributor Change",
         "film_id": "1630409",
         "importance": "Medium",
@@ -380,12 +447,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1630409-e027dbb03f70",
+        "event_id": "1630409-9ff8ce768cee",
         "event_type": "Awards Tier Changed",
         "film_id": "1630409",
         "importance": "Medium",
@@ -397,11 +464,25 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: No Current Awards Case"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1630409-d79e3f83052f",
+        "event_type": "Added To Database",
+        "film_id": "1630409",
+        "importance": "Low",
+        "metadata": {
+          "profile_version": "phase6a"
+        },
+        "source_type": "system",
+        "summary": "The Debt Collector is tracked in the Film Intelligence profile set.",
+        "timestamp": "2026-07-27T21:25:11Z",
+        "title": "Added to Awards Intelligence"
       }
     ],
-    "release_relevance": 44.2,
+    "release_relevance": 55.2,
     "watch_triggers": [
       "Prestige Distributor",
       "Major Studio/Streamer",
@@ -416,9 +497,11 @@
       "Nadech Kugimiya",
       "Pittaya Saechua",
       "Chaiwat Thongsaeng",
-      "Saichia Wongwirot",
-      "Piyaphong Vongkumlao",
-      "Torphong Kul-on"
+      "Nuanprang Treechit",
+      "Jonathan Holman",
+      "Ploypaphas Fonkaewsiwaporn",
+      "Kunkanit Khumkrong",
+      "Nuttanun Kunnawatt"
     ],
     "producers": [],
     "writers": []
@@ -427,21 +510,7 @@
     "events": [
       {
         "confidence": "Inferred",
-        "event_id": "1630409-2f9dfc1d5089",
-        "event_type": "Release Scheduled",
-        "film_id": "1630409",
-        "importance": "Medium",
-        "metadata": {
-          "release_date": "2026-07-23"
-        },
-        "source_type": "metadata",
-        "summary": "Release currently scheduled for In theaters Jul. 23.",
-        "timestamp": "2026-07-23",
-        "title": "Release scheduled"
-      },
-      {
-        "confidence": "Inferred",
-        "event_id": "1630409-3ada1ed08435",
+        "event_id": "1630409-d3300c67cc5c",
         "event_type": "Distributor Change",
         "film_id": "1630409",
         "importance": "Medium",
@@ -450,12 +519,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1630409-e027dbb03f70",
+        "event_id": "1630409-9ff8ce768cee",
         "event_type": "Awards Tier Changed",
         "film_id": "1630409",
         "importance": "Medium",
@@ -467,12 +536,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1630409-5ca109859493",
+        "event_id": "1630409-d79e3f83052f",
         "event_type": "Added To Database",
         "film_id": "1630409",
         "importance": "Low",
@@ -481,25 +550,9 @@
         },
         "source_type": "system",
         "summary": "The Debt Collector is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Added to Awards Intelligence"
-      }
-    ],
-    "latest_event": {
-      "confidence": "Inferred",
-      "event_id": "1630409-2f9dfc1d5089",
-      "event_type": "Release Scheduled",
-      "film_id": "1630409",
-      "importance": "Medium",
-      "metadata": {
-        "release_date": "2026-07-23"
       },
-      "source_type": "metadata",
-      "summary": "Release currently scheduled for In theaters Jul. 23.",
-      "timestamp": "2026-07-23",
-      "title": "Release scheduled"
-    },
-    "recent_activity": [
       {
         "confidence": "Inferred",
         "event_id": "1630409-2f9dfc1d5089",
@@ -513,10 +566,26 @@
         "summary": "Release currently scheduled for In theaters Jul. 23.",
         "timestamp": "2026-07-23",
         "title": "Release scheduled"
+      }
+    ],
+    "latest_event": {
+      "confidence": "Inferred",
+      "event_id": "1630409-d3300c67cc5c",
+      "event_type": "Distributor Change",
+      "film_id": "1630409",
+      "importance": "Medium",
+      "metadata": {
+        "distributor": "Netflix"
       },
+      "source_type": "metadata",
+      "summary": "Current distributor is Netflix.",
+      "timestamp": "2026-07-27T21:25:11Z",
+      "title": "Distributor set: Netflix"
+    },
+    "recent_activity": [
       {
         "confidence": "Inferred",
-        "event_id": "1630409-3ada1ed08435",
+        "event_id": "1630409-d3300c67cc5c",
         "event_type": "Distributor Change",
         "film_id": "1630409",
         "importance": "Medium",
@@ -525,12 +594,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1630409-e027dbb03f70",
+        "event_id": "1630409-9ff8ce768cee",
         "event_type": "Awards Tier Changed",
         "film_id": "1630409",
         "importance": "Medium",
@@ -542,8 +611,22 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: No Current Awards Case"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1630409-d79e3f83052f",
+        "event_type": "Added To Database",
+        "film_id": "1630409",
+        "importance": "Low",
+        "metadata": {
+          "profile_version": "phase6a"
+        },
+        "source_type": "system",
+        "summary": "The Debt Collector is tracked in the Film Intelligence profile set.",
+        "timestamp": "2026-07-27T21:25:11Z",
+        "title": "Added to Awards Intelligence"
       }
     ],
     "supported_event_types": [

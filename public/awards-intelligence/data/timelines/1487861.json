@@ -2,7 +2,7 @@
   "events": [
     {
       "confidence": "Inferred",
-      "event_id": "1487861-74e5d4e91dd4",
+      "event_id": "1487861-298c858e5d62",
       "event_type": "Distributor Change",
       "film_id": "1487861",
       "importance": "Medium",
@@ -11,12 +11,12 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Netflix.",
-      "timestamp": "2026-07-22T16:13:39Z",
+      "timestamp": "2026-07-27T21:25:11Z",
       "title": "Distributor set: Netflix"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1487861-c81f66ab6f2f",
+      "event_id": "1487861-5d091458e4c6",
       "event_type": "Awards Tier Changed",
       "film_id": "1487861",
       "importance": "Medium",
@@ -26,12 +26,12 @@
       },
       "source_type": "editorial_model",
       "summary": "insufficient credible awards evidence",
-      "timestamp": "2026-07-22T16:13:39Z",
+      "timestamp": "2026-07-27T21:25:11Z",
       "title": "Awards tier assigned: No Current Awards Case"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1487861-6e14ac579dc5",
+      "event_id": "1487861-6c00801de1d6",
       "event_type": "Added To Database",
       "film_id": "1487861",
       "importance": "Low",
@@ -40,7 +40,7 @@
       },
       "source_type": "system",
       "summary": "Elize: Shadows of a Woman is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-07-22T16:13:39Z",
+      "timestamp": "2026-07-27T21:25:11Z",
       "title": "Added to Awards Intelligence"
     },
     {
@@ -60,7 +60,7 @@
   ],
   "latest_event": {
     "confidence": "Inferred",
-    "event_id": "1487861-74e5d4e91dd4",
+    "event_id": "1487861-298c858e5d62",
     "event_type": "Distributor Change",
     "film_id": "1487861",
     "importance": "Medium",
@@ -69,13 +69,13 @@
     },
     "source_type": "metadata",
     "summary": "Current distributor is Netflix.",
-    "timestamp": "2026-07-22T16:13:39Z",
+    "timestamp": "2026-07-27T21:25:11Z",
     "title": "Distributor set: Netflix"
   },
   "metadata": {
     "event_count": 4,
     "film_id": "1487861",
-    "generated_at": "20260722T161339Z",
+    "generated_at": "20260727T212511Z",
     "timeline_version": "phase6b",
     "title": "Elize: Shadows of a Woman",
     "tmdb_id": "1487861"

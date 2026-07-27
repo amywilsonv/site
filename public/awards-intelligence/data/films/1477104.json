@@ -8,7 +8,7 @@
       "Event Release",
       "Awards Watch"
     ],
-    "attention_score": 62.0,
+    "attention_score": 61.7,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -46,7 +46,7 @@
         "status": "inferred"
       },
       {
-        "evidence": "TMDb popularity 2.321",
+        "evidence": "TMDb popularity 2.0418",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -62,14 +62,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 62.0,
+    "homepage_spotlight_score": 61.7,
     "industry_interest": "Moderate",
-    "last_updated": "20260722T161339Z",
+    "last_updated": "20260727T212511Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
         "evidence_count": 2,
-        "score": 11.4,
+        "score": 11.1,
         "statuses": [
           "verified"
         ]
@@ -197,8 +197,11 @@
     "premiere_type": ""
   },
   "film_identity": {
-    "backdrop": "",
-    "country": [],
+    "backdrop": "https://image.tmdb.org/t/p/original/wiknXwyB7PTpW8jInA4tZr7QYCe.jpg",
+    "country": [
+      "GB",
+      "FR"
+    ],
     "genres": [
       "Animation",
       "Comedy",
@@ -208,7 +211,7 @@
     ],
     "id": "1477104",
     "imdb_id": "",
-    "language": "",
+    "language": "en",
     "original_title": "Shaun the Sheep: The Beast of Mossy Bottom",
     "poster": "https://image.tmdb.org/t/p/original/mMOptSPBVGUA9GHgnpsC35GzZ7e.jpg",
     "profile_payload_url": "data/films/1477104.json",
@@ -220,9 +223,72 @@
     "title": "Shaun the Sheep: The Beast of Mossy Bottom",
     "tmdb_id": "1477104"
   },
+  "intelligence": {
+    "confidence": "High",
+    "confidence_score": 0.99,
+    "generated_at": "2026-07-27T21:24:57Z",
+    "headline": "Shaun the Sheep: The Beast of Mossy Bottom: popularity signal available",
+    "metadata": {
+      "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
+      "signal_values": {
+        "legacy_dashboard_awards_category_count": 3,
+        "legacy_dashboard_awards_tier": "Category Contender",
+        "legacy_dashboard_credited_talent_count": 4,
+        "legacy_dashboard_director_profile_present": true,
+        "legacy_dashboard_festival_award_count": 0,
+        "legacy_dashboard_festival_selection_count": 0,
+        "legacy_dashboard_festival_status": "",
+        "legacy_dashboard_precursor_award_count": 0,
+        "legacy_dashboard_principal_cast_count": 3,
+        "streaming_available_us": false,
+        "streaming_flatrate_provider_count_us": 0,
+        "streaming_provider_count_us": 0,
+        "tmdb_backdrop_count": 2,
+        "tmdb_canonical_trailer_available": true,
+        "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=T3K2uKvi_0s",
+        "tmdb_popularity": 2.0418,
+        "tmdb_poster_count": 8,
+        "tmdb_release_date_us_primary": "2026-09-18",
+        "tmdb_release_date_us_theatrical": "2026-09-18",
+        "tmdb_release_status": "Post Production",
+        "tmdb_vote_average": 0,
+        "tmdb_vote_count": 0,
+        "tmdb_watch_provider_count_us": 0,
+        "trailer_available": true,
+        "trailer_count": 4,
+        "trailer_url": "https://www.youtube.com/watch?v=T3K2uKvi_0s"
+      },
+      "source_signal_count": 26,
+      "stale_signal_count": 0
+    },
+    "schema_version": "phase2b_intelligence_explanation_v1",
+    "summary": "TMDb popularity is 2.0418. A canonical TMDb trailer URL is available.",
+    "supporting_drivers": [
+      {
+        "confidence_weight": 0.65,
+        "driver_type": "popularity_observed",
+        "evidence": "TMDb popularity is 2.0418.",
+        "label": "Popularity signal available",
+        "retrieved_at": "2026-07-27T21:24:57Z",
+        "source_metric": "tmdb_popularity",
+        "source_provider": "tmdb",
+        "source_status": "available"
+      },
+      {
+        "confidence_weight": 0.85,
+        "driver_type": "trailer_available",
+        "evidence": "A canonical TMDb trailer URL is available.",
+        "label": "Trailer available",
+        "retrieved_at": "2026-07-27T21:24:57Z",
+        "source_metric": "tmdb_canonical_trailer_url",
+        "source_provider": "tmdb",
+        "source_status": "available"
+      }
+    ]
+  },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260722T161339Z",
+    "generated_at": "20260727T212511Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -332,6 +398,11 @@
   },
   "signals": {
     "cultural_significance": 37.0,
+    "external_intelligence": {
+      "confidence": "High",
+      "headline": "Shaun the Sheep: The Beast of Mossy Bottom: popularity signal available",
+      "summary": "TMDb popularity is 2.0418. A canonical TMDb trailer URL is available."
+    },
     "last_updated": "2026-09-18",
     "latest_event": {
       "confidence": "Inferred",
@@ -368,7 +439,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1477104-434e9cb7d3fb",
+        "event_id": "1477104-c86dc8077ce3",
         "event_type": "Awards Tier Changed",
         "film_id": "1477104",
         "importance": "Medium",
@@ -382,12 +453,12 @@
         },
         "source_type": "editorial_model",
         "summary": "category-specific awards case without broader contender evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: Category Contender"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1477104-687f30242530",
+        "event_id": "1477104-4dc585240712",
         "event_type": "Added To Database",
         "film_id": "1477104",
         "importance": "Low",
@@ -396,7 +467,7 @@
         },
         "source_type": "system",
         "summary": "Shaun the Sheep: The Beast of Mossy Bottom is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -438,7 +509,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1477104-434e9cb7d3fb",
+        "event_id": "1477104-c86dc8077ce3",
         "event_type": "Awards Tier Changed",
         "film_id": "1477104",
         "importance": "Medium",
@@ -452,12 +523,12 @@
         },
         "source_type": "editorial_model",
         "summary": "category-specific awards case without broader contender evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: Category Contender"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1477104-687f30242530",
+        "event_id": "1477104-4dc585240712",
         "event_type": "Added To Database",
         "film_id": "1477104",
         "importance": "Low",
@@ -466,7 +537,7 @@
         },
         "source_type": "system",
         "summary": "Shaun the Sheep: The Beast of Mossy Bottom is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -501,7 +572,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1477104-434e9cb7d3fb",
+        "event_id": "1477104-c86dc8077ce3",
         "event_type": "Awards Tier Changed",
         "film_id": "1477104",
         "importance": "Medium",
@@ -515,12 +586,12 @@
         },
         "source_type": "editorial_model",
         "summary": "category-specific awards case without broader contender evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: Category Contender"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1477104-687f30242530",
+        "event_id": "1477104-4dc585240712",
         "event_type": "Added To Database",
         "film_id": "1477104",
         "importance": "Low",
@@ -529,7 +600,7 @@
         },
         "source_type": "system",
         "summary": "Shaun the Sheep: The Beast of Mossy Bottom is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Added to Awards Intelligence"
       }
     ],

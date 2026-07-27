@@ -7,7 +7,7 @@
       "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 51.5,
+    "attention_score": 52.3,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -30,7 +30,7 @@
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 3.62",
+        "evidence": "TMDb popularity 4.4021",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -51,14 +51,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 51.5,
+    "homepage_spotlight_score": 52.3,
     "industry_interest": null,
-    "last_updated": "20260722T161339Z",
+    "last_updated": "20260727T212511Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
         "evidence_count": 1,
-        "score": 7.9,
+        "score": 8.7,
         "statuses": [
           "verified"
         ]
@@ -179,15 +179,17 @@
     "premiere_type": ""
   },
   "film_identity": {
-    "backdrop": "",
-    "country": [],
+    "backdrop": "https://image.tmdb.org/t/p/original/9qxyrJfjk577ym5WD6HCDmunoyO.jpg",
+    "country": [
+      "US"
+    ],
     "genres": [
       "Mystery",
       "Thriller"
     ],
     "id": "1283515",
     "imdb_id": "",
-    "language": "",
+    "language": "en",
     "original_title": "Verity",
     "poster": "https://image.tmdb.org/t/p/original/dGSsPovyUW5XVekXcy7F2GyhTEh.jpg",
     "profile_payload_url": "data/films/1283515.json",
@@ -199,9 +201,60 @@
     "title": "Verity",
     "tmdb_id": "1283515"
   },
+  "intelligence": {
+    "confidence": "High",
+    "confidence_score": 0.85,
+    "generated_at": "2026-07-27T21:24:57Z",
+    "headline": "Verity: popularity signal available",
+    "metadata": {
+      "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
+      "signal_values": {
+        "legacy_dashboard_awards_category_count": 1,
+        "legacy_dashboard_awards_tier": "No Current Awards Case",
+        "legacy_dashboard_credited_talent_count": 9,
+        "legacy_dashboard_director_profile_present": true,
+        "legacy_dashboard_festival_award_count": 0,
+        "legacy_dashboard_festival_selection_count": 0,
+        "legacy_dashboard_festival_status": "",
+        "legacy_dashboard_precursor_award_count": 0,
+        "legacy_dashboard_principal_cast_count": 8,
+        "streaming_available_us": false,
+        "streaming_flatrate_provider_count_us": 0,
+        "streaming_provider_count_us": 0,
+        "tmdb_backdrop_count": 0,
+        "tmdb_canonical_trailer_available": false,
+        "tmdb_popularity": 4.4021,
+        "tmdb_poster_count": 5,
+        "tmdb_release_date_us_primary": "2026-10-02",
+        "tmdb_release_date_us_theatrical": "2026-10-02",
+        "tmdb_release_status": "Post Production",
+        "tmdb_vote_average": 0,
+        "tmdb_vote_count": 0,
+        "tmdb_watch_provider_count_us": 0,
+        "trailer_available": false,
+        "trailer_count": 1
+      },
+      "source_signal_count": 24,
+      "stale_signal_count": 0
+    },
+    "schema_version": "phase2b_intelligence_explanation_v1",
+    "summary": "TMDb popularity is 4.4021.",
+    "supporting_drivers": [
+      {
+        "confidence_weight": 0.65,
+        "driver_type": "popularity_observed",
+        "evidence": "TMDb popularity is 4.4021.",
+        "label": "Popularity signal available",
+        "retrieved_at": "2026-07-27T21:24:57Z",
+        "source_metric": "tmdb_popularity",
+        "source_provider": "tmdb",
+        "source_status": "available"
+      }
+    ]
+  },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260722T161339Z",
+    "generated_at": "20260727T212511Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -226,7 +279,7 @@
           "Mystery",
           "Thriller"
         ],
-        "title": "Beasts Clawing at Straws",
+        "title": "Beasts Clutching at Straws",
         "tmdb_id": "1670061"
       },
       {
@@ -337,6 +390,11 @@
   },
   "signals": {
     "cultural_significance": 19.0,
+    "external_intelligence": {
+      "confidence": "High",
+      "headline": "Verity: popularity signal available",
+      "summary": "TMDb popularity is 4.4021."
+    },
     "last_updated": "2026-10-02",
     "latest_event": {
       "confidence": "Inferred",
@@ -373,7 +431,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1283515-1ecbd85ff6a2",
+        "event_id": "1283515-b9a2b95c4b37",
         "event_type": "Distributor Change",
         "film_id": "1283515",
         "importance": "Medium",
@@ -382,12 +440,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Amazon MGM Studios.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Distributor set: Amazon MGM Studios"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1283515-f660eb985f9c",
+        "event_id": "1283515-ad6e8950d630",
         "event_type": "Awards Tier Changed",
         "film_id": "1283515",
         "importance": "Medium",
@@ -399,7 +457,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],
@@ -445,7 +503,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1283515-1ecbd85ff6a2",
+        "event_id": "1283515-b9a2b95c4b37",
         "event_type": "Distributor Change",
         "film_id": "1283515",
         "importance": "Medium",
@@ -454,12 +512,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Amazon MGM Studios.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Distributor set: Amazon MGM Studios"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1283515-f660eb985f9c",
+        "event_id": "1283515-ad6e8950d630",
         "event_type": "Awards Tier Changed",
         "film_id": "1283515",
         "importance": "Medium",
@@ -471,12 +529,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1283515-ba614c99fb97",
+        "event_id": "1283515-206b9ae24249",
         "event_type": "Added To Database",
         "film_id": "1283515",
         "importance": "Low",
@@ -485,7 +543,7 @@
         },
         "source_type": "system",
         "summary": "Verity is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -520,7 +578,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1283515-1ecbd85ff6a2",
+        "event_id": "1283515-b9a2b95c4b37",
         "event_type": "Distributor Change",
         "film_id": "1283515",
         "importance": "Medium",
@@ -529,12 +587,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Amazon MGM Studios.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Distributor set: Amazon MGM Studios"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1283515-f660eb985f9c",
+        "event_id": "1283515-ad6e8950d630",
         "event_type": "Awards Tier Changed",
         "film_id": "1283515",
         "importance": "Medium",
@@ -546,7 +604,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],

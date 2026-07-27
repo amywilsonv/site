@@ -17,12 +17,13 @@ async function init() {
     return;
   }
   try {
-    const [profile, timeline] = await Promise.all([
+    const [profile, timeline, homepage] = await Promise.all([
       loadJson(`data/films/${encodeURIComponent(id)}.json`),
       loadJson(`data/timelines/${encodeURIComponent(id)}.json`),
+      loadJson("data/discovery_homepage.json").catch(() => null),
     ]);
     setFilmSeo(profile);
-    renderFilm(profile, timeline);
+    renderFilm(profile, timeline, homepage?.metadata?.last_updated);
     track("film_page_viewed", { tmdb_id: id, title: profile.film_identity.title });
   } catch (error) {
     renderFilmError("Film not found", error.message, "The film may not have a production profile yet.");
@@ -57,7 +58,7 @@ function renderFilmError(title, message, detail) {
   `;
 }
 
-function renderFilm(profile, timeline) {
+function renderFilm(profile, timeline, lastUpdated) {
   const identity = profile.film_identity;
   const editorial = profile.editorial;
   const festival = profile.festival;
@@ -70,6 +71,7 @@ function renderFilm(profile, timeline) {
   view.innerHTML = `
     <section class="film-profile-hero film-profile-v2">
       <div class="film-profile-backdrop" style="${identity.backdrop ? `background-image:url('${escapeAttribute(identity.backdrop)}')` : ""}"></div>
+      ${renderLastUpdatedIndicator(lastUpdated)}
       <div>
         ${identity.poster ? `<img class="poster-img-static film-page-poster" src="${escapeHtml(identity.poster)}" alt="${escapeHtml(identity.title)} poster" loading="eager">` : `<div class="poster-img-static placeholder film-page-poster" role="img" aria-label="Poster unavailable for ${escapeHtml(identity.title)}">${escapeHtml(identity.title)}</div>`}
       </div>
@@ -116,6 +118,18 @@ function renderFilm(profile, timeline) {
       </div>
     `)}
   `;
+}
+
+function renderLastUpdatedIndicator(value) {
+  const formatted = formatLastUpdatedDate(value);
+  return formatted ? `<p class="last-updated">Last updated ${escapeHtml(formatted)}</p>` : "";
+}
+
+function formatLastUpdatedDate(value) {
+  if (!value || typeof value !== "string") return "";
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return "";
+  return new Intl.DateTimeFormat(undefined, { month: "short", day: "numeric", year: "numeric" }).format(date).replace(/^([A-Za-z]{3}) /, "$1. ");
 }
 
 function filmSection(title, content) {

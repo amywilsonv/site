@@ -7,7 +7,7 @@
       "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 49.5,
+    "attention_score": 49.6,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -35,7 +35,7 @@
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 2.16",
+        "evidence": "TMDb popularity 2.2073",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -51,14 +51,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 49.5,
+    "homepage_spotlight_score": 49.6,
     "industry_interest": null,
-    "last_updated": "20260722T161339Z",
+    "last_updated": "20260727T212511Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
         "evidence_count": 1,
-        "score": 5.9,
+        "score": 6.0,
         "statuses": [
           "verified"
         ]
@@ -167,7 +167,7 @@
     "editorial_category": "General Watch",
     "editorial_summary": "Netflix release worth monitoring for Best Picture, Acting potential.",
     "importance_tier": "Watchlist",
-    "primary_story": "generic generated rationale",
+    "primary_story": "international profile; generic generated rationale",
     "story_strength": "Strong",
     "why_it_matters": "Netflix release worth monitoring for Best Picture, Acting potential."
   },
@@ -180,15 +180,17 @@
   },
   "film_identity": {
     "backdrop": "",
-    "country": [],
+    "country": [
+      "BR"
+    ],
     "genres": [
       "Crime",
       "Drama"
     ],
     "id": "1487864",
     "imdb_id": "",
-    "language": "",
-    "original_title": "Nando Between Two Worlds - A Sintonia Film",
+    "language": "pt",
+    "original_title": "Nando Entre Dois Mundos: Um Filme Sintonia",
     "poster": "https://image.tmdb.org/t/p/original/dwnqhUeXO1vRgXH9zgyeeihpxqo.jpg",
     "profile_payload_url": "data/films/1487864.json",
     "profile_url": "film.html?id=1487864",
@@ -199,9 +201,70 @@
     "title": "Nando Between Two Worlds - A Sintonia Film",
     "tmdb_id": "1487864"
   },
+  "intelligence": {
+    "confidence": "High",
+    "confidence_score": 0.99,
+    "generated_at": "2026-07-27T21:24:57Z",
+    "headline": "Nando Between Two Worlds - A Sintonia Film: release approaching",
+    "metadata": {
+      "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
+      "signal_values": {
+        "legacy_dashboard_awards_category_count": 3,
+        "legacy_dashboard_awards_tier": "No Current Awards Case",
+        "legacy_dashboard_credited_talent_count": 6,
+        "legacy_dashboard_director_profile_present": true,
+        "legacy_dashboard_festival_award_count": 0,
+        "legacy_dashboard_festival_selection_count": 0,
+        "legacy_dashboard_festival_status": "",
+        "legacy_dashboard_precursor_award_count": 0,
+        "legacy_dashboard_principal_cast_count": 5,
+        "streaming_available_us": false,
+        "streaming_flatrate_provider_count_us": 0,
+        "streaming_provider_count_us": 0,
+        "tmdb_backdrop_count": 0,
+        "tmdb_canonical_trailer_available": false,
+        "tmdb_popularity": 2.2073,
+        "tmdb_poster_count": 0,
+        "tmdb_release_date_us_primary": "2026-08-12",
+        "tmdb_release_date_us_theatrical": "",
+        "tmdb_release_status": "Post Production",
+        "tmdb_vote_average": 0,
+        "tmdb_vote_count": 0,
+        "tmdb_watch_provider_count_us": 0,
+        "trailer_available": false,
+        "trailer_count": 0
+      },
+      "source_signal_count": 24,
+      "stale_signal_count": 0
+    },
+    "schema_version": "phase2b_intelligence_explanation_v1",
+    "summary": "TMDb popularity is 2.2073. US release is 23 days away on 2026-08-12.",
+    "supporting_drivers": [
+      {
+        "confidence_weight": 0.65,
+        "driver_type": "popularity_observed",
+        "evidence": "TMDb popularity is 2.2073.",
+        "label": "Popularity signal available",
+        "retrieved_at": "2026-07-27T21:24:57Z",
+        "source_metric": "tmdb_popularity",
+        "source_provider": "tmdb",
+        "source_status": "available"
+      },
+      {
+        "confidence_weight": 0.8,
+        "driver_type": "release_approaching",
+        "evidence": "US release is 23 days away on 2026-08-12.",
+        "label": "Release approaching",
+        "retrieved_at": "2026-07-27T21:24:57Z",
+        "source_metric": "tmdb_release_date_us_primary",
+        "source_provider": "tmdb",
+        "source_status": "available"
+      }
+    ]
+  },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260722T161339Z",
+    "generated_at": "20260727T212511Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -319,6 +382,11 @@
   },
   "signals": {
     "cultural_significance": 19.0,
+    "external_intelligence": {
+      "confidence": "High",
+      "headline": "Nando Between Two Worlds - A Sintonia Film: release approaching",
+      "summary": "TMDb popularity is 2.2073. US release is 23 days away on 2026-08-12."
+    },
     "last_updated": "2026-08-12",
     "latest_event": {
       "confidence": "Inferred",
@@ -355,7 +423,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1487864-05ccf99de661",
+        "event_id": "1487864-25d84c0fa711",
         "event_type": "Distributor Change",
         "film_id": "1487864",
         "importance": "Medium",
@@ -364,12 +432,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1487864-b0dc8e191f5b",
+        "event_id": "1487864-e218775c2ac6",
         "event_type": "Awards Tier Changed",
         "film_id": "1487864",
         "importance": "Medium",
@@ -383,7 +451,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],
@@ -425,7 +493,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1487864-05ccf99de661",
+        "event_id": "1487864-25d84c0fa711",
         "event_type": "Distributor Change",
         "film_id": "1487864",
         "importance": "Medium",
@@ -434,12 +502,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1487864-b0dc8e191f5b",
+        "event_id": "1487864-e218775c2ac6",
         "event_type": "Awards Tier Changed",
         "film_id": "1487864",
         "importance": "Medium",
@@ -453,12 +521,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1487864-ee14e7e482a5",
+        "event_id": "1487864-8e23b3a7a3da",
         "event_type": "Added To Database",
         "film_id": "1487864",
         "importance": "Low",
@@ -467,7 +535,7 @@
         },
         "source_type": "system",
         "summary": "Nando Between Two Worlds - A Sintonia Film is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -502,7 +570,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1487864-05ccf99de661",
+        "event_id": "1487864-25d84c0fa711",
         "event_type": "Distributor Change",
         "film_id": "1487864",
         "importance": "Medium",
@@ -511,12 +579,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1487864-b0dc8e191f5b",
+        "event_id": "1487864-e218775c2ac6",
         "event_type": "Awards Tier Changed",
         "film_id": "1487864",
         "importance": "Medium",
@@ -530,7 +598,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],

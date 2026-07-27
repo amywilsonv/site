@@ -393,6 +393,23 @@
     },
     {
       "confidence": "Inferred",
+      "event_id": "1457866-d301035602b5",
+      "event_type": "Release Scheduled",
+      "film_id": "1457866",
+      "film_title": "The Adventures of Cliff Booth",
+      "importance": "Medium",
+      "metadata": {
+        "release_date": "2026-11-26"
+      },
+      "profile_payload_url": "data/films/1457866.json",
+      "profile_url": "film.html?id=1457866",
+      "source_type": "metadata",
+      "summary": "Release currently scheduled for In theaters Nov. 26.",
+      "timestamp": "2026-11-26",
+      "title": "Release scheduled"
+    },
+    {
+      "confidence": "Inferred",
       "event_id": "1400336-d909464209a9",
       "event_type": "Release Scheduled",
       "film_id": "1400336",
@@ -410,19 +427,19 @@
     },
     {
       "confidence": "Inferred",
-      "event_id": "1457866-3cd563f222af",
+      "event_id": "1280115-89c3d268768a",
       "event_type": "Release Scheduled",
-      "film_id": "1457866",
-      "film_title": "The Adventures of Cliff Booth",
+      "film_id": "1280115",
+      "film_title": "Way of the Warrior Kid",
       "importance": "Medium",
       "metadata": {
-        "release_date": "2026-11-25"
+        "release_date": "2026-11-24"
       },
-      "profile_payload_url": "data/films/1457866.json",
-      "profile_url": "film.html?id=1457866",
+      "profile_payload_url": "data/films/1280115.json",
+      "profile_url": "film.html?id=1280115",
       "source_type": "metadata",
-      "summary": "Release currently scheduled for In theaters Nov. 25.",
-      "timestamp": "2026-11-25",
+      "summary": "Release currently scheduled for In theaters Nov. 24.",
+      "timestamp": "2026-11-24",
       "title": "Release scheduled"
     },
     {
@@ -474,23 +491,6 @@
       "source_type": "metadata",
       "summary": "Release currently scheduled for In theaters Nov. 20.",
       "timestamp": "2026-11-20",
-      "title": "Release scheduled"
-    },
-    {
-      "confidence": "Inferred",
-      "event_id": "1280115-ca2692ee177a",
-      "event_type": "Release Scheduled",
-      "film_id": "1280115",
-      "film_title": "Way of the Warrior Kid",
-      "importance": "Medium",
-      "metadata": {
-        "release_date": "2026-11-19"
-      },
-      "profile_payload_url": "data/films/1280115.json",
-      "profile_url": "film.html?id=1280115",
-      "source_type": "metadata",
-      "summary": "Release currently scheduled for In theaters Nov. 19.",
-      "timestamp": "2026-11-19",
       "title": "Release scheduled"
     },
     {
@@ -600,7 +600,7 @@
       "event_id": "1567149-c17380044761",
       "event_type": "Release Scheduled",
       "film_id": "1567149",
-      "film_title": "Kamen Rider Kabuto 20th: The One Who Inherits the Heavens",
+      "film_title": "Kamen Rider Kabuto 20th: \u200b\u200bThe One Who Inherits the Heavens",
       "importance": "Medium",
       "metadata": {
         "release_date": "2026-11-06"
@@ -853,7 +853,7 @@
   ],
   "metadata": {
     "event_count": 388,
-    "generated_at": "20260722T161339Z",
+    "generated_at": "20260727T212511Z",
     "returned_count": 50,
     "timeline_version": "phase6b"
   }

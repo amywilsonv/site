@@ -8,7 +8,7 @@
       "Event Release",
       "Awards Watch"
     ],
-    "attention_score": 59.8,
+    "attention_score": 57.7,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -21,13 +21,13 @@
         "status": "inferred"
       },
       {
-        "evidence": "TMDb popularity 7.995",
-        "source": "audience_popularity",
+        "evidence": "Principal cast listed: Andrew Garfield, Jamie Bell, Stephen Dillane, Tom Hollander",
+        "source": "cast_interest",
         "status": "verified"
       },
       {
-        "evidence": "Principal cast listed: Andrew Garfield, Jamie Bell, Stephen Dillane, Tom Hollander",
-        "source": "cast_interest",
+        "evidence": "TMDb popularity 4.9172",
+        "source": "audience_popularity",
         "status": "verified"
       },
       {
@@ -57,14 +57,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 59.8,
+    "homepage_spotlight_score": 57.7,
     "industry_interest": null,
-    "last_updated": "20260722T161339Z",
+    "last_updated": "20260727T212511Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
         "evidence_count": 2,
-        "score": 15.7,
+        "score": 13.6,
         "statuses": [
           "verified"
         ]
@@ -162,11 +162,9 @@
     ]
   },
   "diagnostics": {
-    "completeness_score": 89,
+    "completeness_score": 100,
     "confidence": "High",
-    "missing_fields": [
-      "runtime"
-    ],
+    "missing_fields": [],
     "relationship_counts": {
       "related_films": 6,
       "related_people": 7,
@@ -190,31 +188,98 @@
     "premiere_type": ""
   },
   "film_identity": {
-    "backdrop": "",
-    "country": [],
+    "backdrop": "https://image.tmdb.org/t/p/original/w2iQlj8KaC8LARWkfBXEoxBEWQ3.jpg",
+    "country": [
+      "DE",
+      "GB",
+      "US"
+    ],
     "genres": [
-      "Action",
       "Drama",
+      "Action",
       "History",
       "War"
     ],
     "id": "977942",
     "imdb_id": "",
-    "language": "",
+    "language": "en",
     "original_title": "The Uprising",
     "poster": "https://image.tmdb.org/t/p/original/7TUl15TOsIvndKlgMWTtLgtEzZP.jpg",
     "profile_payload_url": "data/films/977942.json",
     "profile_url": "film.html?id=977942",
     "release_date": "2026-09-11",
     "release_display": "In theaters Sep. 11",
-    "runtime": null,
-    "synopsis": "During the English Peasants' Revolt in 1381, a farmer becomes a leader of the rebellion against the Crown forces of a then-14-year-old King Richard II.",
+    "runtime": 127,
+    "synopsis": "As war and plague devastate 14th-century England, humble peasant Wat Tyler ignites a rebellion, uniting an army of commoners to defy the king's brutal rule in a desperate fight for freedom and survival.",
     "title": "The Uprising",
     "tmdb_id": "977942"
   },
+  "intelligence": {
+    "confidence": "High",
+    "confidence_score": 0.99,
+    "generated_at": "2026-07-27T21:24:57Z",
+    "headline": "The Uprising: popularity signal available",
+    "metadata": {
+      "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
+      "signal_values": {
+        "legacy_dashboard_awards_category_count": 4,
+        "legacy_dashboard_awards_tier": "No Current Awards Case",
+        "legacy_dashboard_credited_talent_count": 9,
+        "legacy_dashboard_director_profile_present": true,
+        "legacy_dashboard_festival_award_count": 0,
+        "legacy_dashboard_festival_selection_count": 0,
+        "legacy_dashboard_festival_status": "",
+        "legacy_dashboard_precursor_award_count": 0,
+        "legacy_dashboard_principal_cast_count": 8,
+        "streaming_available_us": false,
+        "streaming_flatrate_provider_count_us": 0,
+        "streaming_provider_count_us": 0,
+        "tmdb_backdrop_count": 0,
+        "tmdb_canonical_trailer_available": true,
+        "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=lyhCxZN4Ro8",
+        "tmdb_popularity": 4.9172,
+        "tmdb_poster_count": 5,
+        "tmdb_release_date_us_primary": "2026-09-11",
+        "tmdb_release_date_us_theatrical": "2026-09-11",
+        "tmdb_release_status": "Post Production",
+        "tmdb_vote_average": 0,
+        "tmdb_vote_count": 0,
+        "tmdb_watch_provider_count_us": 0,
+        "trailer_available": true,
+        "trailer_count": 2,
+        "trailer_url": "https://www.youtube.com/watch?v=lyhCxZN4Ro8"
+      },
+      "source_signal_count": 26,
+      "stale_signal_count": 0
+    },
+    "schema_version": "phase2b_intelligence_explanation_v1",
+    "summary": "TMDb popularity is 4.9172. A canonical TMDb trailer URL is available.",
+    "supporting_drivers": [
+      {
+        "confidence_weight": 0.65,
+        "driver_type": "popularity_observed",
+        "evidence": "TMDb popularity is 4.9172.",
+        "label": "Popularity signal available",
+        "retrieved_at": "2026-07-27T21:24:57Z",
+        "source_metric": "tmdb_popularity",
+        "source_provider": "tmdb",
+        "source_status": "available"
+      },
+      {
+        "confidence_weight": 0.85,
+        "driver_type": "trailer_available",
+        "evidence": "A canonical TMDb trailer URL is available.",
+        "label": "Trailer available",
+        "retrieved_at": "2026-07-27T21:24:57Z",
+        "source_metric": "tmdb_canonical_trailer_url",
+        "source_provider": "tmdb",
+        "source_status": "available"
+      }
+    ]
+  },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260722T161339Z",
+    "generated_at": "20260727T212511Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -356,6 +421,11 @@
   },
   "signals": {
     "cultural_significance": 0,
+    "external_intelligence": {
+      "confidence": "High",
+      "headline": "The Uprising: popularity signal available",
+      "summary": "TMDb popularity is 4.9172. A canonical TMDb trailer URL is available."
+    },
     "last_updated": "2026-09-11",
     "latest_event": {
       "confidence": "Inferred",
@@ -392,7 +462,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "977942-6c4a0ec1ec09",
+        "event_id": "977942-2d8379c3c167",
         "event_type": "Distributor Change",
         "film_id": "977942",
         "importance": "Medium",
@@ -401,12 +471,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Focus Features.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Distributor set: Focus Features"
       },
       {
         "confidence": "Inferred",
-        "event_id": "977942-9a95e0613692",
+        "event_id": "977942-cd24fcec0cf4",
         "event_type": "Awards Tier Changed",
         "film_id": "977942",
         "importance": "Medium",
@@ -421,7 +491,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],
@@ -469,7 +539,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "977942-6c4a0ec1ec09",
+        "event_id": "977942-2d8379c3c167",
         "event_type": "Distributor Change",
         "film_id": "977942",
         "importance": "Medium",
@@ -478,12 +548,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Focus Features.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Distributor set: Focus Features"
       },
       {
         "confidence": "Inferred",
-        "event_id": "977942-9a95e0613692",
+        "event_id": "977942-cd24fcec0cf4",
         "event_type": "Awards Tier Changed",
         "film_id": "977942",
         "importance": "Medium",
@@ -498,12 +568,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "977942-e2e794c973b0",
+        "event_id": "977942-914ea7737028",
         "event_type": "Added To Database",
         "film_id": "977942",
         "importance": "Low",
@@ -512,7 +582,7 @@
         },
         "source_type": "system",
         "summary": "The Uprising is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Added to Awards Intelligence"
       },
       {
@@ -561,7 +631,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "977942-6c4a0ec1ec09",
+        "event_id": "977942-2d8379c3c167",
         "event_type": "Distributor Change",
         "film_id": "977942",
         "importance": "Medium",
@@ -570,12 +640,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Focus Features.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Distributor set: Focus Features"
       },
       {
         "confidence": "Inferred",
-        "event_id": "977942-9a95e0613692",
+        "event_id": "977942-cd24fcec0cf4",
         "event_type": "Awards Tier Changed",
         "film_id": "977942",
         "importance": "Medium",
@@ -590,7 +660,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],

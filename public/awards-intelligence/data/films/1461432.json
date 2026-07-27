@@ -7,7 +7,7 @@
       "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 42.8,
+    "attention_score": 43.1,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -35,7 +35,7 @@
         "status": "inferred"
       },
       {
-        "evidence": "TMDb popularity 1.506",
+        "evidence": "TMDb popularity 1.541",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -43,17 +43,22 @@
         "evidence": "Director: Alex Schulman",
         "source": "filmmaker_interest",
         "status": "verified"
+      },
+      {
+        "evidence": "Editorial distinctiveness score",
+        "source": "editorial_importance",
+        "status": "inferred"
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 42.8,
+    "homepage_spotlight_score": 43.1,
     "industry_interest": null,
-    "last_updated": "20260722T161339Z",
+    "last_updated": "20260727T212511Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
         "evidence_count": 1,
-        "score": 4.7,
+        "score": 4.8,
         "statuses": [
           "verified"
         ]
@@ -61,6 +66,13 @@
       "commercial": {
         "evidence_count": 1,
         "score": 4.9,
+        "statuses": [
+          "inferred"
+        ]
+      },
+      "industry/cultural": {
+        "evidence_count": 1,
+        "score": 0.2,
         "statuses": [
           "inferred"
         ]
@@ -157,7 +169,7 @@
     "editorial_category": "General Watch",
     "editorial_summary": "Upcoming Alex Schulman film with editorial monitoring value.",
     "importance_tier": "Monitoring",
-    "primary_story": "filmmaker/editorial hook; generic generated rationale",
+    "primary_story": "filmmaker/editorial hook; international profile; generic generated rationale",
     "story_strength": "Developing",
     "why_it_matters": "Upcoming Alex Schulman film with editorial monitoring value."
   },
@@ -169,16 +181,18 @@
     "premiere_type": ""
   },
   "film_identity": {
-    "backdrop": "",
-    "country": [],
+    "backdrop": "https://image.tmdb.org/t/p/original/3aUjIxyIP80A1h0VR6GogU3zsJn.jpg",
+    "country": [
+      "SE"
+    ],
     "genres": [
       "Drama",
       "Comedy"
     ],
     "id": "1461432",
     "imdb_id": "",
-    "language": "",
-    "original_title": "Adult Supervision",
+    "language": "sv",
+    "original_title": "Arkipelag",
     "poster": "https://image.tmdb.org/t/p/original/4v3uRZDrkhZRV3jjVF2496xUOAJ.jpg",
     "profile_payload_url": "data/films/1461432.json",
     "profile_url": "film.html?id=1461432",
@@ -189,9 +203,60 @@
     "title": "Adult Supervision",
     "tmdb_id": "1461432"
   },
+  "intelligence": {
+    "confidence": "High",
+    "confidence_score": 0.85,
+    "generated_at": "2026-07-27T21:24:57Z",
+    "headline": "Adult Supervision: popularity signal available",
+    "metadata": {
+      "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
+      "signal_values": {
+        "legacy_dashboard_awards_category_count": 0,
+        "legacy_dashboard_awards_tier": "No Current Awards Case",
+        "legacy_dashboard_credited_talent_count": 9,
+        "legacy_dashboard_director_profile_present": true,
+        "legacy_dashboard_festival_award_count": 0,
+        "legacy_dashboard_festival_selection_count": 0,
+        "legacy_dashboard_festival_status": "",
+        "legacy_dashboard_precursor_award_count": 0,
+        "legacy_dashboard_principal_cast_count": 8,
+        "streaming_available_us": false,
+        "streaming_flatrate_provider_count_us": 0,
+        "streaming_provider_count_us": 0,
+        "tmdb_backdrop_count": 0,
+        "tmdb_canonical_trailer_available": false,
+        "tmdb_popularity": 1.541,
+        "tmdb_poster_count": 0,
+        "tmdb_release_date_us_primary": "",
+        "tmdb_release_date_us_theatrical": "",
+        "tmdb_release_status": "Post Production",
+        "tmdb_vote_average": 0,
+        "tmdb_vote_count": 0,
+        "tmdb_watch_provider_count_us": 0,
+        "trailer_available": false,
+        "trailer_count": 0
+      },
+      "source_signal_count": 24,
+      "stale_signal_count": 0
+    },
+    "schema_version": "phase2b_intelligence_explanation_v1",
+    "summary": "TMDb popularity is 1.541.",
+    "supporting_drivers": [
+      {
+        "confidence_weight": 0.65,
+        "driver_type": "popularity_observed",
+        "evidence": "TMDb popularity is 1.541.",
+        "label": "Popularity signal available",
+        "retrieved_at": "2026-07-27T21:24:57Z",
+        "source_metric": "tmdb_popularity",
+        "source_provider": "tmdb",
+        "source_status": "available"
+      }
+    ]
+  },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260722T161339Z",
+    "generated_at": "20260727T212511Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -308,6 +373,11 @@
   },
   "signals": {
     "cultural_significance": 19.0,
+    "external_intelligence": {
+      "confidence": "High",
+      "headline": "Adult Supervision: popularity signal available",
+      "summary": "TMDb popularity is 1.541."
+    },
     "last_updated": "2026-10-09",
     "latest_event": {
       "confidence": "Inferred",
@@ -325,7 +395,7 @@
     },
     "latest_intelligence": "As of 2026-07-18, this is a unknown distributor release dated 2026-10-09 with general awards monitoring relevance; current awards profile is Unknown and data status is developing.",
     "momentum": 0.0,
-    "narrative_importance": 0,
+    "narrative_importance": 2.4,
     "next_signal": "Confirm US distributor/release plan.",
     "recent_activity": [
       {
@@ -344,7 +414,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1461432-1e9c62d74a5d",
+        "event_id": "1461432-9a8f51ffd922",
         "event_type": "Awards Tier Changed",
         "film_id": "1461432",
         "importance": "Medium",
@@ -354,12 +424,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1461432-9df484439a43",
+        "event_id": "1461432-68b639fcd4fd",
         "event_type": "Added To Database",
         "film_id": "1461432",
         "importance": "Low",
@@ -368,7 +438,7 @@
         },
         "source_type": "system",
         "summary": "Adult Supervision is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -414,7 +484,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1461432-1e9c62d74a5d",
+        "event_id": "1461432-9a8f51ffd922",
         "event_type": "Awards Tier Changed",
         "film_id": "1461432",
         "importance": "Medium",
@@ -424,12 +494,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1461432-9df484439a43",
+        "event_id": "1461432-68b639fcd4fd",
         "event_type": "Added To Database",
         "film_id": "1461432",
         "importance": "Low",
@@ -438,7 +508,7 @@
         },
         "source_type": "system",
         "summary": "Adult Supervision is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -473,7 +543,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1461432-1e9c62d74a5d",
+        "event_id": "1461432-9a8f51ffd922",
         "event_type": "Awards Tier Changed",
         "film_id": "1461432",
         "importance": "Medium",
@@ -483,12 +553,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1461432-9df484439a43",
+        "event_id": "1461432-68b639fcd4fd",
         "event_type": "Added To Database",
         "film_id": "1461432",
         "importance": "Low",
@@ -497,7 +567,7 @@
         },
         "source_type": "system",
         "summary": "Adult Supervision is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Added to Awards Intelligence"
       }
     ],

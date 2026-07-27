@@ -3,12 +3,12 @@
     {
       "awards_tier": "No Current Awards Case",
       "distributor": "Netflix",
-      "editorial_category": "General Watch",
+      "editorial_category": "Major Release",
       "id": "949838",
       "importance_tier": "Watchlist",
       "profile_payload_url": "data/films/949838.json",
       "profile_url": "film.html?id=949838",
-      "release_date": "2026-07-24",
+      "release_date": "2026-07-20",
       "title": "72 HOURS",
       "tmdb_id": "949838"
     },
@@ -177,7 +177,7 @@
       "profile_payload_url": "data/films/1670061.json",
       "profile_url": "film.html?id=1670061",
       "release_date": "2026-09-25",
-      "title": "Beasts Clawing at Straws",
+      "title": "Beasts Clutching at Straws",
       "tmdb_id": "1670061"
     },
     {
@@ -261,7 +261,7 @@
       "profile_payload_url": "data/films/1204680.json",
       "profile_url": "film.html?id=1204680",
       "release_date": "2026-08-28",
-      "title": "Coyote vs ACME",
+      "title": "Coyote vs. Acme",
       "tmdb_id": "1204680"
     },
     {
@@ -327,7 +327,7 @@
     {
       "awards_tier": "No Current Awards Case",
       "distributor": "Netflix",
-      "editorial_category": "General Watch",
+      "editorial_category": "Major Release",
       "id": "1487861",
       "importance_tier": "Watchlist",
       "profile_payload_url": "data/films/1487861.json",
@@ -446,6 +446,18 @@
     },
     {
       "awards_tier": "No Current Awards Case",
+      "distributor": "Netflix",
+      "editorial_category": "General Watch",
+      "id": "1421594",
+      "importance_tier": "Watchlist",
+      "profile_payload_url": "data/films/1421594.json",
+      "profile_url": "film.html?id=1421594",
+      "release_date": "2026-08-05",
+      "title": "Inside the Trustor Scandal",
+      "tmdb_id": "1421594"
+    },
+    {
+      "awards_tier": "No Current Awards Case",
       "distributor": "Unknown",
       "editorial_category": "General Watch",
       "id": "1693902",
@@ -477,7 +489,7 @@
       "profile_payload_url": "data/films/1567149.json",
       "profile_url": "film.html?id=1567149",
       "release_date": "2026-11-06",
-      "title": "Kamen Rider Kabuto 20th: The One Who Inherits the Heavens",
+      "title": "Kamen Rider Kabuto 20th: \u200b\u200bThe One Who Inherits the Heavens",
       "tmdb_id": "1567149"
     },
     {
@@ -549,7 +561,7 @@
       "profile_payload_url": "data/films/1148365.json",
       "profile_url": "film.html?id=1148365",
       "release_date": "2026-10-08",
-      "title": "Matchbox",
+      "title": "Matchbox: The Movie",
       "tmdb_id": "1148365"
     },
     {
@@ -884,7 +896,7 @@
       "importance_tier": "Priority Watchlist",
       "profile_payload_url": "data/films/1457866.json",
       "profile_url": "film.html?id=1457866",
-      "release_date": "2026-11-25",
+      "release_date": "2026-11-26",
       "title": "The Adventures of Cliff Booth",
       "tmdb_id": "1457866"
     },
@@ -903,7 +915,7 @@
     {
       "awards_tier": "No Current Awards Case",
       "distributor": "Netflix",
-      "editorial_category": "General Watch",
+      "editorial_category": "Major Release",
       "id": "1630409",
       "importance_tier": "Watchlist",
       "profile_payload_url": "data/films/1630409.json",
@@ -915,7 +927,7 @@
     {
       "awards_tier": "No Current Awards Case",
       "distributor": "Apple TV",
-      "editorial_category": "General Watch",
+      "editorial_category": "Major Release",
       "id": "1361774",
       "importance_tier": "Watchlist",
       "profile_payload_url": "data/films/1361774.json",
@@ -1071,7 +1083,7 @@
     {
       "awards_tier": "No Current Awards Case",
       "distributor": "Netflix",
-      "editorial_category": "General Watch",
+      "editorial_category": "Major Release",
       "id": "1659155",
       "importance_tier": "Watchlist",
       "profile_payload_url": "data/films/1659155.json",
@@ -1115,18 +1127,6 @@
       "release_date": "2026-10-04",
       "title": "Travel Reminiscence",
       "tmdb_id": "1717258"
-    },
-    {
-      "awards_tier": "No Current Awards Case",
-      "distributor": "Netflix",
-      "editorial_category": "General Watch",
-      "id": "1421594",
-      "importance_tier": "Watchlist",
-      "profile_payload_url": "data/films/1421594.json",
-      "profile_url": "film.html?id=1421594",
-      "release_date": "2026-08-05",
-      "title": "Trustor",
-      "tmdb_id": "1421594"
     },
     {
       "awards_tier": "Emerging",
@@ -1184,7 +1184,7 @@
       "importance_tier": "Priority Watchlist",
       "profile_payload_url": "data/films/1280115.json",
       "profile_url": "film.html?id=1280115",
-      "release_date": "2026-11-19",
+      "release_date": "2026-11-24",
       "title": "Way of the Warrior Kid",
       "tmdb_id": "1280115"
     },
@@ -1251,7 +1251,7 @@
   ],
   "metadata": {
     "film_count": 104,
-    "generated_at": "20260722T161339Z",
+    "generated_at": "20260727T212511Z",
     "profile_version": "phase6a"
   }
 }

@@ -16,7 +16,7 @@
     },
     {
       "confidence": "Inferred",
-      "event_id": "1215458-a2152ce5d897",
+      "event_id": "1215458-dc57d805ee93",
       "event_type": "Awards Tier Changed",
       "film_id": "1215458",
       "importance": "Medium",
@@ -28,12 +28,12 @@
       },
       "source_type": "editorial_model",
       "summary": "insufficient credible awards evidence",
-      "timestamp": "2026-07-22T16:13:39Z",
+      "timestamp": "2026-07-27T21:25:11Z",
       "title": "Awards tier assigned: No Current Awards Case"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1215458-1e53fd7215fe",
+      "event_id": "1215458-43c9be586552",
       "event_type": "Added To Database",
       "film_id": "1215458",
       "importance": "Low",
@@ -42,7 +42,7 @@
       },
       "source_type": "system",
       "summary": "On a String is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-07-22T16:13:39Z",
+      "timestamp": "2026-07-27T21:25:11Z",
       "title": "Added to Awards Intelligence"
     }
   ],
@@ -63,7 +63,7 @@
   "metadata": {
     "event_count": 3,
     "film_id": "1215458",
-    "generated_at": "20260722T161339Z",
+    "generated_at": "20260727T212511Z",
     "timeline_version": "phase6b",
     "title": "On a String",
     "tmdb_id": "1215458"

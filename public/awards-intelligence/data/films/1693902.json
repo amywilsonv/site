@@ -7,7 +7,7 @@
       "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 53.0,
+    "attention_score": 54.5,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -40,25 +40,25 @@
         "status": "verified"
       },
       {
-        "evidence": "Director: Gyanendra Bahadur Deuja",
-        "source": "filmmaker_interest",
+        "evidence": "TMDb popularity 1.6952",
+        "source": "audience_popularity",
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 1.003",
-        "source": "audience_popularity",
+        "evidence": "Director: Gyanendra Bahadur Deuja",
+        "source": "filmmaker_interest",
         "status": "verified"
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 53.0,
+    "homepage_spotlight_score": 54.5,
     "industry_interest": "Moderate",
-    "last_updated": "20260722T161339Z",
+    "last_updated": "20260727T212511Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
         "evidence_count": 1,
-        "score": 3.6,
+        "score": 5.1,
         "statuses": [
           "verified"
         ]
@@ -162,7 +162,7 @@
     "editorial_category": "General Watch",
     "editorial_summary": "Upcoming Gyanendra Bahadur Deuja film with editorial monitoring value.",
     "importance_tier": "Monitoring",
-    "primary_story": "generic generated rationale",
+    "primary_story": "international profile; generic generated rationale",
     "story_strength": "Developing",
     "why_it_matters": "Upcoming Gyanendra Bahadur Deuja film with editorial monitoring value."
   },
@@ -174,7 +174,7 @@
     "premiere_type": ""
   },
   "film_identity": {
-    "backdrop": "",
+    "backdrop": "https://image.tmdb.org/t/p/original/3g1v4mWCHwvcqKavw7dQmCOd3m1.jpg",
     "country": [],
     "genres": [
       "Drama",
@@ -182,8 +182,8 @@
     ],
     "id": "1693902",
     "imdb_id": "",
-    "language": "",
-    "original_title": "Jhingedaau 2",
+    "language": "ne",
+    "original_title": "\u091d\u093f\u0902\u0917\u0947\u0926\u093e\u0909 \u0968",
     "poster": "https://image.tmdb.org/t/p/original/9GhyuqIrjKRaWeXjGCHGjthUJD8.jpg",
     "profile_payload_url": "data/films/1693902.json",
     "profile_url": "film.html?id=1693902",
@@ -194,9 +194,60 @@
     "title": "Jhingedaau 2",
     "tmdb_id": "1693902"
   },
+  "intelligence": {
+    "confidence": "High",
+    "confidence_score": 0.85,
+    "generated_at": "2026-07-27T21:24:57Z",
+    "headline": "Jhingedaau 2: popularity signal available",
+    "metadata": {
+      "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
+      "signal_values": {
+        "legacy_dashboard_awards_category_count": 0,
+        "legacy_dashboard_awards_tier": "No Current Awards Case",
+        "legacy_dashboard_credited_talent_count": 9,
+        "legacy_dashboard_director_profile_present": true,
+        "legacy_dashboard_festival_award_count": 0,
+        "legacy_dashboard_festival_selection_count": 0,
+        "legacy_dashboard_festival_status": "",
+        "legacy_dashboard_precursor_award_count": 0,
+        "legacy_dashboard_principal_cast_count": 8,
+        "streaming_available_us": false,
+        "streaming_flatrate_provider_count_us": 0,
+        "streaming_provider_count_us": 0,
+        "tmdb_backdrop_count": 0,
+        "tmdb_canonical_trailer_available": false,
+        "tmdb_popularity": 1.6952,
+        "tmdb_poster_count": 0,
+        "tmdb_release_date_us_primary": "",
+        "tmdb_release_date_us_theatrical": "",
+        "tmdb_release_status": "In Production",
+        "tmdb_vote_average": 0,
+        "tmdb_vote_count": 0,
+        "tmdb_watch_provider_count_us": 0,
+        "trailer_available": false,
+        "trailer_count": 0
+      },
+      "source_signal_count": 24,
+      "stale_signal_count": 0
+    },
+    "schema_version": "phase2b_intelligence_explanation_v1",
+    "summary": "TMDb popularity is 1.6952.",
+    "supporting_drivers": [
+      {
+        "confidence_weight": 0.65,
+        "driver_type": "popularity_observed",
+        "evidence": "TMDb popularity is 1.6952.",
+        "label": "Popularity signal available",
+        "retrieved_at": "2026-07-27T21:24:57Z",
+        "source_metric": "tmdb_popularity",
+        "source_provider": "tmdb",
+        "source_status": "available"
+      }
+    ]
+  },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260722T161339Z",
+    "generated_at": "20260727T212511Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -310,6 +361,11 @@
   },
   "signals": {
     "cultural_significance": 37.0,
+    "external_intelligence": {
+      "confidence": "High",
+      "headline": "Jhingedaau 2: popularity signal available",
+      "summary": "TMDb popularity is 1.6952."
+    },
     "last_updated": "2026-09-18",
     "latest_event": {
       "confidence": "Inferred",
@@ -346,7 +402,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1693902-41cfe98066ed",
+        "event_id": "1693902-47ef63147aae",
         "event_type": "Awards Tier Changed",
         "film_id": "1693902",
         "importance": "Medium",
@@ -356,12 +412,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1693902-47fd7edf466b",
+        "event_id": "1693902-bfee36098ab7",
         "event_type": "Added To Database",
         "film_id": "1693902",
         "importance": "Low",
@@ -370,7 +426,7 @@
         },
         "source_type": "system",
         "summary": "Jhingedaau 2 is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -415,7 +471,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1693902-41cfe98066ed",
+        "event_id": "1693902-47ef63147aae",
         "event_type": "Awards Tier Changed",
         "film_id": "1693902",
         "importance": "Medium",
@@ -425,12 +481,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1693902-47fd7edf466b",
+        "event_id": "1693902-bfee36098ab7",
         "event_type": "Added To Database",
         "film_id": "1693902",
         "importance": "Low",
@@ -439,7 +495,7 @@
         },
         "source_type": "system",
         "summary": "Jhingedaau 2 is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -474,7 +530,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1693902-41cfe98066ed",
+        "event_id": "1693902-47ef63147aae",
         "event_type": "Awards Tier Changed",
         "film_id": "1693902",
         "importance": "Medium",
@@ -484,12 +540,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1693902-47fd7edf466b",
+        "event_id": "1693902-bfee36098ab7",
         "event_type": "Added To Database",
         "film_id": "1693902",
         "importance": "Low",
@@ -498,7 +554,7 @@
         },
         "source_type": "system",
         "summary": "Jhingedaau 2 is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Added to Awards Intelligence"
       }
     ],

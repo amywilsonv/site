@@ -7,7 +7,7 @@
       "Event Release",
       "Awards Watch"
     ],
-    "attention_score": 59.5,
+    "attention_score": 58.4,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -25,7 +25,7 @@
         "status": "inferred"
       },
       {
-        "evidence": "Principal cast listed: Hikari Senga, Kaede Hondo, Yuki Kaji, Emiri Kato",
+        "evidence": "Principal cast listed: Hikari Senga, Kaede Hondo, Nao Toyama, Ikumi Hasegawa",
         "source": "cast_interest",
         "status": "verified"
       },
@@ -45,20 +45,25 @@
         "status": "inferred"
       },
       {
-        "evidence": "TMDb popularity 1.813",
+        "evidence": "TMDb popularity 1.1723",
         "source": "audience_popularity",
         "status": "verified"
+      },
+      {
+        "evidence": "Editorial distinctiveness score",
+        "source": "editorial_importance",
+        "status": "inferred"
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 59.5,
+    "homepage_spotlight_score": 58.4,
     "industry_interest": "Moderate",
-    "last_updated": "20260722T161339Z",
+    "last_updated": "20260727T212511Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
         "evidence_count": 1,
-        "score": 5.3,
+        "score": 4.0,
         "statuses": [
           "verified"
         ]
@@ -71,8 +76,8 @@
         ]
       },
       "industry/cultural": {
-        "evidence_count": 1,
-        "score": 7.0,
+        "evidence_count": 2,
+        "score": 7.2,
         "statuses": [
           "inferred"
         ]
@@ -186,8 +191,10 @@
     "premiere_type": ""
   },
   "film_identity": {
-    "backdrop": "",
-    "country": [],
+    "backdrop": "https://image.tmdb.org/t/p/original/misJa6SmXR1GWUBtgjHNB90LayE.jpg",
+    "country": [
+      "JP"
+    ],
     "genres": [
       "Animation",
       "Action",
@@ -197,8 +204,8 @@
     ],
     "id": "1663937",
     "imdb_id": "",
-    "language": "",
-    "original_title": "Star Detective Pretty Cure! The Movie: The Mysterious Garden and The Pair\u2019s Secret",
+    "language": "ja",
+    "original_title": "\u6620\u753b\u540d\u63a2\u5075\u30d7\u30ea\u30ad\u30e5\u30a2\uff01 \u2800\u4e0d\u601d\u8b70\u306a\u5ead\u30682\u4eba\u306e\u79d8\u5bc6",
     "poster": "https://image.tmdb.org/t/p/original/oAjv0dw1KlSil2uSdoqhfaaBhuA.jpg",
     "profile_payload_url": "data/films/1663937.json",
     "profile_url": "film.html?id=1663937",
@@ -209,9 +216,60 @@
     "title": "Star Detective Pretty Cure! The Movie: The Mysterious Garden and The Pair\u2019s Secret",
     "tmdb_id": "1663937"
   },
+  "intelligence": {
+    "confidence": "High",
+    "confidence_score": 0.85,
+    "generated_at": "2026-07-27T21:24:57Z",
+    "headline": "Star Detective Pretty Cure! The Movie: The Mysterious Garden and The Pair\u2019s Secret: popularity signal available",
+    "metadata": {
+      "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
+      "signal_values": {
+        "legacy_dashboard_awards_category_count": 3,
+        "legacy_dashboard_awards_tier": "Category Contender",
+        "legacy_dashboard_credited_talent_count": 8,
+        "legacy_dashboard_director_profile_present": false,
+        "legacy_dashboard_festival_award_count": 0,
+        "legacy_dashboard_festival_selection_count": 0,
+        "legacy_dashboard_festival_status": "",
+        "legacy_dashboard_precursor_award_count": 0,
+        "legacy_dashboard_principal_cast_count": 8,
+        "streaming_available_us": false,
+        "streaming_flatrate_provider_count_us": 0,
+        "streaming_provider_count_us": 0,
+        "tmdb_backdrop_count": 0,
+        "tmdb_canonical_trailer_available": false,
+        "tmdb_popularity": 1.1723,
+        "tmdb_poster_count": 1,
+        "tmdb_release_date_us_primary": "",
+        "tmdb_release_date_us_theatrical": "",
+        "tmdb_release_status": "In Production",
+        "tmdb_vote_average": 0,
+        "tmdb_vote_count": 0,
+        "tmdb_watch_provider_count_us": 0,
+        "trailer_available": false,
+        "trailer_count": 0
+      },
+      "source_signal_count": 24,
+      "stale_signal_count": 0
+    },
+    "schema_version": "phase2b_intelligence_explanation_v1",
+    "summary": "TMDb popularity is 1.1723.",
+    "supporting_drivers": [
+      {
+        "confidence_weight": 0.65,
+        "driver_type": "popularity_observed",
+        "evidence": "TMDb popularity is 1.1723.",
+        "label": "Popularity signal available",
+        "retrieved_at": "2026-07-27T21:24:57Z",
+        "source_metric": "tmdb_popularity",
+        "source_provider": "tmdb",
+        "source_status": "available"
+      }
+    ]
+  },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260722T161339Z",
+    "generated_at": "20260727T212511Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -300,19 +358,19 @@
         "role": "actor"
       },
       {
+        "name": "Nao Toyama",
+        "role": "actor"
+      },
+      {
+        "name": "Ikumi Hasegawa",
+        "role": "actor"
+      },
+      {
         "name": "Yuki Kaji",
         "role": "actor"
       },
       {
         "name": "Emiri Kato",
-        "role": "actor"
-      },
-      {
-        "name": "Misato Matsuoka",
-        "role": "actor"
-      },
-      {
-        "name": "Minami Takahashi",
         "role": "actor"
       }
     ],
@@ -325,6 +383,11 @@
   },
   "signals": {
     "cultural_significance": 37.0,
+    "external_intelligence": {
+      "confidence": "High",
+      "headline": "Star Detective Pretty Cure! The Movie: The Mysterious Garden and The Pair\u2019s Secret: popularity signal available",
+      "summary": "TMDb popularity is 1.1723."
+    },
     "last_updated": "2026-09-18",
     "latest_event": {
       "confidence": "Inferred",
@@ -342,7 +405,7 @@
     },
     "latest_intelligence": "As of 2026-07-18, this is a unknown distributor release dated 2026-09-18 with Craft Categories, Animated Feature relevance; current awards profile is Craft Potential and data status is limited data.",
     "momentum": 0.0,
-    "narrative_importance": 0,
+    "narrative_importance": 3.5,
     "next_signal": "Confirm US distributor/release plan.",
     "recent_activity": [
       {
@@ -361,7 +424,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1663937-ccb134e95714",
+        "event_id": "1663937-ad80ef92d0ee",
         "event_type": "Awards Tier Changed",
         "film_id": "1663937",
         "importance": "Medium",
@@ -375,12 +438,12 @@
         },
         "source_type": "editorial_model",
         "summary": "category-specific awards case without broader contender evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: Category Contender"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1663937-8aac98d59061",
+        "event_id": "1663937-70fb1d11865e",
         "event_type": "Added To Database",
         "film_id": "1663937",
         "importance": "Low",
@@ -389,7 +452,7 @@
         },
         "source_type": "system",
         "summary": "Star Detective Pretty Cure! The Movie: The Mysterious Garden and The Pair\u2019s Secret is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -408,12 +471,12 @@
     "principal_cast": [
       "Hikari Senga",
       "Kaede Hondo",
+      "Nao Toyama",
+      "Ikumi Hasegawa",
       "Yuki Kaji",
       "Emiri Kato",
       "Misato Matsuoka",
-      "Minami Takahashi",
-      "Natsumi Takamori",
-      "Yoshino Nanjo"
+      "Minami Takahashi"
     ],
     "producers": [],
     "writers": []
@@ -436,7 +499,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1663937-ccb134e95714",
+        "event_id": "1663937-ad80ef92d0ee",
         "event_type": "Awards Tier Changed",
         "film_id": "1663937",
         "importance": "Medium",
@@ -450,12 +513,12 @@
         },
         "source_type": "editorial_model",
         "summary": "category-specific awards case without broader contender evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: Category Contender"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1663937-8aac98d59061",
+        "event_id": "1663937-70fb1d11865e",
         "event_type": "Added To Database",
         "film_id": "1663937",
         "importance": "Low",
@@ -464,7 +527,7 @@
         },
         "source_type": "system",
         "summary": "Star Detective Pretty Cure! The Movie: The Mysterious Garden and The Pair\u2019s Secret is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -499,7 +562,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1663937-ccb134e95714",
+        "event_id": "1663937-ad80ef92d0ee",
         "event_type": "Awards Tier Changed",
         "film_id": "1663937",
         "importance": "Medium",
@@ -513,12 +576,12 @@
         },
         "source_type": "editorial_model",
         "summary": "category-specific awards case without broader contender evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: Category Contender"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1663937-8aac98d59061",
+        "event_id": "1663937-70fb1d11865e",
         "event_type": "Added To Database",
         "film_id": "1663937",
         "importance": "Low",
@@ -527,7 +590,7 @@
         },
         "source_type": "system",
         "summary": "Star Detective Pretty Cure! The Movie: The Mysterious Garden and The Pair\u2019s Secret is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Added to Awards Intelligence"
       }
     ],

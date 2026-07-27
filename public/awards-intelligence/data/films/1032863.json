@@ -7,7 +7,7 @@
       "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 42.0,
+    "attention_score": 42.5,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -30,7 +30,7 @@
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 1.916",
+        "evidence": "TMDb popularity 2.1949",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -46,14 +46,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 42.0,
+    "homepage_spotlight_score": 42.5,
     "industry_interest": null,
-    "last_updated": "20260722T161339Z",
+    "last_updated": "20260727T212511Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
         "evidence_count": 1,
-        "score": 5.5,
+        "score": 6.0,
         "statuses": [
           "verified"
         ]
@@ -173,15 +173,17 @@
     "premiere_type": ""
   },
   "film_identity": {
-    "backdrop": "",
-    "country": [],
+    "backdrop": "https://image.tmdb.org/t/p/original/koX7CvqQ9nYEXIAPSDxbbnBw7bR.jpg",
+    "country": [
+      "US"
+    ],
     "genres": [
       "Romance",
       "Comedy"
     ],
     "id": "1032863",
     "imdb_id": "",
-    "language": "",
+    "language": "en",
     "original_title": "The Love Hypothesis",
     "poster": "https://image.tmdb.org/t/p/original/mSeGcWakOmhPd1n0QcinqIIUu1B.jpg",
     "profile_payload_url": "data/films/1032863.json",
@@ -193,9 +195,60 @@
     "title": "The Love Hypothesis",
     "tmdb_id": "1032863"
   },
+  "intelligence": {
+    "confidence": "High",
+    "confidence_score": 0.85,
+    "generated_at": "2026-07-27T21:24:57Z",
+    "headline": "The Love Hypothesis: popularity signal available",
+    "metadata": {
+      "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
+      "signal_values": {
+        "legacy_dashboard_awards_category_count": 1,
+        "legacy_dashboard_awards_tier": "No Current Awards Case",
+        "legacy_dashboard_credited_talent_count": 7,
+        "legacy_dashboard_director_profile_present": true,
+        "legacy_dashboard_festival_award_count": 0,
+        "legacy_dashboard_festival_selection_count": 0,
+        "legacy_dashboard_festival_status": "",
+        "legacy_dashboard_precursor_award_count": 0,
+        "legacy_dashboard_principal_cast_count": 6,
+        "streaming_available_us": false,
+        "streaming_flatrate_provider_count_us": 0,
+        "streaming_provider_count_us": 0,
+        "tmdb_backdrop_count": 1,
+        "tmdb_canonical_trailer_available": false,
+        "tmdb_popularity": 2.1949,
+        "tmdb_poster_count": 1,
+        "tmdb_release_date_us_primary": "2026-09-23",
+        "tmdb_release_date_us_theatrical": "",
+        "tmdb_release_status": "Post Production",
+        "tmdb_vote_average": 0,
+        "tmdb_vote_count": 0,
+        "tmdb_watch_provider_count_us": 0,
+        "trailer_available": false,
+        "trailer_count": 0
+      },
+      "source_signal_count": 24,
+      "stale_signal_count": 0
+    },
+    "schema_version": "phase2b_intelligence_explanation_v1",
+    "summary": "TMDb popularity is 2.1949.",
+    "supporting_drivers": [
+      {
+        "confidence_weight": 0.65,
+        "driver_type": "popularity_observed",
+        "evidence": "TMDb popularity is 2.1949.",
+        "label": "Popularity signal available",
+        "retrieved_at": "2026-07-27T21:24:57Z",
+        "source_metric": "tmdb_popularity",
+        "source_provider": "tmdb",
+        "source_status": "available"
+      }
+    ]
+  },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260722T161339Z",
+    "generated_at": "20260727T212511Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -321,6 +374,11 @@
   },
   "signals": {
     "cultural_significance": 19.0,
+    "external_intelligence": {
+      "confidence": "High",
+      "headline": "The Love Hypothesis: popularity signal available",
+      "summary": "TMDb popularity is 2.1949."
+    },
     "last_updated": "2026-09-23",
     "latest_event": {
       "confidence": "Inferred",
@@ -357,7 +415,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1032863-4ba3b15b13bd",
+        "event_id": "1032863-ee6df3adc567",
         "event_type": "Distributor Change",
         "film_id": "1032863",
         "importance": "Medium",
@@ -366,12 +424,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Prime Video.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Distributor set: Prime Video"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1032863-39782ba16f52",
+        "event_id": "1032863-da23f3e944d5",
         "event_type": "Awards Tier Changed",
         "film_id": "1032863",
         "importance": "Medium",
@@ -383,7 +441,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],
@@ -426,7 +484,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1032863-4ba3b15b13bd",
+        "event_id": "1032863-ee6df3adc567",
         "event_type": "Distributor Change",
         "film_id": "1032863",
         "importance": "Medium",
@@ -435,12 +493,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Prime Video.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Distributor set: Prime Video"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1032863-39782ba16f52",
+        "event_id": "1032863-da23f3e944d5",
         "event_type": "Awards Tier Changed",
         "film_id": "1032863",
         "importance": "Medium",
@@ -452,12 +510,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1032863-b97c754bc604",
+        "event_id": "1032863-2edaa662bae2",
         "event_type": "Added To Database",
         "film_id": "1032863",
         "importance": "Low",
@@ -466,7 +524,7 @@
         },
         "source_type": "system",
         "summary": "The Love Hypothesis is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -501,7 +559,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1032863-4ba3b15b13bd",
+        "event_id": "1032863-ee6df3adc567",
         "event_type": "Distributor Change",
         "film_id": "1032863",
         "importance": "Medium",
@@ -510,12 +568,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Prime Video.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Distributor set: Prime Video"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1032863-39782ba16f52",
+        "event_id": "1032863-da23f3e944d5",
         "event_type": "Awards Tier Changed",
         "film_id": "1032863",
         "importance": "Medium",
@@ -527,7 +585,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],

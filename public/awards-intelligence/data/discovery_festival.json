@@ -11,7 +11,7 @@
             "Awards Watch",
             "Festival Signal"
           ],
-          "attention_score": 41.0,
+          "attention_score": 40.8,
           "attention_version": "phase7e_attention_v1",
           "audience_interest": "Developing",
           "conversation_level": "Unavailable",
@@ -44,7 +44,7 @@
               "status": "inferred"
             },
             {
-              "evidence": "TMDb popularity 2.5951",
+              "evidence": "TMDb popularity 2.478",
               "source": "audience_popularity",
               "status": "verified"
             },
@@ -60,14 +60,14 @@
             }
           ],
           "homepage_spotlight_override": null,
-          "homepage_spotlight_score": 41.0,
+          "homepage_spotlight_score": 40.8,
           "industry_interest": "High",
-          "last_updated": "20260722T161339Z",
+          "last_updated": "20260727T212511Z",
           "promotional_response": null,
           "score_families": {
             "audience/popularity": {
               "evidence_count": 1,
-              "score": 6.6,
+              "score": 6.4,
               "statuses": [
                 "verified"
               ]
@@ -148,7 +148,7 @@
         ],
         "awards_profile": "Festival Watch",
         "awards_tier": "Strong Contender",
-        "backdrop_url": "",
+        "backdrop_url": "https://image.tmdb.org/t/p/original/7MdKguHQw1n5Mfhj0vC5QRkrgj9.jpg",
         "contextual_labels": {
           "confidence": "Medium",
           "context": "festival_collection",
@@ -213,6 +213,57 @@
           "Drama",
           "Thriller"
         ],
+        "intelligence": {
+          "confidence": "High",
+          "confidence_score": 0.85,
+          "generated_at": "2026-07-27T21:24:57Z",
+          "headline": "Paper Tiger: popularity signal available",
+          "metadata": {
+            "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
+            "signal_values": {
+              "legacy_dashboard_awards_category_count": 3,
+              "legacy_dashboard_awards_tier": "Strong Contender",
+              "legacy_dashboard_credited_talent_count": 9,
+              "legacy_dashboard_director_profile_present": true,
+              "legacy_dashboard_festival_award_count": 0,
+              "legacy_dashboard_festival_selection_count": 1,
+              "legacy_dashboard_festival_status": "Official Selection",
+              "legacy_dashboard_precursor_award_count": 0,
+              "legacy_dashboard_principal_cast_count": 8,
+              "streaming_available_us": false,
+              "streaming_flatrate_provider_count_us": 0,
+              "streaming_provider_count_us": 0,
+              "tmdb_backdrop_count": 0,
+              "tmdb_canonical_trailer_available": false,
+              "tmdb_popularity": 2.478,
+              "tmdb_poster_count": 3,
+              "tmdb_release_date_us_primary": "2026-11-13",
+              "tmdb_release_date_us_theatrical": "2026-11-13",
+              "tmdb_release_status": "Released",
+              "tmdb_vote_average": 0,
+              "tmdb_vote_count": 0,
+              "tmdb_watch_provider_count_us": 0,
+              "trailer_available": false,
+              "trailer_count": 0
+            },
+            "source_signal_count": 24,
+            "stale_signal_count": 0
+          },
+          "schema_version": "phase2b_intelligence_explanation_v1",
+          "summary": "TMDb popularity is 2.478.",
+          "supporting_drivers": [
+            {
+              "confidence_weight": 0.65,
+              "driver_type": "popularity_observed",
+              "evidence": "TMDb popularity is 2.478.",
+              "label": "Popularity signal available",
+              "retrieved_at": "2026-07-27T21:24:57Z",
+              "source_metric": "tmdb_popularity",
+              "source_provider": "tmdb",
+              "source_status": "available"
+            }
+          ]
+        },
         "is_out_now": false,
         "is_this_month": false,
         "is_this_week": false,
@@ -233,7 +284,7 @@
         },
         "latest_intelligence": "Paper Tiger is verified as the NYFF64 Opening Night film, with James Gray directing and NEON attached for release. Its current awards profile is Festival Watch pending NYFF reception and campaign signals.",
         "next_signal": "Monitor NYFF reception, reviews, and any official release-campaign updates.",
-        "poster_url": "https://image.tmdb.org/t/p/original/9txURTPuB1W85km06SAnrFcOCFF.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/original/7XhTjNP3BL8pTtCLcsvIssR9hSf.jpg",
         "primary_category": "Awards Contender",
         "primary_editorial_story": "awards profile: Festival Watch; major-category path; verified festival positioning with major-category path; prestige distributor plus talent/path evidence",
         "principal_cast": [
@@ -266,7 +317,7 @@
           },
           {
             "confidence": "Inferred",
-            "event_id": "1381273-c6d0d409f6a2",
+            "event_id": "1381273-a54c2b6bcbf1",
             "event_type": "Awards Tier Changed",
             "film_id": "1381273",
             "importance": "High",
@@ -280,12 +331,12 @@
             },
             "source_type": "editorial_model",
             "summary": "high awards relevance with multiple independent evidence families",
-            "timestamp": "2026-07-22T16:13:39Z",
+            "timestamp": "2026-07-27T21:25:11Z",
             "title": "Awards tier assigned: Strong Contender"
           },
           {
             "confidence": "Inferred",
-            "event_id": "1381273-22fbdeb646e8",
+            "event_id": "1381273-6c8881486b67",
             "event_type": "Homepage Featured",
             "film_id": "1381273",
             "importance": "Medium",
@@ -294,7 +345,7 @@
             },
             "source_type": "discovery_homepage",
             "summary": "Paper Tiger is currently selected for the homepage experience.",
-            "timestamp": "2026-07-22T16:13:39Z",
+            "timestamp": "2026-07-27T21:25:11Z",
             "title": "Featured in The Screening Room"
           }
         ],
@@ -374,7 +425,7 @@
         "is_awards_contender": true,
         "is_lead": false,
         "poster_alt": "Paper Tiger poster",
-        "poster_url": "https://image.tmdb.org/t/p/original/9txURTPuB1W85km06SAnrFcOCFF.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/original/7XhTjNP3BL8pTtCLcsvIssR9hSf.jpg",
         "primary_category": "Awards Contender",
         "profile_id": "1381273",
         "profile_payload_url": "data/films/1381273.json",
@@ -409,7 +460,7 @@
     "discovery_algorithm_version": "phase5b",
     "discovery_visual_version": "phase5c",
     "film_count": 104,
-    "generated_at": "20260722T161339Z",
+    "generated_at": "20260727T212511Z",
     "homepage_count": 6,
     "homepage_filters": [
       {
@@ -446,6 +497,15 @@
     "homepage_spotlight_score": 94.0,
     "homepage_spotlight_title": "The Odyssey",
     "label": "Festivals",
+    "now_in_focus_selection": {
+      "date_convention": "YYYY-MM-DD UTC calendar dates",
+      "hold_until": "2026-08-10",
+      "reason": "Major culturally significant event release",
+      "score": 94.0,
+      "selected_at": "2026-07-27",
+      "selected_tmdb_id": "1368337",
+      "selection_mode": "manual_hold"
+    },
     "primary_navigation": [
       {
         "href": "#home",

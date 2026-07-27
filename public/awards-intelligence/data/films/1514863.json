@@ -7,7 +7,7 @@
       "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 45.4,
+    "attention_score": 45.7,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -45,20 +45,20 @@
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 0.4144",
+        "evidence": "TMDb popularity 0.5045",
         "source": "audience_popularity",
         "status": "verified"
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 45.4,
+    "homepage_spotlight_score": 45.7,
     "industry_interest": null,
-    "last_updated": "20260722T161339Z",
+    "last_updated": "20260727T212511Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
         "evidence_count": 1,
-        "score": 1.8,
+        "score": 2.1,
         "statuses": [
           "verified"
         ]
@@ -197,25 +197,65 @@
     "title": "Best of the Best",
     "tmdb_id": "1514863"
   },
+  "intelligence": {
+    "confidence": "High",
+    "confidence_score": 0.85,
+    "generated_at": "2026-07-27T21:24:57Z",
+    "headline": "Best of the Best: popularity signal available",
+    "metadata": {
+      "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
+      "signal_values": {
+        "legacy_dashboard_awards_category_count": 0,
+        "legacy_dashboard_awards_tier": "No Current Awards Case",
+        "legacy_dashboard_credited_talent_count": 9,
+        "legacy_dashboard_director_profile_present": true,
+        "legacy_dashboard_festival_award_count": 0,
+        "legacy_dashboard_festival_selection_count": 0,
+        "legacy_dashboard_festival_status": "",
+        "legacy_dashboard_precursor_award_count": 0,
+        "legacy_dashboard_principal_cast_count": 8,
+        "streaming_available_us": false,
+        "streaming_flatrate_provider_count_us": 0,
+        "streaming_provider_count_us": 0,
+        "tmdb_backdrop_count": 0,
+        "tmdb_canonical_trailer_available": false,
+        "tmdb_popularity": 0.5045,
+        "tmdb_poster_count": 0,
+        "tmdb_release_date_us_primary": "2026-09-18",
+        "tmdb_release_date_us_theatrical": "",
+        "tmdb_release_status": "Post Production",
+        "tmdb_vote_average": 0,
+        "tmdb_vote_count": 0,
+        "tmdb_watch_provider_count_us": 0,
+        "trailer_available": false,
+        "trailer_count": 0
+      },
+      "source_signal_count": 24,
+      "stale_signal_count": 0
+    },
+    "schema_version": "phase2b_intelligence_explanation_v1",
+    "summary": "TMDb popularity is 0.5045.",
+    "supporting_drivers": [
+      {
+        "confidence_weight": 0.65,
+        "driver_type": "popularity_observed",
+        "evidence": "TMDb popularity is 0.5045.",
+        "label": "Popularity signal available",
+        "retrieved_at": "2026-07-27T21:24:57Z",
+        "source_metric": "tmdb_popularity",
+        "source_provider": "tmdb",
+        "source_status": "available"
+      }
+    ]
+  },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260722T161339Z",
+    "generated_at": "20260727T212511Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
   "related": {
     "related_films": [
-      {
-        "profile_url": "film.html?id=949838",
-        "relationship_score": 42,
-        "shared_signals": [
-          "General Watch",
-          "Comedy",
-          "Netflix"
-        ],
-        "title": "72 HOURS",
-        "tmdb_id": "949838"
-      },
       {
         "profile_url": "film.html?id=1365884",
         "relationship_score": 42,
@@ -268,6 +308,16 @@
         ],
         "title": "Big Chicken: A Fast Food Conspiracy",
         "tmdb_id": "1728056"
+      },
+      {
+        "profile_url": "film.html?id=1421594",
+        "relationship_score": 36,
+        "shared_signals": [
+          "General Watch",
+          "Netflix"
+        ],
+        "title": "Inside the Trustor Scandal",
+        "tmdb_id": "1421594"
       }
     ],
     "related_people": [
@@ -317,6 +367,11 @@
   },
   "signals": {
     "cultural_significance": 19.0,
+    "external_intelligence": {
+      "confidence": "High",
+      "headline": "Best of the Best: popularity signal available",
+      "summary": "TMDb popularity is 0.5045."
+    },
     "last_updated": "2026-09-18",
     "latest_event": {
       "confidence": "Inferred",
@@ -353,7 +408,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1514863-5e71741de770",
+        "event_id": "1514863-889a40b85a37",
         "event_type": "Distributor Change",
         "film_id": "1514863",
         "importance": "Medium",
@@ -362,12 +417,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1514863-695b63f61c0d",
+        "event_id": "1514863-48d90a1a02cc",
         "event_type": "Awards Tier Changed",
         "film_id": "1514863",
         "importance": "Medium",
@@ -377,7 +432,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],
@@ -422,7 +477,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1514863-5e71741de770",
+        "event_id": "1514863-889a40b85a37",
         "event_type": "Distributor Change",
         "film_id": "1514863",
         "importance": "Medium",
@@ -431,12 +486,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1514863-695b63f61c0d",
+        "event_id": "1514863-48d90a1a02cc",
         "event_type": "Awards Tier Changed",
         "film_id": "1514863",
         "importance": "Medium",
@@ -446,12 +501,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1514863-4956b18ab8b2",
+        "event_id": "1514863-5077fd116e46",
         "event_type": "Added To Database",
         "film_id": "1514863",
         "importance": "Low",
@@ -460,7 +515,7 @@
         },
         "source_type": "system",
         "summary": "Best of the Best is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -495,7 +550,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1514863-5e71741de770",
+        "event_id": "1514863-889a40b85a37",
         "event_type": "Distributor Change",
         "film_id": "1514863",
         "importance": "Medium",
@@ -504,12 +559,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1514863-695b63f61c0d",
+        "event_id": "1514863-48d90a1a02cc",
         "event_type": "Awards Tier Changed",
         "film_id": "1514863",
         "importance": "Medium",
@@ -519,7 +574,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],

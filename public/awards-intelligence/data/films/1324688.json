@@ -7,7 +7,7 @@
       "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 51.6,
+    "attention_score": 51.4,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -45,20 +45,20 @@
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 1.081",
+        "evidence": "TMDb popularity 1.0254",
         "source": "audience_popularity",
         "status": "verified"
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 51.6,
+    "homepage_spotlight_score": 51.4,
     "industry_interest": "Moderate",
-    "last_updated": "20260722T161339Z",
+    "last_updated": "20260727T212511Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
         "evidence_count": 1,
-        "score": 3.8,
+        "score": 3.6,
         "statuses": [
           "verified"
         ]
@@ -162,7 +162,7 @@
     "editorial_category": "General Watch",
     "editorial_summary": "Upcoming Selvaraghavan film with editorial monitoring value.",
     "importance_tier": "Monitoring",
-    "primary_story": "generic generated rationale",
+    "primary_story": "international profile; generic generated rationale",
     "story_strength": "Developing",
     "why_it_matters": "Upcoming Selvaraghavan film with editorial monitoring value."
   },
@@ -174,16 +174,18 @@
     "premiere_type": ""
   },
   "film_identity": {
-    "backdrop": "",
-    "country": [],
+    "backdrop": "https://image.tmdb.org/t/p/original/2c87U9zWOvJvOJxxgIxTtalkaQ6.jpg",
+    "country": [
+      "IN"
+    ],
     "genres": [
       "Romance",
       "Drama"
     ],
     "id": "1324688",
     "imdb_id": "",
-    "language": "",
-    "original_title": "7G Rainbow Colony 2",
+    "language": "ta",
+    "original_title": "7\u0b9c\u0bbf \u0bb0\u0bc6\u0baf\u0bbf\u0ba9\u0bcd\u0baa\u0bcb \u0b95\u0bbe\u0bb2\u0ba9\u0bbf 2",
     "poster": "https://image.tmdb.org/t/p/original/dCa3OeEhTeN7rAMWzFclDgBMK8h.jpg",
     "profile_payload_url": "data/films/1324688.json",
     "profile_url": "film.html?id=1324688",
@@ -194,9 +196,60 @@
     "title": "7G Rainbow Colony 2",
     "tmdb_id": "1324688"
   },
+  "intelligence": {
+    "confidence": "High",
+    "confidence_score": 0.85,
+    "generated_at": "2026-07-27T21:24:57Z",
+    "headline": "7G Rainbow Colony 2: popularity signal available",
+    "metadata": {
+      "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
+      "signal_values": {
+        "legacy_dashboard_awards_category_count": 0,
+        "legacy_dashboard_awards_tier": "No Current Awards Case",
+        "legacy_dashboard_credited_talent_count": 7,
+        "legacy_dashboard_director_profile_present": true,
+        "legacy_dashboard_festival_award_count": 0,
+        "legacy_dashboard_festival_selection_count": 0,
+        "legacy_dashboard_festival_status": "",
+        "legacy_dashboard_precursor_award_count": 0,
+        "legacy_dashboard_principal_cast_count": 6,
+        "streaming_available_us": true,
+        "streaming_flatrate_provider_count_us": 1,
+        "streaming_provider_count_us": 5,
+        "tmdb_backdrop_count": 0,
+        "tmdb_canonical_trailer_available": false,
+        "tmdb_popularity": 1.0254,
+        "tmdb_poster_count": 0,
+        "tmdb_release_date_us_primary": "",
+        "tmdb_release_date_us_theatrical": "",
+        "tmdb_release_status": "In Production",
+        "tmdb_vote_average": 0,
+        "tmdb_vote_count": 0,
+        "tmdb_watch_provider_count_us": 5,
+        "trailer_available": false,
+        "trailer_count": 0
+      },
+      "source_signal_count": 24,
+      "stale_signal_count": 0
+    },
+    "schema_version": "phase2b_intelligence_explanation_v1",
+    "summary": "TMDb popularity is 1.0254.",
+    "supporting_drivers": [
+      {
+        "confidence_weight": 0.65,
+        "driver_type": "popularity_observed",
+        "evidence": "TMDb popularity is 1.0254.",
+        "label": "Popularity signal available",
+        "retrieved_at": "2026-07-27T21:24:57Z",
+        "source_metric": "tmdb_popularity",
+        "source_provider": "tmdb",
+        "source_status": "available"
+      }
+    ]
+  },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260722T161339Z",
+    "generated_at": "20260727T212511Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -310,6 +363,11 @@
   },
   "signals": {
     "cultural_significance": 37.0,
+    "external_intelligence": {
+      "confidence": "High",
+      "headline": "7G Rainbow Colony 2: popularity signal available",
+      "summary": "TMDb popularity is 1.0254."
+    },
     "last_updated": "2026-11-06",
     "latest_event": {
       "confidence": "Inferred",
@@ -346,7 +404,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1324688-44acd8681ede",
+        "event_id": "1324688-97f42df2db6a",
         "event_type": "Awards Tier Changed",
         "film_id": "1324688",
         "importance": "Medium",
@@ -356,12 +414,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1324688-a9b0844fcb88",
+        "event_id": "1324688-95f4ac0ac251",
         "event_type": "Added To Database",
         "film_id": "1324688",
         "importance": "Low",
@@ -370,7 +428,7 @@
         },
         "source_type": "system",
         "summary": "7G Rainbow Colony 2 is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -413,7 +471,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1324688-44acd8681ede",
+        "event_id": "1324688-97f42df2db6a",
         "event_type": "Awards Tier Changed",
         "film_id": "1324688",
         "importance": "Medium",
@@ -423,12 +481,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1324688-a9b0844fcb88",
+        "event_id": "1324688-95f4ac0ac251",
         "event_type": "Added To Database",
         "film_id": "1324688",
         "importance": "Low",
@@ -437,7 +495,7 @@
         },
         "source_type": "system",
         "summary": "7G Rainbow Colony 2 is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -472,7 +530,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1324688-44acd8681ede",
+        "event_id": "1324688-97f42df2db6a",
         "event_type": "Awards Tier Changed",
         "film_id": "1324688",
         "importance": "Medium",
@@ -482,12 +540,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1324688-a9b0844fcb88",
+        "event_id": "1324688-95f4ac0ac251",
         "event_type": "Added To Database",
         "film_id": "1324688",
         "importance": "Low",
@@ -496,7 +554,7 @@
         },
         "source_type": "system",
         "summary": "7G Rainbow Colony 2 is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Added to Awards Intelligence"
       }
     ],

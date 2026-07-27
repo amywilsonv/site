@@ -31,7 +31,7 @@
         "status": "inferred"
       },
       {
-        "evidence": "TMDb popularity 7.602",
+        "evidence": "TMDb popularity 7.6526",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -64,7 +64,7 @@
     "homepage_spotlight_override": null,
     "homepage_spotlight_score": 76.9,
     "industry_interest": "High",
-    "last_updated": "20260722T161339Z",
+    "last_updated": "20260727T212511Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
@@ -167,7 +167,8 @@
       "Blur Studio",
       "Marza Animation Planet",
       "SEGA",
-      "SEGA of America"
+      "SEGA of America",
+      "Domain Entertainment"
     ]
   },
   "diagnostics": {
@@ -199,8 +200,11 @@
     "premiere_type": ""
   },
   "film_identity": {
-    "backdrop": "",
-    "country": [],
+    "backdrop": "https://image.tmdb.org/t/p/original/4Sh2c33WHf1KxX8UYuYLIroaVEv.jpg",
+    "country": [
+      "US",
+      "JP"
+    ],
     "genres": [
       "Comedy",
       "Action",
@@ -209,7 +213,7 @@
     ],
     "id": "1401586",
     "imdb_id": "",
-    "language": "",
+    "language": "en",
     "original_title": "Sonic the Hedgehog 4",
     "poster": "https://image.tmdb.org/t/p/original/t8uoHBODkFlSQJRL6qc4IclUBlH.jpg",
     "profile_payload_url": "data/films/1401586.json",
@@ -221,9 +225,60 @@
     "title": "Sonic the Hedgehog 4",
     "tmdb_id": "1401586"
   },
+  "intelligence": {
+    "confidence": "High",
+    "confidence_score": 0.85,
+    "generated_at": "2026-07-27T21:24:57Z",
+    "headline": "Sonic the Hedgehog 4: popularity signal available",
+    "metadata": {
+      "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
+      "signal_values": {
+        "legacy_dashboard_awards_category_count": 1,
+        "legacy_dashboard_awards_tier": "Emerging",
+        "legacy_dashboard_credited_talent_count": 9,
+        "legacy_dashboard_director_profile_present": true,
+        "legacy_dashboard_festival_award_count": 0,
+        "legacy_dashboard_festival_selection_count": 0,
+        "legacy_dashboard_festival_status": "",
+        "legacy_dashboard_precursor_award_count": 0,
+        "legacy_dashboard_principal_cast_count": 8,
+        "streaming_available_us": false,
+        "streaming_flatrate_provider_count_us": 0,
+        "streaming_provider_count_us": 0,
+        "tmdb_backdrop_count": 2,
+        "tmdb_canonical_trailer_available": false,
+        "tmdb_popularity": 7.6526,
+        "tmdb_poster_count": 7,
+        "tmdb_release_date_us_primary": "2027-03-19",
+        "tmdb_release_date_us_theatrical": "2027-03-19",
+        "tmdb_release_status": "Post Production",
+        "tmdb_vote_average": 0,
+        "tmdb_vote_count": 0,
+        "tmdb_watch_provider_count_us": 0,
+        "trailer_available": false,
+        "trailer_count": 1
+      },
+      "source_signal_count": 24,
+      "stale_signal_count": 0
+    },
+    "schema_version": "phase2b_intelligence_explanation_v1",
+    "summary": "TMDb popularity is 7.6526.",
+    "supporting_drivers": [
+      {
+        "confidence_weight": 0.65,
+        "driver_type": "popularity_observed",
+        "evidence": "TMDb popularity is 7.6526.",
+        "label": "Popularity signal available",
+        "retrieved_at": "2026-07-27T21:24:57Z",
+        "source_metric": "tmdb_popularity",
+        "source_provider": "tmdb",
+        "source_status": "available"
+      }
+    ]
+  },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260722T161339Z",
+    "generated_at": "20260727T212511Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -250,20 +305,8 @@
           "Family",
           "Craft Categories"
         ],
-        "title": "Coyote vs ACME",
+        "title": "Coyote vs. Acme",
         "tmdb_id": "1204680"
-      },
-      {
-        "profile_url": "film.html?id=1170608",
-        "relationship_score": 46,
-        "shared_signals": [
-          "Major Release",
-          "Action",
-          "Science Fiction",
-          "Craft Categories"
-        ],
-        "title": "Dune: Part Three",
-        "tmdb_id": "1170608"
       },
       {
         "profile_url": "film.html?id=1306322",
@@ -300,6 +343,18 @@
         ],
         "title": "The Hunger Games: Sunrise on the Reaping",
         "tmdb_id": "1300968"
+      },
+      {
+        "profile_url": "film.html?id=1078446",
+        "relationship_score": 46,
+        "shared_signals": [
+          "Major Release",
+          "Action",
+          "Comedy",
+          "Craft Categories"
+        ],
+        "title": "Violent Night 2",
+        "tmdb_id": "1078446"
       }
     ],
     "related_people": [
@@ -365,6 +420,11 @@
   },
   "signals": {
     "cultural_significance": 62.8,
+    "external_intelligence": {
+      "confidence": "High",
+      "headline": "Sonic the Hedgehog 4: popularity signal available",
+      "summary": "TMDb popularity is 7.6526."
+    },
     "last_updated": "2027-03-19",
     "latest_event": {
       "confidence": "Inferred",
@@ -401,7 +461,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1401586-12d2be88bcf5",
+        "event_id": "1401586-73c55f9724aa",
         "event_type": "Distributor Change",
         "film_id": "1401586",
         "importance": "Medium",
@@ -410,12 +470,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Paramount Pictures.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Distributor set: Paramount Pictures"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1401586-520eaa99663c",
+        "event_id": "1401586-c5faebdf33af",
         "event_type": "Awards Tier Changed",
         "film_id": "1401586",
         "importance": "Medium",
@@ -427,7 +487,7 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: Emerging"
       }
     ],
@@ -472,7 +532,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1401586-12d2be88bcf5",
+        "event_id": "1401586-73c55f9724aa",
         "event_type": "Distributor Change",
         "film_id": "1401586",
         "importance": "Medium",
@@ -481,12 +541,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Paramount Pictures.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Distributor set: Paramount Pictures"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1401586-520eaa99663c",
+        "event_id": "1401586-c5faebdf33af",
         "event_type": "Awards Tier Changed",
         "film_id": "1401586",
         "importance": "Medium",
@@ -498,12 +558,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1401586-104d388282ab",
+        "event_id": "1401586-6d14fa53de17",
         "event_type": "Added To Database",
         "film_id": "1401586",
         "importance": "Low",
@@ -512,7 +572,7 @@
         },
         "source_type": "system",
         "summary": "Sonic the Hedgehog 4 is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -547,7 +607,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1401586-12d2be88bcf5",
+        "event_id": "1401586-73c55f9724aa",
         "event_type": "Distributor Change",
         "film_id": "1401586",
         "importance": "Medium",
@@ -556,12 +616,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Paramount Pictures.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Distributor set: Paramount Pictures"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1401586-520eaa99663c",
+        "event_id": "1401586-c5faebdf33af",
         "event_type": "Awards Tier Changed",
         "film_id": "1401586",
         "importance": "Medium",
@@ -573,7 +633,7 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: Emerging"
       }
     ],

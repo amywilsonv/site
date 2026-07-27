@@ -16,7 +16,7 @@
     },
     {
       "confidence": "Inferred",
-      "event_id": "1422041-bee964fb2286",
+      "event_id": "1422041-2c619670f154",
       "event_type": "Distributor Change",
       "film_id": "1422041",
       "importance": "Medium",
@@ -25,12 +25,12 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Netflix.",
-      "timestamp": "2026-07-22T16:13:39Z",
+      "timestamp": "2026-07-27T21:25:11Z",
       "title": "Distributor set: Netflix"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1422041-c9f631375c7e",
+      "event_id": "1422041-0ef91f8e400a",
       "event_type": "Awards Tier Changed",
       "film_id": "1422041",
       "importance": "Medium",
@@ -45,12 +45,12 @@
       },
       "source_type": "editorial_model",
       "summary": "insufficient credible awards evidence",
-      "timestamp": "2026-07-22T16:13:39Z",
+      "timestamp": "2026-07-27T21:25:11Z",
       "title": "Awards tier assigned: No Current Awards Case"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1422041-0a8123341b2b",
+      "event_id": "1422041-c8689c042cce",
       "event_type": "Added To Database",
       "film_id": "1422041",
       "importance": "Low",
@@ -59,7 +59,7 @@
       },
       "source_type": "system",
       "summary": "La Bola Negra is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-07-22T16:13:39Z",
+      "timestamp": "2026-07-27T21:25:11Z",
       "title": "Added to Awards Intelligence"
     },
     {
@@ -94,7 +94,7 @@
   "metadata": {
     "event_count": 5,
     "film_id": "1422041",
-    "generated_at": "20260722T161339Z",
+    "generated_at": "20260727T212511Z",
     "timeline_version": "phase6b",
     "title": "La Bola Negra",
     "tmdb_id": "1422041"

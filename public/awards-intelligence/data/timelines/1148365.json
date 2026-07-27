@@ -16,7 +16,7 @@
     },
     {
       "confidence": "Inferred",
-      "event_id": "1148365-438c80af2831",
+      "event_id": "1148365-91ce6bac3a47",
       "event_type": "Distributor Change",
       "film_id": "1148365",
       "importance": "Medium",
@@ -25,12 +25,12 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Apple TV.",
-      "timestamp": "2026-07-22T16:13:39Z",
+      "timestamp": "2026-07-27T21:25:11Z",
       "title": "Distributor set: Apple TV"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1148365-44c630d60583",
+      "event_id": "1148365-2d989e7ddbf6",
       "event_type": "Awards Tier Changed",
       "film_id": "1148365",
       "importance": "Medium",
@@ -42,12 +42,12 @@
       },
       "source_type": "editorial_model",
       "summary": "insufficient credible awards evidence",
-      "timestamp": "2026-07-22T16:13:39Z",
+      "timestamp": "2026-07-27T21:25:11Z",
       "title": "Awards tier assigned: No Current Awards Case"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1148365-b3aaaa9dd6ef",
+      "event_id": "1148365-71b5f3c46d2b",
       "event_type": "Added To Database",
       "film_id": "1148365",
       "importance": "Low",
@@ -55,8 +55,8 @@
         "profile_version": "phase6a"
       },
       "source_type": "system",
-      "summary": "Matchbox is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-07-22T16:13:39Z",
+      "summary": "Matchbox: The Movie is tracked in the Film Intelligence profile set.",
+      "timestamp": "2026-07-27T21:25:11Z",
       "title": "Added to Awards Intelligence"
     }
   ],
@@ -77,9 +77,9 @@
   "metadata": {
     "event_count": 4,
     "film_id": "1148365",
-    "generated_at": "20260722T161339Z",
+    "generated_at": "20260727T212511Z",
     "timeline_version": "phase6b",
-    "title": "Matchbox",
+    "title": "Matchbox: The Movie",
     "tmdb_id": "1148365"
   }
 }

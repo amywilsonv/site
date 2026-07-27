@@ -8,7 +8,7 @@
       "Event Release",
       "Awards Watch"
     ],
-    "attention_score": 77.5,
+    "attention_score": 78.0,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -31,13 +31,13 @@
         "status": "inferred"
       },
       {
-        "evidence": "Principal cast listed: Joseph Zada, Mckenna Grace, Jesse Plemons, Elle Fanning",
-        "source": "cast_interest",
+        "evidence": "TMDb popularity 6.2975",
+        "source": "audience_popularity",
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 5.708",
-        "source": "audience_popularity",
+        "evidence": "Principal cast listed: Joseph Zada, Mckenna Grace, Jesse Plemons, Elle Fanning",
+        "source": "cast_interest",
         "status": "verified"
       },
       {
@@ -62,14 +62,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 77.5,
+    "homepage_spotlight_score": 78.0,
     "industry_interest": "High",
-    "last_updated": "20260722T161339Z",
+    "last_updated": "20260727T212511Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
         "evidence_count": 2,
-        "score": 14.2,
+        "score": 14.7,
         "statuses": [
           "verified"
         ]
@@ -195,8 +195,10 @@
     "premiere_type": ""
   },
   "film_identity": {
-    "backdrop": "",
-    "country": [],
+    "backdrop": "https://image.tmdb.org/t/p/original/aqFZcr2dxSZ2UwWSo1WC6C0rwDf.jpg",
+    "country": [
+      "US"
+    ],
     "genres": [
       "Science Fiction",
       "Action",
@@ -204,7 +206,7 @@
     ],
     "id": "1300968",
     "imdb_id": "",
-    "language": "",
+    "language": "en",
     "original_title": "The Hunger Games: Sunrise on the Reaping",
     "poster": "https://image.tmdb.org/t/p/original/ffJaYMtB6v1TrvkyhCOqwqCKm0o.jpg",
     "profile_payload_url": "data/films/1300968.json",
@@ -216,9 +218,72 @@
     "title": "The Hunger Games: Sunrise on the Reaping",
     "tmdb_id": "1300968"
   },
+  "intelligence": {
+    "confidence": "High",
+    "confidence_score": 0.99,
+    "generated_at": "2026-07-27T21:24:57Z",
+    "headline": "The Hunger Games: Sunrise on the Reaping: popularity signal available",
+    "metadata": {
+      "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
+      "signal_values": {
+        "legacy_dashboard_awards_category_count": 1,
+        "legacy_dashboard_awards_tier": "Emerging",
+        "legacy_dashboard_credited_talent_count": 9,
+        "legacy_dashboard_director_profile_present": true,
+        "legacy_dashboard_festival_award_count": 0,
+        "legacy_dashboard_festival_selection_count": 0,
+        "legacy_dashboard_festival_status": "",
+        "legacy_dashboard_precursor_award_count": 0,
+        "legacy_dashboard_principal_cast_count": 8,
+        "streaming_available_us": false,
+        "streaming_flatrate_provider_count_us": 0,
+        "streaming_provider_count_us": 0,
+        "tmdb_backdrop_count": 8,
+        "tmdb_canonical_trailer_available": true,
+        "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=fS35YSjopjE",
+        "tmdb_popularity": 6.2975,
+        "tmdb_poster_count": 19,
+        "tmdb_release_date_us_primary": "2026-11-20",
+        "tmdb_release_date_us_theatrical": "2026-11-20",
+        "tmdb_release_status": "Post Production",
+        "tmdb_vote_average": 0,
+        "tmdb_vote_count": 0,
+        "tmdb_watch_provider_count_us": 0,
+        "trailer_available": true,
+        "trailer_count": 31,
+        "trailer_url": "https://www.youtube.com/watch?v=fS35YSjopjE"
+      },
+      "source_signal_count": 26,
+      "stale_signal_count": 0
+    },
+    "schema_version": "phase2b_intelligence_explanation_v1",
+    "summary": "TMDb popularity is 6.2975. A canonical TMDb trailer URL is available.",
+    "supporting_drivers": [
+      {
+        "confidence_weight": 0.65,
+        "driver_type": "popularity_observed",
+        "evidence": "TMDb popularity is 6.2975.",
+        "label": "Popularity signal available",
+        "retrieved_at": "2026-07-27T21:24:57Z",
+        "source_metric": "tmdb_popularity",
+        "source_provider": "tmdb",
+        "source_status": "available"
+      },
+      {
+        "confidence_weight": 0.85,
+        "driver_type": "trailer_available",
+        "evidence": "A canonical TMDb trailer URL is available.",
+        "label": "Trailer available",
+        "retrieved_at": "2026-07-27T21:24:57Z",
+        "source_metric": "tmdb_canonical_trailer_url",
+        "source_provider": "tmdb",
+        "source_status": "available"
+      }
+    ]
+  },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260722T161339Z",
+    "generated_at": "20260727T212511Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -237,18 +302,6 @@
         "tmdb_id": "1003596"
       },
       {
-        "profile_url": "film.html?id=1170608",
-        "relationship_score": 52,
-        "shared_signals": [
-          "Major Release",
-          "Action",
-          "Adventure",
-          "Craft Categories"
-        ],
-        "title": "Dune: Part Three",
-        "tmdb_id": "1170608"
-      },
-      {
         "profile_url": "film.html?id=969681",
         "relationship_score": 52,
         "shared_signals": [
@@ -259,6 +312,18 @@
         ],
         "title": "Spider-Man: Brand New Day",
         "tmdb_id": "969681"
+      },
+      {
+        "profile_url": "film.html?id=1170608",
+        "relationship_score": 46,
+        "shared_signals": [
+          "Major Release",
+          "Adventure",
+          "Science Fiction",
+          "Craft Categories"
+        ],
+        "title": "Dune: Part Three",
+        "tmdb_id": "1170608"
       },
       {
         "profile_url": "film.html?id=1401586",
@@ -348,6 +413,11 @@
   },
   "signals": {
     "cultural_significance": 62.8,
+    "external_intelligence": {
+      "confidence": "High",
+      "headline": "The Hunger Games: Sunrise on the Reaping: popularity signal available",
+      "summary": "TMDb popularity is 6.2975. A canonical TMDb trailer URL is available."
+    },
     "last_updated": "2026-11-20",
     "latest_event": {
       "confidence": "Inferred",
@@ -384,7 +454,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1300968-4ae9c49dc08f",
+        "event_id": "1300968-f67b238bc35d",
         "event_type": "Distributor Change",
         "film_id": "1300968",
         "importance": "Medium",
@@ -393,12 +463,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Lionsgate.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Distributor set: Lionsgate"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1300968-a594667e6ac5",
+        "event_id": "1300968-d3e0e6bbfa0f",
         "event_type": "Awards Tier Changed",
         "film_id": "1300968",
         "importance": "Medium",
@@ -410,7 +480,7 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: Emerging"
       }
     ],
@@ -457,7 +527,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1300968-4ae9c49dc08f",
+        "event_id": "1300968-f67b238bc35d",
         "event_type": "Distributor Change",
         "film_id": "1300968",
         "importance": "Medium",
@@ -466,12 +536,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Lionsgate.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Distributor set: Lionsgate"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1300968-a594667e6ac5",
+        "event_id": "1300968-d3e0e6bbfa0f",
         "event_type": "Awards Tier Changed",
         "film_id": "1300968",
         "importance": "Medium",
@@ -483,12 +553,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1300968-ab3e87e638f2",
+        "event_id": "1300968-ffec7568fb61",
         "event_type": "Added To Database",
         "film_id": "1300968",
         "importance": "Low",
@@ -497,7 +567,7 @@
         },
         "source_type": "system",
         "summary": "The Hunger Games: Sunrise on the Reaping is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -532,7 +602,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1300968-4ae9c49dc08f",
+        "event_id": "1300968-f67b238bc35d",
         "event_type": "Distributor Change",
         "film_id": "1300968",
         "importance": "Medium",
@@ -541,12 +611,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Lionsgate.",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Distributor set: Lionsgate"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1300968-a594667e6ac5",
+        "event_id": "1300968-d3e0e6bbfa0f",
         "event_type": "Awards Tier Changed",
         "film_id": "1300968",
         "importance": "Medium",
@@ -558,7 +628,7 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-07-22T16:13:39Z",
+        "timestamp": "2026-07-27T21:25:11Z",
         "title": "Awards tier assigned: Emerging"
       }
     ],
