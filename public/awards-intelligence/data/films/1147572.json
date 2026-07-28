@@ -8,7 +8,7 @@
       "Event Release",
       "Awards Watch"
     ],
-    "attention_score": 56.2,
+    "attention_score": 56.5,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -31,7 +31,7 @@
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 3.3731",
+        "evidence": "TMDb popularity 3.6078",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -57,14 +57,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 56.2,
+    "homepage_spotlight_score": 56.5,
     "industry_interest": null,
-    "last_updated": "20260727T212511Z",
+    "last_updated": "20260728T154145Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
         "evidence_count": 1,
-        "score": 7.6,
+        "score": 7.9,
         "statuses": [
           "verified"
         ]
@@ -217,7 +217,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.85,
-    "generated_at": "2026-07-27T21:24:57Z",
+    "generated_at": "2026-07-28T15:41:25Z",
     "headline": "Narnia: The Magician's Nephew: popularity signal available",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -236,7 +236,7 @@
         "streaming_provider_count_us": 0,
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": false,
-        "tmdb_popularity": 3.3731,
+        "tmdb_popularity": 3.6078,
         "tmdb_poster_count": 5,
         "tmdb_release_date_us_primary": "2027-02-12",
         "tmdb_release_date_us_theatrical": "2027-02-12",
@@ -251,14 +251,14 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity is 3.3731.",
+    "summary": "TMDb popularity is 3.6078.",
     "supporting_drivers": [
       {
         "confidence_weight": 0.65,
         "driver_type": "popularity_observed",
-        "evidence": "TMDb popularity is 3.3731.",
+        "evidence": "TMDb popularity is 3.6078.",
         "label": "Popularity signal available",
-        "retrieved_at": "2026-07-27T21:24:57Z",
+        "retrieved_at": "2026-07-28T15:41:25Z",
         "source_metric": "tmdb_popularity",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -267,7 +267,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260727T212511Z",
+    "generated_at": "20260728T154145Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -391,7 +391,7 @@
     "external_intelligence": {
       "confidence": "High",
       "headline": "Narnia: The Magician's Nephew: popularity signal available",
-      "summary": "TMDb popularity is 3.3731."
+      "summary": "TMDb popularity is 3.6078."
     },
     "last_updated": "2027-02-12",
     "latest_event": {
@@ -429,7 +429,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1147572-3883aadb6a51",
+        "event_id": "1147572-c614c7141663",
         "event_type": "Distributor Change",
         "film_id": "1147572",
         "importance": "Medium",
@@ -438,12 +438,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1147572-f4dc891ea358",
+        "event_id": "1147572-7e5cd9586683",
         "event_type": "Awards Tier Changed",
         "film_id": "1147572",
         "importance": "Medium",
@@ -455,7 +455,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],
@@ -500,7 +500,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1147572-3883aadb6a51",
+        "event_id": "1147572-c614c7141663",
         "event_type": "Distributor Change",
         "film_id": "1147572",
         "importance": "Medium",
@@ -509,12 +509,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1147572-f4dc891ea358",
+        "event_id": "1147572-7e5cd9586683",
         "event_type": "Awards Tier Changed",
         "film_id": "1147572",
         "importance": "Medium",
@@ -526,12 +526,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1147572-0d9efe679013",
+        "event_id": "1147572-6200b96681b0",
         "event_type": "Added To Database",
         "film_id": "1147572",
         "importance": "Low",
@@ -540,7 +540,7 @@
         },
         "source_type": "system",
         "summary": "Narnia: The Magician's Nephew is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -575,7 +575,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1147572-3883aadb6a51",
+        "event_id": "1147572-c614c7141663",
         "event_type": "Distributor Change",
         "film_id": "1147572",
         "importance": "Medium",
@@ -584,12 +584,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1147572-f4dc891ea358",
+        "event_id": "1147572-7e5cd9586683",
         "event_type": "Awards Tier Changed",
         "film_id": "1147572",
         "importance": "Medium",
@@ -601,7 +601,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],

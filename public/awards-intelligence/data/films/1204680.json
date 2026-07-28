@@ -8,11 +8,11 @@
       "Event Release",
       "Awards Watch"
     ],
-    "attention_score": 84.4,
+    "attention_score": 86.4,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
-    "cultural_relevance": "Moderate",
+    "cultural_relevance": "High",
     "early_reception": null,
     "evidence_sources": [
       {
@@ -26,7 +26,7 @@
         "status": "inferred"
       },
       {
-        "evidence": "TMDb popularity 9.7115",
+        "evidence": "TMDb popularity 10.3211",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -67,21 +67,21 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 84.4,
+    "homepage_spotlight_score": 86.4,
     "industry_interest": "High",
-    "last_updated": "20260727T212511Z",
+    "last_updated": "20260728T154145Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
         "evidence_count": 2,
-        "score": 16.6,
+        "score": 16.9,
         "statuses": [
           "verified"
         ]
       },
       "commercial": {
         "evidence_count": 1,
-        "score": 16.3,
+        "score": 18.0,
         "statuses": [
           "inferred"
         ]
@@ -162,7 +162,7 @@
     "probabilities": {}
   },
   "commercial": {
-    "commercial_significance": 62.8,
+    "commercial_significance": 71.0,
     "distributor": "Warner Bros. Pictures",
     "franchise": "Franchise/Event",
     "release_strategy": "Wide commercial release",
@@ -188,7 +188,7 @@
     "editorial_category": "Major Release",
     "editorial_summary": "Upcoming Dave Green film with Craft Categories monitoring value.",
     "importance_tier": "Monitoring",
-    "primary_story": "franchise/event-release signal; major studio or streamer scale; filmmaker attached to large-scale release",
+    "primary_story": "franchise/event-release signal; major studio or streamer scale; moderate TMDb popularity; filmmaker attached to large-scale release",
     "story_strength": "Strong",
     "why_it_matters": "Upcoming Dave Green film with Craft Categories monitoring value."
   },
@@ -226,7 +226,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-07-27T21:24:57Z",
+    "generated_at": "2026-07-28T15:41:25Z",
     "headline": "Coyote vs. Acme: release approaching",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -246,7 +246,7 @@
         "tmdb_backdrop_count": 6,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=kMsiD1Nky5I",
-        "tmdb_popularity": 9.7115,
+        "tmdb_popularity": 10.3211,
         "tmdb_poster_count": 16,
         "tmdb_release_date_us_primary": "2026-08-28",
         "tmdb_release_date_us_theatrical": "2026-08-28",
@@ -262,14 +262,14 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity is 9.7115. US release is 39 days away on 2026-08-28. A canonical TMDb trailer URL is available.",
+    "summary": "TMDb popularity is 10.3211. US release is 39 days away on 2026-08-28. A canonical TMDb trailer URL is available.",
     "supporting_drivers": [
       {
         "confidence_weight": 0.65,
         "driver_type": "popularity_observed",
-        "evidence": "TMDb popularity is 9.7115.",
+        "evidence": "TMDb popularity is 10.3211.",
         "label": "Popularity signal available",
-        "retrieved_at": "2026-07-27T21:24:57Z",
+        "retrieved_at": "2026-07-28T15:41:25Z",
         "source_metric": "tmdb_popularity",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -279,7 +279,7 @@
         "driver_type": "release_approaching",
         "evidence": "US release is 39 days away on 2026-08-28.",
         "label": "Release approaching",
-        "retrieved_at": "2026-07-27T21:24:57Z",
+        "retrieved_at": "2026-07-28T15:41:25Z",
         "source_metric": "tmdb_release_date_us_primary",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -289,7 +289,7 @@
         "driver_type": "trailer_available",
         "evidence": "A canonical TMDb trailer URL is available.",
         "label": "Trailer available",
-        "retrieved_at": "2026-07-27T21:24:57Z",
+        "retrieved_at": "2026-07-28T15:41:25Z",
         "source_metric": "tmdb_canonical_trailer_url",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -298,7 +298,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260727T212511Z",
+    "generated_at": "20260728T154145Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -428,11 +428,11 @@
     ]
   },
   "signals": {
-    "cultural_significance": 62.8,
+    "cultural_significance": 71.0,
     "external_intelligence": {
       "confidence": "High",
       "headline": "Coyote vs. Acme: release approaching",
-      "summary": "TMDb popularity is 9.7115. US release is 39 days away on 2026-08-28. A canonical TMDb trailer URL is available."
+      "summary": "TMDb popularity is 10.3211. US release is 39 days away on 2026-08-28. A canonical TMDb trailer URL is available."
     },
     "last_updated": "2026-08-28",
     "latest_event": {
@@ -470,7 +470,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1204680-ddda38330e5f",
+        "event_id": "1204680-2aec0fd2d6e4",
         "event_type": "Distributor Change",
         "film_id": "1204680",
         "importance": "Medium",
@@ -479,12 +479,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Warner Bros. Pictures.",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Distributor set: Warner Bros. Pictures"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1204680-978a537fcf13",
+        "event_id": "1204680-bf9b26e65137",
         "event_type": "Awards Tier Changed",
         "film_id": "1204680",
         "importance": "Medium",
@@ -496,11 +496,11 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Awards tier assigned: Emerging"
       }
     ],
-    "release_relevance": 46.8,
+    "release_relevance": 48.6,
     "watch_triggers": [
       "Major Studio/Streamer",
       "Franchise/Event",
@@ -542,7 +542,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1204680-ddda38330e5f",
+        "event_id": "1204680-2aec0fd2d6e4",
         "event_type": "Distributor Change",
         "film_id": "1204680",
         "importance": "Medium",
@@ -551,12 +551,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Warner Bros. Pictures.",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Distributor set: Warner Bros. Pictures"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1204680-978a537fcf13",
+        "event_id": "1204680-bf9b26e65137",
         "event_type": "Awards Tier Changed",
         "film_id": "1204680",
         "importance": "Medium",
@@ -568,12 +568,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1204680-07c825151003",
+        "event_id": "1204680-c2ee47bfcfba",
         "event_type": "Added To Database",
         "film_id": "1204680",
         "importance": "Low",
@@ -582,7 +582,7 @@
         },
         "source_type": "system",
         "summary": "Coyote vs. Acme is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -617,7 +617,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1204680-ddda38330e5f",
+        "event_id": "1204680-2aec0fd2d6e4",
         "event_type": "Distributor Change",
         "film_id": "1204680",
         "importance": "Medium",
@@ -626,12 +626,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Warner Bros. Pictures.",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Distributor set: Warner Bros. Pictures"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1204680-978a537fcf13",
+        "event_id": "1204680-bf9b26e65137",
         "event_type": "Awards Tier Changed",
         "film_id": "1204680",
         "importance": "Medium",
@@ -643,7 +643,7 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Awards tier assigned: Emerging"
       }
     ],

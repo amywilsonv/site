@@ -6,7 +6,7 @@
       "Most Anticipated",
       "Event Release"
     ],
-    "attention_score": 29.0,
+    "attention_score": 29.6,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -34,20 +34,20 @@
         "status": "inferred"
       },
       {
-        "evidence": "TMDb popularity 0.1331",
+        "evidence": "TMDb popularity 0.2599",
         "source": "audience_popularity",
         "status": "verified"
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 29.0,
+    "homepage_spotlight_score": 29.6,
     "industry_interest": null,
-    "last_updated": "20260727T212511Z",
+    "last_updated": "20260728T154145Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
         "evidence_count": 1,
-        "score": 0.6,
+        "score": 1.2,
         "statuses": [
           "verified"
         ]
@@ -187,7 +187,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-07-27T21:24:57Z",
+    "generated_at": "2026-07-28T15:41:25Z",
     "headline": "The Secret Woman: release approaching",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -206,7 +206,7 @@
         "streaming_provider_count_us": 0,
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": false,
-        "tmdb_popularity": 0.1331,
+        "tmdb_popularity": 0.2599,
         "tmdb_poster_count": 0,
         "tmdb_release_date_us_primary": "2026-08-28",
         "tmdb_release_date_us_theatrical": "",
@@ -221,14 +221,14 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity is 0.1331. US release is 39 days away on 2026-08-28.",
+    "summary": "TMDb popularity is 0.2599. US release is 39 days away on 2026-08-28.",
     "supporting_drivers": [
       {
         "confidence_weight": 0.65,
         "driver_type": "popularity_observed",
-        "evidence": "TMDb popularity is 0.1331.",
+        "evidence": "TMDb popularity is 0.2599.",
         "label": "Popularity signal available",
-        "retrieved_at": "2026-07-27T21:24:57Z",
+        "retrieved_at": "2026-07-28T15:41:25Z",
         "source_metric": "tmdb_popularity",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -238,7 +238,7 @@
         "driver_type": "release_approaching",
         "evidence": "US release is 39 days away on 2026-08-28.",
         "label": "Release approaching",
-        "retrieved_at": "2026-07-27T21:24:57Z",
+        "retrieved_at": "2026-07-28T15:41:25Z",
         "source_metric": "tmdb_release_date_us_primary",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -247,7 +247,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260727T212511Z",
+    "generated_at": "20260728T154145Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -339,7 +339,7 @@
     "external_intelligence": {
       "confidence": "High",
       "headline": "The Secret Woman: release approaching",
-      "summary": "TMDb popularity is 0.1331. US release is 39 days away on 2026-08-28."
+      "summary": "TMDb popularity is 0.2599. US release is 39 days away on 2026-08-28."
     },
     "last_updated": "2026-08-28",
     "latest_event": {
@@ -377,7 +377,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1631807-f6f31925d416",
+        "event_id": "1631807-85d413dba262",
         "event_type": "Distributor Change",
         "film_id": "1631807",
         "importance": "Medium",
@@ -386,12 +386,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1631807-9fdbe3228814",
+        "event_id": "1631807-6a88fb0e3823",
         "event_type": "Awards Tier Changed",
         "film_id": "1631807",
         "importance": "Medium",
@@ -405,7 +405,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],
@@ -441,7 +441,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1631807-f6f31925d416",
+        "event_id": "1631807-85d413dba262",
         "event_type": "Distributor Change",
         "film_id": "1631807",
         "importance": "Medium",
@@ -450,12 +450,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1631807-9fdbe3228814",
+        "event_id": "1631807-6a88fb0e3823",
         "event_type": "Awards Tier Changed",
         "film_id": "1631807",
         "importance": "Medium",
@@ -469,12 +469,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1631807-39afbca9952f",
+        "event_id": "1631807-c142bbadac0e",
         "event_type": "Added To Database",
         "film_id": "1631807",
         "importance": "Low",
@@ -483,7 +483,7 @@
         },
         "source_type": "system",
         "summary": "The Secret Woman is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -518,7 +518,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1631807-f6f31925d416",
+        "event_id": "1631807-85d413dba262",
         "event_type": "Distributor Change",
         "film_id": "1631807",
         "importance": "Medium",
@@ -527,12 +527,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1631807-9fdbe3228814",
+        "event_id": "1631807-6a88fb0e3823",
         "event_type": "Awards Tier Changed",
         "film_id": "1631807",
         "importance": "Medium",
@@ -546,7 +546,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],

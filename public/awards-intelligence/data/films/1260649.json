@@ -8,7 +8,7 @@
       "Event Release",
       "Awards Watch"
     ],
-    "attention_score": 72.7,
+    "attention_score": 73.3,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -31,13 +31,13 @@
         "status": "inferred"
       },
       {
-        "evidence": "Principal cast listed: Dwayne Johnson, Kevin Hart, Jack Black, Karen Gillan",
-        "source": "cast_interest",
+        "evidence": "TMDb popularity 5.9002",
+        "source": "audience_popularity",
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 5.2008",
-        "source": "audience_popularity",
+        "evidence": "Principal cast listed: Dwayne Johnson, Kevin Hart, Jack Black, Karen Gillan",
+        "source": "cast_interest",
         "status": "verified"
       },
       {
@@ -57,14 +57,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 72.7,
+    "homepage_spotlight_score": 73.3,
     "industry_interest": "High",
-    "last_updated": "20260727T212511Z",
+    "last_updated": "20260728T154145Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
         "evidence_count": 1,
-        "score": 9.4,
+        "score": 10.0,
         "statuses": [
           "verified"
         ]
@@ -217,7 +217,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.85,
-    "generated_at": "2026-07-27T21:24:57Z",
+    "generated_at": "2026-07-28T15:41:25Z",
     "headline": "Jumanji: Open World: popularity signal available",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -236,7 +236,7 @@
         "streaming_provider_count_us": 0,
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": false,
-        "tmdb_popularity": 5.2008,
+        "tmdb_popularity": 5.9002,
         "tmdb_poster_count": 0,
         "tmdb_release_date_us_primary": "2026-12-25",
         "tmdb_release_date_us_theatrical": "2026-12-25",
@@ -251,14 +251,14 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity is 5.2008.",
+    "summary": "TMDb popularity is 5.9002.",
     "supporting_drivers": [
       {
         "confidence_weight": 0.65,
         "driver_type": "popularity_observed",
-        "evidence": "TMDb popularity is 5.2008.",
+        "evidence": "TMDb popularity is 5.9002.",
         "label": "Popularity signal available",
-        "retrieved_at": "2026-07-27T21:24:57Z",
+        "retrieved_at": "2026-07-28T15:41:25Z",
         "source_metric": "tmdb_popularity",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -267,7 +267,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260727T212511Z",
+    "generated_at": "20260728T154145Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -404,7 +404,7 @@
     "external_intelligence": {
       "confidence": "High",
       "headline": "Jumanji: Open World: popularity signal available",
-      "summary": "TMDb popularity is 5.2008."
+      "summary": "TMDb popularity is 5.9002."
     },
     "last_updated": "2026-12-25",
     "latest_event": {
@@ -442,7 +442,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1260649-217a8d10c821",
+        "event_id": "1260649-866c3396c670",
         "event_type": "Distributor Change",
         "film_id": "1260649",
         "importance": "Medium",
@@ -451,12 +451,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Columbia Pictures.",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Distributor set: Columbia Pictures"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1260649-04a6fd7d3bbd",
+        "event_id": "1260649-56743843222f",
         "event_type": "Awards Tier Changed",
         "film_id": "1260649",
         "importance": "Medium",
@@ -468,7 +468,7 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Awards tier assigned: Emerging"
       }
     ],
@@ -514,7 +514,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1260649-217a8d10c821",
+        "event_id": "1260649-866c3396c670",
         "event_type": "Distributor Change",
         "film_id": "1260649",
         "importance": "Medium",
@@ -523,12 +523,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Columbia Pictures.",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Distributor set: Columbia Pictures"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1260649-04a6fd7d3bbd",
+        "event_id": "1260649-56743843222f",
         "event_type": "Awards Tier Changed",
         "film_id": "1260649",
         "importance": "Medium",
@@ -540,12 +540,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1260649-eb2a3b5aa3ac",
+        "event_id": "1260649-cc1aed3cd95b",
         "event_type": "Added To Database",
         "film_id": "1260649",
         "importance": "Low",
@@ -554,7 +554,7 @@
         },
         "source_type": "system",
         "summary": "Jumanji: Open World is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -589,7 +589,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1260649-217a8d10c821",
+        "event_id": "1260649-866c3396c670",
         "event_type": "Distributor Change",
         "film_id": "1260649",
         "importance": "Medium",
@@ -598,12 +598,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Columbia Pictures.",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Distributor set: Columbia Pictures"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1260649-04a6fd7d3bbd",
+        "event_id": "1260649-56743843222f",
         "event_type": "Awards Tier Changed",
         "film_id": "1260649",
         "importance": "Medium",
@@ -615,7 +615,7 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Awards tier assigned: Emerging"
       }
     ],

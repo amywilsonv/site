@@ -16,7 +16,7 @@
     },
     {
       "confidence": "Inferred",
-      "event_id": "911916-f0b8460de525",
+      "event_id": "911916-a85315eb6fac",
       "event_type": "Distributor Change",
       "film_id": "911916",
       "importance": "Medium",
@@ -25,12 +25,12 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Columbia Pictures.",
-      "timestamp": "2026-07-27T21:25:11Z",
+      "timestamp": "2026-07-28T15:41:45Z",
       "title": "Distributor set: Columbia Pictures"
     },
     {
       "confidence": "Inferred",
-      "event_id": "911916-d97aef6defa6",
+      "event_id": "911916-d4946b0b5960",
       "event_type": "Awards Tier Changed",
       "film_id": "911916",
       "importance": "Medium",
@@ -44,12 +44,12 @@
       },
       "source_type": "editorial_model",
       "summary": "category-specific awards case without broader contender evidence",
-      "timestamp": "2026-07-27T21:25:11Z",
+      "timestamp": "2026-07-28T15:41:45Z",
       "title": "Awards tier assigned: Category Contender"
     },
     {
       "confidence": "Inferred",
-      "event_id": "911916-9c44e7dbdf64",
+      "event_id": "911916-938ade294a44",
       "event_type": "Added To Database",
       "film_id": "911916",
       "importance": "Low",
@@ -58,7 +58,7 @@
       },
       "source_type": "system",
       "summary": "Spider-Man: Beyond the Spider-Verse is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-07-27T21:25:11Z",
+      "timestamp": "2026-07-28T15:41:45Z",
       "title": "Added to Awards Intelligence"
     }
   ],
@@ -79,7 +79,7 @@
   "metadata": {
     "event_count": 4,
     "film_id": "911916",
-    "generated_at": "20260727T212511Z",
+    "generated_at": "20260728T154145Z",
     "timeline_version": "phase6b",
     "title": "Spider-Man: Beyond the Spider-Verse",
     "tmdb_id": "911916"

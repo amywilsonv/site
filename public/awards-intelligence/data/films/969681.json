@@ -16,7 +16,7 @@
     "early_reception": null,
     "evidence_sources": [
       {
-        "evidence": "TMDb popularity 211.904",
+        "evidence": "TMDb popularity 271.502",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -61,7 +61,7 @@
         "status": "inferred"
       },
       {
-        "evidence": "14",
+        "evidence": "19",
         "source": "tmdb_vote_count",
         "status": "verified"
       }
@@ -69,7 +69,7 @@
     "homepage_spotlight_override": null,
     "homepage_spotlight_score": 96.4,
     "industry_interest": "High",
-    "last_updated": "20260727T212511Z",
+    "last_updated": "20260728T154145Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
@@ -199,7 +199,7 @@
     "premiere_type": ""
   },
   "film_identity": {
-    "backdrop": "https://image.tmdb.org/t/p/original/vjMvFSmGUxEtqVdaZgvFee9XkZl.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/kbvNLChuMl2nyAzPZvqkD8hZGZn.jpg",
     "country": [
       "US"
     ],
@@ -225,7 +225,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-07-27T21:24:57Z",
+    "generated_at": "2026-07-28T15:41:25Z",
     "headline": "Spider-Man: Brand New Day: release approaching",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -245,30 +245,30 @@
         "tmdb_backdrop_count": 2,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=P3uI5sLosKU",
-        "tmdb_popularity": 211.9043,
-        "tmdb_poster_count": 68,
+        "tmdb_popularity": 271.502,
+        "tmdb_poster_count": 69,
         "tmdb_release_date_us_primary": "2026-07-31",
         "tmdb_release_date_us_theatrical": "2026-07-31",
         "tmdb_release_status": "Released",
-        "tmdb_vote_average": 9.1,
-        "tmdb_vote_count": 14,
+        "tmdb_vote_average": 8.132,
+        "tmdb_vote_count": 19,
         "tmdb_watch_provider_count_us": 0,
         "trailer_available": true,
-        "trailer_count": 122,
+        "trailer_count": 130,
         "trailer_url": "https://www.youtube.com/watch?v=P3uI5sLosKU"
       },
       "source_signal_count": 26,
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity is 211.904. US release is 11 days away on 2026-07-31. A canonical TMDb trailer URL is available.",
+    "summary": "TMDb popularity is 271.502. US release is 11 days away on 2026-07-31. A canonical TMDb trailer URL is available.",
     "supporting_drivers": [
       {
         "confidence_weight": 0.65,
         "driver_type": "popularity_observed",
-        "evidence": "TMDb popularity is 211.904.",
+        "evidence": "TMDb popularity is 271.502.",
         "label": "Popularity signal available",
-        "retrieved_at": "2026-07-27T21:24:57Z",
+        "retrieved_at": "2026-07-28T15:41:25Z",
         "source_metric": "tmdb_popularity",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -278,7 +278,7 @@
         "driver_type": "release_approaching",
         "evidence": "US release is 11 days away on 2026-07-31.",
         "label": "Release approaching",
-        "retrieved_at": "2026-07-27T21:24:57Z",
+        "retrieved_at": "2026-07-28T15:41:25Z",
         "source_metric": "tmdb_release_date_us_primary",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -288,7 +288,7 @@
         "driver_type": "trailer_available",
         "evidence": "A canonical TMDb trailer URL is available.",
         "label": "Trailer available",
-        "retrieved_at": "2026-07-27T21:24:57Z",
+        "retrieved_at": "2026-07-28T15:41:25Z",
         "source_metric": "tmdb_canonical_trailer_url",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -297,7 +297,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260727T212511Z",
+    "generated_at": "20260728T154145Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -434,7 +434,7 @@
     "external_intelligence": {
       "confidence": "High",
       "headline": "Spider-Man: Brand New Day: release approaching",
-      "summary": "TMDb popularity is 211.904. US release is 11 days away on 2026-07-31. A canonical TMDb trailer URL is available."
+      "summary": "TMDb popularity is 271.502. US release is 11 days away on 2026-07-31. A canonical TMDb trailer URL is available."
     },
     "last_updated": "2026-07-31",
     "latest_event": {
@@ -472,7 +472,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "969681-1f78ed91e7f3",
+        "event_id": "969681-5e1d76448768",
         "event_type": "Homepage Featured",
         "film_id": "969681",
         "importance": "Medium",
@@ -481,12 +481,12 @@
         },
         "source_type": "discovery_homepage",
         "summary": "Spider-Man: Brand New Day is currently selected for the homepage experience.",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Featured in The Screening Room"
       },
       {
         "confidence": "Inferred",
-        "event_id": "969681-cb2e914dfba7",
+        "event_id": "969681-ca0d705ae1e7",
         "event_type": "Distributor Change",
         "film_id": "969681",
         "importance": "Medium",
@@ -495,7 +495,7 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Columbia Pictures.",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Distributor set: Columbia Pictures"
       }
     ],
@@ -542,7 +542,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "969681-1f78ed91e7f3",
+        "event_id": "969681-5e1d76448768",
         "event_type": "Homepage Featured",
         "film_id": "969681",
         "importance": "Medium",
@@ -551,12 +551,12 @@
         },
         "source_type": "discovery_homepage",
         "summary": "Spider-Man: Brand New Day is currently selected for the homepage experience.",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Featured in The Screening Room"
       },
       {
         "confidence": "Inferred",
-        "event_id": "969681-cb2e914dfba7",
+        "event_id": "969681-ca0d705ae1e7",
         "event_type": "Distributor Change",
         "film_id": "969681",
         "importance": "Medium",
@@ -565,12 +565,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Columbia Pictures.",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Distributor set: Columbia Pictures"
       },
       {
         "confidence": "Inferred",
-        "event_id": "969681-08da6813a2e5",
+        "event_id": "969681-8ee803dcab5f",
         "event_type": "Awards Tier Changed",
         "film_id": "969681",
         "importance": "Medium",
@@ -582,12 +582,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "969681-c59cf3edaf71",
+        "event_id": "969681-214c8be3790f",
         "event_type": "Added To Database",
         "film_id": "969681",
         "importance": "Low",
@@ -596,7 +596,7 @@
         },
         "source_type": "system",
         "summary": "Spider-Man: Brand New Day is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -631,7 +631,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "969681-1f78ed91e7f3",
+        "event_id": "969681-5e1d76448768",
         "event_type": "Homepage Featured",
         "film_id": "969681",
         "importance": "Medium",
@@ -640,12 +640,12 @@
         },
         "source_type": "discovery_homepage",
         "summary": "Spider-Man: Brand New Day is currently selected for the homepage experience.",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Featured in The Screening Room"
       },
       {
         "confidence": "Inferred",
-        "event_id": "969681-cb2e914dfba7",
+        "event_id": "969681-ca0d705ae1e7",
         "event_type": "Distributor Change",
         "film_id": "969681",
         "importance": "Medium",
@@ -654,7 +654,7 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Columbia Pictures.",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Distributor set: Columbia Pictures"
       }
     ],

@@ -8,7 +8,7 @@
       "Event Release",
       "Awards Watch"
     ],
-    "attention_score": 78.0,
+    "attention_score": 78.5,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -31,7 +31,7 @@
         "status": "inferred"
       },
       {
-        "evidence": "TMDb popularity 6.2975",
+        "evidence": "TMDb popularity 7.1035",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -62,14 +62,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 78.0,
+    "homepage_spotlight_score": 78.5,
     "industry_interest": "High",
-    "last_updated": "20260727T212511Z",
+    "last_updated": "20260728T154145Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
         "evidence_count": 2,
-        "score": 14.7,
+        "score": 15.2,
         "statuses": [
           "verified"
         ]
@@ -221,7 +221,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-07-27T21:24:57Z",
+    "generated_at": "2026-07-28T15:41:25Z",
     "headline": "The Hunger Games: Sunrise on the Reaping: popularity signal available",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -241,7 +241,7 @@
         "tmdb_backdrop_count": 8,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=fS35YSjopjE",
-        "tmdb_popularity": 6.2975,
+        "tmdb_popularity": 7.1035,
         "tmdb_poster_count": 19,
         "tmdb_release_date_us_primary": "2026-11-20",
         "tmdb_release_date_us_theatrical": "2026-11-20",
@@ -257,14 +257,14 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity is 6.2975. A canonical TMDb trailer URL is available.",
+    "summary": "TMDb popularity is 7.1035. A canonical TMDb trailer URL is available.",
     "supporting_drivers": [
       {
         "confidence_weight": 0.65,
         "driver_type": "popularity_observed",
-        "evidence": "TMDb popularity is 6.2975.",
+        "evidence": "TMDb popularity is 7.1035.",
         "label": "Popularity signal available",
-        "retrieved_at": "2026-07-27T21:24:57Z",
+        "retrieved_at": "2026-07-28T15:41:25Z",
         "source_metric": "tmdb_popularity",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -274,7 +274,7 @@
         "driver_type": "trailer_available",
         "evidence": "A canonical TMDb trailer URL is available.",
         "label": "Trailer available",
-        "retrieved_at": "2026-07-27T21:24:57Z",
+        "retrieved_at": "2026-07-28T15:41:25Z",
         "source_metric": "tmdb_canonical_trailer_url",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -283,7 +283,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260727T212511Z",
+    "generated_at": "20260728T154145Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -416,7 +416,7 @@
     "external_intelligence": {
       "confidence": "High",
       "headline": "The Hunger Games: Sunrise on the Reaping: popularity signal available",
-      "summary": "TMDb popularity is 6.2975. A canonical TMDb trailer URL is available."
+      "summary": "TMDb popularity is 7.1035. A canonical TMDb trailer URL is available."
     },
     "last_updated": "2026-11-20",
     "latest_event": {
@@ -454,7 +454,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1300968-f67b238bc35d",
+        "event_id": "1300968-a6989309adac",
         "event_type": "Distributor Change",
         "film_id": "1300968",
         "importance": "Medium",
@@ -463,12 +463,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Lionsgate.",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Distributor set: Lionsgate"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1300968-d3e0e6bbfa0f",
+        "event_id": "1300968-ca891f1d986b",
         "event_type": "Awards Tier Changed",
         "film_id": "1300968",
         "importance": "Medium",
@@ -480,7 +480,7 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Awards tier assigned: Emerging"
       }
     ],
@@ -527,7 +527,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1300968-f67b238bc35d",
+        "event_id": "1300968-a6989309adac",
         "event_type": "Distributor Change",
         "film_id": "1300968",
         "importance": "Medium",
@@ -536,12 +536,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Lionsgate.",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Distributor set: Lionsgate"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1300968-d3e0e6bbfa0f",
+        "event_id": "1300968-ca891f1d986b",
         "event_type": "Awards Tier Changed",
         "film_id": "1300968",
         "importance": "Medium",
@@ -553,12 +553,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1300968-ffec7568fb61",
+        "event_id": "1300968-cc58e5a49f64",
         "event_type": "Added To Database",
         "film_id": "1300968",
         "importance": "Low",
@@ -567,7 +567,7 @@
         },
         "source_type": "system",
         "summary": "The Hunger Games: Sunrise on the Reaping is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -602,7 +602,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1300968-f67b238bc35d",
+        "event_id": "1300968-a6989309adac",
         "event_type": "Distributor Change",
         "film_id": "1300968",
         "importance": "Medium",
@@ -611,12 +611,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Lionsgate.",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Distributor set: Lionsgate"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1300968-d3e0e6bbfa0f",
+        "event_id": "1300968-ca891f1d986b",
         "event_type": "Awards Tier Changed",
         "film_id": "1300968",
         "importance": "Medium",
@@ -628,7 +628,7 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Awards tier assigned: Emerging"
       }
     ],

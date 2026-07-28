@@ -10,13 +10,13 @@
     ],
     "attention_score": 91.4,
     "attention_version": "phase7e_attention_v1",
-    "audience_interest": "High",
+    "audience_interest": "Moderate",
     "conversation_level": "Unavailable",
     "cultural_relevance": "High",
     "early_reception": null,
     "evidence_sources": [
       {
-        "evidence": "TMDb popularity 108.257",
+        "evidence": "TMDb popularity 97.2871",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -64,7 +64,7 @@
     "homepage_spotlight_override": null,
     "homepage_spotlight_score": 91.4,
     "industry_interest": "High",
-    "last_updated": "20260727T212511Z",
+    "last_updated": "20260728T154145Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
@@ -156,7 +156,7 @@
     "probabilities": {}
   },
   "commercial": {
-    "commercial_significance": 100,
+    "commercial_significance": 98.5,
     "distributor": "Unknown",
     "franchise": "Avengers",
     "release_strategy": "Wide commercial release",
@@ -183,7 +183,7 @@
     "editorial_category": "Major Release",
     "editorial_summary": "Strategic watch because it has major public/industry visibility and plausible Craft Categories awards upside.",
     "importance_tier": "Priority Watchlist",
-    "primary_story": "franchise/event-release signal; major studio or streamer scale; exceptional TMDb popularity; public-interest release signal; filmmaker attached to large-scale release",
+    "primary_story": "franchise/event-release signal; major studio or streamer scale; high TMDb popularity; public-interest release signal; filmmaker attached to large-scale release",
     "story_strength": "Developing",
     "why_it_matters": "Strategic watch because it has major public/industry visibility and plausible Craft Categories awards upside."
   },
@@ -221,7 +221,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-07-27T21:24:57Z",
+    "generated_at": "2026-07-28T15:41:25Z",
     "headline": "Avengers: Doomsday: popularity signal available",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -241,8 +241,8 @@
         "tmdb_backdrop_count": 2,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=irVNGjRFZGk",
-        "tmdb_popularity": 108.2572,
-        "tmdb_poster_count": 27,
+        "tmdb_popularity": 97.2871,
+        "tmdb_poster_count": 21,
         "tmdb_release_date_us_primary": "2026-12-18",
         "tmdb_release_date_us_theatrical": "2026-12-18",
         "tmdb_release_status": "Post Production",
@@ -257,14 +257,14 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity is 108.257. A canonical TMDb trailer URL is available.",
+    "summary": "TMDb popularity is 97.2871. A canonical TMDb trailer URL is available.",
     "supporting_drivers": [
       {
         "confidence_weight": 0.65,
         "driver_type": "popularity_observed",
-        "evidence": "TMDb popularity is 108.257.",
+        "evidence": "TMDb popularity is 97.2871.",
         "label": "Popularity signal available",
-        "retrieved_at": "2026-07-27T21:24:57Z",
+        "retrieved_at": "2026-07-28T15:41:25Z",
         "source_metric": "tmdb_popularity",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -274,7 +274,7 @@
         "driver_type": "trailer_available",
         "evidence": "A canonical TMDb trailer URL is available.",
         "label": "Trailer available",
-        "retrieved_at": "2026-07-27T21:24:57Z",
+        "retrieved_at": "2026-07-28T15:41:25Z",
         "source_metric": "tmdb_canonical_trailer_url",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -283,7 +283,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260727T212511Z",
+    "generated_at": "20260728T154145Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -408,11 +408,11 @@
     ]
   },
   "signals": {
-    "cultural_significance": 100,
+    "cultural_significance": 98.5,
     "external_intelligence": {
       "confidence": "High",
       "headline": "Avengers: Doomsday: popularity signal available",
-      "summary": "TMDb popularity is 108.257. A canonical TMDb trailer URL is available."
+      "summary": "TMDb popularity is 97.2871. A canonical TMDb trailer URL is available."
     },
     "last_updated": "2026-12-18",
     "latest_event": {
@@ -450,7 +450,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1003596-c53343c65e18",
+        "event_id": "1003596-fd513377e2ba",
         "event_type": "Awards Tier Changed",
         "film_id": "1003596",
         "importance": "Medium",
@@ -462,12 +462,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1003596-0f47defdcc6d",
+        "event_id": "1003596-7705692c2bb7",
         "event_type": "Added To Database",
         "film_id": "1003596",
         "importance": "Low",
@@ -476,11 +476,11 @@
         },
         "source_type": "system",
         "summary": "Avengers: Doomsday is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Added to Awards Intelligence"
       }
     ],
-    "release_relevance": 30.8,
+    "release_relevance": 30.7,
     "watch_triggers": [
       "Major Studio/Streamer",
       "Awards-Season Release",
@@ -523,7 +523,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1003596-c53343c65e18",
+        "event_id": "1003596-fd513377e2ba",
         "event_type": "Awards Tier Changed",
         "film_id": "1003596",
         "importance": "Medium",
@@ -535,12 +535,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1003596-0f47defdcc6d",
+        "event_id": "1003596-7705692c2bb7",
         "event_type": "Added To Database",
         "film_id": "1003596",
         "importance": "Low",
@@ -549,7 +549,7 @@
         },
         "source_type": "system",
         "summary": "Avengers: Doomsday is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -584,7 +584,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1003596-c53343c65e18",
+        "event_id": "1003596-fd513377e2ba",
         "event_type": "Awards Tier Changed",
         "film_id": "1003596",
         "importance": "Medium",
@@ -596,12 +596,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1003596-0f47defdcc6d",
+        "event_id": "1003596-7705692c2bb7",
         "event_type": "Added To Database",
         "film_id": "1003596",
         "importance": "Low",
@@ -610,7 +610,7 @@
         },
         "source_type": "system",
         "summary": "Avengers: Doomsday is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Added to Awards Intelligence"
       }
     ],

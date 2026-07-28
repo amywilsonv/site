@@ -8,7 +8,7 @@
       "Event Release",
       "Awards Watch"
     ],
-    "attention_score": 51.7,
+    "attention_score": 51.6,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -31,7 +31,7 @@
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 3.4029",
+        "evidence": "TMDb popularity 3.4012",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -57,14 +57,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 51.7,
+    "homepage_spotlight_score": 51.6,
     "industry_interest": null,
-    "last_updated": "20260727T212511Z",
+    "last_updated": "20260728T154145Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
         "evidence_count": 1,
-        "score": 7.7,
+        "score": 7.6,
         "statuses": [
           "verified"
         ]
@@ -218,7 +218,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.85,
-    "generated_at": "2026-07-27T21:24:57Z",
+    "generated_at": "2026-07-28T15:41:25Z",
     "headline": "The Great Beyond: popularity signal available",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -237,7 +237,7 @@
         "streaming_provider_count_us": 0,
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": false,
-        "tmdb_popularity": 3.4029,
+        "tmdb_popularity": 3.4012,
         "tmdb_poster_count": 0,
         "tmdb_release_date_us_primary": "2027-10-01",
         "tmdb_release_date_us_theatrical": "2027-10-01",
@@ -252,14 +252,14 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity is 3.4029.",
+    "summary": "TMDb popularity is 3.4012.",
     "supporting_drivers": [
       {
         "confidence_weight": 0.65,
         "driver_type": "popularity_observed",
-        "evidence": "TMDb popularity is 3.4029.",
+        "evidence": "TMDb popularity is 3.4012.",
         "label": "Popularity signal available",
-        "retrieved_at": "2026-07-27T21:24:57Z",
+        "retrieved_at": "2026-07-28T15:41:25Z",
         "source_metric": "tmdb_popularity",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -268,7 +268,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260727T212511Z",
+    "generated_at": "20260728T154145Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -323,18 +323,6 @@
         "tmdb_id": "1284186"
       },
       {
-        "profile_url": "film.html?id=977942",
-        "relationship_score": 46,
-        "shared_signals": [
-          "General Watch",
-          "Action",
-          "Drama",
-          "Craft Categories"
-        ],
-        "title": "The Uprising",
-        "tmdb_id": "977942"
-      },
-      {
         "profile_url": "film.html?id=1717258",
         "relationship_score": 46,
         "shared_signals": [
@@ -345,6 +333,18 @@
         ],
         "title": "Travel Reminiscence",
         "tmdb_id": "1717258"
+      },
+      {
+        "profile_url": "film.html?id=1579129",
+        "relationship_score": 42,
+        "shared_signals": [
+          "General Watch",
+          "Action",
+          "Adventure",
+          "Craft Categories"
+        ],
+        "title": "The First Gokturk: Prologue",
+        "tmdb_id": "1579129"
       }
     ],
     "related_people": [
@@ -401,7 +401,7 @@
     "external_intelligence": {
       "confidence": "High",
       "headline": "The Great Beyond: popularity signal available",
-      "summary": "TMDb popularity is 3.4029."
+      "summary": "TMDb popularity is 3.4012."
     },
     "last_updated": "2027-10-01",
     "latest_event": {
@@ -439,7 +439,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1288211-763d83d03f4c",
+        "event_id": "1288211-4a63e6e4cc14",
         "event_type": "Distributor Change",
         "film_id": "1288211",
         "importance": "Medium",
@@ -448,12 +448,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Warner Bros. Pictures.",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Distributor set: Warner Bros. Pictures"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1288211-668e0e9bdfcf",
+        "event_id": "1288211-374285adee1f",
         "event_type": "Awards Tier Changed",
         "film_id": "1288211",
         "importance": "Medium",
@@ -465,7 +465,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],
@@ -510,7 +510,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1288211-763d83d03f4c",
+        "event_id": "1288211-4a63e6e4cc14",
         "event_type": "Distributor Change",
         "film_id": "1288211",
         "importance": "Medium",
@@ -519,12 +519,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Warner Bros. Pictures.",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Distributor set: Warner Bros. Pictures"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1288211-668e0e9bdfcf",
+        "event_id": "1288211-374285adee1f",
         "event_type": "Awards Tier Changed",
         "film_id": "1288211",
         "importance": "Medium",
@@ -536,12 +536,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1288211-c952c9468796",
+        "event_id": "1288211-10d29dbef411",
         "event_type": "Added To Database",
         "film_id": "1288211",
         "importance": "Low",
@@ -550,7 +550,7 @@
         },
         "source_type": "system",
         "summary": "The Great Beyond is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -585,7 +585,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1288211-763d83d03f4c",
+        "event_id": "1288211-4a63e6e4cc14",
         "event_type": "Distributor Change",
         "film_id": "1288211",
         "importance": "Medium",
@@ -594,12 +594,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Warner Bros. Pictures.",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Distributor set: Warner Bros. Pictures"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1288211-668e0e9bdfcf",
+        "event_id": "1288211-374285adee1f",
         "event_type": "Awards Tier Changed",
         "film_id": "1288211",
         "importance": "Medium",
@@ -611,7 +611,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],

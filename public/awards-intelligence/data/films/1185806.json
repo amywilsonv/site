@@ -8,7 +8,7 @@
       "Event Release",
       "Awards Watch"
     ],
-    "attention_score": 81.5,
+    "attention_score": 82.2,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -16,14 +16,14 @@
     "early_reception": null,
     "evidence_sources": [
       {
+        "evidence": "TMDb popularity 14.2636",
+        "source": "audience_popularity",
+        "status": "verified"
+      },
+      {
         "evidence": "Public-interest, franchise, event, or major-studio tracking signal",
         "source": "event_awareness",
         "status": "inferred"
-      },
-      {
-        "evidence": "TMDb popularity 12.3262",
-        "source": "audience_popularity",
-        "status": "verified"
       },
       {
         "evidence": "Franchise, sequel, or recognizable IP signal in available metadata",
@@ -67,14 +67,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 81.5,
+    "homepage_spotlight_score": 82.2,
     "industry_interest": "Moderate",
-    "last_updated": "20260727T212511Z",
+    "last_updated": "20260728T154145Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
         "evidence_count": 2,
-        "score": 17.8,
+        "score": 18.5,
         "statuses": [
           "verified"
         ]
@@ -231,7 +231,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-07-27T21:24:57Z",
+    "generated_at": "2026-07-28T15:41:25Z",
     "headline": "PAW Patrol: The Dino Movie: release approaching",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -251,7 +251,7 @@
         "tmdb_backdrop_count": 3,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=xgI5iYmOf5Q",
-        "tmdb_popularity": 12.3262,
+        "tmdb_popularity": 14.2636,
         "tmdb_poster_count": 37,
         "tmdb_release_date_us_primary": "2026-08-14",
         "tmdb_release_date_us_theatrical": "2026-08-14",
@@ -260,21 +260,21 @@
         "tmdb_vote_count": 2,
         "tmdb_watch_provider_count_us": 0,
         "trailer_available": true,
-        "trailer_count": 16,
+        "trailer_count": 17,
         "trailer_url": "https://www.youtube.com/watch?v=xgI5iYmOf5Q"
       },
       "source_signal_count": 26,
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity is 12.3262. US release is 25 days away on 2026-08-14. A canonical TMDb trailer URL is available.",
+    "summary": "TMDb popularity is 14.2636. US release is 25 days away on 2026-08-14. A canonical TMDb trailer URL is available.",
     "supporting_drivers": [
       {
         "confidence_weight": 0.65,
         "driver_type": "popularity_observed",
-        "evidence": "TMDb popularity is 12.3262.",
+        "evidence": "TMDb popularity is 14.2636.",
         "label": "Popularity signal available",
-        "retrieved_at": "2026-07-27T21:24:57Z",
+        "retrieved_at": "2026-07-28T15:41:25Z",
         "source_metric": "tmdb_popularity",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -284,7 +284,7 @@
         "driver_type": "release_approaching",
         "evidence": "US release is 25 days away on 2026-08-14.",
         "label": "Release approaching",
-        "retrieved_at": "2026-07-27T21:24:57Z",
+        "retrieved_at": "2026-07-28T15:41:25Z",
         "source_metric": "tmdb_release_date_us_primary",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -294,7 +294,7 @@
         "driver_type": "trailer_available",
         "evidence": "A canonical TMDb trailer URL is available.",
         "label": "Trailer available",
-        "retrieved_at": "2026-07-27T21:24:57Z",
+        "retrieved_at": "2026-07-28T15:41:25Z",
         "source_metric": "tmdb_canonical_trailer_url",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -303,7 +303,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260727T212511Z",
+    "generated_at": "20260728T154145Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -432,7 +432,7 @@
     "external_intelligence": {
       "confidence": "High",
       "headline": "PAW Patrol: The Dino Movie: release approaching",
-      "summary": "TMDb popularity is 12.3262. US release is 25 days away on 2026-08-14. A canonical TMDb trailer URL is available."
+      "summary": "TMDb popularity is 14.2636. US release is 25 days away on 2026-08-14. A canonical TMDb trailer URL is available."
     },
     "last_updated": "2026-08-14",
     "latest_event": {
@@ -470,7 +470,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1185806-7c1033a614fb",
+        "event_id": "1185806-c83fa094bc80",
         "event_type": "Awards Tier Changed",
         "film_id": "1185806",
         "importance": "Medium",
@@ -484,12 +484,12 @@
         },
         "source_type": "editorial_model",
         "summary": "category-specific awards case without broader contender evidence",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Awards tier assigned: Category Contender"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1185806-273e88df65fb",
+        "event_id": "1185806-7f82a6ce7b18",
         "event_type": "Added To Database",
         "film_id": "1185806",
         "importance": "Low",
@@ -498,7 +498,7 @@
         },
         "source_type": "system",
         "summary": "PAW Patrol: The Dino Movie is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -545,7 +545,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1185806-7c1033a614fb",
+        "event_id": "1185806-c83fa094bc80",
         "event_type": "Awards Tier Changed",
         "film_id": "1185806",
         "importance": "Medium",
@@ -559,12 +559,12 @@
         },
         "source_type": "editorial_model",
         "summary": "category-specific awards case without broader contender evidence",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Awards tier assigned: Category Contender"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1185806-273e88df65fb",
+        "event_id": "1185806-7f82a6ce7b18",
         "event_type": "Added To Database",
         "film_id": "1185806",
         "importance": "Low",
@@ -573,7 +573,7 @@
         },
         "source_type": "system",
         "summary": "PAW Patrol: The Dino Movie is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -608,7 +608,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1185806-7c1033a614fb",
+        "event_id": "1185806-c83fa094bc80",
         "event_type": "Awards Tier Changed",
         "film_id": "1185806",
         "importance": "Medium",
@@ -622,12 +622,12 @@
         },
         "source_type": "editorial_model",
         "summary": "category-specific awards case without broader contender evidence",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Awards tier assigned: Category Contender"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1185806-273e88df65fb",
+        "event_id": "1185806-7f82a6ce7b18",
         "event_type": "Added To Database",
         "film_id": "1185806",
         "importance": "Low",
@@ -636,7 +636,7 @@
         },
         "source_type": "system",
         "summary": "PAW Patrol: The Dino Movie is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Added to Awards Intelligence"
       }
     ],

@@ -8,7 +8,7 @@
       "Event Release",
       "Awards Watch"
     ],
-    "attention_score": 54.7,
+    "attention_score": 54.8,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -36,7 +36,7 @@
         "status": "inferred"
       },
       {
-        "evidence": "TMDb popularity 2.3717",
+        "evidence": "TMDb popularity 2.4619",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -57,14 +57,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 54.7,
+    "homepage_spotlight_score": 54.8,
     "industry_interest": null,
-    "last_updated": "20260727T212511Z",
+    "last_updated": "20260728T154145Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
         "evidence_count": 1,
-        "score": 6.3,
+        "score": 6.4,
         "statuses": [
           "verified"
         ]
@@ -219,7 +219,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.85,
-    "generated_at": "2026-07-27T21:24:57Z",
+    "generated_at": "2026-07-28T15:41:25Z",
     "headline": "Ray Gunn: popularity signal available",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -238,7 +238,7 @@
         "streaming_provider_count_us": 0,
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": false,
-        "tmdb_popularity": 2.3717,
+        "tmdb_popularity": 2.4619,
         "tmdb_poster_count": 11,
         "tmdb_release_date_us_primary": "2026-12-18",
         "tmdb_release_date_us_theatrical": "",
@@ -253,14 +253,14 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity is 2.3717.",
+    "summary": "TMDb popularity is 2.4619.",
     "supporting_drivers": [
       {
         "confidence_weight": 0.65,
         "driver_type": "popularity_observed",
-        "evidence": "TMDb popularity is 2.3717.",
+        "evidence": "TMDb popularity is 2.4619.",
         "label": "Popularity signal available",
-        "retrieved_at": "2026-07-27T21:24:57Z",
+        "retrieved_at": "2026-07-28T15:41:25Z",
         "source_metric": "tmdb_popularity",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -269,7 +269,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260727T212511Z",
+    "generated_at": "20260728T154145Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -402,7 +402,7 @@
     "external_intelligence": {
       "confidence": "High",
       "headline": "Ray Gunn: popularity signal available",
-      "summary": "TMDb popularity is 2.3717."
+      "summary": "TMDb popularity is 2.4619."
     },
     "last_updated": "2026-12-18",
     "latest_event": {
@@ -440,7 +440,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "940009-2b0d92125282",
+        "event_id": "940009-2e896a5187ca",
         "event_type": "Distributor Change",
         "film_id": "940009",
         "importance": "Medium",
@@ -449,12 +449,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "940009-a43ae6f1f30e",
+        "event_id": "940009-7d049ad90994",
         "event_type": "Awards Tier Changed",
         "film_id": "940009",
         "importance": "Medium",
@@ -468,7 +468,7 @@
         },
         "source_type": "editorial_model",
         "summary": "category-specific awards case without broader contender evidence",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Awards tier assigned: Category Contender"
       }
     ],
@@ -514,7 +514,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "940009-2b0d92125282",
+        "event_id": "940009-2e896a5187ca",
         "event_type": "Distributor Change",
         "film_id": "940009",
         "importance": "Medium",
@@ -523,12 +523,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "940009-a43ae6f1f30e",
+        "event_id": "940009-7d049ad90994",
         "event_type": "Awards Tier Changed",
         "film_id": "940009",
         "importance": "Medium",
@@ -542,12 +542,12 @@
         },
         "source_type": "editorial_model",
         "summary": "category-specific awards case without broader contender evidence",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Awards tier assigned: Category Contender"
       },
       {
         "confidence": "Inferred",
-        "event_id": "940009-37a3f1f06593",
+        "event_id": "940009-aacc199262ed",
         "event_type": "Added To Database",
         "film_id": "940009",
         "importance": "Low",
@@ -556,7 +556,7 @@
         },
         "source_type": "system",
         "summary": "Ray Gunn is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -591,7 +591,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "940009-2b0d92125282",
+        "event_id": "940009-2e896a5187ca",
         "event_type": "Distributor Change",
         "film_id": "940009",
         "importance": "Medium",
@@ -600,12 +600,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "940009-a43ae6f1f30e",
+        "event_id": "940009-7d049ad90994",
         "event_type": "Awards Tier Changed",
         "film_id": "940009",
         "importance": "Medium",
@@ -619,7 +619,7 @@
         },
         "source_type": "editorial_model",
         "summary": "category-specific awards case without broader contender evidence",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Awards tier assigned: Category Contender"
       }
     ],

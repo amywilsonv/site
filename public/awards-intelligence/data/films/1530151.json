@@ -7,7 +7,7 @@
       "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 47.8,
+    "attention_score": 48.0,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -45,20 +45,20 @@
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 0.9171",
+        "evidence": "TMDb popularity 0.9965",
         "source": "audience_popularity",
         "status": "verified"
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 47.8,
+    "homepage_spotlight_score": 48.0,
     "industry_interest": "Moderate",
-    "last_updated": "20260727T212511Z",
+    "last_updated": "20260728T154145Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
         "evidence_count": 1,
-        "score": 3.4,
+        "score": 3.6,
         "statuses": [
           "verified"
         ]
@@ -198,7 +198,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.85,
-    "generated_at": "2026-07-27T21:24:57Z",
+    "generated_at": "2026-07-28T15:41:25Z",
     "headline": "H\u00f6sten med G\u00f6ran: popularity signal available",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -217,7 +217,7 @@
         "streaming_provider_count_us": 0,
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": false,
-        "tmdb_popularity": 0.9171,
+        "tmdb_popularity": 0.9965,
         "tmdb_poster_count": 0,
         "tmdb_release_date_us_primary": "",
         "tmdb_release_date_us_theatrical": "",
@@ -232,14 +232,14 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity is 0.9171.",
+    "summary": "TMDb popularity is 0.9965.",
     "supporting_drivers": [
       {
         "confidence_weight": 0.65,
         "driver_type": "popularity_observed",
-        "evidence": "TMDb popularity is 0.9171.",
+        "evidence": "TMDb popularity is 0.9965.",
         "label": "Popularity signal available",
-        "retrieved_at": "2026-07-27T21:24:57Z",
+        "retrieved_at": "2026-07-28T15:41:25Z",
         "source_metric": "tmdb_popularity",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -248,7 +248,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260727T212511Z",
+    "generated_at": "20260728T154145Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -353,7 +353,7 @@
     "external_intelligence": {
       "confidence": "High",
       "headline": "H\u00f6sten med G\u00f6ran: popularity signal available",
-      "summary": "TMDb popularity is 0.9171."
+      "summary": "TMDb popularity is 0.9965."
     },
     "last_updated": "2026-12-25",
     "latest_event": {
@@ -391,7 +391,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1530151-9040fc0d0328",
+        "event_id": "1530151-fd542e2466af",
         "event_type": "Awards Tier Changed",
         "film_id": "1530151",
         "importance": "Medium",
@@ -401,12 +401,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1530151-833bbb3d8ab8",
+        "event_id": "1530151-4b47a592ed88",
         "event_type": "Added To Database",
         "film_id": "1530151",
         "importance": "Low",
@@ -415,7 +415,7 @@
         },
         "source_type": "system",
         "summary": "H\u00f6sten med G\u00f6ran is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -457,7 +457,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1530151-9040fc0d0328",
+        "event_id": "1530151-fd542e2466af",
         "event_type": "Awards Tier Changed",
         "film_id": "1530151",
         "importance": "Medium",
@@ -467,12 +467,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1530151-833bbb3d8ab8",
+        "event_id": "1530151-4b47a592ed88",
         "event_type": "Added To Database",
         "film_id": "1530151",
         "importance": "Low",
@@ -481,7 +481,7 @@
         },
         "source_type": "system",
         "summary": "H\u00f6sten med G\u00f6ran is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -516,7 +516,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1530151-9040fc0d0328",
+        "event_id": "1530151-fd542e2466af",
         "event_type": "Awards Tier Changed",
         "film_id": "1530151",
         "importance": "Medium",
@@ -526,12 +526,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1530151-833bbb3d8ab8",
+        "event_id": "1530151-4b47a592ed88",
         "event_type": "Added To Database",
         "film_id": "1530151",
         "importance": "Low",
@@ -540,7 +540,7 @@
         },
         "source_type": "system",
         "summary": "H\u00f6sten med G\u00f6ran is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Added to Awards Intelligence"
       }
     ],

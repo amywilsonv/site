@@ -8,7 +8,7 @@
       "Event Release",
       "Awards Watch"
     ],
-    "attention_score": 73.6,
+    "attention_score": 73.9,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -41,13 +41,13 @@
         "status": "verified"
       },
       {
-        "evidence": "Director: Josh Greenbaum",
-        "source": "filmmaker_interest",
+        "evidence": "TMDb popularity 3.8441",
+        "source": "audience_popularity",
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 3.5266",
-        "source": "audience_popularity",
+        "evidence": "Director: Josh Greenbaum",
+        "source": "filmmaker_interest",
         "status": "verified"
       },
       {
@@ -62,14 +62,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 73.6,
+    "homepage_spotlight_score": 73.9,
     "industry_interest": "High",
-    "last_updated": "20260727T212511Z",
+    "last_updated": "20260728T154145Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
         "evidence_count": 1,
-        "score": 7.8,
+        "score": 8.1,
         "statuses": [
           "verified"
         ]
@@ -221,7 +221,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.85,
-    "generated_at": "2026-07-27T21:24:57Z",
+    "generated_at": "2026-07-28T15:41:25Z",
     "headline": "Spaceballs: The New One: popularity signal available",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -240,7 +240,7 @@
         "streaming_provider_count_us": 0,
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": false,
-        "tmdb_popularity": 3.5266,
+        "tmdb_popularity": 3.8441,
         "tmdb_poster_count": 6,
         "tmdb_release_date_us_primary": "2027-04-23",
         "tmdb_release_date_us_theatrical": "2027-04-23",
@@ -255,14 +255,14 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity is 3.5266.",
+    "summary": "TMDb popularity is 3.8441.",
     "supporting_drivers": [
       {
         "confidence_weight": 0.65,
         "driver_type": "popularity_observed",
-        "evidence": "TMDb popularity is 3.5266.",
+        "evidence": "TMDb popularity is 3.8441.",
         "label": "Popularity signal available",
-        "retrieved_at": "2026-07-27T21:24:57Z",
+        "retrieved_at": "2026-07-28T15:41:25Z",
         "source_metric": "tmdb_popularity",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -271,7 +271,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260727T212511Z",
+    "generated_at": "20260728T154145Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -397,7 +397,7 @@
     "external_intelligence": {
       "confidence": "High",
       "headline": "Spaceballs: The New One: popularity signal available",
-      "summary": "TMDb popularity is 3.5266."
+      "summary": "TMDb popularity is 3.8441."
     },
     "last_updated": "2027-04-23",
     "latest_event": {
@@ -435,7 +435,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1306322-d68cb25e6217",
+        "event_id": "1306322-dc93c93c10c2",
         "event_type": "Distributor Change",
         "film_id": "1306322",
         "importance": "Medium",
@@ -444,12 +444,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Amazon MGM Studios.",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Distributor set: Amazon MGM Studios"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1306322-3ce311405f93",
+        "event_id": "1306322-6de5046c9e38",
         "event_type": "Awards Tier Changed",
         "film_id": "1306322",
         "importance": "Medium",
@@ -461,7 +461,7 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Awards tier assigned: Emerging"
       }
     ],
@@ -507,7 +507,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1306322-d68cb25e6217",
+        "event_id": "1306322-dc93c93c10c2",
         "event_type": "Distributor Change",
         "film_id": "1306322",
         "importance": "Medium",
@@ -516,12 +516,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Amazon MGM Studios.",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Distributor set: Amazon MGM Studios"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1306322-3ce311405f93",
+        "event_id": "1306322-6de5046c9e38",
         "event_type": "Awards Tier Changed",
         "film_id": "1306322",
         "importance": "Medium",
@@ -533,12 +533,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1306322-538c41a50ede",
+        "event_id": "1306322-9ba7dd9d8b11",
         "event_type": "Added To Database",
         "film_id": "1306322",
         "importance": "Low",
@@ -547,7 +547,7 @@
         },
         "source_type": "system",
         "summary": "Spaceballs: The New One is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -582,7 +582,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1306322-d68cb25e6217",
+        "event_id": "1306322-dc93c93c10c2",
         "event_type": "Distributor Change",
         "film_id": "1306322",
         "importance": "Medium",
@@ -591,12 +591,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Amazon MGM Studios.",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Distributor set: Amazon MGM Studios"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1306322-3ce311405f93",
+        "event_id": "1306322-6de5046c9e38",
         "event_type": "Awards Tier Changed",
         "film_id": "1306322",
         "importance": "Medium",
@@ -608,7 +608,7 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Awards tier assigned: Emerging"
       }
     ],

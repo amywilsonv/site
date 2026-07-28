@@ -16,7 +16,7 @@
     },
     {
       "confidence": "Inferred",
-      "event_id": "1381273-a54c2b6bcbf1",
+      "event_id": "1381273-b67bb2a47e60",
       "event_type": "Awards Tier Changed",
       "film_id": "1381273",
       "importance": "High",
@@ -30,12 +30,12 @@
       },
       "source_type": "editorial_model",
       "summary": "high awards relevance with multiple independent evidence families",
-      "timestamp": "2026-07-27T21:25:11Z",
+      "timestamp": "2026-07-28T15:41:45Z",
       "title": "Awards tier assigned: Strong Contender"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1381273-6c8881486b67",
+      "event_id": "1381273-fdd17a1d8b18",
       "event_type": "Homepage Featured",
       "film_id": "1381273",
       "importance": "Medium",
@@ -44,12 +44,12 @@
       },
       "source_type": "discovery_homepage",
       "summary": "Paper Tiger is currently selected for the homepage experience.",
-      "timestamp": "2026-07-27T21:25:11Z",
+      "timestamp": "2026-07-28T15:41:45Z",
       "title": "Featured in The Screening Room"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1381273-d8c7bce35491",
+      "event_id": "1381273-99ad97b50fab",
       "event_type": "Distributor Change",
       "film_id": "1381273",
       "importance": "Medium",
@@ -58,12 +58,12 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Neon.",
-      "timestamp": "2026-07-27T21:25:11Z",
+      "timestamp": "2026-07-28T15:41:45Z",
       "title": "Distributor set: Neon"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1381273-764f72da46e6",
+      "event_id": "1381273-851b0bed569b",
       "event_type": "Added To Database",
       "film_id": "1381273",
       "importance": "Low",
@@ -72,7 +72,7 @@
       },
       "source_type": "system",
       "summary": "Paper Tiger is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-07-27T21:25:11Z",
+      "timestamp": "2026-07-28T15:41:45Z",
       "title": "Added to Awards Intelligence"
     },
     {
@@ -135,7 +135,7 @@
   "metadata": {
     "event_count": 7,
     "film_id": "1381273",
-    "generated_at": "20260727T212511Z",
+    "generated_at": "20260728T154145Z",
     "timeline_version": "phase6b",
     "title": "Paper Tiger",
     "tmdb_id": "1381273"

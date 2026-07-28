@@ -8,7 +8,7 @@
       "Event Release",
       "Awards Watch"
     ],
-    "attention_score": 73.6,
+    "attention_score": 74.3,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -31,7 +31,7 @@
         "status": "inferred"
       },
       {
-        "evidence": "TMDb popularity 6.3919",
+        "evidence": "TMDb popularity 7.4779",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -57,14 +57,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 73.6,
+    "homepage_spotlight_score": 74.3,
     "industry_interest": "High",
-    "last_updated": "20260727T212511Z",
+    "last_updated": "20260728T154145Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
         "evidence_count": 1,
-        "score": 10.3,
+        "score": 11.0,
         "statuses": [
           "verified"
         ]
@@ -222,7 +222,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.85,
-    "generated_at": "2026-07-27T21:24:57Z",
+    "generated_at": "2026-07-28T15:41:25Z",
     "headline": "Spider-Man: Beyond the Spider-Verse: popularity signal available",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -241,7 +241,7 @@
         "streaming_provider_count_us": 0,
         "tmdb_backdrop_count": 1,
         "tmdb_canonical_trailer_available": false,
-        "tmdb_popularity": 6.3919,
+        "tmdb_popularity": 7.4779,
         "tmdb_poster_count": 6,
         "tmdb_release_date_us_primary": "2027-06-18",
         "tmdb_release_date_us_theatrical": "2027-06-18",
@@ -256,14 +256,14 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity is 6.3919.",
+    "summary": "TMDb popularity is 7.4779.",
     "supporting_drivers": [
       {
         "confidence_weight": 0.65,
         "driver_type": "popularity_observed",
-        "evidence": "TMDb popularity is 6.3919.",
+        "evidence": "TMDb popularity is 7.4779.",
         "label": "Popularity signal available",
-        "retrieved_at": "2026-07-27T21:24:57Z",
+        "retrieved_at": "2026-07-28T15:41:25Z",
         "source_metric": "tmdb_popularity",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -272,7 +272,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260727T212511Z",
+    "generated_at": "20260728T154145Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -417,7 +417,7 @@
     "external_intelligence": {
       "confidence": "High",
       "headline": "Spider-Man: Beyond the Spider-Verse: popularity signal available",
-      "summary": "TMDb popularity is 6.3919."
+      "summary": "TMDb popularity is 7.4779."
     },
     "last_updated": "2027-06-18",
     "latest_event": {
@@ -455,7 +455,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "911916-f0b8460de525",
+        "event_id": "911916-a85315eb6fac",
         "event_type": "Distributor Change",
         "film_id": "911916",
         "importance": "Medium",
@@ -464,12 +464,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Columbia Pictures.",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Distributor set: Columbia Pictures"
       },
       {
         "confidence": "Inferred",
-        "event_id": "911916-d97aef6defa6",
+        "event_id": "911916-d4946b0b5960",
         "event_type": "Awards Tier Changed",
         "film_id": "911916",
         "importance": "Medium",
@@ -483,7 +483,7 @@
         },
         "source_type": "editorial_model",
         "summary": "category-specific awards case without broader contender evidence",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Awards tier assigned: Category Contender"
       }
     ],
@@ -529,7 +529,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "911916-f0b8460de525",
+        "event_id": "911916-a85315eb6fac",
         "event_type": "Distributor Change",
         "film_id": "911916",
         "importance": "Medium",
@@ -538,12 +538,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Columbia Pictures.",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Distributor set: Columbia Pictures"
       },
       {
         "confidence": "Inferred",
-        "event_id": "911916-d97aef6defa6",
+        "event_id": "911916-d4946b0b5960",
         "event_type": "Awards Tier Changed",
         "film_id": "911916",
         "importance": "Medium",
@@ -557,12 +557,12 @@
         },
         "source_type": "editorial_model",
         "summary": "category-specific awards case without broader contender evidence",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Awards tier assigned: Category Contender"
       },
       {
         "confidence": "Inferred",
-        "event_id": "911916-9c44e7dbdf64",
+        "event_id": "911916-938ade294a44",
         "event_type": "Added To Database",
         "film_id": "911916",
         "importance": "Low",
@@ -571,7 +571,7 @@
         },
         "source_type": "system",
         "summary": "Spider-Man: Beyond the Spider-Verse is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -606,7 +606,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "911916-f0b8460de525",
+        "event_id": "911916-a85315eb6fac",
         "event_type": "Distributor Change",
         "film_id": "911916",
         "importance": "Medium",
@@ -615,12 +615,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Columbia Pictures.",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Distributor set: Columbia Pictures"
       },
       {
         "confidence": "Inferred",
-        "event_id": "911916-d97aef6defa6",
+        "event_id": "911916-d4946b0b5960",
         "event_type": "Awards Tier Changed",
         "film_id": "911916",
         "importance": "Medium",
@@ -634,7 +634,7 @@
         },
         "source_type": "editorial_model",
         "summary": "category-specific awards case without broader contender evidence",
-        "timestamp": "2026-07-27T21:25:11Z",
+        "timestamp": "2026-07-28T15:41:45Z",
         "title": "Awards tier assigned: Category Contender"
       }
     ],
