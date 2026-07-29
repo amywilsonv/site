@@ -16,7 +16,7 @@
     },
     {
       "confidence": "Inferred",
-      "event_id": "1425784-7f466c822140",
+      "event_id": "1425784-1f5ee4e429bb",
       "event_type": "Awards Tier Changed",
       "film_id": "1425784",
       "importance": "Medium",
@@ -28,12 +28,12 @@
       },
       "source_type": "editorial_model",
       "summary": "insufficient credible awards evidence",
-      "timestamp": "2026-07-28T15:41:45Z",
+      "timestamp": "2026-07-29T15:35:35Z",
       "title": "Awards tier assigned: No Current Awards Case"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1425784-628a05003d4d",
+      "event_id": "1425784-32512b7dc2f1",
       "event_type": "Added To Database",
       "film_id": "1425784",
       "importance": "Low",
@@ -42,7 +42,7 @@
       },
       "source_type": "system",
       "summary": "Animol is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-07-28T15:41:45Z",
+      "timestamp": "2026-07-29T15:35:35Z",
       "title": "Added to Awards Intelligence"
     }
   ],
@@ -63,7 +63,7 @@
   "metadata": {
     "event_count": 3,
     "film_id": "1425784",
-    "generated_at": "20260728T154145Z",
+    "generated_at": "20260729T153535Z",
     "timeline_version": "phase6b",
     "title": "Animol",
     "tmdb_id": "1425784"

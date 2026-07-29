@@ -8,7 +8,7 @@
       "Awards Watch",
       "Festival Signal"
     ],
-    "attention_score": 41.3,
+    "attention_score": 41.0,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -41,7 +41,7 @@
         "status": "inferred"
       },
       {
-        "evidence": "TMDb popularity 2.8166",
+        "evidence": "TMDb popularity 2.5848",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -57,14 +57,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 41.3,
+    "homepage_spotlight_score": 41.0,
     "industry_interest": "High",
-    "last_updated": "20260728T154145Z",
+    "last_updated": "20260729T153535Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
         "evidence_count": 1,
-        "score": 6.9,
+        "score": 6.6,
         "statuses": [
           "verified"
         ]
@@ -224,7 +224,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.85,
-    "generated_at": "2026-07-28T15:41:25Z",
+    "generated_at": "2026-07-29T15:35:15Z",
     "headline": "Paper Tiger: popularity signal available",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -243,7 +243,7 @@
         "streaming_provider_count_us": 0,
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": false,
-        "tmdb_popularity": 2.8166,
+        "tmdb_popularity": 2.5848,
         "tmdb_poster_count": 3,
         "tmdb_release_date_us_primary": "2026-11-13",
         "tmdb_release_date_us_theatrical": "2026-11-13",
@@ -258,14 +258,14 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity is 2.8166.",
+    "summary": "TMDb popularity is 2.5848.",
     "supporting_drivers": [
       {
         "confidence_weight": 0.65,
         "driver_type": "popularity_observed",
-        "evidence": "TMDb popularity is 2.8166.",
+        "evidence": "TMDb popularity is 2.5848.",
         "label": "Popularity signal available",
-        "retrieved_at": "2026-07-28T15:41:25Z",
+        "retrieved_at": "2026-07-29T15:35:15Z",
         "source_metric": "tmdb_popularity",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -274,7 +274,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260728T154145Z",
+    "generated_at": "20260729T153535Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -404,7 +404,7 @@
     "external_intelligence": {
       "confidence": "High",
       "headline": "Paper Tiger: popularity signal available",
-      "summary": "TMDb popularity is 2.8166."
+      "summary": "TMDb popularity is 2.5848."
     },
     "last_updated": "2026-11-13",
     "latest_event": {
@@ -442,7 +442,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1381273-b67bb2a47e60",
+        "event_id": "1381273-16e2f814fc72",
         "event_type": "Awards Tier Changed",
         "film_id": "1381273",
         "importance": "High",
@@ -456,12 +456,12 @@
         },
         "source_type": "editorial_model",
         "summary": "high awards relevance with multiple independent evidence families",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Awards tier assigned: Strong Contender"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1381273-fdd17a1d8b18",
+        "event_id": "1381273-9e443ef18940",
         "event_type": "Homepage Featured",
         "film_id": "1381273",
         "importance": "Medium",
@@ -470,7 +470,7 @@
         },
         "source_type": "discovery_homepage",
         "summary": "Paper Tiger is currently selected for the homepage experience.",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Featured in The Screening Room"
       }
     ],
@@ -515,7 +515,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1381273-b67bb2a47e60",
+        "event_id": "1381273-16e2f814fc72",
         "event_type": "Awards Tier Changed",
         "film_id": "1381273",
         "importance": "High",
@@ -529,12 +529,12 @@
         },
         "source_type": "editorial_model",
         "summary": "high awards relevance with multiple independent evidence families",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Awards tier assigned: Strong Contender"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1381273-fdd17a1d8b18",
+        "event_id": "1381273-9e443ef18940",
         "event_type": "Homepage Featured",
         "film_id": "1381273",
         "importance": "Medium",
@@ -543,12 +543,12 @@
         },
         "source_type": "discovery_homepage",
         "summary": "Paper Tiger is currently selected for the homepage experience.",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Featured in The Screening Room"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1381273-99ad97b50fab",
+        "event_id": "1381273-71c15b6308ad",
         "event_type": "Distributor Change",
         "film_id": "1381273",
         "importance": "Medium",
@@ -557,12 +557,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Neon.",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Distributor set: Neon"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1381273-851b0bed569b",
+        "event_id": "1381273-8774aa6ce4dc",
         "event_type": "Added To Database",
         "film_id": "1381273",
         "importance": "Low",
@@ -571,7 +571,7 @@
         },
         "source_type": "system",
         "summary": "Paper Tiger is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Added to Awards Intelligence"
       },
       {
@@ -648,7 +648,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1381273-b67bb2a47e60",
+        "event_id": "1381273-16e2f814fc72",
         "event_type": "Awards Tier Changed",
         "film_id": "1381273",
         "importance": "High",
@@ -662,12 +662,12 @@
         },
         "source_type": "editorial_model",
         "summary": "high awards relevance with multiple independent evidence families",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Awards tier assigned: Strong Contender"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1381273-fdd17a1d8b18",
+        "event_id": "1381273-9e443ef18940",
         "event_type": "Homepage Featured",
         "film_id": "1381273",
         "importance": "Medium",
@@ -676,7 +676,7 @@
         },
         "source_type": "discovery_homepage",
         "summary": "Paper Tiger is currently selected for the homepage experience.",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Featured in The Screening Room"
       }
     ],

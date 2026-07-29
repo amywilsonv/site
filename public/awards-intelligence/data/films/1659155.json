@@ -15,7 +15,7 @@
     "early_reception": null,
     "evidence_sources": [
       {
-        "evidence": "TMDb popularity 54.7342",
+        "evidence": "TMDb popularity 53.1696",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -35,13 +35,13 @@
         "status": "verified"
       },
       {
-        "evidence": "Release date: 2026-07-24",
-        "source": "release_proximity",
+        "evidence": "Principal cast listed: Jose Coronado, St\u00e9phanie Magnin, Fanny Gautier, Alberto Olmo",
+        "source": "cast_interest",
         "status": "verified"
       },
       {
-        "evidence": "Principal cast listed: Jose Coronado, St\u00e9phanie Magnin, Fanny Gautier, Alberto Olmo",
-        "source": "cast_interest",
+        "evidence": "Release date: 2026-07-24",
+        "source": "release_proximity",
         "status": "verified"
       },
       {
@@ -63,12 +63,12 @@
     "homepage_spotlight_override": null,
     "homepage_spotlight_score": 82.0,
     "industry_interest": "Moderate",
-    "last_updated": "20260728T154145Z",
+    "last_updated": "20260729T153535Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
         "evidence_count": 2,
-        "score": 25.2,
+        "score": 25.0,
         "statuses": [
           "verified"
         ]
@@ -97,7 +97,7 @@
       },
       "talent/prestige": {
         "evidence_count": 2,
-        "score": 14.2,
+        "score": 14.4,
         "statuses": [
           "verified"
         ]
@@ -208,7 +208,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-07-28T15:41:25Z",
+    "generated_at": "2026-07-29T15:35:15Z",
     "headline": "The Truthers: release approaching",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -228,12 +228,12 @@
         "tmdb_backdrop_count": 1,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=IvL0oT13djs",
-        "tmdb_popularity": 54.7342,
+        "tmdb_popularity": 53.1696,
         "tmdb_poster_count": 3,
         "tmdb_release_date_us_primary": "2026-07-24",
         "tmdb_release_date_us_theatrical": "",
         "tmdb_release_status": "Released",
-        "tmdb_vote_average": 6.075,
+        "tmdb_vote_average": 6.1,
         "tmdb_vote_count": 20,
         "tmdb_watch_provider_count_us": 2,
         "trailer_available": true,
@@ -244,14 +244,14 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity is 54.7342. US release is 4 days away on 2026-07-24. A canonical TMDb trailer URL is available.",
+    "summary": "TMDb popularity is 53.1696. US release is 4 days away on 2026-07-24. A canonical TMDb trailer URL is available.",
     "supporting_drivers": [
       {
         "confidence_weight": 0.65,
         "driver_type": "popularity_observed",
-        "evidence": "TMDb popularity is 54.7342.",
+        "evidence": "TMDb popularity is 53.1696.",
         "label": "Popularity signal available",
-        "retrieved_at": "2026-07-28T15:41:25Z",
+        "retrieved_at": "2026-07-29T15:35:15Z",
         "source_metric": "tmdb_popularity",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -261,7 +261,7 @@
         "driver_type": "release_approaching",
         "evidence": "US release is 4 days away on 2026-07-24.",
         "label": "Release approaching",
-        "retrieved_at": "2026-07-28T15:41:25Z",
+        "retrieved_at": "2026-07-29T15:35:15Z",
         "source_metric": "tmdb_release_date_us_primary",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -271,7 +271,7 @@
         "driver_type": "trailer_available",
         "evidence": "A canonical TMDb trailer URL is available.",
         "label": "Trailer available",
-        "retrieved_at": "2026-07-28T15:41:25Z",
+        "retrieved_at": "2026-07-29T15:35:15Z",
         "source_metric": "tmdb_canonical_trailer_url",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -280,7 +280,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260728T154145Z",
+    "generated_at": "20260729T153535Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -381,7 +381,7 @@
         "role": "actor"
       },
       {
-        "name": "Olaya Lopez",
+        "name": "Mabel del Pozo",
         "role": "actor"
       }
     ],
@@ -401,12 +401,12 @@
     "external_intelligence": {
       "confidence": "High",
       "headline": "The Truthers: release approaching",
-      "summary": "TMDb popularity is 54.7342. US release is 4 days away on 2026-07-24. A canonical TMDb trailer URL is available."
+      "summary": "TMDb popularity is 53.1696. US release is 4 days away on 2026-07-24. A canonical TMDb trailer URL is available."
     },
-    "last_updated": "2026-07-28T15:41:45Z",
+    "last_updated": "2026-07-29T15:35:35Z",
     "latest_event": {
       "confidence": "Inferred",
-      "event_id": "1659155-bf297228ea65",
+      "event_id": "1659155-b2e6ee7bb2dd",
       "event_type": "Distributor Change",
       "film_id": "1659155",
       "importance": "Medium",
@@ -415,7 +415,7 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Netflix.",
-      "timestamp": "2026-07-28T15:41:45Z",
+      "timestamp": "2026-07-29T15:35:35Z",
       "title": "Distributor set: Netflix"
     },
     "latest_intelligence": "As of 2026-07-18, this is a Netflix release dated 2026-07-24 with general awards monitoring relevance; current awards profile is Developing and data status is developing.",
@@ -425,7 +425,7 @@
     "recent_activity": [
       {
         "confidence": "Inferred",
-        "event_id": "1659155-bf297228ea65",
+        "event_id": "1659155-b2e6ee7bb2dd",
         "event_type": "Distributor Change",
         "film_id": "1659155",
         "importance": "Medium",
@@ -434,12 +434,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1659155-0e4153055d4c",
+        "event_id": "1659155-4ac4cfb0c862",
         "event_type": "Awards Tier Changed",
         "film_id": "1659155",
         "importance": "Medium",
@@ -449,12 +449,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1659155-fb23c7930da3",
+        "event_id": "1659155-3e3044bf6f0a",
         "event_type": "Added To Database",
         "film_id": "1659155",
         "importance": "Low",
@@ -463,7 +463,7 @@
         },
         "source_type": "system",
         "summary": "The Truthers is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -483,8 +483,9 @@
       "Fanny Gautier",
       "Alberto Olmo",
       "Israel Ruiz",
-      "Olaya Lopez",
-      "Armando Pita"
+      "Mabel del Pozo",
+      "Celine Fortenbacher",
+      "Olaya Lopez"
     ],
     "producers": [],
     "writers": []
@@ -493,7 +494,7 @@
     "events": [
       {
         "confidence": "Inferred",
-        "event_id": "1659155-bf297228ea65",
+        "event_id": "1659155-b2e6ee7bb2dd",
         "event_type": "Distributor Change",
         "film_id": "1659155",
         "importance": "Medium",
@@ -502,12 +503,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1659155-0e4153055d4c",
+        "event_id": "1659155-4ac4cfb0c862",
         "event_type": "Awards Tier Changed",
         "film_id": "1659155",
         "importance": "Medium",
@@ -517,12 +518,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1659155-fb23c7930da3",
+        "event_id": "1659155-3e3044bf6f0a",
         "event_type": "Added To Database",
         "film_id": "1659155",
         "importance": "Low",
@@ -531,7 +532,7 @@
         },
         "source_type": "system",
         "summary": "The Truthers is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Added to Awards Intelligence"
       },
       {
@@ -551,7 +552,7 @@
     ],
     "latest_event": {
       "confidence": "Inferred",
-      "event_id": "1659155-bf297228ea65",
+      "event_id": "1659155-b2e6ee7bb2dd",
       "event_type": "Distributor Change",
       "film_id": "1659155",
       "importance": "Medium",
@@ -560,13 +561,13 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Netflix.",
-      "timestamp": "2026-07-28T15:41:45Z",
+      "timestamp": "2026-07-29T15:35:35Z",
       "title": "Distributor set: Netflix"
     },
     "recent_activity": [
       {
         "confidence": "Inferred",
-        "event_id": "1659155-bf297228ea65",
+        "event_id": "1659155-b2e6ee7bb2dd",
         "event_type": "Distributor Change",
         "film_id": "1659155",
         "importance": "Medium",
@@ -575,12 +576,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1659155-0e4153055d4c",
+        "event_id": "1659155-4ac4cfb0c862",
         "event_type": "Awards Tier Changed",
         "film_id": "1659155",
         "importance": "Medium",
@@ -590,12 +591,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1659155-fb23c7930da3",
+        "event_id": "1659155-3e3044bf6f0a",
         "event_type": "Added To Database",
         "film_id": "1659155",
         "importance": "Low",
@@ -604,7 +605,7 @@
         },
         "source_type": "system",
         "summary": "The Truthers is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Added to Awards Intelligence"
       }
     ],

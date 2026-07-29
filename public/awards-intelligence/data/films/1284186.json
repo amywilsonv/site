@@ -7,7 +7,7 @@
       "Major Filmmaker",
       "Awards Watch"
     ],
-    "attention_score": 33.5,
+    "attention_score": 33.1,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -30,7 +30,7 @@
         "status": "inferred"
       },
       {
-        "evidence": "TMDb popularity 2.6661",
+        "evidence": "TMDb popularity 2.3816",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -46,14 +46,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 33.5,
+    "homepage_spotlight_score": 33.1,
     "industry_interest": null,
-    "last_updated": "20260728T154145Z",
+    "last_updated": "20260729T153535Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
         "evidence_count": 1,
-        "score": 6.7,
+        "score": 6.3,
         "statuses": [
           "verified"
         ]
@@ -197,7 +197,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.85,
-    "generated_at": "2026-07-28T15:41:25Z",
+    "generated_at": "2026-07-29T15:35:15Z",
     "headline": "Sacrifice: popularity signal available",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -216,7 +216,7 @@
         "streaming_provider_count_us": 0,
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": false,
-        "tmdb_popularity": 2.6661,
+        "tmdb_popularity": 2.3816,
         "tmdb_poster_count": 3,
         "tmdb_release_date_us_primary": "",
         "tmdb_release_date_us_theatrical": "",
@@ -231,14 +231,14 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity is 2.6661.",
+    "summary": "TMDb popularity is 2.3816.",
     "supporting_drivers": [
       {
         "confidence_weight": 0.65,
         "driver_type": "popularity_observed",
-        "evidence": "TMDb popularity is 2.6661.",
+        "evidence": "TMDb popularity is 2.3816.",
         "label": "Popularity signal available",
-        "retrieved_at": "2026-07-28T15:41:25Z",
+        "retrieved_at": "2026-07-29T15:35:15Z",
         "source_metric": "tmdb_popularity",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -247,24 +247,12 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260728T154145Z",
+    "generated_at": "20260729T153535Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
   "related": {
     "related_films": [
-      {
-        "profile_url": "film.html?id=1643567",
-        "relationship_score": 56,
-        "shared_signals": [
-          "General Watch",
-          "Adventure",
-          "Comedy",
-          "Craft Categories"
-        ],
-        "title": "Ghosts: The Possession of Button House",
-        "tmdb_id": "1643567"
-      },
       {
         "profile_url": "film.html?id=1148365",
         "relationship_score": 52,
@@ -300,6 +288,18 @@
         ],
         "title": "Beasts Clutching at Straws",
         "tmdb_id": "1670061"
+      },
+      {
+        "profile_url": "film.html?id=1643567",
+        "relationship_score": 50,
+        "shared_signals": [
+          "General Watch",
+          "Comedy",
+          "Craft Categories",
+          "Unknown"
+        ],
+        "title": "Ghosts: The Possession of Button House",
+        "tmdb_id": "1643567"
       },
       {
         "profile_url": "film.html?id=1717258",
@@ -384,7 +384,7 @@
     "external_intelligence": {
       "confidence": "High",
       "headline": "Sacrifice: popularity signal available",
-      "summary": "TMDb popularity is 2.6661."
+      "summary": "TMDb popularity is 2.3816."
     },
     "last_updated": "2026-09-10",
     "latest_event": {
@@ -422,7 +422,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1284186-df610bcc951c",
+        "event_id": "1284186-422f6867e3f5",
         "event_type": "Awards Tier Changed",
         "film_id": "1284186",
         "importance": "Medium",
@@ -434,12 +434,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1284186-93f16dc0351c",
+        "event_id": "1284186-860639e7103a",
         "event_type": "Added To Database",
         "film_id": "1284186",
         "importance": "Low",
@@ -448,7 +448,7 @@
         },
         "source_type": "system",
         "summary": "Sacrifice is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -494,7 +494,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1284186-df610bcc951c",
+        "event_id": "1284186-422f6867e3f5",
         "event_type": "Awards Tier Changed",
         "film_id": "1284186",
         "importance": "Medium",
@@ -506,12 +506,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1284186-93f16dc0351c",
+        "event_id": "1284186-860639e7103a",
         "event_type": "Added To Database",
         "film_id": "1284186",
         "importance": "Low",
@@ -520,7 +520,7 @@
         },
         "source_type": "system",
         "summary": "Sacrifice is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Added to Awards Intelligence"
       },
       {
@@ -569,7 +569,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1284186-df610bcc951c",
+        "event_id": "1284186-422f6867e3f5",
         "event_type": "Awards Tier Changed",
         "film_id": "1284186",
         "importance": "Medium",
@@ -581,12 +581,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1284186-93f16dc0351c",
+        "event_id": "1284186-860639e7103a",
         "event_type": "Added To Database",
         "film_id": "1284186",
         "importance": "Low",
@@ -595,7 +595,7 @@
         },
         "source_type": "system",
         "summary": "Sacrifice is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Added to Awards Intelligence"
       }
     ],

@@ -15,7 +15,7 @@
     "early_reception": null,
     "evidence_sources": [
       {
-        "evidence": "TMDb popularity 76.1783",
+        "evidence": "TMDb popularity 74.919",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -50,7 +50,7 @@
         "status": "verified"
       },
       {
-        "evidence": "51",
+        "evidence": "53",
         "source": "tmdb_vote_count",
         "status": "verified"
       }
@@ -58,7 +58,7 @@
     "homepage_spotlight_override": null,
     "homepage_spotlight_score": 77.9,
     "industry_interest": "Moderate",
-    "last_updated": "20260728T154145Z",
+    "last_updated": "20260729T153535Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
@@ -201,7 +201,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-07-28T15:41:25Z",
+    "generated_at": "2026-07-29T15:35:15Z",
     "headline": "The Dink: release approaching",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -221,13 +221,13 @@
         "tmdb_backdrop_count": 2,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=YyVNFzx5Pl8",
-        "tmdb_popularity": 76.1783,
+        "tmdb_popularity": 74.919,
         "tmdb_poster_count": 9,
         "tmdb_release_date_us_primary": "2026-07-23",
         "tmdb_release_date_us_theatrical": "",
         "tmdb_release_status": "Released",
-        "tmdb_vote_average": 6.294,
-        "tmdb_vote_count": 51,
+        "tmdb_vote_average": 6.3,
+        "tmdb_vote_count": 53,
         "tmdb_watch_provider_count_us": 2,
         "trailer_available": true,
         "trailer_count": 2,
@@ -237,14 +237,14 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity is 76.1783. US release is 3 days away on 2026-07-23. A canonical TMDb trailer URL is available.",
+    "summary": "TMDb popularity is 74.919. US release is 3 days away on 2026-07-23. A canonical TMDb trailer URL is available.",
     "supporting_drivers": [
       {
         "confidence_weight": 0.65,
         "driver_type": "popularity_observed",
-        "evidence": "TMDb popularity is 76.1783.",
+        "evidence": "TMDb popularity is 74.919.",
         "label": "Popularity signal available",
-        "retrieved_at": "2026-07-28T15:41:25Z",
+        "retrieved_at": "2026-07-29T15:35:15Z",
         "source_metric": "tmdb_popularity",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -254,7 +254,7 @@
         "driver_type": "release_approaching",
         "evidence": "US release is 3 days away on 2026-07-23.",
         "label": "Release approaching",
-        "retrieved_at": "2026-07-28T15:41:25Z",
+        "retrieved_at": "2026-07-29T15:35:15Z",
         "source_metric": "tmdb_release_date_us_primary",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -264,7 +264,7 @@
         "driver_type": "trailer_available",
         "evidence": "A canonical TMDb trailer URL is available.",
         "label": "Trailer available",
-        "retrieved_at": "2026-07-28T15:41:25Z",
+        "retrieved_at": "2026-07-29T15:35:15Z",
         "source_metric": "tmdb_canonical_trailer_url",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -273,7 +273,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260728T154145Z",
+    "generated_at": "20260729T153535Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -390,12 +390,12 @@
     "external_intelligence": {
       "confidence": "High",
       "headline": "The Dink: release approaching",
-      "summary": "TMDb popularity is 76.1783. US release is 3 days away on 2026-07-23. A canonical TMDb trailer URL is available."
+      "summary": "TMDb popularity is 74.919. US release is 3 days away on 2026-07-23. A canonical TMDb trailer URL is available."
     },
-    "last_updated": "2026-07-28T15:41:45Z",
+    "last_updated": "2026-07-29T15:35:35Z",
     "latest_event": {
       "confidence": "Inferred",
-      "event_id": "1361774-f8dec990878b",
+      "event_id": "1361774-554125f3dae7",
       "event_type": "Distributor Change",
       "film_id": "1361774",
       "importance": "Medium",
@@ -404,7 +404,7 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Apple TV.",
-      "timestamp": "2026-07-28T15:41:45Z",
+      "timestamp": "2026-07-29T15:35:35Z",
       "title": "Distributor set: Apple TV"
     },
     "latest_intelligence": "As of 2026-07-18, this is a Apple TV release dated 2026-07-23 with general awards monitoring relevance; current awards profile is Developing and data status is developing.",
@@ -414,7 +414,7 @@
     "recent_activity": [
       {
         "confidence": "Inferred",
-        "event_id": "1361774-f8dec990878b",
+        "event_id": "1361774-554125f3dae7",
         "event_type": "Distributor Change",
         "film_id": "1361774",
         "importance": "Medium",
@@ -423,12 +423,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Apple TV.",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Distributor set: Apple TV"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1361774-6612fe2d1405",
+        "event_id": "1361774-8ae71b80e1ef",
         "event_type": "Awards Tier Changed",
         "film_id": "1361774",
         "importance": "Medium",
@@ -438,12 +438,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1361774-1bf68306427c",
+        "event_id": "1361774-5a6bc8464844",
         "event_type": "Added To Database",
         "film_id": "1361774",
         "importance": "Low",
@@ -452,7 +452,7 @@
         },
         "source_type": "system",
         "summary": "The Dink is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -484,7 +484,7 @@
     "events": [
       {
         "confidence": "Inferred",
-        "event_id": "1361774-f8dec990878b",
+        "event_id": "1361774-554125f3dae7",
         "event_type": "Distributor Change",
         "film_id": "1361774",
         "importance": "Medium",
@@ -493,12 +493,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Apple TV.",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Distributor set: Apple TV"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1361774-6612fe2d1405",
+        "event_id": "1361774-8ae71b80e1ef",
         "event_type": "Awards Tier Changed",
         "film_id": "1361774",
         "importance": "Medium",
@@ -508,12 +508,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1361774-1bf68306427c",
+        "event_id": "1361774-5a6bc8464844",
         "event_type": "Added To Database",
         "film_id": "1361774",
         "importance": "Low",
@@ -522,7 +522,7 @@
         },
         "source_type": "system",
         "summary": "The Dink is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Added to Awards Intelligence"
       },
       {
@@ -542,7 +542,7 @@
     ],
     "latest_event": {
       "confidence": "Inferred",
-      "event_id": "1361774-f8dec990878b",
+      "event_id": "1361774-554125f3dae7",
       "event_type": "Distributor Change",
       "film_id": "1361774",
       "importance": "Medium",
@@ -551,13 +551,13 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Apple TV.",
-      "timestamp": "2026-07-28T15:41:45Z",
+      "timestamp": "2026-07-29T15:35:35Z",
       "title": "Distributor set: Apple TV"
     },
     "recent_activity": [
       {
         "confidence": "Inferred",
-        "event_id": "1361774-f8dec990878b",
+        "event_id": "1361774-554125f3dae7",
         "event_type": "Distributor Change",
         "film_id": "1361774",
         "importance": "Medium",
@@ -566,12 +566,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Apple TV.",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Distributor set: Apple TV"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1361774-6612fe2d1405",
+        "event_id": "1361774-8ae71b80e1ef",
         "event_type": "Awards Tier Changed",
         "film_id": "1361774",
         "importance": "Medium",
@@ -581,12 +581,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1361774-1bf68306427c",
+        "event_id": "1361774-5a6bc8464844",
         "event_type": "Added To Database",
         "film_id": "1361774",
         "importance": "Low",
@@ -595,7 +595,7 @@
         },
         "source_type": "system",
         "summary": "The Dink is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Added to Awards Intelligence"
       }
     ],

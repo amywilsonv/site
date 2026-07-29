@@ -7,7 +7,7 @@
       "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 71.4,
+    "attention_score": 72.0,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -25,7 +25,7 @@
         "status": "inferred"
       },
       {
-        "evidence": "Principal cast listed: Jay Chandrasekhar, Paul Soter, Steve Lemme, Erik Stolhanske",
+        "evidence": "Principal cast listed: Jay Chandrasekhar, Kevin Heffernan, Paul Soter, Steve Lemme",
         "source": "cast_interest",
         "status": "verified"
       },
@@ -40,13 +40,13 @@
         "status": "inferred"
       },
       {
-        "evidence": "Trailer URL present",
-        "source": "trailer_available",
+        "evidence": "TMDb popularity 3.9184",
+        "source": "audience_popularity",
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 3.0559",
-        "source": "audience_popularity",
+        "evidence": "Trailer URL present",
+        "source": "trailer_available",
         "status": "verified"
       },
       {
@@ -61,14 +61,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 71.4,
+    "homepage_spotlight_score": 72.0,
     "industry_interest": "Moderate",
-    "last_updated": "20260728T154145Z",
+    "last_updated": "20260729T153535Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
         "evidence_count": 2,
-        "score": 12.0,
+        "score": 12.6,
         "statuses": [
           "verified"
         ]
@@ -217,7 +217,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-07-28T15:41:25Z",
+    "generated_at": "2026-07-29T15:35:15Z",
     "headline": "Super Troopers 3: release approaching",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -237,7 +237,7 @@
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=cYFevn5frf0",
-        "tmdb_popularity": 3.0559,
+        "tmdb_popularity": 3.9184,
         "tmdb_poster_count": 10,
         "tmdb_release_date_us_primary": "2026-08-07",
         "tmdb_release_date_us_theatrical": "2026-08-07",
@@ -246,21 +246,21 @@
         "tmdb_vote_count": 0,
         "tmdb_watch_provider_count_us": 0,
         "trailer_available": true,
-        "trailer_count": 2,
+        "trailer_count": 36,
         "trailer_url": "https://www.youtube.com/watch?v=cYFevn5frf0"
       },
       "source_signal_count": 26,
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity is 3.0559. US release is 18 days away on 2026-08-07. A canonical TMDb trailer URL is available.",
+    "summary": "TMDb popularity is 3.9184. US release is 18 days away on 2026-08-07. A canonical TMDb trailer URL is available.",
     "supporting_drivers": [
       {
         "confidence_weight": 0.65,
         "driver_type": "popularity_observed",
-        "evidence": "TMDb popularity is 3.0559.",
+        "evidence": "TMDb popularity is 3.9184.",
         "label": "Popularity signal available",
-        "retrieved_at": "2026-07-28T15:41:25Z",
+        "retrieved_at": "2026-07-29T15:35:15Z",
         "source_metric": "tmdb_popularity",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -270,7 +270,7 @@
         "driver_type": "release_approaching",
         "evidence": "US release is 18 days away on 2026-08-07.",
         "label": "Release approaching",
-        "retrieved_at": "2026-07-28T15:41:25Z",
+        "retrieved_at": "2026-07-29T15:35:15Z",
         "source_metric": "tmdb_release_date_us_primary",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -280,7 +280,7 @@
         "driver_type": "trailer_available",
         "evidence": "A canonical TMDb trailer URL is available.",
         "label": "Trailer available",
-        "retrieved_at": "2026-07-28T15:41:25Z",
+        "retrieved_at": "2026-07-29T15:35:15Z",
         "source_metric": "tmdb_canonical_trailer_url",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -289,7 +289,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260728T154145Z",
+    "generated_at": "20260729T153535Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -362,6 +362,10 @@
         "role": "director"
       },
       {
+        "name": "Kevin Heffernan",
+        "role": "actor"
+      },
+      {
         "name": "Paul Soter",
         "role": "actor"
       },
@@ -371,10 +375,6 @@
       },
       {
         "name": "Erik Stolhanske",
-        "role": "actor"
-      },
-      {
-        "name": "Kevin Heffernan",
         "role": "actor"
       },
       {
@@ -410,7 +410,7 @@
     "external_intelligence": {
       "confidence": "High",
       "headline": "Super Troopers 3: release approaching",
-      "summary": "TMDb popularity is 3.0559. US release is 18 days away on 2026-08-07. A canonical TMDb trailer URL is available."
+      "summary": "TMDb popularity is 3.9184. US release is 18 days away on 2026-08-07. A canonical TMDb trailer URL is available."
     },
     "last_updated": "2026-08-07",
     "latest_event": {
@@ -448,7 +448,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "675871-c3566a7de737",
+        "event_id": "675871-06c610577d37",
         "event_type": "Distributor Change",
         "film_id": "675871",
         "importance": "Medium",
@@ -457,12 +457,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Searchlight Pictures.",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Distributor set: Searchlight Pictures"
       },
       {
         "confidence": "Inferred",
-        "event_id": "675871-849cf8aa3de3",
+        "event_id": "675871-f4d55b5c6a31",
         "event_type": "Awards Tier Changed",
         "film_id": "675871",
         "importance": "Medium",
@@ -472,7 +472,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],
@@ -489,10 +489,10 @@
     "director": "Jay Chandrasekhar",
     "principal_cast": [
       "Jay Chandrasekhar",
+      "Kevin Heffernan",
       "Paul Soter",
       "Steve Lemme",
       "Erik Stolhanske",
-      "Kevin Heffernan",
       "Brian Cox",
       "Marisa Coughlan",
       "Nat Faxon"
@@ -518,7 +518,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "675871-c3566a7de737",
+        "event_id": "675871-06c610577d37",
         "event_type": "Distributor Change",
         "film_id": "675871",
         "importance": "Medium",
@@ -527,12 +527,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Searchlight Pictures.",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Distributor set: Searchlight Pictures"
       },
       {
         "confidence": "Inferred",
-        "event_id": "675871-849cf8aa3de3",
+        "event_id": "675871-f4d55b5c6a31",
         "event_type": "Awards Tier Changed",
         "film_id": "675871",
         "importance": "Medium",
@@ -542,12 +542,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "675871-cd155bf453af",
+        "event_id": "675871-89df444bce75",
         "event_type": "Added To Database",
         "film_id": "675871",
         "importance": "Low",
@@ -556,7 +556,7 @@
         },
         "source_type": "system",
         "summary": "Super Troopers 3 is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -591,7 +591,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "675871-c3566a7de737",
+        "event_id": "675871-06c610577d37",
         "event_type": "Distributor Change",
         "film_id": "675871",
         "importance": "Medium",
@@ -600,12 +600,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Searchlight Pictures.",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Distributor set: Searchlight Pictures"
       },
       {
         "confidence": "Inferred",
-        "event_id": "675871-849cf8aa3de3",
+        "event_id": "675871-f4d55b5c6a31",
         "event_type": "Awards Tier Changed",
         "film_id": "675871",
         "importance": "Medium",
@@ -615,7 +615,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],

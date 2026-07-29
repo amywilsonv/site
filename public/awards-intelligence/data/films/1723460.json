@@ -7,7 +7,7 @@
       "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 60.4,
+    "attention_score": 60.6,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -15,7 +15,7 @@
     "early_reception": null,
     "evidence_sources": [
       {
-        "evidence": "TMDb popularity 18.7678",
+        "evidence": "TMDb popularity 19.3546",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -50,20 +50,20 @@
         "status": "verified"
       },
       {
-        "evidence": "27",
+        "evidence": "30",
         "source": "tmdb_vote_count",
         "status": "verified"
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 60.4,
+    "homepage_spotlight_score": 60.6,
     "industry_interest": null,
-    "last_updated": "20260728T154145Z",
+    "last_updated": "20260729T153535Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
         "evidence_count": 2,
-        "score": 19.8,
+        "score": 20.0,
         "statuses": [
           "verified"
         ]
@@ -203,7 +203,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-07-28T15:41:25Z",
+    "generated_at": "2026-07-29T15:35:15Z",
     "headline": "A Toxic Love Story: release approaching",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -223,13 +223,13 @@
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=9k9SYlMy9qs",
-        "tmdb_popularity": 18.7678,
+        "tmdb_popularity": 19.3546,
         "tmdb_poster_count": 3,
         "tmdb_release_date_us_primary": "2026-07-22",
         "tmdb_release_date_us_theatrical": "",
         "tmdb_release_status": "Released",
-        "tmdb_vote_average": 6.923,
-        "tmdb_vote_count": 27,
+        "tmdb_vote_average": 6.75,
+        "tmdb_vote_count": 30,
         "tmdb_watch_provider_count_us": 2,
         "trailer_available": true,
         "trailer_count": 1,
@@ -239,14 +239,14 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity is 18.7678. US release is 2 days away on 2026-07-22. A canonical TMDb trailer URL is available.",
+    "summary": "TMDb popularity is 19.3546. US release is 2 days away on 2026-07-22. A canonical TMDb trailer URL is available.",
     "supporting_drivers": [
       {
         "confidence_weight": 0.65,
         "driver_type": "popularity_observed",
-        "evidence": "TMDb popularity is 18.7678.",
+        "evidence": "TMDb popularity is 19.3546.",
         "label": "Popularity signal available",
-        "retrieved_at": "2026-07-28T15:41:25Z",
+        "retrieved_at": "2026-07-29T15:35:15Z",
         "source_metric": "tmdb_popularity",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -256,7 +256,7 @@
         "driver_type": "release_approaching",
         "evidence": "US release is 2 days away on 2026-07-22.",
         "label": "Release approaching",
-        "retrieved_at": "2026-07-28T15:41:25Z",
+        "retrieved_at": "2026-07-29T15:35:15Z",
         "source_metric": "tmdb_release_date_us_primary",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -266,7 +266,7 @@
         "driver_type": "trailer_available",
         "evidence": "A canonical TMDb trailer URL is available.",
         "label": "Trailer available",
-        "retrieved_at": "2026-07-28T15:41:25Z",
+        "retrieved_at": "2026-07-29T15:35:15Z",
         "source_metric": "tmdb_canonical_trailer_url",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -275,7 +275,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260728T154145Z",
+    "generated_at": "20260729T153535Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -366,12 +366,12 @@
     "external_intelligence": {
       "confidence": "High",
       "headline": "A Toxic Love Story: release approaching",
-      "summary": "TMDb popularity is 18.7678. US release is 2 days away on 2026-07-22. A canonical TMDb trailer URL is available."
+      "summary": "TMDb popularity is 19.3546. US release is 2 days away on 2026-07-22. A canonical TMDb trailer URL is available."
     },
-    "last_updated": "2026-07-28T15:41:45Z",
+    "last_updated": "2026-07-29T15:35:35Z",
     "latest_event": {
       "confidence": "Inferred",
-      "event_id": "1723460-c0cd0d6bbf37",
+      "event_id": "1723460-eea5d39039c1",
       "event_type": "Distributor Change",
       "film_id": "1723460",
       "importance": "Medium",
@@ -380,7 +380,7 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Netflix.",
-      "timestamp": "2026-07-28T15:41:45Z",
+      "timestamp": "2026-07-29T15:35:35Z",
       "title": "Distributor set: Netflix"
     },
     "latest_intelligence": "As of 2026-07-18, this is a Netflix release dated 2026-07-22 with general awards monitoring relevance; current awards profile is Developing and data status is developing.",
@@ -390,7 +390,7 @@
     "recent_activity": [
       {
         "confidence": "Inferred",
-        "event_id": "1723460-c0cd0d6bbf37",
+        "event_id": "1723460-eea5d39039c1",
         "event_type": "Distributor Change",
         "film_id": "1723460",
         "importance": "Medium",
@@ -399,12 +399,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1723460-80040a22c81e",
+        "event_id": "1723460-4915dfd314a5",
         "event_type": "Awards Tier Changed",
         "film_id": "1723460",
         "importance": "Medium",
@@ -414,12 +414,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1723460-8bacc5154303",
+        "event_id": "1723460-6e0600bdf7d2",
         "event_type": "Added To Database",
         "film_id": "1723460",
         "importance": "Low",
@@ -428,7 +428,7 @@
         },
         "source_type": "system",
         "summary": "A Toxic Love Story is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -450,7 +450,7 @@
     "events": [
       {
         "confidence": "Inferred",
-        "event_id": "1723460-c0cd0d6bbf37",
+        "event_id": "1723460-eea5d39039c1",
         "event_type": "Distributor Change",
         "film_id": "1723460",
         "importance": "Medium",
@@ -459,12 +459,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1723460-80040a22c81e",
+        "event_id": "1723460-4915dfd314a5",
         "event_type": "Awards Tier Changed",
         "film_id": "1723460",
         "importance": "Medium",
@@ -474,12 +474,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1723460-8bacc5154303",
+        "event_id": "1723460-6e0600bdf7d2",
         "event_type": "Added To Database",
         "film_id": "1723460",
         "importance": "Low",
@@ -488,7 +488,7 @@
         },
         "source_type": "system",
         "summary": "A Toxic Love Story is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Added to Awards Intelligence"
       },
       {
@@ -508,7 +508,7 @@
     ],
     "latest_event": {
       "confidence": "Inferred",
-      "event_id": "1723460-c0cd0d6bbf37",
+      "event_id": "1723460-eea5d39039c1",
       "event_type": "Distributor Change",
       "film_id": "1723460",
       "importance": "Medium",
@@ -517,13 +517,13 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Netflix.",
-      "timestamp": "2026-07-28T15:41:45Z",
+      "timestamp": "2026-07-29T15:35:35Z",
       "title": "Distributor set: Netflix"
     },
     "recent_activity": [
       {
         "confidence": "Inferred",
-        "event_id": "1723460-c0cd0d6bbf37",
+        "event_id": "1723460-eea5d39039c1",
         "event_type": "Distributor Change",
         "film_id": "1723460",
         "importance": "Medium",
@@ -532,12 +532,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1723460-80040a22c81e",
+        "event_id": "1723460-4915dfd314a5",
         "event_type": "Awards Tier Changed",
         "film_id": "1723460",
         "importance": "Medium",
@@ -547,12 +547,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1723460-8bacc5154303",
+        "event_id": "1723460-6e0600bdf7d2",
         "event_type": "Added To Database",
         "film_id": "1723460",
         "importance": "Low",
@@ -561,7 +561,7 @@
         },
         "source_type": "system",
         "summary": "A Toxic Love Story is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Added to Awards Intelligence"
       }
     ],

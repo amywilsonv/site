@@ -7,7 +7,7 @@
       "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 52.0,
+    "attention_score": 51.8,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -40,7 +40,7 @@
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 1.4424",
+        "evidence": "TMDb popularity 1.3244",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -51,14 +51,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 52.0,
+    "homepage_spotlight_score": 51.8,
     "industry_interest": "Moderate",
-    "last_updated": "20260728T154145Z",
+    "last_updated": "20260729T153535Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
         "evidence_count": 1,
-        "score": 4.6,
+        "score": 4.4,
         "statuses": [
           "verified"
         ]
@@ -200,7 +200,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.85,
-    "generated_at": "2026-07-28T15:41:25Z",
+    "generated_at": "2026-07-29T15:35:15Z",
     "headline": "A\u015fk Tesad\u00fcfleri Sever 3: popularity signal available",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -219,7 +219,7 @@
         "streaming_provider_count_us": 0,
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": false,
-        "tmdb_popularity": 1.4424,
+        "tmdb_popularity": 1.3244,
         "tmdb_poster_count": 0,
         "tmdb_release_date_us_primary": "",
         "tmdb_release_date_us_theatrical": "",
@@ -234,14 +234,14 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity is 1.4424.",
+    "summary": "TMDb popularity is 1.3244.",
     "supporting_drivers": [
       {
         "confidence_weight": 0.65,
         "driver_type": "popularity_observed",
-        "evidence": "TMDb popularity is 1.4424.",
+        "evidence": "TMDb popularity is 1.3244.",
         "label": "Popularity signal available",
-        "retrieved_at": "2026-07-28T15:41:25Z",
+        "retrieved_at": "2026-07-29T15:35:15Z",
         "source_metric": "tmdb_popularity",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -250,7 +250,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260728T154145Z",
+    "generated_at": "20260729T153535Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -367,7 +367,7 @@
     "external_intelligence": {
       "confidence": "High",
       "headline": "A\u015fk Tesad\u00fcfleri Sever 3: popularity signal available",
-      "summary": "TMDb popularity is 1.4424."
+      "summary": "TMDb popularity is 1.3244."
     },
     "last_updated": "2026-11-20",
     "latest_event": {
@@ -405,7 +405,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1608012-e6586c81350e",
+        "event_id": "1608012-310051f6043b",
         "event_type": "Awards Tier Changed",
         "film_id": "1608012",
         "importance": "Medium",
@@ -415,12 +415,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1608012-49808cf721fc",
+        "event_id": "1608012-2ff5ff4a5617",
         "event_type": "Added To Database",
         "film_id": "1608012",
         "importance": "Low",
@@ -429,7 +429,7 @@
         },
         "source_type": "system",
         "summary": "A\u015fk Tesad\u00fcfleri Sever 3 is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -474,7 +474,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1608012-e6586c81350e",
+        "event_id": "1608012-310051f6043b",
         "event_type": "Awards Tier Changed",
         "film_id": "1608012",
         "importance": "Medium",
@@ -484,12 +484,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1608012-49808cf721fc",
+        "event_id": "1608012-2ff5ff4a5617",
         "event_type": "Added To Database",
         "film_id": "1608012",
         "importance": "Low",
@@ -498,7 +498,7 @@
         },
         "source_type": "system",
         "summary": "A\u015fk Tesad\u00fcfleri Sever 3 is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -533,7 +533,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1608012-e6586c81350e",
+        "event_id": "1608012-310051f6043b",
         "event_type": "Awards Tier Changed",
         "film_id": "1608012",
         "importance": "Medium",
@@ -543,12 +543,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1608012-49808cf721fc",
+        "event_id": "1608012-2ff5ff4a5617",
         "event_type": "Added To Database",
         "film_id": "1608012",
         "importance": "Low",
@@ -557,7 +557,7 @@
         },
         "source_type": "system",
         "summary": "A\u015fk Tesad\u00fcfleri Sever 3 is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Added to Awards Intelligence"
       }
     ],

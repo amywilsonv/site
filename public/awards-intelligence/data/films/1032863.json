@@ -7,7 +7,7 @@
       "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 42.8,
+    "attention_score": 43.1,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -30,7 +30,7 @@
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 2.4137",
+        "evidence": "TMDb popularity 2.5603",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -46,14 +46,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 42.8,
+    "homepage_spotlight_score": 43.1,
     "industry_interest": null,
-    "last_updated": "20260728T154145Z",
+    "last_updated": "20260729T153535Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
         "evidence_count": 1,
-        "score": 6.3,
+        "score": 6.6,
         "statuses": [
           "verified"
         ]
@@ -173,7 +173,7 @@
     "premiere_type": ""
   },
   "film_identity": {
-    "backdrop": "https://image.tmdb.org/t/p/original/koX7CvqQ9nYEXIAPSDxbbnBw7bR.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/p1Xk8xNHHP1HJx2yGZuREp8Etab.jpg",
     "country": [
       "US"
     ],
@@ -198,7 +198,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.85,
-    "generated_at": "2026-07-28T15:41:25Z",
+    "generated_at": "2026-07-29T15:35:15Z",
     "headline": "The Love Hypothesis: popularity signal available",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -217,7 +217,7 @@
         "streaming_provider_count_us": 0,
         "tmdb_backdrop_count": 1,
         "tmdb_canonical_trailer_available": false,
-        "tmdb_popularity": 2.4137,
+        "tmdb_popularity": 2.5603,
         "tmdb_poster_count": 1,
         "tmdb_release_date_us_primary": "2026-09-23",
         "tmdb_release_date_us_theatrical": "",
@@ -232,14 +232,14 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity is 2.4137.",
+    "summary": "TMDb popularity is 2.5603.",
     "supporting_drivers": [
       {
         "confidence_weight": 0.65,
         "driver_type": "popularity_observed",
-        "evidence": "TMDb popularity is 2.4137.",
+        "evidence": "TMDb popularity is 2.5603.",
         "label": "Popularity signal available",
-        "retrieved_at": "2026-07-28T15:41:25Z",
+        "retrieved_at": "2026-07-29T15:35:15Z",
         "source_metric": "tmdb_popularity",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -248,7 +248,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260728T154145Z",
+    "generated_at": "20260729T153535Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -377,7 +377,7 @@
     "external_intelligence": {
       "confidence": "High",
       "headline": "The Love Hypothesis: popularity signal available",
-      "summary": "TMDb popularity is 2.4137."
+      "summary": "TMDb popularity is 2.5603."
     },
     "last_updated": "2026-09-23",
     "latest_event": {
@@ -415,7 +415,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1032863-49015aa29ff9",
+        "event_id": "1032863-1f0d799cd65c",
         "event_type": "Distributor Change",
         "film_id": "1032863",
         "importance": "Medium",
@@ -424,12 +424,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Prime Video.",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Distributor set: Prime Video"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1032863-8763225f1308",
+        "event_id": "1032863-1046c18efa42",
         "event_type": "Awards Tier Changed",
         "film_id": "1032863",
         "importance": "Medium",
@@ -441,7 +441,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],
@@ -484,7 +484,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1032863-49015aa29ff9",
+        "event_id": "1032863-1f0d799cd65c",
         "event_type": "Distributor Change",
         "film_id": "1032863",
         "importance": "Medium",
@@ -493,12 +493,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Prime Video.",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Distributor set: Prime Video"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1032863-8763225f1308",
+        "event_id": "1032863-1046c18efa42",
         "event_type": "Awards Tier Changed",
         "film_id": "1032863",
         "importance": "Medium",
@@ -510,12 +510,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1032863-f752b2b31d67",
+        "event_id": "1032863-29f293823f47",
         "event_type": "Added To Database",
         "film_id": "1032863",
         "importance": "Low",
@@ -524,7 +524,7 @@
         },
         "source_type": "system",
         "summary": "The Love Hypothesis is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -559,7 +559,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1032863-49015aa29ff9",
+        "event_id": "1032863-1f0d799cd65c",
         "event_type": "Distributor Change",
         "film_id": "1032863",
         "importance": "Medium",
@@ -568,12 +568,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Prime Video.",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Distributor set: Prime Video"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1032863-8763225f1308",
+        "event_id": "1032863-1046c18efa42",
         "event_type": "Awards Tier Changed",
         "film_id": "1032863",
         "importance": "Medium",
@@ -585,7 +585,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],

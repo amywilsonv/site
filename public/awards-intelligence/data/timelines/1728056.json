@@ -16,7 +16,7 @@
     },
     {
       "confidence": "Inferred",
-      "event_id": "1728056-0d9da779808a",
+      "event_id": "1728056-e68d68b8668a",
       "event_type": "Distributor Change",
       "film_id": "1728056",
       "importance": "Medium",
@@ -25,12 +25,12 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Netflix.",
-      "timestamp": "2026-07-28T15:41:45Z",
+      "timestamp": "2026-07-29T15:35:35Z",
       "title": "Distributor set: Netflix"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1728056-f284d3b61a6b",
+      "event_id": "1728056-52c28f291db2",
       "event_type": "Awards Tier Changed",
       "film_id": "1728056",
       "importance": "Medium",
@@ -40,12 +40,12 @@
       },
       "source_type": "editorial_model",
       "summary": "insufficient credible awards evidence",
-      "timestamp": "2026-07-28T15:41:45Z",
+      "timestamp": "2026-07-29T15:35:35Z",
       "title": "Awards tier assigned: No Current Awards Case"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1728056-0787b0b016f1",
+      "event_id": "1728056-de95763a8018",
       "event_type": "Added To Database",
       "film_id": "1728056",
       "importance": "Low",
@@ -54,7 +54,7 @@
       },
       "source_type": "system",
       "summary": "Big Chicken: A Fast Food Conspiracy is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-07-28T15:41:45Z",
+      "timestamp": "2026-07-29T15:35:35Z",
       "title": "Added to Awards Intelligence"
     }
   ],
@@ -75,7 +75,7 @@
   "metadata": {
     "event_count": 4,
     "film_id": "1728056",
-    "generated_at": "20260728T154145Z",
+    "generated_at": "20260729T153535Z",
     "timeline_version": "phase6b",
     "title": "Big Chicken: A Fast Food Conspiracy",
     "tmdb_id": "1728056"

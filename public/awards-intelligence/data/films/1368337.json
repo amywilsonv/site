@@ -16,7 +16,7 @@
     "early_reception": null,
     "evidence_sources": [
       {
-        "evidence": "TMDb popularity 1012.45",
+        "evidence": "TMDb popularity 1116.84",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -71,7 +71,7 @@
         "status": "editorially_selected"
       },
       {
-        "evidence": "1626",
+        "evidence": "1701",
         "source": "tmdb_vote_count",
         "status": "verified"
       }
@@ -85,7 +85,7 @@
     },
     "homepage_spotlight_score": 94.0,
     "industry_interest": "High",
-    "last_updated": "20260728T154145Z",
+    "last_updated": "20260729T153535Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
@@ -221,7 +221,7 @@
     "premiere_type": ""
   },
   "film_identity": {
-    "backdrop": "https://image.tmdb.org/t/p/original/RMXG8myu1aGlNUsRjtxzmpdMK0.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/tYuC9kUwqhpDQ3pv1kLMqyMF1Jw.jpg",
     "country": [
       "GB",
       "US"
@@ -248,7 +248,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-07-28T15:41:25Z",
+    "generated_at": "2026-07-29T15:35:15Z",
     "headline": "The Odyssey: popularity signal available",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -268,13 +268,13 @@
         "tmdb_backdrop_count": 11,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=AyIZ9tiiN8I",
-        "tmdb_popularity": 1012.4511,
-        "tmdb_poster_count": 137,
+        "tmdb_popularity": 1116.8359,
+        "tmdb_poster_count": 120,
         "tmdb_release_date_us_primary": "2026-07-17",
         "tmdb_release_date_us_theatrical": "2026-07-17",
         "tmdb_release_status": "Released",
-        "tmdb_vote_average": 8.0,
-        "tmdb_vote_count": 1626,
+        "tmdb_vote_average": 7.965,
+        "tmdb_vote_count": 1701,
         "tmdb_watch_provider_count_us": 0,
         "trailer_available": true,
         "trailer_count": 74,
@@ -284,14 +284,14 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity is 1012.45. A canonical TMDb trailer URL is available.",
+    "summary": "TMDb popularity is 1116.84. A canonical TMDb trailer URL is available.",
     "supporting_drivers": [
       {
         "confidence_weight": 0.65,
         "driver_type": "popularity_observed",
-        "evidence": "TMDb popularity is 1012.45.",
+        "evidence": "TMDb popularity is 1116.84.",
         "label": "Popularity signal available",
-        "retrieved_at": "2026-07-28T15:41:25Z",
+        "retrieved_at": "2026-07-29T15:35:15Z",
         "source_metric": "tmdb_popularity",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -301,7 +301,7 @@
         "driver_type": "trailer_available",
         "evidence": "A canonical TMDb trailer URL is available.",
         "label": "Trailer available",
-        "retrieved_at": "2026-07-28T15:41:25Z",
+        "retrieved_at": "2026-07-29T15:35:15Z",
         "source_metric": "tmdb_canonical_trailer_url",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -310,7 +310,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260728T154145Z",
+    "generated_at": "20260729T153535Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -439,12 +439,12 @@
     "external_intelligence": {
       "confidence": "High",
       "headline": "The Odyssey: popularity signal available",
-      "summary": "TMDb popularity is 1012.45. A canonical TMDb trailer URL is available."
+      "summary": "TMDb popularity is 1116.84. A canonical TMDb trailer URL is available."
     },
-    "last_updated": "2026-07-28T15:41:45Z",
+    "last_updated": "2026-07-29T15:35:35Z",
     "latest_event": {
       "confidence": "Inferred",
-      "event_id": "1368337-24b90a00a399",
+      "event_id": "1368337-9e3c9c7929ee",
       "event_type": "Homepage Featured",
       "film_id": "1368337",
       "importance": "Medium",
@@ -453,7 +453,7 @@
       },
       "source_type": "discovery_homepage",
       "summary": "The Odyssey is currently selected for the homepage experience.",
-      "timestamp": "2026-07-28T15:41:45Z",
+      "timestamp": "2026-07-29T15:35:35Z",
       "title": "Featured in The Screening Room"
     },
     "latest_intelligence": "As of 2026-07-18, this is a Universal Pictures release dated 2026-07-17 with Craft Categories relevance; current awards profile is Craft Potential and data status is developing.",
@@ -463,7 +463,7 @@
     "recent_activity": [
       {
         "confidence": "Inferred",
-        "event_id": "1368337-24b90a00a399",
+        "event_id": "1368337-9e3c9c7929ee",
         "event_type": "Homepage Featured",
         "film_id": "1368337",
         "importance": "Medium",
@@ -472,12 +472,12 @@
         },
         "source_type": "discovery_homepage",
         "summary": "The Odyssey is currently selected for the homepage experience.",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Featured in The Screening Room"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1368337-c01f3bd5de87",
+        "event_id": "1368337-fbde114f87c6",
         "event_type": "Distributor Change",
         "film_id": "1368337",
         "importance": "Medium",
@@ -486,12 +486,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Universal Pictures.",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Distributor set: Universal Pictures"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1368337-97671b218245",
+        "event_id": "1368337-6df0d3e51c57",
         "event_type": "Awards Tier Changed",
         "film_id": "1368337",
         "importance": "Medium",
@@ -503,7 +503,7 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Awards tier assigned: Emerging"
       }
     ],
@@ -535,7 +535,7 @@
     "events": [
       {
         "confidence": "Inferred",
-        "event_id": "1368337-24b90a00a399",
+        "event_id": "1368337-9e3c9c7929ee",
         "event_type": "Homepage Featured",
         "film_id": "1368337",
         "importance": "Medium",
@@ -544,12 +544,12 @@
         },
         "source_type": "discovery_homepage",
         "summary": "The Odyssey is currently selected for the homepage experience.",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Featured in The Screening Room"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1368337-c01f3bd5de87",
+        "event_id": "1368337-fbde114f87c6",
         "event_type": "Distributor Change",
         "film_id": "1368337",
         "importance": "Medium",
@@ -558,12 +558,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Universal Pictures.",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Distributor set: Universal Pictures"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1368337-97671b218245",
+        "event_id": "1368337-6df0d3e51c57",
         "event_type": "Awards Tier Changed",
         "film_id": "1368337",
         "importance": "Medium",
@@ -575,12 +575,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1368337-69e93c3b1471",
+        "event_id": "1368337-dc592b515200",
         "event_type": "Added To Database",
         "film_id": "1368337",
         "importance": "Low",
@@ -589,7 +589,7 @@
         },
         "source_type": "system",
         "summary": "The Odyssey is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Added to Awards Intelligence"
       },
       {
@@ -609,7 +609,7 @@
     ],
     "latest_event": {
       "confidence": "Inferred",
-      "event_id": "1368337-24b90a00a399",
+      "event_id": "1368337-9e3c9c7929ee",
       "event_type": "Homepage Featured",
       "film_id": "1368337",
       "importance": "Medium",
@@ -618,13 +618,13 @@
       },
       "source_type": "discovery_homepage",
       "summary": "The Odyssey is currently selected for the homepage experience.",
-      "timestamp": "2026-07-28T15:41:45Z",
+      "timestamp": "2026-07-29T15:35:35Z",
       "title": "Featured in The Screening Room"
     },
     "recent_activity": [
       {
         "confidence": "Inferred",
-        "event_id": "1368337-24b90a00a399",
+        "event_id": "1368337-9e3c9c7929ee",
         "event_type": "Homepage Featured",
         "film_id": "1368337",
         "importance": "Medium",
@@ -633,12 +633,12 @@
         },
         "source_type": "discovery_homepage",
         "summary": "The Odyssey is currently selected for the homepage experience.",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Featured in The Screening Room"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1368337-c01f3bd5de87",
+        "event_id": "1368337-fbde114f87c6",
         "event_type": "Distributor Change",
         "film_id": "1368337",
         "importance": "Medium",
@@ -647,12 +647,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Universal Pictures.",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Distributor set: Universal Pictures"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1368337-97671b218245",
+        "event_id": "1368337-6df0d3e51c57",
         "event_type": "Awards Tier Changed",
         "film_id": "1368337",
         "importance": "Medium",
@@ -664,7 +664,7 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Awards tier assigned: Emerging"
       }
     ],

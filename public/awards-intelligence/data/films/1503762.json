@@ -7,7 +7,7 @@
       "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 52.1,
+    "attention_score": 52.0,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -30,11 +30,6 @@
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 2.8904",
-        "source": "audience_popularity",
-        "status": "verified"
-      },
-      {
         "evidence": "Prestige distributor: Focus Features",
         "source": "prestige_distributor",
         "status": "verified"
@@ -45,20 +40,25 @@
         "status": "verified"
       },
       {
+        "evidence": "TMDb popularity 2.8234",
+        "source": "audience_popularity",
+        "status": "verified"
+      },
+      {
         "evidence": "Director: Georgia Oakley",
         "source": "filmmaker_interest",
         "status": "verified"
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 52.1,
+    "homepage_spotlight_score": 52.0,
     "industry_interest": null,
-    "last_updated": "20260728T154145Z",
+    "last_updated": "20260729T153535Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
         "evidence_count": 2,
-        "score": 11.9,
+        "score": 11.8,
         "statuses": [
           "verified"
         ]
@@ -197,7 +197,7 @@
     "profile_url": "film.html?id=1503762",
     "release_date": "2026-10-16",
     "release_display": "In theaters Oct. 16",
-    "runtime": 131,
+    "runtime": 132,
     "synopsis": "A charming, witty, and deeply relatable story of love and sisterhood.",
     "title": "Sense and Sensibility",
     "tmdb_id": "1503762"
@@ -205,7 +205,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-07-28T15:41:25Z",
+    "generated_at": "2026-07-29T15:35:15Z",
     "headline": "Sense and Sensibility: popularity signal available",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -225,7 +225,7 @@
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=mcrwcvad84U",
-        "tmdb_popularity": 2.8904,
+        "tmdb_popularity": 2.8234,
         "tmdb_poster_count": 11,
         "tmdb_release_date_us_primary": "2026-10-16",
         "tmdb_release_date_us_theatrical": "2026-10-16",
@@ -241,14 +241,14 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity is 2.8904. A canonical TMDb trailer URL is available.",
+    "summary": "TMDb popularity is 2.8234. A canonical TMDb trailer URL is available.",
     "supporting_drivers": [
       {
         "confidence_weight": 0.65,
         "driver_type": "popularity_observed",
-        "evidence": "TMDb popularity is 2.8904.",
+        "evidence": "TMDb popularity is 2.8234.",
         "label": "Popularity signal available",
-        "retrieved_at": "2026-07-28T15:41:25Z",
+        "retrieved_at": "2026-07-29T15:35:15Z",
         "source_metric": "tmdb_popularity",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -258,7 +258,7 @@
         "driver_type": "trailer_available",
         "evidence": "A canonical TMDb trailer URL is available.",
         "label": "Trailer available",
-        "retrieved_at": "2026-07-28T15:41:25Z",
+        "retrieved_at": "2026-07-29T15:35:15Z",
         "source_metric": "tmdb_canonical_trailer_url",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -267,7 +267,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260728T154145Z",
+    "generated_at": "20260729T153535Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -404,7 +404,7 @@
     "external_intelligence": {
       "confidence": "High",
       "headline": "Sense and Sensibility: popularity signal available",
-      "summary": "TMDb popularity is 2.8904. A canonical TMDb trailer URL is available."
+      "summary": "TMDb popularity is 2.8234. A canonical TMDb trailer URL is available."
     },
     "last_updated": "2026-10-16",
     "latest_event": {
@@ -442,7 +442,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1503762-53c0579a95af",
+        "event_id": "1503762-3e2a4e970733",
         "event_type": "Distributor Change",
         "film_id": "1503762",
         "importance": "Medium",
@@ -451,12 +451,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Focus Features.",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Distributor set: Focus Features"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1503762-1a598dee6ccd",
+        "event_id": "1503762-ff772f0a4e79",
         "event_type": "Awards Tier Changed",
         "film_id": "1503762",
         "importance": "Medium",
@@ -471,7 +471,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],
@@ -519,7 +519,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1503762-53c0579a95af",
+        "event_id": "1503762-3e2a4e970733",
         "event_type": "Distributor Change",
         "film_id": "1503762",
         "importance": "Medium",
@@ -528,12 +528,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Focus Features.",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Distributor set: Focus Features"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1503762-1a598dee6ccd",
+        "event_id": "1503762-ff772f0a4e79",
         "event_type": "Awards Tier Changed",
         "film_id": "1503762",
         "importance": "Medium",
@@ -548,12 +548,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1503762-69b6eee2604d",
+        "event_id": "1503762-c2daae895128",
         "event_type": "Added To Database",
         "film_id": "1503762",
         "importance": "Low",
@@ -562,7 +562,7 @@
         },
         "source_type": "system",
         "summary": "Sense and Sensibility is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -597,7 +597,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1503762-53c0579a95af",
+        "event_id": "1503762-3e2a4e970733",
         "event_type": "Distributor Change",
         "film_id": "1503762",
         "importance": "Medium",
@@ -606,12 +606,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Focus Features.",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Distributor set: Focus Features"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1503762-1a598dee6ccd",
+        "event_id": "1503762-ff772f0a4e79",
         "event_type": "Awards Tier Changed",
         "film_id": "1503762",
         "importance": "Medium",
@@ -626,7 +626,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],

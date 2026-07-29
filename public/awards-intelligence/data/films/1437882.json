@@ -7,7 +7,7 @@
       "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 41.6,
+    "attention_score": 42.9,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -35,25 +35,25 @@
         "status": "verified"
       },
       {
-        "evidence": "Director: Chloe Domont",
-        "source": "filmmaker_interest",
+        "evidence": "TMDb popularity 1.4627",
+        "source": "audience_popularity",
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 0.9348",
-        "source": "audience_popularity",
+        "evidence": "Director: Chloe Domont",
+        "source": "filmmaker_interest",
         "status": "verified"
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 41.6,
+    "homepage_spotlight_score": 42.9,
     "industry_interest": null,
-    "last_updated": "20260728T154145Z",
+    "last_updated": "20260729T153535Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
         "evidence_count": 1,
-        "score": 3.4,
+        "score": 4.7,
         "statuses": [
           "verified"
         ]
@@ -200,7 +200,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.85,
-    "generated_at": "2026-07-28T15:41:25Z",
+    "generated_at": "2026-07-29T15:35:15Z",
     "headline": "A Place in Hell: popularity signal available",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -219,7 +219,7 @@
         "streaming_provider_count_us": 0,
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": false,
-        "tmdb_popularity": 0.9348,
+        "tmdb_popularity": 1.4627,
         "tmdb_poster_count": 4,
         "tmdb_release_date_us_primary": "2027-04-23",
         "tmdb_release_date_us_theatrical": "2027-04-23",
@@ -234,14 +234,14 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity is 0.9348.",
+    "summary": "TMDb popularity is 1.4627.",
     "supporting_drivers": [
       {
         "confidence_weight": 0.65,
         "driver_type": "popularity_observed",
-        "evidence": "TMDb popularity is 0.9348.",
+        "evidence": "TMDb popularity is 1.4627.",
         "label": "Popularity signal available",
-        "retrieved_at": "2026-07-28T15:41:25Z",
+        "retrieved_at": "2026-07-29T15:35:15Z",
         "source_metric": "tmdb_popularity",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -250,7 +250,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260728T154145Z",
+    "generated_at": "20260729T153535Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -387,7 +387,7 @@
     "external_intelligence": {
       "confidence": "High",
       "headline": "A Place in Hell: popularity signal available",
-      "summary": "TMDb popularity is 0.9348."
+      "summary": "TMDb popularity is 1.4627."
     },
     "last_updated": "2027-04-23",
     "latest_event": {
@@ -425,7 +425,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1437882-27efc5e5b680",
+        "event_id": "1437882-53ead67a8da5",
         "event_type": "Distributor Change",
         "film_id": "1437882",
         "importance": "Medium",
@@ -434,12 +434,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Neon.",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Distributor set: Neon"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1437882-4479f2826d66",
+        "event_id": "1437882-14238105d29d",
         "event_type": "Awards Tier Changed",
         "film_id": "1437882",
         "importance": "Medium",
@@ -453,7 +453,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],
@@ -499,7 +499,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1437882-27efc5e5b680",
+        "event_id": "1437882-53ead67a8da5",
         "event_type": "Distributor Change",
         "film_id": "1437882",
         "importance": "Medium",
@@ -508,12 +508,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Neon.",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Distributor set: Neon"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1437882-4479f2826d66",
+        "event_id": "1437882-14238105d29d",
         "event_type": "Awards Tier Changed",
         "film_id": "1437882",
         "importance": "Medium",
@@ -527,12 +527,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1437882-d5f996ef4175",
+        "event_id": "1437882-d1bbd154ecec",
         "event_type": "Added To Database",
         "film_id": "1437882",
         "importance": "Low",
@@ -541,7 +541,7 @@
         },
         "source_type": "system",
         "summary": "A Place in Hell is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -576,7 +576,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1437882-27efc5e5b680",
+        "event_id": "1437882-53ead67a8da5",
         "event_type": "Distributor Change",
         "film_id": "1437882",
         "importance": "Medium",
@@ -585,12 +585,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Neon.",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Distributor set: Neon"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1437882-4479f2826d66",
+        "event_id": "1437882-14238105d29d",
         "event_type": "Awards Tier Changed",
         "film_id": "1437882",
         "importance": "Medium",
@@ -604,7 +604,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-28T15:41:45Z",
+        "timestamp": "2026-07-29T15:35:35Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],
