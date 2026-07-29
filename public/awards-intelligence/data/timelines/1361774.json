@@ -2,7 +2,7 @@
   "events": [
     {
       "confidence": "Inferred",
-      "event_id": "1361774-554125f3dae7",
+      "event_id": "1361774-0f8c567ff6d9",
       "event_type": "Distributor Change",
       "film_id": "1361774",
       "importance": "Medium",
@@ -11,12 +11,12 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Apple TV.",
-      "timestamp": "2026-07-29T15:35:35Z",
+      "timestamp": "2026-07-29T22:43:48Z",
       "title": "Distributor set: Apple TV"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1361774-8ae71b80e1ef",
+      "event_id": "1361774-5b61aad3e99c",
       "event_type": "Awards Tier Changed",
       "film_id": "1361774",
       "importance": "Medium",
@@ -26,12 +26,12 @@
       },
       "source_type": "editorial_model",
       "summary": "insufficient credible awards evidence",
-      "timestamp": "2026-07-29T15:35:35Z",
+      "timestamp": "2026-07-29T22:43:48Z",
       "title": "Awards tier assigned: No Current Awards Case"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1361774-5a6bc8464844",
+      "event_id": "1361774-5b1b0bc9a5b6",
       "event_type": "Added To Database",
       "film_id": "1361774",
       "importance": "Low",
@@ -40,7 +40,7 @@
       },
       "source_type": "system",
       "summary": "The Dink is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-07-29T15:35:35Z",
+      "timestamp": "2026-07-29T22:43:48Z",
       "title": "Added to Awards Intelligence"
     },
     {
@@ -60,7 +60,7 @@
   ],
   "latest_event": {
     "confidence": "Inferred",
-    "event_id": "1361774-554125f3dae7",
+    "event_id": "1361774-0f8c567ff6d9",
     "event_type": "Distributor Change",
     "film_id": "1361774",
     "importance": "Medium",
@@ -69,13 +69,13 @@
     },
     "source_type": "metadata",
     "summary": "Current distributor is Apple TV.",
-    "timestamp": "2026-07-29T15:35:35Z",
+    "timestamp": "2026-07-29T22:43:48Z",
     "title": "Distributor set: Apple TV"
   },
   "metadata": {
     "event_count": 4,
     "film_id": "1361774",
-    "generated_at": "20260729T153535Z",
+    "generated_at": "20260729T224348Z",
     "timeline_version": "phase6b",
     "title": "The Dink",
     "tmdb_id": "1361774"

@@ -53,7 +53,7 @@
     "homepage_spotlight_override": null,
     "homepage_spotlight_score": 53.9,
     "industry_interest": "Moderate",
-    "last_updated": "20260729T153535Z",
+    "last_updated": "20260729T224348Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
@@ -198,9 +198,9 @@
   },
   "intelligence": {
     "confidence": "High",
-    "confidence_score": 0.85,
-    "generated_at": "2026-07-29T15:35:15Z",
-    "headline": "Air Bud Returns: popularity signal available",
+    "confidence_score": 0.99,
+    "generated_at": "2026-07-29T22:43:28Z",
+    "headline": "Air Bud Returns: popularity increasing",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
       "signal_values": {
@@ -233,25 +233,54 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity is 2.5153.",
+    "summary": "TMDb popularity rose from 1.7883 to 2.5153.",
     "supporting_drivers": [
       {
-        "confidence_weight": 0.65,
-        "driver_type": "popularity_observed",
-        "evidence": "TMDb popularity is 2.5153.",
-        "label": "Popularity signal available",
-        "retrieved_at": "2026-07-29T15:35:15Z",
+        "confidence_weight": 0.9,
+        "driver_type": "popularity_increasing",
+        "evidence": "TMDb popularity rose from 1.7883 to 2.5153.",
+        "label": "Popularity increasing",
+        "retrieved_at": "2026-07-29T22:43:28Z",
         "source_metric": "tmdb_popularity",
         "source_provider": "tmdb",
         "source_status": "available"
       }
     ]
   },
+  "media": {},
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260729T153535Z",
+    "generated_at": "20260729T224348Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
+  },
+  "performance": {
+    "box_office": {},
+    "ratings": {
+      "tmdb": {
+        "popularity": 2.5153,
+        "retrieved_at": "2026-07-29",
+        "source": "TMDb",
+        "source_url": "https://www.themoviedb.org/movie/1518403",
+        "status": "not_yet_rated"
+      }
+    },
+    "tmdb_popularity": {
+      "retrieved_at": "2026-07-29",
+      "source": "TMDb",
+      "source_url": "https://www.themoviedb.org/movie/1518403",
+      "value": 2.5153
+    },
+    "watch_providers": {}
+  },
+  "ratings": {
+    "tmdb": {
+      "popularity": 2.5153,
+      "retrieved_at": "2026-07-29",
+      "source": "TMDb",
+      "source_url": "https://www.themoviedb.org/movie/1518403",
+      "status": "not_yet_rated"
+    }
   },
   "related": {
     "related_films": [
@@ -361,12 +390,57 @@
       }
     ]
   },
+  "screening_room_score": {
+    "families": {
+      "audience_momentum": 0.048,
+      "campaign_activity": 4.05,
+      "talent_profile": 3.325
+    },
+    "generated_at": "2026-07-29T22:43:28Z",
+    "schema_version": "phase3_screening_room_score_v1",
+    "score": 7.423,
+    "source": "derived_screening_room_score",
+    "top_drivers": [
+      {
+        "confidence": 0.9,
+        "contribution": 4.05,
+        "metric_name": "trailer_count",
+        "provider": "trailers",
+        "score_family": "campaign_activity",
+        "value": 3
+      },
+      {
+        "confidence": 0.55,
+        "contribution": 2.2,
+        "metric_name": "legacy_dashboard_principal_cast_count",
+        "provider": "legacy_dashboard_talent_history_adapter",
+        "score_family": "talent_profile",
+        "value": 8
+      },
+      {
+        "confidence": 0.5,
+        "contribution": 1.125,
+        "metric_name": "legacy_dashboard_credited_talent_count",
+        "provider": "legacy_dashboard_talent_history_adapter",
+        "score_family": "talent_profile",
+        "value": 9
+      },
+      {
+        "confidence": 0.95,
+        "contribution": 0.048,
+        "metric_name": "tmdb_popularity",
+        "provider": "tmdb",
+        "score_family": "audience_momentum",
+        "value": 2.5153
+      }
+    ]
+  },
   "signals": {
     "cultural_significance": 37.0,
     "external_intelligence": {
       "confidence": "High",
-      "headline": "Air Bud Returns: popularity signal available",
-      "summary": "TMDb popularity is 2.5153."
+      "headline": "Air Bud Returns: popularity increasing",
+      "summary": "TMDb popularity rose from 1.7883 to 2.5153."
     },
     "last_updated": "2027-01-22",
     "latest_event": {
@@ -404,7 +478,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1518403-f37a5cd5b2a7",
+        "event_id": "1518403-360b66cfdd1b",
         "event_type": "Awards Tier Changed",
         "film_id": "1518403",
         "importance": "Medium",
@@ -414,12 +488,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-29T15:35:35Z",
+        "timestamp": "2026-07-29T22:43:48Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1518403-9ac2be1c4f21",
+        "event_id": "1518403-c069cf4be705",
         "event_type": "Added To Database",
         "film_id": "1518403",
         "importance": "Low",
@@ -428,11 +502,16 @@
         },
         "source_type": "system",
         "summary": "Air Bud Returns is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-29T15:35:35Z",
+        "timestamp": "2026-07-29T22:43:48Z",
         "title": "Added to Awards Intelligence"
       }
     ],
     "release_relevance": 9.8,
+    "screening_room_score": {
+      "confidence": "High",
+      "explanation": "TMDb popularity rose from 1.7883 to 2.5153.",
+      "score": 7.423
+    },
     "watch_triggers": [
       "Awards-Friendly Genre",
       "Adaptation/Biographical",
@@ -473,7 +552,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1518403-f37a5cd5b2a7",
+        "event_id": "1518403-360b66cfdd1b",
         "event_type": "Awards Tier Changed",
         "film_id": "1518403",
         "importance": "Medium",
@@ -483,12 +562,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-29T15:35:35Z",
+        "timestamp": "2026-07-29T22:43:48Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1518403-9ac2be1c4f21",
+        "event_id": "1518403-c069cf4be705",
         "event_type": "Added To Database",
         "film_id": "1518403",
         "importance": "Low",
@@ -497,7 +576,7 @@
         },
         "source_type": "system",
         "summary": "Air Bud Returns is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-29T15:35:35Z",
+        "timestamp": "2026-07-29T22:43:48Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -532,7 +611,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1518403-f37a5cd5b2a7",
+        "event_id": "1518403-360b66cfdd1b",
         "event_type": "Awards Tier Changed",
         "film_id": "1518403",
         "importance": "Medium",
@@ -542,12 +621,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-29T15:35:35Z",
+        "timestamp": "2026-07-29T22:43:48Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1518403-9ac2be1c4f21",
+        "event_id": "1518403-c069cf4be705",
         "event_type": "Added To Database",
         "film_id": "1518403",
         "importance": "Low",
@@ -556,7 +635,7 @@
         },
         "source_type": "system",
         "summary": "Air Bud Returns is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-29T15:35:35Z",
+        "timestamp": "2026-07-29T22:43:48Z",
         "title": "Added to Awards Intelligence"
       }
     ],

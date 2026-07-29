@@ -64,7 +64,7 @@
     "homepage_spotlight_override": null,
     "homepage_spotlight_score": 70.0,
     "industry_interest": "Moderate",
-    "last_updated": "20260729T153535Z",
+    "last_updated": "20260729T224348Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
@@ -174,10 +174,9 @@
     ]
   },
   "diagnostics": {
-    "completeness_score": 78,
+    "completeness_score": 89,
     "confidence": "Medium",
     "missing_fields": [
-      "runtime",
       "distributor"
     ],
     "relationship_counts": {
@@ -214,6 +213,7 @@
     ],
     "genres": [
       "Animation",
+      "Adventure",
       "Comedy",
       "Family"
     ],
@@ -226,16 +226,16 @@
     "profile_url": "film.html?id=1300926",
     "release_date": "2026-12-23",
     "release_display": "In theaters Dec. 23",
-    "runtime": null,
+    "runtime": 96,
     "synopsis": "Red faces his greatest challenge yet\u2026 surviving fatherhood while saving the world.",
     "title": "The Angry Birds Movie 3",
     "tmdb_id": "1300926"
   },
   "intelligence": {
-    "confidence": "High",
-    "confidence_score": 0.99,
-    "generated_at": "2026-07-29T15:35:15Z",
-    "headline": "The Angry Birds Movie 3: popularity signal available",
+    "confidence": "Low",
+    "confidence_score": 0.25,
+    "generated_at": "2026-07-29T22:43:28Z",
+    "headline": "The Angry Birds Movie 3: no material change detected",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
       "signal_values": {
@@ -270,45 +270,64 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity is 7.7224. A canonical TMDb trailer URL is available.",
-    "supporting_drivers": [
-      {
-        "confidence_weight": 0.65,
-        "driver_type": "popularity_observed",
-        "evidence": "TMDb popularity is 7.7224.",
-        "label": "Popularity signal available",
-        "retrieved_at": "2026-07-29T15:35:15Z",
-        "source_metric": "tmdb_popularity",
-        "source_provider": "tmdb",
-        "source_status": "available"
-      },
-      {
-        "confidence_weight": 0.85,
-        "driver_type": "trailer_available",
-        "evidence": "A canonical TMDb trailer URL is available.",
-        "label": "Trailer available",
-        "retrieved_at": "2026-07-29T15:35:15Z",
-        "source_metric": "tmdb_canonical_trailer_url",
-        "source_provider": "tmdb",
-        "source_status": "available"
-      }
-    ]
+    "summary": "Current provider signals do not show a supported material change.",
+    "supporting_drivers": []
+  },
+  "media": {
+    "canonical_trailer": {
+      "retrieved_at": "2026-07-29",
+      "site": "YouTube",
+      "source": "TMDb",
+      "source_url": "https://www.themoviedb.org/movie/1300926/videos",
+      "title": "Official Trailer",
+      "type": "Trailer",
+      "url": "https://www.youtube.com/watch?v=a9DB_aUMzME"
+    },
+    "latest_trailer_url": "https://www.youtube.com/watch?v=a9DB_aUMzME"
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260729T153535Z",
+    "generated_at": "20260729T224348Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
+  },
+  "performance": {
+    "box_office": {},
+    "ratings": {
+      "tmdb": {
+        "popularity": 7.7224,
+        "retrieved_at": "2026-07-29",
+        "source": "TMDb",
+        "source_url": "https://www.themoviedb.org/movie/1300926",
+        "status": "not_yet_rated"
+      }
+    },
+    "tmdb_popularity": {
+      "retrieved_at": "2026-07-29",
+      "source": "TMDb",
+      "source_url": "https://www.themoviedb.org/movie/1300926",
+      "value": 7.7224
+    },
+    "watch_providers": {}
+  },
+  "ratings": {
+    "tmdb": {
+      "popularity": 7.7224,
+      "retrieved_at": "2026-07-29",
+      "source": "TMDb",
+      "source_url": "https://www.themoviedb.org/movie/1300926",
+      "status": "not_yet_rated"
+    }
   },
   "related": {
     "related_films": [
       {
         "profile_url": "film.html?id=1185806",
-        "relationship_score": 90,
+        "relationship_score": 96,
         "shared_signals": [
           "Animation Spotlight",
+          "Adventure",
           "Animation",
-          "Comedy",
           "Animated Feature"
         ],
         "title": "PAW Patrol: The Dino Movie",
@@ -316,11 +335,11 @@
       },
       {
         "profile_url": "film.html?id=1477104",
-        "relationship_score": 90,
+        "relationship_score": 96,
         "shared_signals": [
           "Animation Spotlight",
+          "Adventure",
           "Animation",
-          "Comedy",
           "Animated Feature"
         ],
         "title": "Shaun the Sheep: The Beast of Mossy Bottom",
@@ -328,15 +347,27 @@
       },
       {
         "profile_url": "film.html?id=1663937",
-        "relationship_score": 90,
+        "relationship_score": 96,
         "shared_signals": [
           "Animation Spotlight",
+          "Adventure",
           "Animation",
-          "Comedy",
           "Animated Feature"
         ],
         "title": "Star Detective Pretty Cure! The Movie: The Mysterious Garden and The Pair\u2019s Secret",
         "tmdb_id": "1663937"
+      },
+      {
+        "profile_url": "film.html?id=1714703",
+        "relationship_score": 90,
+        "shared_signals": [
+          "Animation Spotlight",
+          "Adventure",
+          "Animation",
+          "Animated Feature"
+        ],
+        "title": "The Essentials 2",
+        "tmdb_id": "1714703"
       },
       {
         "profile_url": "film.html?id=1722484",
@@ -349,18 +380,6 @@
         ],
         "title": "Brohr",
         "tmdb_id": "1722484"
-      },
-      {
-        "profile_url": "film.html?id=1714703",
-        "relationship_score": 84,
-        "shared_signals": [
-          "Animation Spotlight",
-          "Animation",
-          "Comedy",
-          "Animated Feature"
-        ],
-        "title": "The Essentials 2",
-        "tmdb_id": "1714703"
       },
       {
         "profile_url": "film.html?id=822653",
@@ -432,12 +451,66 @@
       }
     ]
   },
+  "screening_room_score": {
+    "families": {
+      "audience_momentum": 0.147,
+      "awards_relevance": 2.4,
+      "campaign_activity": 4.05,
+      "talent_profile": 3.325
+    },
+    "generated_at": "2026-07-29T22:43:28Z",
+    "schema_version": "phase3_screening_room_score_v1",
+    "score": 9.922,
+    "source": "derived_screening_room_score",
+    "top_drivers": [
+      {
+        "confidence": 0.9,
+        "contribution": 4.05,
+        "metric_name": "trailer_count",
+        "provider": "trailers",
+        "score_family": "campaign_activity",
+        "value": 3
+      },
+      {
+        "confidence": 0.5,
+        "contribution": 2.4,
+        "metric_name": "legacy_dashboard_awards_category_count",
+        "provider": "legacy_dashboard_awards_precursors_adapter",
+        "score_family": "awards_relevance",
+        "value": 3
+      },
+      {
+        "confidence": 0.55,
+        "contribution": 2.2,
+        "metric_name": "legacy_dashboard_principal_cast_count",
+        "provider": "legacy_dashboard_talent_history_adapter",
+        "score_family": "talent_profile",
+        "value": 8
+      },
+      {
+        "confidence": 0.5,
+        "contribution": 1.125,
+        "metric_name": "legacy_dashboard_credited_talent_count",
+        "provider": "legacy_dashboard_talent_history_adapter",
+        "score_family": "talent_profile",
+        "value": 9
+      },
+      {
+        "confidence": 0.95,
+        "contribution": 0.147,
+        "metric_name": "tmdb_popularity",
+        "provider": "tmdb",
+        "score_family": "audience_momentum",
+        "value": 7.7224
+      }
+    ]
+  },
   "signals": {
     "cultural_significance": 37.0,
     "external_intelligence": {
-      "confidence": "High",
-      "headline": "The Angry Birds Movie 3: popularity signal available",
-      "summary": "TMDb popularity is 7.7224. A canonical TMDb trailer URL is available."
+      "confidence": "Low",
+      "headline": "The Angry Birds Movie 3: no material change detected",
+      "summary": "Current provider signals do not show a supported material change."
     },
     "last_updated": "2026-12-23",
     "latest_event": {
@@ -475,7 +548,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1300926-6679e3147226",
+        "event_id": "1300926-74919e81dd98",
         "event_type": "Awards Tier Changed",
         "film_id": "1300926",
         "importance": "Medium",
@@ -489,12 +562,12 @@
         },
         "source_type": "editorial_model",
         "summary": "category-specific awards case without broader contender evidence",
-        "timestamp": "2026-07-29T15:35:35Z",
+        "timestamp": "2026-07-29T22:43:48Z",
         "title": "Awards tier assigned: Category Contender"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1300926-3b7ad7699396",
+        "event_id": "1300926-02ad1f3ba2b0",
         "event_type": "Added To Database",
         "film_id": "1300926",
         "importance": "Low",
@@ -503,11 +576,16 @@
         },
         "source_type": "system",
         "summary": "The Angry Birds Movie 3 is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-29T15:35:35Z",
+        "timestamp": "2026-07-29T22:43:48Z",
         "title": "Added to Awards Intelligence"
       }
     ],
     "release_relevance": 22.9,
+    "screening_room_score": {
+      "confidence": "Low",
+      "explanation": "Current provider signals do not show a supported material change.",
+      "score": 9.922
+    },
     "watch_triggers": [
       "Awards-Season Release",
       "Franchise/Event",
@@ -550,7 +628,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1300926-6679e3147226",
+        "event_id": "1300926-74919e81dd98",
         "event_type": "Awards Tier Changed",
         "film_id": "1300926",
         "importance": "Medium",
@@ -564,12 +642,12 @@
         },
         "source_type": "editorial_model",
         "summary": "category-specific awards case without broader contender evidence",
-        "timestamp": "2026-07-29T15:35:35Z",
+        "timestamp": "2026-07-29T22:43:48Z",
         "title": "Awards tier assigned: Category Contender"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1300926-3b7ad7699396",
+        "event_id": "1300926-02ad1f3ba2b0",
         "event_type": "Added To Database",
         "film_id": "1300926",
         "importance": "Low",
@@ -578,7 +656,7 @@
         },
         "source_type": "system",
         "summary": "The Angry Birds Movie 3 is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-29T15:35:35Z",
+        "timestamp": "2026-07-29T22:43:48Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -613,7 +691,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1300926-6679e3147226",
+        "event_id": "1300926-74919e81dd98",
         "event_type": "Awards Tier Changed",
         "film_id": "1300926",
         "importance": "Medium",
@@ -627,12 +705,12 @@
         },
         "source_type": "editorial_model",
         "summary": "category-specific awards case without broader contender evidence",
-        "timestamp": "2026-07-29T15:35:35Z",
+        "timestamp": "2026-07-29T22:43:48Z",
         "title": "Awards tier assigned: Category Contender"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1300926-3b7ad7699396",
+        "event_id": "1300926-02ad1f3ba2b0",
         "event_type": "Added To Database",
         "film_id": "1300926",
         "importance": "Low",
@@ -641,7 +719,7 @@
         },
         "source_type": "system",
         "summary": "The Angry Birds Movie 3 is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-29T15:35:35Z",
+        "timestamp": "2026-07-29T22:43:48Z",
         "title": "Added to Awards Intelligence"
       }
     ],

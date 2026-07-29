@@ -64,7 +64,7 @@
     "homepage_spotlight_override": null,
     "homepage_spotlight_score": 62.7,
     "industry_interest": null,
-    "last_updated": "20260729T153535Z",
+    "last_updated": "20260729T224348Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
@@ -199,7 +199,7 @@
     "premiere_type": ""
   },
   "film_identity": {
-    "backdrop": "https://image.tmdb.org/t/p/original/poQ9cHZpNVUfBc1Vw9MOIwRZyvY.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/wM4LLukeBIfhjn7LcVP6VIced4p.jpg",
     "country": [
       "ES",
       "FR"
@@ -223,10 +223,10 @@
     "tmdb_id": "1422041"
   },
   "intelligence": {
-    "confidence": "High",
-    "confidence_score": 0.99,
-    "generated_at": "2026-07-29T15:35:15Z",
-    "headline": "La Bola Negra: popularity signal available",
+    "confidence": "Low",
+    "confidence_score": 0.25,
+    "generated_at": "2026-07-29T22:43:28Z",
+    "headline": "La Bola Negra: no material change detected",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
       "signal_values": {
@@ -261,35 +261,54 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity is 3.3155. A canonical TMDb trailer URL is available.",
-    "supporting_drivers": [
-      {
-        "confidence_weight": 0.65,
-        "driver_type": "popularity_observed",
-        "evidence": "TMDb popularity is 3.3155.",
-        "label": "Popularity signal available",
-        "retrieved_at": "2026-07-29T15:35:15Z",
-        "source_metric": "tmdb_popularity",
-        "source_provider": "tmdb",
-        "source_status": "available"
-      },
-      {
-        "confidence_weight": 0.85,
-        "driver_type": "trailer_available",
-        "evidence": "A canonical TMDb trailer URL is available.",
-        "label": "Trailer available",
-        "retrieved_at": "2026-07-29T15:35:15Z",
-        "source_metric": "tmdb_canonical_trailer_url",
-        "source_provider": "tmdb",
-        "source_status": "available"
-      }
-    ]
+    "summary": "Current provider signals do not show a supported material change.",
+    "supporting_drivers": []
+  },
+  "media": {
+    "canonical_trailer": {
+      "retrieved_at": "2026-07-29",
+      "site": "YouTube",
+      "source": "TMDb",
+      "source_url": "https://www.themoviedb.org/movie/1422041/videos",
+      "title": "The Black Ball: Official Trailer | Movistar Plus+",
+      "type": "Trailer",
+      "url": "https://www.youtube.com/watch?v=9NNU-vSeOB0"
+    },
+    "latest_trailer_url": "https://www.youtube.com/watch?v=9NNU-vSeOB0"
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260729T153535Z",
+    "generated_at": "20260729T224348Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
+  },
+  "performance": {
+    "box_office": {},
+    "ratings": {
+      "tmdb": {
+        "popularity": 3.3155,
+        "retrieved_at": "2026-07-29",
+        "source": "TMDb",
+        "source_url": "https://www.themoviedb.org/movie/1422041",
+        "status": "not_yet_rated"
+      }
+    },
+    "tmdb_popularity": {
+      "retrieved_at": "2026-07-29",
+      "source": "TMDb",
+      "source_url": "https://www.themoviedb.org/movie/1422041",
+      "value": 3.3155
+    },
+    "watch_providers": {}
+  },
+  "ratings": {
+    "tmdb": {
+      "popularity": 3.3155,
+      "retrieved_at": "2026-07-29",
+      "source": "TMDb",
+      "source_url": "https://www.themoviedb.org/movie/1422041",
+      "status": "not_yet_rated"
+    }
   },
   "related": {
     "related_films": [
@@ -423,12 +442,66 @@
       }
     ]
   },
+  "screening_room_score": {
+    "families": {
+      "audience_momentum": 0.063,
+      "awards_relevance": 3.2,
+      "campaign_activity": 1.35,
+      "talent_profile": 3.325
+    },
+    "generated_at": "2026-07-29T22:43:28Z",
+    "schema_version": "phase3_screening_room_score_v1",
+    "score": 7.938,
+    "source": "derived_screening_room_score",
+    "top_drivers": [
+      {
+        "confidence": 0.5,
+        "contribution": 3.2,
+        "metric_name": "legacy_dashboard_awards_category_count",
+        "provider": "legacy_dashboard_awards_precursors_adapter",
+        "score_family": "awards_relevance",
+        "value": 4
+      },
+      {
+        "confidence": 0.55,
+        "contribution": 2.2,
+        "metric_name": "legacy_dashboard_principal_cast_count",
+        "provider": "legacy_dashboard_talent_history_adapter",
+        "score_family": "talent_profile",
+        "value": 8
+      },
+      {
+        "confidence": 0.9,
+        "contribution": 1.35,
+        "metric_name": "trailer_count",
+        "provider": "trailers",
+        "score_family": "campaign_activity",
+        "value": 1
+      },
+      {
+        "confidence": 0.5,
+        "contribution": 1.125,
+        "metric_name": "legacy_dashboard_credited_talent_count",
+        "provider": "legacy_dashboard_talent_history_adapter",
+        "score_family": "talent_profile",
+        "value": 9
+      },
+      {
+        "confidence": 0.95,
+        "contribution": 0.063,
+        "metric_name": "tmdb_popularity",
+        "provider": "tmdb",
+        "score_family": "audience_momentum",
+        "value": 3.3155
+      }
+    ]
+  },
   "signals": {
     "cultural_significance": 19.0,
     "external_intelligence": {
-      "confidence": "High",
-      "headline": "La Bola Negra: popularity signal available",
-      "summary": "TMDb popularity is 3.3155. A canonical TMDb trailer URL is available."
+      "confidence": "Low",
+      "headline": "La Bola Negra: no material change detected",
+      "summary": "Current provider signals do not show a supported material change."
     },
     "last_updated": "2026-11-06",
     "latest_event": {
@@ -466,7 +539,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1422041-a0150fc14363",
+        "event_id": "1422041-6a6e8200cff5",
         "event_type": "Distributor Change",
         "film_id": "1422041",
         "importance": "Medium",
@@ -475,12 +548,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-07-29T15:35:35Z",
+        "timestamp": "2026-07-29T22:43:48Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1422041-a12b3bf9e3a0",
+        "event_id": "1422041-8623e75b2ad1",
         "event_type": "Awards Tier Changed",
         "film_id": "1422041",
         "importance": "Medium",
@@ -495,11 +568,16 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-29T15:35:35Z",
+        "timestamp": "2026-07-29T22:43:48Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],
     "release_relevance": 28.0,
+    "screening_room_score": {
+      "confidence": "Low",
+      "explanation": "Current provider signals do not show a supported material change.",
+      "score": 7.938
+    },
     "watch_triggers": [
       "Prestige Distributor",
       "Major Studio/Streamer",
@@ -543,7 +621,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1422041-a0150fc14363",
+        "event_id": "1422041-6a6e8200cff5",
         "event_type": "Distributor Change",
         "film_id": "1422041",
         "importance": "Medium",
@@ -552,12 +630,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-07-29T15:35:35Z",
+        "timestamp": "2026-07-29T22:43:48Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1422041-a12b3bf9e3a0",
+        "event_id": "1422041-8623e75b2ad1",
         "event_type": "Awards Tier Changed",
         "film_id": "1422041",
         "importance": "Medium",
@@ -572,12 +650,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-29T15:35:35Z",
+        "timestamp": "2026-07-29T22:43:48Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1422041-04bdb358b31a",
+        "event_id": "1422041-388310e6ea4c",
         "event_type": "Added To Database",
         "film_id": "1422041",
         "importance": "Low",
@@ -586,7 +664,7 @@
         },
         "source_type": "system",
         "summary": "La Bola Negra is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-29T15:35:35Z",
+        "timestamp": "2026-07-29T22:43:48Z",
         "title": "Added to Awards Intelligence"
       },
       {
@@ -635,7 +713,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1422041-a0150fc14363",
+        "event_id": "1422041-6a6e8200cff5",
         "event_type": "Distributor Change",
         "film_id": "1422041",
         "importance": "Medium",
@@ -644,12 +722,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-07-29T15:35:35Z",
+        "timestamp": "2026-07-29T22:43:48Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1422041-a12b3bf9e3a0",
+        "event_id": "1422041-8623e75b2ad1",
         "event_type": "Awards Tier Changed",
         "film_id": "1422041",
         "importance": "Medium",
@@ -664,7 +742,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-29T15:35:35Z",
+        "timestamp": "2026-07-29T22:43:48Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],

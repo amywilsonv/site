@@ -16,7 +16,7 @@
     },
     {
       "confidence": "Inferred",
-      "event_id": "1286656-1e431df3e47a",
+      "event_id": "1286656-ec0de8aec487",
       "event_type": "Awards Tier Changed",
       "film_id": "1286656",
       "importance": "Medium",
@@ -30,12 +30,12 @@
       },
       "source_type": "editorial_model",
       "summary": "insufficient credible awards evidence",
-      "timestamp": "2026-07-29T15:35:35Z",
+      "timestamp": "2026-07-29T22:43:48Z",
       "title": "Awards tier assigned: No Current Awards Case"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1286656-08c42bd4c413",
+      "event_id": "1286656-38011ae9ed35",
       "event_type": "Added To Database",
       "film_id": "1286656",
       "importance": "Low",
@@ -44,7 +44,7 @@
       },
       "source_type": "system",
       "summary": "I Play Rocky is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-07-29T15:35:35Z",
+      "timestamp": "2026-07-29T22:43:48Z",
       "title": "Added to Awards Intelligence"
     }
   ],
@@ -65,7 +65,7 @@
   "metadata": {
     "event_count": 3,
     "film_id": "1286656",
-    "generated_at": "20260729T153535Z",
+    "generated_at": "20260729T224348Z",
     "timeline_version": "phase6b",
     "title": "I Play Rocky",
     "tmdb_id": "1286656"

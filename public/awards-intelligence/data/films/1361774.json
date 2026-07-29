@@ -58,7 +58,7 @@
     "homepage_spotlight_override": null,
     "homepage_spotlight_score": 77.9,
     "industry_interest": "Moderate",
-    "last_updated": "20260729T153535Z",
+    "last_updated": "20260729T224348Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
@@ -201,7 +201,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-07-29T15:35:15Z",
+    "generated_at": "2026-07-29T22:43:28Z",
     "headline": "The Dink: release approaching",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -237,45 +237,88 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity is 74.919. US release is 3 days away on 2026-07-23. A canonical TMDb trailer URL is available.",
+    "summary": "US release is 3 days away on 2026-07-23.",
     "supporting_drivers": [
-      {
-        "confidence_weight": 0.65,
-        "driver_type": "popularity_observed",
-        "evidence": "TMDb popularity is 74.919.",
-        "label": "Popularity signal available",
-        "retrieved_at": "2026-07-29T15:35:15Z",
-        "source_metric": "tmdb_popularity",
-        "source_provider": "tmdb",
-        "source_status": "available"
-      },
       {
         "confidence_weight": 0.8,
         "driver_type": "release_approaching",
         "evidence": "US release is 3 days away on 2026-07-23.",
         "label": "Release approaching",
-        "retrieved_at": "2026-07-29T15:35:15Z",
+        "retrieved_at": "2026-07-29T22:43:28Z",
         "source_metric": "tmdb_release_date_us_primary",
-        "source_provider": "tmdb",
-        "source_status": "available"
-      },
-      {
-        "confidence_weight": 0.85,
-        "driver_type": "trailer_available",
-        "evidence": "A canonical TMDb trailer URL is available.",
-        "label": "Trailer available",
-        "retrieved_at": "2026-07-29T15:35:15Z",
-        "source_metric": "tmdb_canonical_trailer_url",
         "source_provider": "tmdb",
         "source_status": "available"
       }
     ]
   },
+  "media": {
+    "canonical_trailer": {
+      "retrieved_at": "2026-07-29",
+      "site": "YouTube",
+      "source": "TMDb",
+      "source_url": "https://www.themoviedb.org/movie/1361774/videos",
+      "title": "Official Trailer",
+      "type": "Trailer",
+      "url": "https://www.youtube.com/watch?v=YyVNFzx5Pl8"
+    },
+    "latest_trailer_url": "https://www.youtube.com/watch?v=YyVNFzx5Pl8"
+  },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260729T153535Z",
+    "generated_at": "20260729T224348Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
+  },
+  "performance": {
+    "box_office": {},
+    "ratings": {
+      "tmdb": {
+        "popularity": 74.919,
+        "retrieved_at": "2026-07-29",
+        "source": "TMDb",
+        "source_url": "https://www.themoviedb.org/movie/1361774",
+        "status": "rated",
+        "vote_average": 6.3,
+        "vote_count": 53
+      }
+    },
+    "tmdb_popularity": {
+      "retrieved_at": "2026-07-29",
+      "source": "TMDb",
+      "source_url": "https://www.themoviedb.org/movie/1361774",
+      "value": 74.919
+    },
+    "watch_providers": {
+      "country": "US",
+      "flatrate": [
+        {
+          "display_priority": 4,
+          "logo_url": "https://image.tmdb.org/t/p/original/mcbz1LgtErU9p4UdbZ0rG6RTWHX.jpg",
+          "provider_id": 350,
+          "provider_name": "Apple TV"
+        },
+        {
+          "display_priority": 216,
+          "logo_url": "https://image.tmdb.org/t/p/original/mHrYMgnZIp6lgW2aXg7ix9zGOnA.jpg",
+          "provider_id": 2243,
+          "provider_name": "Apple TV Amazon Channel"
+        }
+      ],
+      "retrieved_at": "2026-07-29",
+      "source": "TMDb",
+      "source_url": "https://www.themoviedb.org/movie/1361774-the-dink/watch?locale=US"
+    }
+  },
+  "ratings": {
+    "tmdb": {
+      "popularity": 74.919,
+      "retrieved_at": "2026-07-29",
+      "source": "TMDb",
+      "source_url": "https://www.themoviedb.org/movie/1361774",
+      "status": "rated",
+      "vote_average": 6.3,
+      "vote_count": 53
+    }
   },
   "related": {
     "related_films": [
@@ -385,17 +428,72 @@
       }
     ]
   },
+  "screening_room_score": {
+    "families": {
+      "audience_momentum": 1.826,
+      "audience_quality": 5.985,
+      "availability": 3.967,
+      "campaign_activity": 2.7,
+      "talent_profile": 3.325
+    },
+    "generated_at": "2026-07-29T22:43:28Z",
+    "schema_version": "phase3_screening_room_score_v1",
+    "score": 17.803,
+    "source": "derived_screening_room_score",
+    "top_drivers": [
+      {
+        "confidence": 0.95,
+        "contribution": 5.985,
+        "metric_name": "tmdb_vote_average",
+        "provider": "tmdb",
+        "score_family": "audience_quality",
+        "value": 6.3
+      },
+      {
+        "confidence": 0.9,
+        "contribution": 2.7,
+        "metric_name": "trailer_count",
+        "provider": "trailers",
+        "score_family": "campaign_activity",
+        "value": 2
+      },
+      {
+        "confidence": 0.85,
+        "contribution": 2.267,
+        "metric_name": "streaming_flatrate_provider_count_us",
+        "provider": "streaming_availability",
+        "score_family": "availability",
+        "value": 2
+      },
+      {
+        "confidence": 0.55,
+        "contribution": 2.2,
+        "metric_name": "legacy_dashboard_principal_cast_count",
+        "provider": "legacy_dashboard_talent_history_adapter",
+        "score_family": "talent_profile",
+        "value": 8
+      },
+      {
+        "confidence": 0.85,
+        "contribution": 1.7,
+        "metric_name": "streaming_provider_count_us",
+        "provider": "streaming_availability",
+        "score_family": "availability",
+        "value": 2
+      }
+    ]
+  },
   "signals": {
     "cultural_significance": 50.5,
     "external_intelligence": {
       "confidence": "High",
       "headline": "The Dink: release approaching",
-      "summary": "TMDb popularity is 74.919. US release is 3 days away on 2026-07-23. A canonical TMDb trailer URL is available."
+      "summary": "US release is 3 days away on 2026-07-23."
     },
-    "last_updated": "2026-07-29T15:35:35Z",
+    "last_updated": "2026-07-29T22:43:48Z",
     "latest_event": {
       "confidence": "Inferred",
-      "event_id": "1361774-554125f3dae7",
+      "event_id": "1361774-0f8c567ff6d9",
       "event_type": "Distributor Change",
       "film_id": "1361774",
       "importance": "Medium",
@@ -404,7 +502,7 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Apple TV.",
-      "timestamp": "2026-07-29T15:35:35Z",
+      "timestamp": "2026-07-29T22:43:48Z",
       "title": "Distributor set: Apple TV"
     },
     "latest_intelligence": "As of 2026-07-18, this is a Apple TV release dated 2026-07-23 with general awards monitoring relevance; current awards profile is Developing and data status is developing.",
@@ -414,7 +512,7 @@
     "recent_activity": [
       {
         "confidence": "Inferred",
-        "event_id": "1361774-554125f3dae7",
+        "event_id": "1361774-0f8c567ff6d9",
         "event_type": "Distributor Change",
         "film_id": "1361774",
         "importance": "Medium",
@@ -423,12 +521,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Apple TV.",
-        "timestamp": "2026-07-29T15:35:35Z",
+        "timestamp": "2026-07-29T22:43:48Z",
         "title": "Distributor set: Apple TV"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1361774-8ae71b80e1ef",
+        "event_id": "1361774-5b61aad3e99c",
         "event_type": "Awards Tier Changed",
         "film_id": "1361774",
         "importance": "Medium",
@@ -438,12 +536,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-29T15:35:35Z",
+        "timestamp": "2026-07-29T22:43:48Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1361774-5a6bc8464844",
+        "event_id": "1361774-5b1b0bc9a5b6",
         "event_type": "Added To Database",
         "film_id": "1361774",
         "importance": "Low",
@@ -452,11 +550,16 @@
         },
         "source_type": "system",
         "summary": "The Dink is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-29T15:35:35Z",
+        "timestamp": "2026-07-29T22:43:48Z",
         "title": "Added to Awards Intelligence"
       }
     ],
     "release_relevance": 52.8,
+    "screening_room_score": {
+      "confidence": "High",
+      "explanation": "US release is 3 days away on 2026-07-23.",
+      "score": 17.803
+    },
     "watch_triggers": [
       "Prestige Distributor",
       "Major Studio/Streamer",
@@ -484,7 +587,7 @@
     "events": [
       {
         "confidence": "Inferred",
-        "event_id": "1361774-554125f3dae7",
+        "event_id": "1361774-0f8c567ff6d9",
         "event_type": "Distributor Change",
         "film_id": "1361774",
         "importance": "Medium",
@@ -493,12 +596,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Apple TV.",
-        "timestamp": "2026-07-29T15:35:35Z",
+        "timestamp": "2026-07-29T22:43:48Z",
         "title": "Distributor set: Apple TV"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1361774-8ae71b80e1ef",
+        "event_id": "1361774-5b61aad3e99c",
         "event_type": "Awards Tier Changed",
         "film_id": "1361774",
         "importance": "Medium",
@@ -508,12 +611,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-29T15:35:35Z",
+        "timestamp": "2026-07-29T22:43:48Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1361774-5a6bc8464844",
+        "event_id": "1361774-5b1b0bc9a5b6",
         "event_type": "Added To Database",
         "film_id": "1361774",
         "importance": "Low",
@@ -522,7 +625,7 @@
         },
         "source_type": "system",
         "summary": "The Dink is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-29T15:35:35Z",
+        "timestamp": "2026-07-29T22:43:48Z",
         "title": "Added to Awards Intelligence"
       },
       {
@@ -542,7 +645,7 @@
     ],
     "latest_event": {
       "confidence": "Inferred",
-      "event_id": "1361774-554125f3dae7",
+      "event_id": "1361774-0f8c567ff6d9",
       "event_type": "Distributor Change",
       "film_id": "1361774",
       "importance": "Medium",
@@ -551,13 +654,13 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Apple TV.",
-      "timestamp": "2026-07-29T15:35:35Z",
+      "timestamp": "2026-07-29T22:43:48Z",
       "title": "Distributor set: Apple TV"
     },
     "recent_activity": [
       {
         "confidence": "Inferred",
-        "event_id": "1361774-554125f3dae7",
+        "event_id": "1361774-0f8c567ff6d9",
         "event_type": "Distributor Change",
         "film_id": "1361774",
         "importance": "Medium",
@@ -566,12 +669,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Apple TV.",
-        "timestamp": "2026-07-29T15:35:35Z",
+        "timestamp": "2026-07-29T22:43:48Z",
         "title": "Distributor set: Apple TV"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1361774-8ae71b80e1ef",
+        "event_id": "1361774-5b61aad3e99c",
         "event_type": "Awards Tier Changed",
         "film_id": "1361774",
         "importance": "Medium",
@@ -581,12 +684,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-29T15:35:35Z",
+        "timestamp": "2026-07-29T22:43:48Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1361774-5a6bc8464844",
+        "event_id": "1361774-5b1b0bc9a5b6",
         "event_type": "Added To Database",
         "film_id": "1361774",
         "importance": "Low",
@@ -595,7 +698,7 @@
         },
         "source_type": "system",
         "summary": "The Dink is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-29T15:35:35Z",
+        "timestamp": "2026-07-29T22:43:48Z",
         "title": "Added to Awards Intelligence"
       }
     ],

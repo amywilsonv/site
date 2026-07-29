@@ -62,7 +62,7 @@
           "homepage_spotlight_override": null,
           "homepage_spotlight_score": 41.0,
           "industry_interest": "High",
-          "last_updated": "20260729T153535Z",
+          "last_updated": "20260729T224348Z",
           "promotional_response": null,
           "score_families": {
             "audience/popularity": {
@@ -215,9 +215,9 @@
         ],
         "intelligence": {
           "confidence": "High",
-          "confidence_score": 0.85,
-          "generated_at": "2026-07-29T15:35:15Z",
-          "headline": "Paper Tiger: popularity signal available",
+          "confidence_score": 0.99,
+          "generated_at": "2026-07-29T22:43:28Z",
+          "headline": "Paper Tiger: popularity increasing",
           "metadata": {
             "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
             "signal_values": {
@@ -250,14 +250,14 @@
             "stale_signal_count": 0
           },
           "schema_version": "phase2b_intelligence_explanation_v1",
-          "summary": "TMDb popularity is 2.5848.",
+          "summary": "TMDb popularity rose from 2.478 to 2.5848.",
           "supporting_drivers": [
             {
-              "confidence_weight": 0.65,
-              "driver_type": "popularity_observed",
-              "evidence": "TMDb popularity is 2.5848.",
-              "label": "Popularity signal available",
-              "retrieved_at": "2026-07-29T15:35:15Z",
+              "confidence_weight": 0.9,
+              "driver_type": "popularity_increasing",
+              "evidence": "TMDb popularity rose from 2.478 to 2.5848.",
+              "label": "Popularity increasing",
+              "retrieved_at": "2026-07-29T22:43:28Z",
               "source_metric": "tmdb_popularity",
               "source_provider": "tmdb",
               "source_status": "available"
@@ -283,7 +283,33 @@
           "title": "Release scheduled"
         },
         "latest_intelligence": "Paper Tiger is verified as the NYFF64 Opening Night film, with James Gray directing and NEON attached for release. Its current awards profile is Festival Watch pending NYFF reception and campaign signals.",
+        "media": {},
         "next_signal": "Monitor NYFF reception, reviews, and any official release-campaign updates.",
+        "performance": {
+          "box_office": {
+            "budget": 15000000,
+            "currency": "USD",
+            "retrieved_at": "2026-07-29",
+            "source": "TMDb",
+            "source_url": "https://www.themoviedb.org/movie/1381273"
+          },
+          "ratings": {
+            "tmdb": {
+              "popularity": 2.5848,
+              "retrieved_at": "2026-07-29",
+              "source": "TMDb",
+              "source_url": "https://www.themoviedb.org/movie/1381273",
+              "status": "not_yet_rated"
+            }
+          },
+          "tmdb_popularity": {
+            "retrieved_at": "2026-07-29",
+            "source": "TMDb",
+            "source_url": "https://www.themoviedb.org/movie/1381273",
+            "value": 2.5848
+          },
+          "watch_providers": {}
+        },
         "poster_url": "https://image.tmdb.org/t/p/original/7XhTjNP3BL8pTtCLcsvIssR9hSf.jpg",
         "primary_category": "Awards Contender",
         "primary_editorial_story": "awards profile: Festival Watch; major-category path; verified festival positioning with major-category path; prestige distributor plus talent/path evidence",
@@ -300,6 +326,15 @@
         "profile_id": "1381273",
         "profile_payload_url": "data/films/1381273.json",
         "profile_url": "film.html?id=1381273",
+        "ratings": {
+          "tmdb": {
+            "popularity": 2.5848,
+            "retrieved_at": "2026-07-29",
+            "source": "TMDb",
+            "source_url": "https://www.themoviedb.org/movie/1381273",
+            "status": "not_yet_rated"
+          }
+        },
         "recent_activity": [
           {
             "confidence": "Inferred",
@@ -317,7 +352,7 @@
           },
           {
             "confidence": "Inferred",
-            "event_id": "1381273-16e2f814fc72",
+            "event_id": "1381273-1f3ac1f9983e",
             "event_type": "Awards Tier Changed",
             "film_id": "1381273",
             "importance": "High",
@@ -331,12 +366,12 @@
             },
             "source_type": "editorial_model",
             "summary": "high awards relevance with multiple independent evidence families",
-            "timestamp": "2026-07-29T15:35:35Z",
+            "timestamp": "2026-07-29T22:43:48Z",
             "title": "Awards tier assigned: Strong Contender"
           },
           {
             "confidence": "Inferred",
-            "event_id": "1381273-9e443ef18940",
+            "event_id": "1381273-11d6a71d9958",
             "event_type": "Homepage Featured",
             "film_id": "1381273",
             "importance": "Medium",
@@ -345,7 +380,7 @@
             },
             "source_type": "discovery_homepage",
             "summary": "Paper Tiger is currently selected for the homepage experience.",
-            "timestamp": "2026-07-29T15:35:35Z",
+            "timestamp": "2026-07-29T22:43:48Z",
             "title": "Featured in The Screening Room"
           }
         ],
@@ -353,6 +388,60 @@
         "release_display": "In theaters Nov. 13",
         "release_timing_key": "later_this_year",
         "release_timing_label": "Later This Year",
+        "screening_room_score": {
+          "families": {
+            "audience_momentum": 0.049,
+            "awards_relevance": 2.4,
+            "festival_awards": 0.88,
+            "talent_profile": 3.325
+          },
+          "generated_at": "2026-07-29T22:43:28Z",
+          "schema_version": "phase3_screening_room_score_v1",
+          "score": 6.654,
+          "source": "derived_screening_room_score",
+          "top_drivers": [
+            {
+              "confidence": 0.5,
+              "contribution": 2.4,
+              "metric_name": "legacy_dashboard_awards_category_count",
+              "provider": "legacy_dashboard_awards_precursors_adapter",
+              "score_family": "awards_relevance",
+              "value": 3
+            },
+            {
+              "confidence": 0.55,
+              "contribution": 2.2,
+              "metric_name": "legacy_dashboard_principal_cast_count",
+              "provider": "legacy_dashboard_talent_history_adapter",
+              "score_family": "talent_profile",
+              "value": 8
+            },
+            {
+              "confidence": 0.5,
+              "contribution": 1.125,
+              "metric_name": "legacy_dashboard_credited_talent_count",
+              "provider": "legacy_dashboard_talent_history_adapter",
+              "score_family": "talent_profile",
+              "value": 9
+            },
+            {
+              "confidence": 0.55,
+              "contribution": 0.88,
+              "metric_name": "legacy_dashboard_festival_selection_count",
+              "provider": "legacy_dashboard_festival_adapter",
+              "score_family": "festival_awards",
+              "value": 1
+            },
+            {
+              "confidence": 0.95,
+              "contribution": 0.049,
+              "metric_name": "tmdb_popularity",
+              "provider": "tmdb",
+              "score_family": "audience_momentum",
+              "value": 2.5848
+            }
+          ]
+        },
         "title": "Paper Tiger",
         "tmdb_id": "1381273",
         "whats_changed": "Selected as the opening-night film of NYFF 2026.",
@@ -417,6 +506,13 @@
           "version": "phase7e_contextual_labels_v1"
         },
         "detail_slug": "paper-tiger-1381273",
+        "discover_primary_tag": {
+          "class": "festival",
+          "icon": "spark",
+          "label": "NYFF Selection",
+          "source": "priority",
+          "version": "phase7f_discover_primary_tag_v1"
+        },
         "filter_keys": [
           "all",
           "awards",
@@ -460,7 +556,7 @@
     "discovery_algorithm_version": "phase5b",
     "discovery_visual_version": "phase5c",
     "film_count": 104,
-    "generated_at": "20260729T153535Z",
+    "generated_at": "20260729T224348Z",
     "homepage_count": 6,
     "homepage_filters": [
       {

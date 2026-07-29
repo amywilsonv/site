@@ -64,7 +64,7 @@
     "homepage_spotlight_override": null,
     "homepage_spotlight_score": 63.0,
     "industry_interest": "Moderate",
-    "last_updated": "20260729T153535Z",
+    "last_updated": "20260729T224348Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
@@ -229,7 +229,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-07-29T15:35:15Z",
+    "generated_at": "2026-07-29T22:43:28Z",
     "headline": "The Essentials 2: release approaching",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -265,45 +265,65 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity is 0.0788. US release is 40 days away on 2026-08-29. A canonical TMDb trailer URL is available.",
+    "summary": "US release is 40 days away on 2026-08-29.",
     "supporting_drivers": [
-      {
-        "confidence_weight": 0.65,
-        "driver_type": "popularity_observed",
-        "evidence": "TMDb popularity is 0.0788.",
-        "label": "Popularity signal available",
-        "retrieved_at": "2026-07-29T15:35:15Z",
-        "source_metric": "tmdb_popularity",
-        "source_provider": "tmdb",
-        "source_status": "available"
-      },
       {
         "confidence_weight": 0.8,
         "driver_type": "release_approaching",
         "evidence": "US release is 40 days away on 2026-08-29.",
         "label": "Release approaching",
-        "retrieved_at": "2026-07-29T15:35:15Z",
+        "retrieved_at": "2026-07-29T22:43:28Z",
         "source_metric": "tmdb_release_date_us_primary",
-        "source_provider": "tmdb",
-        "source_status": "available"
-      },
-      {
-        "confidence_weight": 0.85,
-        "driver_type": "trailer_available",
-        "evidence": "A canonical TMDb trailer URL is available.",
-        "label": "Trailer available",
-        "retrieved_at": "2026-07-29T15:35:15Z",
-        "source_metric": "tmdb_canonical_trailer_url",
         "source_provider": "tmdb",
         "source_status": "available"
       }
     ]
   },
+  "media": {
+    "canonical_trailer": {
+      "retrieved_at": "2026-07-29",
+      "site": "YouTube",
+      "source": "TMDb",
+      "source_url": "https://www.themoviedb.org/movie/1714703/videos",
+      "title": "Los Esenciales 2 / Oficial Trailer",
+      "type": "Trailer",
+      "url": "https://www.youtube.com/watch?v=OKCEAsMUma0"
+    },
+    "latest_trailer_url": "https://www.youtube.com/watch?v=OKCEAsMUma0"
+  },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260729T153535Z",
+    "generated_at": "20260729T224348Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
+  },
+  "performance": {
+    "box_office": {},
+    "ratings": {
+      "tmdb": {
+        "popularity": 0.0788,
+        "retrieved_at": "2026-07-29",
+        "source": "TMDb",
+        "source_url": "https://www.themoviedb.org/movie/1714703",
+        "status": "not_yet_rated"
+      }
+    },
+    "tmdb_popularity": {
+      "retrieved_at": "2026-07-29",
+      "source": "TMDb",
+      "source_url": "https://www.themoviedb.org/movie/1714703",
+      "value": 0.0788
+    },
+    "watch_providers": {}
+  },
+  "ratings": {
+    "tmdb": {
+      "popularity": 0.0788,
+      "retrieved_at": "2026-07-29",
+      "source": "TMDb",
+      "source_url": "https://www.themoviedb.org/movie/1714703",
+      "status": "not_yet_rated"
+    }
   },
   "related": {
     "related_films": [
@@ -356,6 +376,18 @@
         "tmdb_id": "1477104"
       },
       {
+        "profile_url": "film.html?id=1300926",
+        "relationship_score": 90,
+        "shared_signals": [
+          "Animation Spotlight",
+          "Adventure",
+          "Animation",
+          "Animated Feature"
+        ],
+        "title": "The Angry Birds Movie 3",
+        "tmdb_id": "1300926"
+      },
+      {
         "profile_url": "film.html?id=1138528",
         "relationship_score": 86,
         "shared_signals": [
@@ -366,18 +398,6 @@
         ],
         "title": "Bad Fairies",
         "tmdb_id": "1138528"
-      },
-      {
-        "profile_url": "film.html?id=1722484",
-        "relationship_score": 84,
-        "shared_signals": [
-          "Animation Spotlight",
-          "Animation",
-          "Comedy",
-          "Animated Feature"
-        ],
-        "title": "Brohr",
-        "tmdb_id": "1722484"
       }
     ],
     "related_people": [
@@ -413,12 +433,66 @@
       }
     ]
   },
+  "screening_room_score": {
+    "families": {
+      "audience_momentum": 0.001,
+      "awards_relevance": 3.2,
+      "campaign_activity": 2.7,
+      "talent_profile": 2.525
+    },
+    "generated_at": "2026-07-29T22:43:28Z",
+    "schema_version": "phase3_screening_room_score_v1",
+    "score": 8.426,
+    "source": "derived_screening_room_score",
+    "top_drivers": [
+      {
+        "confidence": 0.5,
+        "contribution": 3.2,
+        "metric_name": "legacy_dashboard_awards_category_count",
+        "provider": "legacy_dashboard_awards_precursors_adapter",
+        "score_family": "awards_relevance",
+        "value": 4
+      },
+      {
+        "confidence": 0.9,
+        "contribution": 2.7,
+        "metric_name": "trailer_count",
+        "provider": "trailers",
+        "score_family": "campaign_activity",
+        "value": 2
+      },
+      {
+        "confidence": 0.55,
+        "contribution": 1.65,
+        "metric_name": "legacy_dashboard_principal_cast_count",
+        "provider": "legacy_dashboard_talent_history_adapter",
+        "score_family": "talent_profile",
+        "value": 6
+      },
+      {
+        "confidence": 0.5,
+        "contribution": 0.875,
+        "metric_name": "legacy_dashboard_credited_talent_count",
+        "provider": "legacy_dashboard_talent_history_adapter",
+        "score_family": "talent_profile",
+        "value": 7
+      },
+      {
+        "confidence": 0.95,
+        "contribution": 0.001,
+        "metric_name": "tmdb_popularity",
+        "provider": "tmdb",
+        "score_family": "audience_momentum",
+        "value": 0.0788
+      }
+    ]
+  },
   "signals": {
     "cultural_significance": 37.0,
     "external_intelligence": {
       "confidence": "High",
       "headline": "The Essentials 2: release approaching",
-      "summary": "TMDb popularity is 0.0788. US release is 40 days away on 2026-08-29. A canonical TMDb trailer URL is available."
+      "summary": "US release is 40 days away on 2026-08-29."
     },
     "last_updated": "2026-08-29",
     "latest_event": {
@@ -456,7 +530,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1714703-06142cd2debf",
+        "event_id": "1714703-c8ed3552d3df",
         "event_type": "Awards Tier Changed",
         "film_id": "1714703",
         "importance": "Medium",
@@ -471,12 +545,12 @@
         },
         "source_type": "editorial_model",
         "summary": "category-specific awards case without broader contender evidence",
-        "timestamp": "2026-07-29T15:35:35Z",
+        "timestamp": "2026-07-29T22:43:48Z",
         "title": "Awards tier assigned: Category Contender"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1714703-0effd8098337",
+        "event_id": "1714703-9294d7ad2938",
         "event_type": "Added To Database",
         "film_id": "1714703",
         "importance": "Low",
@@ -485,11 +559,16 @@
         },
         "source_type": "system",
         "summary": "The Essentials 2 is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-29T15:35:35Z",
+        "timestamp": "2026-07-29T22:43:48Z",
         "title": "Added to Awards Intelligence"
       }
     ],
     "release_relevance": 40.9,
+    "screening_room_score": {
+      "confidence": "High",
+      "explanation": "US release is 40 days away on 2026-08-29.",
+      "score": 8.426
+    },
     "watch_triggers": [
       "Awards-Friendly Genre",
       "Franchise/Event",
@@ -530,7 +609,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1714703-06142cd2debf",
+        "event_id": "1714703-c8ed3552d3df",
         "event_type": "Awards Tier Changed",
         "film_id": "1714703",
         "importance": "Medium",
@@ -545,12 +624,12 @@
         },
         "source_type": "editorial_model",
         "summary": "category-specific awards case without broader contender evidence",
-        "timestamp": "2026-07-29T15:35:35Z",
+        "timestamp": "2026-07-29T22:43:48Z",
         "title": "Awards tier assigned: Category Contender"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1714703-0effd8098337",
+        "event_id": "1714703-9294d7ad2938",
         "event_type": "Added To Database",
         "film_id": "1714703",
         "importance": "Low",
@@ -559,7 +638,7 @@
         },
         "source_type": "system",
         "summary": "The Essentials 2 is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-29T15:35:35Z",
+        "timestamp": "2026-07-29T22:43:48Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -594,7 +673,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1714703-06142cd2debf",
+        "event_id": "1714703-c8ed3552d3df",
         "event_type": "Awards Tier Changed",
         "film_id": "1714703",
         "importance": "Medium",
@@ -609,12 +688,12 @@
         },
         "source_type": "editorial_model",
         "summary": "category-specific awards case without broader contender evidence",
-        "timestamp": "2026-07-29T15:35:35Z",
+        "timestamp": "2026-07-29T22:43:48Z",
         "title": "Awards tier assigned: Category Contender"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1714703-0effd8098337",
+        "event_id": "1714703-9294d7ad2938",
         "event_type": "Added To Database",
         "film_id": "1714703",
         "importance": "Low",
@@ -623,7 +702,7 @@
         },
         "source_type": "system",
         "summary": "The Essentials 2 is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-29T15:35:35Z",
+        "timestamp": "2026-07-29T22:43:48Z",
         "title": "Added to Awards Intelligence"
       }
     ],

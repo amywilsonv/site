@@ -59,7 +59,7 @@
     "homepage_spotlight_override": null,
     "homepage_spotlight_score": 44.7,
     "industry_interest": null,
-    "last_updated": "20260729T153535Z",
+    "last_updated": "20260729T224348Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
@@ -220,10 +220,10 @@
     "tmdb_id": "1138528"
   },
   "intelligence": {
-    "confidence": "High",
-    "confidence_score": 0.85,
-    "generated_at": "2026-07-29T15:35:15Z",
-    "headline": "Bad Fairies: popularity signal available",
+    "confidence": "Low",
+    "confidence_score": 0.25,
+    "generated_at": "2026-07-29T22:43:28Z",
+    "headline": "Bad Fairies: no material change detected",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
       "signal_values": {
@@ -256,25 +256,43 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity is 1.1613.",
-    "supporting_drivers": [
-      {
-        "confidence_weight": 0.65,
-        "driver_type": "popularity_observed",
-        "evidence": "TMDb popularity is 1.1613.",
-        "label": "Popularity signal available",
-        "retrieved_at": "2026-07-29T15:35:15Z",
-        "source_metric": "tmdb_popularity",
-        "source_provider": "tmdb",
-        "source_status": "available"
-      }
-    ]
+    "summary": "Current provider signals do not show a supported material change.",
+    "supporting_drivers": []
   },
+  "media": {},
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260729T153535Z",
+    "generated_at": "20260729T224348Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
+  },
+  "performance": {
+    "box_office": {},
+    "ratings": {
+      "tmdb": {
+        "popularity": 1.1613,
+        "retrieved_at": "2026-07-29",
+        "source": "TMDb",
+        "source_url": "https://www.themoviedb.org/movie/1138528",
+        "status": "not_yet_rated"
+      }
+    },
+    "tmdb_popularity": {
+      "retrieved_at": "2026-07-29",
+      "source": "TMDb",
+      "source_url": "https://www.themoviedb.org/movie/1138528",
+      "value": 1.1613
+    },
+    "watch_providers": {}
+  },
+  "ratings": {
+    "tmdb": {
+      "popularity": 1.1613,
+      "retrieved_at": "2026-07-29",
+      "source": "TMDb",
+      "source_url": "https://www.themoviedb.org/movie/1138528",
+      "status": "not_yet_rated"
+    }
   },
   "related": {
     "related_films": [
@@ -396,12 +414,57 @@
       }
     ]
   },
+  "screening_room_score": {
+    "families": {
+      "audience_momentum": 0.022,
+      "awards_relevance": 3.2,
+      "talent_profile": 2.125
+    },
+    "generated_at": "2026-07-29T22:43:28Z",
+    "schema_version": "phase3_screening_room_score_v1",
+    "score": 5.347,
+    "source": "derived_screening_room_score",
+    "top_drivers": [
+      {
+        "confidence": 0.5,
+        "contribution": 3.2,
+        "metric_name": "legacy_dashboard_awards_category_count",
+        "provider": "legacy_dashboard_awards_precursors_adapter",
+        "score_family": "awards_relevance",
+        "value": 4
+      },
+      {
+        "confidence": 0.55,
+        "contribution": 1.375,
+        "metric_name": "legacy_dashboard_principal_cast_count",
+        "provider": "legacy_dashboard_talent_history_adapter",
+        "score_family": "talent_profile",
+        "value": 5
+      },
+      {
+        "confidence": 0.5,
+        "contribution": 0.75,
+        "metric_name": "legacy_dashboard_credited_talent_count",
+        "provider": "legacy_dashboard_talent_history_adapter",
+        "score_family": "talent_profile",
+        "value": 6
+      },
+      {
+        "confidence": 0.95,
+        "contribution": 0.022,
+        "metric_name": "tmdb_popularity",
+        "provider": "tmdb",
+        "score_family": "audience_momentum",
+        "value": 1.1613
+      }
+    ]
+  },
   "signals": {
     "cultural_significance": 19.0,
     "external_intelligence": {
-      "confidence": "High",
-      "headline": "Bad Fairies: popularity signal available",
-      "summary": "TMDb popularity is 1.1613."
+      "confidence": "Low",
+      "headline": "Bad Fairies: no material change detected",
+      "summary": "Current provider signals do not show a supported material change."
     },
     "last_updated": "2027-05-21",
     "latest_event": {
@@ -439,7 +502,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1138528-eda13832fde6",
+        "event_id": "1138528-77ac2146fac2",
         "event_type": "Awards Tier Changed",
         "film_id": "1138528",
         "importance": "Medium",
@@ -454,12 +517,12 @@
         },
         "source_type": "editorial_model",
         "summary": "category-specific awards case without broader contender evidence",
-        "timestamp": "2026-07-29T15:35:35Z",
+        "timestamp": "2026-07-29T22:43:48Z",
         "title": "Awards tier assigned: Category Contender"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1138528-331f9c34dbce",
+        "event_id": "1138528-3189b01b396e",
         "event_type": "Added To Database",
         "film_id": "1138528",
         "importance": "Low",
@@ -468,11 +531,16 @@
         },
         "source_type": "system",
         "summary": "Bad Fairies is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-29T15:35:35Z",
+        "timestamp": "2026-07-29T22:43:48Z",
         "title": "Added to Awards Intelligence"
       }
     ],
     "release_relevance": 8.8,
+    "screening_room_score": {
+      "confidence": "Low",
+      "explanation": "Current provider signals do not show a supported material change.",
+      "score": 5.347
+    },
     "watch_triggers": [
       "Major Studio/Streamer",
       "Awards-Friendly Genre",
@@ -512,7 +580,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1138528-eda13832fde6",
+        "event_id": "1138528-77ac2146fac2",
         "event_type": "Awards Tier Changed",
         "film_id": "1138528",
         "importance": "Medium",
@@ -527,12 +595,12 @@
         },
         "source_type": "editorial_model",
         "summary": "category-specific awards case without broader contender evidence",
-        "timestamp": "2026-07-29T15:35:35Z",
+        "timestamp": "2026-07-29T22:43:48Z",
         "title": "Awards tier assigned: Category Contender"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1138528-331f9c34dbce",
+        "event_id": "1138528-3189b01b396e",
         "event_type": "Added To Database",
         "film_id": "1138528",
         "importance": "Low",
@@ -541,7 +609,7 @@
         },
         "source_type": "system",
         "summary": "Bad Fairies is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-29T15:35:35Z",
+        "timestamp": "2026-07-29T22:43:48Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -576,7 +644,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1138528-eda13832fde6",
+        "event_id": "1138528-77ac2146fac2",
         "event_type": "Awards Tier Changed",
         "film_id": "1138528",
         "importance": "Medium",
@@ -591,12 +659,12 @@
         },
         "source_type": "editorial_model",
         "summary": "category-specific awards case without broader contender evidence",
-        "timestamp": "2026-07-29T15:35:35Z",
+        "timestamp": "2026-07-29T22:43:48Z",
         "title": "Awards tier assigned: Category Contender"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1138528-331f9c34dbce",
+        "event_id": "1138528-3189b01b396e",
         "event_type": "Added To Database",
         "film_id": "1138528",
         "importance": "Low",
@@ -605,7 +673,7 @@
         },
         "source_type": "system",
         "summary": "Bad Fairies is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-29T15:35:35Z",
+        "timestamp": "2026-07-29T22:43:48Z",
         "title": "Added to Awards Intelligence"
       }
     ],

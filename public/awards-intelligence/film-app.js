@@ -1,4 +1,23 @@
 const view = document.getElementById("filmView");
+const SCREENING_ROOM_NAV = {
+  home: { key: "home", label: "Home", href: "./discovery.html" },
+  discover: { key: "discover", label: "Discover", href: "./discovery.html#discover" },
+  festivals: { key: "festivals", label: "Festival Radar", href: "./discovery.html#festival-radar" },
+  awards: { key: "awards", label: "Awards Intelligence", href: "./discovery.html#awards-intelligence" },
+};
+
+const DISCOVERY_STATE_KEY = "screening-room:return-context";
+const SCREENING_ROOM_SCORE_METHODOLOGY = {
+  range: "0 to 140 points",
+  families: [
+    ["Audience momentum", "TMDb popularity and TMDb vote count"],
+    ["Audience quality", "TMDb vote average when vote data exists"],
+    ["Festival and awards context", "festival selections, festival awards, awards categories, precursor awards, and legacy dashboard award/festival context"],
+    ["Availability", "US watch-provider counts and flatrate streaming-provider counts"],
+    ["Campaign activity", "canonical trailer volume"],
+    ["Talent profile", "principal cast and credited talent counts, including legacy dashboard talent context"],
+  ],
+};
 
 async function loadJson(path) {
   const response = await fetch(path);
@@ -12,8 +31,10 @@ async function init() {
     AwardsSearch.wireGlobalSearch(document.getElementById("globalSearch"), document.getElementById("searchPanel"));
   }
   const id = new URLSearchParams(window.location.search).get("id");
+  const returnContext = filmReturnContext();
+  updatePrimaryNavForReturnContext(returnContext);
   if (!id) {
-    renderFilmError("Film not found", "No film ID was provided.", "Return to Discover to choose a tracked film.");
+    renderFilmError("Film not found", "No film ID was provided.", "Choose another tracked film.", returnContext);
     return;
   }
   try {
@@ -23,10 +44,10 @@ async function init() {
       loadJson("data/discovery_homepage.json").catch(() => null),
     ]);
     setFilmSeo(profile);
-    renderFilm(profile, timeline, homepage?.metadata?.last_updated);
+    renderFilm(profile, timeline, homepage?.metadata?.last_updated, returnContext);
     track("film_page_viewed", { tmdb_id: id, title: profile.film_identity.title });
   } catch (error) {
-    renderFilmError("Film not found", error.message, "The film may not have a production profile yet.");
+    renderFilmError("Film not found", error.message, "The film may not have a production profile yet.", returnContext);
   }
 }
 
@@ -46,19 +67,20 @@ function renderFilmLoading() {
   `;
 }
 
-function renderFilmError(title, message, detail) {
+function renderFilmError(title, message, detail, returnContext = filmReturnContext()) {
   view.innerHTML = `
     <section class="intro error-state" role="alert">
       <p class="eyebrow">Film</p>
       <h1>${escapeHtml(title)}</h1>
       <p>${escapeHtml(message)}</p>
       <p>${escapeHtml(detail)}</p>
-      <a class="chip" href="./discovery.html#discover">Back to Discover</a>
+      ${returnControl(returnContext)}
     </section>
   `;
+  wireReturnControl(returnContext);
 }
 
-function renderFilm(profile, timeline, lastUpdated) {
+function renderFilm(profile, timeline, lastUpdated, returnContext) {
   const identity = profile.film_identity;
   const editorial = profile.editorial;
   const festival = profile.festival;
@@ -72,11 +94,11 @@ function renderFilm(profile, timeline, lastUpdated) {
     <section class="film-profile-hero film-profile-v2">
       <div class="film-profile-backdrop" style="${identity.backdrop ? `background-image:url('${escapeAttribute(identity.backdrop)}')` : ""}"></div>
       ${renderLastUpdatedIndicator(lastUpdated)}
+      <div class="film-return-slot">${returnControl(returnContext)}</div>
       <div>
         ${identity.poster ? `<img class="poster-img-static film-page-poster" src="${escapeHtml(identity.poster)}" alt="${escapeHtml(identity.title)} poster" loading="eager">` : `<div class="poster-img-static placeholder film-page-poster" role="img" aria-label="Poster unavailable for ${escapeHtml(identity.title)}">${escapeHtml(identity.title)}</div>`}
       </div>
       <div class="film-profile-copy">
-        <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="./discovery.html">Home</a><span>/</span><a href="./discovery.html#discover">Discover</a><span>/</span><span>${escapeHtml(identity.title)}</span></nav>
         <p class="eyebrow">${escapeHtml(editorial.editorial_category)}</p>
         <h1>${escapeHtml(identity.title)}</h1>
         <p>${escapeHtml(identity.release_display)}${talent.director ? ` · Directed by ${escapeHtml(talent.director)}` : ""}</p>
@@ -95,6 +117,7 @@ function renderFilm(profile, timeline, lastUpdated) {
         ${performancePanel("Audience", audienceMetrics(profile))}
         ${performancePanel("Critics", criticsMetrics(profile))}
         ${performancePanel("Box Office", boxOfficeMetrics(profile))}
+        ${watchProviderPanel(profile)}
         ${latestMediaPanel(profile)}
       </div>
     `)}
@@ -118,6 +141,72 @@ function renderFilm(profile, timeline, lastUpdated) {
       </div>
     `)}
   `;
+  wireMethodologyControls();
+  wireReturnControl(returnContext);
+}
+
+function returnControl(context) {
+  const clean = sanitizeReturnContext(context);
+  return `<a class="film-return-link" href="${escapeHtml(clean.href)}" data-film-return>${escapeHtml(`Back to ${clean.label}`)}</a>`;
+}
+
+function wireReturnControl(context) {
+  view.querySelectorAll("[data-film-return]").forEach((link) => {
+    link.addEventListener("click", () => {
+      persistReturnContext(sanitizeReturnContext(context));
+      track("film_return_clicked", { destination: sanitizeReturnContext(context).key });
+    });
+  });
+}
+
+function filmReturnContext() {
+  const params = new URLSearchParams(window.location.search);
+  const from = params.get("from") || "";
+  const nav = SCREENING_ROOM_NAV[from];
+  const stored = storedReturnContext();
+  if (nav) {
+    return sanitizeReturnContext({ ...stored, ...nav, href: returnHref(nav) });
+  }
+  return sanitizeReturnContext({ ...SCREENING_ROOM_NAV.home, href: returnHref(SCREENING_ROOM_NAV.home), fallback: true });
+}
+
+function storedReturnContext() {
+  try {
+    return JSON.parse(sessionStorage.getItem(DISCOVERY_STATE_KEY) || "{}") || {};
+  } catch {
+    return {};
+  }
+}
+
+function sanitizeReturnContext(context) {
+  const nav = SCREENING_ROOM_NAV[context?.key] || SCREENING_ROOM_NAV.home;
+  return {
+    ...context,
+    key: nav.key,
+    label: nav.label,
+    href: returnHref(nav),
+  };
+}
+
+function returnHref(nav) {
+  const base = nav.href || SCREENING_ROOM_NAV.home.href;
+  return `${base.includes("?") ? `${base}&` : `${base.split("#")[0]}?`}sr_restore=1${base.includes("#") ? `#${base.split("#")[1]}` : ""}`;
+}
+
+function persistReturnContext(context) {
+  try {
+    sessionStorage.setItem(DISCOVERY_STATE_KEY, JSON.stringify({ ...context, savedAt: new Date().toISOString() }));
+  } catch {
+    // Navigation remains safe when session storage is unavailable.
+  }
+}
+
+function updatePrimaryNavForReturnContext(context) {
+  const key = sanitizeReturnContext(context).key;
+  document.querySelectorAll("[data-nav-key]").forEach((link) => {
+    if (link.dataset.navKey === key) link.setAttribute("aria-current", "page");
+    else link.removeAttribute("aria-current");
+  });
 }
 
 function renderLastUpdatedIndicator(value) {
@@ -143,14 +232,13 @@ function filmSection(title, content) {
 
 function heroRatingsSnapshot(profile) {
   const ratings = profile.ratings || profile.performance?.ratings || {};
+  const tmdb = ratings.tmdb || {};
   return `
     <article class="hero-snapshot-card">
-      <strong>Ratings</strong>
+      <strong>TMDb Data</strong>
       <div class="ratings-snapshot">
-        ${ratingPill("IMDb", ratings.imdb)}
-        ${ratingPill("Letterboxd", ratings.letterboxd)}
-        ${ratingPill("Rotten Tomatoes Tomatometer", ratings.rotten_tomatoes_tomatometer || ratings.rotten_tomatoes || ratings.rottenTomatoes)}
-        ${ratingPill("Metacritic", ratings.metacritic)}
+        ${ratingPill("TMDb rating", tmdb)}
+        ${ratingPill("TMDb popularity", profile.performance?.tmdb_popularity || tmdb.popularity)}
       </div>
     </article>
   `;
@@ -179,11 +267,13 @@ function heroOscarSnapshot(profile) {
 function heroBoxOfficeSnapshot(profile) {
   const boxOffice = profile.performance?.box_office || profile.box_office || {};
   const commercial = profile.commercial || {};
+  const revenue = positiveNumber(boxOffice.revenue || boxOffice.worldwide_gross || boxOffice.worldwide);
+  const budget = positiveNumber(boxOffice.budget);
   return `
     <article class="hero-snapshot-card">
-      <strong>Box Office</strong>
-      <p>${escapeHtml(formatMoney(boxOffice.domestic_gross || boxOffice.domestic) || prereleaseBoxOfficeState(profile))}</p>
-      <span>${escapeHtml(boxOffice.status || commercial.release_strategy || "Results unavailable")}</span>
+      <strong>TMDb Box Office</strong>
+      <p>${escapeHtml(formatMoney(revenue) || formatMoney(budget) || prereleaseBoxOfficeState(profile))}</p>
+      <span>${escapeHtml(revenue ? "Reported revenue" : budget ? "Reported budget" : boxOffice.status || commercial.release_strategy || "Results unavailable")}</span>
     </article>
   `;
 }
@@ -226,11 +316,19 @@ function performancePanel(title, metrics) {
 
 function audienceMetrics(profile) {
   const ratings = profile.ratings || profile.performance?.ratings || {};
-  return [
-    { label: "IMDb", value: formatRating("IMDb", ratings.imdb) },
-    { label: "Letterboxd", value: formatRating("Letterboxd", ratings.letterboxd) },
-    { label: "Rotten Tomatoes Popcornmeter", value: formatRating("Rotten Tomatoes Popcornmeter", ratings.rotten_tomatoes_popcornmeter || ratings.popcornmeter) },
+  const tmdb = ratings.tmdb || {};
+  const rows = [
+    { label: "TMDb rating", value: formatRating("TMDb rating", tmdb) },
+    { label: "TMDb popularity", value: formatPopularity(profile.performance?.tmdb_popularity || tmdb.popularity) },
   ];
+  const voteCount = formatVoteCount(tmdb.vote_count);
+  if (voteCount) rows.splice(1, 0, { label: "TMDb vote count", value: voteCount });
+  if (ratings.imdb) rows.push({ label: "IMDb", value: formatRating("IMDb", ratings.imdb) });
+  if (ratings.letterboxd) rows.push({ label: "Letterboxd", value: formatRating("Letterboxd", ratings.letterboxd) });
+  if (ratings.rotten_tomatoes_popcornmeter || ratings.popcornmeter) {
+    rows.push({ label: "Rotten Tomatoes Popcornmeter", value: formatRating("Rotten Tomatoes Popcornmeter", ratings.rotten_tomatoes_popcornmeter || ratings.popcornmeter) });
+  }
+  return rows;
 }
 
 function criticsMetrics(profile) {
@@ -245,13 +343,36 @@ function criticsMetrics(profile) {
 function boxOfficeMetrics(profile) {
   const boxOffice = profile.performance?.box_office || profile.box_office || {};
   const state = prereleaseBoxOfficeState(profile);
-  return [
-    { label: "Opening weekend", value: formatMoney(boxOffice.opening_weekend) || state },
-    { label: "Domestic", value: formatMoney(boxOffice.domestic_gross || boxOffice.domestic) || state },
-    { label: "International", value: formatMoney(boxOffice.international_gross || boxOffice.international) || state },
-    { label: "Worldwide", value: formatMoney(boxOffice.worldwide_gross || boxOffice.worldwide) || state },
-    { label: "Projection", value: formatMoney(boxOffice.projection) || "Unavailable" },
-  ];
+  const rows = [];
+  const budget = formatMoney(boxOffice.budget);
+  const revenue = formatMoney(boxOffice.revenue);
+  if (budget) rows.push({ label: "TMDb budget", value: budget });
+  if (revenue) rows.push({ label: "TMDb revenue", value: revenue });
+  if (boxOffice.opening_weekend) rows.push({ label: "Opening weekend", value: formatMoney(boxOffice.opening_weekend) || state });
+  if (boxOffice.domestic_gross || boxOffice.domestic) rows.push({ label: "Domestic", value: formatMoney(boxOffice.domestic_gross || boxOffice.domestic) || state });
+  if (boxOffice.international_gross || boxOffice.international) rows.push({ label: "International", value: formatMoney(boxOffice.international_gross || boxOffice.international) || state });
+  if (boxOffice.worldwide_gross || boxOffice.worldwide) rows.push({ label: "Worldwide", value: formatMoney(boxOffice.worldwide_gross || boxOffice.worldwide) || state });
+  if (boxOffice.projection) rows.push({ label: "Projection", value: formatMoney(boxOffice.projection) || "Unavailable" });
+  return rows.length ? rows : [{ label: "Status", value: state }];
+}
+
+function watchProviderPanel(profile) {
+  const providers = profile.performance?.watch_providers || {};
+  const rows = watchProviderRows(providers);
+  if (!rows.length) return "";
+  return `
+    <article class="performance-panel">
+      <strong>TMDb Watch Options</strong>
+      <div>
+        ${rows.map((row) => `
+          <div class="performance-row">
+            <span>${escapeHtml(row.label)}</span>
+            <b>${escapeHtml(row.value)}</b>
+          </div>
+        `).join("")}
+      </div>
+    </article>
+  `;
 }
 
 function latestMediaPanel(profile) {
@@ -297,8 +418,91 @@ function renderOscarIntelligence(profile) {
   const probabilities = realOscarProbabilities(profile.awards?.probabilities || {});
   return `
     <div class="oscar-model-grid">
+      ${screeningRoomIntelligencePanel(profile)}
       ${oscarModelPanel("Nomination Model", "Coming Soon", "Will estimate nomination probability by Academy Award category.", "nomination_probability", probabilities)}
       ${oscarModelPanel("Winner Model", "Coming Soon", "Will estimate win probability and recalculate after nominees are announced.", "win_probability", probabilities)}
+    </div>
+  `;
+}
+
+function screeningRoomIntelligencePanel(profile) {
+  const score = profile.screening_room_score || profile.signals?.screening_room_score || {};
+  const intelligence = profile.intelligence || {};
+  const numericScore = Number(score.score);
+  if (!Number.isFinite(numericScore) && !intelligence.summary) return "";
+  const confidence = intelligence.confidence || score.confidence || "Unavailable";
+  const explanation = intelligence.summary || score.explanation || "No current explanation available.";
+  const headline = intelligence.headline || "Screening Room intelligence";
+  return `
+    <article class="oscar-model-panel">
+      <div class="score-panel-title">
+        <strong>Screening Room Score</strong>
+        <button class="methodology-link" type="button" data-methodology-open aria-haspopup="dialog">How this score works</button>
+      </div>
+      ${Number.isFinite(numericScore) ? `<div class="oscar-model-row"><strong>${Math.round(numericScore)}</strong><span>${escapeHtml(confidence)} confidence</span><em>Score</em></div>` : ""}
+      <p>${escapeHtml(headline)}</p>
+      <span>${escapeHtml(explanation)}</span>
+    </article>
+  `;
+}
+
+function wireMethodologyControls() {
+  view.querySelectorAll("[data-methodology-open]").forEach((button) => {
+    button.addEventListener("click", openMethodologyDialog);
+  });
+}
+
+function openMethodologyDialog() {
+  const { scrim, dialog } = ensureMethodologyDialog();
+  scrim.classList.remove("hidden");
+  dialog.classList.remove("hidden");
+  dialog.innerHTML = methodologyDialogHtml("How the Screening Room Score works");
+  dialog.querySelector("[data-methodology-close]")?.addEventListener("click", closeMethodologyDialog);
+  scrim.addEventListener("click", closeMethodologyDialog, { once: true });
+  dialog.querySelector("[data-methodology-close]")?.focus();
+}
+
+function closeMethodologyDialog() {
+  document.getElementById("methodologyScrim")?.classList.add("hidden");
+  document.getElementById("methodologyDialog")?.classList.add("hidden");
+}
+
+function ensureMethodologyDialog() {
+  let scrim = document.getElementById("methodologyScrim");
+  let dialog = document.getElementById("methodologyDialog");
+  if (!scrim) {
+    scrim = document.createElement("div");
+    scrim.id = "methodologyScrim";
+    scrim.className = "modal-scrim hidden";
+    document.body.append(scrim);
+  }
+  if (!dialog) {
+    dialog = document.createElement("section");
+    dialog.id = "methodologyDialog";
+    dialog.className = "film-modal methodology-modal hidden";
+    dialog.setAttribute("role", "dialog");
+    dialog.setAttribute("aria-modal", "true");
+    dialog.setAttribute("aria-labelledby", "methodologyTitle");
+    document.body.append(dialog);
+  }
+  return { scrim, dialog };
+}
+
+function methodologyDialogHtml(title) {
+  return `
+    <button class="chip close" type="button" data-methodology-close>Close</button>
+    <p class="eyebrow">Methodology</p>
+    <h2 id="methodologyTitle">${escapeHtml(title)}</h2>
+    <div class="methodology-copy">
+      <p>The Screening Room Score is a film-intelligence signal score. It combines available audience momentum, TMDb audience rating data, campaign activity, watch availability, festival and awards context, and talent-profile signals.</p>
+      <p>The current configured range is ${escapeHtml(SCREENING_ROOM_SCORE_METHODOLOGY.range)}. Higher scores mean more supported signals are present or stronger; lower scores usually mean fewer public, audience, campaign, availability, festival, awards, or talent signals are available yet.</p>
+      <ul>
+        ${SCREENING_ROOM_SCORE_METHODOLOGY.families.map(([label, detail]) => `<li><strong>${escapeHtml(label)}:</strong> ${escapeHtml(detail)}.</li>`).join("")}
+      </ul>
+      <p>The score is not a critic grade, box-office result, Oscar prediction, or guarantee of quality. It does not use Rotten Tomatoes, Metacritic, Letterboxd, IMDb, box office, news, or social/search data unless those sources are explicitly added to the scoring rules later.</p>
+      <p>Upcoming films often have fewer audience, critic, commercial, and availability signals. Missing signals do not subtract points; they simply do not contribute until real data exists.</p>
+      <p>Confidence describes the current explanation evidence, not a separate prediction model. It rises when the explanation has stronger fresh drivers and more available-source support, and falls when usable signals are stale or absent.</p>
+      <p>Scores can change as TMDb data, trailers, availability, festival context, awards context, or talent-profile signals refresh.</p>
     </div>
   `;
 }
@@ -442,12 +646,22 @@ function isExternalSignalType(type) {
 }
 
 function latestTrailer(profile) {
+  const canonical = profile.media?.canonical_trailer;
+  if (canonical?.url && isValidUrl(canonical.url)) {
+    return {
+      title: canonical.title || "Official Trailer",
+      kind: canonical.type || "Trailer",
+      url: canonical.url,
+    };
+  }
   const events = profile.timeline?.events || [];
   const event = events.find((item) => String(item.event_type || "").toLowerCase().includes("trailer"));
   if (!event && !hasTrailerEvidence(profile)) return null;
+  const url = event?.metadata?.url || event?.metadata?.trailer_url || profile.media?.latest_trailer_url || "";
+  if (url && !isValidUrl(url)) return null;
   return {
     title: event?.title || "Official Trailer",
-    url: event?.metadata?.url || event?.metadata?.trailer_url || profile.media?.latest_trailer_url || "",
+    url,
   };
 }
 
@@ -464,6 +678,13 @@ function sectionId(title) {
 
 function formatRating(label, value) {
   if (value === undefined || value === null || value === "") return "N/A";
+  if (label === "TMDb rating" && typeof value === "object") {
+    const average = Number(value.vote_average);
+    const count = Number(value.vote_count);
+    if (!Number.isFinite(average) || average <= 0 || !Number.isFinite(count) || count <= 0) return "Not yet rated";
+    return `${average.toFixed(average % 1 ? 1 : 0)}/10 (${count.toLocaleString()} votes)`;
+  }
+  if (label === "TMDb popularity") return formatPopularity(value);
   if (typeof value === "string") return value;
   const numeric = Number(value);
   if (!Number.isFinite(numeric)) return "N/A";
@@ -473,6 +694,50 @@ function formatRating(label, value) {
   if (label === "Rotten Tomatoes Popcornmeter") return numeric <= 1 ? `${Math.round(numeric * 100)}%` : `${Math.round(numeric)}%`;
   if (label === "Metacritic") return `${Math.round(numeric)}`;
   return String(numeric);
+}
+
+function formatVoteCount(value) {
+  const numeric = positiveNumber(value);
+  return numeric ? numeric.toLocaleString() : "";
+}
+
+function formatPopularity(value) {
+  const source = typeof value === "object" && value !== null ? value.value : value;
+  const numeric = Number(source);
+  if (!Number.isFinite(numeric) || numeric <= 0) return "Unavailable";
+  return numeric.toLocaleString(undefined, { maximumFractionDigits: 1 });
+}
+
+function watchProviderRows(providers) {
+  return [
+    { key: "flatrate", label: "Streaming" },
+    { key: "rent", label: "Rent" },
+    { key: "buy", label: "Buy" },
+    { key: "ads", label: "With ads" },
+    { key: "free", label: "Free" },
+  ].map((group) => ({
+    label: group.label,
+    value: providerNames(providers[group.key]),
+  })).filter((row) => row.value);
+}
+
+function providerNames(items) {
+  if (!Array.isArray(items)) return "";
+  return items.map((item) => item?.provider_name).filter(Boolean).join(", ");
+}
+
+function positiveNumber(value) {
+  const numeric = Number(value);
+  return Number.isFinite(numeric) && numeric > 0 ? numeric : 0;
+}
+
+function isValidUrl(value) {
+  try {
+    const parsed = new URL(value);
+    return parsed.protocol === "http:" || parsed.protocol === "https:";
+  } catch {
+    return false;
+  }
 }
 
 function formatMoney(value) {
@@ -527,6 +792,10 @@ function setFilmSeo(profile) {
 function track(eventName, payload = {}) {
   if (window.AwardsAnalytics) AwardsAnalytics.track(eventName, payload);
 }
+
+document.addEventListener("keydown", (event) => {
+  if (event.key === "Escape") closeMethodologyDialog();
+});
 
 function formatDate(value) {
   if (!value) return "Date pending";

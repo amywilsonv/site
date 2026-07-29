@@ -53,7 +53,7 @@
     "homepage_spotlight_override": null,
     "homepage_spotlight_score": 46.2,
     "industry_interest": null,
-    "last_updated": "20260729T153535Z",
+    "last_updated": "20260729T224348Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
@@ -199,9 +199,9 @@
   },
   "intelligence": {
     "confidence": "High",
-    "confidence_score": 0.85,
-    "generated_at": "2026-07-29T15:35:15Z",
-    "headline": "Best of the Best: popularity signal available",
+    "confidence_score": 0.99,
+    "generated_at": "2026-07-29T22:43:28Z",
+    "headline": "Best of the Best: popularity increasing",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
       "signal_values": {
@@ -234,25 +234,54 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity is 0.6395.",
+    "summary": "TMDb popularity rose from 0.5045 to 0.6395.",
     "supporting_drivers": [
       {
-        "confidence_weight": 0.65,
-        "driver_type": "popularity_observed",
-        "evidence": "TMDb popularity is 0.6395.",
-        "label": "Popularity signal available",
-        "retrieved_at": "2026-07-29T15:35:15Z",
+        "confidence_weight": 0.9,
+        "driver_type": "popularity_increasing",
+        "evidence": "TMDb popularity rose from 0.5045 to 0.6395.",
+        "label": "Popularity increasing",
+        "retrieved_at": "2026-07-29T22:43:28Z",
         "source_metric": "tmdb_popularity",
         "source_provider": "tmdb",
         "source_status": "available"
       }
     ]
   },
+  "media": {},
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260729T153535Z",
+    "generated_at": "20260729T224348Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
+  },
+  "performance": {
+    "box_office": {},
+    "ratings": {
+      "tmdb": {
+        "popularity": 0.6395,
+        "retrieved_at": "2026-07-29",
+        "source": "TMDb",
+        "source_url": "https://www.themoviedb.org/movie/1514863",
+        "status": "not_yet_rated"
+      }
+    },
+    "tmdb_popularity": {
+      "retrieved_at": "2026-07-29",
+      "source": "TMDb",
+      "source_url": "https://www.themoviedb.org/movie/1514863",
+      "value": 0.6395
+    },
+    "watch_providers": {}
+  },
+  "ratings": {
+    "tmdb": {
+      "popularity": 0.6395,
+      "retrieved_at": "2026-07-29",
+      "source": "TMDb",
+      "source_url": "https://www.themoviedb.org/movie/1514863",
+      "status": "not_yet_rated"
+    }
   },
   "related": {
     "related_films": [
@@ -365,12 +394,48 @@
       }
     ]
   },
+  "screening_room_score": {
+    "families": {
+      "audience_momentum": 0.012,
+      "talent_profile": 3.325
+    },
+    "generated_at": "2026-07-29T22:43:28Z",
+    "schema_version": "phase3_screening_room_score_v1",
+    "score": 3.337,
+    "source": "derived_screening_room_score",
+    "top_drivers": [
+      {
+        "confidence": 0.55,
+        "contribution": 2.2,
+        "metric_name": "legacy_dashboard_principal_cast_count",
+        "provider": "legacy_dashboard_talent_history_adapter",
+        "score_family": "talent_profile",
+        "value": 8
+      },
+      {
+        "confidence": 0.5,
+        "contribution": 1.125,
+        "metric_name": "legacy_dashboard_credited_talent_count",
+        "provider": "legacy_dashboard_talent_history_adapter",
+        "score_family": "talent_profile",
+        "value": 9
+      },
+      {
+        "confidence": 0.95,
+        "contribution": 0.012,
+        "metric_name": "tmdb_popularity",
+        "provider": "tmdb",
+        "score_family": "audience_momentum",
+        "value": 0.6395
+      }
+    ]
+  },
   "signals": {
     "cultural_significance": 19.0,
     "external_intelligence": {
       "confidence": "High",
-      "headline": "Best of the Best: popularity signal available",
-      "summary": "TMDb popularity is 0.6395."
+      "headline": "Best of the Best: popularity increasing",
+      "summary": "TMDb popularity rose from 0.5045 to 0.6395."
     },
     "last_updated": "2026-09-18",
     "latest_event": {
@@ -408,7 +473,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1514863-e0a09cb30e21",
+        "event_id": "1514863-aa51ae89257e",
         "event_type": "Distributor Change",
         "film_id": "1514863",
         "importance": "Medium",
@@ -417,12 +482,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-07-29T15:35:35Z",
+        "timestamp": "2026-07-29T22:43:48Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1514863-e1a306cbc2c6",
+        "event_id": "1514863-e9ac59fc4063",
         "event_type": "Awards Tier Changed",
         "film_id": "1514863",
         "importance": "Medium",
@@ -432,11 +497,16 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-29T15:35:35Z",
+        "timestamp": "2026-07-29T22:43:48Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],
     "release_relevance": 28.0,
+    "screening_room_score": {
+      "confidence": "High",
+      "explanation": "TMDb popularity rose from 0.5045 to 0.6395.",
+      "score": 3.337
+    },
     "watch_triggers": [
       "Prestige Distributor",
       "Major Studio/Streamer",
@@ -477,7 +547,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1514863-e0a09cb30e21",
+        "event_id": "1514863-aa51ae89257e",
         "event_type": "Distributor Change",
         "film_id": "1514863",
         "importance": "Medium",
@@ -486,12 +556,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-07-29T15:35:35Z",
+        "timestamp": "2026-07-29T22:43:48Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1514863-e1a306cbc2c6",
+        "event_id": "1514863-e9ac59fc4063",
         "event_type": "Awards Tier Changed",
         "film_id": "1514863",
         "importance": "Medium",
@@ -501,12 +571,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-29T15:35:35Z",
+        "timestamp": "2026-07-29T22:43:48Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1514863-602bbe5c21f6",
+        "event_id": "1514863-dfc4e53429e2",
         "event_type": "Added To Database",
         "film_id": "1514863",
         "importance": "Low",
@@ -515,7 +585,7 @@
         },
         "source_type": "system",
         "summary": "Best of the Best is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-29T15:35:35Z",
+        "timestamp": "2026-07-29T22:43:48Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -550,7 +620,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1514863-e0a09cb30e21",
+        "event_id": "1514863-aa51ae89257e",
         "event_type": "Distributor Change",
         "film_id": "1514863",
         "importance": "Medium",
@@ -559,12 +629,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-07-29T15:35:35Z",
+        "timestamp": "2026-07-29T22:43:48Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1514863-e1a306cbc2c6",
+        "event_id": "1514863-e9ac59fc4063",
         "event_type": "Awards Tier Changed",
         "film_id": "1514863",
         "importance": "Medium",
@@ -574,7 +644,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-29T15:35:35Z",
+        "timestamp": "2026-07-29T22:43:48Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],

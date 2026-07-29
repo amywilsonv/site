@@ -53,7 +53,7 @@
     "homepage_spotlight_override": null,
     "homepage_spotlight_score": 30.8,
     "industry_interest": null,
-    "last_updated": "20260729T153535Z",
+    "last_updated": "20260729T224348Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
@@ -197,8 +197,8 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-07-29T15:35:15Z",
-    "headline": "Beasts Clutching at Straws: popularity signal available",
+    "generated_at": "2026-07-29T22:43:28Z",
+    "headline": "Beasts Clutching at Straws: popularity increasing",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
       "signal_values": {
@@ -233,35 +233,65 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity is 0.7475. A canonical TMDb trailer URL is available.",
+    "summary": "TMDb popularity rose from 0.6574 to 0.7475.",
     "supporting_drivers": [
       {
-        "confidence_weight": 0.65,
-        "driver_type": "popularity_observed",
-        "evidence": "TMDb popularity is 0.7475.",
-        "label": "Popularity signal available",
-        "retrieved_at": "2026-07-29T15:35:15Z",
+        "confidence_weight": 0.9,
+        "driver_type": "popularity_increasing",
+        "evidence": "TMDb popularity rose from 0.6574 to 0.7475.",
+        "label": "Popularity increasing",
+        "retrieved_at": "2026-07-29T22:43:28Z",
         "source_metric": "tmdb_popularity",
-        "source_provider": "tmdb",
-        "source_status": "available"
-      },
-      {
-        "confidence_weight": 0.85,
-        "driver_type": "trailer_available",
-        "evidence": "A canonical TMDb trailer URL is available.",
-        "label": "Trailer available",
-        "retrieved_at": "2026-07-29T15:35:15Z",
-        "source_metric": "tmdb_canonical_trailer_url",
         "source_provider": "tmdb",
         "source_status": "available"
       }
     ]
   },
+  "media": {
+    "canonical_trailer": {
+      "retrieved_at": "2026-07-29",
+      "site": "YouTube",
+      "source": "TMDb",
+      "source_url": "https://www.themoviedb.org/movie/1670061/videos",
+      "title": "\u300e\u85c1\u306b\u3082\u3059\u304c\u308b\u7363\u305f\u3061\u300f\u7279\u5831\u30109\u670825\u65e5(\u91d1)\u516c\u958b\u3011",
+      "type": "Trailer",
+      "url": "https://www.youtube.com/watch?v=7sH5Zy4KhE8"
+    },
+    "latest_trailer_url": "https://www.youtube.com/watch?v=7sH5Zy4KhE8"
+  },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260729T153535Z",
+    "generated_at": "20260729T224348Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
+  },
+  "performance": {
+    "box_office": {},
+    "ratings": {
+      "tmdb": {
+        "popularity": 0.7475,
+        "retrieved_at": "2026-07-29",
+        "source": "TMDb",
+        "source_url": "https://www.themoviedb.org/movie/1670061",
+        "status": "not_yet_rated"
+      }
+    },
+    "tmdb_popularity": {
+      "retrieved_at": "2026-07-29",
+      "source": "TMDb",
+      "source_url": "https://www.themoviedb.org/movie/1670061",
+      "value": 0.7475
+    },
+    "watch_providers": {}
+  },
+  "ratings": {
+    "tmdb": {
+      "popularity": 0.7475,
+      "retrieved_at": "2026-07-29",
+      "source": "TMDb",
+      "source_url": "https://www.themoviedb.org/movie/1670061",
+      "status": "not_yet_rated"
+    }
   },
   "related": {
     "related_films": [
@@ -367,12 +397,66 @@
       }
     ]
   },
+  "screening_room_score": {
+    "families": {
+      "audience_momentum": 0.014,
+      "awards_relevance": 0.8,
+      "campaign_activity": 1.35,
+      "talent_profile": 1.325
+    },
+    "generated_at": "2026-07-29T22:43:28Z",
+    "schema_version": "phase3_screening_room_score_v1",
+    "score": 3.489,
+    "source": "derived_screening_room_score",
+    "top_drivers": [
+      {
+        "confidence": 0.9,
+        "contribution": 1.35,
+        "metric_name": "trailer_count",
+        "provider": "trailers",
+        "score_family": "campaign_activity",
+        "value": 1
+      },
+      {
+        "confidence": 0.55,
+        "contribution": 0.825,
+        "metric_name": "legacy_dashboard_principal_cast_count",
+        "provider": "legacy_dashboard_talent_history_adapter",
+        "score_family": "talent_profile",
+        "value": 3
+      },
+      {
+        "confidence": 0.5,
+        "contribution": 0.8,
+        "metric_name": "legacy_dashboard_awards_category_count",
+        "provider": "legacy_dashboard_awards_precursors_adapter",
+        "score_family": "awards_relevance",
+        "value": 1
+      },
+      {
+        "confidence": 0.5,
+        "contribution": 0.5,
+        "metric_name": "legacy_dashboard_credited_talent_count",
+        "provider": "legacy_dashboard_talent_history_adapter",
+        "score_family": "talent_profile",
+        "value": 4
+      },
+      {
+        "confidence": 0.95,
+        "contribution": 0.014,
+        "metric_name": "tmdb_popularity",
+        "provider": "tmdb",
+        "score_family": "audience_momentum",
+        "value": 0.7475
+      }
+    ]
+  },
   "signals": {
     "cultural_significance": 0,
     "external_intelligence": {
       "confidence": "High",
-      "headline": "Beasts Clutching at Straws: popularity signal available",
-      "summary": "TMDb popularity is 0.7475. A canonical TMDb trailer URL is available."
+      "headline": "Beasts Clutching at Straws: popularity increasing",
+      "summary": "TMDb popularity rose from 0.6574 to 0.7475."
     },
     "last_updated": "2026-09-25",
     "latest_event": {
@@ -410,7 +494,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1670061-dc620baed47a",
+        "event_id": "1670061-a6d2e9a75bb0",
         "event_type": "Awards Tier Changed",
         "film_id": "1670061",
         "importance": "Medium",
@@ -422,12 +506,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-29T15:35:35Z",
+        "timestamp": "2026-07-29T22:43:48Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1670061-f0e5725d7d30",
+        "event_id": "1670061-4c28f9d4b0ee",
         "event_type": "Added To Database",
         "film_id": "1670061",
         "importance": "Low",
@@ -436,11 +520,16 @@
         },
         "source_type": "system",
         "summary": "Beasts Clutching at Straws is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-29T15:35:35Z",
+        "timestamp": "2026-07-29T22:43:48Z",
         "title": "Added to Awards Intelligence"
       }
     ],
     "release_relevance": 25.4,
+    "screening_room_score": {
+      "confidence": "High",
+      "explanation": "TMDb popularity rose from 0.6574 to 0.7475.",
+      "score": 3.489
+    },
     "watch_triggers": [
       "Awards-Season Release",
       "Awards-Friendly Genre",
@@ -478,7 +567,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1670061-dc620baed47a",
+        "event_id": "1670061-a6d2e9a75bb0",
         "event_type": "Awards Tier Changed",
         "film_id": "1670061",
         "importance": "Medium",
@@ -490,12 +579,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-29T15:35:35Z",
+        "timestamp": "2026-07-29T22:43:48Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1670061-f0e5725d7d30",
+        "event_id": "1670061-4c28f9d4b0ee",
         "event_type": "Added To Database",
         "film_id": "1670061",
         "importance": "Low",
@@ -504,7 +593,7 @@
         },
         "source_type": "system",
         "summary": "Beasts Clutching at Straws is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-29T15:35:35Z",
+        "timestamp": "2026-07-29T22:43:48Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -539,7 +628,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1670061-dc620baed47a",
+        "event_id": "1670061-a6d2e9a75bb0",
         "event_type": "Awards Tier Changed",
         "film_id": "1670061",
         "importance": "Medium",
@@ -551,12 +640,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-29T15:35:35Z",
+        "timestamp": "2026-07-29T22:43:48Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1670061-f0e5725d7d30",
+        "event_id": "1670061-4c28f9d4b0ee",
         "event_type": "Added To Database",
         "film_id": "1670061",
         "importance": "Low",
@@ -565,7 +654,7 @@
         },
         "source_type": "system",
         "summary": "Beasts Clutching at Straws is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-29T15:35:35Z",
+        "timestamp": "2026-07-29T22:43:48Z",
         "title": "Added to Awards Intelligence"
       }
     ],

@@ -10,12 +10,70 @@ const state = {
   hoverTimer: null,
 };
 
+const SCREENING_ROOM_NAV = {
+  home: { key: "home", label: "Home", route: "home", view: "", hash: "" },
+  discover: { key: "discover", label: "Discover", route: "discover", view: "all", hash: "#discover" },
+  festivals: { key: "festivals", label: "Festival Radar", route: "discover", view: "festivals", hash: "#festival-radar" },
+  awards: { key: "awards", label: "Awards Intelligence", route: "discover", view: "awards", hash: "#awards-intelligence" },
+};
+
+const DISCOVERY_STATE_KEY = "screening-room:return-context";
+const DISCOVER_PRIMARY_TAG_PRIORITY = [
+  "Cannes Selection",
+  "Venice Selection",
+  "TIFF Selection",
+  "Telluride Selection",
+  "Sundance Selection",
+  "NYFF Selection",
+  "Festival Breakout",
+  "Jury Prize Winner",
+  "Acclaimed Premiere",
+  "Best Picture Watch",
+  "Acting Showcase",
+  "Craft Contender",
+  "Animation Contender",
+  "Awards Breakout",
+  "Trailer Released",
+  "Opening Soon",
+  "Limited Release",
+  "Streaming Soon",
+  "Franchise Return",
+  "Event Film",
+  "Blockbuster Watch",
+  "Prestige Blockbuster",
+  "Streaming Event",
+  "Family Event",
+  "Major Filmmaker",
+  "Star-Driven",
+  "Ensemble Spotlight",
+  "Breakthrough Director",
+  "Auteur Watch",
+  "Most Anticipated",
+  "Trending",
+  "Breakout Buzz",
+  "Cultural Event",
+  "Under the Radar",
+  "Indie Spotlight",
+];
+const GENERIC_DISCOVER_TAGS = new Set(["Film", "On the Radar", "General Watch", "Updated"]);
+
 const home = document.getElementById("homeView");
 const discover = document.getElementById("discoverView");
 const preview = document.getElementById("hoverPreview");
 const modal = document.getElementById("filmModal");
 const scrim = document.getElementById("modalScrim");
 const aboutPanel = document.getElementById("aboutPanel");
+const SCREENING_ROOM_SCORE_METHODOLOGY = {
+  range: "0 to 140 points",
+  families: [
+    ["Audience momentum", "TMDb popularity and TMDb vote count"],
+    ["Audience quality", "TMDb vote average when vote data exists"],
+    ["Festival and awards context", "festival selections, festival awards, awards categories, precursor awards, and legacy dashboard award/festival context"],
+    ["Availability", "US watch-provider counts and flatrate streaming-provider counts"],
+    ["Campaign activity", "canonical trailer volume"],
+    ["Talent profile", "principal cast and credited talent counts, including legacy dashboard talent context"],
+  ],
+};
 
 async function loadJson(path) {
   const response = await fetch(path);
@@ -104,7 +162,9 @@ function renderHome() {
   const spotlight = h.spotlight || spotlightFromFirstCard(h.screening_room[0]);
   const festivalItems = state.discover?.views?.festivals?.all_items || [];
   home.innerHTML = `
+    ${routeHeading(SCREENING_ROOM_NAV.home.label, "Films worth following.", "homeRouteHeading")}
     ${renderLastUpdatedIndicator(h.metadata?.last_updated)}
+    ${methodologyIntro()}
     ${nowInFocus(spotlight)}
     ${comingSoonSection(dedupeItems(h.opening_soon, [spotlight.tmdb_id]))}
     ${festivalRadarSection(festivalItems, h.latest_signals || [])}
@@ -116,6 +176,24 @@ function renderHome() {
   home.querySelectorAll("[data-collection]").forEach((section) => {
     track("collection_viewed", { collection: section.dataset.collection });
   });
+}
+
+function routeHeading(title, subtitle = "", id = "routeHeading") {
+  return `
+    <section class="route-heading" aria-labelledby="${escapeHtml(id)}">
+      <h1 id="${escapeHtml(id)}">${escapeHtml(title)}</h1>
+      ${subtitle ? `<p>${escapeHtml(subtitle)}</p>` : ""}
+    </section>
+  `;
+}
+
+function methodologyIntro() {
+  return `
+    <div class="methodology-strip">
+      <span>The Screening Room Score combines available momentum, campaign, availability, awards/festival, and talent signals.</span>
+      <button class="methodology-link" type="button" data-methodology-open aria-haspopup="dialog">How the Screening Room Score works</button>
+    </div>
+  `;
 }
 
 function renderLastUpdatedIndicator(value) {
@@ -301,12 +379,9 @@ function renderDiscover() {
   const source = state.discover.views[state.view];
   const items = filteredItems();
   const shown = items.slice(0, state.visible);
+  const title = currentNavItem().label;
   discover.innerHTML = `
-    <section class="intro">
-      <p class="eyebrow">Discover</p>
-      <h1>${escapeHtml(source.label)}</h1>
-      <p>Browse films by editorial category and release timing.</p>
-    </section>
+    ${routeHeading(title, "Browse films by editorial category and release timing.", "discoverRouteHeading")}
     <div class="filter-bar">
       <div class="category-tabs">
         ${state.discover.top_categories.map((category) => `<button class="tab ${category.key === state.view ? "active" : ""}" type="button" data-view="${category.key}">${escapeHtml(category.label)}</button>`).join("")}
@@ -324,7 +399,7 @@ function renderDiscover() {
       </div>
     </div>
     <div class="section-head"><span class="muted">Showing ${shown.length} of ${items.length}</span></div>
-    ${shown.length ? `<div class="poster-grid supporting">${shown.map(card).join("")}</div>` : emptyState("No films match this filter yet.", "Try a broader category, clear the search box, or switch release timing.")}
+    ${shown.length ? `<div class="poster-grid supporting">${shown.map((item) => card(item, "discover-card")).join("")}</div>` : emptyState("No films match this filter yet.", "Try a broader category, clear the search box, or switch release timing.")}
     ${shown.length < items.length ? `<button class="chip load-more" type="button" id="loadMore">Load More</button>` : ""}
   `;
   wireContent(discover);
@@ -358,8 +433,10 @@ function filteredItems() {
 
 function card(item, variant = "") {
   const cardVariant = typeof variant === "string" ? variant : "";
-  const badge = item.tile.public_badge;
-  const labels = cardVariant.includes("single-label") ? [chooseCardLabel(item, cardVariant)].filter(Boolean) : contextualLabels(item).slice(0, 3);
+  const badge = displayBadgeForCard(item, cardVariant);
+  const labels = cardVariant.includes("discover-card") || cardVariant.includes("single-label")
+    ? [badge?.label].filter(Boolean)
+    : contextualLabels(item).slice(0, 3);
   return `
     <button class="poster-card ${cardVariant} ${item.tile.is_awards_contender ? "awards" : ""} ${item.tile.is_lead ? "lead" : ""}" type="button" data-id="${item.tile.tmdb_id}" aria-label="Open ${escapeHtml(item.tile.title)}">
       ${labels.length ? `<span class="badge-row">${labels.map((label, index) => `<span class="badge ${index ? "secondary-badge" : escapeHtml(badge?.class || "major")}">${index ? "" : icon(badge?.icon || "diamond")}${escapeHtml(label)}</span>`).join("")}</span>` : ""}
@@ -367,6 +444,61 @@ function card(item, variant = "") {
       <span class="poster-overlay"><span class="poster-title">${escapeHtml(item.tile.title_overlay)}</span><span class="poster-line">${escapeHtml(item.tile.release_display)}</span></span>
     </button>
   `;
+}
+
+function displayBadgeForCard(item, cardVariant = "") {
+  if (cardVariant.includes("discover-card")) {
+    return item.tile.discover_primary_tag || badgeFromPrimaryDiscoverLabel(item);
+  }
+  if (cardVariant.includes("single-label")) {
+    const label = chooseCardLabel(item, cardVariant);
+    return label ? badgeForLabel(item, label) : null;
+  }
+  return item.tile.public_badge;
+}
+
+function badgeFromPrimaryDiscoverLabel(item) {
+  const explicit = explicitPrimaryTag(item);
+  if (explicit) return badgeForLabel(item, explicit);
+  const labels = contextualLabels(item).filter((label) => !GENERIC_DISCOVER_TAGS.has(label));
+  if (!labels.length) return null;
+  const selected = labels
+    .map((label, index) => ({
+      label,
+      index,
+      priority: DISCOVER_PRIMARY_TAG_PRIORITY.includes(label) ? DISCOVER_PRIMARY_TAG_PRIORITY.indexOf(label) : DISCOVER_PRIMARY_TAG_PRIORITY.length,
+    }))
+    .sort((a, b) => a.priority - b.priority || a.index - b.index || a.label.localeCompare(b.label))[0];
+  return selected ? badgeForLabel(item, selected.label) : null;
+}
+
+function explicitPrimaryTag(item) {
+  for (const source of [item.tile || {}, item.detail || {}]) {
+    for (const key of ["manual_primary_tag", "editorial_primary_tag", "primary_tag", "primary_label"]) {
+      const value = source[key];
+      const label = typeof value === "object" && value !== null ? value.label : value;
+      if (label && !GENERIC_DISCOVER_TAGS.has(String(label))) return String(label);
+    }
+  }
+  return "";
+}
+
+function badgeForLabel(item, label) {
+  const evidence = [
+    ...(item.tile.contextual_labels?.evidence || []),
+    ...(item.detail.contextual_labels?.evidence || []),
+  ].find((entry) => entry.label === label);
+  const family = evidence?.family || "attention";
+  const byFamily = {
+    attention: { icon: "radar", class: "major" },
+    commercial: { icon: "diamond", class: "major" },
+    talent: { icon: "spark", class: "major" },
+    festival: { icon: "spark", class: "festival" },
+    awards: { icon: "star", class: "awards" },
+    release: { icon: "frame", class: "under" },
+  };
+  const style = byFamily[family] || { icon: item.tile.public_badge?.icon || "diamond", class: item.tile.public_badge?.class || "major" };
+  return { label, ...style };
 }
 
 function contextualLabels(item) {
@@ -483,6 +615,9 @@ function wireContent(root) {
       openDetail(findItem(button.dataset.signal));
     });
   });
+  root.querySelectorAll("[data-methodology-open]").forEach((button) => {
+    button.addEventListener("click", openMethodology);
+  });
 }
 
 function allItems() {
@@ -565,6 +700,7 @@ function showPreview(element) {
 
 async function openDetail(item) {
   if (!item) return;
+  persistReturnContext();
   scrim.classList.remove("hidden");
   modal.classList.remove("hidden");
   modal.innerHTML = `
@@ -598,13 +734,16 @@ async function openDetail(item) {
         ${modalRatingsSnapshot(profile)}
         ${modalOscarSnapshot(profile, detail)}
         ${modalBoxOfficeSnapshot(profile)}
+        ${modalWatchProviderSnapshot(profile)}
         ${modalMediaSnapshot(profile, timeline)}
         <p class="modal-outlook">${escapeHtml(modalSynopsis(profile, detail))}</p>
-        ${detail.profile_url ? `<a class="chip" href="${escapeHtml(detail.profile_url)}">Open Film Intelligence</a>` : ""}
+        ${detail.profile_url ? `<a class="chip" href="${escapeHtml(filmProfileUrl(detail.profile_url))}" data-film-profile-link>Open Film Intelligence</a>` : ""}
       </div>
     </div>
   `;
   document.getElementById("closeModal").addEventListener("click", closeModal);
+  modal.querySelectorAll("[data-film-profile-link]").forEach((link) => link.addEventListener("click", persistReturnContext));
+  modal.querySelectorAll("[data-methodology-open]").forEach((button) => button.addEventListener("click", openMethodology));
   track("film_detail_opened", { tmdb_id: item.tile.tmdb_id, title });
 }
 
@@ -630,14 +769,22 @@ async function loadModalTimeline(item) {
 
 function modalRatingsSnapshot(profile) {
   const ratings = profile?.ratings || profile?.performance?.ratings || {};
+  const tmdb = ratings.tmdb || {};
+  const legacyPills = [
+    ratings.imdb ? ratingPill("IMDb", ratings.imdb) : "",
+    ratings.letterboxd ? ratingPill("Letterboxd", ratings.letterboxd) : "",
+    ratings.rotten_tomatoes_tomatometer || ratings.rotten_tomatoes || ratings.rottenTomatoes
+      ? ratingPill("Rotten Tomatoes Tomatometer", ratings.rotten_tomatoes_tomatometer || ratings.rotten_tomatoes || ratings.rottenTomatoes)
+      : "",
+    ratings.metacritic ? ratingPill("Metacritic", ratings.metacritic) : "",
+  ].join("");
   return `
     <div class="modal-snapshot">
-      <strong>Ratings</strong>
+      <strong>TMDb Data</strong>
       <div class="ratings-snapshot">
-        ${ratingPill("IMDb", ratings.imdb)}
-        ${ratingPill("Letterboxd", ratings.letterboxd)}
-        ${ratingPill("Rotten Tomatoes Tomatometer", ratings.rotten_tomatoes_tomatometer || ratings.rotten_tomatoes || ratings.rottenTomatoes)}
-        ${ratingPill("Metacritic", ratings.metacritic)}
+        ${ratingPill("TMDb rating", tmdb)}
+        ${ratingPill("TMDb popularity", profile?.performance?.tmdb_popularity || tmdb.popularity)}
+        ${legacyPills}
       </div>
     </div>
   `;
@@ -646,6 +793,21 @@ function modalRatingsSnapshot(profile) {
 function modalOscarSnapshot(profile, detail) {
   const awards = profile?.awards || {};
   const probabilities = realOscarProbabilities(awards.probabilities || {});
+  const intelligence = profile?.intelligence || detail?.intelligence || {};
+  const score = profile?.screening_room_score || profile?.signals?.screening_room_score || detail?.screening_room_score || {};
+  const numericScore = Number(score.score);
+  if (Number.isFinite(numericScore) || intelligence.summary) {
+    return `
+      <div class="modal-snapshot">
+        <div class="score-panel-title">
+          <strong>Screening Room Score</strong>
+          <button class="methodology-link" type="button" data-methodology-open aria-haspopup="dialog">How this score works</button>
+        </div>
+        ${Number.isFinite(numericScore) ? `<p>${Math.round(numericScore)} · ${escapeHtml(intelligence.confidence || score.confidence || "Unavailable")} confidence</p>` : ""}
+        <span>${escapeHtml(intelligence.summary || score.explanation || "No current explanation available.")}</span>
+      </div>
+    `;
+  }
   const categories = awards.predicted_categories || detail.awards_path || [];
   if (!Object.keys(probabilities).length) {
     return `
@@ -670,11 +832,33 @@ function modalOscarSnapshot(profile, detail) {
 function modalBoxOfficeSnapshot(profile) {
   const boxOffice = profile?.performance?.box_office || profile?.box_office || {};
   const commercial = profile?.commercial || {};
+  const budget = formatMoney(boxOffice.budget);
+  const revenue = formatMoney(boxOffice.revenue);
+  if (budget || revenue) {
+    return `
+      <div class="modal-snapshot">
+        <strong>TMDb Box Office</strong>
+        ${budget ? `<p>Budget · ${escapeHtml(budget)}</p>` : ""}
+        ${revenue ? `<p>Revenue · ${escapeHtml(revenue)}</p>` : ""}
+      </div>
+    `;
+  }
   return `
     <div class="modal-snapshot">
       <strong>Box Office</strong>
       <p>${escapeHtml(formatMoney(boxOffice.domestic_gross || boxOffice.domestic) || prereleaseBoxOfficeState(profile))}</p>
       <span>${escapeHtml(boxOffice.status || commercial.release_strategy || "Commercial data unavailable")}</span>
+    </div>
+  `;
+}
+
+function modalWatchProviderSnapshot(profile) {
+  const rows = watchProviderRows(profile?.performance?.watch_providers || {});
+  if (!rows.length) return "";
+  return `
+    <div class="modal-snapshot">
+      <strong>TMDb Watch Options</strong>
+      ${rows.map((row) => `<p>${escapeHtml(row.label)} · ${escapeHtml(row.value)}</p>`).join("")}
     </div>
   `;
 }
@@ -737,12 +921,21 @@ function typeKey(type) {
 }
 
 function latestTrailer(profile, timeline) {
+  const canonical = profile?.media?.canonical_trailer;
+  if (canonical?.url && isValidUrl(canonical.url)) {
+    return {
+      title: canonical.title || "Official Trailer",
+      url: canonical.url,
+    };
+  }
   const events = timeline?.events || profile?.timeline?.events || [];
   const event = events.find((item) => String(item.event_type || "").toLowerCase().includes("trailer"));
   if (!event && !hasTrailerEvidence(profile)) return null;
+  const url = event?.metadata?.url || event?.metadata?.trailer_url || profile?.media?.latest_trailer_url || "";
+  if (url && !isValidUrl(url)) return null;
   return {
     title: event?.title || "Official Trailer",
-    url: event?.metadata?.url || event?.metadata?.trailer_url || profile?.media?.latest_trailer_url || "",
+    url,
   };
 }
 
@@ -755,6 +948,13 @@ function hasTrailerEvidence(profile) {
 
 function formatRating(label, value) {
   if (value === undefined || value === null || value === "") return "N/A";
+  if (label === "TMDb rating" && typeof value === "object") {
+    const average = Number(value.vote_average);
+    const count = Number(value.vote_count);
+    if (!Number.isFinite(average) || average <= 0 || !Number.isFinite(count) || count <= 0) return "Not yet rated";
+    return `${average.toFixed(average % 1 ? 1 : 0)}/10 (${count.toLocaleString()} votes)`;
+  }
+  if (label === "TMDb popularity") return formatPopularity(value);
   if (typeof value === "string") return value;
   const numeric = Number(value);
   if (!Number.isFinite(numeric)) return "N/A";
@@ -763,6 +963,40 @@ function formatRating(label, value) {
   if (label === "Rotten Tomatoes Tomatometer") return numeric <= 1 ? `${Math.round(numeric * 100)}%` : `${Math.round(numeric)}%`;
   if (label === "Metacritic") return `${Math.round(numeric)}`;
   return String(numeric);
+}
+
+function formatPopularity(value) {
+  const source = typeof value === "object" && value !== null ? value.value : value;
+  const numeric = Number(source);
+  if (!Number.isFinite(numeric) || numeric <= 0) return "Unavailable";
+  return numeric.toLocaleString(undefined, { maximumFractionDigits: 1 });
+}
+
+function watchProviderRows(providers) {
+  return [
+    { key: "flatrate", label: "Streaming" },
+    { key: "rent", label: "Rent" },
+    { key: "buy", label: "Buy" },
+    { key: "ads", label: "With ads" },
+    { key: "free", label: "Free" },
+  ].map((group) => ({
+    label: group.label,
+    value: providerNames(providers[group.key]),
+  })).filter((row) => row.value);
+}
+
+function providerNames(items) {
+  if (!Array.isArray(items)) return "";
+  return items.map((item) => item?.provider_name).filter(Boolean).join(", ");
+}
+
+function isValidUrl(value) {
+  try {
+    const parsed = new URL(value);
+    return parsed.protocol === "http:" || parsed.protocol === "https:";
+  } catch {
+    return false;
+  }
 }
 
 function formatMoney(value) {
@@ -791,6 +1025,7 @@ function closeModal() {
 function openAbout() {
   scrim.classList.remove("hidden");
   aboutPanel.classList.remove("hidden");
+  aboutPanel.setAttribute("aria-label", "About The Screening Room");
   aboutPanel.innerHTML = `
     <button class="chip close" type="button" id="closeAbout">Close</button>
     <p class="eyebrow">About</p>
@@ -809,15 +1044,50 @@ function closeAbout() {
   aboutPanel?.classList.add("hidden");
 }
 
+function openMethodology() {
+  scrim.classList.remove("hidden");
+  aboutPanel.classList.remove("hidden");
+  aboutPanel.setAttribute("aria-label", "How the Screening Room Score works");
+  aboutPanel.innerHTML = methodologyDialogHtml("How the Screening Room Score works");
+  document.getElementById("closeMethodology").addEventListener("click", closeMethodology);
+  document.getElementById("closeMethodology").focus();
+  track("methodology_opened", { surface: state.route });
+}
+
+function closeMethodology() {
+  aboutPanel?.classList.add("hidden");
+}
+
+function methodologyDialogHtml(title) {
+  return `
+    <button class="chip close" type="button" id="closeMethodology">Close</button>
+    <p class="eyebrow">Methodology</p>
+    <h2>${escapeHtml(title)}</h2>
+    <div class="methodology-copy">
+      <p>The Screening Room Score is a film-intelligence signal score. It combines available audience momentum, TMDb audience rating data, campaign activity, watch availability, festival and awards context, and talent-profile signals.</p>
+      <p>The current configured range is ${escapeHtml(SCREENING_ROOM_SCORE_METHODOLOGY.range)}. Higher scores mean more supported signals are present or stronger; lower scores usually mean fewer public, audience, campaign, availability, festival, awards, or talent signals are available yet.</p>
+      <ul>
+        ${SCREENING_ROOM_SCORE_METHODOLOGY.families.map(([label, detail]) => `<li><strong>${escapeHtml(label)}:</strong> ${escapeHtml(detail)}.</li>`).join("")}
+      </ul>
+      <p>The score is not a critic grade, box-office result, Oscar prediction, or guarantee of quality. It does not use Rotten Tomatoes, Metacritic, Letterboxd, IMDb, box office, news, or social/search data unless those sources are explicitly added to the scoring rules later.</p>
+      <p>Upcoming films often have fewer audience, critic, commercial, and availability signals. Missing signals do not subtract points; they simply do not contribute until real data exists.</p>
+      <p>Confidence describes the current explanation evidence, not a separate prediction model. It rises when the explanation has stronger fresh drivers and more available-source support, and falls when usable signals are stale or absent.</p>
+      <p>Scores can change as TMDb data, trailers, availability, festival context, awards context, or talent-profile signals refresh.</p>
+    </div>
+  `;
+}
+
 function setRoute(route, options = {}) {
+  if (route === "discover" && !state.view) state.view = "all";
   state.route = route;
   document.body.dataset.route = route;
   document.querySelectorAll("[data-route]").forEach((button) => {
     const routeMatches = button.dataset.route === route;
-    const viewMatches = button.dataset.navView
-      ? button.dataset.navView === state.view
-      : !button.dataset.navView && !(route === "discover" && ["festivals", "awards"].includes(state.view));
+    const navView = button.dataset.navView || "";
+    const viewMatches = route === "discover" ? navView === state.view : !navView;
     button.classList.toggle("active", routeMatches && viewMatches);
+    if (routeMatches && viewMatches) button.setAttribute("aria-current", "page");
+    else button.removeAttribute("aria-current");
   });
   home.classList.toggle("hidden", route !== "home");
   discover.classList.toggle("hidden", route !== "discover");
@@ -829,27 +1099,26 @@ function setRoute(route, options = {}) {
     setHomeSeo();
     renderHome();
   } else {
-    setDiscoverSeo();
+    setDiscoverSeo(currentNavItem());
     renderDiscover();
   }
+  restoreReturnStateIfRequested();
 }
 
 function routeFromLocation() {
-  if (window.location.hash === "#festival-radar") {
-    state.view = "festivals";
-    return "discover";
-  }
-  if (window.location.hash === "#awards-intelligence") {
-    state.view = "awards";
-    return "discover";
-  }
-  return window.location.hash === "#discover" ? "discover" : "home";
+  const target = Object.values(SCREENING_ROOM_NAV).find((item) => item.hash === window.location.hash);
+  if (!target) return "home";
+  if (target.view) state.view = target.view;
+  return target.route;
 }
 
 function discoverHashForView() {
-  if (state.view === "festivals") return "#festival-radar";
-  if (state.view === "awards") return "#awards-intelligence";
-  return "#discover";
+  return currentNavItem().hash || "#discover";
+}
+
+function currentNavItem() {
+  if (state.route === "home") return SCREENING_ROOM_NAV.home;
+  return Object.values(SCREENING_ROOM_NAV).find((item) => item.view === state.view) || SCREENING_ROOM_NAV.discover;
 }
 
 function setHomeSeo() {
@@ -861,13 +1130,63 @@ function setHomeSeo() {
   });
 }
 
-function setDiscoverSeo() {
+function setDiscoverSeo(item = SCREENING_ROOM_NAV.discover) {
   if (!window.AwardsSeo) return;
   AwardsSeo.setMetadata({
-    title: "The Screening Room - Discover",
+    title: `The Screening Room - ${item.label}`,
     description: "Browse films by editorial category, release timing, awards path, and studio signal.",
-    url: `${window.location.href.split("#")[0]}#discover`,
+    url: `${window.location.href.split("#")[0]}${item.hash || "#discover"}`,
   });
+}
+
+function persistReturnContext() {
+  const item = currentNavItem();
+  const context = {
+    key: item.key,
+    label: item.label,
+    route: item.route,
+    view: state.view,
+    hash: item.hash,
+    url: `./discovery.html${item.hash || ""}`,
+    timing: state.timing,
+    query: state.query,
+    visible: state.visible,
+    scrollY: Math.max(0, Math.round(window.scrollY || 0)),
+    savedAt: new Date().toISOString(),
+  };
+  try {
+    sessionStorage.setItem(DISCOVERY_STATE_KEY, JSON.stringify(context));
+  } catch {
+    // Session storage is a convenience for state restoration; navigation remains valid without it.
+  }
+  return context;
+}
+
+function filmProfileUrl(profileUrl) {
+  const context = persistReturnContext();
+  const url = new URL(profileUrl, window.location.href);
+  url.searchParams.set("from", context.key);
+  return `${url.pathname.split("/").pop()}${url.search}${url.hash}`;
+}
+
+function restoreReturnStateIfRequested() {
+  const shouldRestore = new URLSearchParams(window.location.search).get("sr_restore") === "1";
+  if (!shouldRestore) return;
+  try {
+    const context = JSON.parse(sessionStorage.getItem(DISCOVERY_STATE_KEY) || "{}");
+    if (!context || context.hash !== window.location.hash) return;
+    state.timing = context.timing || "";
+    state.query = context.query || "";
+    state.visible = Math.max(30, Number(context.visible) || 30);
+    const input = document.getElementById("globalSearch");
+    if (input) input.value = state.query;
+    if (state.route === "discover") renderDiscover();
+    window.requestAnimationFrame(() => window.scrollTo(0, Math.max(0, Number(context.scrollY) || 0)));
+    const clean = `${window.location.pathname}${window.location.hash}`;
+    history.replaceState({ route: state.route, restored: true }, "", clean);
+  } catch {
+    // Invalid saved context should not block route rendering.
+  }
 }
 
 function emptyState(title, detail) {

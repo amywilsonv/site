@@ -55,7 +55,7 @@
         "status": "verified"
       },
       {
-        "evidence": "63",
+        "evidence": "65",
         "source": "tmdb_vote_count",
         "status": "verified"
       }
@@ -63,7 +63,7 @@
     "homepage_spotlight_override": null,
     "homepage_spotlight_score": 83.4,
     "industry_interest": "Moderate",
-    "last_updated": "20260729T153535Z",
+    "last_updated": "20260729T224348Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
@@ -208,7 +208,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-07-29T15:35:15Z",
+    "generated_at": "2026-07-29T22:43:28Z",
     "headline": "Elize: Shadows of a Woman: release approaching",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -233,8 +233,8 @@
         "tmdb_release_date_us_primary": "2026-07-22",
         "tmdb_release_date_us_theatrical": "",
         "tmdb_release_status": "Released",
-        "tmdb_vote_average": 6.913,
-        "tmdb_vote_count": 63,
+        "tmdb_vote_average": 7.0,
+        "tmdb_vote_count": 65,
         "tmdb_watch_provider_count_us": 2,
         "trailer_available": true,
         "trailer_count": 1,
@@ -244,14 +244,14 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity is 73.1275. US release is 2 days away on 2026-07-22. A canonical TMDb trailer URL is available.",
+    "summary": "TMDb popularity rose from 66.9419 to 73.1275. US release is 2 days away on 2026-07-22.",
     "supporting_drivers": [
       {
-        "confidence_weight": 0.65,
-        "driver_type": "popularity_observed",
-        "evidence": "TMDb popularity is 73.1275.",
-        "label": "Popularity signal available",
-        "retrieved_at": "2026-07-29T15:35:15Z",
+        "confidence_weight": 0.9,
+        "driver_type": "popularity_increasing",
+        "evidence": "TMDb popularity rose from 66.9419 to 73.1275.",
+        "label": "Popularity increasing",
+        "retrieved_at": "2026-07-29T22:43:28Z",
         "source_metric": "tmdb_popularity",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -261,28 +261,81 @@
         "driver_type": "release_approaching",
         "evidence": "US release is 2 days away on 2026-07-22.",
         "label": "Release approaching",
-        "retrieved_at": "2026-07-29T15:35:15Z",
+        "retrieved_at": "2026-07-29T22:43:28Z",
         "source_metric": "tmdb_release_date_us_primary",
-        "source_provider": "tmdb",
-        "source_status": "available"
-      },
-      {
-        "confidence_weight": 0.85,
-        "driver_type": "trailer_available",
-        "evidence": "A canonical TMDb trailer URL is available.",
-        "label": "Trailer available",
-        "retrieved_at": "2026-07-29T15:35:15Z",
-        "source_metric": "tmdb_canonical_trailer_url",
         "source_provider": "tmdb",
         "source_status": "available"
       }
     ]
   },
+  "media": {
+    "canonical_trailer": {
+      "retrieved_at": "2026-07-29",
+      "site": "YouTube",
+      "source": "TMDb",
+      "source_url": "https://www.themoviedb.org/movie/1487861/videos",
+      "title": "Official Trailer [Subtitled]",
+      "type": "Trailer",
+      "url": "https://www.youtube.com/watch?v=KiKnd3cusPo"
+    },
+    "latest_trailer_url": "https://www.youtube.com/watch?v=KiKnd3cusPo"
+  },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260729T153535Z",
+    "generated_at": "20260729T224348Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
+  },
+  "performance": {
+    "box_office": {},
+    "ratings": {
+      "tmdb": {
+        "popularity": 73.1275,
+        "retrieved_at": "2026-07-29",
+        "source": "TMDb",
+        "source_url": "https://www.themoviedb.org/movie/1487861",
+        "status": "rated",
+        "vote_average": 7.0,
+        "vote_count": 65
+      }
+    },
+    "tmdb_popularity": {
+      "retrieved_at": "2026-07-29",
+      "source": "TMDb",
+      "source_url": "https://www.themoviedb.org/movie/1487861",
+      "value": 73.1275
+    },
+    "watch_providers": {
+      "country": "US",
+      "flatrate": [
+        {
+          "display_priority": 1,
+          "logo_url": "https://image.tmdb.org/t/p/original/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+          "provider_id": 8,
+          "provider_name": "Netflix"
+        },
+        {
+          "display_priority": 154,
+          "logo_url": "https://image.tmdb.org/t/p/original/dpR8r13zWDeUR0QkzWidrdMxa56.jpg",
+          "provider_id": 1796,
+          "provider_name": "Netflix Standard with Ads"
+        }
+      ],
+      "retrieved_at": "2026-07-29",
+      "source": "TMDb",
+      "source_url": "https://www.themoviedb.org/movie/1487861-elize-sombras-de-uma-mulher/watch?locale=US"
+    }
+  },
+  "ratings": {
+    "tmdb": {
+      "popularity": 73.1275,
+      "retrieved_at": "2026-07-29",
+      "source": "TMDb",
+      "source_url": "https://www.themoviedb.org/movie/1487861",
+      "status": "rated",
+      "vote_average": 7.0,
+      "vote_count": 65
+    }
   },
   "related": {
     "related_films": [
@@ -397,17 +450,72 @@
       }
     ]
   },
+  "screening_room_score": {
+    "families": {
+      "audience_momentum": 1.883,
+      "audience_quality": 6.65,
+      "availability": 3.967,
+      "campaign_activity": 1.35,
+      "talent_profile": 3.325
+    },
+    "generated_at": "2026-07-29T22:43:28Z",
+    "schema_version": "phase3_screening_room_score_v1",
+    "score": 17.175,
+    "source": "derived_screening_room_score",
+    "top_drivers": [
+      {
+        "confidence": 0.95,
+        "contribution": 6.65,
+        "metric_name": "tmdb_vote_average",
+        "provider": "tmdb",
+        "score_family": "audience_quality",
+        "value": 7.0
+      },
+      {
+        "confidence": 0.85,
+        "contribution": 2.267,
+        "metric_name": "streaming_flatrate_provider_count_us",
+        "provider": "streaming_availability",
+        "score_family": "availability",
+        "value": 2
+      },
+      {
+        "confidence": 0.55,
+        "contribution": 2.2,
+        "metric_name": "legacy_dashboard_principal_cast_count",
+        "provider": "legacy_dashboard_talent_history_adapter",
+        "score_family": "talent_profile",
+        "value": 8
+      },
+      {
+        "confidence": 0.85,
+        "contribution": 1.7,
+        "metric_name": "streaming_provider_count_us",
+        "provider": "streaming_availability",
+        "score_family": "availability",
+        "value": 2
+      },
+      {
+        "confidence": 0.95,
+        "contribution": 1.389,
+        "metric_name": "tmdb_popularity",
+        "provider": "tmdb",
+        "score_family": "audience_momentum",
+        "value": 73.1275
+      }
+    ]
+  },
   "signals": {
     "cultural_significance": 50.5,
     "external_intelligence": {
       "confidence": "High",
       "headline": "Elize: Shadows of a Woman: release approaching",
-      "summary": "TMDb popularity is 73.1275. US release is 2 days away on 2026-07-22. A canonical TMDb trailer URL is available."
+      "summary": "TMDb popularity rose from 66.9419 to 73.1275. US release is 2 days away on 2026-07-22."
     },
-    "last_updated": "2026-07-29T15:35:35Z",
+    "last_updated": "2026-07-29T22:43:48Z",
     "latest_event": {
       "confidence": "Inferred",
-      "event_id": "1487861-3c340f3ce999",
+      "event_id": "1487861-1046f445ccc5",
       "event_type": "Distributor Change",
       "film_id": "1487861",
       "importance": "Medium",
@@ -416,7 +524,7 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Netflix.",
-      "timestamp": "2026-07-29T15:35:35Z",
+      "timestamp": "2026-07-29T22:43:48Z",
       "title": "Distributor set: Netflix"
     },
     "latest_intelligence": "As of 2026-07-18, this is a Netflix release dated 2026-07-22 with general awards monitoring relevance; current awards profile is Developing and data status is developing.",
@@ -426,7 +534,7 @@
     "recent_activity": [
       {
         "confidence": "Inferred",
-        "event_id": "1487861-3c340f3ce999",
+        "event_id": "1487861-1046f445ccc5",
         "event_type": "Distributor Change",
         "film_id": "1487861",
         "importance": "Medium",
@@ -435,12 +543,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-07-29T15:35:35Z",
+        "timestamp": "2026-07-29T22:43:48Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1487861-33a4e78edfc4",
+        "event_id": "1487861-9f939e6c9314",
         "event_type": "Awards Tier Changed",
         "film_id": "1487861",
         "importance": "Medium",
@@ -450,12 +558,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-29T15:35:35Z",
+        "timestamp": "2026-07-29T22:43:48Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1487861-cb5699633c59",
+        "event_id": "1487861-e8ab5c6586b7",
         "event_type": "Added To Database",
         "film_id": "1487861",
         "importance": "Low",
@@ -464,11 +572,16 @@
         },
         "source_type": "system",
         "summary": "Elize: Shadows of a Woman is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-29T15:35:35Z",
+        "timestamp": "2026-07-29T22:43:48Z",
         "title": "Added to Awards Intelligence"
       }
     ],
     "release_relevance": 52.8,
+    "screening_room_score": {
+      "confidence": "High",
+      "explanation": "TMDb popularity rose from 66.9419 to 73.1275. US release is 2 days away on 2026-07-22.",
+      "score": 17.175
+    },
     "watch_triggers": [
       "Prestige Distributor",
       "Major Studio/Streamer",
@@ -495,7 +608,7 @@
     "events": [
       {
         "confidence": "Inferred",
-        "event_id": "1487861-3c340f3ce999",
+        "event_id": "1487861-1046f445ccc5",
         "event_type": "Distributor Change",
         "film_id": "1487861",
         "importance": "Medium",
@@ -504,12 +617,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-07-29T15:35:35Z",
+        "timestamp": "2026-07-29T22:43:48Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1487861-33a4e78edfc4",
+        "event_id": "1487861-9f939e6c9314",
         "event_type": "Awards Tier Changed",
         "film_id": "1487861",
         "importance": "Medium",
@@ -519,12 +632,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-29T15:35:35Z",
+        "timestamp": "2026-07-29T22:43:48Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1487861-cb5699633c59",
+        "event_id": "1487861-e8ab5c6586b7",
         "event_type": "Added To Database",
         "film_id": "1487861",
         "importance": "Low",
@@ -533,7 +646,7 @@
         },
         "source_type": "system",
         "summary": "Elize: Shadows of a Woman is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-29T15:35:35Z",
+        "timestamp": "2026-07-29T22:43:48Z",
         "title": "Added to Awards Intelligence"
       },
       {
@@ -553,7 +666,7 @@
     ],
     "latest_event": {
       "confidence": "Inferred",
-      "event_id": "1487861-3c340f3ce999",
+      "event_id": "1487861-1046f445ccc5",
       "event_type": "Distributor Change",
       "film_id": "1487861",
       "importance": "Medium",
@@ -562,13 +675,13 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Netflix.",
-      "timestamp": "2026-07-29T15:35:35Z",
+      "timestamp": "2026-07-29T22:43:48Z",
       "title": "Distributor set: Netflix"
     },
     "recent_activity": [
       {
         "confidence": "Inferred",
-        "event_id": "1487861-3c340f3ce999",
+        "event_id": "1487861-1046f445ccc5",
         "event_type": "Distributor Change",
         "film_id": "1487861",
         "importance": "Medium",
@@ -577,12 +690,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-07-29T15:35:35Z",
+        "timestamp": "2026-07-29T22:43:48Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1487861-33a4e78edfc4",
+        "event_id": "1487861-9f939e6c9314",
         "event_type": "Awards Tier Changed",
         "film_id": "1487861",
         "importance": "Medium",
@@ -592,12 +705,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-29T15:35:35Z",
+        "timestamp": "2026-07-29T22:43:48Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1487861-cb5699633c59",
+        "event_id": "1487861-e8ab5c6586b7",
         "event_type": "Added To Database",
         "film_id": "1487861",
         "importance": "Low",
@@ -606,7 +719,7 @@
         },
         "source_type": "system",
         "summary": "Elize: Shadows of a Woman is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-29T15:35:35Z",
+        "timestamp": "2026-07-29T22:43:48Z",
         "title": "Added to Awards Intelligence"
       }
     ],

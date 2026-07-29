@@ -16,7 +16,7 @@
     },
     {
       "confidence": "Inferred",
-      "event_id": "1260649-a6f2f8cdacb8",
+      "event_id": "1260649-1550334c7419",
       "event_type": "Distributor Change",
       "film_id": "1260649",
       "importance": "Medium",
@@ -25,12 +25,12 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Columbia Pictures.",
-      "timestamp": "2026-07-29T15:35:35Z",
+      "timestamp": "2026-07-29T22:43:48Z",
       "title": "Distributor set: Columbia Pictures"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1260649-0e28ebefbb1b",
+      "event_id": "1260649-a75b4fed0f35",
       "event_type": "Awards Tier Changed",
       "film_id": "1260649",
       "importance": "Medium",
@@ -42,12 +42,12 @@
       },
       "source_type": "editorial_model",
       "summary": "plausible but incomplete awards evidence",
-      "timestamp": "2026-07-29T15:35:35Z",
+      "timestamp": "2026-07-29T22:43:48Z",
       "title": "Awards tier assigned: Emerging"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1260649-6cd7d8269a01",
+      "event_id": "1260649-c37ac76ed998",
       "event_type": "Added To Database",
       "film_id": "1260649",
       "importance": "Low",
@@ -56,7 +56,7 @@
       },
       "source_type": "system",
       "summary": "Jumanji: Open World is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-07-29T15:35:35Z",
+      "timestamp": "2026-07-29T22:43:48Z",
       "title": "Added to Awards Intelligence"
     }
   ],
@@ -77,7 +77,7 @@
   "metadata": {
     "event_count": 4,
     "film_id": "1260649",
-    "generated_at": "20260729T153535Z",
+    "generated_at": "20260729T224348Z",
     "timeline_version": "phase6b",
     "title": "Jumanji: Open World",
     "tmdb_id": "1260649"

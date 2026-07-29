@@ -53,7 +53,7 @@
     "homepage_spotlight_override": null,
     "homepage_spotlight_score": 45.6,
     "industry_interest": null,
-    "last_updated": "20260729T153535Z",
+    "last_updated": "20260729T224348Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
@@ -204,9 +204,9 @@
   },
   "intelligence": {
     "confidence": "High",
-    "confidence_score": 0.85,
-    "generated_at": "2026-07-29T15:35:15Z",
-    "headline": "Vibe: popularity signal available",
+    "confidence_score": 0.99,
+    "generated_at": "2026-07-29T22:43:28Z",
+    "headline": "Vibe: popularity increasing",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
       "signal_values": {
@@ -239,25 +239,54 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity is 1.0179.",
+    "summary": "TMDb popularity rose from 0.9721 to 1.0179.",
     "supporting_drivers": [
       {
-        "confidence_weight": 0.65,
-        "driver_type": "popularity_observed",
-        "evidence": "TMDb popularity is 1.0179.",
-        "label": "Popularity signal available",
-        "retrieved_at": "2026-07-29T15:35:15Z",
+        "confidence_weight": 0.9,
+        "driver_type": "popularity_increasing",
+        "evidence": "TMDb popularity rose from 0.9721 to 1.0179.",
+        "label": "Popularity increasing",
+        "retrieved_at": "2026-07-29T22:43:28Z",
         "source_metric": "tmdb_popularity",
         "source_provider": "tmdb",
         "source_status": "available"
       }
     ]
   },
+  "media": {},
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260729T153535Z",
+    "generated_at": "20260729T224348Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
+  },
+  "performance": {
+    "box_office": {},
+    "ratings": {
+      "tmdb": {
+        "popularity": 1.0179,
+        "retrieved_at": "2026-07-29",
+        "source": "TMDb",
+        "source_url": "https://www.themoviedb.org/movie/1654566",
+        "status": "not_yet_rated"
+      }
+    },
+    "tmdb_popularity": {
+      "retrieved_at": "2026-07-29",
+      "source": "TMDb",
+      "source_url": "https://www.themoviedb.org/movie/1654566",
+      "value": 1.0179
+    },
+    "watch_providers": {}
+  },
+  "ratings": {
+    "tmdb": {
+      "popularity": 1.0179,
+      "retrieved_at": "2026-07-29",
+      "source": "TMDb",
+      "source_url": "https://www.themoviedb.org/movie/1654566",
+      "status": "not_yet_rated"
+    }
   },
   "related": {
     "related_films": [
@@ -375,12 +404,57 @@
       }
     ]
   },
+  "screening_room_score": {
+    "families": {
+      "audience_momentum": 0.019,
+      "awards_relevance": 2.4,
+      "talent_profile": 2.525
+    },
+    "generated_at": "2026-07-29T22:43:28Z",
+    "schema_version": "phase3_screening_room_score_v1",
+    "score": 4.944,
+    "source": "derived_screening_room_score",
+    "top_drivers": [
+      {
+        "confidence": 0.5,
+        "contribution": 2.4,
+        "metric_name": "legacy_dashboard_awards_category_count",
+        "provider": "legacy_dashboard_awards_precursors_adapter",
+        "score_family": "awards_relevance",
+        "value": 3
+      },
+      {
+        "confidence": 0.55,
+        "contribution": 1.65,
+        "metric_name": "legacy_dashboard_principal_cast_count",
+        "provider": "legacy_dashboard_talent_history_adapter",
+        "score_family": "talent_profile",
+        "value": 6
+      },
+      {
+        "confidence": 0.5,
+        "contribution": 0.875,
+        "metric_name": "legacy_dashboard_credited_talent_count",
+        "provider": "legacy_dashboard_talent_history_adapter",
+        "score_family": "talent_profile",
+        "value": 7
+      },
+      {
+        "confidence": 0.95,
+        "contribution": 0.019,
+        "metric_name": "tmdb_popularity",
+        "provider": "tmdb",
+        "score_family": "audience_momentum",
+        "value": 1.0179
+      }
+    ]
+  },
   "signals": {
     "cultural_significance": 19.0,
     "external_intelligence": {
       "confidence": "High",
-      "headline": "Vibe: popularity signal available",
-      "summary": "TMDb popularity is 1.0179."
+      "headline": "Vibe: popularity increasing",
+      "summary": "TMDb popularity rose from 0.9721 to 1.0179."
     },
     "last_updated": "2026-09-18",
     "latest_event": {
@@ -418,7 +492,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1654566-be593f5d3a7e",
+        "event_id": "1654566-75ac5f8eab26",
         "event_type": "Distributor Change",
         "film_id": "1654566",
         "importance": "Medium",
@@ -427,12 +501,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Amazon MGM Studios.",
-        "timestamp": "2026-07-29T15:35:35Z",
+        "timestamp": "2026-07-29T22:43:48Z",
         "title": "Distributor set: Amazon MGM Studios"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1654566-2908f97bfad2",
+        "event_id": "1654566-5b16f9d5db64",
         "event_type": "Awards Tier Changed",
         "film_id": "1654566",
         "importance": "Medium",
@@ -446,11 +520,16 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-29T15:35:35Z",
+        "timestamp": "2026-07-29T22:43:48Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],
     "release_relevance": 28.0,
+    "screening_room_score": {
+      "confidence": "High",
+      "explanation": "TMDb popularity rose from 0.9721 to 1.0179.",
+      "score": 4.944
+    },
     "watch_triggers": [
       "Prestige Distributor",
       "Major Studio/Streamer",
@@ -490,7 +569,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1654566-be593f5d3a7e",
+        "event_id": "1654566-75ac5f8eab26",
         "event_type": "Distributor Change",
         "film_id": "1654566",
         "importance": "Medium",
@@ -499,12 +578,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Amazon MGM Studios.",
-        "timestamp": "2026-07-29T15:35:35Z",
+        "timestamp": "2026-07-29T22:43:48Z",
         "title": "Distributor set: Amazon MGM Studios"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1654566-2908f97bfad2",
+        "event_id": "1654566-5b16f9d5db64",
         "event_type": "Awards Tier Changed",
         "film_id": "1654566",
         "importance": "Medium",
@@ -518,12 +597,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-29T15:35:35Z",
+        "timestamp": "2026-07-29T22:43:48Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1654566-702bbf084528",
+        "event_id": "1654566-f71884f121b2",
         "event_type": "Added To Database",
         "film_id": "1654566",
         "importance": "Low",
@@ -532,7 +611,7 @@
         },
         "source_type": "system",
         "summary": "Vibe is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-29T15:35:35Z",
+        "timestamp": "2026-07-29T22:43:48Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -567,7 +646,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1654566-be593f5d3a7e",
+        "event_id": "1654566-75ac5f8eab26",
         "event_type": "Distributor Change",
         "film_id": "1654566",
         "importance": "Medium",
@@ -576,12 +655,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Amazon MGM Studios.",
-        "timestamp": "2026-07-29T15:35:35Z",
+        "timestamp": "2026-07-29T22:43:48Z",
         "title": "Distributor set: Amazon MGM Studios"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1654566-2908f97bfad2",
+        "event_id": "1654566-5b16f9d5db64",
         "event_type": "Awards Tier Changed",
         "film_id": "1654566",
         "importance": "Medium",
@@ -595,7 +674,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-29T15:35:35Z",
+        "timestamp": "2026-07-29T22:43:48Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],
