@@ -1,12 +1,12 @@
 {
   "attention_intelligence": {
-    "anticipation_level": null,
+    "anticipation_level": "Developing",
     "attention_confidence": "High",
     "attention_reasons": [
       "Most Anticipated",
       "Major Filmmaker"
     ],
-    "attention_score": 24.7,
+    "attention_score": 25.1,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -24,7 +24,7 @@
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 1.8107",
+        "evidence": "TMDb popularity 2.0327",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -40,14 +40,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 24.7,
+    "homepage_spotlight_score": 25.1,
     "industry_interest": null,
-    "last_updated": "20260729T224348Z",
+    "last_updated": "20260730T152942Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
         "evidence_count": 1,
-        "score": 5.3,
+        "score": 5.7,
         "statuses": [
           "verified"
         ]
@@ -185,7 +185,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-07-29T22:43:28Z",
+    "generated_at": "2026-07-30T15:29:19Z",
     "headline": "Living Book: popularity increasing",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -204,7 +204,7 @@
         "streaming_provider_count_us": 0,
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": false,
-        "tmdb_popularity": 1.8107,
+        "tmdb_popularity": 2.0327,
         "tmdb_poster_count": 0,
         "tmdb_release_date_us_primary": "",
         "tmdb_release_date_us_theatrical": "",
@@ -219,14 +219,14 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity rose from 1.5844 to 1.8107.",
+    "summary": "TMDb popularity rose from 1.5844 to 2.0327.",
     "supporting_drivers": [
       {
         "confidence_weight": 0.9,
         "driver_type": "popularity_increasing",
-        "evidence": "TMDb popularity rose from 1.5844 to 1.8107.",
+        "evidence": "TMDb popularity rose from 1.5844 to 2.0327.",
         "label": "Popularity increasing",
-        "retrieved_at": "2026-07-29T22:43:28Z",
+        "retrieved_at": "2026-07-30T15:29:19Z",
         "source_metric": "tmdb_popularity",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -236,7 +236,7 @@
   "media": {},
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260729T224348Z",
+    "generated_at": "20260730T152942Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -244,25 +244,25 @@
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 1.8107,
-        "retrieved_at": "2026-07-29",
+        "popularity": 2.0327,
+        "retrieved_at": "2026-07-30",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1668297",
         "status": "not_yet_rated"
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-07-29",
+      "retrieved_at": "2026-07-30",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1668297",
-      "value": 1.8107
+      "value": 2.0327
     },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 1.8107,
-      "retrieved_at": "2026-07-29",
+      "popularity": 2.0327,
+      "retrieved_at": "2026-07-30",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1668297",
       "status": "not_yet_rated"
@@ -389,12 +389,12 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.034,
+      "audience_momentum": 0.039,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-07-29T22:43:28Z",
+    "generated_at": "2026-07-30T15:29:19Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 3.359,
+    "score": 3.364,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -415,11 +415,11 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.034,
+        "contribution": 0.039,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 1.8107
+        "value": 2.0327
       }
     ]
   },
@@ -428,7 +428,7 @@
     "external_intelligence": {
       "confidence": "High",
       "headline": "Living Book: popularity increasing",
-      "summary": "TMDb popularity rose from 1.5844 to 1.8107."
+      "summary": "TMDb popularity rose from 1.5844 to 2.0327."
     },
     "last_updated": "2026-11-04",
     "latest_event": {
@@ -466,7 +466,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1668297-19b27270a226",
+        "event_id": "1668297-21b373c288f2",
         "event_type": "Awards Tier Changed",
         "film_id": "1668297",
         "importance": "Medium",
@@ -476,12 +476,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-29T22:43:48Z",
+        "timestamp": "2026-07-30T15:29:42Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1668297-e79597d892b2",
+        "event_id": "1668297-d68c8f3e9d48",
         "event_type": "Added To Database",
         "film_id": "1668297",
         "importance": "Low",
@@ -490,15 +490,15 @@
         },
         "source_type": "system",
         "summary": "Living Book is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-29T22:43:48Z",
+        "timestamp": "2026-07-30T15:29:42Z",
         "title": "Added to Awards Intelligence"
       }
     ],
     "release_relevance": 24.7,
     "screening_room_score": {
       "confidence": "High",
-      "explanation": "TMDb popularity rose from 1.5844 to 1.8107.",
-      "score": 3.359
+      "explanation": "TMDb popularity rose from 1.5844 to 2.0327.",
+      "score": 3.364
     },
     "watch_triggers": [
       "Awards-Season Release",
@@ -540,7 +540,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1668297-19b27270a226",
+        "event_id": "1668297-21b373c288f2",
         "event_type": "Awards Tier Changed",
         "film_id": "1668297",
         "importance": "Medium",
@@ -550,12 +550,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-29T22:43:48Z",
+        "timestamp": "2026-07-30T15:29:42Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1668297-e79597d892b2",
+        "event_id": "1668297-d68c8f3e9d48",
         "event_type": "Added To Database",
         "film_id": "1668297",
         "importance": "Low",
@@ -564,7 +564,7 @@
         },
         "source_type": "system",
         "summary": "Living Book is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-29T22:43:48Z",
+        "timestamp": "2026-07-30T15:29:42Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -599,7 +599,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1668297-19b27270a226",
+        "event_id": "1668297-21b373c288f2",
         "event_type": "Awards Tier Changed",
         "film_id": "1668297",
         "importance": "Medium",
@@ -609,12 +609,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-29T22:43:48Z",
+        "timestamp": "2026-07-30T15:29:42Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1668297-e79597d892b2",
+        "event_id": "1668297-d68c8f3e9d48",
         "event_type": "Added To Database",
         "film_id": "1668297",
         "importance": "Low",
@@ -623,7 +623,7 @@
         },
         "source_type": "system",
         "summary": "Living Book is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-29T22:43:48Z",
+        "timestamp": "2026-07-30T15:29:42Z",
         "title": "Added to Awards Intelligence"
       }
     ],

@@ -7,7 +7,7 @@
       "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 42.8,
+    "attention_score": 43.0,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -25,7 +25,7 @@
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 2.6285",
+        "evidence": "TMDb popularity 2.8309",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -46,14 +46,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 42.8,
+    "homepage_spotlight_score": 43.0,
     "industry_interest": null,
-    "last_updated": "20260729T224348Z",
+    "last_updated": "20260730T152942Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
         "evidence_count": 1,
-        "score": 6.7,
+        "score": 6.9,
         "statuses": [
           "verified"
         ]
@@ -197,7 +197,7 @@
   "intelligence": {
     "confidence": "Low",
     "confidence_score": 0.25,
-    "generated_at": "2026-07-29T22:43:28Z",
+    "generated_at": "2026-07-30T15:29:19Z",
     "headline": "Madden: no material change detected",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -216,7 +216,7 @@
         "streaming_provider_count_us": 0,
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": false,
-        "tmdb_popularity": 2.6285,
+        "tmdb_popularity": 2.8309,
         "tmdb_poster_count": 0,
         "tmdb_release_date_us_primary": "2026-11-26",
         "tmdb_release_date_us_theatrical": "",
@@ -237,7 +237,7 @@
   "media": {},
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260729T224348Z",
+    "generated_at": "20260730T152942Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -245,25 +245,25 @@
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 2.6285,
-        "retrieved_at": "2026-07-29",
+        "popularity": 2.8309,
+        "retrieved_at": "2026-07-30",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1131943",
         "status": "not_yet_rated"
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-07-29",
+      "retrieved_at": "2026-07-30",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1131943",
-      "value": 2.6285
+      "value": 2.8309
     },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 2.6285,
-      "retrieved_at": "2026-07-29",
+      "popularity": 2.8309,
+      "retrieved_at": "2026-07-30",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1131943",
       "status": "not_yet_rated"
@@ -389,13 +389,13 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.05,
+      "audience_momentum": 0.054,
       "campaign_activity": 1.35,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-07-29T22:43:28Z",
+    "generated_at": "2026-07-30T15:29:19Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 4.725,
+    "score": 4.729,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -424,11 +424,11 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.05,
+        "contribution": 0.054,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 2.6285
+        "value": 2.8309
       }
     ]
   },
@@ -475,7 +475,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1131943-cbc83dea53e5",
+        "event_id": "1131943-7b74eeab40c9",
         "event_type": "Distributor Change",
         "film_id": "1131943",
         "importance": "Medium",
@@ -484,12 +484,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Prime Video.",
-        "timestamp": "2026-07-29T22:43:48Z",
+        "timestamp": "2026-07-30T15:29:42Z",
         "title": "Distributor set: Prime Video"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1131943-828d5815562d",
+        "event_id": "1131943-ba95333fd3f2",
         "event_type": "Awards Tier Changed",
         "film_id": "1131943",
         "importance": "Medium",
@@ -499,7 +499,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-29T22:43:48Z",
+        "timestamp": "2026-07-30T15:29:42Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],
@@ -507,7 +507,7 @@
     "screening_room_score": {
       "confidence": "Low",
       "explanation": "Current provider signals do not show a supported material change.",
-      "score": 4.725
+      "score": 4.729
     },
     "watch_triggers": [
       "Major Studio/Streamer",
@@ -549,7 +549,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1131943-cbc83dea53e5",
+        "event_id": "1131943-7b74eeab40c9",
         "event_type": "Distributor Change",
         "film_id": "1131943",
         "importance": "Medium",
@@ -558,12 +558,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Prime Video.",
-        "timestamp": "2026-07-29T22:43:48Z",
+        "timestamp": "2026-07-30T15:29:42Z",
         "title": "Distributor set: Prime Video"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1131943-828d5815562d",
+        "event_id": "1131943-ba95333fd3f2",
         "event_type": "Awards Tier Changed",
         "film_id": "1131943",
         "importance": "Medium",
@@ -573,12 +573,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-29T22:43:48Z",
+        "timestamp": "2026-07-30T15:29:42Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1131943-e9b49cea3049",
+        "event_id": "1131943-8a4dc10b5669",
         "event_type": "Added To Database",
         "film_id": "1131943",
         "importance": "Low",
@@ -587,7 +587,7 @@
         },
         "source_type": "system",
         "summary": "Madden is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-29T22:43:48Z",
+        "timestamp": "2026-07-30T15:29:42Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -622,7 +622,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1131943-cbc83dea53e5",
+        "event_id": "1131943-7b74eeab40c9",
         "event_type": "Distributor Change",
         "film_id": "1131943",
         "importance": "Medium",
@@ -631,12 +631,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Prime Video.",
-        "timestamp": "2026-07-29T22:43:48Z",
+        "timestamp": "2026-07-30T15:29:42Z",
         "title": "Distributor set: Prime Video"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1131943-828d5815562d",
+        "event_id": "1131943-ba95333fd3f2",
         "event_type": "Awards Tier Changed",
         "film_id": "1131943",
         "importance": "Medium",
@@ -646,7 +646,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-29T22:43:48Z",
+        "timestamp": "2026-07-30T15:29:42Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],

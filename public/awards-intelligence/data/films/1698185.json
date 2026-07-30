@@ -6,7 +6,7 @@
       "Most Anticipated",
       "Major Filmmaker"
     ],
-    "attention_score": 21.9,
+    "attention_score": 21.6,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -34,20 +34,20 @@
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 0.4679",
+        "evidence": "TMDb popularity 0.3417",
         "source": "audience_popularity",
         "status": "verified"
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 21.9,
+    "homepage_spotlight_score": 21.6,
     "industry_interest": null,
-    "last_updated": "20260729T224348Z",
+    "last_updated": "20260730T152942Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
         "evidence_count": 2,
-        "score": 9.1,
+        "score": 8.8,
         "statuses": [
           "verified"
         ]
@@ -173,10 +173,10 @@
     "tmdb_id": "1698185"
   },
   "intelligence": {
-    "confidence": "High",
-    "confidence_score": 0.99,
-    "generated_at": "2026-07-29T22:43:28Z",
-    "headline": "I Wish This Was Real: popularity increasing",
+    "confidence": "Low",
+    "confidence_score": 0.25,
+    "generated_at": "2026-07-30T15:29:19Z",
+    "headline": "I Wish This Was Real: no material change detected",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
       "signal_values": {
@@ -195,7 +195,7 @@
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=90Lh9dTWURo",
-        "tmdb_popularity": 0.4679,
+        "tmdb_popularity": 0.3417,
         "tmdb_poster_count": 0,
         "tmdb_release_date_us_primary": "2026-12-12",
         "tmdb_release_date_us_theatrical": "",
@@ -211,23 +211,12 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity rose from 0.4039 to 0.4679.",
-    "supporting_drivers": [
-      {
-        "confidence_weight": 0.9,
-        "driver_type": "popularity_increasing",
-        "evidence": "TMDb popularity rose from 0.4039 to 0.4679.",
-        "label": "Popularity increasing",
-        "retrieved_at": "2026-07-29T22:43:28Z",
-        "source_metric": "tmdb_popularity",
-        "source_provider": "tmdb",
-        "source_status": "available"
-      }
-    ]
+    "summary": "Current provider signals do not show a supported material change.",
+    "supporting_drivers": []
   },
   "media": {
     "canonical_trailer": {
-      "retrieved_at": "2026-07-29",
+      "retrieved_at": "2026-07-30",
       "site": "YouTube",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1698185/videos",
@@ -239,7 +228,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260729T224348Z",
+    "generated_at": "20260730T152942Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -247,31 +236,31 @@
     "box_office": {
       "budget": 3500,
       "currency": "USD",
-      "retrieved_at": "2026-07-29",
+      "retrieved_at": "2026-07-30",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1698185"
     },
     "ratings": {
       "tmdb": {
-        "popularity": 0.4679,
-        "retrieved_at": "2026-07-29",
+        "popularity": 0.3417,
+        "retrieved_at": "2026-07-30",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1698185",
         "status": "not_yet_rated"
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-07-29",
+      "retrieved_at": "2026-07-30",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1698185",
-      "value": 0.4679
+      "value": 0.3417
     },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 0.4679,
-      "retrieved_at": "2026-07-29",
+      "popularity": 0.3417,
+      "retrieved_at": "2026-07-30",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1698185",
       "status": "not_yet_rated"
@@ -382,13 +371,13 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.009,
+      "audience_momentum": 0.006,
       "campaign_activity": 1.35,
       "talent_profile": 1.725
     },
-    "generated_at": "2026-07-29T22:43:28Z",
+    "generated_at": "2026-07-30T15:29:19Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 3.084,
+    "score": 3.081,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -417,20 +406,20 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.009,
+        "contribution": 0.006,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 0.4679
+        "value": 0.3417
       }
     ]
   },
   "signals": {
     "cultural_significance": 0,
     "external_intelligence": {
-      "confidence": "High",
-      "headline": "I Wish This Was Real: popularity increasing",
-      "summary": "TMDb popularity rose from 0.4039 to 0.4679."
+      "confidence": "Low",
+      "headline": "I Wish This Was Real: no material change detected",
+      "summary": "Current provider signals do not show a supported material change."
     },
     "last_updated": "2026-12-12",
     "latest_event": {
@@ -468,7 +457,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1698185-ee0ef968b56a",
+        "event_id": "1698185-7d7acf43d735",
         "event_type": "Awards Tier Changed",
         "film_id": "1698185",
         "importance": "Medium",
@@ -478,12 +467,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-29T22:43:48Z",
+        "timestamp": "2026-07-30T15:29:42Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1698185-c1bb169271dc",
+        "event_id": "1698185-89ffee3c18cb",
         "event_type": "Added To Database",
         "film_id": "1698185",
         "importance": "Low",
@@ -492,15 +481,15 @@
         },
         "source_type": "system",
         "summary": "I Wish This Was Real is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-29T22:43:48Z",
+        "timestamp": "2026-07-30T15:29:42Z",
         "title": "Added to Awards Intelligence"
       }
     ],
     "release_relevance": 18.2,
     "screening_room_score": {
-      "confidence": "High",
-      "explanation": "TMDb popularity rose from 0.4039 to 0.4679.",
-      "score": 3.084
+      "confidence": "Low",
+      "explanation": "Current provider signals do not show a supported material change.",
+      "score": 3.081
     },
     "watch_triggers": [
       "Awards-Season Release",
@@ -539,7 +528,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1698185-ee0ef968b56a",
+        "event_id": "1698185-7d7acf43d735",
         "event_type": "Awards Tier Changed",
         "film_id": "1698185",
         "importance": "Medium",
@@ -549,12 +538,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-29T22:43:48Z",
+        "timestamp": "2026-07-30T15:29:42Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1698185-c1bb169271dc",
+        "event_id": "1698185-89ffee3c18cb",
         "event_type": "Added To Database",
         "film_id": "1698185",
         "importance": "Low",
@@ -563,7 +552,7 @@
         },
         "source_type": "system",
         "summary": "I Wish This Was Real is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-29T22:43:48Z",
+        "timestamp": "2026-07-30T15:29:42Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -598,7 +587,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1698185-ee0ef968b56a",
+        "event_id": "1698185-7d7acf43d735",
         "event_type": "Awards Tier Changed",
         "film_id": "1698185",
         "importance": "Medium",
@@ -608,12 +597,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-29T22:43:48Z",
+        "timestamp": "2026-07-30T15:29:42Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1698185-c1bb169271dc",
+        "event_id": "1698185-89ffee3c18cb",
         "event_type": "Added To Database",
         "film_id": "1698185",
         "importance": "Low",
@@ -622,7 +611,7 @@
         },
         "source_type": "system",
         "summary": "I Wish This Was Real is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-29T22:43:48Z",
+        "timestamp": "2026-07-30T15:29:42Z",
         "title": "Added to Awards Intelligence"
       }
     ],

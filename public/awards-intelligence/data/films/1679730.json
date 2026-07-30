@@ -8,7 +8,7 @@
       "Event Release",
       "Awards Watch"
     ],
-    "attention_score": 60.2,
+    "attention_score": 60.1,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -46,7 +46,7 @@
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 1.8314",
+        "evidence": "TMDb popularity 1.7943",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -62,14 +62,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 60.2,
+    "homepage_spotlight_score": 60.1,
     "industry_interest": null,
-    "last_updated": "20260729T224348Z",
+    "last_updated": "20260730T152942Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
         "evidence_count": 2,
-        "score": 11.0,
+        "score": 10.9,
         "statuses": [
           "verified"
         ]
@@ -225,7 +225,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-07-29T22:43:28Z",
+    "generated_at": "2026-07-30T15:29:19Z",
     "headline": "THE RIBBON HERO: release approaching",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -245,7 +245,7 @@
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=oJL-llloz24",
-        "tmdb_popularity": 1.8314,
+        "tmdb_popularity": 1.7943,
         "tmdb_poster_count": 2,
         "tmdb_release_date_us_primary": "2026-08-07",
         "tmdb_release_date_us_theatrical": "2026-08-07",
@@ -268,7 +268,7 @@
         "driver_type": "release_approaching",
         "evidence": "US release is 18 days away on 2026-08-07.",
         "label": "Release approaching",
-        "retrieved_at": "2026-07-29T22:43:28Z",
+        "retrieved_at": "2026-07-30T15:29:19Z",
         "source_metric": "tmdb_release_date_us_primary",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -277,7 +277,7 @@
   },
   "media": {
     "canonical_trailer": {
-      "retrieved_at": "2026-07-29",
+      "retrieved_at": "2026-07-30",
       "site": "YouTube",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1679730/videos",
@@ -289,7 +289,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260729T224348Z",
+    "generated_at": "20260730T152942Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -297,25 +297,25 @@
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 1.8314,
-        "retrieved_at": "2026-07-29",
+        "popularity": 1.7943,
+        "retrieved_at": "2026-07-30",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1679730",
         "status": "not_yet_rated"
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-07-29",
+      "retrieved_at": "2026-07-30",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1679730",
-      "value": 1.8314
+      "value": 1.7943
     },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 1.8314,
-      "retrieved_at": "2026-07-29",
+      "popularity": 1.7943,
+      "retrieved_at": "2026-07-30",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1679730",
       "status": "not_yet_rated"
@@ -439,14 +439,14 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.035,
+      "audience_momentum": 0.034,
       "awards_relevance": 4.0,
       "campaign_activity": 2.7,
       "talent_profile": 1.725
     },
-    "generated_at": "2026-07-29T22:43:28Z",
+    "generated_at": "2026-07-30T15:29:19Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 8.46,
+    "score": 8.459,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -483,11 +483,11 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.035,
+        "contribution": 0.034,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 1.8314
+        "value": 1.7943
       }
     ]
   },
@@ -534,7 +534,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1679730-0f64d8cb01b3",
+        "event_id": "1679730-e4c4f8b976f5",
         "event_type": "Distributor Change",
         "film_id": "1679730",
         "importance": "Medium",
@@ -543,12 +543,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-07-29T22:43:48Z",
+        "timestamp": "2026-07-30T15:29:42Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1679730-c11cf194e2ff",
+        "event_id": "1679730-56382d270f97",
         "event_type": "Awards Tier Changed",
         "film_id": "1679730",
         "importance": "Medium",
@@ -564,7 +564,7 @@
         },
         "source_type": "editorial_model",
         "summary": "category-specific awards case without broader contender evidence",
-        "timestamp": "2026-07-29T22:43:48Z",
+        "timestamp": "2026-07-30T15:29:42Z",
         "title": "Awards tier assigned: Category Contender"
       }
     ],
@@ -572,7 +572,7 @@
     "screening_room_score": {
       "confidence": "High",
       "explanation": "US release is 18 days away on 2026-08-07.",
-      "score": 8.46
+      "score": 8.459
     },
     "watch_triggers": [
       "Prestige Distributor",
@@ -613,7 +613,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1679730-0f64d8cb01b3",
+        "event_id": "1679730-e4c4f8b976f5",
         "event_type": "Distributor Change",
         "film_id": "1679730",
         "importance": "Medium",
@@ -622,12 +622,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-07-29T22:43:48Z",
+        "timestamp": "2026-07-30T15:29:42Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1679730-c11cf194e2ff",
+        "event_id": "1679730-56382d270f97",
         "event_type": "Awards Tier Changed",
         "film_id": "1679730",
         "importance": "Medium",
@@ -643,12 +643,12 @@
         },
         "source_type": "editorial_model",
         "summary": "category-specific awards case without broader contender evidence",
-        "timestamp": "2026-07-29T22:43:48Z",
+        "timestamp": "2026-07-30T15:29:42Z",
         "title": "Awards tier assigned: Category Contender"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1679730-2c824416d515",
+        "event_id": "1679730-b5966aac3ab2",
         "event_type": "Added To Database",
         "film_id": "1679730",
         "importance": "Low",
@@ -657,7 +657,7 @@
         },
         "source_type": "system",
         "summary": "THE RIBBON HERO is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-29T22:43:48Z",
+        "timestamp": "2026-07-30T15:29:42Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -692,7 +692,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1679730-0f64d8cb01b3",
+        "event_id": "1679730-e4c4f8b976f5",
         "event_type": "Distributor Change",
         "film_id": "1679730",
         "importance": "Medium",
@@ -701,12 +701,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-07-29T22:43:48Z",
+        "timestamp": "2026-07-30T15:29:42Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1679730-c11cf194e2ff",
+        "event_id": "1679730-56382d270f97",
         "event_type": "Awards Tier Changed",
         "film_id": "1679730",
         "importance": "Medium",
@@ -722,7 +722,7 @@
         },
         "source_type": "editorial_model",
         "summary": "category-specific awards case without broader contender evidence",
-        "timestamp": "2026-07-29T22:43:48Z",
+        "timestamp": "2026-07-30T15:29:42Z",
         "title": "Awards tier assigned: Category Contender"
       }
     ],

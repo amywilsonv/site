@@ -16,7 +16,7 @@
     },
     {
       "confidence": "Inferred",
-      "event_id": "1549315-bcc11c8b32bd",
+      "event_id": "1549315-a7371eddef2a",
       "event_type": "Awards Tier Changed",
       "film_id": "1549315",
       "importance": "Medium",
@@ -26,12 +26,12 @@
       },
       "source_type": "editorial_model",
       "summary": "insufficient credible awards evidence",
-      "timestamp": "2026-07-29T22:43:48Z",
+      "timestamp": "2026-07-30T15:29:42Z",
       "title": "Awards tier assigned: No Current Awards Case"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1549315-33ea2121049b",
+      "event_id": "1549315-dc6911ce5c08",
       "event_type": "Added To Database",
       "film_id": "1549315",
       "importance": "Low",
@@ -40,7 +40,7 @@
       },
       "source_type": "system",
       "summary": "Operation Cronos is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-07-29T22:43:48Z",
+      "timestamp": "2026-07-30T15:29:42Z",
       "title": "Added to Awards Intelligence"
     },
     {
@@ -75,7 +75,7 @@
   "metadata": {
     "event_count": 4,
     "film_id": "1549315",
-    "generated_at": "20260729T224348Z",
+    "generated_at": "20260730T152942Z",
     "timeline_version": "phase6b",
     "title": "Operation Cronos",
     "tmdb_id": "1549315"
