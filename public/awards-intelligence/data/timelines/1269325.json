@@ -16,7 +16,7 @@
     },
     {
       "confidence": "Inferred",
-      "event_id": "1269325-2559c9ef0eb4",
+      "event_id": "1269325-d82bf2d18971",
       "event_type": "Awards Tier Changed",
       "film_id": "1269325",
       "importance": "Medium",
@@ -26,12 +26,12 @@
       },
       "source_type": "editorial_model",
       "summary": "insufficient credible awards evidence",
-      "timestamp": "2026-07-30T15:29:42Z",
+      "timestamp": "2026-07-31T15:34:57Z",
       "title": "Awards tier assigned: No Current Awards Case"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1269325-28c9daf3b5e7",
+      "event_id": "1269325-3e1b337ba98a",
       "event_type": "Added To Database",
       "film_id": "1269325",
       "importance": "Low",
@@ -40,7 +40,7 @@
       },
       "source_type": "system",
       "summary": "Drishyam 3 is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-07-30T15:29:42Z",
+      "timestamp": "2026-07-31T15:34:57Z",
       "title": "Added to Awards Intelligence"
     }
   ],
@@ -61,7 +61,7 @@
   "metadata": {
     "event_count": 3,
     "film_id": "1269325",
-    "generated_at": "20260730T152942Z",
+    "generated_at": "20260731T153457Z",
     "timeline_version": "phase6b",
     "title": "Drishyam 3",
     "tmdb_id": "1269325"

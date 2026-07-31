@@ -8,7 +8,7 @@
       "Event Release",
       "Awards Watch"
     ],
-    "attention_score": 61.9,
+    "attention_score": 61.6,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -51,13 +51,13 @@
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 1.3575",
-        "source": "audience_popularity",
+        "evidence": "Director: Alper \u00c7a\u011flar",
+        "source": "filmmaker_interest",
         "status": "verified"
       },
       {
-        "evidence": "Director: Alper \u00c7a\u011flar",
-        "source": "filmmaker_interest",
+        "evidence": "TMDb popularity 1.1202",
+        "source": "audience_popularity",
         "status": "verified"
       },
       {
@@ -67,14 +67,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 61.9,
+    "homepage_spotlight_score": 61.6,
     "industry_interest": "Moderate",
-    "last_updated": "20260730T152942Z",
+    "last_updated": "20260731T153457Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
         "evidence_count": 2,
-        "score": 10.4,
+        "score": 10.1,
         "statuses": [
           "verified"
         ]
@@ -227,7 +227,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-07-30T15:29:19Z",
+    "generated_at": "2026-07-31T15:34:42Z",
     "headline": "The First Gokturk: Prologue: popularity increasing",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -247,7 +247,7 @@
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=u8H9scv6S1Y",
-        "tmdb_popularity": 1.3575,
+        "tmdb_popularity": 1.1202,
         "tmdb_poster_count": 0,
         "tmdb_release_date_us_primary": "",
         "tmdb_release_date_us_theatrical": "",
@@ -263,14 +263,14 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity rose from 1.0974 to 1.3575.",
+    "summary": "TMDb popularity rose from 1.0974 to 1.1202.",
     "supporting_drivers": [
       {
         "confidence_weight": 0.9,
         "driver_type": "popularity_increasing",
-        "evidence": "TMDb popularity rose from 1.0974 to 1.3575.",
+        "evidence": "TMDb popularity rose from 1.0974 to 1.1202.",
         "label": "Popularity increasing",
-        "retrieved_at": "2026-07-30T15:29:19Z",
+        "retrieved_at": "2026-07-31T15:34:42Z",
         "source_metric": "tmdb_popularity",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -279,7 +279,7 @@
   },
   "media": {
     "canonical_trailer": {
-      "retrieved_at": "2026-07-30",
+      "retrieved_at": "2026-07-31",
       "site": "YouTube",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1579129/videos",
@@ -291,7 +291,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260730T152942Z",
+    "generated_at": "20260731T153457Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -299,25 +299,25 @@
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 1.3575,
-        "retrieved_at": "2026-07-30",
+        "popularity": 1.1202,
+        "retrieved_at": "2026-07-31",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1579129",
         "status": "not_yet_rated"
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-07-30",
+      "retrieved_at": "2026-07-31",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1579129",
-      "value": 1.3575
+      "value": 1.1202
     },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 1.3575,
-      "retrieved_at": "2026-07-30",
+      "popularity": 1.1202,
+      "retrieved_at": "2026-07-31",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1579129",
       "status": "not_yet_rated"
@@ -350,18 +350,6 @@
         "tmdb_id": "1567149"
       },
       {
-        "profile_url": "film.html?id=656908",
-        "relationship_score": 68,
-        "shared_signals": [
-          "General Watch",
-          "Action",
-          "Drama",
-          "Craft Categories"
-        ],
-        "title": "Ramayana",
-        "tmdb_id": "656908"
-      },
-      {
         "profile_url": "film.html?id=1729128",
         "relationship_score": 68,
         "shared_signals": [
@@ -384,6 +372,18 @@
         ],
         "title": "HalloWiebe: Overdrive",
         "tmdb_id": "1620873"
+      },
+      {
+        "profile_url": "film.html?id=656908",
+        "relationship_score": 52,
+        "shared_signals": [
+          "Action",
+          "Drama",
+          "Craft Categories",
+          "Unknown"
+        ],
+        "title": "Ramayana",
+        "tmdb_id": "656908"
       },
       {
         "profile_url": "film.html?id=1700889",
@@ -435,14 +435,14 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.026,
+      "audience_momentum": 0.021,
       "awards_relevance": 0.8,
       "campaign_activity": 1.35,
       "talent_profile": 2.125
     },
-    "generated_at": "2026-07-30T15:29:19Z",
+    "generated_at": "2026-07-31T15:34:42Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 4.301,
+    "score": 4.296,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -479,11 +479,11 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.026,
+        "contribution": 0.021,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 1.3575
+        "value": 1.1202
       }
     ]
   },
@@ -492,7 +492,7 @@
     "external_intelligence": {
       "confidence": "High",
       "headline": "The First Gokturk: Prologue: popularity increasing",
-      "summary": "TMDb popularity rose from 1.0974 to 1.3575."
+      "summary": "TMDb popularity rose from 1.0974 to 1.1202."
     },
     "last_updated": "2026-12-31",
     "latest_event": {
@@ -530,7 +530,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1579129-42494ff9250a",
+        "event_id": "1579129-a31a5ee9bc07",
         "event_type": "Awards Tier Changed",
         "film_id": "1579129",
         "importance": "Medium",
@@ -542,12 +542,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-07-30T15:29:42Z",
+        "timestamp": "2026-07-31T15:34:57Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1579129-7f44073462e5",
+        "event_id": "1579129-2c6cec571663",
         "event_type": "Added To Database",
         "film_id": "1579129",
         "importance": "Low",
@@ -556,15 +556,15 @@
         },
         "source_type": "system",
         "summary": "The First Gokturk: Prologue is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-30T15:29:42Z",
+        "timestamp": "2026-07-31T15:34:57Z",
         "title": "Added to Awards Intelligence"
       }
     ],
     "release_relevance": 22.9,
     "screening_room_score": {
       "confidence": "High",
-      "explanation": "TMDb popularity rose from 1.0974 to 1.3575.",
-      "score": 4.301
+      "explanation": "TMDb popularity rose from 1.0974 to 1.1202.",
+      "score": 4.296
     },
     "watch_triggers": [
       "Awards-Season Release",
@@ -606,7 +606,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1579129-42494ff9250a",
+        "event_id": "1579129-a31a5ee9bc07",
         "event_type": "Awards Tier Changed",
         "film_id": "1579129",
         "importance": "Medium",
@@ -618,12 +618,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-07-30T15:29:42Z",
+        "timestamp": "2026-07-31T15:34:57Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1579129-7f44073462e5",
+        "event_id": "1579129-2c6cec571663",
         "event_type": "Added To Database",
         "film_id": "1579129",
         "importance": "Low",
@@ -632,7 +632,7 @@
         },
         "source_type": "system",
         "summary": "The First Gokturk: Prologue is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-30T15:29:42Z",
+        "timestamp": "2026-07-31T15:34:57Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -667,7 +667,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1579129-42494ff9250a",
+        "event_id": "1579129-a31a5ee9bc07",
         "event_type": "Awards Tier Changed",
         "film_id": "1579129",
         "importance": "Medium",
@@ -679,12 +679,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-07-30T15:29:42Z",
+        "timestamp": "2026-07-31T15:34:57Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1579129-7f44073462e5",
+        "event_id": "1579129-2c6cec571663",
         "event_type": "Added To Database",
         "film_id": "1579129",
         "importance": "Low",
@@ -693,7 +693,7 @@
         },
         "source_type": "system",
         "summary": "The First Gokturk: Prologue is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-30T15:29:42Z",
+        "timestamp": "2026-07-31T15:34:57Z",
         "title": "Added to Awards Intelligence"
       }
     ],

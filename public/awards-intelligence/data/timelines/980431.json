@@ -2,7 +2,7 @@
   "events": [
     {
       "confidence": "Inferred",
-      "event_id": "980431-c121b4ec9c38",
+      "event_id": "980431-79b72f9ca7f7",
       "event_type": "Homepage Featured",
       "film_id": "980431",
       "importance": "Medium",
@@ -11,12 +11,12 @@
       },
       "source_type": "discovery_homepage",
       "summary": "Avatar Aang: The Last Airbender is currently selected for the homepage experience.",
-      "timestamp": "2026-07-30T15:29:42Z",
+      "timestamp": "2026-07-31T15:34:57Z",
       "title": "Featured in The Screening Room"
     },
     {
       "confidence": "Inferred",
-      "event_id": "980431-04334ed88fe1",
+      "event_id": "980431-a94023f049ca",
       "event_type": "Distributor Change",
       "film_id": "980431",
       "importance": "Medium",
@@ -25,12 +25,12 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Paramount Pictures.",
-      "timestamp": "2026-07-30T15:29:42Z",
+      "timestamp": "2026-07-31T15:34:57Z",
       "title": "Distributor set: Paramount Pictures"
     },
     {
       "confidence": "Inferred",
-      "event_id": "980431-bdfbe89d4a59",
+      "event_id": "980431-386d43d2f51a",
       "event_type": "Awards Tier Changed",
       "film_id": "980431",
       "importance": "Medium",
@@ -44,12 +44,12 @@
       },
       "source_type": "editorial_model",
       "summary": "category-specific awards case without broader contender evidence",
-      "timestamp": "2026-07-30T15:29:42Z",
+      "timestamp": "2026-07-31T15:34:57Z",
       "title": "Awards tier assigned: Category Contender"
     },
     {
       "confidence": "Inferred",
-      "event_id": "980431-f1179a85ae58",
+      "event_id": "980431-695b29b27abf",
       "event_type": "Added To Database",
       "film_id": "980431",
       "importance": "Low",
@@ -58,7 +58,7 @@
       },
       "source_type": "system",
       "summary": "Avatar Aang: The Last Airbender is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-07-30T15:29:42Z",
+      "timestamp": "2026-07-31T15:34:57Z",
       "title": "Added to Awards Intelligence"
     },
     {
@@ -92,7 +92,7 @@
   ],
   "latest_event": {
     "confidence": "Inferred",
-    "event_id": "980431-c121b4ec9c38",
+    "event_id": "980431-79b72f9ca7f7",
     "event_type": "Homepage Featured",
     "film_id": "980431",
     "importance": "Medium",
@@ -101,13 +101,13 @@
     },
     "source_type": "discovery_homepage",
     "summary": "Avatar Aang: The Last Airbender is currently selected for the homepage experience.",
-    "timestamp": "2026-07-30T15:29:42Z",
+    "timestamp": "2026-07-31T15:34:57Z",
     "title": "Featured in The Screening Room"
   },
   "metadata": {
     "event_count": 6,
     "film_id": "980431",
-    "generated_at": "20260730T152942Z",
+    "generated_at": "20260731T153457Z",
     "timeline_version": "phase6b",
     "title": "Avatar Aang: The Last Airbender",
     "tmdb_id": "980431"

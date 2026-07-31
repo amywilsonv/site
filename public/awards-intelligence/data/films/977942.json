@@ -8,7 +8,7 @@
       "Event Release",
       "Awards Watch"
     ],
-    "attention_score": 57.8,
+    "attention_score": 57.1,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -26,7 +26,7 @@
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 5.0091",
+        "evidence": "TMDb popularity 4.3317",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -57,14 +57,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 57.8,
+    "homepage_spotlight_score": 57.1,
     "industry_interest": null,
-    "last_updated": "20260730T152942Z",
+    "last_updated": "20260731T153457Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
         "evidence_count": 2,
-        "score": 13.7,
+        "score": 13.0,
         "statuses": [
           "verified"
         ]
@@ -214,10 +214,10 @@
     "tmdb_id": "977942"
   },
   "intelligence": {
-    "confidence": "High",
-    "confidence_score": 0.99,
-    "generated_at": "2026-07-30T15:29:19Z",
-    "headline": "The Uprising: popularity increasing",
+    "confidence": "Low",
+    "confidence_score": 0.25,
+    "generated_at": "2026-07-31T15:34:42Z",
+    "headline": "The Uprising: no material change detected",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
       "signal_values": {
@@ -236,7 +236,7 @@
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=lyhCxZN4Ro8",
-        "tmdb_popularity": 5.0091,
+        "tmdb_popularity": 4.3317,
         "tmdb_poster_count": 5,
         "tmdb_release_date_us_primary": "2026-09-11",
         "tmdb_release_date_us_theatrical": "2026-09-11",
@@ -252,23 +252,12 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity rose from 4.9172 to 5.0091.",
-    "supporting_drivers": [
-      {
-        "confidence_weight": 0.9,
-        "driver_type": "popularity_increasing",
-        "evidence": "TMDb popularity rose from 4.9172 to 5.0091.",
-        "label": "Popularity increasing",
-        "retrieved_at": "2026-07-30T15:29:19Z",
-        "source_metric": "tmdb_popularity",
-        "source_provider": "tmdb",
-        "source_status": "available"
-      }
-    ]
+    "summary": "Current provider signals do not show a supported material change.",
+    "supporting_drivers": []
   },
   "media": {
     "canonical_trailer": {
-      "retrieved_at": "2026-07-30",
+      "retrieved_at": "2026-07-31",
       "site": "YouTube",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/977942/videos",
@@ -280,7 +269,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260730T152942Z",
+    "generated_at": "20260731T153457Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -288,25 +277,25 @@
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 5.0091,
-        "retrieved_at": "2026-07-30",
+        "popularity": 4.3317,
+        "retrieved_at": "2026-07-31",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/977942",
         "status": "not_yet_rated"
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-07-30",
+      "retrieved_at": "2026-07-31",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/977942",
-      "value": 5.0091
+      "value": 4.3317
     },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 5.0091,
-      "retrieved_at": "2026-07-30",
+      "popularity": 4.3317,
+      "retrieved_at": "2026-07-31",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/977942",
       "status": "not_yet_rated"
@@ -450,14 +439,14 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.095,
+      "audience_momentum": 0.082,
       "awards_relevance": 3.2,
       "campaign_activity": 2.7,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-07-30T15:29:19Z",
+    "generated_at": "2026-07-31T15:34:42Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 9.32,
+    "score": 9.307,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -494,20 +483,20 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.095,
+        "contribution": 0.082,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 5.0091
+        "value": 4.3317
       }
     ]
   },
   "signals": {
     "cultural_significance": 0,
     "external_intelligence": {
-      "confidence": "High",
-      "headline": "The Uprising: popularity increasing",
-      "summary": "TMDb popularity rose from 4.9172 to 5.0091."
+      "confidence": "Low",
+      "headline": "The Uprising: no material change detected",
+      "summary": "Current provider signals do not show a supported material change."
     },
     "last_updated": "2026-09-11",
     "latest_event": {
@@ -545,7 +534,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "977942-a6741daec96c",
+        "event_id": "977942-50027b759feb",
         "event_type": "Distributor Change",
         "film_id": "977942",
         "importance": "Medium",
@@ -554,12 +543,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Focus Features.",
-        "timestamp": "2026-07-30T15:29:42Z",
+        "timestamp": "2026-07-31T15:34:57Z",
         "title": "Distributor set: Focus Features"
       },
       {
         "confidence": "Inferred",
-        "event_id": "977942-089c069dd1c0",
+        "event_id": "977942-913bb52f7ee1",
         "event_type": "Awards Tier Changed",
         "film_id": "977942",
         "importance": "Medium",
@@ -574,15 +563,15 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-30T15:29:42Z",
+        "timestamp": "2026-07-31T15:34:57Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],
     "release_relevance": 27.4,
     "screening_room_score": {
-      "confidence": "High",
-      "explanation": "TMDb popularity rose from 4.9172 to 5.0091.",
-      "score": 9.32
+      "confidence": "Low",
+      "explanation": "Current provider signals do not show a supported material change.",
+      "score": 9.307
     },
     "watch_triggers": [
       "Prestige Distributor",
@@ -627,7 +616,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "977942-a6741daec96c",
+        "event_id": "977942-50027b759feb",
         "event_type": "Distributor Change",
         "film_id": "977942",
         "importance": "Medium",
@@ -636,12 +625,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Focus Features.",
-        "timestamp": "2026-07-30T15:29:42Z",
+        "timestamp": "2026-07-31T15:34:57Z",
         "title": "Distributor set: Focus Features"
       },
       {
         "confidence": "Inferred",
-        "event_id": "977942-089c069dd1c0",
+        "event_id": "977942-913bb52f7ee1",
         "event_type": "Awards Tier Changed",
         "film_id": "977942",
         "importance": "Medium",
@@ -656,12 +645,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-30T15:29:42Z",
+        "timestamp": "2026-07-31T15:34:57Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "977942-f1bd57618c55",
+        "event_id": "977942-6416dd14da8c",
         "event_type": "Added To Database",
         "film_id": "977942",
         "importance": "Low",
@@ -670,7 +659,7 @@
         },
         "source_type": "system",
         "summary": "The Uprising is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-30T15:29:42Z",
+        "timestamp": "2026-07-31T15:34:57Z",
         "title": "Added to Awards Intelligence"
       },
       {
@@ -719,7 +708,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "977942-a6741daec96c",
+        "event_id": "977942-50027b759feb",
         "event_type": "Distributor Change",
         "film_id": "977942",
         "importance": "Medium",
@@ -728,12 +717,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Focus Features.",
-        "timestamp": "2026-07-30T15:29:42Z",
+        "timestamp": "2026-07-31T15:34:57Z",
         "title": "Distributor set: Focus Features"
       },
       {
         "confidence": "Inferred",
-        "event_id": "977942-089c069dd1c0",
+        "event_id": "977942-913bb52f7ee1",
         "event_type": "Awards Tier Changed",
         "film_id": "977942",
         "importance": "Medium",
@@ -748,7 +737,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-30T15:29:42Z",
+        "timestamp": "2026-07-31T15:34:57Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],

@@ -8,7 +8,7 @@
       "Event Release",
       "Awards Watch"
     ],
-    "attention_score": 45.5,
+    "attention_score": 45.1,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -41,7 +41,7 @@
         "status": "inferred"
       },
       {
-        "evidence": "TMDb popularity 1.5295",
+        "evidence": "TMDb popularity 1.3356",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -57,14 +57,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 45.5,
+    "homepage_spotlight_score": 45.1,
     "industry_interest": null,
-    "last_updated": "20260730T152942Z",
+    "last_updated": "20260731T153457Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
         "evidence_count": 1,
-        "score": 4.8,
+        "score": 4.4,
         "statuses": [
           "verified"
         ]
@@ -220,10 +220,10 @@
     "tmdb_id": "1138528"
   },
   "intelligence": {
-    "confidence": "High",
-    "confidence_score": 0.99,
-    "generated_at": "2026-07-30T15:29:19Z",
-    "headline": "Bad Fairies: popularity increasing",
+    "confidence": "Low",
+    "confidence_score": 0.25,
+    "generated_at": "2026-07-31T15:34:42Z",
+    "headline": "Bad Fairies: no material change detected",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
       "signal_values": {
@@ -241,7 +241,7 @@
         "streaming_provider_count_us": 0,
         "tmdb_backdrop_count": 3,
         "tmdb_canonical_trailer_available": false,
-        "tmdb_popularity": 1.5295,
+        "tmdb_popularity": 1.3356,
         "tmdb_poster_count": 2,
         "tmdb_release_date_us_primary": "2027-05-21",
         "tmdb_release_date_us_theatrical": "2027-05-21",
@@ -256,24 +256,13 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity rose from 1.382 to 1.5295.",
-    "supporting_drivers": [
-      {
-        "confidence_weight": 0.9,
-        "driver_type": "popularity_increasing",
-        "evidence": "TMDb popularity rose from 1.382 to 1.5295.",
-        "label": "Popularity increasing",
-        "retrieved_at": "2026-07-30T15:29:19Z",
-        "source_metric": "tmdb_popularity",
-        "source_provider": "tmdb",
-        "source_status": "available"
-      }
-    ]
+    "summary": "Current provider signals do not show a supported material change.",
+    "supporting_drivers": []
   },
   "media": {},
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260730T152942Z",
+    "generated_at": "20260731T153457Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -281,25 +270,25 @@
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 1.5295,
-        "retrieved_at": "2026-07-30",
+        "popularity": 1.3356,
+        "retrieved_at": "2026-07-31",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1138528",
         "status": "not_yet_rated"
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-07-30",
+      "retrieved_at": "2026-07-31",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1138528",
-      "value": 1.5295
+      "value": 1.3356
     },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 1.5295,
-      "retrieved_at": "2026-07-30",
+      "popularity": 1.3356,
+      "retrieved_at": "2026-07-31",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1138528",
       "status": "not_yet_rated"
@@ -427,13 +416,13 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.029,
+      "audience_momentum": 0.025,
       "awards_relevance": 3.2,
       "talent_profile": 2.125
     },
-    "generated_at": "2026-07-30T15:29:19Z",
+    "generated_at": "2026-07-31T15:34:42Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 5.354,
+    "score": 5.35,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -462,20 +451,20 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.029,
+        "contribution": 0.025,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 1.5295
+        "value": 1.3356
       }
     ]
   },
   "signals": {
     "cultural_significance": 19.0,
     "external_intelligence": {
-      "confidence": "High",
-      "headline": "Bad Fairies: popularity increasing",
-      "summary": "TMDb popularity rose from 1.382 to 1.5295."
+      "confidence": "Low",
+      "headline": "Bad Fairies: no material change detected",
+      "summary": "Current provider signals do not show a supported material change."
     },
     "last_updated": "2027-05-21",
     "latest_event": {
@@ -513,7 +502,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1138528-3c7be9cc3ef6",
+        "event_id": "1138528-23f0fc739c14",
         "event_type": "Awards Tier Changed",
         "film_id": "1138528",
         "importance": "Medium",
@@ -528,12 +517,12 @@
         },
         "source_type": "editorial_model",
         "summary": "category-specific awards case without broader contender evidence",
-        "timestamp": "2026-07-30T15:29:42Z",
+        "timestamp": "2026-07-31T15:34:57Z",
         "title": "Awards tier assigned: Category Contender"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1138528-4f9a1861b4b9",
+        "event_id": "1138528-4e3082f016ad",
         "event_type": "Added To Database",
         "film_id": "1138528",
         "importance": "Low",
@@ -542,15 +531,15 @@
         },
         "source_type": "system",
         "summary": "Bad Fairies is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-30T15:29:42Z",
+        "timestamp": "2026-07-31T15:34:57Z",
         "title": "Added to Awards Intelligence"
       }
     ],
     "release_relevance": 8.8,
     "screening_room_score": {
-      "confidence": "High",
-      "explanation": "TMDb popularity rose from 1.382 to 1.5295.",
-      "score": 5.354
+      "confidence": "Low",
+      "explanation": "Current provider signals do not show a supported material change.",
+      "score": 5.35
     },
     "watch_triggers": [
       "Major Studio/Streamer",
@@ -591,7 +580,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1138528-3c7be9cc3ef6",
+        "event_id": "1138528-23f0fc739c14",
         "event_type": "Awards Tier Changed",
         "film_id": "1138528",
         "importance": "Medium",
@@ -606,12 +595,12 @@
         },
         "source_type": "editorial_model",
         "summary": "category-specific awards case without broader contender evidence",
-        "timestamp": "2026-07-30T15:29:42Z",
+        "timestamp": "2026-07-31T15:34:57Z",
         "title": "Awards tier assigned: Category Contender"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1138528-4f9a1861b4b9",
+        "event_id": "1138528-4e3082f016ad",
         "event_type": "Added To Database",
         "film_id": "1138528",
         "importance": "Low",
@@ -620,7 +609,7 @@
         },
         "source_type": "system",
         "summary": "Bad Fairies is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-30T15:29:42Z",
+        "timestamp": "2026-07-31T15:34:57Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -655,7 +644,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1138528-3c7be9cc3ef6",
+        "event_id": "1138528-23f0fc739c14",
         "event_type": "Awards Tier Changed",
         "film_id": "1138528",
         "importance": "Medium",
@@ -670,12 +659,12 @@
         },
         "source_type": "editorial_model",
         "summary": "category-specific awards case without broader contender evidence",
-        "timestamp": "2026-07-30T15:29:42Z",
+        "timestamp": "2026-07-31T15:34:57Z",
         "title": "Awards tier assigned: Category Contender"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1138528-4f9a1861b4b9",
+        "event_id": "1138528-4e3082f016ad",
         "event_type": "Added To Database",
         "film_id": "1138528",
         "importance": "Low",
@@ -684,7 +673,7 @@
         },
         "source_type": "system",
         "summary": "Bad Fairies is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-30T15:29:42Z",
+        "timestamp": "2026-07-31T15:34:57Z",
         "title": "Added to Awards Intelligence"
       }
     ],

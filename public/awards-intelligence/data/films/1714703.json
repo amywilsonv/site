@@ -8,7 +8,7 @@
       "Event Release",
       "Awards Watch"
     ],
-    "attention_score": 63.3,
+    "attention_score": 63.1,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -56,20 +56,20 @@
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 0.1899",
+        "evidence": "TMDb popularity 0.1338",
         "source": "audience_popularity",
         "status": "verified"
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 63.3,
+    "homepage_spotlight_score": 63.1,
     "industry_interest": "Moderate",
-    "last_updated": "20260730T152942Z",
+    "last_updated": "20260731T153457Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
         "evidence_count": 2,
-        "score": 8.5,
+        "score": 8.3,
         "statuses": [
           "verified"
         ]
@@ -229,7 +229,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-07-30T15:29:19Z",
+    "generated_at": "2026-07-31T15:34:42Z",
     "headline": "The Essentials 2: release approaching",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -249,7 +249,7 @@
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=OKCEAsMUma0",
-        "tmdb_popularity": 0.1899,
+        "tmdb_popularity": 0.1338,
         "tmdb_poster_count": 0,
         "tmdb_release_date_us_primary": "2026-08-29",
         "tmdb_release_date_us_theatrical": "",
@@ -265,24 +265,14 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity rose from 0.1767 to 0.1899. US release is 40 days away on 2026-08-29.",
+    "summary": "US release is 40 days away on 2026-08-29.",
     "supporting_drivers": [
-      {
-        "confidence_weight": 0.9,
-        "driver_type": "popularity_increasing",
-        "evidence": "TMDb popularity rose from 0.1767 to 0.1899.",
-        "label": "Popularity increasing",
-        "retrieved_at": "2026-07-30T15:29:19Z",
-        "source_metric": "tmdb_popularity",
-        "source_provider": "tmdb",
-        "source_status": "available"
-      },
       {
         "confidence_weight": 0.8,
         "driver_type": "release_approaching",
         "evidence": "US release is 40 days away on 2026-08-29.",
         "label": "Release approaching",
-        "retrieved_at": "2026-07-30T15:29:19Z",
+        "retrieved_at": "2026-07-31T15:34:42Z",
         "source_metric": "tmdb_release_date_us_primary",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -291,7 +281,7 @@
   },
   "media": {
     "canonical_trailer": {
-      "retrieved_at": "2026-07-30",
+      "retrieved_at": "2026-07-31",
       "site": "YouTube",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1714703/videos",
@@ -303,7 +293,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260730T152942Z",
+    "generated_at": "20260731T153457Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -311,25 +301,25 @@
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 0.1899,
-        "retrieved_at": "2026-07-30",
+        "popularity": 0.1338,
+        "retrieved_at": "2026-07-31",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1714703",
         "status": "not_yet_rated"
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-07-30",
+      "retrieved_at": "2026-07-31",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1714703",
-      "value": 0.1899
+      "value": 0.1338
     },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 0.1899,
-      "retrieved_at": "2026-07-30",
+      "popularity": 0.1338,
+      "retrieved_at": "2026-07-31",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1714703",
       "status": "not_yet_rated"
@@ -445,14 +435,14 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.004,
+      "audience_momentum": 0.003,
       "awards_relevance": 3.2,
       "campaign_activity": 2.7,
       "talent_profile": 2.525
     },
-    "generated_at": "2026-07-30T15:29:19Z",
+    "generated_at": "2026-07-31T15:34:42Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 8.429,
+    "score": 8.428,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -489,11 +479,11 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.004,
+        "contribution": 0.003,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 0.1899
+        "value": 0.1338
       }
     ]
   },
@@ -502,7 +492,7 @@
     "external_intelligence": {
       "confidence": "High",
       "headline": "The Essentials 2: release approaching",
-      "summary": "TMDb popularity rose from 0.1767 to 0.1899. US release is 40 days away on 2026-08-29."
+      "summary": "US release is 40 days away on 2026-08-29."
     },
     "last_updated": "2026-08-29",
     "latest_event": {
@@ -540,7 +530,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1714703-c3b6adcbaf4e",
+        "event_id": "1714703-fdf2a9618ce7",
         "event_type": "Awards Tier Changed",
         "film_id": "1714703",
         "importance": "Medium",
@@ -555,12 +545,12 @@
         },
         "source_type": "editorial_model",
         "summary": "category-specific awards case without broader contender evidence",
-        "timestamp": "2026-07-30T15:29:42Z",
+        "timestamp": "2026-07-31T15:34:57Z",
         "title": "Awards tier assigned: Category Contender"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1714703-1ff2e59e0ca2",
+        "event_id": "1714703-afae20f1f3d6",
         "event_type": "Added To Database",
         "film_id": "1714703",
         "importance": "Low",
@@ -569,15 +559,15 @@
         },
         "source_type": "system",
         "summary": "The Essentials 2 is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-30T15:29:42Z",
+        "timestamp": "2026-07-31T15:34:57Z",
         "title": "Added to Awards Intelligence"
       }
     ],
     "release_relevance": 40.9,
     "screening_room_score": {
       "confidence": "High",
-      "explanation": "TMDb popularity rose from 0.1767 to 0.1899. US release is 40 days away on 2026-08-29.",
-      "score": 8.429
+      "explanation": "US release is 40 days away on 2026-08-29.",
+      "score": 8.428
     },
     "watch_triggers": [
       "Awards-Friendly Genre",
@@ -619,7 +609,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1714703-c3b6adcbaf4e",
+        "event_id": "1714703-fdf2a9618ce7",
         "event_type": "Awards Tier Changed",
         "film_id": "1714703",
         "importance": "Medium",
@@ -634,12 +624,12 @@
         },
         "source_type": "editorial_model",
         "summary": "category-specific awards case without broader contender evidence",
-        "timestamp": "2026-07-30T15:29:42Z",
+        "timestamp": "2026-07-31T15:34:57Z",
         "title": "Awards tier assigned: Category Contender"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1714703-1ff2e59e0ca2",
+        "event_id": "1714703-afae20f1f3d6",
         "event_type": "Added To Database",
         "film_id": "1714703",
         "importance": "Low",
@@ -648,7 +638,7 @@
         },
         "source_type": "system",
         "summary": "The Essentials 2 is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-30T15:29:42Z",
+        "timestamp": "2026-07-31T15:34:57Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -683,7 +673,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1714703-c3b6adcbaf4e",
+        "event_id": "1714703-fdf2a9618ce7",
         "event_type": "Awards Tier Changed",
         "film_id": "1714703",
         "importance": "Medium",
@@ -698,12 +688,12 @@
         },
         "source_type": "editorial_model",
         "summary": "category-specific awards case without broader contender evidence",
-        "timestamp": "2026-07-30T15:29:42Z",
+        "timestamp": "2026-07-31T15:34:57Z",
         "title": "Awards tier assigned: Category Contender"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1714703-1ff2e59e0ca2",
+        "event_id": "1714703-afae20f1f3d6",
         "event_type": "Added To Database",
         "film_id": "1714703",
         "importance": "Low",
@@ -712,7 +702,7 @@
         },
         "source_type": "system",
         "summary": "The Essentials 2 is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-30T15:29:42Z",
+        "timestamp": "2026-07-31T15:34:57Z",
         "title": "Added to Awards Intelligence"
       }
     ],

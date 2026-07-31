@@ -7,7 +7,7 @@
       "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 72.6,
+    "attention_score": 72.7,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -40,7 +40,7 @@
         "status": "inferred"
       },
       {
-        "evidence": "TMDb popularity 4.5178",
+        "evidence": "TMDb popularity 4.5913",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -61,14 +61,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 72.6,
+    "homepage_spotlight_score": 72.7,
     "industry_interest": "Moderate",
-    "last_updated": "20260730T152942Z",
+    "last_updated": "20260731T153457Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
         "evidence_count": 2,
-        "score": 13.2,
+        "score": 13.3,
         "statuses": [
           "verified"
         ]
@@ -217,7 +217,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-07-30T15:29:19Z",
+    "generated_at": "2026-07-31T15:34:42Z",
     "headline": "Super Troopers 3: release approaching",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -237,7 +237,7 @@
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=cYFevn5frf0",
-        "tmdb_popularity": 4.5178,
+        "tmdb_popularity": 4.5913,
         "tmdb_poster_count": 10,
         "tmdb_release_date_us_primary": "2026-08-07",
         "tmdb_release_date_us_theatrical": "2026-08-07",
@@ -246,21 +246,21 @@
         "tmdb_vote_count": 0,
         "tmdb_watch_provider_count_us": 0,
         "trailer_available": true,
-        "trailer_count": 36,
+        "trailer_count": 40,
         "trailer_url": "https://www.youtube.com/watch?v=cYFevn5frf0"
       },
       "source_signal_count": 26,
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity rose from 3.6074 to 4.5178. US release is 18 days away on 2026-08-07.",
+    "summary": "TMDb popularity rose from 3.6074 to 4.5913. US release is 18 days away on 2026-08-07.",
     "supporting_drivers": [
       {
         "confidence_weight": 0.9,
         "driver_type": "popularity_increasing",
-        "evidence": "TMDb popularity rose from 3.6074 to 4.5178.",
+        "evidence": "TMDb popularity rose from 3.6074 to 4.5913.",
         "label": "Popularity increasing",
-        "retrieved_at": "2026-07-30T15:29:19Z",
+        "retrieved_at": "2026-07-31T15:34:42Z",
         "source_metric": "tmdb_popularity",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -270,7 +270,7 @@
         "driver_type": "release_approaching",
         "evidence": "US release is 18 days away on 2026-08-07.",
         "label": "Release approaching",
-        "retrieved_at": "2026-07-30T15:29:19Z",
+        "retrieved_at": "2026-07-31T15:34:42Z",
         "source_metric": "tmdb_release_date_us_primary",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -279,7 +279,7 @@
   },
   "media": {
     "canonical_trailer": {
-      "retrieved_at": "2026-07-30",
+      "retrieved_at": "2026-07-31",
       "site": "YouTube",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/675871/videos",
@@ -291,7 +291,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260730T152942Z",
+    "generated_at": "20260731T153457Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -299,25 +299,25 @@
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 4.5178,
-        "retrieved_at": "2026-07-30",
+        "popularity": 4.5913,
+        "retrieved_at": "2026-07-31",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/675871",
         "status": "not_yet_rated"
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-07-30",
+      "retrieved_at": "2026-07-31",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/675871",
-      "value": 4.5178
+      "value": 4.5913
     },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 4.5178,
-      "retrieved_at": "2026-07-30",
+      "popularity": 4.5913,
+      "retrieved_at": "2026-07-31",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/675871",
       "status": "not_yet_rated"
@@ -437,13 +437,13 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.086,
+      "audience_momentum": 0.087,
       "campaign_activity": 5.4,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-07-30T15:29:19Z",
+    "generated_at": "2026-07-31T15:34:42Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 8.811,
+    "score": 8.812,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -452,7 +452,7 @@
         "metric_name": "trailer_count",
         "provider": "trailers",
         "score_family": "campaign_activity",
-        "value": 36
+        "value": 40
       },
       {
         "confidence": 0.55,
@@ -472,11 +472,11 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.086,
+        "contribution": 0.087,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 4.5178
+        "value": 4.5913
       }
     ]
   },
@@ -485,7 +485,7 @@
     "external_intelligence": {
       "confidence": "High",
       "headline": "Super Troopers 3: release approaching",
-      "summary": "TMDb popularity rose from 3.6074 to 4.5178. US release is 18 days away on 2026-08-07."
+      "summary": "TMDb popularity rose from 3.6074 to 4.5913. US release is 18 days away on 2026-08-07."
     },
     "last_updated": "2026-08-07",
     "latest_event": {
@@ -523,7 +523,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "675871-ebfb7654f9a2",
+        "event_id": "675871-67e6aa9076a3",
         "event_type": "Distributor Change",
         "film_id": "675871",
         "importance": "Medium",
@@ -532,12 +532,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Searchlight Pictures.",
-        "timestamp": "2026-07-30T15:29:42Z",
+        "timestamp": "2026-07-31T15:34:57Z",
         "title": "Distributor set: Searchlight Pictures"
       },
       {
         "confidence": "Inferred",
-        "event_id": "675871-60b150a897cd",
+        "event_id": "675871-1d3c51f0af4a",
         "event_type": "Awards Tier Changed",
         "film_id": "675871",
         "importance": "Medium",
@@ -547,15 +547,15 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-30T15:29:42Z",
+        "timestamp": "2026-07-31T15:34:57Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],
     "release_relevance": 40.9,
     "screening_room_score": {
       "confidence": "High",
-      "explanation": "TMDb popularity rose from 3.6074 to 4.5178. US release is 18 days away on 2026-08-07.",
-      "score": 8.811
+      "explanation": "TMDb popularity rose from 3.6074 to 4.5913. US release is 18 days away on 2026-08-07.",
+      "score": 8.812
     },
     "watch_triggers": [
       "Prestige Distributor",
@@ -598,7 +598,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "675871-ebfb7654f9a2",
+        "event_id": "675871-67e6aa9076a3",
         "event_type": "Distributor Change",
         "film_id": "675871",
         "importance": "Medium",
@@ -607,12 +607,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Searchlight Pictures.",
-        "timestamp": "2026-07-30T15:29:42Z",
+        "timestamp": "2026-07-31T15:34:57Z",
         "title": "Distributor set: Searchlight Pictures"
       },
       {
         "confidence": "Inferred",
-        "event_id": "675871-60b150a897cd",
+        "event_id": "675871-1d3c51f0af4a",
         "event_type": "Awards Tier Changed",
         "film_id": "675871",
         "importance": "Medium",
@@ -622,12 +622,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-30T15:29:42Z",
+        "timestamp": "2026-07-31T15:34:57Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "675871-0d26b9d6937e",
+        "event_id": "675871-19817aa29f54",
         "event_type": "Added To Database",
         "film_id": "675871",
         "importance": "Low",
@@ -636,7 +636,7 @@
         },
         "source_type": "system",
         "summary": "Super Troopers 3 is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-30T15:29:42Z",
+        "timestamp": "2026-07-31T15:34:57Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -671,7 +671,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "675871-ebfb7654f9a2",
+        "event_id": "675871-67e6aa9076a3",
         "event_type": "Distributor Change",
         "film_id": "675871",
         "importance": "Medium",
@@ -680,12 +680,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Searchlight Pictures.",
-        "timestamp": "2026-07-30T15:29:42Z",
+        "timestamp": "2026-07-31T15:34:57Z",
         "title": "Distributor set: Searchlight Pictures"
       },
       {
         "confidence": "Inferred",
-        "event_id": "675871-60b150a897cd",
+        "event_id": "675871-1d3c51f0af4a",
         "event_type": "Awards Tier Changed",
         "film_id": "675871",
         "importance": "Medium",
@@ -695,7 +695,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-30T15:29:42Z",
+        "timestamp": "2026-07-31T15:34:57Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],

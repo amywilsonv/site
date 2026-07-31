@@ -8,7 +8,7 @@
       "Event Release",
       "Awards Watch"
     ],
-    "attention_score": 68.6,
+    "attention_score": 68.9,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -36,13 +36,13 @@
         "status": "inferred"
       },
       {
-        "evidence": "Trailer URL present",
-        "source": "trailer_available",
+        "evidence": "TMDb popularity 3.7992",
+        "source": "audience_popularity",
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 3.351",
-        "source": "audience_popularity",
+        "evidence": "Trailer URL present",
+        "source": "trailer_available",
         "status": "verified"
       },
       {
@@ -62,14 +62,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 68.6,
+    "homepage_spotlight_score": 68.9,
     "industry_interest": "Moderate",
-    "last_updated": "20260730T152942Z",
+    "last_updated": "20260731T153457Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
         "evidence_count": 2,
-        "score": 12.2,
+        "score": 12.5,
         "statuses": [
           "verified"
         ]
@@ -221,7 +221,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-07-30T15:29:19Z",
+    "generated_at": "2026-07-31T15:34:42Z",
     "headline": "HalloWiebe: Overdrive: popularity increasing",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -241,7 +241,7 @@
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=SpzbCgVXgJY",
-        "tmdb_popularity": 3.351,
+        "tmdb_popularity": 3.7992,
         "tmdb_poster_count": 0,
         "tmdb_release_date_us_primary": "",
         "tmdb_release_date_us_theatrical": "",
@@ -257,14 +257,14 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity rose from 2.4792 to 3.351.",
+    "summary": "TMDb popularity rose from 2.4792 to 3.7992.",
     "supporting_drivers": [
       {
         "confidence_weight": 0.9,
         "driver_type": "popularity_increasing",
-        "evidence": "TMDb popularity rose from 2.4792 to 3.351.",
+        "evidence": "TMDb popularity rose from 2.4792 to 3.7992.",
         "label": "Popularity increasing",
-        "retrieved_at": "2026-07-30T15:29:19Z",
+        "retrieved_at": "2026-07-31T15:34:42Z",
         "source_metric": "tmdb_popularity",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -273,7 +273,7 @@
   },
   "media": {
     "canonical_trailer": {
-      "retrieved_at": "2026-07-30",
+      "retrieved_at": "2026-07-31",
       "site": "YouTube",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1620873/videos",
@@ -285,7 +285,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260730T152942Z",
+    "generated_at": "20260731T153457Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -293,25 +293,25 @@
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 3.351,
-        "retrieved_at": "2026-07-30",
+        "popularity": 3.7992,
+        "retrieved_at": "2026-07-31",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1620873",
         "status": "not_yet_rated"
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-07-30",
+      "retrieved_at": "2026-07-31",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1620873",
-      "value": 3.351
+      "value": 3.7992
     },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 3.351,
-      "retrieved_at": "2026-07-30",
+      "popularity": 3.7992,
+      "retrieved_at": "2026-07-31",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1620873",
       "status": "not_yet_rated"
@@ -354,17 +354,6 @@
         "tmdb_id": "1567149"
       },
       {
-        "profile_url": "film.html?id=656908",
-        "relationship_score": 56,
-        "shared_signals": [
-          "General Watch",
-          "Craft Categories",
-          "Unknown"
-        ],
-        "title": "Ramayana",
-        "tmdb_id": "656908"
-      },
-      {
         "profile_url": "film.html?id=1729128",
         "relationship_score": 56,
         "shared_signals": [
@@ -385,6 +374,18 @@
         ],
         "title": "Coyote vs. Acme",
         "tmdb_id": "1204680"
+      },
+      {
+        "profile_url": "film.html?id=1185806",
+        "relationship_score": 48,
+        "shared_signals": [
+          "Adventure",
+          "Comedy",
+          "Craft Categories",
+          "Unknown"
+        ],
+        "title": "PAW Patrol: The Dino Movie",
+        "tmdb_id": "1185806"
       }
     ],
     "related_people": [
@@ -430,14 +431,14 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.064,
+      "audience_momentum": 0.072,
       "awards_relevance": 0.8,
       "campaign_activity": 1.35,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-07-30T15:29:19Z",
+    "generated_at": "2026-07-31T15:34:42Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 5.539,
+    "score": 5.547,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -474,11 +475,11 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.064,
+        "contribution": 0.072,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 3.351
+        "value": 3.7992
       }
     ]
   },
@@ -487,7 +488,7 @@
     "external_intelligence": {
       "confidence": "High",
       "headline": "HalloWiebe: Overdrive: popularity increasing",
-      "summary": "TMDb popularity rose from 2.4792 to 3.351."
+      "summary": "TMDb popularity rose from 2.4792 to 3.7992."
     },
     "last_updated": "2026-09-23",
     "latest_event": {
@@ -525,7 +526,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1620873-0f5176e7eff2",
+        "event_id": "1620873-a577bd34449c",
         "event_type": "Awards Tier Changed",
         "film_id": "1620873",
         "importance": "Medium",
@@ -537,12 +538,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-07-30T15:29:42Z",
+        "timestamp": "2026-07-31T15:34:57Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1620873-ca99bc11a65e",
+        "event_id": "1620873-37e5bc41b8b1",
         "event_type": "Added To Database",
         "film_id": "1620873",
         "importance": "Low",
@@ -551,15 +552,15 @@
         },
         "source_type": "system",
         "summary": "HalloWiebe: Overdrive is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-30T15:29:42Z",
+        "timestamp": "2026-07-31T15:34:57Z",
         "title": "Added to Awards Intelligence"
       }
     ],
     "release_relevance": 31.1,
     "screening_room_score": {
       "confidence": "High",
-      "explanation": "TMDb popularity rose from 2.4792 to 3.351.",
-      "score": 5.539
+      "explanation": "TMDb popularity rose from 2.4792 to 3.7992.",
+      "score": 5.547
     },
     "watch_triggers": [
       "Awards-Season Release",
@@ -602,7 +603,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1620873-0f5176e7eff2",
+        "event_id": "1620873-a577bd34449c",
         "event_type": "Awards Tier Changed",
         "film_id": "1620873",
         "importance": "Medium",
@@ -614,12 +615,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-07-30T15:29:42Z",
+        "timestamp": "2026-07-31T15:34:57Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1620873-ca99bc11a65e",
+        "event_id": "1620873-37e5bc41b8b1",
         "event_type": "Added To Database",
         "film_id": "1620873",
         "importance": "Low",
@@ -628,7 +629,7 @@
         },
         "source_type": "system",
         "summary": "HalloWiebe: Overdrive is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-30T15:29:42Z",
+        "timestamp": "2026-07-31T15:34:57Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -663,7 +664,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1620873-0f5176e7eff2",
+        "event_id": "1620873-a577bd34449c",
         "event_type": "Awards Tier Changed",
         "film_id": "1620873",
         "importance": "Medium",
@@ -675,12 +676,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-07-30T15:29:42Z",
+        "timestamp": "2026-07-31T15:34:57Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1620873-ca99bc11a65e",
+        "event_id": "1620873-37e5bc41b8b1",
         "event_type": "Added To Database",
         "film_id": "1620873",
         "importance": "Low",
@@ -689,7 +690,7 @@
         },
         "source_type": "system",
         "summary": "HalloWiebe: Overdrive is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-30T15:29:42Z",
+        "timestamp": "2026-07-31T15:34:57Z",
         "title": "Added to Awards Intelligence"
       }
     ],
