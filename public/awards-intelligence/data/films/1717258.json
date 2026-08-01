@@ -7,7 +7,7 @@
       "Major Filmmaker",
       "Awards Watch"
     ],
-    "attention_score": 35.1,
+    "attention_score": 35.2,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -45,20 +45,20 @@
         "status": "inferred"
       },
       {
-        "evidence": "TMDb popularity 0.1183",
+        "evidence": "TMDb popularity 0.1767",
         "source": "audience_popularity",
         "status": "verified"
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 35.1,
+    "homepage_spotlight_score": 35.2,
     "industry_interest": null,
-    "last_updated": "20260731T153457Z",
+    "last_updated": "20260801T144338Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
         "evidence_count": 2,
-        "score": 8.3,
+        "score": 8.4,
         "statuses": [
           "verified"
         ]
@@ -192,10 +192,10 @@
     "tmdb_id": "1717258"
   },
   "intelligence": {
-    "confidence": "Low",
-    "confidence_score": 0.25,
-    "generated_at": "2026-07-31T15:34:42Z",
-    "headline": "Travel Reminiscence: no material change detected",
+    "confidence": "High",
+    "confidence_score": 0.99,
+    "generated_at": "2026-08-01T14:43:15Z",
+    "headline": "Travel Reminiscence: popularity increasing",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
       "signal_values": {
@@ -214,7 +214,7 @@
         "tmdb_backdrop_count": 1,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=YyIq-bBG-Po",
-        "tmdb_popularity": 0.1183,
+        "tmdb_popularity": 0.1767,
         "tmdb_poster_count": 3,
         "tmdb_release_date_us_primary": "",
         "tmdb_release_date_us_theatrical": "",
@@ -230,12 +230,23 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "Current provider signals do not show a supported material change.",
-    "supporting_drivers": []
+    "summary": "TMDb popularity rose from 0.1359 to 0.1767.",
+    "supporting_drivers": [
+      {
+        "confidence_weight": 0.9,
+        "driver_type": "popularity_increasing",
+        "evidence": "TMDb popularity rose from 0.1359 to 0.1767.",
+        "label": "Popularity increasing",
+        "retrieved_at": "2026-08-01T14:43:15Z",
+        "source_metric": "tmdb_popularity",
+        "source_provider": "tmdb",
+        "source_status": "available"
+      }
+    ]
   },
   "media": {
     "canonical_trailer": {
-      "retrieved_at": "2026-07-31",
+      "retrieved_at": "2026-08-01",
       "site": "YouTube",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1717258/videos",
@@ -247,7 +258,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260731T153457Z",
+    "generated_at": "20260801T144338Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -255,31 +266,31 @@
     "box_office": {
       "budget": 2640,
       "currency": "USD",
-      "retrieved_at": "2026-07-31",
+      "retrieved_at": "2026-08-01",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1717258"
     },
     "ratings": {
       "tmdb": {
-        "popularity": 0.1183,
-        "retrieved_at": "2026-07-31",
+        "popularity": 0.1767,
+        "retrieved_at": "2026-08-01",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1717258",
         "status": "not_yet_rated"
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-07-31",
+      "retrieved_at": "2026-08-01",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1717258",
-      "value": 0.1183
+      "value": 0.1767
     },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 0.1183,
-      "retrieved_at": "2026-07-31",
+      "popularity": 0.1767,
+      "retrieved_at": "2026-08-01",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1717258",
       "status": "not_yet_rated"
@@ -397,14 +408,14 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.002,
+      "audience_momentum": 0.003,
       "awards_relevance": 0.8,
       "campaign_activity": 1.35,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-07-31T15:34:42Z",
+    "generated_at": "2026-08-01T14:43:15Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 5.477,
+    "score": 5.478,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -441,20 +452,20 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.002,
+        "contribution": 0.003,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 0.1183
+        "value": 0.1767
       }
     ]
   },
   "signals": {
     "cultural_significance": 0,
     "external_intelligence": {
-      "confidence": "Low",
-      "headline": "Travel Reminiscence: no material change detected",
-      "summary": "Current provider signals do not show a supported material change."
+      "confidence": "High",
+      "headline": "Travel Reminiscence: popularity increasing",
+      "summary": "TMDb popularity rose from 0.1359 to 0.1767."
     },
     "last_updated": "2026-10-04",
     "latest_event": {
@@ -492,7 +503,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1717258-5e661348a6ff",
+        "event_id": "1717258-a4b60fad5e8b",
         "event_type": "Awards Tier Changed",
         "film_id": "1717258",
         "importance": "Medium",
@@ -504,12 +515,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-31T15:34:57Z",
+        "timestamp": "2026-08-01T14:43:38Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1717258-da421c72d1b6",
+        "event_id": "1717258-fc1b5c95da31",
         "event_type": "Added To Database",
         "film_id": "1717258",
         "importance": "Low",
@@ -518,15 +529,15 @@
         },
         "source_type": "system",
         "summary": "Travel Reminiscence is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-31T15:34:57Z",
+        "timestamp": "2026-08-01T14:43:38Z",
         "title": "Added to Awards Intelligence"
       }
     ],
     "release_relevance": 25.4,
     "screening_room_score": {
-      "confidence": "Low",
-      "explanation": "Current provider signals do not show a supported material change.",
-      "score": 5.477
+      "confidence": "High",
+      "explanation": "TMDb popularity rose from 0.1359 to 0.1767.",
+      "score": 5.478
     },
     "watch_triggers": [
       "Awards-Season Release",
@@ -570,7 +581,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1717258-5e661348a6ff",
+        "event_id": "1717258-a4b60fad5e8b",
         "event_type": "Awards Tier Changed",
         "film_id": "1717258",
         "importance": "Medium",
@@ -582,12 +593,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-31T15:34:57Z",
+        "timestamp": "2026-08-01T14:43:38Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1717258-da421c72d1b6",
+        "event_id": "1717258-fc1b5c95da31",
         "event_type": "Added To Database",
         "film_id": "1717258",
         "importance": "Low",
@@ -596,7 +607,7 @@
         },
         "source_type": "system",
         "summary": "Travel Reminiscence is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-31T15:34:57Z",
+        "timestamp": "2026-08-01T14:43:38Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -631,7 +642,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1717258-5e661348a6ff",
+        "event_id": "1717258-a4b60fad5e8b",
         "event_type": "Awards Tier Changed",
         "film_id": "1717258",
         "importance": "Medium",
@@ -643,12 +654,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-31T15:34:57Z",
+        "timestamp": "2026-08-01T14:43:38Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1717258-da421c72d1b6",
+        "event_id": "1717258-fc1b5c95da31",
         "event_type": "Added To Database",
         "film_id": "1717258",
         "importance": "Low",
@@ -657,7 +668,7 @@
         },
         "source_type": "system",
         "summary": "Travel Reminiscence is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-31T15:34:57Z",
+        "timestamp": "2026-08-01T14:43:38Z",
         "title": "Added to Awards Intelligence"
       }
     ],

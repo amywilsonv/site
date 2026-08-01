@@ -2,7 +2,7 @@
   "events": [
     {
       "confidence": "Inferred",
-      "event_id": "1620682-aeeb983dcacd",
+      "event_id": "1620682-ede123530c93",
       "event_type": "Distributor Change",
       "film_id": "1620682",
       "importance": "Medium",
@@ -11,12 +11,12 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Netflix.",
-      "timestamp": "2026-07-31T15:34:57Z",
+      "timestamp": "2026-08-01T14:43:38Z",
       "title": "Distributor set: Netflix"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1620682-6e97a485ee86",
+      "event_id": "1620682-56e0f230a49c",
       "event_type": "Awards Tier Changed",
       "film_id": "1620682",
       "importance": "Medium",
@@ -26,12 +26,12 @@
       },
       "source_type": "editorial_model",
       "summary": "insufficient credible awards evidence",
-      "timestamp": "2026-07-31T15:34:57Z",
+      "timestamp": "2026-08-01T14:43:38Z",
       "title": "Awards tier assigned: No Current Awards Case"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1620682-c09a52d5adcd",
+      "event_id": "1620682-5856dd02e69a",
       "event_type": "Added To Database",
       "film_id": "1620682",
       "importance": "Low",
@@ -40,7 +40,7 @@
       },
       "source_type": "system",
       "summary": "Love in Slow Motion is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-07-31T15:34:57Z",
+      "timestamp": "2026-08-01T14:43:38Z",
       "title": "Added to Awards Intelligence"
     },
     {
@@ -60,7 +60,7 @@
   ],
   "latest_event": {
     "confidence": "Inferred",
-    "event_id": "1620682-aeeb983dcacd",
+    "event_id": "1620682-ede123530c93",
     "event_type": "Distributor Change",
     "film_id": "1620682",
     "importance": "Medium",
@@ -69,13 +69,13 @@
     },
     "source_type": "metadata",
     "summary": "Current distributor is Netflix.",
-    "timestamp": "2026-07-31T15:34:57Z",
+    "timestamp": "2026-08-01T14:43:38Z",
     "title": "Distributor set: Netflix"
   },
   "metadata": {
     "event_count": 4,
     "film_id": "1620682",
-    "generated_at": "20260731T153457Z",
+    "generated_at": "20260801T144338Z",
     "timeline_version": "phase6b",
     "title": "Love in Slow Motion",
     "tmdb_id": "1620682"

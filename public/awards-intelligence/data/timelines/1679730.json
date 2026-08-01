@@ -16,7 +16,7 @@
     },
     {
       "confidence": "Inferred",
-      "event_id": "1679730-5fe4508302ca",
+      "event_id": "1679730-846eac594508",
       "event_type": "Distributor Change",
       "film_id": "1679730",
       "importance": "Medium",
@@ -25,12 +25,12 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Netflix.",
-      "timestamp": "2026-07-31T15:34:57Z",
+      "timestamp": "2026-08-01T14:43:38Z",
       "title": "Distributor set: Netflix"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1679730-895ab1f0f79e",
+      "event_id": "1679730-04a42d96f4fc",
       "event_type": "Awards Tier Changed",
       "film_id": "1679730",
       "importance": "Medium",
@@ -46,12 +46,12 @@
       },
       "source_type": "editorial_model",
       "summary": "category-specific awards case without broader contender evidence",
-      "timestamp": "2026-07-31T15:34:57Z",
+      "timestamp": "2026-08-01T14:43:38Z",
       "title": "Awards tier assigned: Category Contender"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1679730-6e008a4e0dc6",
+      "event_id": "1679730-1e48690863c3",
       "event_type": "Added To Database",
       "film_id": "1679730",
       "importance": "Low",
@@ -60,7 +60,7 @@
       },
       "source_type": "system",
       "summary": "THE RIBBON HERO is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-07-31T15:34:57Z",
+      "timestamp": "2026-08-01T14:43:38Z",
       "title": "Added to Awards Intelligence"
     }
   ],
@@ -81,7 +81,7 @@
   "metadata": {
     "event_count": 4,
     "film_id": "1679730",
-    "generated_at": "20260731T153457Z",
+    "generated_at": "20260801T144338Z",
     "timeline_version": "phase6b",
     "title": "THE RIBBON HERO",
     "tmdb_id": "1679730"

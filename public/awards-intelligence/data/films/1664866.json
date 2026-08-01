@@ -6,7 +6,7 @@
       "Most Anticipated",
       "Major Filmmaker"
     ],
-    "attention_score": 20.8,
+    "attention_score": 20.7,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -34,20 +34,20 @@
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 0.1229",
+        "evidence": "TMDb popularity 0.0745",
         "source": "audience_popularity",
         "status": "verified"
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 20.8,
+    "homepage_spotlight_score": 20.7,
     "industry_interest": null,
-    "last_updated": "20260731T153457Z",
+    "last_updated": "20260801T144338Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
         "evidence_count": 2,
-        "score": 8.3,
+        "score": 8.2,
         "statuses": [
           "verified"
         ]
@@ -170,7 +170,7 @@
   "intelligence": {
     "confidence": "Low",
     "confidence_score": 0.25,
-    "generated_at": "2026-07-31T15:34:42Z",
+    "generated_at": "2026-08-01T14:43:15Z",
     "headline": "Wired Together: no material change detected",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -190,7 +190,7 @@
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=5dK_2SuX9nY",
-        "tmdb_popularity": 0.1229,
+        "tmdb_popularity": 0.0745,
         "tmdb_poster_count": 0,
         "tmdb_release_date_us_primary": "2026-10-24",
         "tmdb_release_date_us_theatrical": "",
@@ -211,7 +211,7 @@
   },
   "media": {
     "canonical_trailer": {
-      "retrieved_at": "2026-07-31",
+      "retrieved_at": "2026-08-01",
       "site": "YouTube",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1664866/videos",
@@ -223,7 +223,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260731T153457Z",
+    "generated_at": "20260801T144338Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -231,31 +231,31 @@
     "box_office": {
       "budget": 300,
       "currency": "USD",
-      "retrieved_at": "2026-07-31",
+      "retrieved_at": "2026-08-01",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1664866"
     },
     "ratings": {
       "tmdb": {
-        "popularity": 0.1229,
-        "retrieved_at": "2026-07-31",
+        "popularity": 0.0745,
+        "retrieved_at": "2026-08-01",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1664866",
         "status": "not_yet_rated"
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-07-31",
+      "retrieved_at": "2026-08-01",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1664866",
-      "value": 0.1229
+      "value": 0.0745
     },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 0.1229,
-      "retrieved_at": "2026-07-31",
+      "popularity": 0.0745,
+      "retrieved_at": "2026-08-01",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1664866",
       "status": "not_yet_rated"
@@ -347,13 +347,13 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.002,
+      "audience_momentum": 0.001,
       "campaign_activity": 1.35,
       "talent_profile": 0.925
     },
-    "generated_at": "2026-07-31T15:34:42Z",
+    "generated_at": "2026-08-01T14:43:15Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 2.277,
+    "score": 2.276,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -382,11 +382,11 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.002,
+        "contribution": 0.001,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 0.1229
+        "value": 0.0745
       }
     ]
   },
@@ -433,7 +433,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1664866-fefb28b5fa4c",
+        "event_id": "1664866-e6f53e0eb178",
         "event_type": "Awards Tier Changed",
         "film_id": "1664866",
         "importance": "Medium",
@@ -443,12 +443,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-31T15:34:57Z",
+        "timestamp": "2026-08-01T14:43:38Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1664866-a28dacab4dad",
+        "event_id": "1664866-c47641f3546e",
         "event_type": "Added To Database",
         "film_id": "1664866",
         "importance": "Low",
@@ -457,7 +457,7 @@
         },
         "source_type": "system",
         "summary": "Wired Together is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-31T15:34:57Z",
+        "timestamp": "2026-08-01T14:43:38Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -465,7 +465,7 @@
     "screening_room_score": {
       "confidence": "Low",
       "explanation": "Current provider signals do not show a supported material change.",
-      "score": 2.277
+      "score": 2.276
     },
     "watch_triggers": [
       "Awards-Season Release",
@@ -502,7 +502,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1664866-fefb28b5fa4c",
+        "event_id": "1664866-e6f53e0eb178",
         "event_type": "Awards Tier Changed",
         "film_id": "1664866",
         "importance": "Medium",
@@ -512,12 +512,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-31T15:34:57Z",
+        "timestamp": "2026-08-01T14:43:38Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1664866-a28dacab4dad",
+        "event_id": "1664866-c47641f3546e",
         "event_type": "Added To Database",
         "film_id": "1664866",
         "importance": "Low",
@@ -526,7 +526,7 @@
         },
         "source_type": "system",
         "summary": "Wired Together is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-31T15:34:57Z",
+        "timestamp": "2026-08-01T14:43:38Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -561,7 +561,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1664866-fefb28b5fa4c",
+        "event_id": "1664866-e6f53e0eb178",
         "event_type": "Awards Tier Changed",
         "film_id": "1664866",
         "importance": "Medium",
@@ -571,12 +571,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-31T15:34:57Z",
+        "timestamp": "2026-08-01T14:43:38Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1664866-a28dacab4dad",
+        "event_id": "1664866-c47641f3546e",
         "event_type": "Added To Database",
         "film_id": "1664866",
         "importance": "Low",
@@ -585,7 +585,7 @@
         },
         "source_type": "system",
         "summary": "Wired Together is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-31T15:34:57Z",
+        "timestamp": "2026-08-01T14:43:38Z",
         "title": "Added to Awards Intelligence"
       }
     ],

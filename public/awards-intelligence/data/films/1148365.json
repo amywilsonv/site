@@ -21,7 +21,7 @@
         "status": "inferred"
       },
       {
-        "evidence": "TMDb popularity 11.2478",
+        "evidence": "TMDb popularity 11.1728",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -59,7 +59,7 @@
     "homepage_spotlight_override": null,
     "homepage_spotlight_score": 64.6,
     "industry_interest": null,
-    "last_updated": "20260731T153457Z",
+    "last_updated": "20260801T144338Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
@@ -213,7 +213,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-07-31T15:34:42Z",
+    "generated_at": "2026-08-01T14:43:15Z",
     "headline": "Matchbox: The Movie: popularity increasing",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -233,7 +233,7 @@
         "tmdb_backdrop_count": 3,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=7xfqITrMDcI",
-        "tmdb_popularity": 11.2478,
+        "tmdb_popularity": 11.1728,
         "tmdb_poster_count": 6,
         "tmdb_release_date_us_primary": "2026-10-08",
         "tmdb_release_date_us_theatrical": "",
@@ -249,14 +249,14 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity rose from 10.5302 to 11.2478.",
+    "summary": "TMDb popularity rose from 10.5302 to 11.1728.",
     "supporting_drivers": [
       {
         "confidence_weight": 0.9,
         "driver_type": "popularity_increasing",
-        "evidence": "TMDb popularity rose from 10.5302 to 11.2478.",
+        "evidence": "TMDb popularity rose from 10.5302 to 11.1728.",
         "label": "Popularity increasing",
-        "retrieved_at": "2026-07-31T15:34:42Z",
+        "retrieved_at": "2026-08-01T14:43:15Z",
         "source_metric": "tmdb_popularity",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -265,7 +265,7 @@
   },
   "media": {
     "canonical_trailer": {
-      "retrieved_at": "2026-07-31",
+      "retrieved_at": "2026-08-01",
       "site": "YouTube",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1148365/videos",
@@ -277,7 +277,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260731T153457Z",
+    "generated_at": "20260801T144338Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -285,25 +285,25 @@
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 11.2478,
-        "retrieved_at": "2026-07-31",
+        "popularity": 11.1728,
+        "retrieved_at": "2026-08-01",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1148365",
         "status": "not_yet_rated"
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-07-31",
+      "retrieved_at": "2026-08-01",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1148365",
-      "value": 11.2478
+      "value": 11.1728
     },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 11.2478,
-      "retrieved_at": "2026-07-31",
+      "popularity": 11.1728,
+      "retrieved_at": "2026-08-01",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1148365",
       "status": "not_yet_rated"
@@ -428,14 +428,14 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.214,
+      "audience_momentum": 0.212,
       "awards_relevance": 0.8,
       "campaign_activity": 2.7,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-07-31T15:34:42Z",
+    "generated_at": "2026-08-01T14:43:15Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 7.039,
+    "score": 7.037,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -472,11 +472,11 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.214,
+        "contribution": 0.212,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 11.2478
+        "value": 11.1728
       }
     ]
   },
@@ -485,7 +485,7 @@
     "external_intelligence": {
       "confidence": "High",
       "headline": "Matchbox: The Movie: popularity increasing",
-      "summary": "TMDb popularity rose from 10.5302 to 11.2478."
+      "summary": "TMDb popularity rose from 10.5302 to 11.1728."
     },
     "last_updated": "2026-10-08",
     "latest_event": {
@@ -523,7 +523,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1148365-b983e11ec8a3",
+        "event_id": "1148365-f29f17951ef2",
         "event_type": "Distributor Change",
         "film_id": "1148365",
         "importance": "Medium",
@@ -532,12 +532,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Apple TV.",
-        "timestamp": "2026-07-31T15:34:57Z",
+        "timestamp": "2026-08-01T14:43:38Z",
         "title": "Distributor set: Apple TV"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1148365-94f2ac456ff4",
+        "event_id": "1148365-8b6f533a71ec",
         "event_type": "Awards Tier Changed",
         "film_id": "1148365",
         "importance": "Medium",
@@ -549,15 +549,15 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-31T15:34:57Z",
+        "timestamp": "2026-08-01T14:43:38Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],
     "release_relevance": 29.4,
     "screening_room_score": {
       "confidence": "High",
-      "explanation": "TMDb popularity rose from 10.5302 to 11.2478.",
-      "score": 7.039
+      "explanation": "TMDb popularity rose from 10.5302 to 11.1728.",
+      "score": 7.037
     },
     "watch_triggers": [
       "Prestige Distributor",
@@ -600,7 +600,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1148365-b983e11ec8a3",
+        "event_id": "1148365-f29f17951ef2",
         "event_type": "Distributor Change",
         "film_id": "1148365",
         "importance": "Medium",
@@ -609,12 +609,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Apple TV.",
-        "timestamp": "2026-07-31T15:34:57Z",
+        "timestamp": "2026-08-01T14:43:38Z",
         "title": "Distributor set: Apple TV"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1148365-94f2ac456ff4",
+        "event_id": "1148365-8b6f533a71ec",
         "event_type": "Awards Tier Changed",
         "film_id": "1148365",
         "importance": "Medium",
@@ -626,12 +626,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-31T15:34:57Z",
+        "timestamp": "2026-08-01T14:43:38Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1148365-267a63e7eabe",
+        "event_id": "1148365-8d59691fa4d5",
         "event_type": "Added To Database",
         "film_id": "1148365",
         "importance": "Low",
@@ -640,7 +640,7 @@
         },
         "source_type": "system",
         "summary": "Matchbox: The Movie is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-31T15:34:57Z",
+        "timestamp": "2026-08-01T14:43:38Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -675,7 +675,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1148365-b983e11ec8a3",
+        "event_id": "1148365-f29f17951ef2",
         "event_type": "Distributor Change",
         "film_id": "1148365",
         "importance": "Medium",
@@ -684,12 +684,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Apple TV.",
-        "timestamp": "2026-07-31T15:34:57Z",
+        "timestamp": "2026-08-01T14:43:38Z",
         "title": "Distributor set: Apple TV"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1148365-94f2ac456ff4",
+        "event_id": "1148365-8b6f533a71ec",
         "event_type": "Awards Tier Changed",
         "film_id": "1148365",
         "importance": "Medium",
@@ -701,7 +701,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-31T15:34:57Z",
+        "timestamp": "2026-08-01T14:43:38Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],

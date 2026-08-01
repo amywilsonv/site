@@ -16,7 +16,7 @@
     "early_reception": null,
     "evidence_sources": [
       {
-        "evidence": "TMDb popularity 1519.85",
+        "evidence": "TMDb popularity 1812.7",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -36,7 +36,7 @@
         "status": "inferred"
       },
       {
-        "evidence": "Principal cast listed: Tom Holland, Zendaya, Sadie Sink, Jacob Batalon",
+        "evidence": "Principal cast listed: Tom Holland, Zendaya, Mark Ruffalo, Jon Bernthal",
         "source": "cast_interest",
         "status": "verified"
       },
@@ -61,7 +61,7 @@
         "status": "inferred"
       },
       {
-        "evidence": "324",
+        "evidence": "455",
         "source": "tmdb_vote_count",
         "status": "verified"
       }
@@ -69,7 +69,7 @@
     "homepage_spotlight_override": null,
     "homepage_spotlight_score": 96.4,
     "industry_interest": "High",
-    "last_updated": "20260731T153457Z",
+    "last_updated": "20260801T144338Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
@@ -199,7 +199,7 @@
     "premiere_type": ""
   },
   "film_identity": {
-    "backdrop": "https://image.tmdb.org/t/p/original/vjMvFSmGUxEtqVdaZgvFee9XkZl.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/qeQJx07rK2xm8SD2sJxFKhE7gs0.jpg",
     "country": [
       "US"
     ],
@@ -225,7 +225,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-07-31T15:34:42Z",
+    "generated_at": "2026-08-01T14:43:15Z",
     "headline": "Spider-Man: Brand New Day: release approaching",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -245,30 +245,30 @@
         "tmdb_backdrop_count": 5,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=P3uI5sLosKU",
-        "tmdb_popularity": 1519.851,
-        "tmdb_poster_count": 101,
+        "tmdb_popularity": 1812.7019,
+        "tmdb_poster_count": 94,
         "tmdb_release_date_us_primary": "2026-07-31",
         "tmdb_release_date_us_theatrical": "2026-07-31",
         "tmdb_release_status": "Released",
         "tmdb_vote_average": 8.0,
-        "tmdb_vote_count": 324,
+        "tmdb_vote_count": 455,
         "tmdb_watch_provider_count_us": 0,
         "trailer_available": true,
-        "trailer_count": 149,
+        "trailer_count": 159,
         "trailer_url": "https://www.youtube.com/watch?v=P3uI5sLosKU"
       },
       "source_signal_count": 26,
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity rose from 211.904 to 1519.85. US release is 11 days away on 2026-07-31.",
+    "summary": "TMDb popularity rose from 211.904 to 1812.7. US release is 11 days away on 2026-07-31.",
     "supporting_drivers": [
       {
         "confidence_weight": 0.9,
         "driver_type": "popularity_increasing",
-        "evidence": "TMDb popularity rose from 211.904 to 1519.85.",
+        "evidence": "TMDb popularity rose from 211.904 to 1812.7.",
         "label": "Popularity increasing",
-        "retrieved_at": "2026-07-31T15:34:42Z",
+        "retrieved_at": "2026-08-01T14:43:15Z",
         "source_metric": "tmdb_popularity",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -278,7 +278,7 @@
         "driver_type": "release_approaching",
         "evidence": "US release is 11 days away on 2026-07-31.",
         "label": "Release approaching",
-        "retrieved_at": "2026-07-31T15:34:42Z",
+        "retrieved_at": "2026-08-01T14:43:15Z",
         "source_metric": "tmdb_release_date_us_primary",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -287,7 +287,7 @@
   },
   "media": {
     "canonical_trailer": {
-      "retrieved_at": "2026-07-31",
+      "retrieved_at": "2026-08-01",
       "site": "YouTube",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/969681/videos",
@@ -299,7 +299,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260731T153457Z",
+    "generated_at": "20260801T144338Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -307,39 +307,39 @@
     "box_office": {
       "budget": 225000000,
       "currency": "USD",
-      "retrieved_at": "2026-07-31",
-      "revenue": 50000000,
+      "retrieved_at": "2026-08-01",
+      "revenue": 167500000,
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/969681"
     },
     "ratings": {
       "tmdb": {
-        "popularity": 1519.851,
-        "retrieved_at": "2026-07-31",
+        "popularity": 1812.7019,
+        "retrieved_at": "2026-08-01",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/969681",
         "status": "rated",
         "vote_average": 8.0,
-        "vote_count": 324
+        "vote_count": 455
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-07-31",
+      "retrieved_at": "2026-08-01",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/969681",
-      "value": 1519.851
+      "value": 1812.7019
     },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 1519.851,
-      "retrieved_at": "2026-07-31",
+      "popularity": 1812.7019,
+      "retrieved_at": "2026-08-01",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/969681",
       "status": "rated",
       "vote_average": 8.0,
-      "vote_count": 324
+      "vote_count": 455
     }
   },
   "related": {
@@ -431,11 +431,7 @@
         "role": "actor"
       },
       {
-        "name": "Sadie Sink",
-        "role": "actor"
-      },
-      {
-        "name": "Jacob Batalon",
+        "name": "Mark Ruffalo",
         "role": "actor"
       },
       {
@@ -443,7 +439,11 @@
         "role": "actor"
       },
       {
-        "name": "Tramell Tillman",
+        "name": "Jacob Batalon",
+        "role": "actor"
+      },
+      {
+        "name": "Sadie Sink",
         "role": "actor"
       }
     ],
@@ -472,15 +472,15 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 21.462,
+      "audience_momentum": 22.458,
       "audience_quality": 7.6,
       "awards_relevance": 0.8,
       "campaign_activity": 5.4,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-07-31T15:34:42Z",
+    "generated_at": "2026-08-01T14:43:15Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 38.587,
+    "score": 39.583,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -489,7 +489,7 @@
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 1519.851
+        "value": 1812.7019
       },
       {
         "confidence": 0.95,
@@ -505,15 +505,15 @@
         "metric_name": "trailer_count",
         "provider": "trailers",
         "score_family": "campaign_activity",
-        "value": 149
+        "value": 159
       },
       {
         "confidence": 0.95,
-        "contribution": 2.462,
+        "contribution": 3.458,
         "metric_name": "tmdb_vote_count",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 324
+        "value": 455
       },
       {
         "confidence": 0.55,
@@ -530,12 +530,12 @@
     "external_intelligence": {
       "confidence": "High",
       "headline": "Spider-Man: Brand New Day: release approaching",
-      "summary": "TMDb popularity rose from 211.904 to 1519.85. US release is 11 days away on 2026-07-31."
+      "summary": "TMDb popularity rose from 211.904 to 1812.7. US release is 11 days away on 2026-07-31."
     },
-    "last_updated": "2026-07-31T15:34:57Z",
+    "last_updated": "2026-08-01T14:43:38Z",
     "latest_event": {
       "confidence": "Inferred",
-      "event_id": "969681-f57779c35d34",
+      "event_id": "969681-55ff084d5635",
       "event_type": "Homepage Featured",
       "film_id": "969681",
       "importance": "Medium",
@@ -544,7 +544,7 @@
       },
       "source_type": "discovery_homepage",
       "summary": "Spider-Man: Brand New Day is currently selected for the homepage experience.",
-      "timestamp": "2026-07-31T15:34:57Z",
+      "timestamp": "2026-08-01T14:43:38Z",
       "title": "Featured in The Screening Room"
     },
     "latest_intelligence": "As of 2026-07-18, this is a Columbia Pictures release dated 2026-07-31 with Craft Categories relevance; current awards profile is Craft Potential and data status is developing.",
@@ -554,7 +554,7 @@
     "recent_activity": [
       {
         "confidence": "Inferred",
-        "event_id": "969681-f57779c35d34",
+        "event_id": "969681-55ff084d5635",
         "event_type": "Homepage Featured",
         "film_id": "969681",
         "importance": "Medium",
@@ -563,12 +563,12 @@
         },
         "source_type": "discovery_homepage",
         "summary": "Spider-Man: Brand New Day is currently selected for the homepage experience.",
-        "timestamp": "2026-07-31T15:34:57Z",
+        "timestamp": "2026-08-01T14:43:38Z",
         "title": "Featured in The Screening Room"
       },
       {
         "confidence": "Inferred",
-        "event_id": "969681-8a210756beed",
+        "event_id": "969681-95e366f6571a",
         "event_type": "Distributor Change",
         "film_id": "969681",
         "importance": "Medium",
@@ -577,12 +577,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Columbia Pictures.",
-        "timestamp": "2026-07-31T15:34:57Z",
+        "timestamp": "2026-08-01T14:43:38Z",
         "title": "Distributor set: Columbia Pictures"
       },
       {
         "confidence": "Inferred",
-        "event_id": "969681-ded7d6dbdf6b",
+        "event_id": "969681-fad068c4cb68",
         "event_type": "Awards Tier Changed",
         "film_id": "969681",
         "importance": "Medium",
@@ -594,15 +594,15 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-07-31T15:34:57Z",
+        "timestamp": "2026-08-01T14:43:38Z",
         "title": "Awards tier assigned: Emerging"
       }
     ],
     "release_relevance": 66.0,
     "screening_room_score": {
       "confidence": "High",
-      "explanation": "TMDb popularity rose from 211.904 to 1519.85. US release is 11 days away on 2026-07-31.",
-      "score": 38.587
+      "explanation": "TMDb popularity rose from 211.904 to 1812.7. US release is 11 days away on 2026-07-31.",
+      "score": 39.583
     },
     "watch_triggers": [
       "Major Studio/Streamer",
@@ -618,12 +618,12 @@
     "principal_cast": [
       "Tom Holland",
       "Zendaya",
-      "Sadie Sink",
-      "Jacob Batalon",
+      "Mark Ruffalo",
       "Jon Bernthal",
-      "Tramell Tillman",
-      "Michael Mando",
-      "Mark Ruffalo"
+      "Jacob Batalon",
+      "Sadie Sink",
+      "Florence Pugh",
+      "Liza Col\u00f3n-Zayas"
     ],
     "producers": [],
     "writers": []
@@ -632,7 +632,7 @@
     "events": [
       {
         "confidence": "Inferred",
-        "event_id": "969681-f57779c35d34",
+        "event_id": "969681-55ff084d5635",
         "event_type": "Homepage Featured",
         "film_id": "969681",
         "importance": "Medium",
@@ -641,12 +641,12 @@
         },
         "source_type": "discovery_homepage",
         "summary": "Spider-Man: Brand New Day is currently selected for the homepage experience.",
-        "timestamp": "2026-07-31T15:34:57Z",
+        "timestamp": "2026-08-01T14:43:38Z",
         "title": "Featured in The Screening Room"
       },
       {
         "confidence": "Inferred",
-        "event_id": "969681-8a210756beed",
+        "event_id": "969681-95e366f6571a",
         "event_type": "Distributor Change",
         "film_id": "969681",
         "importance": "Medium",
@@ -655,12 +655,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Columbia Pictures.",
-        "timestamp": "2026-07-31T15:34:57Z",
+        "timestamp": "2026-08-01T14:43:38Z",
         "title": "Distributor set: Columbia Pictures"
       },
       {
         "confidence": "Inferred",
-        "event_id": "969681-ded7d6dbdf6b",
+        "event_id": "969681-fad068c4cb68",
         "event_type": "Awards Tier Changed",
         "film_id": "969681",
         "importance": "Medium",
@@ -672,12 +672,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-07-31T15:34:57Z",
+        "timestamp": "2026-08-01T14:43:38Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "969681-6a5adc93f004",
+        "event_id": "969681-a04470d9770c",
         "event_type": "Added To Database",
         "film_id": "969681",
         "importance": "Low",
@@ -686,7 +686,7 @@
         },
         "source_type": "system",
         "summary": "Spider-Man: Brand New Day is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-31T15:34:57Z",
+        "timestamp": "2026-08-01T14:43:38Z",
         "title": "Added to Awards Intelligence"
       },
       {
@@ -706,7 +706,7 @@
     ],
     "latest_event": {
       "confidence": "Inferred",
-      "event_id": "969681-f57779c35d34",
+      "event_id": "969681-55ff084d5635",
       "event_type": "Homepage Featured",
       "film_id": "969681",
       "importance": "Medium",
@@ -715,13 +715,13 @@
       },
       "source_type": "discovery_homepage",
       "summary": "Spider-Man: Brand New Day is currently selected for the homepage experience.",
-      "timestamp": "2026-07-31T15:34:57Z",
+      "timestamp": "2026-08-01T14:43:38Z",
       "title": "Featured in The Screening Room"
     },
     "recent_activity": [
       {
         "confidence": "Inferred",
-        "event_id": "969681-f57779c35d34",
+        "event_id": "969681-55ff084d5635",
         "event_type": "Homepage Featured",
         "film_id": "969681",
         "importance": "Medium",
@@ -730,12 +730,12 @@
         },
         "source_type": "discovery_homepage",
         "summary": "Spider-Man: Brand New Day is currently selected for the homepage experience.",
-        "timestamp": "2026-07-31T15:34:57Z",
+        "timestamp": "2026-08-01T14:43:38Z",
         "title": "Featured in The Screening Room"
       },
       {
         "confidence": "Inferred",
-        "event_id": "969681-8a210756beed",
+        "event_id": "969681-95e366f6571a",
         "event_type": "Distributor Change",
         "film_id": "969681",
         "importance": "Medium",
@@ -744,12 +744,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Columbia Pictures.",
-        "timestamp": "2026-07-31T15:34:57Z",
+        "timestamp": "2026-08-01T14:43:38Z",
         "title": "Distributor set: Columbia Pictures"
       },
       {
         "confidence": "Inferred",
-        "event_id": "969681-ded7d6dbdf6b",
+        "event_id": "969681-fad068c4cb68",
         "event_type": "Awards Tier Changed",
         "film_id": "969681",
         "importance": "Medium",
@@ -761,7 +761,7 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-07-31T15:34:57Z",
+        "timestamp": "2026-08-01T14:43:38Z",
         "title": "Awards tier assigned: Emerging"
       }
     ],

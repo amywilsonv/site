@@ -8,7 +8,7 @@
       "Event Release",
       "Awards Watch"
     ],
-    "attention_score": 67.5,
+    "attention_score": 67.8,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -36,7 +36,7 @@
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 5.3237",
+        "evidence": "TMDb popularity 5.7157",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -62,14 +62,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 67.5,
+    "homepage_spotlight_score": 67.8,
     "industry_interest": null,
-    "last_updated": "20260731T153457Z",
+    "last_updated": "20260801T144338Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
         "evidence_count": 2,
-        "score": 13.9,
+        "score": 14.2,
         "statuses": [
           "verified"
         ]
@@ -221,7 +221,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-07-31T15:34:42Z",
+    "generated_at": "2026-08-01T14:43:15Z",
     "headline": "The Last House: release approaching",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -241,7 +241,7 @@
         "tmdb_backdrop_count": 1,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=MLxgaz2Zp1k",
-        "tmdb_popularity": 5.3237,
+        "tmdb_popularity": 5.7157,
         "tmdb_poster_count": 7,
         "tmdb_release_date_us_primary": "2026-08-07",
         "tmdb_release_date_us_theatrical": "",
@@ -257,14 +257,14 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity rose from 4.5252 to 5.3237. US release is 18 days away on 2026-08-07.",
+    "summary": "TMDb popularity rose from 4.5252 to 5.7157. US release is 18 days away on 2026-08-07.",
     "supporting_drivers": [
       {
         "confidence_weight": 0.9,
         "driver_type": "popularity_increasing",
-        "evidence": "TMDb popularity rose from 4.5252 to 5.3237.",
+        "evidence": "TMDb popularity rose from 4.5252 to 5.7157.",
         "label": "Popularity increasing",
-        "retrieved_at": "2026-07-31T15:34:42Z",
+        "retrieved_at": "2026-08-01T14:43:15Z",
         "source_metric": "tmdb_popularity",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -274,7 +274,7 @@
         "driver_type": "release_approaching",
         "evidence": "US release is 18 days away on 2026-08-07.",
         "label": "Release approaching",
-        "retrieved_at": "2026-07-31T15:34:42Z",
+        "retrieved_at": "2026-08-01T14:43:15Z",
         "source_metric": "tmdb_release_date_us_primary",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -283,7 +283,7 @@
   },
   "media": {
     "canonical_trailer": {
-      "retrieved_at": "2026-07-31",
+      "retrieved_at": "2026-08-01",
       "site": "YouTube",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1284041/videos",
@@ -295,7 +295,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260731T153457Z",
+    "generated_at": "20260801T144338Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -303,25 +303,25 @@
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 5.3237,
-        "retrieved_at": "2026-07-31",
+        "popularity": 5.7157,
+        "retrieved_at": "2026-08-01",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1284041",
         "status": "not_yet_rated"
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-07-31",
+      "retrieved_at": "2026-08-01",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1284041",
-      "value": 5.3237
+      "value": 5.7157
     },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 5.3237,
-      "retrieved_at": "2026-07-31",
+      "popularity": 5.7157,
+      "retrieved_at": "2026-08-01",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1284041",
       "status": "not_yet_rated"
@@ -350,17 +350,6 @@
         ],
         "title": "Narnia: The Magician's Nephew",
         "tmdb_id": "1147572"
-      },
-      {
-        "profile_url": "film.html?id=1631807",
-        "relationship_score": 42,
-        "shared_signals": [
-          "General Watch",
-          "Thriller",
-          "Netflix"
-        ],
-        "title": "The Secret Woman",
-        "tmdb_id": "1631807"
       },
       {
         "profile_url": "film.html?id=1659155",
@@ -394,6 +383,17 @@
         ],
         "title": "Beasts Clutching at Straws",
         "tmdb_id": "1670061"
+      },
+      {
+        "profile_url": "film.html?id=1698185",
+        "relationship_score": 38,
+        "shared_signals": [
+          "General Watch",
+          "Horror",
+          "Thriller"
+        ],
+        "title": "I Wish This Was Real",
+        "tmdb_id": "1698185"
       }
     ],
     "related_people": [
@@ -443,14 +443,14 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.101,
+      "audience_momentum": 0.109,
       "awards_relevance": 0.8,
       "campaign_activity": 1.35,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-07-31T15:34:42Z",
+    "generated_at": "2026-08-01T14:43:15Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 5.576,
+    "score": 5.584,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -487,11 +487,11 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.101,
+        "contribution": 0.109,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 5.3237
+        "value": 5.7157
       }
     ]
   },
@@ -500,7 +500,7 @@
     "external_intelligence": {
       "confidence": "High",
       "headline": "The Last House: release approaching",
-      "summary": "TMDb popularity rose from 4.5252 to 5.3237. US release is 18 days away on 2026-08-07."
+      "summary": "TMDb popularity rose from 4.5252 to 5.7157. US release is 18 days away on 2026-08-07."
     },
     "last_updated": "2026-08-07",
     "latest_event": {
@@ -538,7 +538,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1284041-f79bd1195585",
+        "event_id": "1284041-4f80107166e0",
         "event_type": "Distributor Change",
         "film_id": "1284041",
         "importance": "Medium",
@@ -547,12 +547,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-07-31T15:34:57Z",
+        "timestamp": "2026-08-01T14:43:38Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1284041-976d1c84cfa2",
+        "event_id": "1284041-fbeae3f73994",
         "event_type": "Awards Tier Changed",
         "film_id": "1284041",
         "importance": "Medium",
@@ -564,15 +564,15 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-31T15:34:57Z",
+        "timestamp": "2026-08-01T14:43:38Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],
     "release_relevance": 36.8,
     "screening_room_score": {
       "confidence": "High",
-      "explanation": "TMDb popularity rose from 4.5252 to 5.3237. US release is 18 days away on 2026-08-07.",
-      "score": 5.576
+      "explanation": "TMDb popularity rose from 4.5252 to 5.7157. US release is 18 days away on 2026-08-07.",
+      "score": 5.584
     },
     "watch_triggers": [
       "Prestige Distributor",
@@ -615,7 +615,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1284041-f79bd1195585",
+        "event_id": "1284041-4f80107166e0",
         "event_type": "Distributor Change",
         "film_id": "1284041",
         "importance": "Medium",
@@ -624,12 +624,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-07-31T15:34:57Z",
+        "timestamp": "2026-08-01T14:43:38Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1284041-976d1c84cfa2",
+        "event_id": "1284041-fbeae3f73994",
         "event_type": "Awards Tier Changed",
         "film_id": "1284041",
         "importance": "Medium",
@@ -641,12 +641,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-31T15:34:57Z",
+        "timestamp": "2026-08-01T14:43:38Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1284041-b2f502810f79",
+        "event_id": "1284041-f48ba8999109",
         "event_type": "Added To Database",
         "film_id": "1284041",
         "importance": "Low",
@@ -655,7 +655,7 @@
         },
         "source_type": "system",
         "summary": "The Last House is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-31T15:34:57Z",
+        "timestamp": "2026-08-01T14:43:38Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -690,7 +690,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1284041-f79bd1195585",
+        "event_id": "1284041-4f80107166e0",
         "event_type": "Distributor Change",
         "film_id": "1284041",
         "importance": "Medium",
@@ -699,12 +699,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-07-31T15:34:57Z",
+        "timestamp": "2026-08-01T14:43:38Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1284041-976d1c84cfa2",
+        "event_id": "1284041-fbeae3f73994",
         "event_type": "Awards Tier Changed",
         "film_id": "1284041",
         "importance": "Medium",
@@ -716,7 +716,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-31T15:34:57Z",
+        "timestamp": "2026-08-01T14:43:38Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],
