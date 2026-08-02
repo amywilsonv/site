@@ -16,7 +16,7 @@
     },
     {
       "confidence": "Inferred",
-      "event_id": "1440098-820565c0c603",
+      "event_id": "1440098-f0427d77188a",
       "event_type": "Awards Tier Changed",
       "film_id": "1440098",
       "importance": "Medium",
@@ -26,12 +26,12 @@
       },
       "source_type": "editorial_model",
       "summary": "insufficient credible awards evidence",
-      "timestamp": "2026-08-01T14:43:38Z",
+      "timestamp": "2026-08-02T14:46:10Z",
       "title": "Awards tier assigned: No Current Awards Case"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1440098-9bfd4e8862ec",
+      "event_id": "1440098-9062d03bdf36",
       "event_type": "Added To Database",
       "film_id": "1440098",
       "importance": "Low",
@@ -40,7 +40,7 @@
       },
       "source_type": "system",
       "summary": "Drawn Together is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-08-01T14:43:38Z",
+      "timestamp": "2026-08-02T14:46:10Z",
       "title": "Added to Awards Intelligence"
     }
   ],
@@ -61,7 +61,7 @@
   "metadata": {
     "event_count": 3,
     "film_id": "1440098",
-    "generated_at": "20260801T144338Z",
+    "generated_at": "20260802T144610Z",
     "timeline_version": "phase6b",
     "title": "Drawn Together",
     "tmdb_id": "1440098"

@@ -16,7 +16,7 @@
     },
     {
       "confidence": "Inferred",
-      "event_id": "1504358-c791690e246e",
+      "event_id": "1504358-8d036bfffa71",
       "event_type": "Distributor Change",
       "film_id": "1504358",
       "importance": "Medium",
@@ -25,12 +25,12 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Netflix.",
-      "timestamp": "2026-08-01T14:43:38Z",
+      "timestamp": "2026-08-02T14:46:10Z",
       "title": "Distributor set: Netflix"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1504358-e13978d609c3",
+      "event_id": "1504358-92673e14e95b",
       "event_type": "Awards Tier Changed",
       "film_id": "1504358",
       "importance": "Medium",
@@ -45,12 +45,12 @@
       },
       "source_type": "editorial_model",
       "summary": "insufficient credible awards evidence",
-      "timestamp": "2026-08-01T14:43:38Z",
+      "timestamp": "2026-08-02T14:46:10Z",
       "title": "Awards tier assigned: No Current Awards Case"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1504358-643fff38b6a2",
+      "event_id": "1504358-d170e2c8a046",
       "event_type": "Added To Database",
       "film_id": "1504358",
       "importance": "Low",
@@ -59,7 +59,7 @@
       },
       "source_type": "system",
       "summary": "Don't Say Good Luck is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-08-01T14:43:38Z",
+      "timestamp": "2026-08-02T14:46:10Z",
       "title": "Added to Awards Intelligence"
     }
   ],
@@ -80,7 +80,7 @@
   "metadata": {
     "event_count": 4,
     "film_id": "1504358",
-    "generated_at": "20260801T144338Z",
+    "generated_at": "20260802T144610Z",
     "timeline_version": "phase6b",
     "title": "Don't Say Good Luck",
     "tmdb_id": "1504358"

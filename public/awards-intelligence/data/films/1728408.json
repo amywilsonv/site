@@ -6,7 +6,7 @@
       "Most Anticipated",
       "Major Filmmaker"
     ],
-    "attention_score": 28.4,
+    "attention_score": 28.5,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -34,20 +34,20 @@
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 0.5212",
+        "evidence": "TMDb popularity 0.5639",
         "source": "audience_popularity",
         "status": "verified"
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 28.4,
+    "homepage_spotlight_score": 28.5,
     "industry_interest": null,
-    "last_updated": "20260801T144338Z",
+    "last_updated": "20260802T144610Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
         "evidence_count": 2,
-        "score": 9.2,
+        "score": 9.3,
         "statuses": [
           "verified"
         ]
@@ -179,7 +179,7 @@
   "intelligence": {
     "confidence": "Low",
     "confidence_score": 0.25,
-    "generated_at": "2026-08-01T14:43:15Z",
+    "generated_at": "2026-08-02T14:45:55Z",
     "headline": "Nightmare School \u2013 The Mystery of Professor Marabecca: no material change detected",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -199,7 +199,7 @@
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=cQBWB8Q13Tk",
-        "tmdb_popularity": 0.5212,
+        "tmdb_popularity": 0.5639,
         "tmdb_poster_count": 0,
         "tmdb_release_date_us_primary": "",
         "tmdb_release_date_us_theatrical": "",
@@ -220,7 +220,7 @@
   },
   "media": {
     "canonical_trailer": {
-      "retrieved_at": "2026-08-01",
+      "retrieved_at": "2026-08-02",
       "site": "YouTube",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1728408/videos",
@@ -232,7 +232,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260801T144338Z",
+    "generated_at": "20260802T144610Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -240,25 +240,25 @@
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 0.5212,
-        "retrieved_at": "2026-08-01",
+        "popularity": 0.5639,
+        "retrieved_at": "2026-08-02",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1728408",
         "status": "not_yet_rated"
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-08-01",
+      "retrieved_at": "2026-08-02",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1728408",
-      "value": 0.5212
+      "value": 0.5639
     },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 0.5212,
-      "retrieved_at": "2026-08-01",
+      "popularity": 0.5639,
+      "retrieved_at": "2026-08-02",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1728408",
       "status": "not_yet_rated"
@@ -389,13 +389,13 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.01,
+      "audience_momentum": 0.011,
       "campaign_activity": 2.7,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-01T14:43:15Z",
+    "generated_at": "2026-08-02T14:45:55Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 6.035,
+    "score": 6.036,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -424,11 +424,11 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.01,
+        "contribution": 0.011,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 0.5212
+        "value": 0.5639
       }
     ]
   },
@@ -475,7 +475,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1728408-fbf05aef860f",
+        "event_id": "1728408-ebcf6e3d3718",
         "event_type": "Awards Tier Changed",
         "film_id": "1728408",
         "importance": "Medium",
@@ -485,12 +485,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-01T14:43:38Z",
+        "timestamp": "2026-08-02T14:46:10Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1728408-019183c8d356",
+        "event_id": "1728408-9d0f12dc631b",
         "event_type": "Added To Database",
         "film_id": "1728408",
         "importance": "Low",
@@ -499,7 +499,7 @@
         },
         "source_type": "system",
         "summary": "Nightmare School \u2013 The Mystery of Professor Marabecca is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-01T14:43:38Z",
+        "timestamp": "2026-08-02T14:46:10Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -507,7 +507,7 @@
     "screening_room_score": {
       "confidence": "Low",
       "explanation": "Current provider signals do not show a supported material change.",
-      "score": 6.035
+      "score": 6.036
     },
     "watch_triggers": [
       "Awards-Season Release",
@@ -550,7 +550,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1728408-fbf05aef860f",
+        "event_id": "1728408-ebcf6e3d3718",
         "event_type": "Awards Tier Changed",
         "film_id": "1728408",
         "importance": "Medium",
@@ -560,12 +560,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-01T14:43:38Z",
+        "timestamp": "2026-08-02T14:46:10Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1728408-019183c8d356",
+        "event_id": "1728408-9d0f12dc631b",
         "event_type": "Added To Database",
         "film_id": "1728408",
         "importance": "Low",
@@ -574,7 +574,7 @@
         },
         "source_type": "system",
         "summary": "Nightmare School \u2013 The Mystery of Professor Marabecca is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-01T14:43:38Z",
+        "timestamp": "2026-08-02T14:46:10Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -609,7 +609,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1728408-fbf05aef860f",
+        "event_id": "1728408-ebcf6e3d3718",
         "event_type": "Awards Tier Changed",
         "film_id": "1728408",
         "importance": "Medium",
@@ -619,12 +619,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-01T14:43:38Z",
+        "timestamp": "2026-08-02T14:46:10Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1728408-019183c8d356",
+        "event_id": "1728408-9d0f12dc631b",
         "event_type": "Added To Database",
         "film_id": "1728408",
         "importance": "Low",
@@ -633,7 +633,7 @@
         },
         "source_type": "system",
         "summary": "Nightmare School \u2013 The Mystery of Professor Marabecca is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-01T14:43:38Z",
+        "timestamp": "2026-08-02T14:46:10Z",
         "title": "Added to Awards Intelligence"
       }
     ],

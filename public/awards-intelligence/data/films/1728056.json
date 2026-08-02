@@ -7,7 +7,7 @@
       "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 49.3,
+    "attention_score": 49.5,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -40,13 +40,13 @@
         "status": "inferred"
       },
       {
-        "evidence": "Director: Liana Stewart",
-        "source": "filmmaker_interest",
+        "evidence": "TMDb popularity 1.2554",
+        "source": "audience_popularity",
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 1.0876",
-        "source": "audience_popularity",
+        "evidence": "Director: Liana Stewart",
+        "source": "filmmaker_interest",
         "status": "verified"
       },
       {
@@ -56,14 +56,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 49.3,
+    "homepage_spotlight_score": 49.5,
     "industry_interest": null,
-    "last_updated": "20260801T144338Z",
+    "last_updated": "20260802T144610Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
         "evidence_count": 2,
-        "score": 10.1,
+        "score": 10.3,
         "statuses": [
           "verified"
         ]
@@ -201,7 +201,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-08-01T14:43:15Z",
+    "generated_at": "2026-08-02T14:45:55Z",
     "headline": "Big Chicken: A Fast Food Conspiracy: release approaching",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -221,11 +221,11 @@
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=7sGkQM6TyQU",
-        "tmdb_popularity": 1.0876,
+        "tmdb_popularity": 1.2554,
         "tmdb_poster_count": 1,
         "tmdb_release_date_us_primary": "2026-08-05",
         "tmdb_release_date_us_theatrical": "",
-        "tmdb_release_status": "Post Production",
+        "tmdb_release_status": "Released",
         "tmdb_vote_average": 0,
         "tmdb_vote_count": 0,
         "tmdb_watch_provider_count_us": 0,
@@ -244,7 +244,7 @@
         "driver_type": "release_approaching",
         "evidence": "US release is 16 days away on 2026-08-05.",
         "label": "Release approaching",
-        "retrieved_at": "2026-08-01T14:43:15Z",
+        "retrieved_at": "2026-08-02T14:45:55Z",
         "source_metric": "tmdb_release_date_us_primary",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -253,7 +253,7 @@
   },
   "media": {
     "canonical_trailer": {
-      "retrieved_at": "2026-08-01",
+      "retrieved_at": "2026-08-02",
       "site": "YouTube",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1728056/videos",
@@ -265,7 +265,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260801T144338Z",
+    "generated_at": "20260802T144610Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -273,25 +273,25 @@
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 1.0876,
-        "retrieved_at": "2026-08-01",
+        "popularity": 1.2554,
+        "retrieved_at": "2026-08-02",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1728056",
         "status": "not_yet_rated"
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-08-01",
+      "retrieved_at": "2026-08-02",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1728056",
-      "value": 1.0876
+      "value": 1.2554
     },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 1.0876,
-      "retrieved_at": "2026-08-01",
+      "popularity": 1.2554,
+      "retrieved_at": "2026-08-02",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1728056",
       "status": "not_yet_rated"
@@ -385,13 +385,13 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.021,
+      "audience_momentum": 0.024,
       "campaign_activity": 1.35,
       "talent_profile": 0.525
     },
-    "generated_at": "2026-08-01T14:43:15Z",
+    "generated_at": "2026-08-02T14:45:55Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 1.896,
+    "score": 1.899,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -420,11 +420,11 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.021,
+        "contribution": 0.024,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 1.0876
+        "value": 1.2554
       }
     ]
   },
@@ -471,7 +471,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1728056-d404f428ffb6",
+        "event_id": "1728056-8c0181110f6a",
         "event_type": "Distributor Change",
         "film_id": "1728056",
         "importance": "Medium",
@@ -480,12 +480,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-01T14:43:38Z",
+        "timestamp": "2026-08-02T14:46:10Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1728056-52dac76d3aef",
+        "event_id": "1728056-0845ed25e8d5",
         "event_type": "Awards Tier Changed",
         "film_id": "1728056",
         "importance": "Medium",
@@ -495,7 +495,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-01T14:43:38Z",
+        "timestamp": "2026-08-02T14:46:10Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],
@@ -503,7 +503,7 @@
     "screening_room_score": {
       "confidence": "High",
       "explanation": "US release is 16 days away on 2026-08-05.",
-      "score": 1.896
+      "score": 1.899
     },
     "watch_triggers": [
       "Prestige Distributor",
@@ -537,7 +537,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1728056-d404f428ffb6",
+        "event_id": "1728056-8c0181110f6a",
         "event_type": "Distributor Change",
         "film_id": "1728056",
         "importance": "Medium",
@@ -546,12 +546,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-01T14:43:38Z",
+        "timestamp": "2026-08-02T14:46:10Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1728056-52dac76d3aef",
+        "event_id": "1728056-0845ed25e8d5",
         "event_type": "Awards Tier Changed",
         "film_id": "1728056",
         "importance": "Medium",
@@ -561,12 +561,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-01T14:43:38Z",
+        "timestamp": "2026-08-02T14:46:10Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1728056-deb84bcfe2f7",
+        "event_id": "1728056-874de1a1d2ee",
         "event_type": "Added To Database",
         "film_id": "1728056",
         "importance": "Low",
@@ -575,7 +575,7 @@
         },
         "source_type": "system",
         "summary": "Big Chicken: A Fast Food Conspiracy is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-01T14:43:38Z",
+        "timestamp": "2026-08-02T14:46:10Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -610,7 +610,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1728056-d404f428ffb6",
+        "event_id": "1728056-8c0181110f6a",
         "event_type": "Distributor Change",
         "film_id": "1728056",
         "importance": "Medium",
@@ -619,12 +619,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-01T14:43:38Z",
+        "timestamp": "2026-08-02T14:46:10Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1728056-52dac76d3aef",
+        "event_id": "1728056-0845ed25e8d5",
         "event_type": "Awards Tier Changed",
         "film_id": "1728056",
         "importance": "Medium",
@@ -634,7 +634,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-01T14:43:38Z",
+        "timestamp": "2026-08-02T14:46:10Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],

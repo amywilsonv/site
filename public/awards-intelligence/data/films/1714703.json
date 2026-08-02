@@ -56,7 +56,7 @@
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 0.0985",
+        "evidence": "TMDb popularity 0.125",
         "source": "audience_popularity",
         "status": "verified"
       }
@@ -64,7 +64,7 @@
     "homepage_spotlight_override": null,
     "homepage_spotlight_score": 63.1,
     "industry_interest": "Moderate",
-    "last_updated": "20260801T144338Z",
+    "last_updated": "20260802T144610Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
@@ -229,7 +229,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-08-01T14:43:15Z",
+    "generated_at": "2026-08-02T14:45:55Z",
     "headline": "The Essentials 2: release approaching",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -249,7 +249,7 @@
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=OKCEAsMUma0",
-        "tmdb_popularity": 0.0985,
+        "tmdb_popularity": 0.125,
         "tmdb_poster_count": 0,
         "tmdb_release_date_us_primary": "2026-08-29",
         "tmdb_release_date_us_theatrical": "",
@@ -272,7 +272,7 @@
         "driver_type": "release_approaching",
         "evidence": "US release is 40 days away on 2026-08-29.",
         "label": "Release approaching",
-        "retrieved_at": "2026-08-01T14:43:15Z",
+        "retrieved_at": "2026-08-02T14:45:55Z",
         "source_metric": "tmdb_release_date_us_primary",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -281,7 +281,7 @@
   },
   "media": {
     "canonical_trailer": {
-      "retrieved_at": "2026-08-01",
+      "retrieved_at": "2026-08-02",
       "site": "YouTube",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1714703/videos",
@@ -293,7 +293,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260801T144338Z",
+    "generated_at": "20260802T144610Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -301,25 +301,25 @@
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 0.0985,
-        "retrieved_at": "2026-08-01",
+        "popularity": 0.125,
+        "retrieved_at": "2026-08-02",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1714703",
         "status": "not_yet_rated"
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-08-01",
+      "retrieved_at": "2026-08-02",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1714703",
-      "value": 0.0985
+      "value": 0.125
     },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 0.0985,
-      "retrieved_at": "2026-08-01",
+      "popularity": 0.125,
+      "retrieved_at": "2026-08-02",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1714703",
       "status": "not_yet_rated"
@@ -440,7 +440,7 @@
       "campaign_activity": 2.7,
       "talent_profile": 2.525
     },
-    "generated_at": "2026-08-01T14:43:15Z",
+    "generated_at": "2026-08-02T14:45:55Z",
     "schema_version": "phase3_screening_room_score_v1",
     "score": 8.427,
     "source": "derived_screening_room_score",
@@ -483,7 +483,7 @@
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 0.0985
+        "value": 0.125
       }
     ]
   },
@@ -530,7 +530,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1714703-2c71b72f7f75",
+        "event_id": "1714703-41faf6f9633d",
         "event_type": "Awards Tier Changed",
         "film_id": "1714703",
         "importance": "Medium",
@@ -545,12 +545,12 @@
         },
         "source_type": "editorial_model",
         "summary": "category-specific awards case without broader contender evidence",
-        "timestamp": "2026-08-01T14:43:38Z",
+        "timestamp": "2026-08-02T14:46:10Z",
         "title": "Awards tier assigned: Category Contender"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1714703-4d49c8353692",
+        "event_id": "1714703-4b233fa10b77",
         "event_type": "Added To Database",
         "film_id": "1714703",
         "importance": "Low",
@@ -559,7 +559,7 @@
         },
         "source_type": "system",
         "summary": "The Essentials 2 is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-01T14:43:38Z",
+        "timestamp": "2026-08-02T14:46:10Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -609,7 +609,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1714703-2c71b72f7f75",
+        "event_id": "1714703-41faf6f9633d",
         "event_type": "Awards Tier Changed",
         "film_id": "1714703",
         "importance": "Medium",
@@ -624,12 +624,12 @@
         },
         "source_type": "editorial_model",
         "summary": "category-specific awards case without broader contender evidence",
-        "timestamp": "2026-08-01T14:43:38Z",
+        "timestamp": "2026-08-02T14:46:10Z",
         "title": "Awards tier assigned: Category Contender"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1714703-4d49c8353692",
+        "event_id": "1714703-4b233fa10b77",
         "event_type": "Added To Database",
         "film_id": "1714703",
         "importance": "Low",
@@ -638,7 +638,7 @@
         },
         "source_type": "system",
         "summary": "The Essentials 2 is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-01T14:43:38Z",
+        "timestamp": "2026-08-02T14:46:10Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -673,7 +673,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1714703-2c71b72f7f75",
+        "event_id": "1714703-41faf6f9633d",
         "event_type": "Awards Tier Changed",
         "film_id": "1714703",
         "importance": "Medium",
@@ -688,12 +688,12 @@
         },
         "source_type": "editorial_model",
         "summary": "category-specific awards case without broader contender evidence",
-        "timestamp": "2026-08-01T14:43:38Z",
+        "timestamp": "2026-08-02T14:46:10Z",
         "title": "Awards tier assigned: Category Contender"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1714703-4d49c8353692",
+        "event_id": "1714703-4b233fa10b77",
         "event_type": "Added To Database",
         "film_id": "1714703",
         "importance": "Low",
@@ -702,7 +702,7 @@
         },
         "source_type": "system",
         "summary": "The Essentials 2 is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-01T14:43:38Z",
+        "timestamp": "2026-08-02T14:46:10Z",
         "title": "Added to Awards Intelligence"
       }
     ],

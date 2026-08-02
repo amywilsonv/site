@@ -16,7 +16,7 @@
     },
     {
       "confidence": "Inferred",
-      "event_id": "1503762-3d7ac31e24b6",
+      "event_id": "1503762-df0e601a8683",
       "event_type": "Distributor Change",
       "film_id": "1503762",
       "importance": "Medium",
@@ -25,12 +25,12 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Focus Features.",
-      "timestamp": "2026-08-01T14:43:38Z",
+      "timestamp": "2026-08-02T14:46:10Z",
       "title": "Distributor set: Focus Features"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1503762-64c81351cba1",
+      "event_id": "1503762-aa6da5a03229",
       "event_type": "Awards Tier Changed",
       "film_id": "1503762",
       "importance": "Medium",
@@ -45,12 +45,12 @@
       },
       "source_type": "editorial_model",
       "summary": "insufficient credible awards evidence",
-      "timestamp": "2026-08-01T14:43:38Z",
+      "timestamp": "2026-08-02T14:46:10Z",
       "title": "Awards tier assigned: No Current Awards Case"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1503762-b2fbe95de1ca",
+      "event_id": "1503762-82a1729f4208",
       "event_type": "Added To Database",
       "film_id": "1503762",
       "importance": "Low",
@@ -59,7 +59,7 @@
       },
       "source_type": "system",
       "summary": "Sense and Sensibility is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-08-01T14:43:38Z",
+      "timestamp": "2026-08-02T14:46:10Z",
       "title": "Added to Awards Intelligence"
     }
   ],
@@ -80,7 +80,7 @@
   "metadata": {
     "event_count": 4,
     "film_id": "1503762",
-    "generated_at": "20260801T144338Z",
+    "generated_at": "20260802T144610Z",
     "timeline_version": "phase6b",
     "title": "Sense and Sensibility",
     "tmdb_id": "1503762"

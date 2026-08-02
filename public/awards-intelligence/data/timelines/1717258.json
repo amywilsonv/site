@@ -16,7 +16,7 @@
     },
     {
       "confidence": "Inferred",
-      "event_id": "1717258-a4b60fad5e8b",
+      "event_id": "1717258-56a52a2485a7",
       "event_type": "Awards Tier Changed",
       "film_id": "1717258",
       "importance": "Medium",
@@ -28,12 +28,12 @@
       },
       "source_type": "editorial_model",
       "summary": "insufficient credible awards evidence",
-      "timestamp": "2026-08-01T14:43:38Z",
+      "timestamp": "2026-08-02T14:46:10Z",
       "title": "Awards tier assigned: No Current Awards Case"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1717258-fc1b5c95da31",
+      "event_id": "1717258-3874ac09894a",
       "event_type": "Added To Database",
       "film_id": "1717258",
       "importance": "Low",
@@ -42,7 +42,7 @@
       },
       "source_type": "system",
       "summary": "Travel Reminiscence is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-08-01T14:43:38Z",
+      "timestamp": "2026-08-02T14:46:10Z",
       "title": "Added to Awards Intelligence"
     }
   ],
@@ -63,7 +63,7 @@
   "metadata": {
     "event_count": 3,
     "film_id": "1717258",
-    "generated_at": "20260801T144338Z",
+    "generated_at": "20260802T144610Z",
     "timeline_version": "phase6b",
     "title": "Travel Reminiscence",
     "tmdb_id": "1717258"

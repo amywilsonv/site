@@ -8,9 +8,9 @@
       "Event Release",
       "Awards Watch"
     ],
-    "attention_score": 84.8,
+    "attention_score": 87.2,
     "attention_version": "phase7e_attention_v1",
-    "audience_interest": "Developing",
+    "audience_interest": "Moderate",
     "conversation_level": "Unavailable",
     "cultural_relevance": "High",
     "early_reception": null,
@@ -21,7 +21,7 @@
         "status": "inferred"
       },
       {
-        "evidence": "TMDb popularity 18.7584",
+        "evidence": "TMDb popularity 30.3762",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -62,14 +62,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 84.8,
+    "homepage_spotlight_score": 87.2,
     "industry_interest": "High",
-    "last_updated": "20260801T144338Z",
+    "last_updated": "20260802T144610Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
         "evidence_count": 2,
-        "score": 19.8,
+        "score": 22.2,
         "statuses": [
           "verified"
         ]
@@ -223,7 +223,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-08-01T14:43:15Z",
+    "generated_at": "2026-08-02T14:45:55Z",
     "headline": "Jumanji: Open World: popularity increasing",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -243,7 +243,7 @@
         "tmdb_backdrop_count": 1,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=zhApeaHMvfs",
-        "tmdb_popularity": 18.7584,
+        "tmdb_popularity": 30.3762,
         "tmdb_poster_count": 1,
         "tmdb_release_date_us_primary": "2026-12-25",
         "tmdb_release_date_us_theatrical": "2026-12-25",
@@ -259,14 +259,14 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity rose from 5.2008 to 18.7584. A canonical TMDb trailer URL is available.",
+    "summary": "TMDb popularity rose from 5.2008 to 30.3762. A canonical TMDb trailer URL is available.",
     "supporting_drivers": [
       {
         "confidence_weight": 0.9,
         "driver_type": "popularity_increasing",
-        "evidence": "TMDb popularity rose from 5.2008 to 18.7584.",
+        "evidence": "TMDb popularity rose from 5.2008 to 30.3762.",
         "label": "Popularity increasing",
-        "retrieved_at": "2026-08-01T14:43:15Z",
+        "retrieved_at": "2026-08-02T14:45:55Z",
         "source_metric": "tmdb_popularity",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -276,7 +276,7 @@
         "driver_type": "trailer_available",
         "evidence": "A canonical TMDb trailer URL is available.",
         "label": "Trailer available",
-        "retrieved_at": "2026-08-01T14:43:15Z",
+        "retrieved_at": "2026-08-02T14:45:55Z",
         "source_metric": "tmdb_canonical_trailer_url",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -285,7 +285,7 @@
   },
   "media": {
     "canonical_trailer": {
-      "retrieved_at": "2026-08-01",
+      "retrieved_at": "2026-08-02",
       "site": "YouTube",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1260649/videos",
@@ -297,7 +297,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260801T144338Z",
+    "generated_at": "20260802T144610Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -305,25 +305,25 @@
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 18.7584,
-        "retrieved_at": "2026-08-01",
+        "popularity": 30.3762,
+        "retrieved_at": "2026-08-02",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1260649",
         "status": "not_yet_rated"
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-08-01",
+      "retrieved_at": "2026-08-02",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1260649",
-      "value": 18.7584
+      "value": 30.3762
     },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 18.7584,
-      "retrieved_at": "2026-08-01",
+      "popularity": 30.3762,
+      "retrieved_at": "2026-08-02",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1260649",
       "status": "not_yet_rated"
@@ -463,14 +463,14 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.356,
+      "audience_momentum": 0.577,
       "awards_relevance": 0.8,
       "campaign_activity": 5.4,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-01T14:43:15Z",
+    "generated_at": "2026-08-02T14:45:55Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 9.881,
+    "score": 10.102,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -507,11 +507,11 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.356,
+        "contribution": 0.577,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 18.7584
+        "value": 30.3762
       }
     ]
   },
@@ -520,7 +520,7 @@
     "external_intelligence": {
       "confidence": "High",
       "headline": "Jumanji: Open World: popularity increasing",
-      "summary": "TMDb popularity rose from 5.2008 to 18.7584. A canonical TMDb trailer URL is available."
+      "summary": "TMDb popularity rose from 5.2008 to 30.3762. A canonical TMDb trailer URL is available."
     },
     "last_updated": "2026-12-25",
     "latest_event": {
@@ -558,7 +558,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1260649-ddef9a61bcf4",
+        "event_id": "1260649-314f30b1c4a9",
         "event_type": "Distributor Change",
         "film_id": "1260649",
         "importance": "Medium",
@@ -567,12 +567,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Columbia Pictures.",
-        "timestamp": "2026-08-01T14:43:38Z",
+        "timestamp": "2026-08-02T14:46:10Z",
         "title": "Distributor set: Columbia Pictures"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1260649-360602d639da",
+        "event_id": "1260649-1f1b8b16ba3a",
         "event_type": "Awards Tier Changed",
         "film_id": "1260649",
         "importance": "Medium",
@@ -584,15 +584,15 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-08-01T14:43:38Z",
+        "timestamp": "2026-08-02T14:46:10Z",
         "title": "Awards tier assigned: Emerging"
       }
     ],
     "release_relevance": 27.2,
     "screening_room_score": {
       "confidence": "High",
-      "explanation": "TMDb popularity rose from 5.2008 to 18.7584. A canonical TMDb trailer URL is available.",
-      "score": 9.881
+      "explanation": "TMDb popularity rose from 5.2008 to 30.3762. A canonical TMDb trailer URL is available.",
+      "score": 10.102
     },
     "watch_triggers": [
       "Major Studio/Streamer",
@@ -635,7 +635,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1260649-ddef9a61bcf4",
+        "event_id": "1260649-314f30b1c4a9",
         "event_type": "Distributor Change",
         "film_id": "1260649",
         "importance": "Medium",
@@ -644,12 +644,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Columbia Pictures.",
-        "timestamp": "2026-08-01T14:43:38Z",
+        "timestamp": "2026-08-02T14:46:10Z",
         "title": "Distributor set: Columbia Pictures"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1260649-360602d639da",
+        "event_id": "1260649-1f1b8b16ba3a",
         "event_type": "Awards Tier Changed",
         "film_id": "1260649",
         "importance": "Medium",
@@ -661,12 +661,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-08-01T14:43:38Z",
+        "timestamp": "2026-08-02T14:46:10Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1260649-ebb162ac98ff",
+        "event_id": "1260649-0125047d699c",
         "event_type": "Added To Database",
         "film_id": "1260649",
         "importance": "Low",
@@ -675,7 +675,7 @@
         },
         "source_type": "system",
         "summary": "Jumanji: Open World is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-01T14:43:38Z",
+        "timestamp": "2026-08-02T14:46:10Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -710,7 +710,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1260649-ddef9a61bcf4",
+        "event_id": "1260649-314f30b1c4a9",
         "event_type": "Distributor Change",
         "film_id": "1260649",
         "importance": "Medium",
@@ -719,12 +719,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Columbia Pictures.",
-        "timestamp": "2026-08-01T14:43:38Z",
+        "timestamp": "2026-08-02T14:46:10Z",
         "title": "Distributor set: Columbia Pictures"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1260649-360602d639da",
+        "event_id": "1260649-1f1b8b16ba3a",
         "event_type": "Awards Tier Changed",
         "film_id": "1260649",
         "importance": "Medium",
@@ -736,7 +736,7 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-08-01T14:43:38Z",
+        "timestamp": "2026-08-02T14:46:10Z",
         "title": "Awards tier assigned: Emerging"
       }
     ],
