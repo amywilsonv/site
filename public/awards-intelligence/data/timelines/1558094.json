@@ -16,7 +16,7 @@
     },
     {
       "confidence": "Inferred",
-      "event_id": "1558094-52fba59f86f9",
+      "event_id": "1558094-cb2570b4e82b",
       "event_type": "Distributor Change",
       "film_id": "1558094",
       "importance": "Medium",
@@ -25,12 +25,12 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Mubi.",
-      "timestamp": "2026-08-02T14:46:10Z",
+      "timestamp": "2026-08-03T16:00:38Z",
       "title": "Distributor set: Mubi"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1558094-abc1b880e7e5",
+      "event_id": "1558094-e6d95f9b1ecf",
       "event_type": "Awards Tier Changed",
       "film_id": "1558094",
       "importance": "Medium",
@@ -44,12 +44,12 @@
       },
       "source_type": "editorial_model",
       "summary": "insufficient credible awards evidence",
-      "timestamp": "2026-08-02T14:46:10Z",
+      "timestamp": "2026-08-03T16:00:38Z",
       "title": "Awards tier assigned: No Current Awards Case"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1558094-1ee5908fb05c",
+      "event_id": "1558094-8d5d4e010710",
       "event_type": "Added To Database",
       "film_id": "1558094",
       "importance": "Low",
@@ -58,7 +58,7 @@
       },
       "source_type": "system",
       "summary": "Let Love In is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-08-02T14:46:10Z",
+      "timestamp": "2026-08-03T16:00:38Z",
       "title": "Added to Awards Intelligence"
     }
   ],
@@ -79,7 +79,7 @@
   "metadata": {
     "event_count": 4,
     "film_id": "1558094",
-    "generated_at": "20260802T144610Z",
+    "generated_at": "20260803T160038Z",
     "timeline_version": "phase6b",
     "title": "Let Love In",
     "tmdb_id": "1558094"

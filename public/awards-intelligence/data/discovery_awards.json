@@ -11,7 +11,7 @@
             "Awards Watch",
             "Festival Signal"
           ],
-          "attention_score": 41.1,
+          "attention_score": 41.0,
           "attention_version": "phase7e_attention_v1",
           "audience_interest": "Developing",
           "conversation_level": "Unavailable",
@@ -44,7 +44,7 @@
               "status": "inferred"
             },
             {
-              "evidence": "TMDb popularity 2.6667",
+              "evidence": "TMDb popularity 2.5747",
               "source": "audience_popularity",
               "status": "verified"
             },
@@ -60,14 +60,14 @@
             }
           ],
           "homepage_spotlight_override": null,
-          "homepage_spotlight_score": 41.1,
+          "homepage_spotlight_score": 41.0,
           "industry_interest": "High",
-          "last_updated": "20260802T144610Z",
+          "last_updated": "20260803T160038Z",
           "promotional_response": null,
           "score_families": {
             "audience/popularity": {
               "evidence_count": 1,
-              "score": 6.7,
+              "score": 6.6,
               "statuses": [
                 "verified"
               ]
@@ -216,7 +216,7 @@
         "intelligence": {
           "confidence": "High",
           "confidence_score": 0.99,
-          "generated_at": "2026-08-02T14:45:55Z",
+          "generated_at": "2026-08-03T16:00:17Z",
           "headline": "Paper Tiger: popularity increasing",
           "metadata": {
             "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -235,7 +235,7 @@
               "streaming_provider_count_us": 0,
               "tmdb_backdrop_count": 0,
               "tmdb_canonical_trailer_available": false,
-              "tmdb_popularity": 2.6667,
+              "tmdb_popularity": 2.5747,
               "tmdb_poster_count": 3,
               "tmdb_release_date_us_primary": "2026-11-13",
               "tmdb_release_date_us_theatrical": "2026-11-13",
@@ -250,14 +250,14 @@
             "stale_signal_count": 0
           },
           "schema_version": "phase2b_intelligence_explanation_v1",
-          "summary": "TMDb popularity rose from 2.478 to 2.6667.",
+          "summary": "TMDb popularity rose from 2.478 to 2.5747.",
           "supporting_drivers": [
             {
               "confidence_weight": 0.9,
               "driver_type": "popularity_increasing",
-              "evidence": "TMDb popularity rose from 2.478 to 2.6667.",
+              "evidence": "TMDb popularity rose from 2.478 to 2.5747.",
               "label": "Popularity increasing",
-              "retrieved_at": "2026-08-02T14:45:55Z",
+              "retrieved_at": "2026-08-03T16:00:17Z",
               "source_metric": "tmdb_popularity",
               "source_provider": "tmdb",
               "source_status": "available"
@@ -289,24 +289,24 @@
           "box_office": {
             "budget": 15000000,
             "currency": "USD",
-            "retrieved_at": "2026-08-02",
+            "retrieved_at": "2026-08-03",
             "source": "TMDb",
             "source_url": "https://www.themoviedb.org/movie/1381273"
           },
           "ratings": {
             "tmdb": {
-              "popularity": 2.6667,
-              "retrieved_at": "2026-08-02",
+              "popularity": 2.5747,
+              "retrieved_at": "2026-08-03",
               "source": "TMDb",
               "source_url": "https://www.themoviedb.org/movie/1381273",
               "status": "not_yet_rated"
             }
           },
           "tmdb_popularity": {
-            "retrieved_at": "2026-08-02",
+            "retrieved_at": "2026-08-03",
             "source": "TMDb",
             "source_url": "https://www.themoviedb.org/movie/1381273",
-            "value": 2.6667
+            "value": 2.5747
           },
           "watch_providers": {}
         },
@@ -328,8 +328,8 @@
         "profile_url": "film.html?id=1381273",
         "ratings": {
           "tmdb": {
-            "popularity": 2.6667,
-            "retrieved_at": "2026-08-02",
+            "popularity": 2.5747,
+            "retrieved_at": "2026-08-03",
             "source": "TMDb",
             "source_url": "https://www.themoviedb.org/movie/1381273",
             "status": "not_yet_rated"
@@ -352,7 +352,7 @@
           },
           {
             "confidence": "Inferred",
-            "event_id": "1381273-d276e0dd734d",
+            "event_id": "1381273-9b936b71a0f4",
             "event_type": "Awards Tier Changed",
             "film_id": "1381273",
             "importance": "High",
@@ -366,12 +366,12 @@
             },
             "source_type": "editorial_model",
             "summary": "high awards relevance with multiple independent evidence families",
-            "timestamp": "2026-08-02T14:46:10Z",
+            "timestamp": "2026-08-03T16:00:38Z",
             "title": "Awards tier assigned: Strong Contender"
           },
           {
             "confidence": "Inferred",
-            "event_id": "1381273-e6b32d49499b",
+            "event_id": "1381273-f141371ca11a",
             "event_type": "Homepage Featured",
             "film_id": "1381273",
             "importance": "Medium",
@@ -380,7 +380,7 @@
             },
             "source_type": "discovery_homepage",
             "summary": "Paper Tiger is currently selected for the homepage experience.",
-            "timestamp": "2026-08-02T14:46:10Z",
+            "timestamp": "2026-08-03T16:00:38Z",
             "title": "Featured in The Screening Room"
           }
         ],
@@ -390,14 +390,14 @@
         "release_timing_label": "Later This Year",
         "screening_room_score": {
           "families": {
-            "audience_momentum": 0.051,
+            "audience_momentum": 0.049,
             "awards_relevance": 2.4,
             "festival_awards": 0.88,
             "talent_profile": 3.325
           },
-          "generated_at": "2026-08-02T14:45:55Z",
+          "generated_at": "2026-08-03T16:00:17Z",
           "schema_version": "phase3_screening_room_score_v1",
-          "score": 6.656,
+          "score": 6.654,
           "source": "derived_screening_room_score",
           "top_drivers": [
             {
@@ -434,11 +434,11 @@
             },
             {
               "confidence": 0.95,
-              "contribution": 0.051,
+              "contribution": 0.049,
               "metric_name": "tmdb_popularity",
               "provider": "tmdb",
               "score_family": "audience_momentum",
-              "value": 2.6667
+              "value": 2.5747
             }
           ]
         },
@@ -556,7 +556,7 @@
     "discovery_algorithm_version": "phase5b",
     "discovery_visual_version": "phase5c",
     "film_count": 104,
-    "generated_at": "20260802T144610Z",
+    "generated_at": "20260803T160038Z",
     "homepage_count": 6,
     "homepage_filters": [
       {

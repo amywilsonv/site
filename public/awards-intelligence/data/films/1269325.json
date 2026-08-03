@@ -7,7 +7,7 @@
       "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 58.0,
+    "attention_score": 57.1,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -35,7 +35,7 @@
         "status": "inferred"
       },
       {
-        "evidence": "TMDb popularity 4.3223",
+        "evidence": "TMDb popularity 3.4181",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -51,14 +51,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 58.0,
+    "homepage_spotlight_score": 57.1,
     "industry_interest": "Moderate",
-    "last_updated": "20260802T144610Z",
+    "last_updated": "20260803T160038Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
         "evidence_count": 1,
-        "score": 8.6,
+        "score": 7.7,
         "statuses": [
           "verified"
         ]
@@ -202,7 +202,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-08-02T14:45:55Z",
+    "generated_at": "2026-08-03T16:00:17Z",
     "headline": "Drishyam 3: popularity increasing",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -221,7 +221,7 @@
         "streaming_provider_count_us": 2,
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": false,
-        "tmdb_popularity": 4.3223,
+        "tmdb_popularity": 3.4181,
         "tmdb_poster_count": 0,
         "tmdb_release_date_us_primary": "",
         "tmdb_release_date_us_theatrical": "",
@@ -236,14 +236,14 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity rose from 3.0292 to 4.3223.",
+    "summary": "TMDb popularity rose from 3.0292 to 3.4181.",
     "supporting_drivers": [
       {
         "confidence_weight": 0.9,
         "driver_type": "popularity_increasing",
-        "evidence": "TMDb popularity rose from 3.0292 to 4.3223.",
+        "evidence": "TMDb popularity rose from 3.0292 to 3.4181.",
         "label": "Popularity increasing",
-        "retrieved_at": "2026-08-02T14:45:55Z",
+        "retrieved_at": "2026-08-03T16:00:17Z",
         "source_metric": "tmdb_popularity",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -253,7 +253,7 @@
   "media": {},
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260802T144610Z",
+    "generated_at": "20260803T160038Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -261,18 +261,18 @@
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 4.3223,
-        "retrieved_at": "2026-08-02",
+        "popularity": 3.4181,
+        "retrieved_at": "2026-08-03",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1269325",
         "status": "not_yet_rated"
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-08-02",
+      "retrieved_at": "2026-08-03",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1269325",
-      "value": 4.3223
+      "value": 3.4181
     },
     "watch_providers": {
       "country": "US",
@@ -290,15 +290,15 @@
           "provider_name": "Amazon Prime Video with Ads"
         }
       ],
-      "retrieved_at": "2026-08-02",
+      "retrieved_at": "2026-08-03",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1269325-3/watch?locale=US"
     }
   },
   "ratings": {
     "tmdb": {
-      "popularity": 4.3223,
-      "retrieved_at": "2026-08-02",
+      "popularity": 3.4181,
+      "retrieved_at": "2026-08-03",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1269325",
       "status": "not_yet_rated"
@@ -422,13 +422,13 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.082,
+      "audience_momentum": 0.065,
       "availability": 3.967,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-02T14:45:55Z",
+    "generated_at": "2026-08-03T16:00:17Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 7.374,
+    "score": 7.357,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -465,11 +465,11 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.082,
+        "contribution": 0.065,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 4.3223
+        "value": 3.4181
       }
     ]
   },
@@ -478,7 +478,7 @@
     "external_intelligence": {
       "confidence": "High",
       "headline": "Drishyam 3: popularity increasing",
-      "summary": "TMDb popularity rose from 3.0292 to 4.3223."
+      "summary": "TMDb popularity rose from 3.0292 to 3.4181."
     },
     "last_updated": "2026-10-02",
     "latest_event": {
@@ -516,7 +516,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1269325-49473a8ac47a",
+        "event_id": "1269325-332eb3ac51b2",
         "event_type": "Awards Tier Changed",
         "film_id": "1269325",
         "importance": "Medium",
@@ -526,12 +526,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-02T14:46:10Z",
+        "timestamp": "2026-08-03T16:00:38Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1269325-407f5125a8b2",
+        "event_id": "1269325-38da277437c7",
         "event_type": "Added To Database",
         "film_id": "1269325",
         "importance": "Low",
@@ -540,15 +540,15 @@
         },
         "source_type": "system",
         "summary": "Drishyam 3 is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-02T14:46:10Z",
+        "timestamp": "2026-08-03T16:00:38Z",
         "title": "Added to Awards Intelligence"
       }
     ],
     "release_relevance": 31.1,
     "screening_room_score": {
       "confidence": "High",
-      "explanation": "TMDb popularity rose from 3.0292 to 4.3223.",
-      "score": 7.374
+      "explanation": "TMDb popularity rose from 3.0292 to 3.4181.",
+      "score": 7.357
     },
     "watch_triggers": [
       "Awards-Season Release",
@@ -590,7 +590,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1269325-49473a8ac47a",
+        "event_id": "1269325-332eb3ac51b2",
         "event_type": "Awards Tier Changed",
         "film_id": "1269325",
         "importance": "Medium",
@@ -600,12 +600,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-02T14:46:10Z",
+        "timestamp": "2026-08-03T16:00:38Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1269325-407f5125a8b2",
+        "event_id": "1269325-38da277437c7",
         "event_type": "Added To Database",
         "film_id": "1269325",
         "importance": "Low",
@@ -614,7 +614,7 @@
         },
         "source_type": "system",
         "summary": "Drishyam 3 is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-02T14:46:10Z",
+        "timestamp": "2026-08-03T16:00:38Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -649,7 +649,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1269325-49473a8ac47a",
+        "event_id": "1269325-332eb3ac51b2",
         "event_type": "Awards Tier Changed",
         "film_id": "1269325",
         "importance": "Medium",
@@ -659,12 +659,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-02T14:46:10Z",
+        "timestamp": "2026-08-03T16:00:38Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1269325-407f5125a8b2",
+        "event_id": "1269325-38da277437c7",
         "event_type": "Added To Database",
         "film_id": "1269325",
         "importance": "Low",
@@ -673,7 +673,7 @@
         },
         "source_type": "system",
         "summary": "Drishyam 3 is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-02T14:46:10Z",
+        "timestamp": "2026-08-03T16:00:38Z",
         "title": "Added to Awards Intelligence"
       }
     ],

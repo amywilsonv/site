@@ -16,7 +16,7 @@
     },
     {
       "confidence": "Inferred",
-      "event_id": "1461432-fb892193028b",
+      "event_id": "1461432-349eb1395331",
       "event_type": "Awards Tier Changed",
       "film_id": "1461432",
       "importance": "Medium",
@@ -26,12 +26,12 @@
       },
       "source_type": "editorial_model",
       "summary": "insufficient credible awards evidence",
-      "timestamp": "2026-08-02T14:46:10Z",
+      "timestamp": "2026-08-03T16:00:38Z",
       "title": "Awards tier assigned: No Current Awards Case"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1461432-d63f73a639cb",
+      "event_id": "1461432-3fa19a2c2f08",
       "event_type": "Added To Database",
       "film_id": "1461432",
       "importance": "Low",
@@ -40,7 +40,7 @@
       },
       "source_type": "system",
       "summary": "Adult Supervision is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-08-02T14:46:10Z",
+      "timestamp": "2026-08-03T16:00:38Z",
       "title": "Added to Awards Intelligence"
     }
   ],
@@ -61,7 +61,7 @@
   "metadata": {
     "event_count": 3,
     "film_id": "1461432",
-    "generated_at": "20260802T144610Z",
+    "generated_at": "20260803T160038Z",
     "timeline_version": "phase6b",
     "title": "Adult Supervision",
     "tmdb_id": "1461432"

@@ -16,7 +16,7 @@
     },
     {
       "confidence": "Inferred",
-      "event_id": "1668297-52218385c6bf",
+      "event_id": "1668297-93f99c941bdd",
       "event_type": "Awards Tier Changed",
       "film_id": "1668297",
       "importance": "Medium",
@@ -26,12 +26,12 @@
       },
       "source_type": "editorial_model",
       "summary": "insufficient credible awards evidence",
-      "timestamp": "2026-08-02T14:46:10Z",
+      "timestamp": "2026-08-03T16:00:38Z",
       "title": "Awards tier assigned: No Current Awards Case"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1668297-ad8c75b81acb",
+      "event_id": "1668297-6d3dfc7989ae",
       "event_type": "Added To Database",
       "film_id": "1668297",
       "importance": "Low",
@@ -40,7 +40,7 @@
       },
       "source_type": "system",
       "summary": "Living Book is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-08-02T14:46:10Z",
+      "timestamp": "2026-08-03T16:00:38Z",
       "title": "Added to Awards Intelligence"
     }
   ],
@@ -61,7 +61,7 @@
   "metadata": {
     "event_count": 3,
     "film_id": "1668297",
-    "generated_at": "20260802T144610Z",
+    "generated_at": "20260803T160038Z",
     "timeline_version": "phase6b",
     "title": "Living Book",
     "tmdb_id": "1668297"

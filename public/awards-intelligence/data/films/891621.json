@@ -7,7 +7,7 @@
       "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 53.0,
+    "attention_score": 52.6,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -25,7 +25,7 @@
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 4.1197",
+        "evidence": "TMDb popularity 3.7349",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -51,14 +51,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 53.0,
+    "homepage_spotlight_score": 52.6,
     "industry_interest": null,
-    "last_updated": "20260802T144610Z",
+    "last_updated": "20260803T160038Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
         "evidence_count": 2,
-        "score": 12.8,
+        "score": 12.4,
         "statuses": [
           "verified"
         ]
@@ -203,7 +203,7 @@
   "intelligence": {
     "confidence": "Low",
     "confidence_score": 0.25,
-    "generated_at": "2026-08-02T14:45:55Z",
+    "generated_at": "2026-08-03T16:00:17Z",
     "headline": "Wild Horse Nine: no material change detected",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -223,7 +223,7 @@
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=Haw_sznA5aQ",
-        "tmdb_popularity": 4.1197,
+        "tmdb_popularity": 3.7349,
         "tmdb_poster_count": 8,
         "tmdb_release_date_us_primary": "2026-11-06",
         "tmdb_release_date_us_theatrical": "2026-11-06",
@@ -244,7 +244,7 @@
   },
   "media": {
     "canonical_trailer": {
-      "retrieved_at": "2026-08-02",
+      "retrieved_at": "2026-08-03",
       "site": "YouTube",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/891621/videos",
@@ -256,7 +256,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260802T144610Z",
+    "generated_at": "20260803T160038Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -264,31 +264,31 @@
     "box_office": {
       "budget": 5000000,
       "currency": "USD",
-      "retrieved_at": "2026-08-02",
+      "retrieved_at": "2026-08-03",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/891621"
     },
     "ratings": {
       "tmdb": {
-        "popularity": 4.1197,
-        "retrieved_at": "2026-08-02",
+        "popularity": 3.7349,
+        "retrieved_at": "2026-08-03",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/891621",
         "status": "not_yet_rated"
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-08-02",
+      "retrieved_at": "2026-08-03",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/891621",
-      "value": 4.1197
+      "value": 3.7349
     },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 4.1197,
-      "retrieved_at": "2026-08-02",
+      "popularity": 3.7349,
+      "retrieved_at": "2026-08-03",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/891621",
       "status": "not_yet_rated"
@@ -421,13 +421,13 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.078,
+      "audience_momentum": 0.071,
       "campaign_activity": 1.35,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-02T14:45:55Z",
+    "generated_at": "2026-08-03T16:00:17Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 4.753,
+    "score": 4.746,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -456,11 +456,11 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.078,
+        "contribution": 0.071,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 4.1197
+        "value": 3.7349
       }
     ]
   },
@@ -507,7 +507,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "891621-ec18954d9690",
+        "event_id": "891621-cb4f1a5494f0",
         "event_type": "Distributor Change",
         "film_id": "891621",
         "importance": "Medium",
@@ -516,12 +516,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Searchlight Pictures.",
-        "timestamp": "2026-08-02T14:46:10Z",
+        "timestamp": "2026-08-03T16:00:38Z",
         "title": "Distributor set: Searchlight Pictures"
       },
       {
         "confidence": "Inferred",
-        "event_id": "891621-579a7e8278bb",
+        "event_id": "891621-70b5b27ef61b",
         "event_type": "Awards Tier Changed",
         "film_id": "891621",
         "importance": "Medium",
@@ -531,7 +531,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-02T14:46:10Z",
+        "timestamp": "2026-08-03T16:00:38Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],
@@ -539,7 +539,7 @@
     "screening_room_score": {
       "confidence": "Low",
       "explanation": "Current provider signals do not show a supported material change.",
-      "score": 4.753
+      "score": 4.746
     },
     "watch_triggers": [
       "Prestige Distributor",
@@ -583,7 +583,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "891621-ec18954d9690",
+        "event_id": "891621-cb4f1a5494f0",
         "event_type": "Distributor Change",
         "film_id": "891621",
         "importance": "Medium",
@@ -592,12 +592,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Searchlight Pictures.",
-        "timestamp": "2026-08-02T14:46:10Z",
+        "timestamp": "2026-08-03T16:00:38Z",
         "title": "Distributor set: Searchlight Pictures"
       },
       {
         "confidence": "Inferred",
-        "event_id": "891621-579a7e8278bb",
+        "event_id": "891621-70b5b27ef61b",
         "event_type": "Awards Tier Changed",
         "film_id": "891621",
         "importance": "Medium",
@@ -607,12 +607,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-02T14:46:10Z",
+        "timestamp": "2026-08-03T16:00:38Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "891621-7941e8a21d6b",
+        "event_id": "891621-71ecfbb7d037",
         "event_type": "Added To Database",
         "film_id": "891621",
         "importance": "Low",
@@ -621,7 +621,7 @@
         },
         "source_type": "system",
         "summary": "Wild Horse Nine is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-02T14:46:10Z",
+        "timestamp": "2026-08-03T16:00:38Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -656,7 +656,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "891621-ec18954d9690",
+        "event_id": "891621-cb4f1a5494f0",
         "event_type": "Distributor Change",
         "film_id": "891621",
         "importance": "Medium",
@@ -665,12 +665,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Searchlight Pictures.",
-        "timestamp": "2026-08-02T14:46:10Z",
+        "timestamp": "2026-08-03T16:00:38Z",
         "title": "Distributor set: Searchlight Pictures"
       },
       {
         "confidence": "Inferred",
-        "event_id": "891621-579a7e8278bb",
+        "event_id": "891621-70b5b27ef61b",
         "event_type": "Awards Tier Changed",
         "film_id": "891621",
         "importance": "Medium",
@@ -680,7 +680,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-02T14:46:10Z",
+        "timestamp": "2026-08-03T16:00:38Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],

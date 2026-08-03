@@ -16,7 +16,7 @@
     },
     {
       "confidence": "Inferred",
-      "event_id": "1487864-3277286ee3ad",
+      "event_id": "1487864-bbf17556a536",
       "event_type": "Distributor Change",
       "film_id": "1487864",
       "importance": "Medium",
@@ -25,12 +25,12 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Netflix.",
-      "timestamp": "2026-08-02T14:46:10Z",
+      "timestamp": "2026-08-03T16:00:38Z",
       "title": "Distributor set: Netflix"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1487864-a31af53375bf",
+      "event_id": "1487864-21b07610d6d7",
       "event_type": "Awards Tier Changed",
       "film_id": "1487864",
       "importance": "Medium",
@@ -44,12 +44,12 @@
       },
       "source_type": "editorial_model",
       "summary": "insufficient credible awards evidence",
-      "timestamp": "2026-08-02T14:46:10Z",
+      "timestamp": "2026-08-03T16:00:38Z",
       "title": "Awards tier assigned: No Current Awards Case"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1487864-e627473de375",
+      "event_id": "1487864-4dac03d03e27",
       "event_type": "Added To Database",
       "film_id": "1487864",
       "importance": "Low",
@@ -58,7 +58,7 @@
       },
       "source_type": "system",
       "summary": "Nando Between Two Worlds - A Sintonia Film is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-08-02T14:46:10Z",
+      "timestamp": "2026-08-03T16:00:38Z",
       "title": "Added to Awards Intelligence"
     }
   ],
@@ -79,7 +79,7 @@
   "metadata": {
     "event_count": 4,
     "film_id": "1487864",
-    "generated_at": "20260802T144610Z",
+    "generated_at": "20260803T160038Z",
     "timeline_version": "phase6b",
     "title": "Nando Between Two Worlds - A Sintonia Film",
     "tmdb_id": "1487864"

@@ -2,21 +2,21 @@
   "events": [
     {
       "confidence": "Inferred",
-      "event_id": "1437882-439850660959",
+      "event_id": "1437882-718a2b65dac3",
       "event_type": "Release Scheduled",
       "film_id": "1437882",
       "importance": "Medium",
       "metadata": {
-        "release_date": "2027-04-23"
+        "release_date": "2026-12-25"
       },
       "source_type": "metadata",
-      "summary": "Release currently scheduled for Apr. 23, 2027.",
-      "timestamp": "2027-04-23",
+      "summary": "Release currently scheduled for In theaters Dec. 25.",
+      "timestamp": "2026-12-25",
       "title": "Release scheduled"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1437882-b42b67210338",
+      "event_id": "1437882-ae888e133c18",
       "event_type": "Distributor Change",
       "film_id": "1437882",
       "importance": "Medium",
@@ -25,12 +25,12 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Neon.",
-      "timestamp": "2026-08-02T14:46:10Z",
+      "timestamp": "2026-08-03T16:00:38Z",
       "title": "Distributor set: Neon"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1437882-e1ec8b574da9",
+      "event_id": "1437882-9dd8793d36a2",
       "event_type": "Awards Tier Changed",
       "film_id": "1437882",
       "importance": "Medium",
@@ -44,12 +44,12 @@
       },
       "source_type": "editorial_model",
       "summary": "insufficient credible awards evidence",
-      "timestamp": "2026-08-02T14:46:10Z",
+      "timestamp": "2026-08-03T16:00:38Z",
       "title": "Awards tier assigned: No Current Awards Case"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1437882-9ae60c190c57",
+      "event_id": "1437882-af74ee9f3ca5",
       "event_type": "Added To Database",
       "film_id": "1437882",
       "importance": "Low",
@@ -58,28 +58,28 @@
       },
       "source_type": "system",
       "summary": "A Place in Hell is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-08-02T14:46:10Z",
+      "timestamp": "2026-08-03T16:00:38Z",
       "title": "Added to Awards Intelligence"
     }
   ],
   "latest_event": {
     "confidence": "Inferred",
-    "event_id": "1437882-439850660959",
+    "event_id": "1437882-718a2b65dac3",
     "event_type": "Release Scheduled",
     "film_id": "1437882",
     "importance": "Medium",
     "metadata": {
-      "release_date": "2027-04-23"
+      "release_date": "2026-12-25"
     },
     "source_type": "metadata",
-    "summary": "Release currently scheduled for Apr. 23, 2027.",
-    "timestamp": "2027-04-23",
+    "summary": "Release currently scheduled for In theaters Dec. 25.",
+    "timestamp": "2026-12-25",
     "title": "Release scheduled"
   },
   "metadata": {
     "event_count": 4,
     "film_id": "1437882",
-    "generated_at": "20260802T144610Z",
+    "generated_at": "20260803T160038Z",
     "timeline_version": "phase6b",
     "title": "A Place in Hell",
     "tmdb_id": "1437882"

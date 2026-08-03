@@ -1,13 +1,13 @@
 {
   "attention_intelligence": {
-    "anticipation_level": "Developing",
+    "anticipation_level": "Moderate",
     "attention_confidence": "High",
     "attention_reasons": [
       "Most Anticipated",
       "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 49.5,
+    "attention_score": 50.2,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -40,7 +40,7 @@
         "status": "inferred"
       },
       {
-        "evidence": "TMDb popularity 1.2554",
+        "evidence": "TMDb popularity 1.2507",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -50,15 +50,15 @@
         "status": "verified"
       },
       {
-        "evidence": "Principal cast listed: Mo Gilligan",
+        "evidence": "Principal cast listed: Mo Gilligan, Marcus Collins",
         "source": "cast_interest",
         "status": "verified"
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 49.5,
+    "homepage_spotlight_score": 50.2,
     "industry_interest": null,
-    "last_updated": "20260802T144610Z",
+    "last_updated": "20260803T160038Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
@@ -92,7 +92,7 @@
       },
       "talent/prestige": {
         "evidence_count": 2,
-        "score": 4.8,
+        "score": 5.5,
         "statuses": [
           "verified"
         ]
@@ -156,7 +156,7 @@
     "missing_fields": [],
     "relationship_counts": {
       "related_films": 6,
-      "related_people": 2,
+      "related_people": 3,
       "related_studios": 2
     }
   },
@@ -201,7 +201,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-08-02T14:45:55Z",
+    "generated_at": "2026-08-03T16:00:17Z",
     "headline": "Big Chicken: A Fast Food Conspiracy: release approaching",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -221,7 +221,7 @@
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=7sGkQM6TyQU",
-        "tmdb_popularity": 1.2554,
+        "tmdb_popularity": 1.2507,
         "tmdb_poster_count": 1,
         "tmdb_release_date_us_primary": "2026-08-05",
         "tmdb_release_date_us_theatrical": "",
@@ -244,7 +244,7 @@
         "driver_type": "release_approaching",
         "evidence": "US release is 16 days away on 2026-08-05.",
         "label": "Release approaching",
-        "retrieved_at": "2026-08-02T14:45:55Z",
+        "retrieved_at": "2026-08-03T16:00:17Z",
         "source_metric": "tmdb_release_date_us_primary",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -253,7 +253,7 @@
   },
   "media": {
     "canonical_trailer": {
-      "retrieved_at": "2026-08-02",
+      "retrieved_at": "2026-08-03",
       "site": "YouTube",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1728056/videos",
@@ -265,7 +265,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260802T144610Z",
+    "generated_at": "20260803T160038Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -273,25 +273,25 @@
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 1.2554,
-        "retrieved_at": "2026-08-02",
+        "popularity": 1.2507,
+        "retrieved_at": "2026-08-03",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1728056",
         "status": "not_yet_rated"
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-08-02",
+      "retrieved_at": "2026-08-03",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1728056",
-      "value": 1.2554
+      "value": 1.2507
     },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 1.2554,
-      "retrieved_at": "2026-08-02",
+      "popularity": 1.2507,
+      "retrieved_at": "2026-08-03",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1728056",
       "status": "not_yet_rated"
@@ -370,6 +370,10 @@
       {
         "name": "Mo Gilligan",
         "role": "actor"
+      },
+      {
+        "name": "Marcus Collins",
+        "role": "actor"
       }
     ],
     "related_studios": [
@@ -389,7 +393,7 @@
       "campaign_activity": 1.35,
       "talent_profile": 0.525
     },
-    "generated_at": "2026-08-02T14:45:55Z",
+    "generated_at": "2026-08-03T16:00:17Z",
     "schema_version": "phase3_screening_room_score_v1",
     "score": 1.899,
     "source": "derived_screening_room_score",
@@ -424,7 +428,7 @@
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 1.2554
+        "value": 1.2507
       }
     ]
   },
@@ -471,7 +475,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1728056-8c0181110f6a",
+        "event_id": "1728056-1d61feb7e81f",
         "event_type": "Distributor Change",
         "film_id": "1728056",
         "importance": "Medium",
@@ -480,12 +484,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-02T14:46:10Z",
+        "timestamp": "2026-08-03T16:00:38Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1728056-0845ed25e8d5",
+        "event_id": "1728056-7c238ac03d55",
         "event_type": "Awards Tier Changed",
         "film_id": "1728056",
         "importance": "Medium",
@@ -495,7 +499,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-02T14:46:10Z",
+        "timestamp": "2026-08-03T16:00:38Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],
@@ -514,7 +518,8 @@
   "talent": {
     "director": "Liana Stewart",
     "principal_cast": [
-      "Mo Gilligan"
+      "Mo Gilligan",
+      "Marcus Collins"
     ],
     "producers": [],
     "writers": []
@@ -537,7 +542,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1728056-8c0181110f6a",
+        "event_id": "1728056-1d61feb7e81f",
         "event_type": "Distributor Change",
         "film_id": "1728056",
         "importance": "Medium",
@@ -546,12 +551,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-02T14:46:10Z",
+        "timestamp": "2026-08-03T16:00:38Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1728056-0845ed25e8d5",
+        "event_id": "1728056-7c238ac03d55",
         "event_type": "Awards Tier Changed",
         "film_id": "1728056",
         "importance": "Medium",
@@ -561,12 +566,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-02T14:46:10Z",
+        "timestamp": "2026-08-03T16:00:38Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1728056-874de1a1d2ee",
+        "event_id": "1728056-48b73c77bd4a",
         "event_type": "Added To Database",
         "film_id": "1728056",
         "importance": "Low",
@@ -575,7 +580,7 @@
         },
         "source_type": "system",
         "summary": "Big Chicken: A Fast Food Conspiracy is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-02T14:46:10Z",
+        "timestamp": "2026-08-03T16:00:38Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -610,7 +615,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1728056-8c0181110f6a",
+        "event_id": "1728056-1d61feb7e81f",
         "event_type": "Distributor Change",
         "film_id": "1728056",
         "importance": "Medium",
@@ -619,12 +624,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-02T14:46:10Z",
+        "timestamp": "2026-08-03T16:00:38Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1728056-0845ed25e8d5",
+        "event_id": "1728056-7c238ac03d55",
         "event_type": "Awards Tier Changed",
         "film_id": "1728056",
         "importance": "Medium",
@@ -634,7 +639,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-02T14:46:10Z",
+        "timestamp": "2026-08-03T16:00:38Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],

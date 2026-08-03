@@ -87,23 +87,6 @@
     },
     {
       "confidence": "Inferred",
-      "event_id": "1437882-439850660959",
-      "event_type": "Release Scheduled",
-      "film_id": "1437882",
-      "film_title": "A Place in Hell",
-      "importance": "Medium",
-      "metadata": {
-        "release_date": "2027-04-23"
-      },
-      "profile_payload_url": "data/films/1437882.json",
-      "profile_url": "film.html?id=1437882",
-      "source_type": "metadata",
-      "summary": "Release currently scheduled for Apr. 23, 2027.",
-      "timestamp": "2027-04-23",
-      "title": "Release scheduled"
-    },
-    {
-      "confidence": "Inferred",
       "event_id": "1401586-f10df0ae7faa",
       "event_type": "Release Scheduled",
       "film_id": "1401586",
@@ -216,6 +199,23 @@
       },
       "profile_payload_url": "data/films/1260649.json",
       "profile_url": "film.html?id=1260649",
+      "source_type": "metadata",
+      "summary": "Release currently scheduled for In theaters Dec. 25.",
+      "timestamp": "2026-12-25",
+      "title": "Release scheduled"
+    },
+    {
+      "confidence": "Inferred",
+      "event_id": "1437882-718a2b65dac3",
+      "event_type": "Release Scheduled",
+      "film_id": "1437882",
+      "film_title": "A Place in Hell",
+      "importance": "Medium",
+      "metadata": {
+        "release_date": "2026-12-25"
+      },
+      "profile_payload_url": "data/films/1437882.json",
+      "profile_url": "film.html?id=1437882",
       "source_type": "metadata",
       "summary": "Release currently scheduled for In theaters Dec. 25.",
       "timestamp": "2026-12-25",
@@ -413,7 +413,7 @@
       "event_id": "1400336-d909464209a9",
       "event_type": "Release Scheduled",
       "film_id": "1400336",
-      "film_title": "Focker-In-Law",
+      "film_title": "Focker-in-Law",
       "importance": "Medium",
       "metadata": {
         "release_date": "2026-11-25"
@@ -853,7 +853,7 @@
   ],
   "metadata": {
     "event_count": 388,
-    "generated_at": "20260802T144610Z",
+    "generated_at": "20260803T160038Z",
     "returned_count": 50,
     "timeline_version": "phase6b"
   }

@@ -8,7 +8,7 @@
       "Event Release",
       "Awards Watch"
     ],
-    "attention_score": 86.3,
+    "attention_score": 86.4,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Moderate",
     "conversation_level": "Unavailable",
@@ -16,7 +16,7 @@
     "early_reception": null,
     "evidence_sources": [
       {
-        "evidence": "TMDb popularity 59.8972",
+        "evidence": "TMDb popularity 61.5464",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -62,14 +62,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 86.3,
+    "homepage_spotlight_score": 86.4,
     "industry_interest": "High",
-    "last_updated": "20260802T144610Z",
+    "last_updated": "20260803T160038Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
         "evidence_count": 1,
-        "score": 21.2,
+        "score": 21.3,
         "statuses": [
           "verified"
         ]
@@ -222,7 +222,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-08-02T14:45:55Z",
+    "generated_at": "2026-08-03T16:00:17Z",
     "headline": "Ramayana: popularity increasing",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -241,7 +241,7 @@
         "streaming_provider_count_us": 0,
         "tmdb_backdrop_count": 2,
         "tmdb_canonical_trailer_available": false,
-        "tmdb_popularity": 59.8972,
+        "tmdb_popularity": 61.5464,
         "tmdb_poster_count": 6,
         "tmdb_release_date_us_primary": "",
         "tmdb_release_date_us_theatrical": "",
@@ -256,14 +256,14 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity rose from 19.0692 to 59.8972.",
+    "summary": "TMDb popularity rose from 19.0692 to 61.5464.",
     "supporting_drivers": [
       {
         "confidence_weight": 0.9,
         "driver_type": "popularity_increasing",
-        "evidence": "TMDb popularity rose from 19.0692 to 59.8972.",
+        "evidence": "TMDb popularity rose from 19.0692 to 61.5464.",
         "label": "Popularity increasing",
-        "retrieved_at": "2026-08-02T14:45:55Z",
+        "retrieved_at": "2026-08-03T16:00:17Z",
         "source_metric": "tmdb_popularity",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -273,7 +273,7 @@
   "media": {},
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260802T144610Z",
+    "generated_at": "20260803T160038Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -281,31 +281,31 @@
     "box_office": {
       "budget": 230000000,
       "currency": "USD",
-      "retrieved_at": "2026-08-02",
+      "retrieved_at": "2026-08-03",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/656908"
     },
     "ratings": {
       "tmdb": {
-        "popularity": 59.8972,
-        "retrieved_at": "2026-08-02",
+        "popularity": 61.5464,
+        "retrieved_at": "2026-08-03",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/656908",
         "status": "not_yet_rated"
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-08-02",
+      "retrieved_at": "2026-08-03",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/656908",
-      "value": 59.8972
+      "value": 61.5464
     },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 59.8972,
-      "retrieved_at": "2026-08-02",
+      "popularity": 61.5464,
+      "retrieved_at": "2026-08-03",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/656908",
       "status": "not_yet_rated"
@@ -433,13 +433,13 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 1.138,
+      "audience_momentum": 1.169,
       "awards_relevance": 0.8,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-02T14:45:55Z",
+    "generated_at": "2026-08-03T16:00:17Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 5.263,
+    "score": 5.294,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -452,11 +452,11 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 1.138,
+        "contribution": 1.169,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 59.8972
+        "value": 61.5464
       },
       {
         "confidence": 0.5,
@@ -481,7 +481,7 @@
     "external_intelligence": {
       "confidence": "High",
       "headline": "Ramayana: popularity increasing",
-      "summary": "TMDb popularity rose from 19.0692 to 59.8972."
+      "summary": "TMDb popularity rose from 19.0692 to 61.5464."
     },
     "last_updated": "2026-11-08",
     "latest_event": {
@@ -519,7 +519,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "656908-377d1f8ba039",
+        "event_id": "656908-205477c11589",
         "event_type": "Awards Tier Changed",
         "film_id": "656908",
         "importance": "Medium",
@@ -531,12 +531,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-08-02T14:46:10Z",
+        "timestamp": "2026-08-03T16:00:38Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "656908-085f73b43286",
+        "event_id": "656908-a616017d223c",
         "event_type": "Added To Database",
         "film_id": "656908",
         "importance": "Low",
@@ -545,15 +545,15 @@
         },
         "source_type": "system",
         "summary": "Ramayana is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-02T14:46:10Z",
+        "timestamp": "2026-08-03T16:00:38Z",
         "title": "Added to Awards Intelligence"
       }
     ],
     "release_relevance": 35.3,
     "screening_room_score": {
       "confidence": "High",
-      "explanation": "TMDb popularity rose from 19.0692 to 59.8972.",
-      "score": 5.263
+      "explanation": "TMDb popularity rose from 19.0692 to 61.5464.",
+      "score": 5.294
     },
     "watch_triggers": [
       "Awards-Season Release",
@@ -597,7 +597,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "656908-377d1f8ba039",
+        "event_id": "656908-205477c11589",
         "event_type": "Awards Tier Changed",
         "film_id": "656908",
         "importance": "Medium",
@@ -609,12 +609,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-08-02T14:46:10Z",
+        "timestamp": "2026-08-03T16:00:38Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "656908-085f73b43286",
+        "event_id": "656908-a616017d223c",
         "event_type": "Added To Database",
         "film_id": "656908",
         "importance": "Low",
@@ -623,7 +623,7 @@
         },
         "source_type": "system",
         "summary": "Ramayana is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-02T14:46:10Z",
+        "timestamp": "2026-08-03T16:00:38Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -658,7 +658,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "656908-377d1f8ba039",
+        "event_id": "656908-205477c11589",
         "event_type": "Awards Tier Changed",
         "film_id": "656908",
         "importance": "Medium",
@@ -670,12 +670,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-08-02T14:46:10Z",
+        "timestamp": "2026-08-03T16:00:38Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "656908-085f73b43286",
+        "event_id": "656908-a616017d223c",
         "event_type": "Added To Database",
         "film_id": "656908",
         "importance": "Low",
@@ -684,7 +684,7 @@
         },
         "source_type": "system",
         "summary": "Ramayana is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-02T14:46:10Z",
+        "timestamp": "2026-08-03T16:00:38Z",
         "title": "Added to Awards Intelligence"
       }
     ],

@@ -8,7 +8,7 @@
       "Event Release",
       "Awards Watch"
     ],
-    "attention_score": 63.3,
+    "attention_score": 62.7,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -31,13 +31,13 @@
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 3.9773",
-        "source": "audience_popularity",
+        "evidence": "Trailer URL present",
+        "source": "trailer_available",
         "status": "verified"
       },
       {
-        "evidence": "Trailer URL present",
-        "source": "trailer_available",
+        "evidence": "TMDb popularity 3.2883",
+        "source": "audience_popularity",
         "status": "verified"
       },
       {
@@ -59,17 +59,22 @@
         "evidence": "Director: Javier Ambrossi; Javier Calvo",
         "source": "filmmaker_interest",
         "status": "verified"
+      },
+      {
+        "evidence": "3",
+        "source": "tmdb_vote_count",
+        "status": "verified"
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 63.3,
+    "homepage_spotlight_score": 62.7,
     "industry_interest": null,
-    "last_updated": "20260802T144610Z",
+    "last_updated": "20260803T160038Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
         "evidence_count": 2,
-        "score": 12.7,
+        "score": 12.1,
         "statuses": [
           "verified"
         ]
@@ -199,7 +204,7 @@
     "premiere_type": ""
   },
   "film_identity": {
-    "backdrop": "https://image.tmdb.org/t/p/original/wM4LLukeBIfhjn7LcVP6VIced4p.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/poQ9cHZpNVUfBc1Vw9MOIwRZyvY.jpg",
     "country": [
       "ES",
       "FR"
@@ -212,7 +217,7 @@
     "imdb_id": "",
     "language": "es",
     "original_title": "La bola negra",
-    "poster": "https://image.tmdb.org/t/p/original/du0WFunZDoFqddLa8G1vk4o0Y0c.jpg",
+    "poster": "https://image.tmdb.org/t/p/original/lGgUJwywfQMaPSXTuZAyFaO3b4E.jpg",
     "profile_payload_url": "data/films/1422041.json",
     "profile_url": "film.html?id=1422041",
     "release_date": "2026-11-06",
@@ -223,10 +228,10 @@
     "tmdb_id": "1422041"
   },
   "intelligence": {
-    "confidence": "High",
-    "confidence_score": 0.99,
-    "generated_at": "2026-08-02T14:45:55Z",
-    "headline": "La Bola Negra: popularity increasing",
+    "confidence": "Low",
+    "confidence_score": 0.25,
+    "generated_at": "2026-08-03T16:00:17Z",
+    "headline": "La Bola Negra: no material change detected",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
       "signal_values": {
@@ -245,13 +250,13 @@
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=9NNU-vSeOB0",
-        "tmdb_popularity": 3.9773,
+        "tmdb_popularity": 3.2883,
         "tmdb_poster_count": 0,
         "tmdb_release_date_us_primary": "2026-11-06",
         "tmdb_release_date_us_theatrical": "2026-11-06",
         "tmdb_release_status": "Released",
-        "tmdb_vote_average": 0,
-        "tmdb_vote_count": 0,
+        "tmdb_vote_average": 6.3,
+        "tmdb_vote_count": 3,
         "tmdb_watch_provider_count_us": 0,
         "trailer_available": true,
         "trailer_count": 1,
@@ -261,23 +266,12 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity rose from 3.7173 to 3.9773.",
-    "supporting_drivers": [
-      {
-        "confidence_weight": 0.9,
-        "driver_type": "popularity_increasing",
-        "evidence": "TMDb popularity rose from 3.7173 to 3.9773.",
-        "label": "Popularity increasing",
-        "retrieved_at": "2026-08-02T14:45:55Z",
-        "source_metric": "tmdb_popularity",
-        "source_provider": "tmdb",
-        "source_status": "available"
-      }
-    ]
+    "summary": "Current provider signals do not show a supported material change.",
+    "supporting_drivers": []
   },
   "media": {
     "canonical_trailer": {
-      "retrieved_at": "2026-08-02",
+      "retrieved_at": "2026-08-03",
       "site": "YouTube",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1422041/videos",
@@ -289,7 +283,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260802T144610Z",
+    "generated_at": "20260803T160038Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -297,28 +291,32 @@
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 3.9773,
-        "retrieved_at": "2026-08-02",
+        "popularity": 3.2883,
+        "retrieved_at": "2026-08-03",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1422041",
-        "status": "not_yet_rated"
+        "status": "rated",
+        "vote_average": 6.3,
+        "vote_count": 3
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-08-02",
+      "retrieved_at": "2026-08-03",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1422041",
-      "value": 3.9773
+      "value": 3.2883
     },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 3.9773,
-      "retrieved_at": "2026-08-02",
+      "popularity": 3.2883,
+      "retrieved_at": "2026-08-03",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1422041",
-      "status": "not_yet_rated"
+      "status": "rated",
+      "vote_average": 6.3,
+      "vote_count": 3
     }
   },
   "related": {
@@ -455,16 +453,25 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.076,
+      "audience_momentum": 0.085,
+      "audience_quality": 5.985,
       "awards_relevance": 3.2,
       "campaign_activity": 1.35,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-02T14:45:55Z",
+    "generated_at": "2026-08-03T16:00:17Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 7.951,
+    "score": 13.945,
     "source": "derived_screening_room_score",
     "top_drivers": [
+      {
+        "confidence": 0.95,
+        "contribution": 5.985,
+        "metric_name": "tmdb_vote_average",
+        "provider": "tmdb",
+        "score_family": "audience_quality",
+        "value": 6.3
+      },
       {
         "confidence": 0.5,
         "contribution": 3.2,
@@ -496,23 +503,15 @@
         "provider": "legacy_dashboard_talent_history_adapter",
         "score_family": "talent_profile",
         "value": 9
-      },
-      {
-        "confidence": 0.95,
-        "contribution": 0.076,
-        "metric_name": "tmdb_popularity",
-        "provider": "tmdb",
-        "score_family": "audience_momentum",
-        "value": 3.9773
       }
     ]
   },
   "signals": {
     "cultural_significance": 19.0,
     "external_intelligence": {
-      "confidence": "High",
-      "headline": "La Bola Negra: popularity increasing",
-      "summary": "TMDb popularity rose from 3.7173 to 3.9773."
+      "confidence": "Low",
+      "headline": "La Bola Negra: no material change detected",
+      "summary": "Current provider signals do not show a supported material change."
     },
     "last_updated": "2026-11-06",
     "latest_event": {
@@ -550,7 +549,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1422041-79d0d22e91c5",
+        "event_id": "1422041-b7d2dd59e5fd",
         "event_type": "Distributor Change",
         "film_id": "1422041",
         "importance": "Medium",
@@ -559,12 +558,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-02T14:46:10Z",
+        "timestamp": "2026-08-03T16:00:38Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1422041-82e4a8e7b19c",
+        "event_id": "1422041-69dd9d651989",
         "event_type": "Awards Tier Changed",
         "film_id": "1422041",
         "importance": "Medium",
@@ -579,15 +578,15 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-02T14:46:10Z",
+        "timestamp": "2026-08-03T16:00:38Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],
     "release_relevance": 28.0,
     "screening_room_score": {
-      "confidence": "High",
-      "explanation": "TMDb popularity rose from 3.7173 to 3.9773.",
-      "score": 7.951
+      "confidence": "Low",
+      "explanation": "Current provider signals do not show a supported material change.",
+      "score": 13.945
     },
     "watch_triggers": [
       "Prestige Distributor",
@@ -632,7 +631,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1422041-79d0d22e91c5",
+        "event_id": "1422041-b7d2dd59e5fd",
         "event_type": "Distributor Change",
         "film_id": "1422041",
         "importance": "Medium",
@@ -641,12 +640,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-02T14:46:10Z",
+        "timestamp": "2026-08-03T16:00:38Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1422041-82e4a8e7b19c",
+        "event_id": "1422041-69dd9d651989",
         "event_type": "Awards Tier Changed",
         "film_id": "1422041",
         "importance": "Medium",
@@ -661,12 +660,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-02T14:46:10Z",
+        "timestamp": "2026-08-03T16:00:38Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1422041-128ed80bf029",
+        "event_id": "1422041-bda1456db3cd",
         "event_type": "Added To Database",
         "film_id": "1422041",
         "importance": "Low",
@@ -675,7 +674,7 @@
         },
         "source_type": "system",
         "summary": "La Bola Negra is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-02T14:46:10Z",
+        "timestamp": "2026-08-03T16:00:38Z",
         "title": "Added to Awards Intelligence"
       },
       {
@@ -724,7 +723,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1422041-79d0d22e91c5",
+        "event_id": "1422041-b7d2dd59e5fd",
         "event_type": "Distributor Change",
         "film_id": "1422041",
         "importance": "Medium",
@@ -733,12 +732,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-02T14:46:10Z",
+        "timestamp": "2026-08-03T16:00:38Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1422041-82e4a8e7b19c",
+        "event_id": "1422041-69dd9d651989",
         "event_type": "Awards Tier Changed",
         "film_id": "1422041",
         "importance": "Medium",
@@ -753,7 +752,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-02T14:46:10Z",
+        "timestamp": "2026-08-03T16:00:38Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],

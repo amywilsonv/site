@@ -16,7 +16,7 @@
     },
     {
       "confidence": "Inferred",
-      "event_id": "1664866-a6211317bd82",
+      "event_id": "1664866-a4c83213c9ee",
       "event_type": "Awards Tier Changed",
       "film_id": "1664866",
       "importance": "Medium",
@@ -26,12 +26,12 @@
       },
       "source_type": "editorial_model",
       "summary": "insufficient credible awards evidence",
-      "timestamp": "2026-08-02T14:46:10Z",
+      "timestamp": "2026-08-03T16:00:38Z",
       "title": "Awards tier assigned: No Current Awards Case"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1664866-0817bf310881",
+      "event_id": "1664866-c18905d9a2fc",
       "event_type": "Added To Database",
       "film_id": "1664866",
       "importance": "Low",
@@ -40,7 +40,7 @@
       },
       "source_type": "system",
       "summary": "Wired Together is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-08-02T14:46:10Z",
+      "timestamp": "2026-08-03T16:00:38Z",
       "title": "Added to Awards Intelligence"
     }
   ],
@@ -61,7 +61,7 @@
   "metadata": {
     "event_count": 3,
     "film_id": "1664866",
-    "generated_at": "20260802T144610Z",
+    "generated_at": "20260803T160038Z",
     "timeline_version": "phase6b",
     "title": "Wired Together",
     "tmdb_id": "1664866"
