@@ -7,7 +7,7 @@
       "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 40.4,
+    "attention_score": 41.2,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -25,6 +25,11 @@
         "status": "verified"
       },
       {
+        "evidence": "TMDb popularity 1.6942",
+        "source": "audience_popularity",
+        "status": "verified"
+      },
+      {
         "evidence": "Release date: 2026-11-24",
         "source": "release_proximity",
         "status": "verified"
@@ -35,25 +40,20 @@
         "status": "inferred"
       },
       {
-        "evidence": "TMDb popularity 1.3058",
-        "source": "audience_popularity",
-        "status": "verified"
-      },
-      {
         "evidence": "Director: McG",
         "source": "filmmaker_interest",
         "status": "verified"
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 40.4,
+    "homepage_spotlight_score": 41.2,
     "industry_interest": null,
-    "last_updated": "20260803T160038Z",
+    "last_updated": "20260804T154247Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
         "evidence_count": 1,
-        "score": 4.3,
+        "score": 5.1,
         "statuses": [
           "verified"
         ]
@@ -197,10 +197,10 @@
     "tmdb_id": "1280115"
   },
   "intelligence": {
-    "confidence": "Low",
-    "confidence_score": 0.25,
-    "generated_at": "2026-08-03T16:00:17Z",
-    "headline": "Way of the Warrior Kid: no material change detected",
+    "confidence": "High",
+    "confidence_score": 0.99,
+    "generated_at": "2026-08-04T15:42:32Z",
+    "headline": "Way of the Warrior Kid: popularity increasing",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
       "signal_values": {
@@ -218,7 +218,7 @@
         "streaming_provider_count_us": 0,
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": false,
-        "tmdb_popularity": 1.3058,
+        "tmdb_popularity": 1.6942,
         "tmdb_poster_count": 1,
         "tmdb_release_date_us_primary": "2026-11-24",
         "tmdb_release_date_us_theatrical": "",
@@ -233,13 +233,24 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "Current provider signals do not show a supported material change.",
-    "supporting_drivers": []
+    "summary": "TMDb popularity rose from 1.3915 to 1.6942.",
+    "supporting_drivers": [
+      {
+        "confidence_weight": 0.9,
+        "driver_type": "popularity_increasing",
+        "evidence": "TMDb popularity rose from 1.3915 to 1.6942.",
+        "label": "Popularity increasing",
+        "retrieved_at": "2026-08-04T15:42:32Z",
+        "source_metric": "tmdb_popularity",
+        "source_provider": "tmdb",
+        "source_status": "available"
+      }
+    ]
   },
   "media": {},
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260803T160038Z",
+    "generated_at": "20260804T154247Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -247,25 +258,25 @@
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 1.3058,
-        "retrieved_at": "2026-08-03",
+        "popularity": 1.6942,
+        "retrieved_at": "2026-08-04",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1280115",
         "status": "not_yet_rated"
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-08-03",
+      "retrieved_at": "2026-08-04",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1280115",
-      "value": 1.3058
+      "value": 1.6942
     },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 1.3058,
-      "retrieved_at": "2026-08-03",
+      "popularity": 1.6942,
+      "retrieved_at": "2026-08-04",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1280115",
       "status": "not_yet_rated"
@@ -405,13 +416,13 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.025,
+      "audience_momentum": 0.032,
       "awards_relevance": 2.4,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-03T16:00:17Z",
+    "generated_at": "2026-08-04T15:42:32Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 5.75,
+    "score": 5.757,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -440,20 +451,20 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.025,
+        "contribution": 0.032,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 1.3058
+        "value": 1.6942
       }
     ]
   },
   "signals": {
     "cultural_significance": 19.0,
     "external_intelligence": {
-      "confidence": "Low",
-      "headline": "Way of the Warrior Kid: no material change detected",
-      "summary": "Current provider signals do not show a supported material change."
+      "confidence": "High",
+      "headline": "Way of the Warrior Kid: popularity increasing",
+      "summary": "TMDb popularity rose from 1.3915 to 1.6942."
     },
     "last_updated": "2026-11-24",
     "latest_event": {
@@ -491,7 +502,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1280115-f3007ccbc866",
+        "event_id": "1280115-0d40556f8287",
         "event_type": "Distributor Change",
         "film_id": "1280115",
         "importance": "Medium",
@@ -500,12 +511,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Apple TV.",
-        "timestamp": "2026-08-03T16:00:38Z",
+        "timestamp": "2026-08-04T15:42:47Z",
         "title": "Distributor set: Apple TV"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1280115-7256d188310b",
+        "event_id": "1280115-5d55302195f4",
         "event_type": "Awards Tier Changed",
         "film_id": "1280115",
         "importance": "Medium",
@@ -519,15 +530,15 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-03T16:00:38Z",
+        "timestamp": "2026-08-04T15:42:47Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],
     "release_relevance": 20.6,
     "screening_room_score": {
-      "confidence": "Low",
-      "explanation": "Current provider signals do not show a supported material change.",
-      "score": 5.75
+      "confidence": "High",
+      "explanation": "TMDb popularity rose from 1.3915 to 1.6942.",
+      "score": 5.757
     },
     "watch_triggers": [
       "Prestige Distributor",
@@ -570,7 +581,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1280115-f3007ccbc866",
+        "event_id": "1280115-0d40556f8287",
         "event_type": "Distributor Change",
         "film_id": "1280115",
         "importance": "Medium",
@@ -579,12 +590,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Apple TV.",
-        "timestamp": "2026-08-03T16:00:38Z",
+        "timestamp": "2026-08-04T15:42:47Z",
         "title": "Distributor set: Apple TV"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1280115-7256d188310b",
+        "event_id": "1280115-5d55302195f4",
         "event_type": "Awards Tier Changed",
         "film_id": "1280115",
         "importance": "Medium",
@@ -598,12 +609,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-03T16:00:38Z",
+        "timestamp": "2026-08-04T15:42:47Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1280115-e76f69186681",
+        "event_id": "1280115-2daa325ec759",
         "event_type": "Added To Database",
         "film_id": "1280115",
         "importance": "Low",
@@ -612,7 +623,7 @@
         },
         "source_type": "system",
         "summary": "Way of the Warrior Kid is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-03T16:00:38Z",
+        "timestamp": "2026-08-04T15:42:47Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -647,7 +658,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1280115-f3007ccbc866",
+        "event_id": "1280115-0d40556f8287",
         "event_type": "Distributor Change",
         "film_id": "1280115",
         "importance": "Medium",
@@ -656,12 +667,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Apple TV.",
-        "timestamp": "2026-08-03T16:00:38Z",
+        "timestamp": "2026-08-04T15:42:47Z",
         "title": "Distributor set: Apple TV"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1280115-7256d188310b",
+        "event_id": "1280115-5d55302195f4",
         "event_type": "Awards Tier Changed",
         "film_id": "1280115",
         "importance": "Medium",
@@ -675,7 +686,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-03T16:00:38Z",
+        "timestamp": "2026-08-04T15:42:47Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],

@@ -2,7 +2,7 @@
   "events": [
     {
       "confidence": "Inferred",
-      "event_id": "1353167-fc4d3bd70f74",
+      "event_id": "1353167-e6064caf33d2",
       "event_type": "Distributor Change",
       "film_id": "1353167",
       "importance": "Medium",
@@ -11,12 +11,12 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Apple TV.",
-      "timestamp": "2026-08-03T16:00:38Z",
+      "timestamp": "2026-08-04T15:42:47Z",
       "title": "Distributor set: Apple TV"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1353167-5b7983123949",
+      "event_id": "1353167-853eddbcf6a9",
       "event_type": "Awards Tier Changed",
       "film_id": "1353167",
       "importance": "Medium",
@@ -26,12 +26,12 @@
       },
       "source_type": "editorial_model",
       "summary": "insufficient credible awards evidence",
-      "timestamp": "2026-08-03T16:00:38Z",
+      "timestamp": "2026-08-04T15:42:47Z",
       "title": "Awards tier assigned: No Current Awards Case"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1353167-340b66e3f09c",
+      "event_id": "1353167-dabe86f5caed",
       "event_type": "Added To Database",
       "film_id": "1353167",
       "importance": "Low",
@@ -40,7 +40,7 @@
       },
       "source_type": "system",
       "summary": "The Mouse Trap: Welcome to the Mickeyverse is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-08-03T16:00:38Z",
+      "timestamp": "2026-08-04T15:42:47Z",
       "title": "Added to Awards Intelligence"
     },
     {
@@ -60,7 +60,7 @@
   ],
   "latest_event": {
     "confidence": "Inferred",
-    "event_id": "1353167-fc4d3bd70f74",
+    "event_id": "1353167-e6064caf33d2",
     "event_type": "Distributor Change",
     "film_id": "1353167",
     "importance": "Medium",
@@ -69,13 +69,13 @@
     },
     "source_type": "metadata",
     "summary": "Current distributor is Apple TV.",
-    "timestamp": "2026-08-03T16:00:38Z",
+    "timestamp": "2026-08-04T15:42:47Z",
     "title": "Distributor set: Apple TV"
   },
   "metadata": {
     "event_count": 4,
     "film_id": "1353167",
-    "generated_at": "20260803T160038Z",
+    "generated_at": "20260804T154247Z",
     "timeline_version": "phase6b",
     "title": "The Mouse Trap: Welcome to the Mickeyverse",
     "tmdb_id": "1353167"

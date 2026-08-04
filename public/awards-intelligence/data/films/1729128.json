@@ -51,7 +51,7 @@
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 0.8296",
+        "evidence": "TMDb popularity 0.8301",
         "source": "audience_popularity",
         "status": "verified"
       }
@@ -59,7 +59,7 @@
     "homepage_spotlight_override": null,
     "homepage_spotlight_score": 59.5,
     "industry_interest": "Moderate",
-    "last_updated": "20260803T160038Z",
+    "last_updated": "20260804T154247Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
@@ -215,7 +215,7 @@
   "intelligence": {
     "confidence": "Low",
     "confidence_score": 0.25,
-    "generated_at": "2026-08-03T16:00:17Z",
+    "generated_at": "2026-08-04T15:42:32Z",
     "headline": "Unification of Japan 76: no material change detected",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -234,7 +234,7 @@
         "streaming_provider_count_us": 0,
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": false,
-        "tmdb_popularity": 0.8296,
+        "tmdb_popularity": 0.8301,
         "tmdb_poster_count": 0,
         "tmdb_release_date_us_primary": "",
         "tmdb_release_date_us_theatrical": "",
@@ -255,7 +255,7 @@
   "media": {},
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260803T160038Z",
+    "generated_at": "20260804T154247Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -263,25 +263,25 @@
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 0.8296,
-        "retrieved_at": "2026-08-03",
+        "popularity": 0.8301,
+        "retrieved_at": "2026-08-04",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1729128",
         "status": "not_yet_rated"
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-08-03",
+      "retrieved_at": "2026-08-04",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1729128",
-      "value": 0.8296
+      "value": 0.8301
     },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 0.8296,
-      "retrieved_at": "2026-08-03",
+      "popularity": 0.8301,
+      "retrieved_at": "2026-08-04",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1729128",
       "status": "not_yet_rated"
@@ -404,7 +404,7 @@
       "awards_relevance": 0.8,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-03T16:00:17Z",
+    "generated_at": "2026-08-04T15:42:32Z",
     "schema_version": "phase3_screening_room_score_v1",
     "score": 4.141,
     "source": "derived_screening_room_score",
@@ -439,7 +439,7 @@
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 0.8296
+        "value": 0.8301
       }
     ]
   },
@@ -486,7 +486,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1729128-1b3f370ca126",
+        "event_id": "1729128-4e5b68966223",
         "event_type": "Awards Tier Changed",
         "film_id": "1729128",
         "importance": "Medium",
@@ -498,12 +498,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-08-03T16:00:38Z",
+        "timestamp": "2026-08-04T15:42:47Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1729128-fdbfe0b80f63",
+        "event_id": "1729128-df81133c3ce7",
         "event_type": "Added To Database",
         "film_id": "1729128",
         "importance": "Low",
@@ -512,7 +512,7 @@
         },
         "source_type": "system",
         "summary": "Unification of Japan 76 is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-03T16:00:38Z",
+        "timestamp": "2026-08-04T15:42:47Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -563,7 +563,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1729128-1b3f370ca126",
+        "event_id": "1729128-4e5b68966223",
         "event_type": "Awards Tier Changed",
         "film_id": "1729128",
         "importance": "Medium",
@@ -575,12 +575,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-08-03T16:00:38Z",
+        "timestamp": "2026-08-04T15:42:47Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1729128-fdbfe0b80f63",
+        "event_id": "1729128-df81133c3ce7",
         "event_type": "Added To Database",
         "film_id": "1729128",
         "importance": "Low",
@@ -589,7 +589,7 @@
         },
         "source_type": "system",
         "summary": "Unification of Japan 76 is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-03T16:00:38Z",
+        "timestamp": "2026-08-04T15:42:47Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -624,7 +624,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1729128-1b3f370ca126",
+        "event_id": "1729128-4e5b68966223",
         "event_type": "Awards Tier Changed",
         "film_id": "1729128",
         "importance": "Medium",
@@ -636,12 +636,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-08-03T16:00:38Z",
+        "timestamp": "2026-08-04T15:42:47Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1729128-fdbfe0b80f63",
+        "event_id": "1729128-df81133c3ce7",
         "event_type": "Added To Database",
         "film_id": "1729128",
         "importance": "Low",
@@ -650,7 +650,7 @@
         },
         "source_type": "system",
         "summary": "Unification of Japan 76 is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-03T16:00:38Z",
+        "timestamp": "2026-08-04T15:42:47Z",
         "title": "Added to Awards Intelligence"
       }
     ],

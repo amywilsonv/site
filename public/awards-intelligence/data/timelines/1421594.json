@@ -16,7 +16,7 @@
     },
     {
       "confidence": "Inferred",
-      "event_id": "1421594-8ab84ad1eb18",
+      "event_id": "1421594-abb3d05793b2",
       "event_type": "Distributor Change",
       "film_id": "1421594",
       "importance": "Medium",
@@ -25,12 +25,12 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Netflix.",
-      "timestamp": "2026-08-03T16:00:38Z",
+      "timestamp": "2026-08-04T15:42:47Z",
       "title": "Distributor set: Netflix"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1421594-12ffb545f8d1",
+      "event_id": "1421594-46baa501e615",
       "event_type": "Awards Tier Changed",
       "film_id": "1421594",
       "importance": "Medium",
@@ -40,12 +40,12 @@
       },
       "source_type": "editorial_model",
       "summary": "insufficient credible awards evidence",
-      "timestamp": "2026-08-03T16:00:38Z",
+      "timestamp": "2026-08-04T15:42:47Z",
       "title": "Awards tier assigned: No Current Awards Case"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1421594-dbf0be6ab9fb",
+      "event_id": "1421594-c025c051d1a9",
       "event_type": "Added To Database",
       "film_id": "1421594",
       "importance": "Low",
@@ -54,7 +54,7 @@
       },
       "source_type": "system",
       "summary": "Inside the Trustor Scandal is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-08-03T16:00:38Z",
+      "timestamp": "2026-08-04T15:42:47Z",
       "title": "Added to Awards Intelligence"
     },
     {
@@ -89,7 +89,7 @@
   "metadata": {
     "event_count": 5,
     "film_id": "1421594",
-    "generated_at": "20260803T160038Z",
+    "generated_at": "20260804T154247Z",
     "timeline_version": "phase6b",
     "title": "Inside the Trustor Scandal",
     "tmdb_id": "1421594"

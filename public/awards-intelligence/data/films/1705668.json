@@ -40,7 +40,7 @@
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 1.5728",
+        "evidence": "TMDb popularity 1.5661",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -53,7 +53,7 @@
     "homepage_spotlight_override": null,
     "homepage_spotlight_score": 54.3,
     "industry_interest": "Moderate",
-    "last_updated": "20260803T160038Z",
+    "last_updated": "20260804T154247Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
@@ -197,7 +197,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-08-03T16:00:17Z",
+    "generated_at": "2026-08-04T15:42:32Z",
     "headline": "Aa Bata Aama 2: popularity increasing",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -216,7 +216,7 @@
         "streaming_provider_count_us": 0,
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": false,
-        "tmdb_popularity": 1.5728,
+        "tmdb_popularity": 1.5661,
         "tmdb_poster_count": 0,
         "tmdb_release_date_us_primary": "",
         "tmdb_release_date_us_theatrical": "",
@@ -231,14 +231,14 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity rose from 1.4172 to 1.5728.",
+    "summary": "TMDb popularity rose from 1.4172 to 1.5661.",
     "supporting_drivers": [
       {
         "confidence_weight": 0.9,
         "driver_type": "popularity_increasing",
-        "evidence": "TMDb popularity rose from 1.4172 to 1.5728.",
+        "evidence": "TMDb popularity rose from 1.4172 to 1.5661.",
         "label": "Popularity increasing",
-        "retrieved_at": "2026-08-03T16:00:17Z",
+        "retrieved_at": "2026-08-04T15:42:32Z",
         "source_metric": "tmdb_popularity",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -248,7 +248,7 @@
   "media": {},
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260803T160038Z",
+    "generated_at": "20260804T154247Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -256,25 +256,25 @@
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 1.5728,
-        "retrieved_at": "2026-08-03",
+        "popularity": 1.5661,
+        "retrieved_at": "2026-08-04",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1705668",
         "status": "not_yet_rated"
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-08-03",
+      "retrieved_at": "2026-08-04",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1705668",
-      "value": 1.5728
+      "value": 1.5661
     },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 1.5728,
-      "retrieved_at": "2026-08-03",
+      "popularity": 1.5661,
+      "retrieved_at": "2026-08-04",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1705668",
       "status": "not_yet_rated"
@@ -393,7 +393,7 @@
       "audience_momentum": 0.03,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-03T16:00:17Z",
+    "generated_at": "2026-08-04T15:42:32Z",
     "schema_version": "phase3_screening_room_score_v1",
     "score": 3.355,
     "source": "derived_screening_room_score",
@@ -420,7 +420,7 @@
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 1.5728
+        "value": 1.5661
       }
     ]
   },
@@ -429,7 +429,7 @@
     "external_intelligence": {
       "confidence": "High",
       "headline": "Aa Bata Aama 2: popularity increasing",
-      "summary": "TMDb popularity rose from 1.4172 to 1.5728."
+      "summary": "TMDb popularity rose from 1.4172 to 1.5661."
     },
     "last_updated": "2026-10-16",
     "latest_event": {
@@ -467,7 +467,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1705668-5c2db2405ecd",
+        "event_id": "1705668-124785711775",
         "event_type": "Awards Tier Changed",
         "film_id": "1705668",
         "importance": "Medium",
@@ -477,12 +477,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-03T16:00:38Z",
+        "timestamp": "2026-08-04T15:42:47Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1705668-a1f61e548bfa",
+        "event_id": "1705668-b7ba31b7197a",
         "event_type": "Added To Database",
         "film_id": "1705668",
         "importance": "Low",
@@ -491,14 +491,14 @@
         },
         "source_type": "system",
         "summary": "Aa Bata Aama 2 is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-03T16:00:38Z",
+        "timestamp": "2026-08-04T15:42:47Z",
         "title": "Added to Awards Intelligence"
       }
     ],
     "release_relevance": 31.1,
     "screening_room_score": {
       "confidence": "High",
-      "explanation": "TMDb popularity rose from 1.4172 to 1.5728.",
+      "explanation": "TMDb popularity rose from 1.4172 to 1.5661.",
       "score": 3.355
     },
     "watch_triggers": [
@@ -541,7 +541,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1705668-5c2db2405ecd",
+        "event_id": "1705668-124785711775",
         "event_type": "Awards Tier Changed",
         "film_id": "1705668",
         "importance": "Medium",
@@ -551,12 +551,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-03T16:00:38Z",
+        "timestamp": "2026-08-04T15:42:47Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1705668-a1f61e548bfa",
+        "event_id": "1705668-b7ba31b7197a",
         "event_type": "Added To Database",
         "film_id": "1705668",
         "importance": "Low",
@@ -565,7 +565,7 @@
         },
         "source_type": "system",
         "summary": "Aa Bata Aama 2 is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-03T16:00:38Z",
+        "timestamp": "2026-08-04T15:42:47Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -600,7 +600,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1705668-5c2db2405ecd",
+        "event_id": "1705668-124785711775",
         "event_type": "Awards Tier Changed",
         "film_id": "1705668",
         "importance": "Medium",
@@ -610,12 +610,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-03T16:00:38Z",
+        "timestamp": "2026-08-04T15:42:47Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1705668-a1f61e548bfa",
+        "event_id": "1705668-b7ba31b7197a",
         "event_type": "Added To Database",
         "film_id": "1705668",
         "importance": "Low",
@@ -624,7 +624,7 @@
         },
         "source_type": "system",
         "summary": "Aa Bata Aama 2 is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-03T16:00:38Z",
+        "timestamp": "2026-08-04T15:42:47Z",
         "title": "Added to Awards Intelligence"
       }
     ],

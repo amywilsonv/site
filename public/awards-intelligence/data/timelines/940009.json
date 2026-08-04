@@ -16,7 +16,7 @@
     },
     {
       "confidence": "Inferred",
-      "event_id": "940009-2f1ccde26420",
+      "event_id": "940009-742544d1ff9f",
       "event_type": "Distributor Change",
       "film_id": "940009",
       "importance": "Medium",
@@ -25,12 +25,12 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Netflix.",
-      "timestamp": "2026-08-03T16:00:38Z",
+      "timestamp": "2026-08-04T15:42:47Z",
       "title": "Distributor set: Netflix"
     },
     {
       "confidence": "Inferred",
-      "event_id": "940009-3d96eff894cf",
+      "event_id": "940009-9756288e91b9",
       "event_type": "Awards Tier Changed",
       "film_id": "940009",
       "importance": "Medium",
@@ -44,12 +44,12 @@
       },
       "source_type": "editorial_model",
       "summary": "category-specific awards case without broader contender evidence",
-      "timestamp": "2026-08-03T16:00:38Z",
+      "timestamp": "2026-08-04T15:42:47Z",
       "title": "Awards tier assigned: Category Contender"
     },
     {
       "confidence": "Inferred",
-      "event_id": "940009-6ade8f19b852",
+      "event_id": "940009-33a2d9e17b91",
       "event_type": "Added To Database",
       "film_id": "940009",
       "importance": "Low",
@@ -58,7 +58,7 @@
       },
       "source_type": "system",
       "summary": "Ray Gunn is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-08-03T16:00:38Z",
+      "timestamp": "2026-08-04T15:42:47Z",
       "title": "Added to Awards Intelligence"
     }
   ],
@@ -79,7 +79,7 @@
   "metadata": {
     "event_count": 4,
     "film_id": "940009",
-    "generated_at": "20260803T160038Z",
+    "generated_at": "20260804T154247Z",
     "timeline_version": "phase6b",
     "title": "Ray Gunn",
     "tmdb_id": "940009"

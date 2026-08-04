@@ -7,7 +7,7 @@
       "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 42.7,
+    "attention_score": 42.9,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -30,12 +30,12 @@
         "status": "verified"
       },
       {
-        "evidence": "Release date: 2026-12-25",
+        "evidence": "Release date: 2027-04-23",
         "source": "release_proximity",
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 1.3752",
+        "evidence": "TMDb popularity 1.4819",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -46,14 +46,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 42.7,
+    "homepage_spotlight_score": 42.9,
     "industry_interest": null,
-    "last_updated": "20260803T160038Z",
+    "last_updated": "20260804T154247Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
         "evidence_count": 1,
-        "score": 4.5,
+        "score": 4.7,
         "statuses": [
           "verified"
         ]
@@ -190,8 +190,8 @@
     "poster": "https://image.tmdb.org/t/p/original/4gSgzVw59vhegejEh1yMMfStXsU.jpg",
     "profile_payload_url": "data/films/1437882.json",
     "profile_url": "film.html?id=1437882",
-    "release_date": "2026-12-25",
-    "release_display": "In theaters Dec. 25",
+    "release_date": "2027-04-23",
+    "release_display": "Apr. 23, 2027",
     "runtime": null,
     "synopsis": "A top criminal defense attorney, known for representing unlikeable clients in high-profile cases, is a relentless workhorse at her firm and fully expects to be named partner. When another attorney joins the firm, her job is put to the test and makes her question just how far she\u2019ll go to protect it.",
     "title": "A Place in Hell",
@@ -200,7 +200,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-08-03T16:00:17Z",
+    "generated_at": "2026-08-04T15:42:32Z",
     "headline": "A Place in Hell: popularity increasing",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -219,10 +219,10 @@
         "streaming_provider_count_us": 0,
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": false,
-        "tmdb_popularity": 1.3752,
-        "tmdb_poster_count": 0,
-        "tmdb_release_date_us_primary": "2026-12-25",
-        "tmdb_release_date_us_theatrical": "2026-12-25",
+        "tmdb_popularity": 1.4819,
+        "tmdb_poster_count": 4,
+        "tmdb_release_date_us_primary": "2027-04-23",
+        "tmdb_release_date_us_theatrical": "2027-04-23",
         "tmdb_release_status": "Post Production",
         "tmdb_vote_average": 0,
         "tmdb_vote_count": 0,
@@ -234,14 +234,14 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity rose from 1.1083 to 1.3752.",
+    "summary": "TMDb popularity rose from 1.1083 to 1.4819.",
     "supporting_drivers": [
       {
         "confidence_weight": 0.9,
         "driver_type": "popularity_increasing",
-        "evidence": "TMDb popularity rose from 1.1083 to 1.3752.",
+        "evidence": "TMDb popularity rose from 1.1083 to 1.4819.",
         "label": "Popularity increasing",
-        "retrieved_at": "2026-08-03T16:00:17Z",
+        "retrieved_at": "2026-08-04T15:42:32Z",
         "source_metric": "tmdb_popularity",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -251,7 +251,7 @@
   "media": {},
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260803T160038Z",
+    "generated_at": "20260804T154247Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -259,25 +259,25 @@
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 1.3752,
-        "retrieved_at": "2026-08-03",
+        "popularity": 1.4819,
+        "retrieved_at": "2026-08-04",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1437882",
         "status": "not_yet_rated"
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-08-03",
+      "retrieved_at": "2026-08-04",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1437882",
-      "value": 1.3752
+      "value": 1.4819
     },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 1.3752,
-      "retrieved_at": "2026-08-03",
+      "popularity": 1.4819,
+      "retrieved_at": "2026-08-04",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1437882",
       "status": "not_yet_rated"
@@ -413,13 +413,13 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.026,
+      "audience_momentum": 0.028,
       "awards_relevance": 2.4,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-03T16:00:17Z",
+    "generated_at": "2026-08-04T15:42:32Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 5.751,
+    "score": 5.753,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -448,11 +448,11 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.026,
+        "contribution": 0.028,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 1.3752
+        "value": 1.4819
       }
     ]
   },
@@ -461,21 +461,21 @@
     "external_intelligence": {
       "confidence": "High",
       "headline": "A Place in Hell: popularity increasing",
-      "summary": "TMDb popularity rose from 1.1083 to 1.3752."
+      "summary": "TMDb popularity rose from 1.1083 to 1.4819."
     },
-    "last_updated": "2026-12-25",
+    "last_updated": "2027-04-23",
     "latest_event": {
       "confidence": "Inferred",
-      "event_id": "1437882-718a2b65dac3",
+      "event_id": "1437882-439850660959",
       "event_type": "Release Scheduled",
       "film_id": "1437882",
       "importance": "Medium",
       "metadata": {
-        "release_date": "2026-12-25"
+        "release_date": "2027-04-23"
       },
       "source_type": "metadata",
-      "summary": "Release currently scheduled for In theaters Dec. 25.",
-      "timestamp": "2026-12-25",
+      "summary": "Release currently scheduled for Apr. 23, 2027.",
+      "timestamp": "2027-04-23",
       "title": "Release scheduled"
     },
     "latest_intelligence": "As of 2026-07-18, this is a Neon release dated 2026-12-25 with Best Picture, Acting relevance; current awards profile is Developing and data status is developing.",
@@ -485,21 +485,21 @@
     "recent_activity": [
       {
         "confidence": "Inferred",
-        "event_id": "1437882-718a2b65dac3",
+        "event_id": "1437882-439850660959",
         "event_type": "Release Scheduled",
         "film_id": "1437882",
         "importance": "Medium",
         "metadata": {
-          "release_date": "2026-12-25"
+          "release_date": "2027-04-23"
         },
         "source_type": "metadata",
-        "summary": "Release currently scheduled for In theaters Dec. 25.",
-        "timestamp": "2026-12-25",
+        "summary": "Release currently scheduled for Apr. 23, 2027.",
+        "timestamp": "2027-04-23",
         "title": "Release scheduled"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1437882-ae888e133c18",
+        "event_id": "1437882-059e8a851416",
         "event_type": "Distributor Change",
         "film_id": "1437882",
         "importance": "Medium",
@@ -508,12 +508,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Neon.",
-        "timestamp": "2026-08-03T16:00:38Z",
+        "timestamp": "2026-08-04T15:42:47Z",
         "title": "Distributor set: Neon"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1437882-9dd8793d36a2",
+        "event_id": "1437882-85bcf4f239ac",
         "event_type": "Awards Tier Changed",
         "film_id": "1437882",
         "importance": "Medium",
@@ -527,15 +527,15 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-03T16:00:38Z",
+        "timestamp": "2026-08-04T15:42:47Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],
-    "release_relevance": 20.2,
+    "release_relevance": 8.7,
     "screening_room_score": {
       "confidence": "High",
-      "explanation": "TMDb popularity rose from 1.1083 to 1.3752.",
-      "score": 5.751
+      "explanation": "TMDb popularity rose from 1.1083 to 1.4819.",
+      "score": 5.753
     },
     "watch_triggers": [
       "Prestige Distributor",
@@ -564,21 +564,21 @@
     "events": [
       {
         "confidence": "Inferred",
-        "event_id": "1437882-718a2b65dac3",
+        "event_id": "1437882-439850660959",
         "event_type": "Release Scheduled",
         "film_id": "1437882",
         "importance": "Medium",
         "metadata": {
-          "release_date": "2026-12-25"
+          "release_date": "2027-04-23"
         },
         "source_type": "metadata",
-        "summary": "Release currently scheduled for In theaters Dec. 25.",
-        "timestamp": "2026-12-25",
+        "summary": "Release currently scheduled for Apr. 23, 2027.",
+        "timestamp": "2027-04-23",
         "title": "Release scheduled"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1437882-ae888e133c18",
+        "event_id": "1437882-059e8a851416",
         "event_type": "Distributor Change",
         "film_id": "1437882",
         "importance": "Medium",
@@ -587,12 +587,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Neon.",
-        "timestamp": "2026-08-03T16:00:38Z",
+        "timestamp": "2026-08-04T15:42:47Z",
         "title": "Distributor set: Neon"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1437882-9dd8793d36a2",
+        "event_id": "1437882-85bcf4f239ac",
         "event_type": "Awards Tier Changed",
         "film_id": "1437882",
         "importance": "Medium",
@@ -606,12 +606,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-03T16:00:38Z",
+        "timestamp": "2026-08-04T15:42:47Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1437882-af74ee9f3ca5",
+        "event_id": "1437882-b30c25c2e57e",
         "event_type": "Added To Database",
         "film_id": "1437882",
         "importance": "Low",
@@ -620,42 +620,42 @@
         },
         "source_type": "system",
         "summary": "A Place in Hell is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-03T16:00:38Z",
+        "timestamp": "2026-08-04T15:42:47Z",
         "title": "Added to Awards Intelligence"
       }
     ],
     "latest_event": {
       "confidence": "Inferred",
-      "event_id": "1437882-718a2b65dac3",
+      "event_id": "1437882-439850660959",
       "event_type": "Release Scheduled",
       "film_id": "1437882",
       "importance": "Medium",
       "metadata": {
-        "release_date": "2026-12-25"
+        "release_date": "2027-04-23"
       },
       "source_type": "metadata",
-      "summary": "Release currently scheduled for In theaters Dec. 25.",
-      "timestamp": "2026-12-25",
+      "summary": "Release currently scheduled for Apr. 23, 2027.",
+      "timestamp": "2027-04-23",
       "title": "Release scheduled"
     },
     "recent_activity": [
       {
         "confidence": "Inferred",
-        "event_id": "1437882-718a2b65dac3",
+        "event_id": "1437882-439850660959",
         "event_type": "Release Scheduled",
         "film_id": "1437882",
         "importance": "Medium",
         "metadata": {
-          "release_date": "2026-12-25"
+          "release_date": "2027-04-23"
         },
         "source_type": "metadata",
-        "summary": "Release currently scheduled for In theaters Dec. 25.",
-        "timestamp": "2026-12-25",
+        "summary": "Release currently scheduled for Apr. 23, 2027.",
+        "timestamp": "2027-04-23",
         "title": "Release scheduled"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1437882-ae888e133c18",
+        "event_id": "1437882-059e8a851416",
         "event_type": "Distributor Change",
         "film_id": "1437882",
         "importance": "Medium",
@@ -664,12 +664,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Neon.",
-        "timestamp": "2026-08-03T16:00:38Z",
+        "timestamp": "2026-08-04T15:42:47Z",
         "title": "Distributor set: Neon"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1437882-9dd8793d36a2",
+        "event_id": "1437882-85bcf4f239ac",
         "event_type": "Awards Tier Changed",
         "film_id": "1437882",
         "importance": "Medium",
@@ -683,7 +683,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-03T16:00:38Z",
+        "timestamp": "2026-08-04T15:42:47Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],

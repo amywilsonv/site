@@ -16,7 +16,7 @@
     },
     {
       "confidence": "Inferred",
-      "event_id": "1302904-67946fcf0705",
+      "event_id": "1302904-ce8cae7cb84b",
       "event_type": "Distributor Change",
       "film_id": "1302904",
       "importance": "Medium",
@@ -25,12 +25,12 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Warner Bros. Pictures.",
-      "timestamp": "2026-08-03T16:00:38Z",
+      "timestamp": "2026-08-04T15:42:47Z",
       "title": "Distributor set: Warner Bros. Pictures"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1302904-9a1c55be0c44",
+      "event_id": "1302904-73c674a59f59",
       "event_type": "Awards Tier Changed",
       "film_id": "1302904",
       "importance": "Medium",
@@ -42,12 +42,12 @@
       },
       "source_type": "editorial_model",
       "summary": "plausible but incomplete awards evidence",
-      "timestamp": "2026-08-03T16:00:38Z",
+      "timestamp": "2026-08-04T15:42:47Z",
       "title": "Awards tier assigned: Emerging"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1302904-a9b499068785",
+      "event_id": "1302904-9569b67c4a31",
       "event_type": "Added To Database",
       "film_id": "1302904",
       "importance": "Low",
@@ -56,7 +56,7 @@
       },
       "source_type": "system",
       "summary": "Practical Magic 2 is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-08-03T16:00:38Z",
+      "timestamp": "2026-08-04T15:42:47Z",
       "title": "Added to Awards Intelligence"
     }
   ],
@@ -77,7 +77,7 @@
   "metadata": {
     "event_count": 4,
     "film_id": "1302904",
-    "generated_at": "20260803T160038Z",
+    "generated_at": "20260804T154247Z",
     "timeline_version": "phase6b",
     "title": "Practical Magic 2",
     "tmdb_id": "1302904"
