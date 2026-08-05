@@ -16,7 +16,7 @@
     },
     {
       "confidence": "Inferred",
-      "event_id": "1479690-b981e25cc29e",
+      "event_id": "1479690-7c6c3fd1ac89",
       "event_type": "Distributor Change",
       "film_id": "1479690",
       "importance": "Medium",
@@ -25,12 +25,12 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Amazon MGM Studios.",
-      "timestamp": "2026-08-04T15:42:47Z",
+      "timestamp": "2026-08-05T15:35:12Z",
       "title": "Distributor set: Amazon MGM Studios"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1479690-c3552f024999",
+      "event_id": "1479690-fb5a0cb88064",
       "event_type": "Awards Tier Changed",
       "film_id": "1479690",
       "importance": "Medium",
@@ -44,12 +44,12 @@
       },
       "source_type": "editorial_model",
       "summary": "insufficient credible awards evidence",
-      "timestamp": "2026-08-04T15:42:47Z",
+      "timestamp": "2026-08-05T15:35:12Z",
       "title": "Awards tier assigned: No Current Awards Case"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1479690-b3925aa60e88",
+      "event_id": "1479690-8b93385ad8fc",
       "event_type": "Added To Database",
       "film_id": "1479690",
       "importance": "Low",
@@ -58,7 +58,7 @@
       },
       "source_type": "system",
       "summary": "RaftaaR is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-08-04T15:42:47Z",
+      "timestamp": "2026-08-05T15:35:12Z",
       "title": "Added to Awards Intelligence"
     }
   ],
@@ -79,7 +79,7 @@
   "metadata": {
     "event_count": 4,
     "film_id": "1479690",
-    "generated_at": "20260804T154247Z",
+    "generated_at": "20260805T153512Z",
     "timeline_version": "phase6b",
     "title": "RaftaaR",
     "tmdb_id": "1479690"

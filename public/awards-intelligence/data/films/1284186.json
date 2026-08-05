@@ -7,7 +7,7 @@
       "Major Filmmaker",
       "Awards Watch"
     ],
-    "attention_score": 33.5,
+    "attention_score": 34.0,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -17,6 +17,11 @@
       {
         "evidence": "Principal cast listed: Chris Evans, Anya Taylor-Joy, Vincent Cassel, Salma Hayek Pinault",
         "source": "cast_interest",
+        "status": "verified"
+      },
+      {
+        "evidence": "TMDb popularity 3.019",
+        "source": "audience_popularity",
         "status": "verified"
       },
       {
@@ -30,11 +35,6 @@
         "status": "inferred"
       },
       {
-        "evidence": "TMDb popularity 2.6903",
-        "source": "audience_popularity",
-        "status": "verified"
-      },
-      {
         "evidence": "Director: Romain Gavras",
         "source": "filmmaker_interest",
         "status": "verified"
@@ -46,14 +46,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 33.5,
+    "homepage_spotlight_score": 34.0,
     "industry_interest": null,
-    "last_updated": "20260804T154247Z",
+    "last_updated": "20260805T153512Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
         "evidence_count": 1,
-        "score": 6.7,
+        "score": 7.2,
         "statuses": [
           "verified"
         ]
@@ -167,7 +167,7 @@
     "premiere_type": ""
   },
   "film_identity": {
-    "backdrop": "https://image.tmdb.org/t/p/original/3kYnfR6PN20bD4zshZfGza6jA6f.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/oAUf1pvGlafCZVlEuPt1JyONHR1.jpg",
     "country": [
       "FR",
       "GR",
@@ -197,7 +197,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-08-04T15:42:32Z",
+    "generated_at": "2026-08-05T15:34:50Z",
     "headline": "Sacrifice: popularity increasing",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -216,7 +216,7 @@
         "streaming_provider_count_us": 0,
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": false,
-        "tmdb_popularity": 2.6903,
+        "tmdb_popularity": 3.019,
         "tmdb_poster_count": 3,
         "tmdb_release_date_us_primary": "",
         "tmdb_release_date_us_theatrical": "",
@@ -231,14 +231,14 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity rose from 1.8859 to 2.6903.",
+    "summary": "TMDb popularity rose from 1.8859 to 3.019.",
     "supporting_drivers": [
       {
         "confidence_weight": 0.9,
         "driver_type": "popularity_increasing",
-        "evidence": "TMDb popularity rose from 1.8859 to 2.6903.",
+        "evidence": "TMDb popularity rose from 1.8859 to 3.019.",
         "label": "Popularity increasing",
-        "retrieved_at": "2026-08-04T15:42:32Z",
+        "retrieved_at": "2026-08-05T15:34:50Z",
         "source_metric": "tmdb_popularity",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -248,7 +248,7 @@
   "media": {},
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260804T154247Z",
+    "generated_at": "20260805T153512Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -256,25 +256,25 @@
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 2.6903,
-        "retrieved_at": "2026-08-04",
+        "popularity": 3.019,
+        "retrieved_at": "2026-08-05",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1284186",
         "status": "not_yet_rated"
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-08-04",
+      "retrieved_at": "2026-08-05",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1284186",
-      "value": 2.6903
+      "value": 3.019
     },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 2.6903,
-      "retrieved_at": "2026-08-04",
+      "popularity": 3.019,
+      "retrieved_at": "2026-08-05",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1284186",
       "status": "not_yet_rated"
@@ -410,13 +410,13 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.051,
+      "audience_momentum": 0.057,
       "awards_relevance": 0.8,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-04T15:42:32Z",
+    "generated_at": "2026-08-05T15:34:50Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 4.176,
+    "score": 4.182,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -445,11 +445,11 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.051,
+        "contribution": 0.057,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 2.6903
+        "value": 3.019
       }
     ]
   },
@@ -458,7 +458,7 @@
     "external_intelligence": {
       "confidence": "High",
       "headline": "Sacrifice: popularity increasing",
-      "summary": "TMDb popularity rose from 1.8859 to 2.6903."
+      "summary": "TMDb popularity rose from 1.8859 to 3.019."
     },
     "last_updated": "2026-09-10",
     "latest_event": {
@@ -496,7 +496,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1284186-c6637309e221",
+        "event_id": "1284186-959d13272433",
         "event_type": "Awards Tier Changed",
         "film_id": "1284186",
         "importance": "Medium",
@@ -508,12 +508,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-04T15:42:47Z",
+        "timestamp": "2026-08-05T15:35:12Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1284186-14e079fbf11e",
+        "event_id": "1284186-1fe06e458481",
         "event_type": "Added To Database",
         "film_id": "1284186",
         "importance": "Low",
@@ -522,15 +522,15 @@
         },
         "source_type": "system",
         "summary": "Sacrifice is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-04T15:42:47Z",
+        "timestamp": "2026-08-05T15:35:12Z",
         "title": "Added to Awards Intelligence"
       }
     ],
     "release_relevance": 25.4,
     "screening_room_score": {
       "confidence": "High",
-      "explanation": "TMDb popularity rose from 1.8859 to 2.6903.",
-      "score": 4.176
+      "explanation": "TMDb popularity rose from 1.8859 to 3.019.",
+      "score": 4.182
     },
     "watch_triggers": [
       "Prestige Producer",
@@ -573,7 +573,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1284186-c6637309e221",
+        "event_id": "1284186-959d13272433",
         "event_type": "Awards Tier Changed",
         "film_id": "1284186",
         "importance": "Medium",
@@ -585,12 +585,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-04T15:42:47Z",
+        "timestamp": "2026-08-05T15:35:12Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1284186-14e079fbf11e",
+        "event_id": "1284186-1fe06e458481",
         "event_type": "Added To Database",
         "film_id": "1284186",
         "importance": "Low",
@@ -599,7 +599,7 @@
         },
         "source_type": "system",
         "summary": "Sacrifice is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-04T15:42:47Z",
+        "timestamp": "2026-08-05T15:35:12Z",
         "title": "Added to Awards Intelligence"
       },
       {
@@ -648,7 +648,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1284186-c6637309e221",
+        "event_id": "1284186-959d13272433",
         "event_type": "Awards Tier Changed",
         "film_id": "1284186",
         "importance": "Medium",
@@ -660,12 +660,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-04T15:42:47Z",
+        "timestamp": "2026-08-05T15:35:12Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1284186-14e079fbf11e",
+        "event_id": "1284186-1fe06e458481",
         "event_type": "Added To Database",
         "film_id": "1284186",
         "importance": "Low",
@@ -674,7 +674,7 @@
         },
         "source_type": "system",
         "summary": "Sacrifice is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-04T15:42:47Z",
+        "timestamp": "2026-08-05T15:35:12Z",
         "title": "Added to Awards Intelligence"
       }
     ],

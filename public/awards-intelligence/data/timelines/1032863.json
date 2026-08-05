@@ -16,7 +16,7 @@
     },
     {
       "confidence": "Inferred",
-      "event_id": "1032863-e3bd9281ae6f",
+      "event_id": "1032863-c353ad1914f1",
       "event_type": "Distributor Change",
       "film_id": "1032863",
       "importance": "Medium",
@@ -25,12 +25,12 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Prime Video.",
-      "timestamp": "2026-08-04T15:42:47Z",
+      "timestamp": "2026-08-05T15:35:12Z",
       "title": "Distributor set: Prime Video"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1032863-2e6d339d81bb",
+      "event_id": "1032863-c1724a32d94b",
       "event_type": "Awards Tier Changed",
       "film_id": "1032863",
       "importance": "Medium",
@@ -42,12 +42,12 @@
       },
       "source_type": "editorial_model",
       "summary": "insufficient credible awards evidence",
-      "timestamp": "2026-08-04T15:42:47Z",
+      "timestamp": "2026-08-05T15:35:12Z",
       "title": "Awards tier assigned: No Current Awards Case"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1032863-ac313fd9ad7e",
+      "event_id": "1032863-f21a2a567d1f",
       "event_type": "Added To Database",
       "film_id": "1032863",
       "importance": "Low",
@@ -56,7 +56,7 @@
       },
       "source_type": "system",
       "summary": "The Love Hypothesis is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-08-04T15:42:47Z",
+      "timestamp": "2026-08-05T15:35:12Z",
       "title": "Added to Awards Intelligence"
     }
   ],
@@ -77,7 +77,7 @@
   "metadata": {
     "event_count": 4,
     "film_id": "1032863",
-    "generated_at": "20260804T154247Z",
+    "generated_at": "20260805T153512Z",
     "timeline_version": "phase6b",
     "title": "The Love Hypothesis",
     "tmdb_id": "1032863"

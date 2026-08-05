@@ -7,7 +7,7 @@
       "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 49.1,
+    "attention_score": 48.7,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -35,7 +35,7 @@
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 1.9058",
+        "evidence": "TMDb popularity 1.661",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -51,14 +51,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 49.1,
+    "homepage_spotlight_score": 48.7,
     "industry_interest": null,
-    "last_updated": "20260804T154247Z",
+    "last_updated": "20260805T153512Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
         "evidence_count": 1,
-        "score": 5.5,
+        "score": 5.1,
         "statuses": [
           "verified"
         ]
@@ -204,7 +204,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-08-04T15:42:32Z",
+    "generated_at": "2026-08-05T15:34:50Z",
     "headline": "Nando Between Two Worlds - A Sintonia Film: release approaching",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -223,7 +223,7 @@
         "streaming_provider_count_us": 0,
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": false,
-        "tmdb_popularity": 1.9058,
+        "tmdb_popularity": 1.661,
         "tmdb_poster_count": 0,
         "tmdb_release_date_us_primary": "2026-08-12",
         "tmdb_release_date_us_theatrical": "",
@@ -245,7 +245,7 @@
         "driver_type": "release_approaching",
         "evidence": "US release is 23 days away on 2026-08-12.",
         "label": "Release approaching",
-        "retrieved_at": "2026-08-04T15:42:32Z",
+        "retrieved_at": "2026-08-05T15:34:50Z",
         "source_metric": "tmdb_release_date_us_primary",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -255,7 +255,7 @@
   "media": {},
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260804T154247Z",
+    "generated_at": "20260805T153512Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -263,25 +263,25 @@
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 1.9058,
-        "retrieved_at": "2026-08-04",
+        "popularity": 1.661,
+        "retrieved_at": "2026-08-05",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1487864",
         "status": "not_yet_rated"
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-08-04",
+      "retrieved_at": "2026-08-05",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1487864",
-      "value": 1.9058
+      "value": 1.661
     },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 1.9058,
-      "retrieved_at": "2026-08-04",
+      "popularity": 1.661,
+      "retrieved_at": "2026-08-05",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1487864",
       "status": "not_yet_rated"
@@ -401,13 +401,13 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.036,
+      "audience_momentum": 0.032,
       "awards_relevance": 2.4,
       "talent_profile": 2.125
     },
-    "generated_at": "2026-08-04T15:42:32Z",
+    "generated_at": "2026-08-05T15:34:50Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 4.561,
+    "score": 4.557,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -436,11 +436,11 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.036,
+        "contribution": 0.032,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 1.9058
+        "value": 1.661
       }
     ]
   },
@@ -487,7 +487,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1487864-daf2b9754727",
+        "event_id": "1487864-ac3212ed577f",
         "event_type": "Distributor Change",
         "film_id": "1487864",
         "importance": "Medium",
@@ -496,12 +496,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-04T15:42:47Z",
+        "timestamp": "2026-08-05T15:35:12Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1487864-beb0600ae786",
+        "event_id": "1487864-ddec0fcb22b5",
         "event_type": "Awards Tier Changed",
         "film_id": "1487864",
         "importance": "Medium",
@@ -515,7 +515,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-04T15:42:47Z",
+        "timestamp": "2026-08-05T15:35:12Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],
@@ -523,7 +523,7 @@
     "screening_room_score": {
       "confidence": "High",
       "explanation": "US release is 23 days away on 2026-08-12.",
-      "score": 4.561
+      "score": 4.557
     },
     "watch_triggers": [
       "Prestige Distributor",
@@ -562,7 +562,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1487864-daf2b9754727",
+        "event_id": "1487864-ac3212ed577f",
         "event_type": "Distributor Change",
         "film_id": "1487864",
         "importance": "Medium",
@@ -571,12 +571,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-04T15:42:47Z",
+        "timestamp": "2026-08-05T15:35:12Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1487864-beb0600ae786",
+        "event_id": "1487864-ddec0fcb22b5",
         "event_type": "Awards Tier Changed",
         "film_id": "1487864",
         "importance": "Medium",
@@ -590,12 +590,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-04T15:42:47Z",
+        "timestamp": "2026-08-05T15:35:12Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1487864-b4b196c65fd3",
+        "event_id": "1487864-4a8dc0cfa8e2",
         "event_type": "Added To Database",
         "film_id": "1487864",
         "importance": "Low",
@@ -604,7 +604,7 @@
         },
         "source_type": "system",
         "summary": "Nando Between Two Worlds - A Sintonia Film is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-04T15:42:47Z",
+        "timestamp": "2026-08-05T15:35:12Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -639,7 +639,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1487864-daf2b9754727",
+        "event_id": "1487864-ac3212ed577f",
         "event_type": "Distributor Change",
         "film_id": "1487864",
         "importance": "Medium",
@@ -648,12 +648,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-04T15:42:47Z",
+        "timestamp": "2026-08-05T15:35:12Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1487864-beb0600ae786",
+        "event_id": "1487864-ddec0fcb22b5",
         "event_type": "Awards Tier Changed",
         "film_id": "1487864",
         "importance": "Medium",
@@ -667,7 +667,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-04T15:42:47Z",
+        "timestamp": "2026-08-05T15:35:12Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],

@@ -16,7 +16,7 @@
     },
     {
       "confidence": "Inferred",
-      "event_id": "1421903-1815c831ec83",
+      "event_id": "1421903-63bef3c74a70",
       "event_type": "Distributor Change",
       "film_id": "1421903",
       "importance": "Medium",
@@ -25,12 +25,12 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Focus Features.",
-      "timestamp": "2026-08-04T15:42:47Z",
+      "timestamp": "2026-08-05T15:35:12Z",
       "title": "Distributor set: Focus Features"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1421903-a9c2ab405190",
+      "event_id": "1421903-c1891da038a7",
       "event_type": "Awards Tier Changed",
       "film_id": "1421903",
       "importance": "Medium",
@@ -40,12 +40,12 @@
       },
       "source_type": "editorial_model",
       "summary": "insufficient credible awards evidence",
-      "timestamp": "2026-08-04T15:42:47Z",
+      "timestamp": "2026-08-05T15:35:12Z",
       "title": "Awards tier assigned: No Current Awards Case"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1421903-e3974f0243c8",
+      "event_id": "1421903-8fe58eb6993e",
       "event_type": "Added To Database",
       "film_id": "1421903",
       "importance": "Low",
@@ -54,7 +54,7 @@
       },
       "source_type": "system",
       "summary": "Werwulf is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-08-04T15:42:47Z",
+      "timestamp": "2026-08-05T15:35:12Z",
       "title": "Added to Awards Intelligence"
     }
   ],
@@ -75,7 +75,7 @@
   "metadata": {
     "event_count": 4,
     "film_id": "1421903",
-    "generated_at": "20260804T154247Z",
+    "generated_at": "20260805T153512Z",
     "timeline_version": "phase6b",
     "title": "Werwulf",
     "tmdb_id": "1421903"

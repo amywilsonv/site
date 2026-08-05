@@ -631,23 +631,6 @@
     },
     {
       "confidence": "Inferred",
-      "event_id": "1422041-ab1be4d2ef6e",
-      "event_type": "Release Scheduled",
-      "film_id": "1422041",
-      "film_title": "La Bola Negra",
-      "importance": "Medium",
-      "metadata": {
-        "release_date": "2026-11-06"
-      },
-      "profile_payload_url": "data/films/1422041.json",
-      "profile_url": "film.html?id=1422041",
-      "source_type": "metadata",
-      "summary": "Release currently scheduled for In theaters Nov. 6.",
-      "timestamp": "2026-11-06",
-      "title": "Release scheduled"
-    },
-    {
-      "confidence": "Inferred",
       "event_id": "1668297-41b7d17b43e0",
       "event_type": "Release Scheduled",
       "film_id": "1668297",
@@ -801,6 +784,23 @@
     },
     {
       "confidence": "Inferred",
+      "event_id": "1422041-a759ca9cde92",
+      "event_type": "Release Scheduled",
+      "film_id": "1422041",
+      "film_title": "La Bola Negra",
+      "importance": "Medium",
+      "metadata": {
+        "release_date": "2026-10-16"
+      },
+      "profile_payload_url": "data/films/1422041.json",
+      "profile_url": "film.html?id=1422041",
+      "source_type": "metadata",
+      "summary": "Release currently scheduled for In theaters Oct. 16.",
+      "timestamp": "2026-10-16",
+      "title": "Release scheduled"
+    },
+    {
+      "confidence": "Inferred",
       "event_id": "1700889-7c0926263824",
       "event_type": "Release Scheduled",
       "film_id": "1700889",
@@ -853,7 +853,7 @@
   ],
   "metadata": {
     "event_count": 388,
-    "generated_at": "20260804T154247Z",
+    "generated_at": "20260805T153512Z",
     "returned_count": 50,
     "timeline_version": "phase6b"
   }

@@ -46,7 +46,7 @@
         "status": "inferred"
       },
       {
-        "evidence": "TMDb popularity 2.1812",
+        "evidence": "TMDb popularity 2.1698",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -64,7 +64,7 @@
     "homepage_spotlight_override": null,
     "homepage_spotlight_score": 64.9,
     "industry_interest": null,
-    "last_updated": "20260804T154247Z",
+    "last_updated": "20260805T153512Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
@@ -225,7 +225,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-08-04T15:42:32Z",
+    "generated_at": "2026-08-05T15:34:50Z",
     "headline": "THE RIBBON HERO: release approaching",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -245,7 +245,7 @@
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=Z56klGz1BPk",
-        "tmdb_popularity": 2.1812,
+        "tmdb_popularity": 2.1698,
         "tmdb_poster_count": 2,
         "tmdb_release_date_us_primary": "2026-08-07",
         "tmdb_release_date_us_theatrical": "2026-08-07",
@@ -261,14 +261,14 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity rose from 1.9072 to 2.1812. US release is 18 days away on 2026-08-07.",
+    "summary": "TMDb popularity rose from 1.9072 to 2.1698. US release is 18 days away on 2026-08-07.",
     "supporting_drivers": [
       {
         "confidence_weight": 0.9,
         "driver_type": "popularity_increasing",
-        "evidence": "TMDb popularity rose from 1.9072 to 2.1812.",
+        "evidence": "TMDb popularity rose from 1.9072 to 2.1698.",
         "label": "Popularity increasing",
-        "retrieved_at": "2026-08-04T15:42:32Z",
+        "retrieved_at": "2026-08-05T15:34:50Z",
         "source_metric": "tmdb_popularity",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -278,7 +278,7 @@
         "driver_type": "release_approaching",
         "evidence": "US release is 18 days away on 2026-08-07.",
         "label": "Release approaching",
-        "retrieved_at": "2026-08-04T15:42:32Z",
+        "retrieved_at": "2026-08-05T15:34:50Z",
         "source_metric": "tmdb_release_date_us_primary",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -287,7 +287,7 @@
   },
   "media": {
     "canonical_trailer": {
-      "retrieved_at": "2026-08-04",
+      "retrieved_at": "2026-08-05",
       "site": "YouTube",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1679730/videos",
@@ -299,7 +299,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260804T154247Z",
+    "generated_at": "20260805T153512Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -307,25 +307,25 @@
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 2.1812,
-        "retrieved_at": "2026-08-04",
+        "popularity": 2.1698,
+        "retrieved_at": "2026-08-05",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1679730",
         "status": "not_yet_rated"
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-08-04",
+      "retrieved_at": "2026-08-05",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1679730",
-      "value": 2.1812
+      "value": 2.1698
     },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 2.1812,
-      "retrieved_at": "2026-08-04",
+      "popularity": 2.1698,
+      "retrieved_at": "2026-08-05",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1679730",
       "status": "not_yet_rated"
@@ -462,7 +462,7 @@
       "campaign_activity": 4.05,
       "talent_profile": 1.725
     },
-    "generated_at": "2026-08-04T15:42:32Z",
+    "generated_at": "2026-08-05T15:34:50Z",
     "schema_version": "phase3_screening_room_score_v1",
     "score": 9.816,
     "source": "derived_screening_room_score",
@@ -505,7 +505,7 @@
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 2.1812
+        "value": 2.1698
       }
     ]
   },
@@ -514,7 +514,7 @@
     "external_intelligence": {
       "confidence": "High",
       "headline": "THE RIBBON HERO: release approaching",
-      "summary": "TMDb popularity rose from 1.9072 to 2.1812. US release is 18 days away on 2026-08-07."
+      "summary": "TMDb popularity rose from 1.9072 to 2.1698. US release is 18 days away on 2026-08-07."
     },
     "last_updated": "2026-08-07",
     "latest_event": {
@@ -552,7 +552,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1679730-3e359074e64f",
+        "event_id": "1679730-5c331e77100c",
         "event_type": "Distributor Change",
         "film_id": "1679730",
         "importance": "Medium",
@@ -561,12 +561,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-04T15:42:47Z",
+        "timestamp": "2026-08-05T15:35:12Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1679730-86688a7dee1c",
+        "event_id": "1679730-b0609c414245",
         "event_type": "Awards Tier Changed",
         "film_id": "1679730",
         "importance": "Medium",
@@ -582,14 +582,14 @@
         },
         "source_type": "editorial_model",
         "summary": "category-specific awards case without broader contender evidence",
-        "timestamp": "2026-08-04T15:42:47Z",
+        "timestamp": "2026-08-05T15:35:12Z",
         "title": "Awards tier assigned: Category Contender"
       }
     ],
     "release_relevance": 37.3,
     "screening_room_score": {
       "confidence": "High",
-      "explanation": "TMDb popularity rose from 1.9072 to 2.1812. US release is 18 days away on 2026-08-07.",
+      "explanation": "TMDb popularity rose from 1.9072 to 2.1698. US release is 18 days away on 2026-08-07.",
       "score": 9.816
     },
     "watch_triggers": [
@@ -635,7 +635,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1679730-3e359074e64f",
+        "event_id": "1679730-5c331e77100c",
         "event_type": "Distributor Change",
         "film_id": "1679730",
         "importance": "Medium",
@@ -644,12 +644,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-04T15:42:47Z",
+        "timestamp": "2026-08-05T15:35:12Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1679730-86688a7dee1c",
+        "event_id": "1679730-b0609c414245",
         "event_type": "Awards Tier Changed",
         "film_id": "1679730",
         "importance": "Medium",
@@ -665,12 +665,12 @@
         },
         "source_type": "editorial_model",
         "summary": "category-specific awards case without broader contender evidence",
-        "timestamp": "2026-08-04T15:42:47Z",
+        "timestamp": "2026-08-05T15:35:12Z",
         "title": "Awards tier assigned: Category Contender"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1679730-3bdc906e2d74",
+        "event_id": "1679730-1e4840d2fe6b",
         "event_type": "Added To Database",
         "film_id": "1679730",
         "importance": "Low",
@@ -679,7 +679,7 @@
         },
         "source_type": "system",
         "summary": "THE RIBBON HERO is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-04T15:42:47Z",
+        "timestamp": "2026-08-05T15:35:12Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -714,7 +714,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1679730-3e359074e64f",
+        "event_id": "1679730-5c331e77100c",
         "event_type": "Distributor Change",
         "film_id": "1679730",
         "importance": "Medium",
@@ -723,12 +723,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-04T15:42:47Z",
+        "timestamp": "2026-08-05T15:35:12Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1679730-86688a7dee1c",
+        "event_id": "1679730-b0609c414245",
         "event_type": "Awards Tier Changed",
         "film_id": "1679730",
         "importance": "Medium",
@@ -744,7 +744,7 @@
         },
         "source_type": "editorial_model",
         "summary": "category-specific awards case without broader contender evidence",
-        "timestamp": "2026-08-04T15:42:47Z",
+        "timestamp": "2026-08-05T15:35:12Z",
         "title": "Awards tier assigned: Category Contender"
       }
     ],

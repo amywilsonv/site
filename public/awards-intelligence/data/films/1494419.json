@@ -8,7 +8,7 @@
       "Event Release",
       "Awards Watch"
     ],
-    "attention_score": 60.6,
+    "attention_score": 60.8,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -46,7 +46,7 @@
         "status": "inferred"
       },
       {
-        "evidence": "TMDb popularity 1.2402",
+        "evidence": "TMDb popularity 1.3277",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -57,14 +57,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 60.6,
+    "homepage_spotlight_score": 60.8,
     "industry_interest": "Moderate",
-    "last_updated": "20260804T154247Z",
+    "last_updated": "20260805T153512Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
         "evidence_count": 1,
-        "score": 4.2,
+        "score": 4.4,
         "statuses": [
           "verified"
         ]
@@ -219,7 +219,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-08-04T15:42:32Z",
+    "generated_at": "2026-08-05T15:34:50Z",
     "headline": "Sound! Euphonium: The Final Movie, Part 2: popularity increasing",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -238,7 +238,7 @@
         "streaming_provider_count_us": 0,
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": false,
-        "tmdb_popularity": 1.2402,
+        "tmdb_popularity": 1.3277,
         "tmdb_poster_count": 3,
         "tmdb_release_date_us_primary": "",
         "tmdb_release_date_us_theatrical": "",
@@ -253,14 +253,14 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity rose from 0.9885 to 1.2402.",
+    "summary": "TMDb popularity rose from 0.9885 to 1.3277.",
     "supporting_drivers": [
       {
         "confidence_weight": 0.9,
         "driver_type": "popularity_increasing",
-        "evidence": "TMDb popularity rose from 0.9885 to 1.2402.",
+        "evidence": "TMDb popularity rose from 0.9885 to 1.3277.",
         "label": "Popularity increasing",
-        "retrieved_at": "2026-08-04T15:42:32Z",
+        "retrieved_at": "2026-08-05T15:34:50Z",
         "source_metric": "tmdb_popularity",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -270,7 +270,7 @@
   "media": {},
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260804T154247Z",
+    "generated_at": "20260805T153512Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -278,25 +278,25 @@
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 1.2402,
-        "retrieved_at": "2026-08-04",
+        "popularity": 1.3277,
+        "retrieved_at": "2026-08-05",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1494419",
         "status": "not_yet_rated"
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-08-04",
+      "retrieved_at": "2026-08-05",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1494419",
-      "value": 1.2402
+      "value": 1.3277
     },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 1.2402,
-      "retrieved_at": "2026-08-04",
+      "popularity": 1.3277,
+      "retrieved_at": "2026-08-05",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1494419",
       "status": "not_yet_rated"
@@ -420,13 +420,13 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.024,
+      "audience_momentum": 0.025,
       "awards_relevance": 3.2,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-04T15:42:32Z",
+    "generated_at": "2026-08-05T15:34:50Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 6.549,
+    "score": 6.55,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -455,11 +455,11 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.024,
+        "contribution": 0.025,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 1.2402
+        "value": 1.3277
       }
     ]
   },
@@ -468,7 +468,7 @@
     "external_intelligence": {
       "confidence": "High",
       "headline": "Sound! Euphonium: The Final Movie, Part 2: popularity increasing",
-      "summary": "TMDb popularity rose from 0.9885 to 1.2402."
+      "summary": "TMDb popularity rose from 0.9885 to 1.3277."
     },
     "last_updated": "2026-09-11",
     "latest_event": {
@@ -506,7 +506,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1494419-b724c44cc6bc",
+        "event_id": "1494419-d2a2b10c9c86",
         "event_type": "Awards Tier Changed",
         "film_id": "1494419",
         "importance": "Medium",
@@ -521,12 +521,12 @@
         },
         "source_type": "editorial_model",
         "summary": "category-specific awards case without broader contender evidence",
-        "timestamp": "2026-08-04T15:42:47Z",
+        "timestamp": "2026-08-05T15:35:12Z",
         "title": "Awards tier assigned: Category Contender"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1494419-3a79740482aa",
+        "event_id": "1494419-18d2302dd30d",
         "event_type": "Added To Database",
         "film_id": "1494419",
         "importance": "Low",
@@ -535,15 +535,15 @@
         },
         "source_type": "system",
         "summary": "Sound! Euphonium: The Final Movie, Part 2 is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-04T15:42:47Z",
+        "timestamp": "2026-08-05T15:35:12Z",
         "title": "Added to Awards Intelligence"
       }
     ],
     "release_relevance": 31.1,
     "screening_room_score": {
       "confidence": "High",
-      "explanation": "TMDb popularity rose from 0.9885 to 1.2402.",
-      "score": 6.549
+      "explanation": "TMDb popularity rose from 0.9885 to 1.3277.",
+      "score": 6.55
     },
     "watch_triggers": [
       "Awards-Season Release",
@@ -587,7 +587,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1494419-b724c44cc6bc",
+        "event_id": "1494419-d2a2b10c9c86",
         "event_type": "Awards Tier Changed",
         "film_id": "1494419",
         "importance": "Medium",
@@ -602,12 +602,12 @@
         },
         "source_type": "editorial_model",
         "summary": "category-specific awards case without broader contender evidence",
-        "timestamp": "2026-08-04T15:42:47Z",
+        "timestamp": "2026-08-05T15:35:12Z",
         "title": "Awards tier assigned: Category Contender"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1494419-3a79740482aa",
+        "event_id": "1494419-18d2302dd30d",
         "event_type": "Added To Database",
         "film_id": "1494419",
         "importance": "Low",
@@ -616,7 +616,7 @@
         },
         "source_type": "system",
         "summary": "Sound! Euphonium: The Final Movie, Part 2 is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-04T15:42:47Z",
+        "timestamp": "2026-08-05T15:35:12Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -651,7 +651,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1494419-b724c44cc6bc",
+        "event_id": "1494419-d2a2b10c9c86",
         "event_type": "Awards Tier Changed",
         "film_id": "1494419",
         "importance": "Medium",
@@ -666,12 +666,12 @@
         },
         "source_type": "editorial_model",
         "summary": "category-specific awards case without broader contender evidence",
-        "timestamp": "2026-08-04T15:42:47Z",
+        "timestamp": "2026-08-05T15:35:12Z",
         "title": "Awards tier assigned: Category Contender"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1494419-3a79740482aa",
+        "event_id": "1494419-18d2302dd30d",
         "event_type": "Added To Database",
         "film_id": "1494419",
         "importance": "Low",
@@ -680,7 +680,7 @@
         },
         "source_type": "system",
         "summary": "Sound! Euphonium: The Final Movie, Part 2 is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-04T15:42:47Z",
+        "timestamp": "2026-08-05T15:35:12Z",
         "title": "Added to Awards Intelligence"
       }
     ],

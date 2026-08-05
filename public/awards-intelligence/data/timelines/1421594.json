@@ -2,6 +2,49 @@
   "events": [
     {
       "confidence": "Inferred",
+      "event_id": "1421594-669bbfe1c4ab",
+      "event_type": "Distributor Change",
+      "film_id": "1421594",
+      "importance": "Medium",
+      "metadata": {
+        "distributor": "Netflix"
+      },
+      "source_type": "metadata",
+      "summary": "Current distributor is Netflix.",
+      "timestamp": "2026-08-05T15:35:12Z",
+      "title": "Distributor set: Netflix"
+    },
+    {
+      "confidence": "Inferred",
+      "event_id": "1421594-44d5f46d261a",
+      "event_type": "Awards Tier Changed",
+      "film_id": "1421594",
+      "importance": "Medium",
+      "metadata": {
+        "awards_tier": "No Current Awards Case",
+        "categories": []
+      },
+      "source_type": "editorial_model",
+      "summary": "insufficient credible awards evidence",
+      "timestamp": "2026-08-05T15:35:12Z",
+      "title": "Awards tier assigned: No Current Awards Case"
+    },
+    {
+      "confidence": "Inferred",
+      "event_id": "1421594-7539fb1c6272",
+      "event_type": "Added To Database",
+      "film_id": "1421594",
+      "importance": "Low",
+      "metadata": {
+        "profile_version": "phase6a"
+      },
+      "source_type": "system",
+      "summary": "Inside the Trustor Scandal is tracked in the Film Intelligence profile set.",
+      "timestamp": "2026-08-05T15:35:12Z",
+      "title": "Added to Awards Intelligence"
+    },
+    {
+      "confidence": "Inferred",
       "event_id": "1421594-a44d478fd506",
       "event_type": "Release Scheduled",
       "film_id": "1421594",
@@ -13,49 +56,6 @@
       "summary": "Release currently scheduled for In theaters Aug. 5.",
       "timestamp": "2026-08-05",
       "title": "Release scheduled"
-    },
-    {
-      "confidence": "Inferred",
-      "event_id": "1421594-abb3d05793b2",
-      "event_type": "Distributor Change",
-      "film_id": "1421594",
-      "importance": "Medium",
-      "metadata": {
-        "distributor": "Netflix"
-      },
-      "source_type": "metadata",
-      "summary": "Current distributor is Netflix.",
-      "timestamp": "2026-08-04T15:42:47Z",
-      "title": "Distributor set: Netflix"
-    },
-    {
-      "confidence": "Inferred",
-      "event_id": "1421594-46baa501e615",
-      "event_type": "Awards Tier Changed",
-      "film_id": "1421594",
-      "importance": "Medium",
-      "metadata": {
-        "awards_tier": "No Current Awards Case",
-        "categories": []
-      },
-      "source_type": "editorial_model",
-      "summary": "insufficient credible awards evidence",
-      "timestamp": "2026-08-04T15:42:47Z",
-      "title": "Awards tier assigned: No Current Awards Case"
-    },
-    {
-      "confidence": "Inferred",
-      "event_id": "1421594-c025c051d1a9",
-      "event_type": "Added To Database",
-      "film_id": "1421594",
-      "importance": "Low",
-      "metadata": {
-        "profile_version": "phase6a"
-      },
-      "source_type": "system",
-      "summary": "Inside the Trustor Scandal is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-08-04T15:42:47Z",
-      "title": "Added to Awards Intelligence"
     },
     {
       "confidence": "Verified",
@@ -74,22 +74,22 @@
   ],
   "latest_event": {
     "confidence": "Inferred",
-    "event_id": "1421594-a44d478fd506",
-    "event_type": "Release Scheduled",
+    "event_id": "1421594-669bbfe1c4ab",
+    "event_type": "Distributor Change",
     "film_id": "1421594",
     "importance": "Medium",
     "metadata": {
-      "release_date": "2026-08-05"
+      "distributor": "Netflix"
     },
     "source_type": "metadata",
-    "summary": "Release currently scheduled for In theaters Aug. 5.",
-    "timestamp": "2026-08-05",
-    "title": "Release scheduled"
+    "summary": "Current distributor is Netflix.",
+    "timestamp": "2026-08-05T15:35:12Z",
+    "title": "Distributor set: Netflix"
   },
   "metadata": {
     "event_count": 5,
     "film_id": "1421594",
-    "generated_at": "20260804T154247Z",
+    "generated_at": "20260805T153512Z",
     "timeline_version": "phase6b",
     "title": "Inside the Trustor Scandal",
     "tmdb_id": "1421594"

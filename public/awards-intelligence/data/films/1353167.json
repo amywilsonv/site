@@ -7,7 +7,7 @@
       "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 64.0,
+    "attention_score": 64.1,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -40,7 +40,7 @@
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 2.2143",
+        "evidence": "TMDb popularity 2.2763",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -56,14 +56,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 64.0,
+    "homepage_spotlight_score": 64.1,
     "industry_interest": "High",
-    "last_updated": "20260804T154247Z",
+    "last_updated": "20260805T153512Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
         "evidence_count": 1,
-        "score": 6.0,
+        "score": 6.1,
         "statuses": [
           "verified"
         ]
@@ -203,7 +203,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-08-04T15:42:32Z",
+    "generated_at": "2026-08-05T15:34:50Z",
     "headline": "The Mouse Trap: Welcome to the Mickeyverse: popularity increasing",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -222,7 +222,7 @@
         "streaming_provider_count_us": 0,
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": false,
-        "tmdb_popularity": 2.2143,
+        "tmdb_popularity": 2.2763,
         "tmdb_poster_count": 2,
         "tmdb_release_date_us_primary": "",
         "tmdb_release_date_us_theatrical": "",
@@ -237,14 +237,14 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity rose from 1.9202 to 2.2143.",
+    "summary": "TMDb popularity rose from 1.9202 to 2.2763.",
     "supporting_drivers": [
       {
         "confidence_weight": 0.9,
         "driver_type": "popularity_increasing",
-        "evidence": "TMDb popularity rose from 1.9202 to 2.2143.",
+        "evidence": "TMDb popularity rose from 1.9202 to 2.2763.",
         "label": "Popularity increasing",
-        "retrieved_at": "2026-08-04T15:42:32Z",
+        "retrieved_at": "2026-08-05T15:34:50Z",
         "source_metric": "tmdb_popularity",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -254,7 +254,7 @@
   "media": {},
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260804T154247Z",
+    "generated_at": "20260805T153512Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -262,14 +262,14 @@
     "box_office": {
       "budget": 800000,
       "currency": "USD",
-      "retrieved_at": "2026-08-04",
+      "retrieved_at": "2026-08-05",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1353167"
     },
     "ratings": {
       "tmdb": {
-        "popularity": 2.2143,
-        "retrieved_at": "2026-08-04",
+        "popularity": 2.2763,
+        "retrieved_at": "2026-08-05",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1353167",
         "status": "rated",
@@ -278,17 +278,17 @@
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-08-04",
+      "retrieved_at": "2026-08-05",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1353167",
-      "value": 2.2143
+      "value": 2.2763
     },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 2.2143,
-      "retrieved_at": "2026-08-04",
+      "popularity": 2.2763,
+      "retrieved_at": "2026-08-05",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1353167",
       "status": "rated",
@@ -390,13 +390,13 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.057,
+      "audience_momentum": 0.058,
       "audience_quality": 0.95,
       "talent_profile": 1.725
     },
-    "generated_at": "2026-08-04T15:42:32Z",
+    "generated_at": "2026-08-05T15:34:50Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 2.732,
+    "score": 2.733,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -425,11 +425,11 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.042,
+        "contribution": 0.043,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 2.2143
+        "value": 2.2763
       },
       {
         "confidence": 0.95,
@@ -446,12 +446,12 @@
     "external_intelligence": {
       "confidence": "High",
       "headline": "The Mouse Trap: Welcome to the Mickeyverse: popularity increasing",
-      "summary": "TMDb popularity rose from 1.9202 to 2.2143."
+      "summary": "TMDb popularity rose from 1.9202 to 2.2763."
     },
-    "last_updated": "2026-08-04T15:42:47Z",
+    "last_updated": "2026-08-05T15:35:12Z",
     "latest_event": {
       "confidence": "Inferred",
-      "event_id": "1353167-e6064caf33d2",
+      "event_id": "1353167-5f5024cda094",
       "event_type": "Distributor Change",
       "film_id": "1353167",
       "importance": "Medium",
@@ -460,7 +460,7 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Apple TV.",
-      "timestamp": "2026-08-04T15:42:47Z",
+      "timestamp": "2026-08-05T15:35:12Z",
       "title": "Distributor set: Apple TV"
     },
     "latest_intelligence": "As of 2026-07-18, this is a Apple TV release dated 2026-08-01 with general awards monitoring relevance; current awards profile is Developing and data status is developing.",
@@ -470,7 +470,7 @@
     "recent_activity": [
       {
         "confidence": "Inferred",
-        "event_id": "1353167-e6064caf33d2",
+        "event_id": "1353167-5f5024cda094",
         "event_type": "Distributor Change",
         "film_id": "1353167",
         "importance": "Medium",
@@ -479,12 +479,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Apple TV.",
-        "timestamp": "2026-08-04T15:42:47Z",
+        "timestamp": "2026-08-05T15:35:12Z",
         "title": "Distributor set: Apple TV"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1353167-853eddbcf6a9",
+        "event_id": "1353167-4ae4a9b00644",
         "event_type": "Awards Tier Changed",
         "film_id": "1353167",
         "importance": "Medium",
@@ -494,12 +494,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-04T15:42:47Z",
+        "timestamp": "2026-08-05T15:35:12Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1353167-dabe86f5caed",
+        "event_id": "1353167-2dc20e8ad3fa",
         "event_type": "Added To Database",
         "film_id": "1353167",
         "importance": "Low",
@@ -508,15 +508,15 @@
         },
         "source_type": "system",
         "summary": "The Mouse Trap: Welcome to the Mickeyverse is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-04T15:42:47Z",
+        "timestamp": "2026-08-05T15:35:12Z",
         "title": "Added to Awards Intelligence"
       }
     ],
     "release_relevance": 56.1,
     "screening_room_score": {
       "confidence": "High",
-      "explanation": "TMDb popularity rose from 1.9202 to 2.2143.",
-      "score": 2.732
+      "explanation": "TMDb popularity rose from 1.9202 to 2.2763.",
+      "score": 2.733
     },
     "watch_triggers": [
       "Prestige Distributor",
@@ -540,7 +540,7 @@
     "events": [
       {
         "confidence": "Inferred",
-        "event_id": "1353167-e6064caf33d2",
+        "event_id": "1353167-5f5024cda094",
         "event_type": "Distributor Change",
         "film_id": "1353167",
         "importance": "Medium",
@@ -549,12 +549,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Apple TV.",
-        "timestamp": "2026-08-04T15:42:47Z",
+        "timestamp": "2026-08-05T15:35:12Z",
         "title": "Distributor set: Apple TV"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1353167-853eddbcf6a9",
+        "event_id": "1353167-4ae4a9b00644",
         "event_type": "Awards Tier Changed",
         "film_id": "1353167",
         "importance": "Medium",
@@ -564,12 +564,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-04T15:42:47Z",
+        "timestamp": "2026-08-05T15:35:12Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1353167-dabe86f5caed",
+        "event_id": "1353167-2dc20e8ad3fa",
         "event_type": "Added To Database",
         "film_id": "1353167",
         "importance": "Low",
@@ -578,7 +578,7 @@
         },
         "source_type": "system",
         "summary": "The Mouse Trap: Welcome to the Mickeyverse is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-04T15:42:47Z",
+        "timestamp": "2026-08-05T15:35:12Z",
         "title": "Added to Awards Intelligence"
       },
       {
@@ -598,7 +598,7 @@
     ],
     "latest_event": {
       "confidence": "Inferred",
-      "event_id": "1353167-e6064caf33d2",
+      "event_id": "1353167-5f5024cda094",
       "event_type": "Distributor Change",
       "film_id": "1353167",
       "importance": "Medium",
@@ -607,13 +607,13 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Apple TV.",
-      "timestamp": "2026-08-04T15:42:47Z",
+      "timestamp": "2026-08-05T15:35:12Z",
       "title": "Distributor set: Apple TV"
     },
     "recent_activity": [
       {
         "confidence": "Inferred",
-        "event_id": "1353167-e6064caf33d2",
+        "event_id": "1353167-5f5024cda094",
         "event_type": "Distributor Change",
         "film_id": "1353167",
         "importance": "Medium",
@@ -622,12 +622,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Apple TV.",
-        "timestamp": "2026-08-04T15:42:47Z",
+        "timestamp": "2026-08-05T15:35:12Z",
         "title": "Distributor set: Apple TV"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1353167-853eddbcf6a9",
+        "event_id": "1353167-4ae4a9b00644",
         "event_type": "Awards Tier Changed",
         "film_id": "1353167",
         "importance": "Medium",
@@ -637,12 +637,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-04T15:42:47Z",
+        "timestamp": "2026-08-05T15:35:12Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1353167-dabe86f5caed",
+        "event_id": "1353167-2dc20e8ad3fa",
         "event_type": "Added To Database",
         "film_id": "1353167",
         "importance": "Low",
@@ -651,7 +651,7 @@
         },
         "source_type": "system",
         "summary": "The Mouse Trap: Welcome to the Mickeyverse is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-04T15:42:47Z",
+        "timestamp": "2026-08-05T15:35:12Z",
         "title": "Added to Awards Intelligence"
       }
     ],

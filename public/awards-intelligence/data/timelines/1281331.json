@@ -16,7 +16,7 @@
     },
     {
       "confidence": "Inferred",
-      "event_id": "1281331-90bf4fb6a943",
+      "event_id": "1281331-3140080ef688",
       "event_type": "Distributor Change",
       "film_id": "1281331",
       "importance": "Medium",
@@ -25,12 +25,12 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Columbia Pictures.",
-      "timestamp": "2026-08-04T15:42:47Z",
+      "timestamp": "2026-08-05T15:35:12Z",
       "title": "Distributor set: Columbia Pictures"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1281331-407d6b28d81c",
+      "event_id": "1281331-d81796e520a4",
       "event_type": "Awards Tier Changed",
       "film_id": "1281331",
       "importance": "Medium",
@@ -40,12 +40,12 @@
       },
       "source_type": "editorial_model",
       "summary": "insufficient credible awards evidence",
-      "timestamp": "2026-08-04T15:42:47Z",
+      "timestamp": "2026-08-05T15:35:12Z",
       "title": "Awards tier assigned: No Current Awards Case"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1281331-7bf81af0ece7",
+      "event_id": "1281331-9d7e0559ea2e",
       "event_type": "Added To Database",
       "film_id": "1281331",
       "importance": "Low",
@@ -54,7 +54,7 @@
       },
       "source_type": "system",
       "summary": "The Social Reckoning is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-08-04T15:42:47Z",
+      "timestamp": "2026-08-05T15:35:12Z",
       "title": "Added to Awards Intelligence"
     }
   ],
@@ -75,7 +75,7 @@
   "metadata": {
     "event_count": 4,
     "film_id": "1281331",
-    "generated_at": "20260804T154247Z",
+    "generated_at": "20260805T153512Z",
     "timeline_version": "phase6b",
     "title": "The Social Reckoning",
     "tmdb_id": "1281331"
