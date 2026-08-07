@@ -7,7 +7,7 @@
       "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 53.1,
+    "attention_score": 52.7,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -20,7 +20,7 @@
         "status": "inferred"
       },
       {
-        "evidence": "TMDb popularity 6.6065",
+        "evidence": "TMDb popularity 6.1011",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -51,14 +51,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 53.1,
+    "homepage_spotlight_score": 52.7,
     "industry_interest": null,
-    "last_updated": "20260805T153512Z",
+    "last_updated": "20260807T143006Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
         "evidence_count": 2,
-        "score": 14.9,
+        "score": 14.5,
         "statuses": [
           "verified"
         ]
@@ -200,7 +200,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-08-05T15:34:50Z",
+    "generated_at": "2026-08-07T14:29:51Z",
     "headline": "Werwulf: popularity increasing",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -220,7 +220,7 @@
         "tmdb_backdrop_count": 1,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=cmjpadVj-Vk",
-        "tmdb_popularity": 6.6065,
+        "tmdb_popularity": 6.1011,
         "tmdb_poster_count": 9,
         "tmdb_release_date_us_primary": "2026-12-25",
         "tmdb_release_date_us_theatrical": "2026-12-25",
@@ -236,14 +236,14 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity rose from 4.8191 to 6.6065.",
+    "summary": "TMDb popularity rose from 4.8191 to 6.1011.",
     "supporting_drivers": [
       {
         "confidence_weight": 0.9,
         "driver_type": "popularity_increasing",
-        "evidence": "TMDb popularity rose from 4.8191 to 6.6065.",
+        "evidence": "TMDb popularity rose from 4.8191 to 6.1011.",
         "label": "Popularity increasing",
-        "retrieved_at": "2026-08-05T15:34:50Z",
+        "retrieved_at": "2026-08-07T14:29:51Z",
         "source_metric": "tmdb_popularity",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -252,7 +252,7 @@
   },
   "media": {
     "canonical_trailer": {
-      "retrieved_at": "2026-08-05",
+      "retrieved_at": "2026-08-07",
       "site": "YouTube",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1421903/videos",
@@ -264,7 +264,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260805T153512Z",
+    "generated_at": "20260807T143006Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -272,25 +272,25 @@
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 6.6065,
-        "retrieved_at": "2026-08-05",
+        "popularity": 6.1011,
+        "retrieved_at": "2026-08-07",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1421903",
         "status": "not_yet_rated"
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-08-05",
+      "retrieved_at": "2026-08-07",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1421903",
-      "value": 6.6065
+      "value": 6.1011
     },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 6.6065,
-      "retrieved_at": "2026-08-05",
+      "popularity": 6.1011,
+      "retrieved_at": "2026-08-07",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1421903",
       "status": "not_yet_rated"
@@ -409,13 +409,13 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.126,
+      "audience_momentum": 0.116,
       "campaign_activity": 1.35,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-05T15:34:50Z",
+    "generated_at": "2026-08-07T14:29:51Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 4.801,
+    "score": 4.791,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -444,11 +444,11 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.126,
+        "contribution": 0.116,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 6.6065
+        "value": 6.1011
       }
     ]
   },
@@ -457,7 +457,7 @@
     "external_intelligence": {
       "confidence": "High",
       "headline": "Werwulf: popularity increasing",
-      "summary": "TMDb popularity rose from 4.8191 to 6.6065."
+      "summary": "TMDb popularity rose from 4.8191 to 6.1011."
     },
     "last_updated": "2026-12-25",
     "latest_event": {
@@ -495,7 +495,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1421903-63bef3c74a70",
+        "event_id": "1421903-337e592b511b",
         "event_type": "Distributor Change",
         "film_id": "1421903",
         "importance": "Medium",
@@ -504,12 +504,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Focus Features.",
-        "timestamp": "2026-08-05T15:35:12Z",
+        "timestamp": "2026-08-07T14:30:06Z",
         "title": "Distributor set: Focus Features"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1421903-c1891da038a7",
+        "event_id": "1421903-e76aac4b11cf",
         "event_type": "Awards Tier Changed",
         "film_id": "1421903",
         "importance": "Medium",
@@ -519,15 +519,15 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-05T15:35:12Z",
+        "timestamp": "2026-08-07T14:30:06Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],
     "release_relevance": 18.2,
     "screening_room_score": {
       "confidence": "High",
-      "explanation": "TMDb popularity rose from 4.8191 to 6.6065.",
-      "score": 4.801
+      "explanation": "TMDb popularity rose from 4.8191 to 6.1011.",
+      "score": 4.791
     },
     "watch_triggers": [
       "Prestige Distributor",
@@ -571,7 +571,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1421903-63bef3c74a70",
+        "event_id": "1421903-337e592b511b",
         "event_type": "Distributor Change",
         "film_id": "1421903",
         "importance": "Medium",
@@ -580,12 +580,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Focus Features.",
-        "timestamp": "2026-08-05T15:35:12Z",
+        "timestamp": "2026-08-07T14:30:06Z",
         "title": "Distributor set: Focus Features"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1421903-c1891da038a7",
+        "event_id": "1421903-e76aac4b11cf",
         "event_type": "Awards Tier Changed",
         "film_id": "1421903",
         "importance": "Medium",
@@ -595,12 +595,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-05T15:35:12Z",
+        "timestamp": "2026-08-07T14:30:06Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1421903-8fe58eb6993e",
+        "event_id": "1421903-98331d2eace4",
         "event_type": "Added To Database",
         "film_id": "1421903",
         "importance": "Low",
@@ -609,7 +609,7 @@
         },
         "source_type": "system",
         "summary": "Werwulf is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-05T15:35:12Z",
+        "timestamp": "2026-08-07T14:30:06Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -644,7 +644,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1421903-63bef3c74a70",
+        "event_id": "1421903-337e592b511b",
         "event_type": "Distributor Change",
         "film_id": "1421903",
         "importance": "Medium",
@@ -653,12 +653,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Focus Features.",
-        "timestamp": "2026-08-05T15:35:12Z",
+        "timestamp": "2026-08-07T14:30:06Z",
         "title": "Distributor set: Focus Features"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1421903-c1891da038a7",
+        "event_id": "1421903-e76aac4b11cf",
         "event_type": "Awards Tier Changed",
         "film_id": "1421903",
         "importance": "Medium",
@@ -668,7 +668,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-05T15:35:12Z",
+        "timestamp": "2026-08-07T14:30:06Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],

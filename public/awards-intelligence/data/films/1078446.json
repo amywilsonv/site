@@ -8,7 +8,7 @@
       "Event Release",
       "Awards Watch"
     ],
-    "attention_score": 80.2,
+    "attention_score": 80.7,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -31,7 +31,7 @@
         "status": "inferred"
       },
       {
-        "evidence": "TMDb popularity 5.9304",
+        "evidence": "TMDb popularity 6.6199",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -67,14 +67,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 80.2,
+    "homepage_spotlight_score": 80.7,
     "industry_interest": "High",
-    "last_updated": "20260805T153512Z",
+    "last_updated": "20260807T143006Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
         "evidence_count": 2,
-        "score": 14.4,
+        "score": 14.9,
         "statuses": [
           "verified"
         ]
@@ -226,7 +226,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-08-05T15:34:50Z",
+    "generated_at": "2026-08-07T14:29:51Z",
     "headline": "Violent Night 2: popularity increasing",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -246,8 +246,8 @@
         "tmdb_backdrop_count": 3,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=FmM2giDwLAE",
-        "tmdb_popularity": 5.9304,
-        "tmdb_poster_count": 5,
+        "tmdb_popularity": 6.6199,
+        "tmdb_poster_count": 4,
         "tmdb_release_date_us_primary": "2026-12-04",
         "tmdb_release_date_us_theatrical": "2026-12-04",
         "tmdb_release_status": "Post Production",
@@ -262,14 +262,14 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity rose from 1.7039 to 5.9304. A canonical TMDb trailer URL is available.",
+    "summary": "TMDb popularity rose from 1.7039 to 6.6199. A canonical TMDb trailer URL is available.",
     "supporting_drivers": [
       {
         "confidence_weight": 0.9,
         "driver_type": "popularity_increasing",
-        "evidence": "TMDb popularity rose from 1.7039 to 5.9304.",
+        "evidence": "TMDb popularity rose from 1.7039 to 6.6199.",
         "label": "Popularity increasing",
-        "retrieved_at": "2026-08-05T15:34:50Z",
+        "retrieved_at": "2026-08-07T14:29:51Z",
         "source_metric": "tmdb_popularity",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -279,7 +279,7 @@
         "driver_type": "trailer_available",
         "evidence": "A canonical TMDb trailer URL is available.",
         "label": "Trailer available",
-        "retrieved_at": "2026-08-05T15:34:50Z",
+        "retrieved_at": "2026-08-07T14:29:51Z",
         "source_metric": "tmdb_canonical_trailer_url",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -288,7 +288,7 @@
   },
   "media": {
     "canonical_trailer": {
-      "retrieved_at": "2026-08-05",
+      "retrieved_at": "2026-08-07",
       "site": "YouTube",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1078446/videos",
@@ -300,7 +300,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260805T153512Z",
+    "generated_at": "20260807T143006Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -308,25 +308,25 @@
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 5.9304,
-        "retrieved_at": "2026-08-05",
+        "popularity": 6.6199,
+        "retrieved_at": "2026-08-07",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1078446",
         "status": "not_yet_rated"
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-08-05",
+      "retrieved_at": "2026-08-07",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1078446",
-      "value": 5.9304
+      "value": 6.6199
     },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 5.9304,
-      "retrieved_at": "2026-08-05",
+      "popularity": 6.6199,
+      "retrieved_at": "2026-08-07",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1078446",
       "status": "not_yet_rated"
@@ -345,18 +345,6 @@
         ],
         "title": "Practical Magic 2",
         "tmdb_id": "1302904"
-      },
-      {
-        "profile_url": "film.html?id=656908",
-        "relationship_score": 58,
-        "shared_signals": [
-          "Major Release",
-          "Action",
-          "Fantasy",
-          "Craft Categories"
-        ],
-        "title": "Ramayana",
-        "tmdb_id": "656908"
       },
       {
         "profile_url": "film.html?id=1368337",
@@ -403,6 +391,18 @@
         ],
         "title": "Jumanji: Open World",
         "tmdb_id": "1260649"
+      },
+      {
+        "profile_url": "film.html?id=1401586",
+        "relationship_score": 46,
+        "shared_signals": [
+          "Major Release",
+          "Action",
+          "Comedy",
+          "Craft Categories"
+        ],
+        "title": "Sonic the Hedgehog 4",
+        "tmdb_id": "1401586"
       }
     ],
     "related_people": [
@@ -452,14 +452,14 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.113,
+      "audience_momentum": 0.126,
       "awards_relevance": 0.8,
       "campaign_activity": 1.35,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-05T15:34:50Z",
+    "generated_at": "2026-08-07T14:29:51Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 5.588,
+    "score": 5.601,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -496,11 +496,11 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.113,
+        "contribution": 0.126,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 5.9304
+        "value": 6.6199
       }
     ]
   },
@@ -509,7 +509,7 @@
     "external_intelligence": {
       "confidence": "High",
       "headline": "Violent Night 2: popularity increasing",
-      "summary": "TMDb popularity rose from 1.7039 to 5.9304. A canonical TMDb trailer URL is available."
+      "summary": "TMDb popularity rose from 1.7039 to 6.6199. A canonical TMDb trailer URL is available."
     },
     "last_updated": "2026-12-04",
     "latest_event": {
@@ -547,7 +547,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1078446-e5f507549242",
+        "event_id": "1078446-260e9caf677f",
         "event_type": "Distributor Change",
         "film_id": "1078446",
         "importance": "Medium",
@@ -556,12 +556,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Universal Pictures.",
-        "timestamp": "2026-08-05T15:35:12Z",
+        "timestamp": "2026-08-07T14:30:06Z",
         "title": "Distributor set: Universal Pictures"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1078446-96061da4297c",
+        "event_id": "1078446-729e8c2c5dcb",
         "event_type": "Awards Tier Changed",
         "film_id": "1078446",
         "importance": "Medium",
@@ -573,15 +573,15 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-08-05T15:35:12Z",
+        "timestamp": "2026-08-07T14:30:06Z",
         "title": "Awards tier assigned: Emerging"
       }
     ],
     "release_relevance": 26.2,
     "screening_room_score": {
       "confidence": "High",
-      "explanation": "TMDb popularity rose from 1.7039 to 5.9304. A canonical TMDb trailer URL is available.",
-      "score": 5.588
+      "explanation": "TMDb popularity rose from 1.7039 to 6.6199. A canonical TMDb trailer URL is available.",
+      "score": 5.601
     },
     "watch_triggers": [
       "Major Studio/Streamer",
@@ -624,7 +624,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1078446-e5f507549242",
+        "event_id": "1078446-260e9caf677f",
         "event_type": "Distributor Change",
         "film_id": "1078446",
         "importance": "Medium",
@@ -633,12 +633,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Universal Pictures.",
-        "timestamp": "2026-08-05T15:35:12Z",
+        "timestamp": "2026-08-07T14:30:06Z",
         "title": "Distributor set: Universal Pictures"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1078446-96061da4297c",
+        "event_id": "1078446-729e8c2c5dcb",
         "event_type": "Awards Tier Changed",
         "film_id": "1078446",
         "importance": "Medium",
@@ -650,12 +650,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-08-05T15:35:12Z",
+        "timestamp": "2026-08-07T14:30:06Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1078446-d0b0033bcec7",
+        "event_id": "1078446-58ac2a43a703",
         "event_type": "Added To Database",
         "film_id": "1078446",
         "importance": "Low",
@@ -664,7 +664,7 @@
         },
         "source_type": "system",
         "summary": "Violent Night 2 is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-05T15:35:12Z",
+        "timestamp": "2026-08-07T14:30:06Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -699,7 +699,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1078446-e5f507549242",
+        "event_id": "1078446-260e9caf677f",
         "event_type": "Distributor Change",
         "film_id": "1078446",
         "importance": "Medium",
@@ -708,12 +708,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Universal Pictures.",
-        "timestamp": "2026-08-05T15:35:12Z",
+        "timestamp": "2026-08-07T14:30:06Z",
         "title": "Distributor set: Universal Pictures"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1078446-96061da4297c",
+        "event_id": "1078446-729e8c2c5dcb",
         "event_type": "Awards Tier Changed",
         "film_id": "1078446",
         "importance": "Medium",
@@ -725,7 +725,7 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-08-05T15:35:12Z",
+        "timestamp": "2026-08-07T14:30:06Z",
         "title": "Awards tier assigned: Emerging"
       }
     ],

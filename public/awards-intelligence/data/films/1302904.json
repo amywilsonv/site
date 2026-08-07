@@ -8,7 +8,7 @@
       "Event Release",
       "Awards Watch"
     ],
-    "attention_score": 81.5,
+    "attention_score": 82.1,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -41,7 +41,7 @@
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 5.1148",
+        "evidence": "TMDb popularity 5.8048",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -67,14 +67,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 81.5,
+    "homepage_spotlight_score": 82.1,
     "industry_interest": "High",
-    "last_updated": "20260805T153512Z",
+    "last_updated": "20260807T143006Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
         "evidence_count": 2,
-        "score": 13.7,
+        "score": 14.3,
         "statuses": [
           "verified"
         ]
@@ -230,7 +230,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-08-05T15:34:50Z",
+    "generated_at": "2026-08-07T14:29:51Z",
     "headline": "Practical Magic 2: popularity increasing",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -250,8 +250,8 @@
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=Ho10_4IX1jE",
-        "tmdb_popularity": 5.1148,
-        "tmdb_poster_count": 2,
+        "tmdb_popularity": 5.8048,
+        "tmdb_poster_count": 6,
         "tmdb_release_date_us_primary": "2026-09-11",
         "tmdb_release_date_us_theatrical": "2026-09-11",
         "tmdb_release_status": "Post Production",
@@ -266,14 +266,14 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity rose from 3.7233 to 5.1148.",
+    "summary": "TMDb popularity rose from 3.7233 to 5.8048.",
     "supporting_drivers": [
       {
         "confidence_weight": 0.9,
         "driver_type": "popularity_increasing",
-        "evidence": "TMDb popularity rose from 3.7233 to 5.1148.",
+        "evidence": "TMDb popularity rose from 3.7233 to 5.8048.",
         "label": "Popularity increasing",
-        "retrieved_at": "2026-08-05T15:34:50Z",
+        "retrieved_at": "2026-08-07T14:29:51Z",
         "source_metric": "tmdb_popularity",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -282,7 +282,7 @@
   },
   "media": {
     "canonical_trailer": {
-      "retrieved_at": "2026-08-05",
+      "retrieved_at": "2026-08-07",
       "site": "YouTube",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1302904/videos",
@@ -294,7 +294,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260805T153512Z",
+    "generated_at": "20260807T143006Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -302,25 +302,25 @@
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 5.1148,
-        "retrieved_at": "2026-08-05",
+        "popularity": 5.8048,
+        "retrieved_at": "2026-08-07",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1302904",
         "status": "not_yet_rated"
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-08-05",
+      "retrieved_at": "2026-08-07",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1302904",
-      "value": 5.1148
+      "value": 5.8048
     },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 5.1148,
-      "retrieved_at": "2026-08-05",
+      "popularity": 5.8048,
+      "retrieved_at": "2026-08-07",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1302904",
       "status": "not_yet_rated"
@@ -339,18 +339,6 @@
         ],
         "title": "Coyote vs. Acme",
         "tmdb_id": "1204680"
-      },
-      {
-        "profile_url": "film.html?id=656908",
-        "relationship_score": 58,
-        "shared_signals": [
-          "Major Release",
-          "Drama",
-          "Fantasy",
-          "Craft Categories"
-        ],
-        "title": "Ramayana",
-        "tmdb_id": "656908"
       },
       {
         "profile_url": "film.html?id=1078446",
@@ -397,6 +385,17 @@
         ],
         "title": "Jumanji: Open World",
         "tmdb_id": "1260649"
+      },
+      {
+        "profile_url": "film.html?id=656908",
+        "relationship_score": 42,
+        "shared_signals": [
+          "Drama",
+          "Fantasy",
+          "Craft Categories"
+        ],
+        "title": "Ramayana",
+        "tmdb_id": "656908"
       }
     ],
     "related_people": [
@@ -462,14 +461,14 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.097,
+      "audience_momentum": 0.11,
       "awards_relevance": 0.8,
       "campaign_activity": 5.4,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-05T15:34:50Z",
+    "generated_at": "2026-08-07T14:29:51Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 9.622,
+    "score": 9.635,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -506,11 +505,11 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.097,
+        "contribution": 0.11,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 5.1148
+        "value": 5.8048
       }
     ]
   },
@@ -519,7 +518,7 @@
     "external_intelligence": {
       "confidence": "High",
       "headline": "Practical Magic 2: popularity increasing",
-      "summary": "TMDb popularity rose from 3.7233 to 5.1148."
+      "summary": "TMDb popularity rose from 3.7233 to 5.8048."
     },
     "last_updated": "2026-09-11",
     "latest_event": {
@@ -557,7 +556,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1302904-53def8e21283",
+        "event_id": "1302904-18959cf267fd",
         "event_type": "Distributor Change",
         "film_id": "1302904",
         "importance": "Medium",
@@ -566,12 +565,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Warner Bros. Pictures.",
-        "timestamp": "2026-08-05T15:35:12Z",
+        "timestamp": "2026-08-07T14:30:06Z",
         "title": "Distributor set: Warner Bros. Pictures"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1302904-43dfe8b12382",
+        "event_id": "1302904-fed381eb3fda",
         "event_type": "Awards Tier Changed",
         "film_id": "1302904",
         "importance": "Medium",
@@ -583,15 +582,15 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-08-05T15:35:12Z",
+        "timestamp": "2026-08-07T14:30:06Z",
         "title": "Awards tier assigned: Emerging"
       }
     ],
     "release_relevance": 35.5,
     "screening_room_score": {
       "confidence": "High",
-      "explanation": "TMDb popularity rose from 3.7233 to 5.1148.",
-      "score": 9.622
+      "explanation": "TMDb popularity rose from 3.7233 to 5.8048.",
+      "score": 9.635
     },
     "watch_triggers": [
       "Major Studio/Streamer",
@@ -636,7 +635,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1302904-53def8e21283",
+        "event_id": "1302904-18959cf267fd",
         "event_type": "Distributor Change",
         "film_id": "1302904",
         "importance": "Medium",
@@ -645,12 +644,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Warner Bros. Pictures.",
-        "timestamp": "2026-08-05T15:35:12Z",
+        "timestamp": "2026-08-07T14:30:06Z",
         "title": "Distributor set: Warner Bros. Pictures"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1302904-43dfe8b12382",
+        "event_id": "1302904-fed381eb3fda",
         "event_type": "Awards Tier Changed",
         "film_id": "1302904",
         "importance": "Medium",
@@ -662,12 +661,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-08-05T15:35:12Z",
+        "timestamp": "2026-08-07T14:30:06Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1302904-760cab114660",
+        "event_id": "1302904-b231a86036b2",
         "event_type": "Added To Database",
         "film_id": "1302904",
         "importance": "Low",
@@ -676,7 +675,7 @@
         },
         "source_type": "system",
         "summary": "Practical Magic 2 is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-05T15:35:12Z",
+        "timestamp": "2026-08-07T14:30:06Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -711,7 +710,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1302904-53def8e21283",
+        "event_id": "1302904-18959cf267fd",
         "event_type": "Distributor Change",
         "film_id": "1302904",
         "importance": "Medium",
@@ -720,12 +719,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Warner Bros. Pictures.",
-        "timestamp": "2026-08-05T15:35:12Z",
+        "timestamp": "2026-08-07T14:30:06Z",
         "title": "Distributor set: Warner Bros. Pictures"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1302904-43dfe8b12382",
+        "event_id": "1302904-fed381eb3fda",
         "event_type": "Awards Tier Changed",
         "film_id": "1302904",
         "importance": "Medium",
@@ -737,7 +736,7 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-08-05T15:35:12Z",
+        "timestamp": "2026-08-07T14:30:06Z",
         "title": "Awards tier assigned: Emerging"
       }
     ],

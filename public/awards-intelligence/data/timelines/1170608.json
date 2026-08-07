@@ -16,7 +16,7 @@
     },
     {
       "confidence": "Inferred",
-      "event_id": "1170608-8bea70d9ff18",
+      "event_id": "1170608-db5e5dbb8a22",
       "event_type": "Awards Tier Changed",
       "film_id": "1170608",
       "importance": "Medium",
@@ -28,12 +28,12 @@
       },
       "source_type": "editorial_model",
       "summary": "plausible but incomplete awards evidence",
-      "timestamp": "2026-08-05T15:35:12Z",
+      "timestamp": "2026-08-07T14:30:06Z",
       "title": "Awards tier assigned: Emerging"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1170608-887ba7bea524",
+      "event_id": "1170608-c548005d855a",
       "event_type": "Added To Database",
       "film_id": "1170608",
       "importance": "Low",
@@ -42,7 +42,7 @@
       },
       "source_type": "system",
       "summary": "Dune: Part Three is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-08-05T15:35:12Z",
+      "timestamp": "2026-08-07T14:30:06Z",
       "title": "Added to Awards Intelligence"
     }
   ],
@@ -63,7 +63,7 @@
   "metadata": {
     "event_count": 3,
     "film_id": "1170608",
-    "generated_at": "20260805T153512Z",
+    "generated_at": "20260807T143006Z",
     "timeline_version": "phase6b",
     "title": "Dune: Part Three",
     "tmdb_id": "1170608"

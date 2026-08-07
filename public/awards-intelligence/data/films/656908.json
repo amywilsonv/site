@@ -8,7 +8,7 @@
       "Event Release",
       "Awards Watch"
     ],
-    "attention_score": 86.0,
+    "attention_score": 84.1,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Moderate",
     "conversation_level": "Unavailable",
@@ -16,14 +16,9 @@
     "early_reception": null,
     "evidence_sources": [
       {
-        "evidence": "TMDb popularity 56.192",
+        "evidence": "TMDb popularity 38.1629",
         "source": "audience_popularity",
         "status": "verified"
-      },
-      {
-        "evidence": "Commercial scale and release context",
-        "source": "commercial_scale",
-        "status": "inferred"
       },
       {
         "evidence": "Public-interest, franchise, event, or major-studio tracking signal",
@@ -36,6 +31,11 @@
         "status": "inferred"
       },
       {
+        "evidence": "Commercial scale and release context",
+        "source": "commercial_scale",
+        "status": "inferred"
+      },
+      {
         "evidence": "Principal cast listed: Ranbir Kapoor, Sai Pallavi, Yash, Ravi Dubey",
         "source": "cast_interest",
         "status": "verified"
@@ -43,6 +43,11 @@
       {
         "evidence": "Director: Nitesh Tiwari",
         "source": "filmmaker_interest",
+        "status": "verified"
+      },
+      {
+        "evidence": "Trailer URL present",
+        "source": "trailer_available",
         "status": "verified"
       },
       {
@@ -62,21 +67,21 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 86.0,
-    "industry_interest": "High",
-    "last_updated": "20260805T153512Z",
-    "promotional_response": null,
+    "homepage_spotlight_score": 84.1,
+    "industry_interest": "Moderate",
+    "last_updated": "20260807T143006Z",
+    "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
-        "evidence_count": 1,
-        "score": 20.9,
+        "evidence_count": 2,
+        "score": 23.3,
         "statuses": [
           "verified"
         ]
       },
       "commercial": {
         "evidence_count": 1,
-        "score": 16.0,
+        "score": 11.7,
         "statuses": [
           "inferred"
         ]
@@ -156,10 +161,10 @@
     "probabilities": {}
   },
   "commercial": {
-    "commercial_significance": 61.6,
+    "commercial_significance": 45.1,
     "distributor": "Unknown",
     "franchise": "Franchise/Event",
-    "release_strategy": "Wide commercial release",
+    "release_strategy": "Release radar monitoring",
     "studio": [
       "Monster Mind Creations",
       "Prime Focus Studios",
@@ -180,11 +185,11 @@
     }
   },
   "editorial": {
-    "discovery_reason": "Major Release - Nitesh Tiwari film with large-scale commercial or public-interest signals.",
-    "editorial_category": "Major Release",
+    "discovery_reason": "Upcoming Nitesh Tiwari film with Craft Categories monitoring value.",
+    "editorial_category": "General Watch",
     "editorial_summary": "Upcoming Nitesh Tiwari film with Craft Categories monitoring value.",
     "importance_tier": "Watchlist",
-    "primary_story": "franchise/event-release signal; high TMDb popularity",
+    "primary_story": "filmmaker/editorial hook; international profile; generic generated rationale",
     "story_strength": "Developing",
     "why_it_matters": "Upcoming Nitesh Tiwari film with Craft Categories monitoring value."
   },
@@ -222,7 +227,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-08-05T15:34:50Z",
+    "generated_at": "2026-08-07T14:29:51Z",
     "headline": "Ramayana: popularity increasing",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -240,8 +245,9 @@
         "streaming_flatrate_provider_count_us": 0,
         "streaming_provider_count_us": 0,
         "tmdb_backdrop_count": 2,
-        "tmdb_canonical_trailer_available": false,
-        "tmdb_popularity": 56.192,
+        "tmdb_canonical_trailer_available": true,
+        "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=le2W_fB_4KY",
+        "tmdb_popularity": 38.1629,
         "tmdb_poster_count": 6,
         "tmdb_release_date_us_primary": "",
         "tmdb_release_date_us_theatrical": "",
@@ -249,31 +255,53 @@
         "tmdb_vote_average": 0,
         "tmdb_vote_count": 0,
         "tmdb_watch_provider_count_us": 0,
-        "trailer_available": false,
-        "trailer_count": 0
+        "trailer_available": true,
+        "trailer_count": 2,
+        "trailer_url": "https://www.youtube.com/watch?v=le2W_fB_4KY"
       },
-      "source_signal_count": 24,
+      "source_signal_count": 26,
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity rose from 19.0692 to 56.192.",
+    "summary": "TMDb popularity rose from 19.0692 to 38.1629. A canonical TMDb trailer URL is available.",
     "supporting_drivers": [
       {
         "confidence_weight": 0.9,
         "driver_type": "popularity_increasing",
-        "evidence": "TMDb popularity rose from 19.0692 to 56.192.",
+        "evidence": "TMDb popularity rose from 19.0692 to 38.1629.",
         "label": "Popularity increasing",
-        "retrieved_at": "2026-08-05T15:34:50Z",
+        "retrieved_at": "2026-08-07T14:29:51Z",
         "source_metric": "tmdb_popularity",
+        "source_provider": "tmdb",
+        "source_status": "available"
+      },
+      {
+        "confidence_weight": 0.85,
+        "driver_type": "trailer_available",
+        "evidence": "A canonical TMDb trailer URL is available.",
+        "label": "Trailer available",
+        "retrieved_at": "2026-08-07T14:29:51Z",
+        "source_metric": "tmdb_canonical_trailer_url",
         "source_provider": "tmdb",
         "source_status": "available"
       }
     ]
   },
-  "media": {},
+  "media": {
+    "canonical_trailer": {
+      "retrieved_at": "2026-08-07",
+      "site": "YouTube",
+      "source": "TMDb",
+      "source_url": "https://www.themoviedb.org/movie/656908/videos",
+      "title": "UK Official Trailer [ENG DUB]",
+      "type": "Trailer",
+      "url": "https://www.youtube.com/watch?v=le2W_fB_4KY"
+    },
+    "latest_trailer_url": "https://www.youtube.com/watch?v=le2W_fB_4KY"
+  },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260805T153512Z",
+    "generated_at": "20260807T143006Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -281,31 +309,31 @@
     "box_office": {
       "budget": 230000000,
       "currency": "USD",
-      "retrieved_at": "2026-08-05",
+      "retrieved_at": "2026-08-07",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/656908"
     },
     "ratings": {
       "tmdb": {
-        "popularity": 56.192,
-        "retrieved_at": "2026-08-05",
+        "popularity": 38.1629,
+        "retrieved_at": "2026-08-07",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/656908",
         "status": "not_yet_rated"
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-08-05",
+      "retrieved_at": "2026-08-07",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/656908",
-      "value": 56.192
+      "value": 38.1629
     },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 56.192,
-      "retrieved_at": "2026-08-05",
+      "popularity": 38.1629,
+      "retrieved_at": "2026-08-07",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/656908",
       "status": "not_yet_rated"
@@ -314,76 +342,73 @@
   "related": {
     "related_films": [
       {
-        "profile_url": "film.html?id=1302904",
-        "relationship_score": 58,
-        "shared_signals": [
-          "Major Release",
-          "Drama",
-          "Fantasy",
-          "Craft Categories"
-        ],
-        "title": "Practical Magic 2",
-        "tmdb_id": "1302904"
-      },
-      {
-        "profile_url": "film.html?id=1078446",
-        "relationship_score": 58,
-        "shared_signals": [
-          "Major Release",
-          "Action",
-          "Fantasy",
-          "Craft Categories"
-        ],
-        "title": "Violent Night 2",
-        "tmdb_id": "1078446"
-      },
-      {
         "profile_url": "film.html?id=1495293",
-        "relationship_score": 52,
+        "relationship_score": 68,
         "shared_signals": [
+          "General Watch",
           "Action",
           "Drama",
-          "Craft Categories",
-          "Unknown"
+          "Craft Categories"
         ],
         "title": "Arasan",
         "tmdb_id": "1495293"
       },
       {
         "profile_url": "film.html?id=1567149",
-        "relationship_score": 52,
+        "relationship_score": 68,
         "shared_signals": [
+          "General Watch",
           "Action",
           "Drama",
-          "Craft Categories",
-          "Unknown"
+          "Craft Categories"
         ],
         "title": "Kamen Rider Kabuto 20th: \u200b\u200bThe One Who Inherits the Heavens",
         "tmdb_id": "1567149"
       },
       {
         "profile_url": "film.html?id=1579129",
-        "relationship_score": 52,
+        "relationship_score": 68,
         "shared_signals": [
+          "General Watch",
           "Action",
           "Drama",
-          "Craft Categories",
-          "Unknown"
+          "Craft Categories"
         ],
         "title": "The First Gokturk: Prologue",
         "tmdb_id": "1579129"
       },
       {
         "profile_url": "film.html?id=1729128",
-        "relationship_score": 52,
+        "relationship_score": 68,
         "shared_signals": [
+          "General Watch",
           "Action",
           "Drama",
-          "Craft Categories",
-          "Unknown"
+          "Craft Categories"
         ],
         "title": "Unification of Japan 76",
         "tmdb_id": "1729128"
+      },
+      {
+        "profile_url": "film.html?id=1620873",
+        "relationship_score": 56,
+        "shared_signals": [
+          "General Watch",
+          "Craft Categories",
+          "Unknown"
+        ],
+        "title": "HalloWiebe: Overdrive",
+        "tmdb_id": "1620873"
+      },
+      {
+        "profile_url": "film.html?id=1700889",
+        "relationship_score": 48,
+        "shared_signals": [
+          "General Watch",
+          "Unknown"
+        ],
+        "title": "\u0420\u0443\u043a\u0438 \u0432\u0432\u0435\u0440\u0445! 2",
+        "tmdb_id": "1700889"
       }
     ],
     "related_people": [
@@ -433,15 +458,24 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 1.068,
+      "audience_momentum": 0.725,
       "awards_relevance": 0.8,
+      "campaign_activity": 2.7,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-05T15:34:50Z",
+    "generated_at": "2026-08-07T14:29:51Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 5.193,
+    "score": 7.55,
     "source": "derived_screening_room_score",
     "top_drivers": [
+      {
+        "confidence": 0.9,
+        "contribution": 2.7,
+        "metric_name": "trailer_count",
+        "provider": "trailers",
+        "score_family": "campaign_activity",
+        "value": 2
+      },
       {
         "confidence": 0.55,
         "contribution": 2.2,
@@ -459,29 +493,29 @@
         "value": 9
       },
       {
-        "confidence": 0.95,
-        "contribution": 1.068,
-        "metric_name": "tmdb_popularity",
-        "provider": "tmdb",
-        "score_family": "audience_momentum",
-        "value": 56.192
-      },
-      {
         "confidence": 0.5,
         "contribution": 0.8,
         "metric_name": "legacy_dashboard_awards_category_count",
         "provider": "legacy_dashboard_awards_precursors_adapter",
         "score_family": "awards_relevance",
         "value": 1
+      },
+      {
+        "confidence": 0.95,
+        "contribution": 0.725,
+        "metric_name": "tmdb_popularity",
+        "provider": "tmdb",
+        "score_family": "audience_momentum",
+        "value": 38.1629
       }
     ]
   },
   "signals": {
-    "cultural_significance": 61.6,
+    "cultural_significance": 45.1,
     "external_intelligence": {
       "confidence": "High",
       "headline": "Ramayana: popularity increasing",
-      "summary": "TMDb popularity rose from 19.0692 to 56.192."
+      "summary": "TMDb popularity rose from 19.0692 to 38.1629. A canonical TMDb trailer URL is available."
     },
     "last_updated": "2026-11-08",
     "latest_event": {
@@ -519,7 +553,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "656908-ff3a2562f954",
+        "event_id": "656908-95929089674e",
         "event_type": "Awards Tier Changed",
         "film_id": "656908",
         "importance": "Medium",
@@ -531,12 +565,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-08-05T15:35:12Z",
+        "timestamp": "2026-08-07T14:30:06Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "656908-3bd0215215f6",
+        "event_id": "656908-6c9f079b84e5",
         "event_type": "Added To Database",
         "film_id": "656908",
         "importance": "Low",
@@ -545,15 +579,15 @@
         },
         "source_type": "system",
         "summary": "Ramayana is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-05T15:35:12Z",
+        "timestamp": "2026-08-07T14:30:06Z",
         "title": "Added to Awards Intelligence"
       }
     ],
-    "release_relevance": 35.3,
+    "release_relevance": 32.5,
     "screening_room_score": {
       "confidence": "High",
-      "explanation": "TMDb popularity rose from 19.0692 to 56.192.",
-      "score": 5.193
+      "explanation": "TMDb popularity rose from 19.0692 to 38.1629. A canonical TMDb trailer URL is available.",
+      "score": 7.55
     },
     "watch_triggers": [
       "Awards-Season Release",
@@ -597,7 +631,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "656908-ff3a2562f954",
+        "event_id": "656908-95929089674e",
         "event_type": "Awards Tier Changed",
         "film_id": "656908",
         "importance": "Medium",
@@ -609,12 +643,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-08-05T15:35:12Z",
+        "timestamp": "2026-08-07T14:30:06Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "656908-3bd0215215f6",
+        "event_id": "656908-6c9f079b84e5",
         "event_type": "Added To Database",
         "film_id": "656908",
         "importance": "Low",
@@ -623,7 +657,7 @@
         },
         "source_type": "system",
         "summary": "Ramayana is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-05T15:35:12Z",
+        "timestamp": "2026-08-07T14:30:06Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -658,7 +692,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "656908-ff3a2562f954",
+        "event_id": "656908-95929089674e",
         "event_type": "Awards Tier Changed",
         "film_id": "656908",
         "importance": "Medium",
@@ -670,12 +704,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-08-05T15:35:12Z",
+        "timestamp": "2026-08-07T14:30:06Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "656908-3bd0215215f6",
+        "event_id": "656908-6c9f079b84e5",
         "event_type": "Added To Database",
         "film_id": "656908",
         "importance": "Low",
@@ -684,7 +718,7 @@
         },
         "source_type": "system",
         "summary": "Ramayana is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-05T15:35:12Z",
+        "timestamp": "2026-08-07T14:30:06Z",
         "title": "Added to Awards Intelligence"
       }
     ],

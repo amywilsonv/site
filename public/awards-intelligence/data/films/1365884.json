@@ -7,7 +7,7 @@
       "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 47.3,
+    "attention_score": 48.1,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -40,25 +40,25 @@
         "status": "inferred"
       },
       {
-        "evidence": "Director: \u00c9milie Noblet",
-        "source": "filmmaker_interest",
+        "evidence": "TMDb popularity 1.3696",
+        "source": "audience_popularity",
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 1.0591",
-        "source": "audience_popularity",
+        "evidence": "Director: \u00c9milie Noblet",
+        "source": "filmmaker_interest",
         "status": "verified"
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 47.3,
+    "homepage_spotlight_score": 48.1,
     "industry_interest": null,
-    "last_updated": "20260805T153512Z",
+    "last_updated": "20260807T143006Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
         "evidence_count": 1,
-        "score": 3.7,
+        "score": 4.5,
         "statuses": [
           "verified"
         ]
@@ -205,7 +205,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-08-05T15:34:50Z",
+    "generated_at": "2026-08-07T14:29:51Z",
     "headline": "Call My Agent! The Movie: popularity increasing",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -224,7 +224,7 @@
         "streaming_provider_count_us": 0,
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": false,
-        "tmdb_popularity": 1.0591,
+        "tmdb_popularity": 1.3696,
         "tmdb_poster_count": 0,
         "tmdb_release_date_us_primary": "2026-09-10",
         "tmdb_release_date_us_theatrical": "",
@@ -239,14 +239,14 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity rose from 0.9091 to 1.0591.",
+    "summary": "TMDb popularity rose from 0.9091 to 1.3696.",
     "supporting_drivers": [
       {
         "confidence_weight": 0.9,
         "driver_type": "popularity_increasing",
-        "evidence": "TMDb popularity rose from 0.9091 to 1.0591.",
+        "evidence": "TMDb popularity rose from 0.9091 to 1.3696.",
         "label": "Popularity increasing",
-        "retrieved_at": "2026-08-05T15:34:50Z",
+        "retrieved_at": "2026-08-07T14:29:51Z",
         "source_metric": "tmdb_popularity",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -256,7 +256,7 @@
   "media": {},
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260805T153512Z",
+    "generated_at": "20260807T143006Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -264,25 +264,25 @@
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 1.0591,
-        "retrieved_at": "2026-08-05",
+        "popularity": 1.3696,
+        "retrieved_at": "2026-08-07",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1365884",
         "status": "not_yet_rated"
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-08-05",
+      "retrieved_at": "2026-08-07",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1365884",
-      "value": 1.0591
+      "value": 1.3696
     },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 1.0591,
-      "retrieved_at": "2026-08-05",
+      "popularity": 1.3696,
+      "retrieved_at": "2026-08-07",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1365884",
       "status": "not_yet_rated"
@@ -414,13 +414,13 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.02,
+      "audience_momentum": 0.026,
       "awards_relevance": 2.4,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-05T15:34:50Z",
+    "generated_at": "2026-08-07T14:29:51Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 5.745,
+    "score": 5.751,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -449,11 +449,11 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.02,
+        "contribution": 0.026,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 1.0591
+        "value": 1.3696
       }
     ]
   },
@@ -462,7 +462,7 @@
     "external_intelligence": {
       "confidence": "High",
       "headline": "Call My Agent! The Movie: popularity increasing",
-      "summary": "TMDb popularity rose from 0.9091 to 1.0591."
+      "summary": "TMDb popularity rose from 0.9091 to 1.3696."
     },
     "last_updated": "2026-09-10",
     "latest_event": {
@@ -500,7 +500,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1365884-5e330770414e",
+        "event_id": "1365884-6b3c17c85657",
         "event_type": "Distributor Change",
         "film_id": "1365884",
         "importance": "Medium",
@@ -509,12 +509,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-05T15:35:12Z",
+        "timestamp": "2026-08-07T14:30:06Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1365884-28adb1c8a208",
+        "event_id": "1365884-75d5036f66eb",
         "event_type": "Awards Tier Changed",
         "film_id": "1365884",
         "importance": "Medium",
@@ -528,15 +528,15 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-05T15:35:12Z",
+        "timestamp": "2026-08-07T14:30:06Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],
     "release_relevance": 28.0,
     "screening_room_score": {
       "confidence": "High",
-      "explanation": "TMDb popularity rose from 0.9091 to 1.0591.",
-      "score": 5.745
+      "explanation": "TMDb popularity rose from 0.9091 to 1.3696.",
+      "score": 5.751
     },
     "watch_triggers": [
       "Prestige Distributor",
@@ -579,7 +579,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1365884-5e330770414e",
+        "event_id": "1365884-6b3c17c85657",
         "event_type": "Distributor Change",
         "film_id": "1365884",
         "importance": "Medium",
@@ -588,12 +588,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-05T15:35:12Z",
+        "timestamp": "2026-08-07T14:30:06Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1365884-28adb1c8a208",
+        "event_id": "1365884-75d5036f66eb",
         "event_type": "Awards Tier Changed",
         "film_id": "1365884",
         "importance": "Medium",
@@ -607,12 +607,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-05T15:35:12Z",
+        "timestamp": "2026-08-07T14:30:06Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1365884-1ecb4ecf9d63",
+        "event_id": "1365884-2f0e973e83e5",
         "event_type": "Added To Database",
         "film_id": "1365884",
         "importance": "Low",
@@ -621,7 +621,7 @@
         },
         "source_type": "system",
         "summary": "Call My Agent! The Movie is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-05T15:35:12Z",
+        "timestamp": "2026-08-07T14:30:06Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -656,7 +656,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1365884-5e330770414e",
+        "event_id": "1365884-6b3c17c85657",
         "event_type": "Distributor Change",
         "film_id": "1365884",
         "importance": "Medium",
@@ -665,12 +665,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-05T15:35:12Z",
+        "timestamp": "2026-08-07T14:30:06Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1365884-28adb1c8a208",
+        "event_id": "1365884-75d5036f66eb",
         "event_type": "Awards Tier Changed",
         "film_id": "1365884",
         "importance": "Medium",
@@ -684,7 +684,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-05T15:35:12Z",
+        "timestamp": "2026-08-07T14:30:06Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],

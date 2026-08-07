@@ -16,7 +16,7 @@
     },
     {
       "confidence": "Inferred",
-      "event_id": "1698185-c9c72a0357c9",
+      "event_id": "1698185-6d95f08bc1bc",
       "event_type": "Awards Tier Changed",
       "film_id": "1698185",
       "importance": "Medium",
@@ -26,12 +26,12 @@
       },
       "source_type": "editorial_model",
       "summary": "insufficient credible awards evidence",
-      "timestamp": "2026-08-05T15:35:12Z",
+      "timestamp": "2026-08-07T14:30:06Z",
       "title": "Awards tier assigned: No Current Awards Case"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1698185-b41c7967c78b",
+      "event_id": "1698185-bba509b3d32e",
       "event_type": "Added To Database",
       "film_id": "1698185",
       "importance": "Low",
@@ -40,7 +40,7 @@
       },
       "source_type": "system",
       "summary": "I Wish This Was Real is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-08-05T15:35:12Z",
+      "timestamp": "2026-08-07T14:30:06Z",
       "title": "Added to Awards Intelligence"
     }
   ],
@@ -61,7 +61,7 @@
   "metadata": {
     "event_count": 3,
     "film_id": "1698185",
-    "generated_at": "20260805T153512Z",
+    "generated_at": "20260807T143006Z",
     "timeline_version": "phase6b",
     "title": "I Wish This Was Real",
     "tmdb_id": "1698185"

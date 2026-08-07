@@ -7,7 +7,7 @@
       "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 53.2,
+    "attention_score": 53.4,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -35,7 +35,7 @@
         "status": "inferred"
       },
       {
-        "evidence": "TMDb popularity 2.0899",
+        "evidence": "TMDb popularity 2.1798",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -51,14 +51,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 53.2,
+    "homepage_spotlight_score": 53.4,
     "industry_interest": "Moderate",
-    "last_updated": "20260805T153512Z",
+    "last_updated": "20260807T143006Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
         "evidence_count": 1,
-        "score": 5.8,
+        "score": 6.0,
         "statuses": [
           "verified"
         ]
@@ -199,7 +199,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-08-05T15:34:50Z",
+    "generated_at": "2026-08-07T14:29:51Z",
     "headline": "Air Bud Returns: popularity increasing",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -218,7 +218,7 @@
         "streaming_provider_count_us": 0,
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": false,
-        "tmdb_popularity": 2.0899,
+        "tmdb_popularity": 2.1798,
         "tmdb_poster_count": 2,
         "tmdb_release_date_us_primary": "2027-01-22",
         "tmdb_release_date_us_theatrical": "2027-01-22",
@@ -233,14 +233,14 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity rose from 1.7883 to 2.0899.",
+    "summary": "TMDb popularity rose from 1.7883 to 2.1798.",
     "supporting_drivers": [
       {
         "confidence_weight": 0.9,
         "driver_type": "popularity_increasing",
-        "evidence": "TMDb popularity rose from 1.7883 to 2.0899.",
+        "evidence": "TMDb popularity rose from 1.7883 to 2.1798.",
         "label": "Popularity increasing",
-        "retrieved_at": "2026-08-05T15:34:50Z",
+        "retrieved_at": "2026-08-07T14:29:51Z",
         "source_metric": "tmdb_popularity",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -250,7 +250,7 @@
   "media": {},
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260805T153512Z",
+    "generated_at": "20260807T143006Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -258,25 +258,25 @@
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 2.0899,
-        "retrieved_at": "2026-08-05",
+        "popularity": 2.1798,
+        "retrieved_at": "2026-08-07",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1518403",
         "status": "not_yet_rated"
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-08-05",
+      "retrieved_at": "2026-08-07",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1518403",
-      "value": 2.0899
+      "value": 2.1798
     },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 2.0899,
-      "retrieved_at": "2026-08-05",
+      "popularity": 2.1798,
+      "retrieved_at": "2026-08-07",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1518403",
       "status": "not_yet_rated"
@@ -295,18 +295,6 @@
         ],
         "title": "Aa Bata Aama 2",
         "tmdb_id": "1705668"
-      },
-      {
-        "profile_url": "film.html?id=1693902",
-        "relationship_score": 60,
-        "shared_signals": [
-          "General Watch",
-          "Drama",
-          "Family",
-          "Unknown"
-        ],
-        "title": "Jhingedaau 2",
-        "tmdb_id": "1693902"
       },
       {
         "profile_url": "film.html?id=1324688",
@@ -351,6 +339,17 @@
         ],
         "title": "Drawn Together",
         "tmdb_id": "1440098"
+      },
+      {
+        "profile_url": "film.html?id=1269325",
+        "relationship_score": 54,
+        "shared_signals": [
+          "General Watch",
+          "Drama",
+          "Unknown"
+        ],
+        "title": "Drishyam 3",
+        "tmdb_id": "1269325"
       }
     ],
     "related_people": [
@@ -392,13 +391,13 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.04,
+      "audience_momentum": 0.041,
       "campaign_activity": 4.05,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-05T15:34:50Z",
+    "generated_at": "2026-08-07T14:29:51Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 7.415,
+    "score": 7.416,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -427,11 +426,11 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.04,
+        "contribution": 0.041,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 2.0899
+        "value": 2.1798
       }
     ]
   },
@@ -440,7 +439,7 @@
     "external_intelligence": {
       "confidence": "High",
       "headline": "Air Bud Returns: popularity increasing",
-      "summary": "TMDb popularity rose from 1.7883 to 2.0899."
+      "summary": "TMDb popularity rose from 1.7883 to 2.1798."
     },
     "last_updated": "2027-01-22",
     "latest_event": {
@@ -478,7 +477,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1518403-9b87adfd6097",
+        "event_id": "1518403-22e1575a00d5",
         "event_type": "Awards Tier Changed",
         "film_id": "1518403",
         "importance": "Medium",
@@ -488,12 +487,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-05T15:35:12Z",
+        "timestamp": "2026-08-07T14:30:06Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1518403-f0602f9ccd3b",
+        "event_id": "1518403-19054e1e4a13",
         "event_type": "Added To Database",
         "film_id": "1518403",
         "importance": "Low",
@@ -502,15 +501,15 @@
         },
         "source_type": "system",
         "summary": "Air Bud Returns is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-05T15:35:12Z",
+        "timestamp": "2026-08-07T14:30:06Z",
         "title": "Added to Awards Intelligence"
       }
     ],
     "release_relevance": 9.8,
     "screening_room_score": {
       "confidence": "High",
-      "explanation": "TMDb popularity rose from 1.7883 to 2.0899.",
-      "score": 7.415
+      "explanation": "TMDb popularity rose from 1.7883 to 2.1798.",
+      "score": 7.416
     },
     "watch_triggers": [
       "Awards-Friendly Genre",
@@ -552,7 +551,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1518403-9b87adfd6097",
+        "event_id": "1518403-22e1575a00d5",
         "event_type": "Awards Tier Changed",
         "film_id": "1518403",
         "importance": "Medium",
@@ -562,12 +561,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-05T15:35:12Z",
+        "timestamp": "2026-08-07T14:30:06Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1518403-f0602f9ccd3b",
+        "event_id": "1518403-19054e1e4a13",
         "event_type": "Added To Database",
         "film_id": "1518403",
         "importance": "Low",
@@ -576,7 +575,7 @@
         },
         "source_type": "system",
         "summary": "Air Bud Returns is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-05T15:35:12Z",
+        "timestamp": "2026-08-07T14:30:06Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -611,7 +610,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1518403-9b87adfd6097",
+        "event_id": "1518403-22e1575a00d5",
         "event_type": "Awards Tier Changed",
         "film_id": "1518403",
         "importance": "Medium",
@@ -621,12 +620,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-05T15:35:12Z",
+        "timestamp": "2026-08-07T14:30:06Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1518403-f0602f9ccd3b",
+        "event_id": "1518403-19054e1e4a13",
         "event_type": "Added To Database",
         "film_id": "1518403",
         "importance": "Low",
@@ -635,7 +634,7 @@
         },
         "source_type": "system",
         "summary": "Air Bud Returns is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-05T15:35:12Z",
+        "timestamp": "2026-08-07T14:30:06Z",
         "title": "Added to Awards Intelligence"
       }
     ],

@@ -16,7 +16,7 @@
     },
     {
       "confidence": "Inferred",
-      "event_id": "1138528-bbae4a8db2ed",
+      "event_id": "1138528-982875d52032",
       "event_type": "Awards Tier Changed",
       "film_id": "1138528",
       "importance": "Medium",
@@ -31,12 +31,12 @@
       },
       "source_type": "editorial_model",
       "summary": "category-specific awards case without broader contender evidence",
-      "timestamp": "2026-08-05T15:35:12Z",
+      "timestamp": "2026-08-07T14:30:06Z",
       "title": "Awards tier assigned: Category Contender"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1138528-660cca28d559",
+      "event_id": "1138528-f7dd329198ad",
       "event_type": "Added To Database",
       "film_id": "1138528",
       "importance": "Low",
@@ -45,7 +45,7 @@
       },
       "source_type": "system",
       "summary": "Bad Fairies is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-08-05T15:35:12Z",
+      "timestamp": "2026-08-07T14:30:06Z",
       "title": "Added to Awards Intelligence"
     }
   ],
@@ -66,7 +66,7 @@
   "metadata": {
     "event_count": 3,
     "film_id": "1138528",
-    "generated_at": "20260805T153512Z",
+    "generated_at": "20260807T143006Z",
     "timeline_version": "phase6b",
     "title": "Bad Fairies",
     "tmdb_id": "1138528"

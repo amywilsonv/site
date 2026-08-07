@@ -8,7 +8,7 @@
       "Event Release",
       "Awards Watch"
     ],
-    "attention_score": 87.2,
+    "attention_score": 88.1,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -21,14 +21,14 @@
         "status": "inferred"
       },
       {
+        "evidence": "TMDb popularity 14.721",
+        "source": "audience_popularity",
+        "status": "verified"
+      },
+      {
         "evidence": "Public-interest, franchise, event, or major-studio tracking signal",
         "source": "event_awareness",
         "status": "inferred"
-      },
-      {
-        "evidence": "TMDb popularity 12.0431",
-        "source": "audience_popularity",
-        "status": "verified"
       },
       {
         "evidence": "Franchise, sequel, or recognizable IP signal in available metadata",
@@ -67,14 +67,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 87.2,
+    "homepage_spotlight_score": 88.1,
     "industry_interest": "High",
-    "last_updated": "20260805T153512Z",
+    "last_updated": "20260807T143006Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
         "evidence_count": 2,
-        "score": 17.7,
+        "score": 18.6,
         "statuses": [
           "verified"
         ]
@@ -213,7 +213,7 @@
     "imdb_id": "",
     "language": "en",
     "original_title": "Coyote vs. Acme",
-    "poster": "https://image.tmdb.org/t/p/original/7zNmJP6z6mDAp4LouacYkGSBUQv.jpg",
+    "poster": "https://image.tmdb.org/t/p/original/qTDRp8d1vzsFekTEgPC7X0jRRKE.jpg",
     "profile_payload_url": "data/films/1204680.json",
     "profile_url": "film.html?id=1204680",
     "release_date": "2026-08-28",
@@ -226,7 +226,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-08-05T15:34:50Z",
+    "generated_at": "2026-08-07T14:29:51Z",
     "headline": "Coyote vs. Acme: release approaching",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -243,11 +243,11 @@
         "streaming_available_us": false,
         "streaming_flatrate_provider_count_us": 0,
         "streaming_provider_count_us": 0,
-        "tmdb_backdrop_count": 6,
+        "tmdb_backdrop_count": 8,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=kMsiD1Nky5I",
-        "tmdb_popularity": 12.0431,
-        "tmdb_poster_count": 23,
+        "tmdb_popularity": 14.721,
+        "tmdb_poster_count": 31,
         "tmdb_release_date_us_primary": "2026-08-28",
         "tmdb_release_date_us_theatrical": "2026-08-28",
         "tmdb_release_status": "Post Production",
@@ -255,21 +255,21 @@
         "tmdb_vote_count": 0,
         "tmdb_watch_provider_count_us": 0,
         "trailer_available": true,
-        "trailer_count": 6,
+        "trailer_count": 7,
         "trailer_url": "https://www.youtube.com/watch?v=kMsiD1Nky5I"
       },
       "source_signal_count": 26,
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity rose from 9.7115 to 12.0431. US release is 39 days away on 2026-08-28.",
+    "summary": "TMDb popularity rose from 9.7115 to 14.721. US release is 39 days away on 2026-08-28.",
     "supporting_drivers": [
       {
         "confidence_weight": 0.9,
         "driver_type": "popularity_increasing",
-        "evidence": "TMDb popularity rose from 9.7115 to 12.0431.",
+        "evidence": "TMDb popularity rose from 9.7115 to 14.721.",
         "label": "Popularity increasing",
-        "retrieved_at": "2026-08-05T15:34:50Z",
+        "retrieved_at": "2026-08-07T14:29:51Z",
         "source_metric": "tmdb_popularity",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -279,7 +279,7 @@
         "driver_type": "release_approaching",
         "evidence": "US release is 39 days away on 2026-08-28.",
         "label": "Release approaching",
-        "retrieved_at": "2026-08-05T15:34:50Z",
+        "retrieved_at": "2026-08-07T14:29:51Z",
         "source_metric": "tmdb_release_date_us_primary",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -288,7 +288,7 @@
   },
   "media": {
     "canonical_trailer": {
-      "retrieved_at": "2026-08-05",
+      "retrieved_at": "2026-08-07",
       "site": "YouTube",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1204680/videos",
@@ -300,7 +300,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260805T153512Z",
+    "generated_at": "20260807T143006Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -308,31 +308,31 @@
     "box_office": {
       "budget": 72000000,
       "currency": "USD",
-      "retrieved_at": "2026-08-05",
+      "retrieved_at": "2026-08-07",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1204680"
     },
     "ratings": {
       "tmdb": {
-        "popularity": 12.0431,
-        "retrieved_at": "2026-08-05",
+        "popularity": 14.721,
+        "retrieved_at": "2026-08-07",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1204680",
         "status": "not_yet_rated"
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-08-05",
+      "retrieved_at": "2026-08-07",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1204680",
-      "value": 12.0431
+      "value": 14.721
     },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 12.0431,
-      "retrieved_at": "2026-08-05",
+      "popularity": 14.721,
+      "retrieved_at": "2026-08-07",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1204680",
       "status": "not_yet_rated"
@@ -466,14 +466,14 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.229,
+      "audience_momentum": 0.28,
       "awards_relevance": 0.8,
       "campaign_activity": 5.4,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-05T15:34:50Z",
+    "generated_at": "2026-08-07T14:29:51Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 9.754,
+    "score": 9.805,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -482,7 +482,7 @@
         "metric_name": "trailer_count",
         "provider": "trailers",
         "score_family": "campaign_activity",
-        "value": 6
+        "value": 7
       },
       {
         "confidence": 0.55,
@@ -510,11 +510,11 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.229,
+        "contribution": 0.28,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 12.0431
+        "value": 14.721
       }
     ]
   },
@@ -523,7 +523,7 @@
     "external_intelligence": {
       "confidence": "High",
       "headline": "Coyote vs. Acme: release approaching",
-      "summary": "TMDb popularity rose from 9.7115 to 12.0431. US release is 39 days away on 2026-08-28."
+      "summary": "TMDb popularity rose from 9.7115 to 14.721. US release is 39 days away on 2026-08-28."
     },
     "last_updated": "2026-08-28",
     "latest_event": {
@@ -561,7 +561,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1204680-2f087dbd0477",
+        "event_id": "1204680-9e29f092cbf8",
         "event_type": "Distributor Change",
         "film_id": "1204680",
         "importance": "Medium",
@@ -570,12 +570,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Warner Bros. Pictures.",
-        "timestamp": "2026-08-05T15:35:12Z",
+        "timestamp": "2026-08-07T14:30:06Z",
         "title": "Distributor set: Warner Bros. Pictures"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1204680-bc7ca9802637",
+        "event_id": "1204680-5791f7c2d935",
         "event_type": "Awards Tier Changed",
         "film_id": "1204680",
         "importance": "Medium",
@@ -587,15 +587,15 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-08-05T15:35:12Z",
+        "timestamp": "2026-08-07T14:30:06Z",
         "title": "Awards tier assigned: Emerging"
       }
     ],
     "release_relevance": 48.6,
     "screening_room_score": {
       "confidence": "High",
-      "explanation": "TMDb popularity rose from 9.7115 to 12.0431. US release is 39 days away on 2026-08-28.",
-      "score": 9.754
+      "explanation": "TMDb popularity rose from 9.7115 to 14.721. US release is 39 days away on 2026-08-28.",
+      "score": 9.805
     },
     "watch_triggers": [
       "Major Studio/Streamer",
@@ -638,7 +638,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1204680-2f087dbd0477",
+        "event_id": "1204680-9e29f092cbf8",
         "event_type": "Distributor Change",
         "film_id": "1204680",
         "importance": "Medium",
@@ -647,12 +647,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Warner Bros. Pictures.",
-        "timestamp": "2026-08-05T15:35:12Z",
+        "timestamp": "2026-08-07T14:30:06Z",
         "title": "Distributor set: Warner Bros. Pictures"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1204680-bc7ca9802637",
+        "event_id": "1204680-5791f7c2d935",
         "event_type": "Awards Tier Changed",
         "film_id": "1204680",
         "importance": "Medium",
@@ -664,12 +664,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-08-05T15:35:12Z",
+        "timestamp": "2026-08-07T14:30:06Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1204680-c210e58ed3f3",
+        "event_id": "1204680-cf01d75cd54e",
         "event_type": "Added To Database",
         "film_id": "1204680",
         "importance": "Low",
@@ -678,7 +678,7 @@
         },
         "source_type": "system",
         "summary": "Coyote vs. Acme is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-05T15:35:12Z",
+        "timestamp": "2026-08-07T14:30:06Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -713,7 +713,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1204680-2f087dbd0477",
+        "event_id": "1204680-9e29f092cbf8",
         "event_type": "Distributor Change",
         "film_id": "1204680",
         "importance": "Medium",
@@ -722,12 +722,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Warner Bros. Pictures.",
-        "timestamp": "2026-08-05T15:35:12Z",
+        "timestamp": "2026-08-07T14:30:06Z",
         "title": "Distributor set: Warner Bros. Pictures"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1204680-bc7ca9802637",
+        "event_id": "1204680-5791f7c2d935",
         "event_type": "Awards Tier Changed",
         "film_id": "1204680",
         "importance": "Medium",
@@ -739,7 +739,7 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-08-05T15:35:12Z",
+        "timestamp": "2026-08-07T14:30:06Z",
         "title": "Awards tier assigned: Emerging"
       }
     ],

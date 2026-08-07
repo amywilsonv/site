@@ -7,7 +7,7 @@
       "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 53.2,
+    "attention_score": 53.8,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -20,6 +20,11 @@
         "status": "inferred"
       },
       {
+        "evidence": "TMDb popularity 6.195",
+        "source": "audience_popularity",
+        "status": "verified"
+      },
+      {
         "evidence": "Major distributor: Amazon MGM Studios",
         "source": "distributor_scale",
         "status": "verified"
@@ -27,11 +32,6 @@
       {
         "evidence": "Principal cast listed: Dakota Johnson, Anne Hathaway, Josh Hartnett, Ismael Cruz Cordova",
         "source": "cast_interest",
-        "status": "verified"
-      },
-      {
-        "evidence": "TMDb popularity 5.3903",
-        "source": "audience_popularity",
         "status": "verified"
       },
       {
@@ -51,14 +51,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 53.2,
+    "homepage_spotlight_score": 53.8,
     "industry_interest": null,
-    "last_updated": "20260805T153512Z",
+    "last_updated": "20260807T143006Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
         "evidence_count": 1,
-        "score": 9.6,
+        "score": 10.2,
         "statuses": [
           "verified"
         ]
@@ -204,7 +204,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-08-05T15:34:50Z",
+    "generated_at": "2026-08-07T14:29:51Z",
     "headline": "Verity: popularity increasing",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -223,7 +223,7 @@
         "streaming_provider_count_us": 0,
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": false,
-        "tmdb_popularity": 5.3903,
+        "tmdb_popularity": 6.195,
         "tmdb_poster_count": 5,
         "tmdb_release_date_us_primary": "2026-10-02",
         "tmdb_release_date_us_theatrical": "2026-10-02",
@@ -238,14 +238,14 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity rose from 4.4021 to 5.3903.",
+    "summary": "TMDb popularity rose from 4.4021 to 6.195.",
     "supporting_drivers": [
       {
         "confidence_weight": 0.9,
         "driver_type": "popularity_increasing",
-        "evidence": "TMDb popularity rose from 4.4021 to 5.3903.",
+        "evidence": "TMDb popularity rose from 4.4021 to 6.195.",
         "label": "Popularity increasing",
-        "retrieved_at": "2026-08-05T15:34:50Z",
+        "retrieved_at": "2026-08-07T14:29:51Z",
         "source_metric": "tmdb_popularity",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -255,7 +255,7 @@
   "media": {},
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260805T153512Z",
+    "generated_at": "20260807T143006Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -263,31 +263,31 @@
     "box_office": {
       "budget": 40000000,
       "currency": "USD",
-      "retrieved_at": "2026-08-05",
+      "retrieved_at": "2026-08-07",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1283515"
     },
     "ratings": {
       "tmdb": {
-        "popularity": 5.3903,
-        "retrieved_at": "2026-08-05",
+        "popularity": 6.195,
+        "retrieved_at": "2026-08-07",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1283515",
         "status": "not_yet_rated"
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-08-05",
+      "retrieved_at": "2026-08-07",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1283515",
-      "value": 5.3903
+      "value": 6.195
     },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 5.3903,
-      "retrieved_at": "2026-08-05",
+      "popularity": 6.195,
+      "retrieved_at": "2026-08-07",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1283515",
       "status": "not_yet_rated"
@@ -425,14 +425,14 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.102,
+      "audience_momentum": 0.118,
       "awards_relevance": 0.8,
       "campaign_activity": 1.35,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-05T15:34:50Z",
+    "generated_at": "2026-08-07T14:29:51Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 5.577,
+    "score": 5.593,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -469,11 +469,11 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.102,
+        "contribution": 0.118,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 5.3903
+        "value": 6.195
       }
     ]
   },
@@ -482,7 +482,7 @@
     "external_intelligence": {
       "confidence": "High",
       "headline": "Verity: popularity increasing",
-      "summary": "TMDb popularity rose from 4.4021 to 5.3903."
+      "summary": "TMDb popularity rose from 4.4021 to 6.195."
     },
     "last_updated": "2026-10-02",
     "latest_event": {
@@ -520,7 +520,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1283515-7e6be83e5642",
+        "event_id": "1283515-a8821c12bb20",
         "event_type": "Distributor Change",
         "film_id": "1283515",
         "importance": "Medium",
@@ -529,12 +529,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Amazon MGM Studios.",
-        "timestamp": "2026-08-05T15:35:12Z",
+        "timestamp": "2026-08-07T14:30:06Z",
         "title": "Distributor set: Amazon MGM Studios"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1283515-e997694cd725",
+        "event_id": "1283515-b5ad925d54d1",
         "event_type": "Awards Tier Changed",
         "film_id": "1283515",
         "importance": "Medium",
@@ -546,15 +546,15 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-05T15:35:12Z",
+        "timestamp": "2026-08-07T14:30:06Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],
     "release_relevance": 28.0,
     "screening_room_score": {
       "confidence": "High",
-      "explanation": "TMDb popularity rose from 4.4021 to 5.3903.",
-      "score": 5.577
+      "explanation": "TMDb popularity rose from 4.4021 to 6.195.",
+      "score": 5.593
     },
     "watch_triggers": [
       "Prestige Distributor",
@@ -597,7 +597,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1283515-7e6be83e5642",
+        "event_id": "1283515-a8821c12bb20",
         "event_type": "Distributor Change",
         "film_id": "1283515",
         "importance": "Medium",
@@ -606,12 +606,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Amazon MGM Studios.",
-        "timestamp": "2026-08-05T15:35:12Z",
+        "timestamp": "2026-08-07T14:30:06Z",
         "title": "Distributor set: Amazon MGM Studios"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1283515-e997694cd725",
+        "event_id": "1283515-b5ad925d54d1",
         "event_type": "Awards Tier Changed",
         "film_id": "1283515",
         "importance": "Medium",
@@ -623,12 +623,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-05T15:35:12Z",
+        "timestamp": "2026-08-07T14:30:06Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1283515-9ba30e45ab5b",
+        "event_id": "1283515-c45ff5e1951a",
         "event_type": "Added To Database",
         "film_id": "1283515",
         "importance": "Low",
@@ -637,7 +637,7 @@
         },
         "source_type": "system",
         "summary": "Verity is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-05T15:35:12Z",
+        "timestamp": "2026-08-07T14:30:06Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -672,7 +672,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1283515-7e6be83e5642",
+        "event_id": "1283515-a8821c12bb20",
         "event_type": "Distributor Change",
         "film_id": "1283515",
         "importance": "Medium",
@@ -681,12 +681,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Amazon MGM Studios.",
-        "timestamp": "2026-08-05T15:35:12Z",
+        "timestamp": "2026-08-07T14:30:06Z",
         "title": "Distributor set: Amazon MGM Studios"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1283515-e997694cd725",
+        "event_id": "1283515-b5ad925d54d1",
         "event_type": "Awards Tier Changed",
         "film_id": "1283515",
         "importance": "Medium",
@@ -698,7 +698,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-05T15:35:12Z",
+        "timestamp": "2026-08-07T14:30:06Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],

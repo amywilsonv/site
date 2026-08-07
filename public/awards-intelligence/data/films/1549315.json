@@ -6,7 +6,7 @@
       "Most Anticipated",
       "Major Filmmaker"
     ],
-    "attention_score": 26.5,
+    "attention_score": 26.3,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -19,13 +19,13 @@
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 2.9899",
-        "source": "audience_popularity",
+        "evidence": "Release date: 2026-09-04",
+        "source": "release_proximity",
         "status": "verified"
       },
       {
-        "evidence": "Release date: 2026-09-04",
-        "source": "release_proximity",
+        "evidence": "TMDb popularity 2.82",
+        "source": "audience_popularity",
         "status": "verified"
       },
       {
@@ -40,14 +40,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 26.5,
+    "homepage_spotlight_score": 26.3,
     "industry_interest": null,
-    "last_updated": "20260805T153512Z",
+    "last_updated": "20260807T143006Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
         "evidence_count": 1,
-        "score": 7.1,
+        "score": 6.9,
         "statuses": [
           "verified"
         ]
@@ -185,7 +185,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-08-05T15:34:50Z",
+    "generated_at": "2026-08-07T14:29:51Z",
     "headline": "Operation Cronos: popularity increasing",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -204,7 +204,7 @@
         "streaming_provider_count_us": 0,
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": false,
-        "tmdb_popularity": 2.9899,
+        "tmdb_popularity": 2.82,
         "tmdb_poster_count": 1,
         "tmdb_release_date_us_primary": "",
         "tmdb_release_date_us_theatrical": "",
@@ -219,14 +219,14 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity rose from 2.3123 to 2.9899.",
+    "summary": "TMDb popularity rose from 2.3123 to 2.82.",
     "supporting_drivers": [
       {
         "confidence_weight": 0.9,
         "driver_type": "popularity_increasing",
-        "evidence": "TMDb popularity rose from 2.3123 to 2.9899.",
+        "evidence": "TMDb popularity rose from 2.3123 to 2.82.",
         "label": "Popularity increasing",
-        "retrieved_at": "2026-08-05T15:34:50Z",
+        "retrieved_at": "2026-08-07T14:29:51Z",
         "source_metric": "tmdb_popularity",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -236,7 +236,7 @@
   "media": {},
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260805T153512Z",
+    "generated_at": "20260807T143006Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -244,25 +244,25 @@
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 2.9899,
-        "retrieved_at": "2026-08-05",
+        "popularity": 2.82,
+        "retrieved_at": "2026-08-07",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1549315",
         "status": "not_yet_rated"
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-08-05",
+      "retrieved_at": "2026-08-07",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1549315",
-      "value": 2.9899
+      "value": 2.82
     },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 2.9899,
-      "retrieved_at": "2026-08-05",
+      "popularity": 2.82,
+      "retrieved_at": "2026-08-07",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1549315",
       "status": "not_yet_rated"
@@ -397,12 +397,12 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.057,
+      "audience_momentum": 0.054,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-05T15:34:50Z",
+    "generated_at": "2026-08-07T14:29:51Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 3.382,
+    "score": 3.379,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -423,11 +423,11 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.057,
+        "contribution": 0.054,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 2.9899
+        "value": 2.82
       }
     ]
   },
@@ -436,7 +436,7 @@
     "external_intelligence": {
       "confidence": "High",
       "headline": "Operation Cronos: popularity increasing",
-      "summary": "TMDb popularity rose from 2.3123 to 2.9899."
+      "summary": "TMDb popularity rose from 2.3123 to 2.82."
     },
     "last_updated": "2026-09-04",
     "latest_event": {
@@ -474,7 +474,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1549315-b026dae6cbeb",
+        "event_id": "1549315-df7a13482d0f",
         "event_type": "Awards Tier Changed",
         "film_id": "1549315",
         "importance": "Medium",
@@ -484,12 +484,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-05T15:35:12Z",
+        "timestamp": "2026-08-07T14:30:06Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1549315-7283e77e74b6",
+        "event_id": "1549315-7e581c9cd90e",
         "event_type": "Added To Database",
         "film_id": "1549315",
         "importance": "Low",
@@ -498,15 +498,15 @@
         },
         "source_type": "system",
         "summary": "Operation Cronos is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-05T15:35:12Z",
+        "timestamp": "2026-08-07T14:30:06Z",
         "title": "Added to Awards Intelligence"
       }
     ],
     "release_relevance": 24.7,
     "screening_room_score": {
       "confidence": "High",
-      "explanation": "TMDb popularity rose from 2.3123 to 2.9899.",
-      "score": 3.382
+      "explanation": "TMDb popularity rose from 2.3123 to 2.82.",
+      "score": 3.379
     },
     "watch_triggers": [
       "Awards-Season Release",
@@ -548,7 +548,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1549315-b026dae6cbeb",
+        "event_id": "1549315-df7a13482d0f",
         "event_type": "Awards Tier Changed",
         "film_id": "1549315",
         "importance": "Medium",
@@ -558,12 +558,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-05T15:35:12Z",
+        "timestamp": "2026-08-07T14:30:06Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1549315-7283e77e74b6",
+        "event_id": "1549315-7e581c9cd90e",
         "event_type": "Added To Database",
         "film_id": "1549315",
         "importance": "Low",
@@ -572,7 +572,7 @@
         },
         "source_type": "system",
         "summary": "Operation Cronos is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-05T15:35:12Z",
+        "timestamp": "2026-08-07T14:30:06Z",
         "title": "Added to Awards Intelligence"
       },
       {
@@ -621,7 +621,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1549315-b026dae6cbeb",
+        "event_id": "1549315-df7a13482d0f",
         "event_type": "Awards Tier Changed",
         "film_id": "1549315",
         "importance": "Medium",
@@ -631,12 +631,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-05T15:35:12Z",
+        "timestamp": "2026-08-07T14:30:06Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1549315-7283e77e74b6",
+        "event_id": "1549315-7e581c9cd90e",
         "event_type": "Added To Database",
         "film_id": "1549315",
         "importance": "Low",
@@ -645,7 +645,7 @@
         },
         "source_type": "system",
         "summary": "Operation Cronos is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-05T15:35:12Z",
+        "timestamp": "2026-08-07T14:30:06Z",
         "title": "Added to Awards Intelligence"
       }
     ],

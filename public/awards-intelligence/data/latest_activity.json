@@ -376,23 +376,6 @@
     },
     {
       "confidence": "Inferred",
-      "event_id": "1131943-288d9e540e94",
-      "event_type": "Release Scheduled",
-      "film_id": "1131943",
-      "film_title": "Madden",
-      "importance": "Medium",
-      "metadata": {
-        "release_date": "2026-11-26"
-      },
-      "profile_payload_url": "data/films/1131943.json",
-      "profile_url": "film.html?id=1131943",
-      "source_type": "metadata",
-      "summary": "Release currently scheduled for In theaters Nov. 26.",
-      "timestamp": "2026-11-26",
-      "title": "Release scheduled"
-    },
-    {
-      "confidence": "Inferred",
       "event_id": "1457866-d301035602b5",
       "event_type": "Release Scheduled",
       "film_id": "1457866",
@@ -491,6 +474,23 @@
       "source_type": "metadata",
       "summary": "Release currently scheduled for In theaters Nov. 20.",
       "timestamp": "2026-11-20",
+      "title": "Release scheduled"
+    },
+    {
+      "confidence": "Inferred",
+      "event_id": "1131943-186254a05363",
+      "event_type": "Release Scheduled",
+      "film_id": "1131943",
+      "film_title": "Madden",
+      "importance": "Medium",
+      "metadata": {
+        "release_date": "2026-11-18"
+      },
+      "profile_payload_url": "data/films/1131943.json",
+      "profile_url": "film.html?id=1131943",
+      "source_type": "metadata",
+      "summary": "Release currently scheduled for In theaters Nov. 18.",
+      "timestamp": "2026-11-18",
       "title": "Release scheduled"
     },
     {
@@ -853,7 +853,7 @@
   ],
   "metadata": {
     "event_count": 388,
-    "generated_at": "20260805T153512Z",
+    "generated_at": "20260807T143006Z",
     "returned_count": 50,
     "timeline_version": "phase6b"
   }

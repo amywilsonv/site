@@ -8,7 +8,7 @@
       "Event Release",
       "Awards Watch"
     ],
-    "attention_score": 83.7,
+    "attention_score": 84.1,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -21,7 +21,7 @@
         "status": "inferred"
       },
       {
-        "evidence": "TMDb popularity 14.9892",
+        "evidence": "TMDb popularity 16.3632",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -62,14 +62,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 83.7,
+    "homepage_spotlight_score": 84.1,
     "industry_interest": "High",
-    "last_updated": "20260805T153512Z",
+    "last_updated": "20260807T143006Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
         "evidence_count": 2,
-        "score": 18.7,
+        "score": 19.1,
         "statuses": [
           "verified"
         ]
@@ -218,7 +218,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-08-05T15:34:50Z",
+    "generated_at": "2026-08-07T14:29:51Z",
     "headline": "Dune: Part Three: popularity increasing",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -238,7 +238,7 @@
         "tmdb_backdrop_count": 1,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=NdvqHc56lE0",
-        "tmdb_popularity": 14.9892,
+        "tmdb_popularity": 16.3632,
         "tmdb_poster_count": 51,
         "tmdb_release_date_us_primary": "2026-12-18",
         "tmdb_release_date_us_theatrical": "2026-12-18",
@@ -254,14 +254,14 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity rose from 13.7154 to 14.9892.",
+    "summary": "TMDb popularity rose from 13.7154 to 16.3632.",
     "supporting_drivers": [
       {
         "confidence_weight": 0.9,
         "driver_type": "popularity_increasing",
-        "evidence": "TMDb popularity rose from 13.7154 to 14.9892.",
+        "evidence": "TMDb popularity rose from 13.7154 to 16.3632.",
         "label": "Popularity increasing",
-        "retrieved_at": "2026-08-05T15:34:50Z",
+        "retrieved_at": "2026-08-07T14:29:51Z",
         "source_metric": "tmdb_popularity",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -270,7 +270,7 @@
   },
   "media": {
     "canonical_trailer": {
-      "retrieved_at": "2026-08-05",
+      "retrieved_at": "2026-08-07",
       "site": "YouTube",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1170608/videos",
@@ -282,7 +282,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260805T153512Z",
+    "generated_at": "20260807T143006Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -290,25 +290,25 @@
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 14.9892,
-        "retrieved_at": "2026-08-05",
+        "popularity": 16.3632,
+        "retrieved_at": "2026-08-07",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1170608",
         "status": "not_yet_rated"
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-08-05",
+      "retrieved_at": "2026-08-07",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1170608",
-      "value": 14.9892
+      "value": 16.3632
     },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 14.9892,
-      "retrieved_at": "2026-08-05",
+      "popularity": 16.3632,
+      "retrieved_at": "2026-08-07",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1170608",
       "status": "not_yet_rated"
@@ -365,17 +365,6 @@
         "tmdb_id": "1300968"
       },
       {
-        "profile_url": "film.html?id=656908",
-        "relationship_score": 44,
-        "shared_signals": [
-          "Major Release",
-          "Craft Categories",
-          "Unknown"
-        ],
-        "title": "Ramayana",
-        "tmdb_id": "656908"
-      },
-      {
         "profile_url": "film.html?id=1204680",
         "relationship_score": 40,
         "shared_signals": [
@@ -385,6 +374,17 @@
         ],
         "title": "Coyote vs. Acme",
         "tmdb_id": "1204680"
+      },
+      {
+        "profile_url": "film.html?id=1318621",
+        "relationship_score": 40,
+        "shared_signals": [
+          "Major Release",
+          "Adventure",
+          "Craft Categories"
+        ],
+        "title": "Descendants: Wicked Wonderland",
+        "tmdb_id": "1318621"
       }
     ],
     "related_people": [
@@ -426,14 +426,14 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.285,
+      "audience_momentum": 0.311,
       "awards_relevance": 0.8,
       "campaign_activity": 5.4,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-05T15:34:50Z",
+    "generated_at": "2026-08-07T14:29:51Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 9.81,
+    "score": 9.836,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -470,11 +470,11 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.285,
+        "contribution": 0.311,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 14.9892
+        "value": 16.3632
       }
     ]
   },
@@ -483,7 +483,7 @@
     "external_intelligence": {
       "confidence": "High",
       "headline": "Dune: Part Three: popularity increasing",
-      "summary": "TMDb popularity rose from 13.7154 to 14.9892."
+      "summary": "TMDb popularity rose from 13.7154 to 16.3632."
     },
     "last_updated": "2026-12-18",
     "latest_event": {
@@ -521,7 +521,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1170608-8bea70d9ff18",
+        "event_id": "1170608-db5e5dbb8a22",
         "event_type": "Awards Tier Changed",
         "film_id": "1170608",
         "importance": "Medium",
@@ -533,12 +533,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-08-05T15:35:12Z",
+        "timestamp": "2026-08-07T14:30:06Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1170608-887ba7bea524",
+        "event_id": "1170608-c548005d855a",
         "event_type": "Added To Database",
         "film_id": "1170608",
         "importance": "Low",
@@ -547,15 +547,15 @@
         },
         "source_type": "system",
         "summary": "Dune: Part Three is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-05T15:35:12Z",
+        "timestamp": "2026-08-07T14:30:06Z",
         "title": "Added to Awards Intelligence"
       }
     ],
     "release_relevance": 28.6,
     "screening_room_score": {
       "confidence": "High",
-      "explanation": "TMDb popularity rose from 13.7154 to 14.9892.",
-      "score": 9.81
+      "explanation": "TMDb popularity rose from 13.7154 to 16.3632.",
+      "score": 9.836
     },
     "watch_triggers": [
       "Awards-Season Release",
@@ -599,7 +599,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1170608-8bea70d9ff18",
+        "event_id": "1170608-db5e5dbb8a22",
         "event_type": "Awards Tier Changed",
         "film_id": "1170608",
         "importance": "Medium",
@@ -611,12 +611,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-08-05T15:35:12Z",
+        "timestamp": "2026-08-07T14:30:06Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1170608-887ba7bea524",
+        "event_id": "1170608-c548005d855a",
         "event_type": "Added To Database",
         "film_id": "1170608",
         "importance": "Low",
@@ -625,7 +625,7 @@
         },
         "source_type": "system",
         "summary": "Dune: Part Three is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-05T15:35:12Z",
+        "timestamp": "2026-08-07T14:30:06Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -660,7 +660,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1170608-8bea70d9ff18",
+        "event_id": "1170608-db5e5dbb8a22",
         "event_type": "Awards Tier Changed",
         "film_id": "1170608",
         "importance": "Medium",
@@ -672,12 +672,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-08-05T15:35:12Z",
+        "timestamp": "2026-08-07T14:30:06Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1170608-887ba7bea524",
+        "event_id": "1170608-c548005d855a",
         "event_type": "Added To Database",
         "film_id": "1170608",
         "importance": "Low",
@@ -686,7 +686,7 @@
         },
         "source_type": "system",
         "summary": "Dune: Part Three is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-05T15:35:12Z",
+        "timestamp": "2026-08-07T14:30:06Z",
         "title": "Added to Awards Intelligence"
       }
     ],

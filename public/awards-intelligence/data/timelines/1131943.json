@@ -2,21 +2,21 @@
   "events": [
     {
       "confidence": "Inferred",
-      "event_id": "1131943-288d9e540e94",
+      "event_id": "1131943-186254a05363",
       "event_type": "Release Scheduled",
       "film_id": "1131943",
       "importance": "Medium",
       "metadata": {
-        "release_date": "2026-11-26"
+        "release_date": "2026-11-18"
       },
       "source_type": "metadata",
-      "summary": "Release currently scheduled for In theaters Nov. 26.",
-      "timestamp": "2026-11-26",
+      "summary": "Release currently scheduled for In theaters Nov. 18.",
+      "timestamp": "2026-11-18",
       "title": "Release scheduled"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1131943-52283dd48309",
+      "event_id": "1131943-89f565b398f9",
       "event_type": "Distributor Change",
       "film_id": "1131943",
       "importance": "Medium",
@@ -25,12 +25,12 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Prime Video.",
-      "timestamp": "2026-08-05T15:35:12Z",
+      "timestamp": "2026-08-07T14:30:06Z",
       "title": "Distributor set: Prime Video"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1131943-c751fe7b69fb",
+      "event_id": "1131943-7091da608d72",
       "event_type": "Awards Tier Changed",
       "film_id": "1131943",
       "importance": "Medium",
@@ -40,12 +40,12 @@
       },
       "source_type": "editorial_model",
       "summary": "insufficient credible awards evidence",
-      "timestamp": "2026-08-05T15:35:12Z",
+      "timestamp": "2026-08-07T14:30:06Z",
       "title": "Awards tier assigned: No Current Awards Case"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1131943-9d32938a6cbf",
+      "event_id": "1131943-09609cbc4b36",
       "event_type": "Added To Database",
       "film_id": "1131943",
       "importance": "Low",
@@ -54,28 +54,28 @@
       },
       "source_type": "system",
       "summary": "Madden is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-08-05T15:35:12Z",
+      "timestamp": "2026-08-07T14:30:06Z",
       "title": "Added to Awards Intelligence"
     }
   ],
   "latest_event": {
     "confidence": "Inferred",
-    "event_id": "1131943-288d9e540e94",
+    "event_id": "1131943-186254a05363",
     "event_type": "Release Scheduled",
     "film_id": "1131943",
     "importance": "Medium",
     "metadata": {
-      "release_date": "2026-11-26"
+      "release_date": "2026-11-18"
     },
     "source_type": "metadata",
-    "summary": "Release currently scheduled for In theaters Nov. 26.",
-    "timestamp": "2026-11-26",
+    "summary": "Release currently scheduled for In theaters Nov. 18.",
+    "timestamp": "2026-11-18",
     "title": "Release scheduled"
   },
   "metadata": {
     "event_count": 4,
     "film_id": "1131943",
-    "generated_at": "20260805T153512Z",
+    "generated_at": "20260807T143006Z",
     "timeline_version": "phase6b",
     "title": "Madden",
     "tmdb_id": "1131943"

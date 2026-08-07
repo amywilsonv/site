@@ -26,7 +26,7 @@
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 4.4401",
+        "evidence": "TMDb popularity 4.4184",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -59,7 +59,7 @@
     "homepage_spotlight_override": null,
     "homepage_spotlight_score": 58.2,
     "industry_interest": null,
-    "last_updated": "20260805T153512Z",
+    "last_updated": "20260807T143006Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
@@ -214,7 +214,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-08-05T15:34:50Z",
+    "generated_at": "2026-08-07T14:29:51Z",
     "headline": "Mayday: release approaching",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -234,7 +234,7 @@
         "tmdb_backdrop_count": 4,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=om5Un9X720M",
-        "tmdb_popularity": 4.4401,
+        "tmdb_popularity": 4.4184,
         "tmdb_poster_count": 5,
         "tmdb_release_date_us_primary": "2026-09-03",
         "tmdb_release_date_us_theatrical": "",
@@ -257,7 +257,7 @@
         "driver_type": "release_approaching",
         "evidence": "US release is 45 days away on 2026-09-03.",
         "label": "Release approaching",
-        "retrieved_at": "2026-08-05T15:34:50Z",
+        "retrieved_at": "2026-08-07T14:29:51Z",
         "source_metric": "tmdb_release_date_us_primary",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -266,7 +266,7 @@
   },
   "media": {
     "canonical_trailer": {
-      "retrieved_at": "2026-08-05",
+      "retrieved_at": "2026-08-07",
       "site": "YouTube",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1137844/videos",
@@ -278,7 +278,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260805T153512Z",
+    "generated_at": "20260807T143006Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -286,25 +286,25 @@
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 4.4401,
-        "retrieved_at": "2026-08-05",
+        "popularity": 4.4184,
+        "retrieved_at": "2026-08-07",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1137844",
         "status": "not_yet_rated"
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-08-05",
+      "retrieved_at": "2026-08-07",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1137844",
-      "value": 4.4401
+      "value": 4.4184
     },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 4.4401,
-      "retrieved_at": "2026-08-05",
+      "popularity": 4.4184,
+      "retrieved_at": "2026-08-07",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1137844",
       "status": "not_yet_rated"
@@ -438,7 +438,7 @@
       "campaign_activity": 2.7,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-05T15:34:50Z",
+    "generated_at": "2026-08-07T14:29:51Z",
     "schema_version": "phase3_screening_room_score_v1",
     "score": 6.909,
     "source": "derived_screening_room_score",
@@ -481,7 +481,7 @@
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 4.4401
+        "value": 4.4184
       }
     ]
   },
@@ -528,7 +528,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1137844-fc800d989ac5",
+        "event_id": "1137844-1b4724fd5c51",
         "event_type": "Distributor Change",
         "film_id": "1137844",
         "importance": "Medium",
@@ -537,12 +537,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Apple TV.",
-        "timestamp": "2026-08-05T15:35:12Z",
+        "timestamp": "2026-08-07T14:30:06Z",
         "title": "Distributor set: Apple TV"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1137844-6104a27317b7",
+        "event_id": "1137844-56582383c4a1",
         "event_type": "Awards Tier Changed",
         "film_id": "1137844",
         "importance": "Medium",
@@ -554,7 +554,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-05T15:35:12Z",
+        "timestamp": "2026-08-07T14:30:06Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],
@@ -606,7 +606,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1137844-fc800d989ac5",
+        "event_id": "1137844-1b4724fd5c51",
         "event_type": "Distributor Change",
         "film_id": "1137844",
         "importance": "Medium",
@@ -615,12 +615,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Apple TV.",
-        "timestamp": "2026-08-05T15:35:12Z",
+        "timestamp": "2026-08-07T14:30:06Z",
         "title": "Distributor set: Apple TV"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1137844-6104a27317b7",
+        "event_id": "1137844-56582383c4a1",
         "event_type": "Awards Tier Changed",
         "film_id": "1137844",
         "importance": "Medium",
@@ -632,12 +632,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-05T15:35:12Z",
+        "timestamp": "2026-08-07T14:30:06Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1137844-fe27a7fd38d4",
+        "event_id": "1137844-4ae0b22a359e",
         "event_type": "Added To Database",
         "film_id": "1137844",
         "importance": "Low",
@@ -646,7 +646,7 @@
         },
         "source_type": "system",
         "summary": "Mayday is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-05T15:35:12Z",
+        "timestamp": "2026-08-07T14:30:06Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -681,7 +681,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1137844-fc800d989ac5",
+        "event_id": "1137844-1b4724fd5c51",
         "event_type": "Distributor Change",
         "film_id": "1137844",
         "importance": "Medium",
@@ -690,12 +690,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Apple TV.",
-        "timestamp": "2026-08-05T15:35:12Z",
+        "timestamp": "2026-08-07T14:30:06Z",
         "title": "Distributor set: Apple TV"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1137844-6104a27317b7",
+        "event_id": "1137844-56582383c4a1",
         "event_type": "Awards Tier Changed",
         "film_id": "1137844",
         "importance": "Medium",
@@ -707,7 +707,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-05T15:35:12Z",
+        "timestamp": "2026-08-07T14:30:06Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],
