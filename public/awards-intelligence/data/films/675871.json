@@ -7,11 +7,11 @@
       "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 75.7,
+    "attention_score": 81.7,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
-    "cultural_relevance": null,
+    "cultural_relevance": "Moderate",
     "early_reception": null,
     "evidence_sources": [
       {
@@ -20,14 +20,19 @@
         "status": "inferred"
       },
       {
+        "evidence": "TMDb popularity 13.0009",
+        "source": "audience_popularity",
+        "status": "verified"
+      },
+      {
         "evidence": "Franchise, sequel, or recognizable IP signal in available metadata",
         "source": "franchise_ip_recognition",
         "status": "inferred"
       },
       {
-        "evidence": "TMDb popularity 9.0381",
-        "source": "audience_popularity",
-        "status": "verified"
+        "evidence": "Commercial scale and release context",
+        "source": "commercial_scale",
+        "status": "inferred"
       },
       {
         "evidence": "Principal cast listed: Jay Chandrasekhar, Kevin Heffernan, Steve Lemme, Paul Soter",
@@ -40,9 +45,9 @@
         "status": "verified"
       },
       {
-        "evidence": "Commercial scale and release context",
-        "source": "commercial_scale",
-        "status": "inferred"
+        "evidence": "Director: Jay Chandrasekhar",
+        "source": "filmmaker_interest",
+        "status": "verified"
       },
       {
         "evidence": "Trailer URL present",
@@ -55,32 +60,27 @@
         "status": "verified"
       },
       {
-        "evidence": "Director: Jay Chandrasekhar",
-        "source": "filmmaker_interest",
-        "status": "verified"
-      },
-      {
-        "evidence": "4",
+        "evidence": "9",
         "source": "tmdb_vote_count",
         "status": "verified"
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 75.7,
+    "homepage_spotlight_score": 81.7,
     "industry_interest": "Moderate",
-    "last_updated": "20260807T143006Z",
+    "last_updated": "20260808T140355Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
         "evidence_count": 2,
-        "score": 16.3,
+        "score": 18.0,
         "statuses": [
           "verified"
         ]
       },
       "commercial": {
         "evidence_count": 1,
-        "score": 9.6,
+        "score": 11.7,
         "statuses": [
           "inferred"
         ]
@@ -108,7 +108,7 @@
       },
       "talent/prestige": {
         "evidence_count": 2,
-        "score": 12.2,
+        "score": 14.4,
         "statuses": [
           "verified"
         ]
@@ -158,7 +158,7 @@
     "probabilities": {}
   },
   "commercial": {
-    "commercial_significance": 37.0,
+    "commercial_significance": 45.1,
     "distributor": "Searchlight Pictures",
     "franchise": "Franchise/Event",
     "release_strategy": "Active release campaign",
@@ -222,7 +222,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-08-07T14:29:51Z",
+    "generated_at": "2026-08-08T14:03:37Z",
     "headline": "Super Troopers 3: release approaching",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -242,30 +242,30 @@
         "tmdb_backdrop_count": 1,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=cYFevn5frf0",
-        "tmdb_popularity": 9.0381,
+        "tmdb_popularity": 13.0009,
         "tmdb_poster_count": 15,
         "tmdb_release_date_us_primary": "2026-08-07",
         "tmdb_release_date_us_theatrical": "2026-08-07",
         "tmdb_release_status": "Released",
-        "tmdb_vote_average": 5.0,
-        "tmdb_vote_count": 4,
+        "tmdb_vote_average": 5.778,
+        "tmdb_vote_count": 9,
         "tmdb_watch_provider_count_us": 0,
         "trailer_available": true,
-        "trailer_count": 51,
+        "trailer_count": 54,
         "trailer_url": "https://www.youtube.com/watch?v=cYFevn5frf0"
       },
       "source_signal_count": 26,
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity rose from 3.6074 to 9.0381. US release is 18 days away on 2026-08-07.",
+    "summary": "TMDb popularity rose from 3.6074 to 13.0009. US release is 18 days away on 2026-08-07.",
     "supporting_drivers": [
       {
         "confidence_weight": 0.9,
         "driver_type": "popularity_increasing",
-        "evidence": "TMDb popularity rose from 3.6074 to 9.0381.",
+        "evidence": "TMDb popularity rose from 3.6074 to 13.0009.",
         "label": "Popularity increasing",
-        "retrieved_at": "2026-08-07T14:29:51Z",
+        "retrieved_at": "2026-08-08T14:03:37Z",
         "source_metric": "tmdb_popularity",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -275,7 +275,7 @@
         "driver_type": "release_approaching",
         "evidence": "US release is 18 days away on 2026-08-07.",
         "label": "Release approaching",
-        "retrieved_at": "2026-08-07T14:29:51Z",
+        "retrieved_at": "2026-08-08T14:03:37Z",
         "source_metric": "tmdb_release_date_us_primary",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -284,7 +284,7 @@
   },
   "media": {
     "canonical_trailer": {
-      "retrieved_at": "2026-08-07",
+      "retrieved_at": "2026-08-08",
       "site": "YouTube",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/675871/videos",
@@ -296,7 +296,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260807T143006Z",
+    "generated_at": "20260808T140355Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -304,32 +304,32 @@
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 9.0381,
-        "retrieved_at": "2026-08-07",
+        "popularity": 13.0009,
+        "retrieved_at": "2026-08-08",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/675871",
         "status": "rated",
-        "vote_average": 5.0,
-        "vote_count": 4
+        "vote_average": 5.778,
+        "vote_count": 9
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-08-07",
+      "retrieved_at": "2026-08-08",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/675871",
-      "value": 9.0381
+      "value": 13.0009
     },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 9.0381,
-      "retrieved_at": "2026-08-07",
+      "popularity": 13.0009,
+      "retrieved_at": "2026-08-08",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/675871",
       "status": "rated",
-      "vote_average": 5.0,
-      "vote_count": 4
+      "vote_average": 5.778,
+      "vote_count": 9
     }
   },
   "related": {
@@ -446,31 +446,31 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.202,
-      "audience_quality": 4.75,
+      "audience_momentum": 0.315,
+      "audience_quality": 5.489,
       "campaign_activity": 5.4,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-07T14:29:51Z",
+    "generated_at": "2026-08-08T14:03:37Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 13.677,
+    "score": 14.529,
     "source": "derived_screening_room_score",
     "top_drivers": [
+      {
+        "confidence": 0.95,
+        "contribution": 5.489,
+        "metric_name": "tmdb_vote_average",
+        "provider": "tmdb",
+        "score_family": "audience_quality",
+        "value": 5.778
+      },
       {
         "confidence": 0.9,
         "contribution": 5.4,
         "metric_name": "trailer_count",
         "provider": "trailers",
         "score_family": "campaign_activity",
-        "value": 51
-      },
-      {
-        "confidence": 0.95,
-        "contribution": 4.75,
-        "metric_name": "tmdb_vote_average",
-        "provider": "tmdb",
-        "score_family": "audience_quality",
-        "value": 5.0
+        "value": 54
       },
       {
         "confidence": 0.55,
@@ -490,25 +490,25 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.172,
+        "contribution": 0.247,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 9.0381
+        "value": 13.0009
       }
     ]
   },
   "signals": {
-    "cultural_significance": 37.0,
+    "cultural_significance": 45.1,
     "external_intelligence": {
       "confidence": "High",
       "headline": "Super Troopers 3: release approaching",
-      "summary": "TMDb popularity rose from 3.6074 to 9.0381. US release is 18 days away on 2026-08-07."
+      "summary": "TMDb popularity rose from 3.6074 to 13.0009. US release is 18 days away on 2026-08-07."
     },
-    "last_updated": "2026-08-07T14:30:06Z",
+    "last_updated": "2026-08-08T14:03:55Z",
     "latest_event": {
       "confidence": "Inferred",
-      "event_id": "675871-380ef3f2d049",
+      "event_id": "675871-3c7a0284ec21",
       "event_type": "Distributor Change",
       "film_id": "675871",
       "importance": "Medium",
@@ -517,7 +517,7 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Searchlight Pictures.",
-      "timestamp": "2026-08-07T14:30:06Z",
+      "timestamp": "2026-08-08T14:03:55Z",
       "title": "Distributor set: Searchlight Pictures"
     },
     "latest_intelligence": "As of 2026-07-18, this is a Searchlight Pictures release dated 2026-08-07 with general awards monitoring relevance; current awards profile is Developing and data status is developing.",
@@ -527,7 +527,7 @@
     "recent_activity": [
       {
         "confidence": "Inferred",
-        "event_id": "675871-380ef3f2d049",
+        "event_id": "675871-3c7a0284ec21",
         "event_type": "Distributor Change",
         "film_id": "675871",
         "importance": "Medium",
@@ -536,12 +536,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Searchlight Pictures.",
-        "timestamp": "2026-08-07T14:30:06Z",
+        "timestamp": "2026-08-08T14:03:55Z",
         "title": "Distributor set: Searchlight Pictures"
       },
       {
         "confidence": "Inferred",
-        "event_id": "675871-eacaddaf454b",
+        "event_id": "675871-e92e6a053a31",
         "event_type": "Awards Tier Changed",
         "film_id": "675871",
         "importance": "Medium",
@@ -551,12 +551,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-07T14:30:06Z",
+        "timestamp": "2026-08-08T14:03:55Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "675871-ca5b5f455a38",
+        "event_id": "675871-de803ead2697",
         "event_type": "Added To Database",
         "film_id": "675871",
         "importance": "Low",
@@ -565,15 +565,15 @@
         },
         "source_type": "system",
         "summary": "Super Troopers 3 is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-07T14:30:06Z",
+        "timestamp": "2026-08-08T14:03:55Z",
         "title": "Added to Awards Intelligence"
       }
     ],
-    "release_relevance": 40.9,
+    "release_relevance": 42.8,
     "screening_room_score": {
       "confidence": "High",
-      "explanation": "TMDb popularity rose from 3.6074 to 9.0381. US release is 18 days away on 2026-08-07.",
-      "score": 13.677
+      "explanation": "TMDb popularity rose from 3.6074 to 13.0009. US release is 18 days away on 2026-08-07.",
+      "score": 14.529
     },
     "watch_triggers": [
       "Prestige Distributor",
@@ -602,7 +602,7 @@
     "events": [
       {
         "confidence": "Inferred",
-        "event_id": "675871-380ef3f2d049",
+        "event_id": "675871-3c7a0284ec21",
         "event_type": "Distributor Change",
         "film_id": "675871",
         "importance": "Medium",
@@ -611,12 +611,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Searchlight Pictures.",
-        "timestamp": "2026-08-07T14:30:06Z",
+        "timestamp": "2026-08-08T14:03:55Z",
         "title": "Distributor set: Searchlight Pictures"
       },
       {
         "confidence": "Inferred",
-        "event_id": "675871-eacaddaf454b",
+        "event_id": "675871-e92e6a053a31",
         "event_type": "Awards Tier Changed",
         "film_id": "675871",
         "importance": "Medium",
@@ -626,12 +626,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-07T14:30:06Z",
+        "timestamp": "2026-08-08T14:03:55Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "675871-ca5b5f455a38",
+        "event_id": "675871-de803ead2697",
         "event_type": "Added To Database",
         "film_id": "675871",
         "importance": "Low",
@@ -640,7 +640,7 @@
         },
         "source_type": "system",
         "summary": "Super Troopers 3 is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-07T14:30:06Z",
+        "timestamp": "2026-08-08T14:03:55Z",
         "title": "Added to Awards Intelligence"
       },
       {
@@ -660,7 +660,7 @@
     ],
     "latest_event": {
       "confidence": "Inferred",
-      "event_id": "675871-380ef3f2d049",
+      "event_id": "675871-3c7a0284ec21",
       "event_type": "Distributor Change",
       "film_id": "675871",
       "importance": "Medium",
@@ -669,13 +669,13 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Searchlight Pictures.",
-      "timestamp": "2026-08-07T14:30:06Z",
+      "timestamp": "2026-08-08T14:03:55Z",
       "title": "Distributor set: Searchlight Pictures"
     },
     "recent_activity": [
       {
         "confidence": "Inferred",
-        "event_id": "675871-380ef3f2d049",
+        "event_id": "675871-3c7a0284ec21",
         "event_type": "Distributor Change",
         "film_id": "675871",
         "importance": "Medium",
@@ -684,12 +684,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Searchlight Pictures.",
-        "timestamp": "2026-08-07T14:30:06Z",
+        "timestamp": "2026-08-08T14:03:55Z",
         "title": "Distributor set: Searchlight Pictures"
       },
       {
         "confidence": "Inferred",
-        "event_id": "675871-eacaddaf454b",
+        "event_id": "675871-e92e6a053a31",
         "event_type": "Awards Tier Changed",
         "film_id": "675871",
         "importance": "Medium",
@@ -699,12 +699,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-07T14:30:06Z",
+        "timestamp": "2026-08-08T14:03:55Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "675871-ca5b5f455a38",
+        "event_id": "675871-de803ead2697",
         "event_type": "Added To Database",
         "film_id": "675871",
         "importance": "Low",
@@ -713,7 +713,7 @@
         },
         "source_type": "system",
         "summary": "Super Troopers 3 is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-07T14:30:06Z",
+        "timestamp": "2026-08-08T14:03:55Z",
         "title": "Added to Awards Intelligence"
       }
     ],

@@ -1,6 +1,6 @@
 {
   "attention_intelligence": {
-    "anticipation_level": "Moderate",
+    "anticipation_level": "High",
     "attention_confidence": "High",
     "attention_reasons": [
       "Most Anticipated",
@@ -8,22 +8,27 @@
       "Event Release",
       "Awards Watch"
     ],
-    "attention_score": 72.6,
+    "attention_score": 92.7,
     "attention_version": "phase7e_attention_v1",
-    "audience_interest": "Developing",
+    "audience_interest": "High",
     "conversation_level": "Unavailable",
-    "cultural_relevance": null,
+    "cultural_relevance": "Moderate",
     "early_reception": null,
     "evidence_sources": [
+      {
+        "evidence": "TMDb popularity 143.881",
+        "source": "audience_popularity",
+        "status": "verified"
+      },
+      {
+        "evidence": "Commercial scale and release context",
+        "source": "commercial_scale",
+        "status": "inferred"
+      },
       {
         "evidence": "Public-interest, franchise, event, or major-studio tracking signal",
         "source": "event_awareness",
         "status": "inferred"
-      },
-      {
-        "evidence": "TMDb popularity 10.1319",
-        "source": "audience_popularity",
-        "status": "verified"
       },
       {
         "evidence": "Major distributor: Netflix",
@@ -41,14 +46,14 @@
         "status": "verified"
       },
       {
-        "evidence": "Trailer URL present",
-        "source": "trailer_available",
+        "evidence": "Director: Louis Leterrier",
+        "source": "filmmaker_interest",
         "status": "verified"
       },
       {
-        "evidence": "Commercial scale and release context",
-        "source": "commercial_scale",
-        "status": "inferred"
+        "evidence": "Trailer URL present",
+        "source": "trailer_available",
+        "status": "verified"
       },
       {
         "evidence": "Current awards or craft-category potential",
@@ -56,32 +61,27 @@
         "status": "inferred"
       },
       {
-        "evidence": "Director: Louis Leterrier",
-        "source": "filmmaker_interest",
-        "status": "verified"
-      },
-      {
-        "evidence": "3",
+        "evidence": "68",
         "source": "tmdb_vote_count",
         "status": "verified"
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 72.6,
-    "industry_interest": null,
-    "last_updated": "20260807T143006Z",
+    "homepage_spotlight_score": 92.7,
+    "industry_interest": "Moderate",
+    "last_updated": "20260808T140355Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
         "evidence_count": 2,
-        "score": 16.8,
+        "score": 26.4,
         "statuses": [
           "verified"
         ]
       },
       "commercial": {
         "evidence_count": 1,
-        "score": 7.1,
+        "score": 15.4,
         "statuses": [
           "inferred"
         ]
@@ -110,7 +110,7 @@
       },
       "talent/prestige": {
         "evidence_count": 2,
-        "score": 12.2,
+        "score": 14.4,
         "statuses": [
           "verified"
         ]
@@ -162,7 +162,7 @@
     "probabilities": {}
   },
   "commercial": {
-    "commercial_significance": 27.2,
+    "commercial_significance": 59.3,
     "distributor": "Netflix",
     "franchise": "",
     "release_strategy": "Active release campaign",
@@ -182,11 +182,11 @@
     }
   },
   "editorial": {
-    "discovery_reason": "Netflix release worth monitoring for Craft Categories potential.",
-    "editorial_category": "General Watch",
+    "discovery_reason": "Major Release - Louis Leterrier film with large-scale commercial or public-interest signals.",
+    "editorial_category": "Major Release",
     "editorial_summary": "Netflix release worth monitoring for Craft Categories potential.",
     "importance_tier": "Watchlist",
-    "primary_story": "generic generated rationale",
+    "primary_story": "major studio or streamer scale; exceptional TMDb popularity; filmmaker attached to large-scale release",
     "story_strength": "Strong",
     "why_it_matters": "Netflix release worth monitoring for Craft Categories potential."
   },
@@ -200,8 +200,6 @@
   "film_identity": {
     "backdrop": "https://image.tmdb.org/t/p/original/2mPmccLg8QCD4ZF6v8kSsUijPPW.jpg",
     "country": [
-      "FR",
-      "GB",
       "US"
     ],
     "genres": [
@@ -226,7 +224,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-08-07T14:29:51Z",
+    "generated_at": "2026-08-08T14:03:37Z",
     "headline": "The Last House: release approaching",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -240,20 +238,20 @@
         "legacy_dashboard_festival_status": "",
         "legacy_dashboard_precursor_award_count": 0,
         "legacy_dashboard_principal_cast_count": 8,
-        "streaming_available_us": false,
-        "streaming_flatrate_provider_count_us": 0,
-        "streaming_provider_count_us": 0,
-        "tmdb_backdrop_count": 1,
+        "streaming_available_us": true,
+        "streaming_flatrate_provider_count_us": 2,
+        "streaming_provider_count_us": 2,
+        "tmdb_backdrop_count": 2,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=MLxgaz2Zp1k",
-        "tmdb_popularity": 10.1319,
-        "tmdb_poster_count": 10,
+        "tmdb_popularity": 143.8808,
+        "tmdb_poster_count": 18,
         "tmdb_release_date_us_primary": "2026-08-07",
         "tmdb_release_date_us_theatrical": "",
         "tmdb_release_status": "Released",
-        "tmdb_vote_average": 4.0,
-        "tmdb_vote_count": 3,
-        "tmdb_watch_provider_count_us": 0,
+        "tmdb_vote_average": 5.912,
+        "tmdb_vote_count": 68,
+        "tmdb_watch_provider_count_us": 2,
         "trailer_available": true,
         "trailer_count": 1,
         "trailer_url": "https://www.youtube.com/watch?v=MLxgaz2Zp1k"
@@ -262,14 +260,14 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity rose from 4.5252 to 10.1319. US release is 18 days away on 2026-08-07.",
+    "summary": "TMDb popularity rose from 4.5252 to 143.881. US release is 18 days away on 2026-08-07.",
     "supporting_drivers": [
       {
         "confidence_weight": 0.9,
         "driver_type": "popularity_increasing",
-        "evidence": "TMDb popularity rose from 4.5252 to 10.1319.",
+        "evidence": "TMDb popularity rose from 4.5252 to 143.881.",
         "label": "Popularity increasing",
-        "retrieved_at": "2026-08-07T14:29:51Z",
+        "retrieved_at": "2026-08-08T14:03:37Z",
         "source_metric": "tmdb_popularity",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -279,7 +277,7 @@
         "driver_type": "release_approaching",
         "evidence": "US release is 18 days away on 2026-08-07.",
         "label": "Release approaching",
-        "retrieved_at": "2026-08-07T14:29:51Z",
+        "retrieved_at": "2026-08-08T14:03:37Z",
         "source_metric": "tmdb_release_date_us_primary",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -288,7 +286,7 @@
   },
   "media": {
     "canonical_trailer": {
-      "retrieved_at": "2026-08-07",
+      "retrieved_at": "2026-08-08",
       "site": "YouTube",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1284041/videos",
@@ -300,7 +298,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260807T143006Z",
+    "generated_at": "20260808T140355Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -308,101 +306,119 @@
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 10.1319,
-        "retrieved_at": "2026-08-07",
+        "popularity": 143.8808,
+        "retrieved_at": "2026-08-08",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1284041",
         "status": "rated",
-        "vote_average": 4.0,
-        "vote_count": 3
+        "vote_average": 5.912,
+        "vote_count": 68
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-08-07",
+      "retrieved_at": "2026-08-08",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1284041",
-      "value": 10.1319
+      "value": 143.8808
     },
-    "watch_providers": {}
+    "watch_providers": {
+      "country": "US",
+      "flatrate": [
+        {
+          "display_priority": 2,
+          "logo_url": "https://image.tmdb.org/t/p/original/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+          "provider_id": 8,
+          "provider_name": "Netflix"
+        },
+        {
+          "display_priority": 151,
+          "logo_url": "https://image.tmdb.org/t/p/original/dpR8r13zWDeUR0QkzWidrdMxa56.jpg",
+          "provider_id": 1796,
+          "provider_name": "Netflix Standard with Ads"
+        }
+      ],
+      "retrieved_at": "2026-08-08",
+      "source": "TMDb",
+      "source_url": "https://www.themoviedb.org/movie/1284041-the-last-house/watch?locale=US"
+    }
   },
   "ratings": {
     "tmdb": {
-      "popularity": 10.1319,
-      "retrieved_at": "2026-08-07",
+      "popularity": 143.8808,
+      "retrieved_at": "2026-08-08",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1284041",
       "status": "rated",
-      "vote_average": 4.0,
-      "vote_count": 3
+      "vote_average": 5.912,
+      "vote_count": 68
     }
   },
   "related": {
     "related_films": [
       {
-        "profile_url": "film.html?id=1422041",
-        "relationship_score": 44,
+        "profile_url": "film.html?id=1630409",
+        "relationship_score": 50,
         "shared_signals": [
-          "General Watch",
+          "Major Release",
+          "Thriller",
           "Craft Categories",
           "Netflix"
         ],
-        "title": "La Bola Negra",
-        "tmdb_id": "1422041"
+        "title": "The Debt Collector",
+        "tmdb_id": "1630409"
       },
       {
-        "profile_url": "film.html?id=1147572",
-        "relationship_score": 44,
-        "shared_signals": [
-          "General Watch",
-          "Craft Categories",
-          "Netflix"
-        ],
-        "title": "Narnia: The Magician's Nephew",
-        "tmdb_id": "1147572"
-      },
-      {
-        "profile_url": "film.html?id=1659155",
+        "profile_url": "film.html?id=1487861",
         "relationship_score": 42,
         "shared_signals": [
-          "General Watch",
+          "Major Release",
           "Thriller",
           "Netflix"
         ],
-        "title": "The Truthers",
-        "tmdb_id": "1659155"
+        "title": "Elize: Shadows of a Woman",
+        "tmdb_id": "1487861"
       },
       {
-        "profile_url": "film.html?id=860508",
+        "profile_url": "film.html?id=1457866",
         "relationship_score": 42,
         "shared_signals": [
-          "General Watch",
+          "Major Release",
           "Thriller",
           "Netflix"
         ],
-        "title": "The Whisper Man",
-        "tmdb_id": "860508"
+        "title": "The Adventures of Cliff Booth",
+        "tmdb_id": "1457866"
       },
       {
-        "profile_url": "film.html?id=1670061",
-        "relationship_score": 40,
-        "shared_signals": [
-          "General Watch",
-          "Thriller",
-          "Craft Categories"
-        ],
-        "title": "Beasts Clutching at Straws",
-        "tmdb_id": "1670061"
-      },
-      {
-        "profile_url": "film.html?id=1698185",
+        "profile_url": "film.html?id=1353167",
         "relationship_score": 38,
         "shared_signals": [
-          "General Watch",
+          "Major Release",
           "Horror",
           "Thriller"
         ],
-        "title": "I Wish This Was Real",
-        "tmdb_id": "1698185"
+        "title": "The Mouse Trap: Welcome to the Mickeyverse",
+        "tmdb_id": "1353167"
+      },
+      {
+        "profile_url": "film.html?id=949838",
+        "relationship_score": 36,
+        "shared_signals": [
+          "Major Release",
+          "Netflix"
+        ],
+        "title": "72 HOURS",
+        "tmdb_id": "949838"
+      },
+      {
+        "profile_url": "film.html?id=1468683",
+        "relationship_score": 36,
+        "shared_signals": [
+          "Major Release",
+          "Netflix"
+        ],
+        "title": "Heartstopper Forever",
+        "tmdb_id": "1468683"
       }
     ],
     "related_people": [
@@ -452,24 +468,41 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.216,
-      "audience_quality": 3.8,
+      "audience_momentum": 3.251,
+      "audience_quality": 5.616,
+      "availability": 3.967,
       "awards_relevance": 0.8,
       "campaign_activity": 1.35,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-07T14:29:51Z",
+    "generated_at": "2026-08-08T14:03:37Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 9.491,
+    "score": 18.309,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
         "confidence": 0.95,
-        "contribution": 3.8,
+        "contribution": 5.616,
         "metric_name": "tmdb_vote_average",
         "provider": "tmdb",
         "score_family": "audience_quality",
-        "value": 4.0
+        "value": 5.912
+      },
+      {
+        "confidence": 0.95,
+        "contribution": 2.734,
+        "metric_name": "tmdb_popularity",
+        "provider": "tmdb",
+        "score_family": "audience_momentum",
+        "value": 143.8808
+      },
+      {
+        "confidence": 0.85,
+        "contribution": 2.267,
+        "metric_name": "streaming_flatrate_provider_count_us",
+        "provider": "streaming_availability",
+        "score_family": "availability",
+        "value": 2
       },
       {
         "confidence": 0.55,
@@ -480,42 +513,26 @@
         "value": 8
       },
       {
-        "confidence": 0.9,
-        "contribution": 1.35,
-        "metric_name": "trailer_count",
-        "provider": "trailers",
-        "score_family": "campaign_activity",
-        "value": 1
-      },
-      {
-        "confidence": 0.5,
-        "contribution": 1.125,
-        "metric_name": "legacy_dashboard_credited_talent_count",
-        "provider": "legacy_dashboard_talent_history_adapter",
-        "score_family": "talent_profile",
-        "value": 9
-      },
-      {
-        "confidence": 0.5,
-        "contribution": 0.8,
-        "metric_name": "legacy_dashboard_awards_category_count",
-        "provider": "legacy_dashboard_awards_precursors_adapter",
-        "score_family": "awards_relevance",
-        "value": 1
+        "confidence": 0.85,
+        "contribution": 1.7,
+        "metric_name": "streaming_provider_count_us",
+        "provider": "streaming_availability",
+        "score_family": "availability",
+        "value": 2
       }
     ]
   },
   "signals": {
-    "cultural_significance": 27.2,
+    "cultural_significance": 59.3,
     "external_intelligence": {
       "confidence": "High",
       "headline": "The Last House: release approaching",
-      "summary": "TMDb popularity rose from 4.5252 to 10.1319. US release is 18 days away on 2026-08-07."
+      "summary": "TMDb popularity rose from 4.5252 to 143.881. US release is 18 days away on 2026-08-07."
     },
-    "last_updated": "2026-08-07T14:30:06Z",
+    "last_updated": "2026-08-08T14:03:55Z",
     "latest_event": {
       "confidence": "Inferred",
-      "event_id": "1284041-332c6f39b611",
+      "event_id": "1284041-7267c9c63d03",
       "event_type": "Distributor Change",
       "film_id": "1284041",
       "importance": "Medium",
@@ -524,7 +541,7 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Netflix.",
-      "timestamp": "2026-08-07T14:30:06Z",
+      "timestamp": "2026-08-08T14:03:55Z",
       "title": "Distributor set: Netflix"
     },
     "latest_intelligence": "As of 2026-07-18, this is a Netflix release dated 2026-08-07 with Craft Categories relevance; current awards profile is Craft Potential and data status is developing.",
@@ -534,7 +551,7 @@
     "recent_activity": [
       {
         "confidence": "Inferred",
-        "event_id": "1284041-332c6f39b611",
+        "event_id": "1284041-7267c9c63d03",
         "event_type": "Distributor Change",
         "film_id": "1284041",
         "importance": "Medium",
@@ -543,12 +560,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-07T14:30:06Z",
+        "timestamp": "2026-08-08T14:03:55Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1284041-eee3ca781cfc",
+        "event_id": "1284041-5dbd9ff578a2",
         "event_type": "Awards Tier Changed",
         "film_id": "1284041",
         "importance": "Medium",
@@ -560,12 +577,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-07T14:30:06Z",
+        "timestamp": "2026-08-08T14:03:55Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1284041-5ebfbbb282a1",
+        "event_id": "1284041-385715941e67",
         "event_type": "Added To Database",
         "film_id": "1284041",
         "importance": "Low",
@@ -574,15 +591,15 @@
         },
         "source_type": "system",
         "summary": "The Last House is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-07T14:30:06Z",
+        "timestamp": "2026-08-08T14:03:55Z",
         "title": "Added to Awards Intelligence"
       }
     ],
-    "release_relevance": 38.7,
+    "release_relevance": 46.0,
     "screening_room_score": {
       "confidence": "High",
-      "explanation": "TMDb popularity rose from 4.5252 to 10.1319. US release is 18 days away on 2026-08-07.",
-      "score": 9.491
+      "explanation": "TMDb popularity rose from 4.5252 to 143.881. US release is 18 days away on 2026-08-07.",
+      "score": 18.309
     },
     "watch_triggers": [
       "Prestige Distributor",
@@ -611,7 +628,7 @@
     "events": [
       {
         "confidence": "Inferred",
-        "event_id": "1284041-332c6f39b611",
+        "event_id": "1284041-7267c9c63d03",
         "event_type": "Distributor Change",
         "film_id": "1284041",
         "importance": "Medium",
@@ -620,12 +637,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-07T14:30:06Z",
+        "timestamp": "2026-08-08T14:03:55Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1284041-eee3ca781cfc",
+        "event_id": "1284041-5dbd9ff578a2",
         "event_type": "Awards Tier Changed",
         "film_id": "1284041",
         "importance": "Medium",
@@ -637,12 +654,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-07T14:30:06Z",
+        "timestamp": "2026-08-08T14:03:55Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1284041-5ebfbbb282a1",
+        "event_id": "1284041-385715941e67",
         "event_type": "Added To Database",
         "film_id": "1284041",
         "importance": "Low",
@@ -651,7 +668,7 @@
         },
         "source_type": "system",
         "summary": "The Last House is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-07T14:30:06Z",
+        "timestamp": "2026-08-08T14:03:55Z",
         "title": "Added to Awards Intelligence"
       },
       {
@@ -671,7 +688,7 @@
     ],
     "latest_event": {
       "confidence": "Inferred",
-      "event_id": "1284041-332c6f39b611",
+      "event_id": "1284041-7267c9c63d03",
       "event_type": "Distributor Change",
       "film_id": "1284041",
       "importance": "Medium",
@@ -680,13 +697,13 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Netflix.",
-      "timestamp": "2026-08-07T14:30:06Z",
+      "timestamp": "2026-08-08T14:03:55Z",
       "title": "Distributor set: Netflix"
     },
     "recent_activity": [
       {
         "confidence": "Inferred",
-        "event_id": "1284041-332c6f39b611",
+        "event_id": "1284041-7267c9c63d03",
         "event_type": "Distributor Change",
         "film_id": "1284041",
         "importance": "Medium",
@@ -695,12 +712,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-07T14:30:06Z",
+        "timestamp": "2026-08-08T14:03:55Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1284041-eee3ca781cfc",
+        "event_id": "1284041-5dbd9ff578a2",
         "event_type": "Awards Tier Changed",
         "film_id": "1284041",
         "importance": "Medium",
@@ -712,12 +729,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-07T14:30:06Z",
+        "timestamp": "2026-08-08T14:03:55Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1284041-5ebfbbb282a1",
+        "event_id": "1284041-385715941e67",
         "event_type": "Added To Database",
         "film_id": "1284041",
         "importance": "Low",
@@ -726,7 +743,7 @@
         },
         "source_type": "system",
         "summary": "The Last House is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-07T14:30:06Z",
+        "timestamp": "2026-08-08T14:03:55Z",
         "title": "Added to Awards Intelligence"
       }
     ],

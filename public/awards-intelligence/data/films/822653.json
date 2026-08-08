@@ -8,7 +8,7 @@
       "Event Release",
       "Awards Watch"
     ],
-    "attention_score": 70.6,
+    "attention_score": 70.9,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -26,13 +26,13 @@
         "status": "inferred"
       },
       {
-        "evidence": "Principal cast listed: Aoi Yuuki, Chiwa Saito, Kaori Mizuhashi, Eri Kitamura",
-        "source": "cast_interest",
+        "evidence": "TMDb popularity 6.0761",
+        "source": "audience_popularity",
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 5.6742",
-        "source": "audience_popularity",
+        "evidence": "Principal cast listed: Aoi Yuuki, Chiwa Saito, Kaori Mizuhashi, Eri Kitamura",
+        "source": "cast_interest",
         "status": "verified"
       },
       {
@@ -62,14 +62,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 70.6,
+    "homepage_spotlight_score": 70.9,
     "industry_interest": "Moderate",
-    "last_updated": "20260807T143006Z",
+    "last_updated": "20260808T140355Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
         "evidence_count": 2,
-        "score": 14.2,
+        "score": 14.5,
         "statuses": [
           "verified"
         ]
@@ -224,7 +224,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-08-07T14:29:51Z",
+    "generated_at": "2026-08-08T14:03:37Z",
     "headline": "Puella Magi Madoka Magica the Movie -Walpurgisnacht: Rising-: popularity increasing",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -244,7 +244,7 @@
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=g0CsWEIb6D4",
-        "tmdb_popularity": 5.6742,
+        "tmdb_popularity": 6.0761,
         "tmdb_poster_count": 7,
         "tmdb_release_date_us_primary": "",
         "tmdb_release_date_us_theatrical": "",
@@ -260,14 +260,14 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity rose from 4.7853 to 5.6742.",
+    "summary": "TMDb popularity rose from 4.7853 to 6.0761.",
     "supporting_drivers": [
       {
         "confidence_weight": 0.9,
         "driver_type": "popularity_increasing",
-        "evidence": "TMDb popularity rose from 4.7853 to 5.6742.",
+        "evidence": "TMDb popularity rose from 4.7853 to 6.0761.",
         "label": "Popularity increasing",
-        "retrieved_at": "2026-08-07T14:29:51Z",
+        "retrieved_at": "2026-08-08T14:03:37Z",
         "source_metric": "tmdb_popularity",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -276,7 +276,7 @@
   },
   "media": {
     "canonical_trailer": {
-      "retrieved_at": "2026-08-07",
+      "retrieved_at": "2026-08-08",
       "site": "YouTube",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/822653/videos",
@@ -288,7 +288,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260807T143006Z",
+    "generated_at": "20260808T140355Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -296,25 +296,25 @@
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 5.6742,
-        "retrieved_at": "2026-08-07",
+        "popularity": 6.0761,
+        "retrieved_at": "2026-08-08",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/822653",
         "status": "not_yet_rated"
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-08-07",
+      "retrieved_at": "2026-08-08",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/822653",
-      "value": 5.6742
+      "value": 6.0761
     },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 5.6742,
-      "retrieved_at": "2026-08-07",
+      "popularity": 6.0761,
+      "retrieved_at": "2026-08-08",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/822653",
       "status": "not_yet_rated"
@@ -438,14 +438,14 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.108,
+      "audience_momentum": 0.115,
       "awards_relevance": 2.4,
       "campaign_activity": 5.4,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-07T14:29:51Z",
+    "generated_at": "2026-08-08T14:03:37Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 11.233,
+    "score": 11.24,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -482,11 +482,11 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.108,
+        "contribution": 0.115,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 5.6742
+        "value": 6.0761
       }
     ]
   },
@@ -495,7 +495,7 @@
     "external_intelligence": {
       "confidence": "High",
       "headline": "Puella Magi Madoka Magica the Movie -Walpurgisnacht: Rising-: popularity increasing",
-      "summary": "TMDb popularity rose from 4.7853 to 5.6742."
+      "summary": "TMDb popularity rose from 4.7853 to 6.0761."
     },
     "last_updated": "2026-08-28",
     "latest_event": {
@@ -533,7 +533,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "822653-ad6b4ed9c7e1",
+        "event_id": "822653-41614006a994",
         "event_type": "Awards Tier Changed",
         "film_id": "822653",
         "importance": "Medium",
@@ -547,12 +547,12 @@
         },
         "source_type": "editorial_model",
         "summary": "category-specific awards case without broader contender evidence",
-        "timestamp": "2026-08-07T14:30:06Z",
+        "timestamp": "2026-08-08T14:03:55Z",
         "title": "Awards tier assigned: Category Contender"
       },
       {
         "confidence": "Inferred",
-        "event_id": "822653-576c317c60d3",
+        "event_id": "822653-af73a0213f46",
         "event_type": "Added To Database",
         "film_id": "822653",
         "importance": "Low",
@@ -561,15 +561,15 @@
         },
         "source_type": "system",
         "summary": "Puella Magi Madoka Magica the Movie -Walpurgisnacht: Rising- is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-07T14:30:06Z",
+        "timestamp": "2026-08-08T14:03:55Z",
         "title": "Added to Awards Intelligence"
       }
     ],
     "release_relevance": 40.9,
     "screening_room_score": {
       "confidence": "High",
-      "explanation": "TMDb popularity rose from 4.7853 to 5.6742.",
-      "score": 11.233
+      "explanation": "TMDb popularity rose from 4.7853 to 6.0761.",
+      "score": 11.24
     },
     "watch_triggers": [
       "Awards-Friendly Genre",
@@ -613,7 +613,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "822653-ad6b4ed9c7e1",
+        "event_id": "822653-41614006a994",
         "event_type": "Awards Tier Changed",
         "film_id": "822653",
         "importance": "Medium",
@@ -627,12 +627,12 @@
         },
         "source_type": "editorial_model",
         "summary": "category-specific awards case without broader contender evidence",
-        "timestamp": "2026-08-07T14:30:06Z",
+        "timestamp": "2026-08-08T14:03:55Z",
         "title": "Awards tier assigned: Category Contender"
       },
       {
         "confidence": "Inferred",
-        "event_id": "822653-576c317c60d3",
+        "event_id": "822653-af73a0213f46",
         "event_type": "Added To Database",
         "film_id": "822653",
         "importance": "Low",
@@ -641,7 +641,7 @@
         },
         "source_type": "system",
         "summary": "Puella Magi Madoka Magica the Movie -Walpurgisnacht: Rising- is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-07T14:30:06Z",
+        "timestamp": "2026-08-08T14:03:55Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -676,7 +676,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "822653-ad6b4ed9c7e1",
+        "event_id": "822653-41614006a994",
         "event_type": "Awards Tier Changed",
         "film_id": "822653",
         "importance": "Medium",
@@ -690,12 +690,12 @@
         },
         "source_type": "editorial_model",
         "summary": "category-specific awards case without broader contender evidence",
-        "timestamp": "2026-08-07T14:30:06Z",
+        "timestamp": "2026-08-08T14:03:55Z",
         "title": "Awards tier assigned: Category Contender"
       },
       {
         "confidence": "Inferred",
-        "event_id": "822653-576c317c60d3",
+        "event_id": "822653-af73a0213f46",
         "event_type": "Added To Database",
         "film_id": "822653",
         "importance": "Low",
@@ -704,7 +704,7 @@
         },
         "source_type": "system",
         "summary": "Puella Magi Madoka Magica the Movie -Walpurgisnacht: Rising- is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-07T14:30:06Z",
+        "timestamp": "2026-08-08T14:03:55Z",
         "title": "Added to Awards Intelligence"
       }
     ],

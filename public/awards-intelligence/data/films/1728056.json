@@ -7,7 +7,7 @@
       "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 63.4,
+    "attention_score": 63.0,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -20,7 +20,7 @@
         "status": "inferred"
       },
       {
-        "evidence": "TMDb popularity 9.9459",
+        "evidence": "TMDb popularity 9.2571",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -61,14 +61,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 63.4,
+    "homepage_spotlight_score": 63.0,
     "industry_interest": null,
-    "last_updated": "20260807T143006Z",
+    "last_updated": "20260808T140355Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
         "evidence_count": 2,
-        "score": 16.8,
+        "score": 16.4,
         "statuses": [
           "verified"
         ]
@@ -206,7 +206,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-08-07T14:29:51Z",
+    "generated_at": "2026-08-08T14:03:37Z",
     "headline": "Big Chicken: A Fast Food Conspiracy: release approaching",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -226,12 +226,12 @@
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=7sGkQM6TyQU",
-        "tmdb_popularity": 9.9459,
+        "tmdb_popularity": 9.2571,
         "tmdb_poster_count": 2,
         "tmdb_release_date_us_primary": "2026-08-05",
         "tmdb_release_date_us_theatrical": "",
         "tmdb_release_status": "Released",
-        "tmdb_vote_average": 4.333,
+        "tmdb_vote_average": 4.3,
         "tmdb_vote_count": 3,
         "tmdb_watch_provider_count_us": 2,
         "trailer_available": true,
@@ -242,14 +242,14 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity rose from 1.2613 to 9.9459. US release is 16 days away on 2026-08-05.",
+    "summary": "TMDb popularity rose from 1.2613 to 9.2571. US release is 16 days away on 2026-08-05.",
     "supporting_drivers": [
       {
         "confidence_weight": 0.9,
         "driver_type": "popularity_increasing",
-        "evidence": "TMDb popularity rose from 1.2613 to 9.9459.",
+        "evidence": "TMDb popularity rose from 1.2613 to 9.2571.",
         "label": "Popularity increasing",
-        "retrieved_at": "2026-08-07T14:29:51Z",
+        "retrieved_at": "2026-08-08T14:03:37Z",
         "source_metric": "tmdb_popularity",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -259,7 +259,7 @@
         "driver_type": "release_approaching",
         "evidence": "US release is 16 days away on 2026-08-05.",
         "label": "Release approaching",
-        "retrieved_at": "2026-08-07T14:29:51Z",
+        "retrieved_at": "2026-08-08T14:03:37Z",
         "source_metric": "tmdb_release_date_us_primary",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -268,7 +268,7 @@
   },
   "media": {
     "canonical_trailer": {
-      "retrieved_at": "2026-08-07",
+      "retrieved_at": "2026-08-08",
       "site": "YouTube",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1728056/videos",
@@ -280,7 +280,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260807T143006Z",
+    "generated_at": "20260808T140355Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -288,20 +288,20 @@
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 9.9459,
-        "retrieved_at": "2026-08-07",
+        "popularity": 9.2571,
+        "retrieved_at": "2026-08-08",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1728056",
         "status": "rated",
-        "vote_average": 4.333,
+        "vote_average": 4.3,
         "vote_count": 3
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-08-07",
+      "retrieved_at": "2026-08-08",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1728056",
-      "value": 9.9459
+      "value": 9.2571
     },
     "watch_providers": {
       "country": "US",
@@ -319,19 +319,19 @@
           "provider_name": "Netflix Standard with Ads"
         }
       ],
-      "retrieved_at": "2026-08-07",
+      "retrieved_at": "2026-08-08",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1728056-big-chicken-a-fast-food-conspiracy/watch?locale=US"
     }
   },
   "ratings": {
     "tmdb": {
-      "popularity": 9.9459,
-      "retrieved_at": "2026-08-07",
+      "popularity": 9.2571,
+      "retrieved_at": "2026-08-08",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1728056",
       "status": "rated",
-      "vote_average": 4.333,
+      "vote_average": 4.3,
       "vote_count": 3
     }
   },
@@ -443,24 +443,24 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.212,
-      "audience_quality": 4.116,
+      "audience_momentum": 0.199,
+      "audience_quality": 4.085,
       "availability": 3.967,
       "campaign_activity": 1.35,
       "talent_profile": 0.525
     },
-    "generated_at": "2026-08-07T14:29:51Z",
+    "generated_at": "2026-08-08T14:03:37Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 10.17,
+    "score": 10.126,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
         "confidence": 0.95,
-        "contribution": 4.116,
+        "contribution": 4.085,
         "metric_name": "tmdb_vote_average",
         "provider": "tmdb",
         "score_family": "audience_quality",
-        "value": 4.333
+        "value": 4.3
       },
       {
         "confidence": 0.85,
@@ -501,12 +501,12 @@
     "external_intelligence": {
       "confidence": "High",
       "headline": "Big Chicken: A Fast Food Conspiracy: release approaching",
-      "summary": "TMDb popularity rose from 1.2613 to 9.9459. US release is 16 days away on 2026-08-05."
+      "summary": "TMDb popularity rose from 1.2613 to 9.2571. US release is 16 days away on 2026-08-05."
     },
-    "last_updated": "2026-08-07T14:30:06Z",
+    "last_updated": "2026-08-08T14:03:55Z",
     "latest_event": {
       "confidence": "Inferred",
-      "event_id": "1728056-fc50467dadc1",
+      "event_id": "1728056-9ed80f3cb77c",
       "event_type": "Distributor Change",
       "film_id": "1728056",
       "importance": "Medium",
@@ -515,7 +515,7 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Netflix.",
-      "timestamp": "2026-08-07T14:30:06Z",
+      "timestamp": "2026-08-08T14:03:55Z",
       "title": "Distributor set: Netflix"
     },
     "latest_intelligence": "As of 2026-07-18, this is a Netflix release dated 2026-08-05 with general awards monitoring relevance; current awards profile is Developing and data status is developing.",
@@ -525,7 +525,7 @@
     "recent_activity": [
       {
         "confidence": "Inferred",
-        "event_id": "1728056-fc50467dadc1",
+        "event_id": "1728056-9ed80f3cb77c",
         "event_type": "Distributor Change",
         "film_id": "1728056",
         "importance": "Medium",
@@ -534,12 +534,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-07T14:30:06Z",
+        "timestamp": "2026-08-08T14:03:55Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1728056-7ac05c86b17f",
+        "event_id": "1728056-28a10a42b132",
         "event_type": "Awards Tier Changed",
         "film_id": "1728056",
         "importance": "Medium",
@@ -549,12 +549,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-07T14:30:06Z",
+        "timestamp": "2026-08-08T14:03:55Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1728056-5da03833c97c",
+        "event_id": "1728056-04de8f6cbfb0",
         "event_type": "Added To Database",
         "film_id": "1728056",
         "importance": "Low",
@@ -563,15 +563,15 @@
         },
         "source_type": "system",
         "summary": "Big Chicken: A Fast Food Conspiracy is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-07T14:30:06Z",
+        "timestamp": "2026-08-08T14:03:55Z",
         "title": "Added to Awards Intelligence"
       }
     ],
     "release_relevance": 36.8,
     "screening_room_score": {
       "confidence": "High",
-      "explanation": "TMDb popularity rose from 1.2613 to 9.9459. US release is 16 days away on 2026-08-05.",
-      "score": 10.17
+      "explanation": "TMDb popularity rose from 1.2613 to 9.2571. US release is 16 days away on 2026-08-05.",
+      "score": 10.126
     },
     "watch_triggers": [
       "Prestige Distributor",
@@ -598,7 +598,7 @@
     "events": [
       {
         "confidence": "Inferred",
-        "event_id": "1728056-fc50467dadc1",
+        "event_id": "1728056-9ed80f3cb77c",
         "event_type": "Distributor Change",
         "film_id": "1728056",
         "importance": "Medium",
@@ -607,12 +607,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-07T14:30:06Z",
+        "timestamp": "2026-08-08T14:03:55Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1728056-7ac05c86b17f",
+        "event_id": "1728056-28a10a42b132",
         "event_type": "Awards Tier Changed",
         "film_id": "1728056",
         "importance": "Medium",
@@ -622,12 +622,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-07T14:30:06Z",
+        "timestamp": "2026-08-08T14:03:55Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1728056-5da03833c97c",
+        "event_id": "1728056-04de8f6cbfb0",
         "event_type": "Added To Database",
         "film_id": "1728056",
         "importance": "Low",
@@ -636,7 +636,7 @@
         },
         "source_type": "system",
         "summary": "Big Chicken: A Fast Food Conspiracy is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-07T14:30:06Z",
+        "timestamp": "2026-08-08T14:03:55Z",
         "title": "Added to Awards Intelligence"
       },
       {
@@ -656,7 +656,7 @@
     ],
     "latest_event": {
       "confidence": "Inferred",
-      "event_id": "1728056-fc50467dadc1",
+      "event_id": "1728056-9ed80f3cb77c",
       "event_type": "Distributor Change",
       "film_id": "1728056",
       "importance": "Medium",
@@ -665,13 +665,13 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Netflix.",
-      "timestamp": "2026-08-07T14:30:06Z",
+      "timestamp": "2026-08-08T14:03:55Z",
       "title": "Distributor set: Netflix"
     },
     "recent_activity": [
       {
         "confidence": "Inferred",
-        "event_id": "1728056-fc50467dadc1",
+        "event_id": "1728056-9ed80f3cb77c",
         "event_type": "Distributor Change",
         "film_id": "1728056",
         "importance": "Medium",
@@ -680,12 +680,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-07T14:30:06Z",
+        "timestamp": "2026-08-08T14:03:55Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1728056-7ac05c86b17f",
+        "event_id": "1728056-28a10a42b132",
         "event_type": "Awards Tier Changed",
         "film_id": "1728056",
         "importance": "Medium",
@@ -695,12 +695,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-07T14:30:06Z",
+        "timestamp": "2026-08-08T14:03:55Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1728056-5da03833c97c",
+        "event_id": "1728056-04de8f6cbfb0",
         "event_type": "Added To Database",
         "film_id": "1728056",
         "importance": "Low",
@@ -709,7 +709,7 @@
         },
         "source_type": "system",
         "summary": "Big Chicken: A Fast Food Conspiracy is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-07T14:30:06Z",
+        "timestamp": "2026-08-08T14:03:55Z",
         "title": "Added to Awards Intelligence"
       }
     ],

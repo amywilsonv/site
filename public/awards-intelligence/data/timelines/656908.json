@@ -16,7 +16,7 @@
     },
     {
       "confidence": "Inferred",
-      "event_id": "656908-95929089674e",
+      "event_id": "656908-f4375875004d",
       "event_type": "Awards Tier Changed",
       "film_id": "656908",
       "importance": "Medium",
@@ -28,12 +28,12 @@
       },
       "source_type": "editorial_model",
       "summary": "plausible but incomplete awards evidence",
-      "timestamp": "2026-08-07T14:30:06Z",
+      "timestamp": "2026-08-08T14:03:55Z",
       "title": "Awards tier assigned: Emerging"
     },
     {
       "confidence": "Inferred",
-      "event_id": "656908-6c9f079b84e5",
+      "event_id": "656908-9a39e618d8c6",
       "event_type": "Added To Database",
       "film_id": "656908",
       "importance": "Low",
@@ -42,7 +42,7 @@
       },
       "source_type": "system",
       "summary": "Ramayana is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-08-07T14:30:06Z",
+      "timestamp": "2026-08-08T14:03:55Z",
       "title": "Added to Awards Intelligence"
     }
   ],
@@ -63,7 +63,7 @@
   "metadata": {
     "event_count": 3,
     "film_id": "656908",
-    "generated_at": "20260807T143006Z",
+    "generated_at": "20260808T140355Z",
     "timeline_version": "phase6b",
     "title": "Ramayana",
     "tmdb_id": "656908"
