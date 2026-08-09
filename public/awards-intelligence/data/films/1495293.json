@@ -46,7 +46,7 @@
         "status": "inferred"
       },
       {
-        "evidence": "TMDb popularity 1.335",
+        "evidence": "TMDb popularity 1.3311",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -59,7 +59,7 @@
     "homepage_spotlight_override": null,
     "homepage_spotlight_score": 60.8,
     "industry_interest": "Moderate",
-    "last_updated": "20260808T140355Z",
+    "last_updated": "20260809T140429Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
@@ -216,7 +216,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-08-08T14:03:37Z",
+    "generated_at": "2026-08-09T14:04:12Z",
     "headline": "Arasan: popularity increasing",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -235,7 +235,7 @@
         "streaming_provider_count_us": 0,
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": false,
-        "tmdb_popularity": 1.335,
+        "tmdb_popularity": 1.3311,
         "tmdb_poster_count": 0,
         "tmdb_release_date_us_primary": "",
         "tmdb_release_date_us_theatrical": "",
@@ -250,14 +250,14 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity rose from 0.9249 to 1.335.",
+    "summary": "TMDb popularity rose from 0.9249 to 1.3311.",
     "supporting_drivers": [
       {
         "confidence_weight": 0.9,
         "driver_type": "popularity_increasing",
-        "evidence": "TMDb popularity rose from 0.9249 to 1.335.",
+        "evidence": "TMDb popularity rose from 0.9249 to 1.3311.",
         "label": "Popularity increasing",
-        "retrieved_at": "2026-08-08T14:03:37Z",
+        "retrieved_at": "2026-08-09T14:04:12Z",
         "source_metric": "tmdb_popularity",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -267,7 +267,7 @@
   "media": {},
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260808T140355Z",
+    "generated_at": "20260809T140429Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -275,31 +275,31 @@
     "box_office": {
       "budget": 21000000,
       "currency": "USD",
-      "retrieved_at": "2026-08-08",
+      "retrieved_at": "2026-08-09",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1495293"
     },
     "ratings": {
       "tmdb": {
-        "popularity": 1.335,
-        "retrieved_at": "2026-08-08",
+        "popularity": 1.3311,
+        "retrieved_at": "2026-08-09",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1495293",
         "status": "not_yet_rated"
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-08-08",
+      "retrieved_at": "2026-08-09",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1495293",
-      "value": 1.335
+      "value": 1.3311
     },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 1.335,
-      "retrieved_at": "2026-08-08",
+      "popularity": 1.3311,
+      "retrieved_at": "2026-08-09",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1495293",
       "status": "not_yet_rated"
@@ -422,7 +422,7 @@
       "awards_relevance": 0.8,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-08T14:03:37Z",
+    "generated_at": "2026-08-09T14:04:12Z",
     "schema_version": "phase3_screening_room_score_v1",
     "score": 4.15,
     "source": "derived_screening_room_score",
@@ -457,7 +457,7 @@
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 1.335
+        "value": 1.3311
       }
     ]
   },
@@ -466,7 +466,7 @@
     "external_intelligence": {
       "confidence": "High",
       "headline": "Arasan: popularity increasing",
-      "summary": "TMDb popularity rose from 0.9249 to 1.335."
+      "summary": "TMDb popularity rose from 0.9249 to 1.3311."
     },
     "last_updated": "2026-11-06",
     "latest_event": {
@@ -504,7 +504,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1495293-2a0ae4944902",
+        "event_id": "1495293-f9aac40006c0",
         "event_type": "Awards Tier Changed",
         "film_id": "1495293",
         "importance": "Medium",
@@ -516,12 +516,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-08-08T14:03:55Z",
+        "timestamp": "2026-08-09T14:04:29Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1495293-1da533234916",
+        "event_id": "1495293-0df5e5308acd",
         "event_type": "Added To Database",
         "film_id": "1495293",
         "importance": "Low",
@@ -530,14 +530,14 @@
         },
         "source_type": "system",
         "summary": "Arasan is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-08T14:03:55Z",
+        "timestamp": "2026-08-09T14:04:29Z",
         "title": "Added to Awards Intelligence"
       }
     ],
     "release_relevance": 31.1,
     "screening_room_score": {
       "confidence": "High",
-      "explanation": "TMDb popularity rose from 0.9249 to 1.335.",
+      "explanation": "TMDb popularity rose from 0.9249 to 1.3311.",
       "score": 4.15
     },
     "watch_triggers": [
@@ -581,7 +581,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1495293-2a0ae4944902",
+        "event_id": "1495293-f9aac40006c0",
         "event_type": "Awards Tier Changed",
         "film_id": "1495293",
         "importance": "Medium",
@@ -593,12 +593,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-08-08T14:03:55Z",
+        "timestamp": "2026-08-09T14:04:29Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1495293-1da533234916",
+        "event_id": "1495293-0df5e5308acd",
         "event_type": "Added To Database",
         "film_id": "1495293",
         "importance": "Low",
@@ -607,7 +607,7 @@
         },
         "source_type": "system",
         "summary": "Arasan is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-08T14:03:55Z",
+        "timestamp": "2026-08-09T14:04:29Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -642,7 +642,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1495293-2a0ae4944902",
+        "event_id": "1495293-f9aac40006c0",
         "event_type": "Awards Tier Changed",
         "film_id": "1495293",
         "importance": "Medium",
@@ -654,12 +654,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-08-08T14:03:55Z",
+        "timestamp": "2026-08-09T14:04:29Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1495293-1da533234916",
+        "event_id": "1495293-0df5e5308acd",
         "event_type": "Added To Database",
         "film_id": "1495293",
         "importance": "Low",
@@ -668,7 +668,7 @@
         },
         "source_type": "system",
         "summary": "Arasan is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-08T14:03:55Z",
+        "timestamp": "2026-08-09T14:04:29Z",
         "title": "Added to Awards Intelligence"
       }
     ],

@@ -2,7 +2,7 @@
   "events": [
     {
       "confidence": "Inferred",
-      "event_id": "1723460-23188dd63ffd",
+      "event_id": "1723460-22c0138750ce",
       "event_type": "Distributor Change",
       "film_id": "1723460",
       "importance": "Medium",
@@ -11,12 +11,12 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Netflix.",
-      "timestamp": "2026-08-08T14:03:55Z",
+      "timestamp": "2026-08-09T14:04:29Z",
       "title": "Distributor set: Netflix"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1723460-ab512a80b6fc",
+      "event_id": "1723460-9bc1fcd2114f",
       "event_type": "Awards Tier Changed",
       "film_id": "1723460",
       "importance": "Medium",
@@ -26,12 +26,12 @@
       },
       "source_type": "editorial_model",
       "summary": "insufficient credible awards evidence",
-      "timestamp": "2026-08-08T14:03:55Z",
+      "timestamp": "2026-08-09T14:04:29Z",
       "title": "Awards tier assigned: No Current Awards Case"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1723460-7bc32a13f135",
+      "event_id": "1723460-308761767380",
       "event_type": "Added To Database",
       "film_id": "1723460",
       "importance": "Low",
@@ -40,7 +40,7 @@
       },
       "source_type": "system",
       "summary": "A Toxic Love Story is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-08-08T14:03:55Z",
+      "timestamp": "2026-08-09T14:04:29Z",
       "title": "Added to Awards Intelligence"
     },
     {
@@ -60,7 +60,7 @@
   ],
   "latest_event": {
     "confidence": "Inferred",
-    "event_id": "1723460-23188dd63ffd",
+    "event_id": "1723460-22c0138750ce",
     "event_type": "Distributor Change",
     "film_id": "1723460",
     "importance": "Medium",
@@ -69,13 +69,13 @@
     },
     "source_type": "metadata",
     "summary": "Current distributor is Netflix.",
-    "timestamp": "2026-08-08T14:03:55Z",
+    "timestamp": "2026-08-09T14:04:29Z",
     "title": "Distributor set: Netflix"
   },
   "metadata": {
     "event_count": 4,
     "film_id": "1723460",
-    "generated_at": "20260808T140355Z",
+    "generated_at": "20260809T140429Z",
     "timeline_version": "phase6b",
     "title": "A Toxic Love Story",
     "tmdb_id": "1723460"

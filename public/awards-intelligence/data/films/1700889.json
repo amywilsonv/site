@@ -7,7 +7,7 @@
       "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 53.8,
+    "attention_score": 53.6,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -40,7 +40,7 @@
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 1.277",
+        "evidence": "TMDb popularity 1.1753",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -56,14 +56,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 53.8,
+    "homepage_spotlight_score": 53.6,
     "industry_interest": "Moderate",
-    "last_updated": "20260808T140355Z",
+    "last_updated": "20260809T140429Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
         "evidence_count": 1,
-        "score": 4.2,
+        "score": 4.0,
         "statuses": [
           "verified"
         ]
@@ -217,10 +217,10 @@
     "tmdb_id": "1700889"
   },
   "intelligence": {
-    "confidence": "High",
-    "confidence_score": 0.99,
-    "generated_at": "2026-08-08T14:03:37Z",
-    "headline": "\u0420\u0443\u043a\u0438 \u0432\u0432\u0435\u0440\u0445! 2: popularity increasing",
+    "confidence": "Low",
+    "confidence_score": 0.25,
+    "generated_at": "2026-08-09T14:04:12Z",
+    "headline": "\u0420\u0443\u043a\u0438 \u0432\u0432\u0435\u0440\u0445! 2: no material change detected",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
       "signal_values": {
@@ -238,7 +238,7 @@
         "streaming_provider_count_us": 0,
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": false,
-        "tmdb_popularity": 1.277,
+        "tmdb_popularity": 1.1753,
         "tmdb_poster_count": 0,
         "tmdb_release_date_us_primary": "",
         "tmdb_release_date_us_theatrical": "",
@@ -253,24 +253,13 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity rose from 1.2733 to 1.277.",
-    "supporting_drivers": [
-      {
-        "confidence_weight": 0.9,
-        "driver_type": "popularity_increasing",
-        "evidence": "TMDb popularity rose from 1.2733 to 1.277.",
-        "label": "Popularity increasing",
-        "retrieved_at": "2026-08-08T14:03:37Z",
-        "source_metric": "tmdb_popularity",
-        "source_provider": "tmdb",
-        "source_status": "available"
-      }
-    ]
+    "summary": "Current provider signals do not show a supported material change.",
+    "supporting_drivers": []
   },
   "media": {},
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260808T140355Z",
+    "generated_at": "20260809T140429Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -278,25 +267,25 @@
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 1.277,
-        "retrieved_at": "2026-08-08",
+        "popularity": 1.1753,
+        "retrieved_at": "2026-08-09",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1700889",
         "status": "not_yet_rated"
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-08-08",
+      "retrieved_at": "2026-08-09",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1700889",
-      "value": 1.277
+      "value": 1.1753
     },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 1.277,
-      "retrieved_at": "2026-08-08",
+      "popularity": 1.1753,
+      "retrieved_at": "2026-08-09",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1700889",
       "status": "not_yet_rated"
@@ -424,13 +413,13 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.024,
+      "audience_momentum": 0.022,
       "awards_relevance": 0.8,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-08T14:03:37Z",
+    "generated_at": "2026-08-09T14:04:12Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 4.149,
+    "score": 4.147,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -459,20 +448,20 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.024,
+        "contribution": 0.022,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 1.277
+        "value": 1.1753
       }
     ]
   },
   "signals": {
     "cultural_significance": 37.0,
     "external_intelligence": {
-      "confidence": "High",
-      "headline": "\u0420\u0443\u043a\u0438 \u0432\u0432\u0435\u0440\u0445! 2: popularity increasing",
-      "summary": "TMDb popularity rose from 1.2733 to 1.277."
+      "confidence": "Low",
+      "headline": "\u0420\u0443\u043a\u0438 \u0432\u0432\u0435\u0440\u0445! 2: no material change detected",
+      "summary": "Current provider signals do not show a supported material change."
     },
     "last_updated": "2026-10-15",
     "latest_event": {
@@ -510,7 +499,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1700889-05e9e4e51b4b",
+        "event_id": "1700889-61416d89240f",
         "event_type": "Awards Tier Changed",
         "film_id": "1700889",
         "importance": "Medium",
@@ -522,12 +511,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-08-08T14:03:55Z",
+        "timestamp": "2026-08-09T14:04:29Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1700889-b20a31d1b579",
+        "event_id": "1700889-2d72d1a91620",
         "event_type": "Added To Database",
         "film_id": "1700889",
         "importance": "Low",
@@ -536,15 +525,15 @@
         },
         "source_type": "system",
         "summary": "\u0420\u0443\u043a\u0438 \u0432\u0432\u0435\u0440\u0445! 2 is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-08T14:03:55Z",
+        "timestamp": "2026-08-09T14:04:29Z",
         "title": "Added to Awards Intelligence"
       }
     ],
     "release_relevance": 31.1,
     "screening_room_score": {
-      "confidence": "High",
-      "explanation": "TMDb popularity rose from 1.2733 to 1.277.",
-      "score": 4.149
+      "confidence": "Low",
+      "explanation": "Current provider signals do not show a supported material change.",
+      "score": 4.147
     },
     "watch_triggers": [
       "Awards-Season Release",
@@ -587,7 +576,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1700889-05e9e4e51b4b",
+        "event_id": "1700889-61416d89240f",
         "event_type": "Awards Tier Changed",
         "film_id": "1700889",
         "importance": "Medium",
@@ -599,12 +588,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-08-08T14:03:55Z",
+        "timestamp": "2026-08-09T14:04:29Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1700889-b20a31d1b579",
+        "event_id": "1700889-2d72d1a91620",
         "event_type": "Added To Database",
         "film_id": "1700889",
         "importance": "Low",
@@ -613,7 +602,7 @@
         },
         "source_type": "system",
         "summary": "\u0420\u0443\u043a\u0438 \u0432\u0432\u0435\u0440\u0445! 2 is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-08T14:03:55Z",
+        "timestamp": "2026-08-09T14:04:29Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -648,7 +637,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1700889-05e9e4e51b4b",
+        "event_id": "1700889-61416d89240f",
         "event_type": "Awards Tier Changed",
         "film_id": "1700889",
         "importance": "Medium",
@@ -660,12 +649,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-08-08T14:03:55Z",
+        "timestamp": "2026-08-09T14:04:29Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1700889-b20a31d1b579",
+        "event_id": "1700889-2d72d1a91620",
         "event_type": "Added To Database",
         "film_id": "1700889",
         "importance": "Low",
@@ -674,7 +663,7 @@
         },
         "source_type": "system",
         "summary": "\u0420\u0443\u043a\u0438 \u0432\u0432\u0435\u0440\u0445! 2 is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-08T14:03:55Z",
+        "timestamp": "2026-08-09T14:04:29Z",
         "title": "Added to Awards Intelligence"
       }
     ],

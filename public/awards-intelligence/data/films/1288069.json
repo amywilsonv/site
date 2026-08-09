@@ -7,7 +7,7 @@
       "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 40.6,
+    "attention_score": 40.5,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -30,7 +30,7 @@
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 1.8902",
+        "evidence": "TMDb popularity 1.8529",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -46,14 +46,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 40.6,
+    "homepage_spotlight_score": 40.5,
     "industry_interest": null,
-    "last_updated": "20260808T140355Z",
+    "last_updated": "20260809T140429Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
         "evidence_count": 1,
-        "score": 5.5,
+        "score": 5.4,
         "statuses": [
           "verified"
         ]
@@ -198,7 +198,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-08-08T14:03:37Z",
+    "generated_at": "2026-08-09T14:04:12Z",
     "headline": "Tenzing: popularity increasing",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -217,7 +217,7 @@
         "streaming_provider_count_us": 0,
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": false,
-        "tmdb_popularity": 1.8902,
+        "tmdb_popularity": 1.8529,
         "tmdb_poster_count": 1,
         "tmdb_release_date_us_primary": "2026-10-09",
         "tmdb_release_date_us_theatrical": "2026-10-09",
@@ -232,14 +232,14 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity rose from 1.8113 to 1.8902.",
+    "summary": "TMDb popularity rose from 1.8113 to 1.8529.",
     "supporting_drivers": [
       {
         "confidence_weight": 0.9,
         "driver_type": "popularity_increasing",
-        "evidence": "TMDb popularity rose from 1.8113 to 1.8902.",
+        "evidence": "TMDb popularity rose from 1.8113 to 1.8529.",
         "label": "Popularity increasing",
-        "retrieved_at": "2026-08-08T14:03:37Z",
+        "retrieved_at": "2026-08-09T14:04:12Z",
         "source_metric": "tmdb_popularity",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -249,7 +249,7 @@
   "media": {},
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260808T140355Z",
+    "generated_at": "20260809T140429Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -257,25 +257,25 @@
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 1.8902,
-        "retrieved_at": "2026-08-08",
+        "popularity": 1.8529,
+        "retrieved_at": "2026-08-09",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1288069",
         "status": "not_yet_rated"
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-08-08",
+      "retrieved_at": "2026-08-09",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1288069",
-      "value": 1.8902
+      "value": 1.8529
     },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 1.8902,
-      "retrieved_at": "2026-08-08",
+      "popularity": 1.8529,
+      "retrieved_at": "2026-08-09",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1288069",
       "status": "not_yet_rated"
@@ -403,13 +403,13 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.036,
+      "audience_momentum": 0.035,
       "awards_relevance": 2.4,
       "talent_profile": 2.125
     },
-    "generated_at": "2026-08-08T14:03:37Z",
+    "generated_at": "2026-08-09T14:04:12Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 4.561,
+    "score": 4.56,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -438,11 +438,11 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.036,
+        "contribution": 0.035,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 1.8902
+        "value": 1.8529
       }
     ]
   },
@@ -451,7 +451,7 @@
     "external_intelligence": {
       "confidence": "High",
       "headline": "Tenzing: popularity increasing",
-      "summary": "TMDb popularity rose from 1.8113 to 1.8902."
+      "summary": "TMDb popularity rose from 1.8113 to 1.8529."
     },
     "last_updated": "2026-10-09",
     "latest_event": {
@@ -489,7 +489,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1288069-bdf4a1d185cb",
+        "event_id": "1288069-e1a2d71f73d9",
         "event_type": "Distributor Change",
         "film_id": "1288069",
         "importance": "Medium",
@@ -498,12 +498,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Apple TV.",
-        "timestamp": "2026-08-08T14:03:55Z",
+        "timestamp": "2026-08-09T14:04:29Z",
         "title": "Distributor set: Apple TV"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1288069-2095e71cf2fb",
+        "event_id": "1288069-c05e3ba78e4c",
         "event_type": "Awards Tier Changed",
         "film_id": "1288069",
         "importance": "Medium",
@@ -517,15 +517,15 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-08T14:03:55Z",
+        "timestamp": "2026-08-09T14:04:29Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],
     "release_relevance": 28.0,
     "screening_room_score": {
       "confidence": "High",
-      "explanation": "TMDb popularity rose from 1.8113 to 1.8902.",
-      "score": 4.561
+      "explanation": "TMDb popularity rose from 1.8113 to 1.8529.",
+      "score": 4.56
     },
     "watch_triggers": [
       "Prestige Distributor",
@@ -566,7 +566,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1288069-bdf4a1d185cb",
+        "event_id": "1288069-e1a2d71f73d9",
         "event_type": "Distributor Change",
         "film_id": "1288069",
         "importance": "Medium",
@@ -575,12 +575,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Apple TV.",
-        "timestamp": "2026-08-08T14:03:55Z",
+        "timestamp": "2026-08-09T14:04:29Z",
         "title": "Distributor set: Apple TV"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1288069-2095e71cf2fb",
+        "event_id": "1288069-c05e3ba78e4c",
         "event_type": "Awards Tier Changed",
         "film_id": "1288069",
         "importance": "Medium",
@@ -594,12 +594,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-08T14:03:55Z",
+        "timestamp": "2026-08-09T14:04:29Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1288069-a5ac0ef05e3a",
+        "event_id": "1288069-187f7427ae5f",
         "event_type": "Added To Database",
         "film_id": "1288069",
         "importance": "Low",
@@ -608,7 +608,7 @@
         },
         "source_type": "system",
         "summary": "Tenzing is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-08T14:03:55Z",
+        "timestamp": "2026-08-09T14:04:29Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -643,7 +643,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1288069-bdf4a1d185cb",
+        "event_id": "1288069-e1a2d71f73d9",
         "event_type": "Distributor Change",
         "film_id": "1288069",
         "importance": "Medium",
@@ -652,12 +652,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Apple TV.",
-        "timestamp": "2026-08-08T14:03:55Z",
+        "timestamp": "2026-08-09T14:04:29Z",
         "title": "Distributor set: Apple TV"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1288069-2095e71cf2fb",
+        "event_id": "1288069-c05e3ba78e4c",
         "event_type": "Awards Tier Changed",
         "film_id": "1288069",
         "importance": "Medium",
@@ -671,7 +671,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-08T14:03:55Z",
+        "timestamp": "2026-08-09T14:04:29Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],

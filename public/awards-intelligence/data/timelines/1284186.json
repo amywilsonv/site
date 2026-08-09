@@ -16,7 +16,7 @@
     },
     {
       "confidence": "Inferred",
-      "event_id": "1284186-1ddb0d70c41a",
+      "event_id": "1284186-3f59aecdb745",
       "event_type": "Awards Tier Changed",
       "film_id": "1284186",
       "importance": "Medium",
@@ -28,12 +28,12 @@
       },
       "source_type": "editorial_model",
       "summary": "insufficient credible awards evidence",
-      "timestamp": "2026-08-08T14:03:55Z",
+      "timestamp": "2026-08-09T14:04:29Z",
       "title": "Awards tier assigned: No Current Awards Case"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1284186-44267d653833",
+      "event_id": "1284186-0167c0ae7720",
       "event_type": "Added To Database",
       "film_id": "1284186",
       "importance": "Low",
@@ -42,7 +42,7 @@
       },
       "source_type": "system",
       "summary": "Sacrifice is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-08-08T14:03:55Z",
+      "timestamp": "2026-08-09T14:04:29Z",
       "title": "Added to Awards Intelligence"
     },
     {
@@ -77,7 +77,7 @@
   "metadata": {
     "event_count": 4,
     "film_id": "1284186",
-    "generated_at": "20260808T140355Z",
+    "generated_at": "20260809T140429Z",
     "timeline_version": "phase6b",
     "title": "Sacrifice",
     "tmdb_id": "1284186"
