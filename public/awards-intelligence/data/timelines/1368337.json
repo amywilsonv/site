@@ -2,7 +2,7 @@
   "events": [
     {
       "confidence": "Inferred",
-      "event_id": "1368337-475929ba7d2a",
+      "event_id": "1368337-37d5faccd2c8",
       "event_type": "Homepage Featured",
       "film_id": "1368337",
       "importance": "Medium",
@@ -11,12 +11,12 @@
       },
       "source_type": "discovery_homepage",
       "summary": "The Odyssey is currently selected for the homepage experience.",
-      "timestamp": "2026-08-09T14:04:29Z",
+      "timestamp": "2026-08-10T14:35:07Z",
       "title": "Featured in The Screening Room"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1368337-2a2f93bed51d",
+      "event_id": "1368337-2cc4d3f0f3be",
       "event_type": "Distributor Change",
       "film_id": "1368337",
       "importance": "Medium",
@@ -25,12 +25,12 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Universal Pictures.",
-      "timestamp": "2026-08-09T14:04:29Z",
+      "timestamp": "2026-08-10T14:35:07Z",
       "title": "Distributor set: Universal Pictures"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1368337-d95a0ae5d5a5",
+      "event_id": "1368337-c5a4529dd731",
       "event_type": "Awards Tier Changed",
       "film_id": "1368337",
       "importance": "Medium",
@@ -42,12 +42,12 @@
       },
       "source_type": "editorial_model",
       "summary": "plausible but incomplete awards evidence",
-      "timestamp": "2026-08-09T14:04:29Z",
+      "timestamp": "2026-08-10T14:35:07Z",
       "title": "Awards tier assigned: Emerging"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1368337-3b03cb517bae",
+      "event_id": "1368337-7b6a8aac81e8",
       "event_type": "Added To Database",
       "film_id": "1368337",
       "importance": "Low",
@@ -56,7 +56,7 @@
       },
       "source_type": "system",
       "summary": "The Odyssey is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-08-09T14:04:29Z",
+      "timestamp": "2026-08-10T14:35:07Z",
       "title": "Added to Awards Intelligence"
     },
     {
@@ -76,7 +76,7 @@
   ],
   "latest_event": {
     "confidence": "Inferred",
-    "event_id": "1368337-475929ba7d2a",
+    "event_id": "1368337-37d5faccd2c8",
     "event_type": "Homepage Featured",
     "film_id": "1368337",
     "importance": "Medium",
@@ -85,13 +85,13 @@
     },
     "source_type": "discovery_homepage",
     "summary": "The Odyssey is currently selected for the homepage experience.",
-    "timestamp": "2026-08-09T14:04:29Z",
+    "timestamp": "2026-08-10T14:35:07Z",
     "title": "Featured in The Screening Room"
   },
   "metadata": {
     "event_count": 5,
     "film_id": "1368337",
-    "generated_at": "20260809T140429Z",
+    "generated_at": "20260810T143507Z",
     "timeline_version": "phase6b",
     "title": "The Odyssey",
     "tmdb_id": "1368337"

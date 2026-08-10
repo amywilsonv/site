@@ -16,7 +16,7 @@
     },
     {
       "confidence": "Inferred",
-      "event_id": "1280115-5f40f90474ec",
+      "event_id": "1280115-b6762e6d784c",
       "event_type": "Distributor Change",
       "film_id": "1280115",
       "importance": "Medium",
@@ -25,12 +25,12 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Apple TV.",
-      "timestamp": "2026-08-09T14:04:29Z",
+      "timestamp": "2026-08-10T14:35:07Z",
       "title": "Distributor set: Apple TV"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1280115-1e1aa8b2bc8b",
+      "event_id": "1280115-3cc2b02149d9",
       "event_type": "Awards Tier Changed",
       "film_id": "1280115",
       "importance": "Medium",
@@ -44,12 +44,12 @@
       },
       "source_type": "editorial_model",
       "summary": "insufficient credible awards evidence",
-      "timestamp": "2026-08-09T14:04:29Z",
+      "timestamp": "2026-08-10T14:35:07Z",
       "title": "Awards tier assigned: No Current Awards Case"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1280115-0e826c8879b6",
+      "event_id": "1280115-f422c94f0eab",
       "event_type": "Added To Database",
       "film_id": "1280115",
       "importance": "Low",
@@ -58,7 +58,7 @@
       },
       "source_type": "system",
       "summary": "Way of the Warrior Kid is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-08-09T14:04:29Z",
+      "timestamp": "2026-08-10T14:35:07Z",
       "title": "Added to Awards Intelligence"
     }
   ],
@@ -79,7 +79,7 @@
   "metadata": {
     "event_count": 4,
     "film_id": "1280115",
-    "generated_at": "20260809T140429Z",
+    "generated_at": "20260810T143507Z",
     "timeline_version": "phase6b",
     "title": "Way of the Warrior Kid",
     "tmdb_id": "1280115"

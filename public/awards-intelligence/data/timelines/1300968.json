@@ -16,7 +16,7 @@
     },
     {
       "confidence": "Inferred",
-      "event_id": "1300968-7d9886e3c78b",
+      "event_id": "1300968-516bce1caa9d",
       "event_type": "Distributor Change",
       "film_id": "1300968",
       "importance": "Medium",
@@ -25,12 +25,12 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Lionsgate.",
-      "timestamp": "2026-08-09T14:04:29Z",
+      "timestamp": "2026-08-10T14:35:07Z",
       "title": "Distributor set: Lionsgate"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1300968-5f6d66bf6cc7",
+      "event_id": "1300968-e31b2aeeb43c",
       "event_type": "Awards Tier Changed",
       "film_id": "1300968",
       "importance": "Medium",
@@ -42,12 +42,12 @@
       },
       "source_type": "editorial_model",
       "summary": "plausible but incomplete awards evidence",
-      "timestamp": "2026-08-09T14:04:29Z",
+      "timestamp": "2026-08-10T14:35:07Z",
       "title": "Awards tier assigned: Emerging"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1300968-a9804f0ffc30",
+      "event_id": "1300968-cd8331e14d93",
       "event_type": "Added To Database",
       "film_id": "1300968",
       "importance": "Low",
@@ -56,7 +56,7 @@
       },
       "source_type": "system",
       "summary": "The Hunger Games: Sunrise on the Reaping is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-08-09T14:04:29Z",
+      "timestamp": "2026-08-10T14:35:07Z",
       "title": "Added to Awards Intelligence"
     }
   ],
@@ -77,7 +77,7 @@
   "metadata": {
     "event_count": 4,
     "film_id": "1300968",
-    "generated_at": "20260809T140429Z",
+    "generated_at": "20260810T143507Z",
     "timeline_version": "phase6b",
     "title": "The Hunger Games: Sunrise on the Reaping",
     "tmdb_id": "1300968"

@@ -45,7 +45,7 @@
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 5.187",
+        "evidence": "TMDb popularity 5.2325",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -58,12 +58,17 @@
         "evidence": "Trailer URL present",
         "source": "trailer_available",
         "status": "verified"
+      },
+      {
+        "evidence": "1",
+        "source": "tmdb_vote_count",
+        "status": "verified"
       }
     ],
     "homepage_spotlight_override": null,
     "homepage_spotlight_score": 77.6,
     "industry_interest": "High",
-    "last_updated": "20260809T140429Z",
+    "last_updated": "20260810T143507Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
@@ -204,7 +209,7 @@
     "imdb_id": "",
     "language": "en",
     "original_title": "Camp Rock 3",
-    "poster": "https://image.tmdb.org/t/p/original/1w2SIg1TiqqvXSmDsqj104m2UGM.jpg",
+    "poster": "https://image.tmdb.org/t/p/original/8wI9KByZtzBMWOzDFjxHPSOAuOH.jpg",
     "profile_payload_url": "data/films/1493400.json",
     "profile_url": "film.html?id=1493400",
     "release_date": "2026-08-13",
@@ -217,7 +222,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-08-09T14:04:12Z",
+    "generated_at": "2026-08-10T14:34:50Z",
     "headline": "Camp Rock 3: release approaching",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -237,13 +242,13 @@
         "tmdb_backdrop_count": 2,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=02-RDIZ5Rdw",
-        "tmdb_popularity": 5.187,
+        "tmdb_popularity": 5.2325,
         "tmdb_poster_count": 8,
         "tmdb_release_date_us_primary": "2026-08-13",
         "tmdb_release_date_us_theatrical": "",
-        "tmdb_release_status": "Post Production",
-        "tmdb_vote_average": 0,
-        "tmdb_vote_count": 0,
+        "tmdb_release_status": "Released",
+        "tmdb_vote_average": 10.0,
+        "tmdb_vote_count": 1,
         "tmdb_watch_provider_count_us": 0,
         "trailer_available": true,
         "trailer_count": 3,
@@ -253,14 +258,14 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity rose from 3.4032 to 5.187. US release is 24 days away on 2026-08-13.",
+    "summary": "TMDb popularity rose from 3.4032 to 5.2325. US release is 24 days away on 2026-08-13.",
     "supporting_drivers": [
       {
         "confidence_weight": 0.9,
         "driver_type": "popularity_increasing",
-        "evidence": "TMDb popularity rose from 3.4032 to 5.187.",
+        "evidence": "TMDb popularity rose from 3.4032 to 5.2325.",
         "label": "Popularity increasing",
-        "retrieved_at": "2026-08-09T14:04:12Z",
+        "retrieved_at": "2026-08-10T14:34:50Z",
         "source_metric": "tmdb_popularity",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -270,7 +275,7 @@
         "driver_type": "release_approaching",
         "evidence": "US release is 24 days away on 2026-08-13.",
         "label": "Release approaching",
-        "retrieved_at": "2026-08-09T14:04:12Z",
+        "retrieved_at": "2026-08-10T14:34:50Z",
         "source_metric": "tmdb_release_date_us_primary",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -279,7 +284,7 @@
   },
   "media": {
     "canonical_trailer": {
-      "retrieved_at": "2026-08-09",
+      "retrieved_at": "2026-08-10",
       "site": "YouTube",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1493400/videos",
@@ -291,7 +296,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260809T140429Z",
+    "generated_at": "20260810T143507Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -299,28 +304,32 @@
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 5.187,
-        "retrieved_at": "2026-08-09",
+        "popularity": 5.2325,
+        "retrieved_at": "2026-08-10",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1493400",
-        "status": "not_yet_rated"
+        "status": "rated",
+        "vote_average": 10.0,
+        "vote_count": 1
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-08-09",
+      "retrieved_at": "2026-08-10",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1493400",
-      "value": 5.187
+      "value": 5.2325
     },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 5.187,
-      "retrieved_at": "2026-08-09",
+      "popularity": 5.2325,
+      "retrieved_at": "2026-08-10",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1493400",
-      "status": "not_yet_rated"
+      "status": "rated",
+      "vote_average": 10.0,
+      "vote_count": 1
     }
   },
   "related": {
@@ -444,16 +453,25 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.099,
+      "audience_momentum": 0.107,
+      "audience_quality": 9.5,
       "awards_relevance": 0.8,
       "campaign_activity": 4.05,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-09T14:04:12Z",
+    "generated_at": "2026-08-10T14:34:50Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 8.274,
+    "score": 17.782,
     "source": "derived_screening_room_score",
     "top_drivers": [
+      {
+        "confidence": 0.95,
+        "contribution": 9.5,
+        "metric_name": "tmdb_vote_average",
+        "provider": "tmdb",
+        "score_family": "audience_quality",
+        "value": 10.0
+      },
       {
         "confidence": 0.9,
         "contribution": 4.05,
@@ -485,14 +503,6 @@
         "provider": "legacy_dashboard_awards_precursors_adapter",
         "score_family": "awards_relevance",
         "value": 1
-      },
-      {
-        "confidence": 0.95,
-        "contribution": 0.099,
-        "metric_name": "tmdb_popularity",
-        "provider": "tmdb",
-        "score_family": "audience_momentum",
-        "value": 5.187
       }
     ]
   },
@@ -501,7 +511,7 @@
     "external_intelligence": {
       "confidence": "High",
       "headline": "Camp Rock 3: release approaching",
-      "summary": "TMDb popularity rose from 3.4032 to 5.187. US release is 24 days away on 2026-08-13."
+      "summary": "TMDb popularity rose from 3.4032 to 5.2325. US release is 24 days away on 2026-08-13."
     },
     "last_updated": "2026-08-13",
     "latest_event": {
@@ -539,7 +549,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1493400-cfba0a99c304",
+        "event_id": "1493400-0df113961455",
         "event_type": "Distributor Change",
         "film_id": "1493400",
         "importance": "Medium",
@@ -548,12 +558,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Disney.",
-        "timestamp": "2026-08-09T14:04:29Z",
+        "timestamp": "2026-08-10T14:35:07Z",
         "title": "Distributor set: Disney"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1493400-a53613963019",
+        "event_id": "1493400-064861c6f4bb",
         "event_type": "Awards Tier Changed",
         "film_id": "1493400",
         "importance": "Medium",
@@ -565,15 +575,15 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-08-09T14:04:29Z",
+        "timestamp": "2026-08-10T14:35:07Z",
         "title": "Awards tier assigned: Emerging"
       }
     ],
     "release_relevance": 46.8,
     "screening_room_score": {
       "confidence": "High",
-      "explanation": "TMDb popularity rose from 3.4032 to 5.187. US release is 24 days away on 2026-08-13.",
-      "score": 8.274
+      "explanation": "TMDb popularity rose from 3.4032 to 5.2325. US release is 24 days away on 2026-08-13.",
+      "score": 17.782
     },
     "watch_triggers": [
       "Major Studio/Streamer",
@@ -615,7 +625,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1493400-cfba0a99c304",
+        "event_id": "1493400-0df113961455",
         "event_type": "Distributor Change",
         "film_id": "1493400",
         "importance": "Medium",
@@ -624,12 +634,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Disney.",
-        "timestamp": "2026-08-09T14:04:29Z",
+        "timestamp": "2026-08-10T14:35:07Z",
         "title": "Distributor set: Disney"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1493400-a53613963019",
+        "event_id": "1493400-064861c6f4bb",
         "event_type": "Awards Tier Changed",
         "film_id": "1493400",
         "importance": "Medium",
@@ -641,12 +651,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-08-09T14:04:29Z",
+        "timestamp": "2026-08-10T14:35:07Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1493400-155896326162",
+        "event_id": "1493400-d5fbe79a2891",
         "event_type": "Added To Database",
         "film_id": "1493400",
         "importance": "Low",
@@ -655,7 +665,7 @@
         },
         "source_type": "system",
         "summary": "Camp Rock 3 is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-09T14:04:29Z",
+        "timestamp": "2026-08-10T14:35:07Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -690,7 +700,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1493400-cfba0a99c304",
+        "event_id": "1493400-0df113961455",
         "event_type": "Distributor Change",
         "film_id": "1493400",
         "importance": "Medium",
@@ -699,12 +709,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Disney.",
-        "timestamp": "2026-08-09T14:04:29Z",
+        "timestamp": "2026-08-10T14:35:07Z",
         "title": "Distributor set: Disney"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1493400-a53613963019",
+        "event_id": "1493400-064861c6f4bb",
         "event_type": "Awards Tier Changed",
         "film_id": "1493400",
         "importance": "Medium",
@@ -716,7 +726,7 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-08-09T14:04:29Z",
+        "timestamp": "2026-08-10T14:35:07Z",
         "title": "Awards tier assigned: Emerging"
       }
     ],

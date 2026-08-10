@@ -15,7 +15,7 @@
     "early_reception": null,
     "evidence_sources": [
       {
-        "evidence": "TMDb popularity 79.0096",
+        "evidence": "TMDb popularity 77.8843",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -55,7 +55,7 @@
         "status": "verified"
       },
       {
-        "evidence": "304",
+        "evidence": "315",
         "source": "tmdb_vote_count",
         "status": "verified"
       }
@@ -63,7 +63,7 @@
     "homepage_spotlight_override": null,
     "homepage_spotlight_score": 83.4,
     "industry_interest": "Moderate",
-    "last_updated": "20260809T140429Z",
+    "last_updated": "20260810T143507Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
@@ -212,7 +212,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-08-09T14:04:12Z",
+    "generated_at": "2026-08-10T14:34:50Z",
     "headline": "72 HOURS: release approaching",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -232,13 +232,13 @@
         "tmdb_backdrop_count": 3,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=N-J-HR3quc4",
-        "tmdb_popularity": 79.0096,
+        "tmdb_popularity": 77.8843,
         "tmdb_poster_count": 9,
         "tmdb_release_date_us_primary": "2026-07-20",
         "tmdb_release_date_us_theatrical": "",
         "tmdb_release_status": "Released",
-        "tmdb_vote_average": 6.827,
-        "tmdb_vote_count": 304,
+        "tmdb_vote_average": 6.806,
+        "tmdb_vote_count": 315,
         "tmdb_watch_provider_count_us": 2,
         "trailer_available": true,
         "trailer_count": 2,
@@ -255,7 +255,7 @@
         "driver_type": "release_approaching",
         "evidence": "US release is 0 days away on 2026-07-20.",
         "label": "Release approaching",
-        "retrieved_at": "2026-08-09T14:04:12Z",
+        "retrieved_at": "2026-08-10T14:34:50Z",
         "source_metric": "tmdb_release_date_us_primary",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -264,7 +264,7 @@
   },
   "media": {
     "canonical_trailer": {
-      "retrieved_at": "2026-08-09",
+      "retrieved_at": "2026-08-10",
       "site": "YouTube",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/949838/videos",
@@ -276,7 +276,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260809T140429Z",
+    "generated_at": "20260810T143507Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -284,26 +284,26 @@
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 79.0096,
-        "retrieved_at": "2026-08-09",
+        "popularity": 77.8843,
+        "retrieved_at": "2026-08-10",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/949838",
         "status": "rated",
-        "vote_average": 6.827,
-        "vote_count": 304
+        "vote_average": 6.806,
+        "vote_count": 315
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-08-09",
+      "retrieved_at": "2026-08-10",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/949838",
-      "value": 79.0096
+      "value": 77.8843
     },
     "watch_providers": {
       "country": "US",
       "flatrate": [
         {
-          "display_priority": 2,
+          "display_priority": 1,
           "logo_url": "https://image.tmdb.org/t/p/original/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
           "provider_id": 8,
           "provider_name": "Netflix"
@@ -315,20 +315,20 @@
           "provider_name": "Netflix Standard with Ads"
         }
       ],
-      "retrieved_at": "2026-08-09",
+      "retrieved_at": "2026-08-10",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/949838-72-hours/watch?locale=US"
     }
   },
   "ratings": {
     "tmdb": {
-      "popularity": 79.0096,
-      "retrieved_at": "2026-08-09",
+      "popularity": 77.8843,
+      "retrieved_at": "2026-08-10",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/949838",
       "status": "rated",
-      "vote_average": 6.827,
-      "vote_count": 304
+      "vote_average": 6.806,
+      "vote_count": 315
     }
   },
   "related": {
@@ -461,24 +461,24 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 3.811,
-      "audience_quality": 6.486,
+      "audience_momentum": 3.874,
+      "audience_quality": 6.466,
       "availability": 3.967,
       "campaign_activity": 2.7,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-09T14:04:12Z",
+    "generated_at": "2026-08-10T14:34:50Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 20.289,
+    "score": 20.332,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
         "confidence": 0.95,
-        "contribution": 6.486,
+        "contribution": 6.466,
         "metric_name": "tmdb_vote_average",
         "provider": "tmdb",
         "score_family": "audience_quality",
-        "value": 6.827
+        "value": 6.806
       },
       {
         "confidence": 0.9,
@@ -490,11 +490,11 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 2.31,
+        "contribution": 2.394,
         "metric_name": "tmdb_vote_count",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 304
+        "value": 315
       },
       {
         "confidence": 0.85,
@@ -521,10 +521,10 @@
       "headline": "72 HOURS: release approaching",
       "summary": "US release is 0 days away on 2026-07-20."
     },
-    "last_updated": "2026-08-09T14:04:29Z",
+    "last_updated": "2026-08-10T14:35:07Z",
     "latest_event": {
       "confidence": "Inferred",
-      "event_id": "949838-cc55746bc121",
+      "event_id": "949838-c6efa535f70e",
       "event_type": "Distributor Change",
       "film_id": "949838",
       "importance": "Medium",
@@ -533,7 +533,7 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Netflix.",
-      "timestamp": "2026-08-09T14:04:29Z",
+      "timestamp": "2026-08-10T14:35:07Z",
       "title": "Distributor set: Netflix"
     },
     "latest_intelligence": "As of 2026-07-18, this is a Netflix release dated 2026-07-24 with general awards monitoring relevance; current awards profile is Developing and data status is developing.",
@@ -543,7 +543,7 @@
     "recent_activity": [
       {
         "confidence": "Inferred",
-        "event_id": "949838-cc55746bc121",
+        "event_id": "949838-c6efa535f70e",
         "event_type": "Distributor Change",
         "film_id": "949838",
         "importance": "Medium",
@@ -552,12 +552,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-09T14:04:29Z",
+        "timestamp": "2026-08-10T14:35:07Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "949838-81a81bfce43e",
+        "event_id": "949838-fbf75a1a34e5",
         "event_type": "Awards Tier Changed",
         "film_id": "949838",
         "importance": "Medium",
@@ -567,12 +567,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-09T14:04:29Z",
+        "timestamp": "2026-08-10T14:35:07Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "949838-2b6d31c0773d",
+        "event_id": "949838-bb0ad26b994e",
         "event_type": "Added To Database",
         "film_id": "949838",
         "importance": "Low",
@@ -581,7 +581,7 @@
         },
         "source_type": "system",
         "summary": "72 HOURS is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-09T14:04:29Z",
+        "timestamp": "2026-08-10T14:35:07Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -589,7 +589,7 @@
     "screening_room_score": {
       "confidence": "High",
       "explanation": "US release is 0 days away on 2026-07-20.",
-      "score": 20.289
+      "score": 20.332
     },
     "watch_triggers": [
       "Prestige Distributor",
@@ -617,7 +617,7 @@
     "events": [
       {
         "confidence": "Inferred",
-        "event_id": "949838-cc55746bc121",
+        "event_id": "949838-c6efa535f70e",
         "event_type": "Distributor Change",
         "film_id": "949838",
         "importance": "Medium",
@@ -626,12 +626,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-09T14:04:29Z",
+        "timestamp": "2026-08-10T14:35:07Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "949838-81a81bfce43e",
+        "event_id": "949838-fbf75a1a34e5",
         "event_type": "Awards Tier Changed",
         "film_id": "949838",
         "importance": "Medium",
@@ -641,12 +641,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-09T14:04:29Z",
+        "timestamp": "2026-08-10T14:35:07Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "949838-2b6d31c0773d",
+        "event_id": "949838-bb0ad26b994e",
         "event_type": "Added To Database",
         "film_id": "949838",
         "importance": "Low",
@@ -655,7 +655,7 @@
         },
         "source_type": "system",
         "summary": "72 HOURS is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-09T14:04:29Z",
+        "timestamp": "2026-08-10T14:35:07Z",
         "title": "Added to Awards Intelligence"
       },
       {
@@ -675,7 +675,7 @@
     ],
     "latest_event": {
       "confidence": "Inferred",
-      "event_id": "949838-cc55746bc121",
+      "event_id": "949838-c6efa535f70e",
       "event_type": "Distributor Change",
       "film_id": "949838",
       "importance": "Medium",
@@ -684,13 +684,13 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Netflix.",
-      "timestamp": "2026-08-09T14:04:29Z",
+      "timestamp": "2026-08-10T14:35:07Z",
       "title": "Distributor set: Netflix"
     },
     "recent_activity": [
       {
         "confidence": "Inferred",
-        "event_id": "949838-cc55746bc121",
+        "event_id": "949838-c6efa535f70e",
         "event_type": "Distributor Change",
         "film_id": "949838",
         "importance": "Medium",
@@ -699,12 +699,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-09T14:04:29Z",
+        "timestamp": "2026-08-10T14:35:07Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "949838-81a81bfce43e",
+        "event_id": "949838-fbf75a1a34e5",
         "event_type": "Awards Tier Changed",
         "film_id": "949838",
         "importance": "Medium",
@@ -714,12 +714,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-09T14:04:29Z",
+        "timestamp": "2026-08-10T14:35:07Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "949838-2b6d31c0773d",
+        "event_id": "949838-bb0ad26b994e",
         "event_type": "Added To Database",
         "film_id": "949838",
         "importance": "Low",
@@ -728,7 +728,7 @@
         },
         "source_type": "system",
         "summary": "72 HOURS is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-09T14:04:29Z",
+        "timestamp": "2026-08-10T14:35:07Z",
         "title": "Added to Awards Intelligence"
       }
     ],

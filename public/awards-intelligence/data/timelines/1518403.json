@@ -16,7 +16,7 @@
     },
     {
       "confidence": "Inferred",
-      "event_id": "1518403-c62b382b552c",
+      "event_id": "1518403-a7d4f9de3b4a",
       "event_type": "Awards Tier Changed",
       "film_id": "1518403",
       "importance": "Medium",
@@ -26,12 +26,12 @@
       },
       "source_type": "editorial_model",
       "summary": "insufficient credible awards evidence",
-      "timestamp": "2026-08-09T14:04:29Z",
+      "timestamp": "2026-08-10T14:35:07Z",
       "title": "Awards tier assigned: No Current Awards Case"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1518403-b6f14a2048c0",
+      "event_id": "1518403-d3d9aaa4b2a7",
       "event_type": "Added To Database",
       "film_id": "1518403",
       "importance": "Low",
@@ -40,7 +40,7 @@
       },
       "source_type": "system",
       "summary": "Air Bud Returns is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-08-09T14:04:29Z",
+      "timestamp": "2026-08-10T14:35:07Z",
       "title": "Added to Awards Intelligence"
     }
   ],
@@ -61,7 +61,7 @@
   "metadata": {
     "event_count": 3,
     "film_id": "1518403",
-    "generated_at": "20260809T140429Z",
+    "generated_at": "20260810T143507Z",
     "timeline_version": "phase6b",
     "title": "Air Bud Returns",
     "tmdb_id": "1518403"

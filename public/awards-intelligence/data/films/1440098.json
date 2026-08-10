@@ -7,7 +7,7 @@
       "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 56.6,
+    "attention_score": 56.1,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -35,13 +35,13 @@
         "status": "inferred"
       },
       {
-        "evidence": "TMDb popularity 3.2148",
-        "source": "audience_popularity",
+        "evidence": "Release date: 2026-09-09",
+        "source": "release_proximity",
         "status": "verified"
       },
       {
-        "evidence": "Release date: 2026-09-09",
-        "source": "release_proximity",
+        "evidence": "TMDb popularity 2.7761",
+        "source": "audience_popularity",
         "status": "verified"
       },
       {
@@ -51,14 +51,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 56.6,
+    "homepage_spotlight_score": 56.1,
     "industry_interest": "Moderate",
-    "last_updated": "20260809T140429Z",
+    "last_updated": "20260810T143507Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
         "evidence_count": 1,
-        "score": 7.4,
+        "score": 6.9,
         "statuses": [
           "verified"
         ]
@@ -198,10 +198,10 @@
     "tmdb_id": "1440098"
   },
   "intelligence": {
-    "confidence": "High",
-    "confidence_score": 0.99,
-    "generated_at": "2026-08-09T14:04:12Z",
-    "headline": "Drawn Together: popularity increasing",
+    "confidence": "Low",
+    "confidence_score": 0.25,
+    "generated_at": "2026-08-10T14:34:50Z",
+    "headline": "Drawn Together: no material change detected",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
       "signal_values": {
@@ -219,7 +219,7 @@
         "streaming_provider_count_us": 0,
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": false,
-        "tmdb_popularity": 3.2148,
+        "tmdb_popularity": 2.7761,
         "tmdb_poster_count": 1,
         "tmdb_release_date_us_primary": "2026-09-09",
         "tmdb_release_date_us_theatrical": "",
@@ -234,24 +234,13 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity rose from 2.9055 to 3.2148.",
-    "supporting_drivers": [
-      {
-        "confidence_weight": 0.9,
-        "driver_type": "popularity_increasing",
-        "evidence": "TMDb popularity rose from 2.9055 to 3.2148.",
-        "label": "Popularity increasing",
-        "retrieved_at": "2026-08-09T14:04:12Z",
-        "source_metric": "tmdb_popularity",
-        "source_provider": "tmdb",
-        "source_status": "available"
-      }
-    ]
+    "summary": "Current provider signals do not show a supported material change.",
+    "supporting_drivers": []
   },
   "media": {},
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260809T140429Z",
+    "generated_at": "20260810T143507Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -259,25 +248,25 @@
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 3.2148,
-        "retrieved_at": "2026-08-09",
+        "popularity": 2.7761,
+        "retrieved_at": "2026-08-10",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1440098",
         "status": "not_yet_rated"
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-08-09",
+      "retrieved_at": "2026-08-10",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1440098",
-      "value": 3.2148
+      "value": 2.7761
     },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 3.2148,
-      "retrieved_at": "2026-08-09",
+      "popularity": 2.7761,
+      "retrieved_at": "2026-08-10",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1440098",
       "status": "not_yet_rated"
@@ -394,13 +383,13 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.061,
+      "audience_momentum": 0.053,
       "campaign_activity": 2.7,
       "talent_profile": 2.925
     },
-    "generated_at": "2026-08-09T14:04:12Z",
+    "generated_at": "2026-08-10T14:34:50Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 5.686,
+    "score": 5.678,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -429,20 +418,20 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.061,
+        "contribution": 0.053,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 3.2148
+        "value": 2.7761
       }
     ]
   },
   "signals": {
     "cultural_significance": 37.0,
     "external_intelligence": {
-      "confidence": "High",
-      "headline": "Drawn Together: popularity increasing",
-      "summary": "TMDb popularity rose from 2.9055 to 3.2148."
+      "confidence": "Low",
+      "headline": "Drawn Together: no material change detected",
+      "summary": "Current provider signals do not show a supported material change."
     },
     "last_updated": "2026-09-09",
     "latest_event": {
@@ -480,7 +469,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1440098-2aaa5c2abef4",
+        "event_id": "1440098-3707a437040b",
         "event_type": "Awards Tier Changed",
         "film_id": "1440098",
         "importance": "Medium",
@@ -490,12 +479,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-09T14:04:29Z",
+        "timestamp": "2026-08-10T14:35:07Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1440098-c425f2cfe4da",
+        "event_id": "1440098-81839a1e9ea5",
         "event_type": "Added To Database",
         "film_id": "1440098",
         "importance": "Low",
@@ -504,15 +493,15 @@
         },
         "source_type": "system",
         "summary": "Drawn Together is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-09T14:04:29Z",
+        "timestamp": "2026-08-10T14:35:07Z",
         "title": "Added to Awards Intelligence"
       }
     ],
     "release_relevance": 31.1,
     "screening_room_score": {
-      "confidence": "High",
-      "explanation": "TMDb popularity rose from 2.9055 to 3.2148.",
-      "score": 5.686
+      "confidence": "Low",
+      "explanation": "Current provider signals do not show a supported material change.",
+      "score": 5.678
     },
     "watch_triggers": [
       "Awards-Season Release",
@@ -553,7 +542,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1440098-2aaa5c2abef4",
+        "event_id": "1440098-3707a437040b",
         "event_type": "Awards Tier Changed",
         "film_id": "1440098",
         "importance": "Medium",
@@ -563,12 +552,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-09T14:04:29Z",
+        "timestamp": "2026-08-10T14:35:07Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1440098-c425f2cfe4da",
+        "event_id": "1440098-81839a1e9ea5",
         "event_type": "Added To Database",
         "film_id": "1440098",
         "importance": "Low",
@@ -577,7 +566,7 @@
         },
         "source_type": "system",
         "summary": "Drawn Together is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-09T14:04:29Z",
+        "timestamp": "2026-08-10T14:35:07Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -612,7 +601,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1440098-2aaa5c2abef4",
+        "event_id": "1440098-3707a437040b",
         "event_type": "Awards Tier Changed",
         "film_id": "1440098",
         "importance": "Medium",
@@ -622,12 +611,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-09T14:04:29Z",
+        "timestamp": "2026-08-10T14:35:07Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1440098-c425f2cfe4da",
+        "event_id": "1440098-81839a1e9ea5",
         "event_type": "Added To Database",
         "film_id": "1440098",
         "importance": "Low",
@@ -636,7 +625,7 @@
         },
         "source_type": "system",
         "summary": "Drawn Together is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-09T14:04:29Z",
+        "timestamp": "2026-08-10T14:35:07Z",
         "title": "Added to Awards Intelligence"
       }
     ],

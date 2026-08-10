@@ -16,7 +16,7 @@
     },
     {
       "confidence": "Inferred",
-      "event_id": "1714703-040b3bfbe79a",
+      "event_id": "1714703-9154610be3fc",
       "event_type": "Awards Tier Changed",
       "film_id": "1714703",
       "importance": "Medium",
@@ -31,12 +31,12 @@
       },
       "source_type": "editorial_model",
       "summary": "category-specific awards case without broader contender evidence",
-      "timestamp": "2026-08-09T14:04:29Z",
+      "timestamp": "2026-08-10T14:35:07Z",
       "title": "Awards tier assigned: Category Contender"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1714703-621362433df1",
+      "event_id": "1714703-e2a64d4af47b",
       "event_type": "Added To Database",
       "film_id": "1714703",
       "importance": "Low",
@@ -45,7 +45,7 @@
       },
       "source_type": "system",
       "summary": "The Essentials 2 is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-08-09T14:04:29Z",
+      "timestamp": "2026-08-10T14:35:07Z",
       "title": "Added to Awards Intelligence"
     }
   ],
@@ -66,7 +66,7 @@
   "metadata": {
     "event_count": 3,
     "film_id": "1714703",
-    "generated_at": "20260809T140429Z",
+    "generated_at": "20260810T143507Z",
     "timeline_version": "phase6b",
     "title": "The Essentials 2",
     "tmdb_id": "1714703"
