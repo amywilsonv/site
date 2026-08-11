@@ -2,21 +2,7 @@
   "events": [
     {
       "confidence": "Inferred",
-      "event_id": "1318621-633ad40ce34e",
-      "event_type": "Homepage Featured",
-      "film_id": "1318621",
-      "importance": "Medium",
-      "metadata": {
-        "editorial_category": "Major Release"
-      },
-      "source_type": "discovery_homepage",
-      "summary": "Descendants: Wicked Wonderland is currently selected for the homepage experience.",
-      "timestamp": "2026-08-10T14:35:07Z",
-      "title": "Featured in The Screening Room"
-    },
-    {
-      "confidence": "Inferred",
-      "event_id": "1318621-3b758fe4e735",
+      "event_id": "1318621-7160eb681f27",
       "event_type": "Distributor Change",
       "film_id": "1318621",
       "importance": "Medium",
@@ -25,12 +11,12 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Disney.",
-      "timestamp": "2026-08-10T14:35:07Z",
+      "timestamp": "2026-08-11T14:35:12Z",
       "title": "Distributor set: Disney"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1318621-453b0f7bff18",
+      "event_id": "1318621-0d19e40028f2",
       "event_type": "Awards Tier Changed",
       "film_id": "1318621",
       "importance": "Medium",
@@ -42,12 +28,12 @@
       },
       "source_type": "editorial_model",
       "summary": "plausible but incomplete awards evidence",
-      "timestamp": "2026-08-10T14:35:07Z",
+      "timestamp": "2026-08-11T14:35:12Z",
       "title": "Awards tier assigned: Emerging"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1318621-3cb81eb992e3",
+      "event_id": "1318621-6f90099633d5",
       "event_type": "Added To Database",
       "film_id": "1318621",
       "importance": "Low",
@@ -56,7 +42,7 @@
       },
       "source_type": "system",
       "summary": "Descendants: Wicked Wonderland is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-08-10T14:35:07Z",
+      "timestamp": "2026-08-11T14:35:12Z",
       "title": "Added to Awards Intelligence"
     },
     {
@@ -76,22 +62,22 @@
   ],
   "latest_event": {
     "confidence": "Inferred",
-    "event_id": "1318621-633ad40ce34e",
-    "event_type": "Homepage Featured",
+    "event_id": "1318621-7160eb681f27",
+    "event_type": "Distributor Change",
     "film_id": "1318621",
     "importance": "Medium",
     "metadata": {
-      "editorial_category": "Major Release"
+      "distributor": "Disney"
     },
-    "source_type": "discovery_homepage",
-    "summary": "Descendants: Wicked Wonderland is currently selected for the homepage experience.",
-    "timestamp": "2026-08-10T14:35:07Z",
-    "title": "Featured in The Screening Room"
+    "source_type": "metadata",
+    "summary": "Current distributor is Disney.",
+    "timestamp": "2026-08-11T14:35:12Z",
+    "title": "Distributor set: Disney"
   },
   "metadata": {
-    "event_count": 5,
+    "event_count": 4,
     "film_id": "1318621",
-    "generated_at": "20260810T143507Z",
+    "generated_at": "20260811T143512Z",
     "timeline_version": "phase6b",
     "title": "Descendants: Wicked Wonderland",
     "tmdb_id": "1318621"

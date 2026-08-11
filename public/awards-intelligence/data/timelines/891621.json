@@ -16,7 +16,7 @@
     },
     {
       "confidence": "Inferred",
-      "event_id": "891621-ddb8c3fb1da9",
+      "event_id": "891621-0b0134f230dd",
       "event_type": "Distributor Change",
       "film_id": "891621",
       "importance": "Medium",
@@ -25,12 +25,12 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Searchlight Pictures.",
-      "timestamp": "2026-08-10T14:35:07Z",
+      "timestamp": "2026-08-11T14:35:12Z",
       "title": "Distributor set: Searchlight Pictures"
     },
     {
       "confidence": "Inferred",
-      "event_id": "891621-c65d7c6a4374",
+      "event_id": "891621-c8b6a87c6e72",
       "event_type": "Awards Tier Changed",
       "film_id": "891621",
       "importance": "Medium",
@@ -40,12 +40,12 @@
       },
       "source_type": "editorial_model",
       "summary": "insufficient credible awards evidence",
-      "timestamp": "2026-08-10T14:35:07Z",
+      "timestamp": "2026-08-11T14:35:12Z",
       "title": "Awards tier assigned: No Current Awards Case"
     },
     {
       "confidence": "Inferred",
-      "event_id": "891621-d13943c2ff6f",
+      "event_id": "891621-d73c5c9bf78d",
       "event_type": "Added To Database",
       "film_id": "891621",
       "importance": "Low",
@@ -54,7 +54,7 @@
       },
       "source_type": "system",
       "summary": "Wild Horse Nine is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-08-10T14:35:07Z",
+      "timestamp": "2026-08-11T14:35:12Z",
       "title": "Added to Awards Intelligence"
     }
   ],
@@ -75,7 +75,7 @@
   "metadata": {
     "event_count": 4,
     "film_id": "891621",
-    "generated_at": "20260810T143507Z",
+    "generated_at": "20260811T143512Z",
     "timeline_version": "phase6b",
     "title": "Wild Horse Nine",
     "tmdb_id": "891621"

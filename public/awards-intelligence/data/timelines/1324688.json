@@ -16,7 +16,7 @@
     },
     {
       "confidence": "Inferred",
-      "event_id": "1324688-4f40a0dbc8ff",
+      "event_id": "1324688-a714aaa0c7b9",
       "event_type": "Awards Tier Changed",
       "film_id": "1324688",
       "importance": "Medium",
@@ -26,12 +26,12 @@
       },
       "source_type": "editorial_model",
       "summary": "insufficient credible awards evidence",
-      "timestamp": "2026-08-10T14:35:07Z",
+      "timestamp": "2026-08-11T14:35:12Z",
       "title": "Awards tier assigned: No Current Awards Case"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1324688-f101191c667a",
+      "event_id": "1324688-42b8abdd9026",
       "event_type": "Added To Database",
       "film_id": "1324688",
       "importance": "Low",
@@ -40,7 +40,7 @@
       },
       "source_type": "system",
       "summary": "7G Rainbow Colony 2 is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-08-10T14:35:07Z",
+      "timestamp": "2026-08-11T14:35:12Z",
       "title": "Added to Awards Intelligence"
     }
   ],
@@ -61,7 +61,7 @@
   "metadata": {
     "event_count": 3,
     "film_id": "1324688",
-    "generated_at": "20260810T143507Z",
+    "generated_at": "20260811T143512Z",
     "timeline_version": "phase6b",
     "title": "7G Rainbow Colony 2",
     "tmdb_id": "1324688"
