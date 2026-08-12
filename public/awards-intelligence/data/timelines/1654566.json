@@ -16,7 +16,7 @@
     },
     {
       "confidence": "Inferred",
-      "event_id": "1654566-5227def71218",
+      "event_id": "1654566-281738807937",
       "event_type": "Distributor Change",
       "film_id": "1654566",
       "importance": "Medium",
@@ -25,12 +25,12 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Amazon MGM Studios.",
-      "timestamp": "2026-08-11T14:35:12Z",
+      "timestamp": "2026-08-12T14:34:57Z",
       "title": "Distributor set: Amazon MGM Studios"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1654566-ac05d23d02cc",
+      "event_id": "1654566-2ef23e7bfb84",
       "event_type": "Awards Tier Changed",
       "film_id": "1654566",
       "importance": "Medium",
@@ -44,12 +44,12 @@
       },
       "source_type": "editorial_model",
       "summary": "insufficient credible awards evidence",
-      "timestamp": "2026-08-11T14:35:12Z",
+      "timestamp": "2026-08-12T14:34:57Z",
       "title": "Awards tier assigned: No Current Awards Case"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1654566-8e0ab823e7db",
+      "event_id": "1654566-33ce7d54de0d",
       "event_type": "Added To Database",
       "film_id": "1654566",
       "importance": "Low",
@@ -58,7 +58,7 @@
       },
       "source_type": "system",
       "summary": "Vibe is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-08-11T14:35:12Z",
+      "timestamp": "2026-08-12T14:34:57Z",
       "title": "Added to Awards Intelligence"
     }
   ],
@@ -79,7 +79,7 @@
   "metadata": {
     "event_count": 4,
     "film_id": "1654566",
-    "generated_at": "20260811T143512Z",
+    "generated_at": "20260812T143457Z",
     "timeline_version": "phase6b",
     "title": "Vibe",
     "tmdb_id": "1654566"

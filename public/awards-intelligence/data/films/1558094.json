@@ -7,7 +7,7 @@
       "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 38.4,
+    "attention_score": 37.7,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -30,7 +30,7 @@
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 1.5934",
+        "evidence": "TMDb popularity 1.2674",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -46,14 +46,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 38.4,
+    "homepage_spotlight_score": 37.7,
     "industry_interest": null,
-    "last_updated": "20260811T143512Z",
+    "last_updated": "20260812T143457Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
         "evidence_count": 1,
-        "score": 4.9,
+        "score": 4.2,
         "statuses": [
           "verified"
         ]
@@ -203,10 +203,10 @@
     "tmdb_id": "1558094"
   },
   "intelligence": {
-    "confidence": "High",
-    "confidence_score": 0.99,
-    "generated_at": "2026-08-11T14:34:50Z",
-    "headline": "Let Love In: popularity increasing",
+    "confidence": "Low",
+    "confidence_score": 0.25,
+    "generated_at": "2026-08-12T14:34:42Z",
+    "headline": "Let Love In: no material change detected",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
       "signal_values": {
@@ -224,7 +224,7 @@
         "streaming_provider_count_us": 0,
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": false,
-        "tmdb_popularity": 1.5934,
+        "tmdb_popularity": 1.2674,
         "tmdb_poster_count": 0,
         "tmdb_release_date_us_primary": "",
         "tmdb_release_date_us_theatrical": "",
@@ -239,24 +239,13 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity rose from 1.3786 to 1.5934.",
-    "supporting_drivers": [
-      {
-        "confidence_weight": 0.9,
-        "driver_type": "popularity_increasing",
-        "evidence": "TMDb popularity rose from 1.3786 to 1.5934.",
-        "label": "Popularity increasing",
-        "retrieved_at": "2026-08-11T14:34:50Z",
-        "source_metric": "tmdb_popularity",
-        "source_provider": "tmdb",
-        "source_status": "available"
-      }
-    ]
+    "summary": "Current provider signals do not show a supported material change.",
+    "supporting_drivers": []
   },
   "media": {},
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260811T143512Z",
+    "generated_at": "20260812T143457Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -264,25 +253,25 @@
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 1.5934,
-        "retrieved_at": "2026-08-11",
+        "popularity": 1.2674,
+        "retrieved_at": "2026-08-12",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1558094",
         "status": "not_yet_rated"
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-08-11",
+      "retrieved_at": "2026-08-12",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1558094",
-      "value": 1.5934
+      "value": 1.2674
     },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 1.5934,
-      "retrieved_at": "2026-08-11",
+      "popularity": 1.2674,
+      "retrieved_at": "2026-08-12",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1558094",
       "status": "not_yet_rated"
@@ -410,13 +399,13 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.03,
+      "audience_momentum": 0.024,
       "awards_relevance": 2.4,
       "talent_profile": 0.925
     },
-    "generated_at": "2026-08-11T14:34:50Z",
+    "generated_at": "2026-08-12T14:34:42Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 3.355,
+    "score": 3.349,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -445,20 +434,20 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.03,
+        "contribution": 0.024,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 1.5934
+        "value": 1.2674
       }
     ]
   },
   "signals": {
     "cultural_significance": 0,
     "external_intelligence": {
-      "confidence": "High",
-      "headline": "Let Love In: popularity increasing",
-      "summary": "TMDb popularity rose from 1.3786 to 1.5934."
+      "confidence": "Low",
+      "headline": "Let Love In: no material change detected",
+      "summary": "Current provider signals do not show a supported material change."
     },
     "last_updated": "2026-10-21",
     "latest_event": {
@@ -496,7 +485,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1558094-825ef23ea89b",
+        "event_id": "1558094-a7828d509cae",
         "event_type": "Distributor Change",
         "film_id": "1558094",
         "importance": "Medium",
@@ -505,12 +494,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Mubi.",
-        "timestamp": "2026-08-11T14:35:12Z",
+        "timestamp": "2026-08-12T14:34:57Z",
         "title": "Distributor set: Mubi"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1558094-f91d575c47ba",
+        "event_id": "1558094-880e774f7615",
         "event_type": "Awards Tier Changed",
         "film_id": "1558094",
         "importance": "Medium",
@@ -524,15 +513,15 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-11T14:35:12Z",
+        "timestamp": "2026-08-12T14:34:57Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],
     "release_relevance": 27.4,
     "screening_room_score": {
-      "confidence": "High",
-      "explanation": "TMDb popularity rose from 1.3786 to 1.5934.",
-      "score": 3.355
+      "confidence": "Low",
+      "explanation": "Current provider signals do not show a supported material change.",
+      "score": 3.349
     },
     "watch_triggers": [
       "Prestige Distributor",
@@ -569,7 +558,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1558094-825ef23ea89b",
+        "event_id": "1558094-a7828d509cae",
         "event_type": "Distributor Change",
         "film_id": "1558094",
         "importance": "Medium",
@@ -578,12 +567,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Mubi.",
-        "timestamp": "2026-08-11T14:35:12Z",
+        "timestamp": "2026-08-12T14:34:57Z",
         "title": "Distributor set: Mubi"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1558094-f91d575c47ba",
+        "event_id": "1558094-880e774f7615",
         "event_type": "Awards Tier Changed",
         "film_id": "1558094",
         "importance": "Medium",
@@ -597,12 +586,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-11T14:35:12Z",
+        "timestamp": "2026-08-12T14:34:57Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1558094-fc6f1952688c",
+        "event_id": "1558094-2179440f7771",
         "event_type": "Added To Database",
         "film_id": "1558094",
         "importance": "Low",
@@ -611,7 +600,7 @@
         },
         "source_type": "system",
         "summary": "Let Love In is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-11T14:35:12Z",
+        "timestamp": "2026-08-12T14:34:57Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -646,7 +635,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1558094-825ef23ea89b",
+        "event_id": "1558094-a7828d509cae",
         "event_type": "Distributor Change",
         "film_id": "1558094",
         "importance": "Medium",
@@ -655,12 +644,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Mubi.",
-        "timestamp": "2026-08-11T14:35:12Z",
+        "timestamp": "2026-08-12T14:34:57Z",
         "title": "Distributor set: Mubi"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1558094-f91d575c47ba",
+        "event_id": "1558094-880e774f7615",
         "event_type": "Awards Tier Changed",
         "film_id": "1558094",
         "importance": "Medium",
@@ -674,7 +663,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-11T14:35:12Z",
+        "timestamp": "2026-08-12T14:34:57Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],

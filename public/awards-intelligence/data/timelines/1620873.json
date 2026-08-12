@@ -16,7 +16,7 @@
     },
     {
       "confidence": "Inferred",
-      "event_id": "1620873-a45a31faf2ef",
+      "event_id": "1620873-055a18418db3",
       "event_type": "Awards Tier Changed",
       "film_id": "1620873",
       "importance": "Medium",
@@ -28,12 +28,12 @@
       },
       "source_type": "editorial_model",
       "summary": "plausible but incomplete awards evidence",
-      "timestamp": "2026-08-11T14:35:12Z",
+      "timestamp": "2026-08-12T14:34:57Z",
       "title": "Awards tier assigned: Emerging"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1620873-7f9981d90e9f",
+      "event_id": "1620873-afc02e9e9c0a",
       "event_type": "Added To Database",
       "film_id": "1620873",
       "importance": "Low",
@@ -42,7 +42,7 @@
       },
       "source_type": "system",
       "summary": "HalloWiebe: Overdrive is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-08-11T14:35:12Z",
+      "timestamp": "2026-08-12T14:34:57Z",
       "title": "Added to Awards Intelligence"
     }
   ],
@@ -63,7 +63,7 @@
   "metadata": {
     "event_count": 3,
     "film_id": "1620873",
-    "generated_at": "20260811T143512Z",
+    "generated_at": "20260812T143457Z",
     "timeline_version": "phase6b",
     "title": "HalloWiebe: Overdrive",
     "tmdb_id": "1620873"

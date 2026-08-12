@@ -8,7 +8,7 @@
       "Awards Watch",
       "Festival Signal"
     ],
-    "attention_score": 44.2,
+    "attention_score": 45.4,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -16,13 +16,13 @@
     "early_reception": null,
     "evidence_sources": [
       {
-        "evidence": "Principal cast listed: Adam Driver, Miles Teller, Scarlett Johansson, Gavin Goudey",
-        "source": "cast_interest",
+        "evidence": "TMDb popularity 7.4721",
+        "source": "audience_popularity",
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 5.7155",
-        "source": "audience_popularity",
+        "evidence": "Principal cast listed: Adam Driver, Miles Teller, Scarlett Johansson, Gavin Goudey",
+        "source": "cast_interest",
         "status": "verified"
       },
       {
@@ -57,14 +57,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 44.2,
+    "homepage_spotlight_score": 45.4,
     "industry_interest": "High",
-    "last_updated": "20260811T143512Z",
+    "last_updated": "20260812T143457Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
         "evidence_count": 1,
-        "score": 9.8,
+        "score": 11.0,
         "statuses": [
           "verified"
         ]
@@ -223,7 +223,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-08-11T14:34:50Z",
+    "generated_at": "2026-08-12T14:34:42Z",
     "headline": "Paper Tiger: popularity increasing",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -242,7 +242,7 @@
         "streaming_provider_count_us": 0,
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": false,
-        "tmdb_popularity": 5.7155,
+        "tmdb_popularity": 7.4721,
         "tmdb_poster_count": 1,
         "tmdb_release_date_us_primary": "2026-11-13",
         "tmdb_release_date_us_theatrical": "2026-11-13",
@@ -257,14 +257,14 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity rose from 2.478 to 5.7155.",
+    "summary": "TMDb popularity rose from 2.478 to 7.4721.",
     "supporting_drivers": [
       {
         "confidence_weight": 0.9,
         "driver_type": "popularity_increasing",
-        "evidence": "TMDb popularity rose from 2.478 to 5.7155.",
+        "evidence": "TMDb popularity rose from 2.478 to 7.4721.",
         "label": "Popularity increasing",
-        "retrieved_at": "2026-08-11T14:34:50Z",
+        "retrieved_at": "2026-08-12T14:34:42Z",
         "source_metric": "tmdb_popularity",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -274,7 +274,7 @@
   "media": {},
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260811T143512Z",
+    "generated_at": "20260812T143457Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -282,31 +282,31 @@
     "box_office": {
       "budget": 15000000,
       "currency": "USD",
-      "retrieved_at": "2026-08-11",
+      "retrieved_at": "2026-08-12",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1381273"
     },
     "ratings": {
       "tmdb": {
-        "popularity": 5.7155,
-        "retrieved_at": "2026-08-11",
+        "popularity": 7.4721,
+        "retrieved_at": "2026-08-12",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1381273",
         "status": "not_yet_rated"
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-08-11",
+      "retrieved_at": "2026-08-12",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1381273",
-      "value": 5.7155
+      "value": 7.4721
     },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 5.7155,
-      "retrieved_at": "2026-08-11",
+      "popularity": 7.4721,
+      "retrieved_at": "2026-08-12",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1381273",
       "status": "not_yet_rated"
@@ -431,15 +431,15 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.109,
+      "audience_momentum": 0.142,
       "awards_relevance": 2.4,
       "campaign_activity": 1.35,
       "festival_awards": 0.88,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-11T14:34:50Z",
+    "generated_at": "2026-08-12T14:34:42Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 8.064,
+    "score": 8.097,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -489,7 +489,7 @@
     "external_intelligence": {
       "confidence": "High",
       "headline": "Paper Tiger: popularity increasing",
-      "summary": "TMDb popularity rose from 2.478 to 5.7155."
+      "summary": "TMDb popularity rose from 2.478 to 7.4721."
     },
     "last_updated": "2026-11-13",
     "latest_event": {
@@ -527,7 +527,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1381273-b921368743e0",
+        "event_id": "1381273-28f763e5c321",
         "event_type": "Awards Tier Changed",
         "film_id": "1381273",
         "importance": "High",
@@ -541,12 +541,12 @@
         },
         "source_type": "editorial_model",
         "summary": "high awards relevance with multiple independent evidence families",
-        "timestamp": "2026-08-11T14:35:12Z",
+        "timestamp": "2026-08-12T14:34:57Z",
         "title": "Awards tier assigned: Strong Contender"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1381273-5181035fa54f",
+        "event_id": "1381273-4a89c26e9937",
         "event_type": "Homepage Featured",
         "film_id": "1381273",
         "importance": "Medium",
@@ -555,15 +555,15 @@
         },
         "source_type": "discovery_homepage",
         "summary": "Paper Tiger is currently selected for the homepage experience.",
-        "timestamp": "2026-08-11T14:35:12Z",
+        "timestamp": "2026-08-12T14:34:57Z",
         "title": "Featured in The Screening Room"
       }
     ],
     "release_relevance": 39.5,
     "screening_room_score": {
       "confidence": "High",
-      "explanation": "TMDb popularity rose from 2.478 to 5.7155.",
-      "score": 8.064
+      "explanation": "TMDb popularity rose from 2.478 to 7.4721.",
+      "score": 8.097
     },
     "watch_triggers": [
       "Festival Premiere",
@@ -605,7 +605,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1381273-b921368743e0",
+        "event_id": "1381273-28f763e5c321",
         "event_type": "Awards Tier Changed",
         "film_id": "1381273",
         "importance": "High",
@@ -619,12 +619,12 @@
         },
         "source_type": "editorial_model",
         "summary": "high awards relevance with multiple independent evidence families",
-        "timestamp": "2026-08-11T14:35:12Z",
+        "timestamp": "2026-08-12T14:34:57Z",
         "title": "Awards tier assigned: Strong Contender"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1381273-5181035fa54f",
+        "event_id": "1381273-4a89c26e9937",
         "event_type": "Homepage Featured",
         "film_id": "1381273",
         "importance": "Medium",
@@ -633,12 +633,12 @@
         },
         "source_type": "discovery_homepage",
         "summary": "Paper Tiger is currently selected for the homepage experience.",
-        "timestamp": "2026-08-11T14:35:12Z",
+        "timestamp": "2026-08-12T14:34:57Z",
         "title": "Featured in The Screening Room"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1381273-4ed1312b6828",
+        "event_id": "1381273-669b776c1af2",
         "event_type": "Distributor Change",
         "film_id": "1381273",
         "importance": "Medium",
@@ -647,12 +647,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Neon.",
-        "timestamp": "2026-08-11T14:35:12Z",
+        "timestamp": "2026-08-12T14:34:57Z",
         "title": "Distributor set: Neon"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1381273-a0254ca08dd6",
+        "event_id": "1381273-d340eef20412",
         "event_type": "Added To Database",
         "film_id": "1381273",
         "importance": "Low",
@@ -661,7 +661,7 @@
         },
         "source_type": "system",
         "summary": "Paper Tiger is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-11T14:35:12Z",
+        "timestamp": "2026-08-12T14:34:57Z",
         "title": "Added to Awards Intelligence"
       },
       {
@@ -738,7 +738,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1381273-b921368743e0",
+        "event_id": "1381273-28f763e5c321",
         "event_type": "Awards Tier Changed",
         "film_id": "1381273",
         "importance": "High",
@@ -752,12 +752,12 @@
         },
         "source_type": "editorial_model",
         "summary": "high awards relevance with multiple independent evidence families",
-        "timestamp": "2026-08-11T14:35:12Z",
+        "timestamp": "2026-08-12T14:34:57Z",
         "title": "Awards tier assigned: Strong Contender"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1381273-5181035fa54f",
+        "event_id": "1381273-4a89c26e9937",
         "event_type": "Homepage Featured",
         "film_id": "1381273",
         "importance": "Medium",
@@ -766,7 +766,7 @@
         },
         "source_type": "discovery_homepage",
         "summary": "Paper Tiger is currently selected for the homepage experience.",
-        "timestamp": "2026-08-11T14:35:12Z",
+        "timestamp": "2026-08-12T14:34:57Z",
         "title": "Featured in The Screening Room"
       }
     ],

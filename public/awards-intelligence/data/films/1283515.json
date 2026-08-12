@@ -7,7 +7,7 @@
       "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 54.4,
+    "attention_score": 63.3,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -20,7 +20,7 @@
         "status": "inferred"
       },
       {
-        "evidence": "TMDb popularity 7.0865",
+        "evidence": "TMDb popularity 11.6226",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -35,8 +35,8 @@
         "status": "verified"
       },
       {
-        "evidence": "Release date: 2026-10-02",
-        "source": "release_proximity",
+        "evidence": "Trailer URL present",
+        "source": "trailer_available",
         "status": "verified"
       },
       {
@@ -45,27 +45,32 @@
         "status": "inferred"
       },
       {
+        "evidence": "Release date: 2026-10-02",
+        "source": "release_proximity",
+        "status": "verified"
+      },
+      {
         "evidence": "Director: Michael Showalter",
         "source": "filmmaker_interest",
         "status": "verified"
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 54.4,
+    "homepage_spotlight_score": 63.3,
     "industry_interest": null,
-    "last_updated": "20260811T143512Z",
-    "promotional_response": null,
+    "last_updated": "20260812T143457Z",
+    "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
-        "evidence_count": 1,
-        "score": 10.8,
+        "evidence_count": 2,
+        "score": 17.5,
         "statuses": [
           "verified"
         ]
       },
       "commercial": {
         "evidence_count": 1,
-        "score": 4.9,
+        "score": 7.1,
         "statuses": [
           "inferred"
         ]
@@ -139,7 +144,7 @@
     "probabilities": {}
   },
   "commercial": {
-    "commercial_significance": 19.0,
+    "commercial_significance": 27.2,
     "distributor": "Amazon MGM Studios",
     "franchise": "",
     "release_strategy": "Streamer awards release",
@@ -204,7 +209,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-08-11T14:34:50Z",
+    "generated_at": "2026-08-12T14:34:42Z",
     "headline": "Verity: popularity increasing",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -222,40 +227,63 @@
         "streaming_flatrate_provider_count_us": 0,
         "streaming_provider_count_us": 0,
         "tmdb_backdrop_count": 0,
-        "tmdb_canonical_trailer_available": false,
-        "tmdb_popularity": 7.0865,
-        "tmdb_poster_count": 8,
+        "tmdb_canonical_trailer_available": true,
+        "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=xdPMKhjMSFs",
+        "tmdb_popularity": 11.6226,
+        "tmdb_poster_count": 9,
         "tmdb_release_date_us_primary": "2026-10-02",
         "tmdb_release_date_us_theatrical": "2026-10-02",
         "tmdb_release_status": "Post Production",
         "tmdb_vote_average": 0,
         "tmdb_vote_count": 0,
         "tmdb_watch_provider_count_us": 0,
-        "trailer_available": false,
-        "trailer_count": 1
+        "trailer_available": true,
+        "trailer_count": 2,
+        "trailer_url": "https://www.youtube.com/watch?v=xdPMKhjMSFs"
       },
-      "source_signal_count": 24,
+      "source_signal_count": 26,
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity rose from 4.4021 to 7.0865.",
+    "summary": "TMDb popularity rose from 4.4021 to 11.6226. A canonical TMDb trailer URL is available.",
     "supporting_drivers": [
       {
         "confidence_weight": 0.9,
         "driver_type": "popularity_increasing",
-        "evidence": "TMDb popularity rose from 4.4021 to 7.0865.",
+        "evidence": "TMDb popularity rose from 4.4021 to 11.6226.",
         "label": "Popularity increasing",
-        "retrieved_at": "2026-08-11T14:34:50Z",
+        "retrieved_at": "2026-08-12T14:34:42Z",
         "source_metric": "tmdb_popularity",
+        "source_provider": "tmdb",
+        "source_status": "available"
+      },
+      {
+        "confidence_weight": 0.85,
+        "driver_type": "trailer_available",
+        "evidence": "A canonical TMDb trailer URL is available.",
+        "label": "Trailer available",
+        "retrieved_at": "2026-08-12T14:34:42Z",
+        "source_metric": "tmdb_canonical_trailer_url",
         "source_provider": "tmdb",
         "source_status": "available"
       }
     ]
   },
-  "media": {},
+  "media": {
+    "canonical_trailer": {
+      "retrieved_at": "2026-08-12",
+      "site": "YouTube",
+      "source": "TMDb",
+      "source_url": "https://www.themoviedb.org/movie/1283515/videos",
+      "title": "Official Trailer",
+      "type": "Trailer",
+      "url": "https://www.youtube.com/watch?v=xdPMKhjMSFs"
+    },
+    "latest_trailer_url": "https://www.youtube.com/watch?v=xdPMKhjMSFs"
+  },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260811T143512Z",
+    "generated_at": "20260812T143457Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -263,31 +291,31 @@
     "box_office": {
       "budget": 40000000,
       "currency": "USD",
-      "retrieved_at": "2026-08-11",
+      "retrieved_at": "2026-08-12",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1283515"
     },
     "ratings": {
       "tmdb": {
-        "popularity": 7.0865,
-        "retrieved_at": "2026-08-11",
+        "popularity": 11.6226,
+        "retrieved_at": "2026-08-12",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1283515",
         "status": "not_yet_rated"
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-08-11",
+      "retrieved_at": "2026-08-12",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1283515",
-      "value": 7.0865
+      "value": 11.6226
     },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 7.0865,
-      "retrieved_at": "2026-08-11",
+      "popularity": 11.6226,
+      "retrieved_at": "2026-08-12",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1283515",
       "status": "not_yet_rated"
@@ -425,16 +453,24 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.135,
+      "audience_momentum": 0.221,
       "awards_relevance": 0.8,
-      "campaign_activity": 1.35,
+      "campaign_activity": 2.7,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-11T14:34:50Z",
+    "generated_at": "2026-08-12T14:34:42Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 5.61,
+    "score": 7.046,
     "source": "derived_screening_room_score",
     "top_drivers": [
+      {
+        "confidence": 0.9,
+        "contribution": 2.7,
+        "metric_name": "trailer_count",
+        "provider": "trailers",
+        "score_family": "campaign_activity",
+        "value": 2
+      },
       {
         "confidence": 0.55,
         "contribution": 2.2,
@@ -442,14 +478,6 @@
         "provider": "legacy_dashboard_talent_history_adapter",
         "score_family": "talent_profile",
         "value": 8
-      },
-      {
-        "confidence": 0.9,
-        "contribution": 1.35,
-        "metric_name": "trailer_count",
-        "provider": "trailers",
-        "score_family": "campaign_activity",
-        "value": 1
       },
       {
         "confidence": 0.5,
@@ -469,20 +497,20 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.135,
+        "contribution": 0.221,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 7.0865
+        "value": 11.6226
       }
     ]
   },
   "signals": {
-    "cultural_significance": 19.0,
+    "cultural_significance": 27.2,
     "external_intelligence": {
       "confidence": "High",
       "headline": "Verity: popularity increasing",
-      "summary": "TMDb popularity rose from 4.4021 to 7.0865."
+      "summary": "TMDb popularity rose from 4.4021 to 11.6226. A canonical TMDb trailer URL is available."
     },
     "last_updated": "2026-10-02",
     "latest_event": {
@@ -520,7 +548,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1283515-5cf504c12a05",
+        "event_id": "1283515-9c379926a266",
         "event_type": "Distributor Change",
         "film_id": "1283515",
         "importance": "Medium",
@@ -529,12 +557,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Amazon MGM Studios.",
-        "timestamp": "2026-08-11T14:35:12Z",
+        "timestamp": "2026-08-12T14:34:57Z",
         "title": "Distributor set: Amazon MGM Studios"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1283515-c39dbc31a67a",
+        "event_id": "1283515-4b735e381857",
         "event_type": "Awards Tier Changed",
         "film_id": "1283515",
         "importance": "Medium",
@@ -546,15 +574,15 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-11T14:35:12Z",
+        "timestamp": "2026-08-12T14:34:57Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],
-    "release_relevance": 28.0,
+    "release_relevance": 29.4,
     "screening_room_score": {
       "confidence": "High",
-      "explanation": "TMDb popularity rose from 4.4021 to 7.0865.",
-      "score": 5.61
+      "explanation": "TMDb popularity rose from 4.4021 to 11.6226. A canonical TMDb trailer URL is available.",
+      "score": 7.046
     },
     "watch_triggers": [
       "Prestige Distributor",
@@ -597,7 +625,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1283515-5cf504c12a05",
+        "event_id": "1283515-9c379926a266",
         "event_type": "Distributor Change",
         "film_id": "1283515",
         "importance": "Medium",
@@ -606,12 +634,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Amazon MGM Studios.",
-        "timestamp": "2026-08-11T14:35:12Z",
+        "timestamp": "2026-08-12T14:34:57Z",
         "title": "Distributor set: Amazon MGM Studios"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1283515-c39dbc31a67a",
+        "event_id": "1283515-4b735e381857",
         "event_type": "Awards Tier Changed",
         "film_id": "1283515",
         "importance": "Medium",
@@ -623,12 +651,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-11T14:35:12Z",
+        "timestamp": "2026-08-12T14:34:57Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1283515-be6cae4bb5a8",
+        "event_id": "1283515-614fa194dbce",
         "event_type": "Added To Database",
         "film_id": "1283515",
         "importance": "Low",
@@ -637,7 +665,7 @@
         },
         "source_type": "system",
         "summary": "Verity is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-11T14:35:12Z",
+        "timestamp": "2026-08-12T14:34:57Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -672,7 +700,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1283515-5cf504c12a05",
+        "event_id": "1283515-9c379926a266",
         "event_type": "Distributor Change",
         "film_id": "1283515",
         "importance": "Medium",
@@ -681,12 +709,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Amazon MGM Studios.",
-        "timestamp": "2026-08-11T14:35:12Z",
+        "timestamp": "2026-08-12T14:34:57Z",
         "title": "Distributor set: Amazon MGM Studios"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1283515-c39dbc31a67a",
+        "event_id": "1283515-4b735e381857",
         "event_type": "Awards Tier Changed",
         "film_id": "1283515",
         "importance": "Medium",
@@ -698,7 +726,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-11T14:35:12Z",
+        "timestamp": "2026-08-12T14:34:57Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],

@@ -2,7 +2,7 @@
   "events": [
     {
       "confidence": "Inferred",
-      "event_id": "1728056-da1d6a6614b0",
+      "event_id": "1728056-a6f67fb1eab8",
       "event_type": "Distributor Change",
       "film_id": "1728056",
       "importance": "Medium",
@@ -11,12 +11,12 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Netflix.",
-      "timestamp": "2026-08-11T14:35:12Z",
+      "timestamp": "2026-08-12T14:34:57Z",
       "title": "Distributor set: Netflix"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1728056-4b82c7e6003b",
+      "event_id": "1728056-a6a77ba503e1",
       "event_type": "Awards Tier Changed",
       "film_id": "1728056",
       "importance": "Medium",
@@ -26,12 +26,12 @@
       },
       "source_type": "editorial_model",
       "summary": "insufficient credible awards evidence",
-      "timestamp": "2026-08-11T14:35:12Z",
+      "timestamp": "2026-08-12T14:34:57Z",
       "title": "Awards tier assigned: No Current Awards Case"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1728056-3d318a7e2f1a",
+      "event_id": "1728056-487f2a7d409b",
       "event_type": "Added To Database",
       "film_id": "1728056",
       "importance": "Low",
@@ -40,7 +40,7 @@
       },
       "source_type": "system",
       "summary": "Big Chicken: A Fast Food Conspiracy is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-08-11T14:35:12Z",
+      "timestamp": "2026-08-12T14:34:57Z",
       "title": "Added to Awards Intelligence"
     },
     {
@@ -60,7 +60,7 @@
   ],
   "latest_event": {
     "confidence": "Inferred",
-    "event_id": "1728056-da1d6a6614b0",
+    "event_id": "1728056-a6f67fb1eab8",
     "event_type": "Distributor Change",
     "film_id": "1728056",
     "importance": "Medium",
@@ -69,13 +69,13 @@
     },
     "source_type": "metadata",
     "summary": "Current distributor is Netflix.",
-    "timestamp": "2026-08-11T14:35:12Z",
+    "timestamp": "2026-08-12T14:34:57Z",
     "title": "Distributor set: Netflix"
   },
   "metadata": {
     "event_count": 4,
     "film_id": "1728056",
-    "generated_at": "20260811T143512Z",
+    "generated_at": "20260812T143457Z",
     "timeline_version": "phase6b",
     "title": "Big Chicken: A Fast Food Conspiracy",
     "tmdb_id": "1728056"

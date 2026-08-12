@@ -2,7 +2,7 @@
   "events": [
     {
       "confidence": "Inferred",
-      "event_id": "1630409-dd7f3d8955e7",
+      "event_id": "1630409-55ec55861396",
       "event_type": "Distributor Change",
       "film_id": "1630409",
       "importance": "Medium",
@@ -11,12 +11,12 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Netflix.",
-      "timestamp": "2026-08-11T14:35:12Z",
+      "timestamp": "2026-08-12T14:34:57Z",
       "title": "Distributor set: Netflix"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1630409-66ac8aa6f335",
+      "event_id": "1630409-ab03e309dbea",
       "event_type": "Awards Tier Changed",
       "film_id": "1630409",
       "importance": "Medium",
@@ -28,12 +28,12 @@
       },
       "source_type": "editorial_model",
       "summary": "insufficient credible awards evidence",
-      "timestamp": "2026-08-11T14:35:12Z",
+      "timestamp": "2026-08-12T14:34:57Z",
       "title": "Awards tier assigned: No Current Awards Case"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1630409-308596540a99",
+      "event_id": "1630409-2d90faf27c10",
       "event_type": "Added To Database",
       "film_id": "1630409",
       "importance": "Low",
@@ -42,7 +42,7 @@
       },
       "source_type": "system",
       "summary": "The Debt Collector is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-08-11T14:35:12Z",
+      "timestamp": "2026-08-12T14:34:57Z",
       "title": "Added to Awards Intelligence"
     },
     {
@@ -62,7 +62,7 @@
   ],
   "latest_event": {
     "confidence": "Inferred",
-    "event_id": "1630409-dd7f3d8955e7",
+    "event_id": "1630409-55ec55861396",
     "event_type": "Distributor Change",
     "film_id": "1630409",
     "importance": "Medium",
@@ -71,13 +71,13 @@
     },
     "source_type": "metadata",
     "summary": "Current distributor is Netflix.",
-    "timestamp": "2026-08-11T14:35:12Z",
+    "timestamp": "2026-08-12T14:34:57Z",
     "title": "Distributor set: Netflix"
   },
   "metadata": {
     "event_count": 4,
     "film_id": "1630409",
-    "generated_at": "20260811T143512Z",
+    "generated_at": "20260812T143457Z",
     "timeline_version": "phase6b",
     "title": "The Debt Collector",
     "tmdb_id": "1630409"
