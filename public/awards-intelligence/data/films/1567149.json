@@ -8,7 +8,7 @@
       "Event Release",
       "Awards Watch"
     ],
-    "attention_score": 66.9,
+    "attention_score": 67.0,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -51,7 +51,7 @@
         "status": "inferred"
       },
       {
-        "evidence": "TMDb popularity 1.4482",
+        "evidence": "TMDb popularity 1.4632",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -62,14 +62,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 66.9,
+    "homepage_spotlight_score": 67.0,
     "industry_interest": "Moderate",
-    "last_updated": "20260812T143457Z",
+    "last_updated": "20260813T143545Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
         "evidence_count": 2,
-        "score": 10.5,
+        "score": 10.6,
         "statuses": [
           "verified"
         ]
@@ -221,7 +221,7 @@
   "intelligence": {
     "confidence": "Low",
     "confidence_score": 0.25,
-    "generated_at": "2026-08-12T14:34:42Z",
+    "generated_at": "2026-08-13T14:35:27Z",
     "headline": "Kamen Rider Kabuto 20th: \u200b\u200bThe One Who Inherits the Heavens: no material change detected",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -241,7 +241,7 @@
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=Dzi6MrhZH2w",
-        "tmdb_popularity": 1.4482,
+        "tmdb_popularity": 1.4632,
         "tmdb_poster_count": 0,
         "tmdb_release_date_us_primary": "",
         "tmdb_release_date_us_theatrical": "",
@@ -262,7 +262,7 @@
   },
   "media": {
     "canonical_trailer": {
-      "retrieved_at": "2026-08-12",
+      "retrieved_at": "2026-08-13",
       "site": "YouTube",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1567149/videos",
@@ -274,7 +274,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260812T143457Z",
+    "generated_at": "20260813T143545Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -282,25 +282,25 @@
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 1.4482,
-        "retrieved_at": "2026-08-12",
+        "popularity": 1.4632,
+        "retrieved_at": "2026-08-13",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1567149",
         "status": "not_yet_rated"
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-08-12",
+      "retrieved_at": "2026-08-13",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1567149",
-      "value": 1.4482
+      "value": 1.4632
     },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 1.4482,
-      "retrieved_at": "2026-08-12",
+      "popularity": 1.4632,
+      "retrieved_at": "2026-08-13",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1567149",
       "status": "not_yet_rated"
@@ -430,7 +430,7 @@
       "campaign_activity": 2.7,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-12T14:34:42Z",
+    "generated_at": "2026-08-13T14:35:27Z",
     "schema_version": "phase3_screening_room_score_v1",
     "score": 6.853,
     "source": "derived_screening_room_score",
@@ -473,7 +473,7 @@
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 1.4482
+        "value": 1.4632
       }
     ]
   },
@@ -520,7 +520,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1567149-3a451c982c59",
+        "event_id": "1567149-c96b100cc942",
         "event_type": "Awards Tier Changed",
         "film_id": "1567149",
         "importance": "Medium",
@@ -532,12 +532,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-08-12T14:34:57Z",
+        "timestamp": "2026-08-13T14:35:45Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1567149-9af7199f450e",
+        "event_id": "1567149-a2774275e96f",
         "event_type": "Added To Database",
         "film_id": "1567149",
         "importance": "Low",
@@ -546,7 +546,7 @@
         },
         "source_type": "system",
         "summary": "Kamen Rider Kabuto 20th: \u200b\u200bThe One Who Inherits the Heavens is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-12T14:34:57Z",
+        "timestamp": "2026-08-13T14:35:45Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -598,7 +598,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1567149-3a451c982c59",
+        "event_id": "1567149-c96b100cc942",
         "event_type": "Awards Tier Changed",
         "film_id": "1567149",
         "importance": "Medium",
@@ -610,12 +610,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-08-12T14:34:57Z",
+        "timestamp": "2026-08-13T14:35:45Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1567149-9af7199f450e",
+        "event_id": "1567149-a2774275e96f",
         "event_type": "Added To Database",
         "film_id": "1567149",
         "importance": "Low",
@@ -624,7 +624,7 @@
         },
         "source_type": "system",
         "summary": "Kamen Rider Kabuto 20th: \u200b\u200bThe One Who Inherits the Heavens is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-12T14:34:57Z",
+        "timestamp": "2026-08-13T14:35:45Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -659,7 +659,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1567149-3a451c982c59",
+        "event_id": "1567149-c96b100cc942",
         "event_type": "Awards Tier Changed",
         "film_id": "1567149",
         "importance": "Medium",
@@ -671,12 +671,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-08-12T14:34:57Z",
+        "timestamp": "2026-08-13T14:35:45Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1567149-9af7199f450e",
+        "event_id": "1567149-a2774275e96f",
         "event_type": "Added To Database",
         "film_id": "1567149",
         "importance": "Low",
@@ -685,7 +685,7 @@
         },
         "source_type": "system",
         "summary": "Kamen Rider Kabuto 20th: \u200b\u200bThe One Who Inherits the Heavens is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-12T14:34:57Z",
+        "timestamp": "2026-08-13T14:35:45Z",
         "title": "Added to Awards Intelligence"
       }
     ],

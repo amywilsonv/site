@@ -7,7 +7,7 @@
       "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 54.2,
+    "attention_score": 54.1,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -25,7 +25,7 @@
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 5.4697",
+        "evidence": "TMDb popularity 5.3098",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -51,14 +51,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 54.2,
+    "homepage_spotlight_score": 54.1,
     "industry_interest": null,
-    "last_updated": "20260812T143457Z",
+    "last_updated": "20260813T143545Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
         "evidence_count": 2,
-        "score": 14.0,
+        "score": 13.9,
         "statuses": [
           "verified"
         ]
@@ -203,7 +203,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-08-12T14:34:42Z",
+    "generated_at": "2026-08-13T14:35:27Z",
     "headline": "Wild Horse Nine: popularity increasing",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -223,7 +223,7 @@
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=Haw_sznA5aQ",
-        "tmdb_popularity": 5.4697,
+        "tmdb_popularity": 5.3098,
         "tmdb_poster_count": 8,
         "tmdb_release_date_us_primary": "2026-11-06",
         "tmdb_release_date_us_theatrical": "2026-11-06",
@@ -239,14 +239,14 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity rose from 4.4028 to 5.4697.",
+    "summary": "TMDb popularity rose from 4.4028 to 5.3098.",
     "supporting_drivers": [
       {
         "confidence_weight": 0.9,
         "driver_type": "popularity_increasing",
-        "evidence": "TMDb popularity rose from 4.4028 to 5.4697.",
+        "evidence": "TMDb popularity rose from 4.4028 to 5.3098.",
         "label": "Popularity increasing",
-        "retrieved_at": "2026-08-12T14:34:42Z",
+        "retrieved_at": "2026-08-13T14:35:27Z",
         "source_metric": "tmdb_popularity",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -255,7 +255,7 @@
   },
   "media": {
     "canonical_trailer": {
-      "retrieved_at": "2026-08-12",
+      "retrieved_at": "2026-08-13",
       "site": "YouTube",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/891621/videos",
@@ -267,7 +267,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260812T143457Z",
+    "generated_at": "20260813T143545Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -275,31 +275,31 @@
     "box_office": {
       "budget": 5000000,
       "currency": "USD",
-      "retrieved_at": "2026-08-12",
+      "retrieved_at": "2026-08-13",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/891621"
     },
     "ratings": {
       "tmdb": {
-        "popularity": 5.4697,
-        "retrieved_at": "2026-08-12",
+        "popularity": 5.3098,
+        "retrieved_at": "2026-08-13",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/891621",
         "status": "not_yet_rated"
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-08-12",
+      "retrieved_at": "2026-08-13",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/891621",
-      "value": 5.4697
+      "value": 5.3098
     },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 5.4697,
-      "retrieved_at": "2026-08-12",
+      "popularity": 5.3098,
+      "retrieved_at": "2026-08-13",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/891621",
       "status": "not_yet_rated"
@@ -331,6 +331,17 @@
         "tmdb_id": "1670061"
       },
       {
+        "profile_url": "film.html?id=1487861",
+        "relationship_score": 38,
+        "shared_signals": [
+          "General Watch",
+          "Crime",
+          "Thriller"
+        ],
+        "title": "Elize: Shadows of a Woman",
+        "tmdb_id": "1487861"
+      },
+      {
         "profile_url": "film.html?id=1437511",
         "relationship_score": 38,
         "shared_signals": [
@@ -342,6 +353,17 @@
         "tmdb_id": "1437511"
       },
       {
+        "profile_url": "film.html?id=1487864",
+        "relationship_score": 38,
+        "shared_signals": [
+          "General Watch",
+          "Crime",
+          "Thriller"
+        ],
+        "title": "Nando Between Two Worlds - A Sintonia Film",
+        "tmdb_id": "1487864"
+      },
+      {
         "profile_url": "film.html?id=860508",
         "relationship_score": 38,
         "shared_signals": [
@@ -351,26 +373,6 @@
         ],
         "title": "The Whisper Man",
         "tmdb_id": "860508"
-      },
-      {
-        "profile_url": "film.html?id=1437882",
-        "relationship_score": 32,
-        "shared_signals": [
-          "General Watch",
-          "Thriller"
-        ],
-        "title": "A Place in Hell",
-        "tmdb_id": "1437882"
-      },
-      {
-        "profile_url": "film.html?id=1461432",
-        "relationship_score": 32,
-        "shared_signals": [
-          "General Watch",
-          "Comedy"
-        ],
-        "title": "Adult Supervision",
-        "tmdb_id": "1461432"
       }
     ],
     "related_people": [
@@ -432,13 +434,13 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.104,
+      "audience_momentum": 0.101,
       "campaign_activity": 1.35,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-12T14:34:42Z",
+    "generated_at": "2026-08-13T14:35:27Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 4.779,
+    "score": 4.776,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -467,11 +469,11 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.104,
+        "contribution": 0.101,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 5.4697
+        "value": 5.3098
       }
     ]
   },
@@ -480,7 +482,7 @@
     "external_intelligence": {
       "confidence": "High",
       "headline": "Wild Horse Nine: popularity increasing",
-      "summary": "TMDb popularity rose from 4.4028 to 5.4697."
+      "summary": "TMDb popularity rose from 4.4028 to 5.3098."
     },
     "last_updated": "2026-11-06",
     "latest_event": {
@@ -518,7 +520,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "891621-244bc0961a75",
+        "event_id": "891621-9b0cc7bf2285",
         "event_type": "Distributor Change",
         "film_id": "891621",
         "importance": "Medium",
@@ -527,12 +529,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Searchlight Pictures.",
-        "timestamp": "2026-08-12T14:34:57Z",
+        "timestamp": "2026-08-13T14:35:45Z",
         "title": "Distributor set: Searchlight Pictures"
       },
       {
         "confidence": "Inferred",
-        "event_id": "891621-accb6c07c9fe",
+        "event_id": "891621-37ad8dea0d49",
         "event_type": "Awards Tier Changed",
         "film_id": "891621",
         "importance": "Medium",
@@ -542,15 +544,15 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-12T14:34:57Z",
+        "timestamp": "2026-08-13T14:35:45Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],
     "release_relevance": 24.7,
     "screening_room_score": {
       "confidence": "High",
-      "explanation": "TMDb popularity rose from 4.4028 to 5.4697.",
-      "score": 4.779
+      "explanation": "TMDb popularity rose from 4.4028 to 5.3098.",
+      "score": 4.776
     },
     "watch_triggers": [
       "Prestige Distributor",
@@ -594,7 +596,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "891621-244bc0961a75",
+        "event_id": "891621-9b0cc7bf2285",
         "event_type": "Distributor Change",
         "film_id": "891621",
         "importance": "Medium",
@@ -603,12 +605,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Searchlight Pictures.",
-        "timestamp": "2026-08-12T14:34:57Z",
+        "timestamp": "2026-08-13T14:35:45Z",
         "title": "Distributor set: Searchlight Pictures"
       },
       {
         "confidence": "Inferred",
-        "event_id": "891621-accb6c07c9fe",
+        "event_id": "891621-37ad8dea0d49",
         "event_type": "Awards Tier Changed",
         "film_id": "891621",
         "importance": "Medium",
@@ -618,12 +620,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-12T14:34:57Z",
+        "timestamp": "2026-08-13T14:35:45Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "891621-23a45f8f52ed",
+        "event_id": "891621-4ece7adac76b",
         "event_type": "Added To Database",
         "film_id": "891621",
         "importance": "Low",
@@ -632,7 +634,7 @@
         },
         "source_type": "system",
         "summary": "Wild Horse Nine is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-12T14:34:57Z",
+        "timestamp": "2026-08-13T14:35:45Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -667,7 +669,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "891621-244bc0961a75",
+        "event_id": "891621-9b0cc7bf2285",
         "event_type": "Distributor Change",
         "film_id": "891621",
         "importance": "Medium",
@@ -676,12 +678,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Searchlight Pictures.",
-        "timestamp": "2026-08-12T14:34:57Z",
+        "timestamp": "2026-08-13T14:35:45Z",
         "title": "Distributor set: Searchlight Pictures"
       },
       {
         "confidence": "Inferred",
-        "event_id": "891621-accb6c07c9fe",
+        "event_id": "891621-37ad8dea0d49",
         "event_type": "Awards Tier Changed",
         "film_id": "891621",
         "importance": "Medium",
@@ -691,7 +693,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-12T14:34:57Z",
+        "timestamp": "2026-08-13T14:35:45Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],

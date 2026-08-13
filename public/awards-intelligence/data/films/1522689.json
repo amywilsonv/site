@@ -50,7 +50,7 @@
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 1.5167",
+        "evidence": "TMDb popularity 1.5533",
         "source": "audience_popularity",
         "status": "verified"
       }
@@ -58,7 +58,7 @@
     "homepage_spotlight_override": null,
     "homepage_spotlight_score": 65.6,
     "industry_interest": "High",
-    "last_updated": "20260812T143457Z",
+    "last_updated": "20260813T143545Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
@@ -207,7 +207,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-08-12T14:34:42Z",
+    "generated_at": "2026-08-13T14:35:27Z",
     "headline": "Why Did I Get Married Again?: popularity increasing",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -226,7 +226,7 @@
         "streaming_provider_count_us": 0,
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": false,
-        "tmdb_popularity": 1.5167,
+        "tmdb_popularity": 1.5533,
         "tmdb_poster_count": 2,
         "tmdb_release_date_us_primary": "2026-09-09",
         "tmdb_release_date_us_theatrical": "",
@@ -241,14 +241,14 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity rose from 1.2757 to 1.5167.",
+    "summary": "TMDb popularity rose from 1.2757 to 1.5533.",
     "supporting_drivers": [
       {
         "confidence_weight": 0.9,
         "driver_type": "popularity_increasing",
-        "evidence": "TMDb popularity rose from 1.2757 to 1.5167.",
+        "evidence": "TMDb popularity rose from 1.2757 to 1.5533.",
         "label": "Popularity increasing",
-        "retrieved_at": "2026-08-12T14:34:42Z",
+        "retrieved_at": "2026-08-13T14:35:27Z",
         "source_metric": "tmdb_popularity",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -258,7 +258,7 @@
   "media": {},
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260812T143457Z",
+    "generated_at": "20260813T143545Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -266,25 +266,25 @@
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 1.5167,
-        "retrieved_at": "2026-08-12",
+        "popularity": 1.5533,
+        "retrieved_at": "2026-08-13",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1522689",
         "status": "not_yet_rated"
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-08-12",
+      "retrieved_at": "2026-08-13",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1522689",
-      "value": 1.5167
+      "value": 1.5533
     },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 1.5167,
-      "retrieved_at": "2026-08-12",
+      "popularity": 1.5533,
+      "retrieved_at": "2026-08-13",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1522689",
       "status": "not_yet_rated"
@@ -403,14 +403,14 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.029,
+      "audience_momentum": 0.03,
       "awards_relevance": 2.4,
       "campaign_activity": 1.35,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-12T14:34:42Z",
+    "generated_at": "2026-08-13T14:35:27Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 7.104,
+    "score": 7.105,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -447,11 +447,11 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.029,
+        "contribution": 0.03,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 1.5167
+        "value": 1.5533
       }
     ]
   },
@@ -460,7 +460,7 @@
     "external_intelligence": {
       "confidence": "High",
       "headline": "Why Did I Get Married Again?: popularity increasing",
-      "summary": "TMDb popularity rose from 1.2757 to 1.5167."
+      "summary": "TMDb popularity rose from 1.2757 to 1.5533."
     },
     "last_updated": "2026-09-09",
     "latest_event": {
@@ -498,7 +498,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1522689-20ed7aa1e600",
+        "event_id": "1522689-5df8ac5ac4f0",
         "event_type": "Distributor Change",
         "film_id": "1522689",
         "importance": "Medium",
@@ -507,12 +507,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-12T14:34:57Z",
+        "timestamp": "2026-08-13T14:35:45Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1522689-d8bd82063702",
+        "event_id": "1522689-dd65f8570ad9",
         "event_type": "Awards Tier Changed",
         "film_id": "1522689",
         "importance": "Medium",
@@ -526,15 +526,15 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-12T14:34:57Z",
+        "timestamp": "2026-08-13T14:35:45Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],
     "release_relevance": 35.5,
     "screening_room_score": {
       "confidence": "High",
-      "explanation": "TMDb popularity rose from 1.2757 to 1.5167.",
-      "score": 7.104
+      "explanation": "TMDb popularity rose from 1.2757 to 1.5533.",
+      "score": 7.105
     },
     "watch_triggers": [
       "Prestige Distributor",
@@ -578,7 +578,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1522689-20ed7aa1e600",
+        "event_id": "1522689-5df8ac5ac4f0",
         "event_type": "Distributor Change",
         "film_id": "1522689",
         "importance": "Medium",
@@ -587,12 +587,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-12T14:34:57Z",
+        "timestamp": "2026-08-13T14:35:45Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1522689-d8bd82063702",
+        "event_id": "1522689-dd65f8570ad9",
         "event_type": "Awards Tier Changed",
         "film_id": "1522689",
         "importance": "Medium",
@@ -606,12 +606,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-12T14:34:57Z",
+        "timestamp": "2026-08-13T14:35:45Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1522689-496a44a941cd",
+        "event_id": "1522689-1ac6529171e1",
         "event_type": "Added To Database",
         "film_id": "1522689",
         "importance": "Low",
@@ -620,7 +620,7 @@
         },
         "source_type": "system",
         "summary": "Why Did I Get Married Again? is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-12T14:34:57Z",
+        "timestamp": "2026-08-13T14:35:45Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -655,7 +655,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1522689-20ed7aa1e600",
+        "event_id": "1522689-5df8ac5ac4f0",
         "event_type": "Distributor Change",
         "film_id": "1522689",
         "importance": "Medium",
@@ -664,12 +664,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-12T14:34:57Z",
+        "timestamp": "2026-08-13T14:35:45Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1522689-d8bd82063702",
+        "event_id": "1522689-dd65f8570ad9",
         "event_type": "Awards Tier Changed",
         "film_id": "1522689",
         "importance": "Medium",
@@ -683,7 +683,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-12T14:34:57Z",
+        "timestamp": "2026-08-13T14:35:45Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],

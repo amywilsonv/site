@@ -2,7 +2,7 @@
   "events": [
     {
       "confidence": "Inferred",
-      "event_id": "675871-87c8cf87540d",
+      "event_id": "675871-3971f9963205",
       "event_type": "Distributor Change",
       "film_id": "675871",
       "importance": "Medium",
@@ -11,12 +11,12 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Searchlight Pictures.",
-      "timestamp": "2026-08-12T14:34:57Z",
+      "timestamp": "2026-08-13T14:35:45Z",
       "title": "Distributor set: Searchlight Pictures"
     },
     {
       "confidence": "Inferred",
-      "event_id": "675871-c27aebd62961",
+      "event_id": "675871-ca0b03054f18",
       "event_type": "Awards Tier Changed",
       "film_id": "675871",
       "importance": "Medium",
@@ -26,12 +26,12 @@
       },
       "source_type": "editorial_model",
       "summary": "insufficient credible awards evidence",
-      "timestamp": "2026-08-12T14:34:57Z",
+      "timestamp": "2026-08-13T14:35:45Z",
       "title": "Awards tier assigned: No Current Awards Case"
     },
     {
       "confidence": "Inferred",
-      "event_id": "675871-fb69c1c9592a",
+      "event_id": "675871-2f1c38abe911",
       "event_type": "Added To Database",
       "film_id": "675871",
       "importance": "Low",
@@ -40,7 +40,7 @@
       },
       "source_type": "system",
       "summary": "Super Troopers 3 is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-08-12T14:34:57Z",
+      "timestamp": "2026-08-13T14:35:45Z",
       "title": "Added to Awards Intelligence"
     },
     {
@@ -60,7 +60,7 @@
   ],
   "latest_event": {
     "confidence": "Inferred",
-    "event_id": "675871-87c8cf87540d",
+    "event_id": "675871-3971f9963205",
     "event_type": "Distributor Change",
     "film_id": "675871",
     "importance": "Medium",
@@ -69,13 +69,13 @@
     },
     "source_type": "metadata",
     "summary": "Current distributor is Searchlight Pictures.",
-    "timestamp": "2026-08-12T14:34:57Z",
+    "timestamp": "2026-08-13T14:35:45Z",
     "title": "Distributor set: Searchlight Pictures"
   },
   "metadata": {
     "event_count": 4,
     "film_id": "675871",
-    "generated_at": "20260812T143457Z",
+    "generated_at": "20260813T143545Z",
     "timeline_version": "phase6b",
     "title": "Super Troopers 3",
     "tmdb_id": "675871"

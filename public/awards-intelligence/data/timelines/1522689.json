@@ -16,7 +16,7 @@
     },
     {
       "confidence": "Inferred",
-      "event_id": "1522689-20ed7aa1e600",
+      "event_id": "1522689-5df8ac5ac4f0",
       "event_type": "Distributor Change",
       "film_id": "1522689",
       "importance": "Medium",
@@ -25,12 +25,12 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Netflix.",
-      "timestamp": "2026-08-12T14:34:57Z",
+      "timestamp": "2026-08-13T14:35:45Z",
       "title": "Distributor set: Netflix"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1522689-d8bd82063702",
+      "event_id": "1522689-dd65f8570ad9",
       "event_type": "Awards Tier Changed",
       "film_id": "1522689",
       "importance": "Medium",
@@ -44,12 +44,12 @@
       },
       "source_type": "editorial_model",
       "summary": "insufficient credible awards evidence",
-      "timestamp": "2026-08-12T14:34:57Z",
+      "timestamp": "2026-08-13T14:35:45Z",
       "title": "Awards tier assigned: No Current Awards Case"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1522689-496a44a941cd",
+      "event_id": "1522689-1ac6529171e1",
       "event_type": "Added To Database",
       "film_id": "1522689",
       "importance": "Low",
@@ -58,7 +58,7 @@
       },
       "source_type": "system",
       "summary": "Why Did I Get Married Again? is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-08-12T14:34:57Z",
+      "timestamp": "2026-08-13T14:35:45Z",
       "title": "Added to Awards Intelligence"
     }
   ],
@@ -79,7 +79,7 @@
   "metadata": {
     "event_count": 4,
     "film_id": "1522689",
-    "generated_at": "20260812T143457Z",
+    "generated_at": "20260813T143545Z",
     "timeline_version": "phase6b",
     "title": "Why Did I Get Married Again?",
     "tmdb_id": "1522689"

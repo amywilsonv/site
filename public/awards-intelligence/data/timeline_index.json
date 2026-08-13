@@ -1,17 +1,17 @@
 {
   "metadata": {
     "film_count": 104,
-    "generated_at": "20260812T143457Z",
+    "generated_at": "20260813T143545Z",
     "timeline_version": "phase6b"
   },
   "timelines": [
     {
       "event_count": 4,
       "film_id": "949838",
-      "last_updated": "2026-08-12T14:34:57Z",
+      "last_updated": "2026-08-13T14:35:45Z",
       "latest_event": {
         "confidence": "Inferred",
-        "event_id": "949838-59f6b4978dc7",
+        "event_id": "949838-5d27f47f6b0d",
         "event_type": "Distributor Change",
         "film_id": "949838",
         "importance": "Medium",
@@ -20,7 +20,7 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-12T14:34:57Z",
+        "timestamp": "2026-08-13T14:35:45Z",
         "title": "Distributor set: Netflix"
       },
       "profile_url": "film.html?id=949838",
@@ -77,10 +77,10 @@
     {
       "event_count": 4,
       "film_id": "1723460",
-      "last_updated": "2026-08-12T14:34:57Z",
+      "last_updated": "2026-08-13T14:35:45Z",
       "latest_event": {
         "confidence": "Inferred",
-        "event_id": "1723460-188cc5a001c5",
+        "event_id": "1723460-3561eed94a76",
         "event_type": "Distributor Change",
         "film_id": "1723460",
         "importance": "Medium",
@@ -89,7 +89,7 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-12T14:34:57Z",
+        "timestamp": "2026-08-13T14:35:45Z",
         "title": "Distributor set: Netflix"
       },
       "profile_url": "film.html?id=1723460",
@@ -238,10 +238,10 @@
     {
       "event_count": 6,
       "film_id": "980431",
-      "last_updated": "2026-08-12T14:34:57Z",
+      "last_updated": "2026-08-13T14:35:45Z",
       "latest_event": {
         "confidence": "Inferred",
-        "event_id": "980431-8c81cf354771",
+        "event_id": "980431-447ca651655a",
         "event_type": "Homepage Featured",
         "film_id": "980431",
         "importance": "Medium",
@@ -250,7 +250,7 @@
         },
         "source_type": "discovery_homepage",
         "summary": "Avatar Aang: The Last Airbender is currently selected for the homepage experience.",
-        "timestamp": "2026-08-12T14:34:57Z",
+        "timestamp": "2026-08-13T14:35:45Z",
         "title": "Featured in The Screening Room"
       },
       "profile_url": "film.html?id=980431",
@@ -376,10 +376,10 @@
     {
       "event_count": 4,
       "film_id": "1728056",
-      "last_updated": "2026-08-12T14:34:57Z",
+      "last_updated": "2026-08-13T14:35:45Z",
       "latest_event": {
         "confidence": "Inferred",
-        "event_id": "1728056-a6f67fb1eab8",
+        "event_id": "1728056-f8fd6043c7b3",
         "event_type": "Distributor Change",
         "film_id": "1728056",
         "importance": "Medium",
@@ -388,7 +388,7 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-12T14:34:57Z",
+        "timestamp": "2026-08-13T14:35:45Z",
         "title": "Distributor set: Netflix"
       },
       "profile_url": "film.html?id=1728056",
@@ -445,20 +445,20 @@
     {
       "event_count": 4,
       "film_id": "1493400",
-      "last_updated": "2026-08-13",
+      "last_updated": "2026-08-13T14:35:45Z",
       "latest_event": {
         "confidence": "Inferred",
-        "event_id": "1493400-6e8eb0fcc46b",
-        "event_type": "Release Scheduled",
+        "event_id": "1493400-9712ec1829b4",
+        "event_type": "Distributor Change",
         "film_id": "1493400",
         "importance": "Medium",
         "metadata": {
-          "release_date": "2026-08-13"
+          "distributor": "Disney"
         },
         "source_type": "metadata",
-        "summary": "Release currently scheduled for In theaters Aug. 13.",
-        "timestamp": "2026-08-13",
-        "title": "Release scheduled"
+        "summary": "Current distributor is Disney.",
+        "timestamp": "2026-08-13T14:35:45Z",
+        "title": "Distributor set: Disney"
       },
       "profile_url": "film.html?id=1493400",
       "timeline_payload_url": "data/timelines/1493400.json",
@@ -489,7 +489,7 @@
       "tmdb_id": "1323717"
     },
     {
-      "event_count": 4,
+      "event_count": 5,
       "film_id": "1204680",
       "last_updated": "2026-08-28",
       "latest_event": {
@@ -514,10 +514,10 @@
     {
       "event_count": 4,
       "film_id": "1318621",
-      "last_updated": "2026-08-12T14:34:57Z",
+      "last_updated": "2026-08-13T14:35:45Z",
       "latest_event": {
         "confidence": "Inferred",
-        "event_id": "1318621-88cadbab9615",
+        "event_id": "1318621-b99c793fb60d",
         "event_type": "Distributor Change",
         "film_id": "1318621",
         "importance": "Medium",
@@ -526,7 +526,7 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Disney.",
-        "timestamp": "2026-08-12T14:34:57Z",
+        "timestamp": "2026-08-13T14:35:45Z",
         "title": "Distributor set: Disney"
       },
       "profile_url": "film.html?id=1318621",
@@ -629,10 +629,10 @@
     {
       "event_count": 4,
       "film_id": "1487861",
-      "last_updated": "2026-08-12T14:34:57Z",
+      "last_updated": "2026-08-13T14:35:45Z",
       "latest_event": {
         "confidence": "Inferred",
-        "event_id": "1487861-25df71d4eafa",
+        "event_id": "1487861-3008e8442293",
         "event_type": "Distributor Change",
         "film_id": "1487861",
         "importance": "Medium",
@@ -641,7 +641,7 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-12T14:34:57Z",
+        "timestamp": "2026-08-13T14:35:45Z",
         "title": "Distributor set: Netflix"
       },
       "profile_url": "film.html?id=1487861",
@@ -721,10 +721,10 @@
     {
       "event_count": 6,
       "film_id": "1468683",
-      "last_updated": "2026-08-12T14:34:57Z",
+      "last_updated": "2026-08-13T14:35:45Z",
       "latest_event": {
         "confidence": "Inferred",
-        "event_id": "1468683-628b4678e680",
+        "event_id": "1468683-5e8044678260",
         "event_type": "Homepage Featured",
         "film_id": "1468683",
         "importance": "Medium",
@@ -733,7 +733,7 @@
         },
         "source_type": "discovery_homepage",
         "summary": "Heartstopper Forever is currently selected for the homepage experience.",
-        "timestamp": "2026-08-12T14:34:57Z",
+        "timestamp": "2026-08-13T14:35:45Z",
         "title": "Featured in The Screening Room"
       },
       "profile_url": "film.html?id=1468683",
@@ -859,10 +859,10 @@
     {
       "event_count": 5,
       "film_id": "1421594",
-      "last_updated": "2026-08-12T14:34:57Z",
+      "last_updated": "2026-08-13T14:35:45Z",
       "latest_event": {
         "confidence": "Inferred",
-        "event_id": "1421594-39cf3d9f62ce",
+        "event_id": "1421594-4bc4de67dae4",
         "event_type": "Distributor Change",
         "film_id": "1421594",
         "importance": "Medium",
@@ -871,7 +871,7 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-12T14:34:57Z",
+        "timestamp": "2026-08-13T14:35:45Z",
         "title": "Distributor set: Netflix"
       },
       "profile_url": "film.html?id=1421594",
@@ -1020,10 +1020,10 @@
     {
       "event_count": 4,
       "film_id": "1620682",
-      "last_updated": "2026-08-12T14:34:57Z",
+      "last_updated": "2026-08-13T14:35:45Z",
       "latest_event": {
         "confidence": "Inferred",
-        "event_id": "1620682-490f15f9cd64",
+        "event_id": "1620682-ba9e4a8c157e",
         "event_type": "Distributor Change",
         "film_id": "1620682",
         "importance": "Medium",
@@ -1032,7 +1032,7 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-12T14:34:57Z",
+        "timestamp": "2026-08-13T14:35:45Z",
         "title": "Distributor set: Netflix"
       },
       "profile_url": "film.html?id=1620682",
@@ -1112,10 +1112,10 @@
     {
       "event_count": 4,
       "film_id": "1487864",
-      "last_updated": "2026-08-12T14:34:57Z",
+      "last_updated": "2026-08-13T14:35:45Z",
       "latest_event": {
         "confidence": "Inferred",
-        "event_id": "1487864-5bb93f1985e6",
+        "event_id": "1487864-141214faa533",
         "event_type": "Distributor Change",
         "film_id": "1487864",
         "importance": "Medium",
@@ -1124,7 +1124,7 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-12T14:34:57Z",
+        "timestamp": "2026-08-13T14:35:45Z",
         "title": "Distributor set: Netflix"
       },
       "profile_url": "film.html?id=1487864",
@@ -1480,10 +1480,10 @@
     {
       "event_count": 4,
       "film_id": "1698575",
-      "last_updated": "2026-08-12T14:34:57Z",
+      "last_updated": "2026-08-13T14:35:45Z",
       "latest_event": {
         "confidence": "Inferred",
-        "event_id": "1698575-8c95c48e8026",
+        "event_id": "1698575-8e58361aa6e2",
         "event_type": "Distributor Change",
         "film_id": "1698575",
         "importance": "Medium",
@@ -1492,7 +1492,7 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Apple TV.",
-        "timestamp": "2026-08-12T14:34:57Z",
+        "timestamp": "2026-08-13T14:35:45Z",
         "title": "Distributor set: Apple TV"
       },
       "profile_url": "film.html?id=1698575",
@@ -1595,10 +1595,10 @@
     {
       "event_count": 5,
       "film_id": "969681",
-      "last_updated": "2026-08-12T14:34:57Z",
+      "last_updated": "2026-08-13T14:35:45Z",
       "latest_event": {
         "confidence": "Inferred",
-        "event_id": "969681-b1c3c598ba4a",
+        "event_id": "969681-c4cbd7ed087a",
         "event_type": "Homepage Featured",
         "film_id": "969681",
         "importance": "Medium",
@@ -1607,7 +1607,7 @@
         },
         "source_type": "discovery_homepage",
         "summary": "Spider-Man: Brand New Day is currently selected for the homepage experience.",
-        "timestamp": "2026-08-12T14:34:57Z",
+        "timestamp": "2026-08-13T14:35:45Z",
         "title": "Featured in The Screening Room"
       },
       "profile_url": "film.html?id=969681",
@@ -1664,10 +1664,10 @@
     {
       "event_count": 4,
       "film_id": "675871",
-      "last_updated": "2026-08-12T14:34:57Z",
+      "last_updated": "2026-08-13T14:35:45Z",
       "latest_event": {
         "confidence": "Inferred",
-        "event_id": "675871-87c8cf87540d",
+        "event_id": "675871-3971f9963205",
         "event_type": "Distributor Change",
         "film_id": "675871",
         "importance": "Medium",
@@ -1676,7 +1676,7 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Searchlight Pictures.",
-        "timestamp": "2026-08-12T14:34:57Z",
+        "timestamp": "2026-08-13T14:35:45Z",
         "title": "Distributor set: Searchlight Pictures"
       },
       "profile_url": "film.html?id=675871",
@@ -1756,10 +1756,10 @@
     {
       "event_count": 4,
       "film_id": "1630409",
-      "last_updated": "2026-08-12T14:34:57Z",
+      "last_updated": "2026-08-13T14:35:45Z",
       "latest_event": {
         "confidence": "Inferred",
-        "event_id": "1630409-55ec55861396",
+        "event_id": "1630409-69c1a1583a10",
         "event_type": "Distributor Change",
         "film_id": "1630409",
         "importance": "Medium",
@@ -1768,7 +1768,7 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-12T14:34:57Z",
+        "timestamp": "2026-08-13T14:35:45Z",
         "title": "Distributor set: Netflix"
       },
       "profile_url": "film.html?id=1630409",
@@ -1779,10 +1779,10 @@
     {
       "event_count": 4,
       "film_id": "1361774",
-      "last_updated": "2026-08-12T14:34:57Z",
+      "last_updated": "2026-08-13T14:35:45Z",
       "latest_event": {
         "confidence": "Inferred",
-        "event_id": "1361774-1a5ab4b871ac",
+        "event_id": "1361774-ed23d702a219",
         "event_type": "Distributor Change",
         "film_id": "1361774",
         "importance": "Medium",
@@ -1791,7 +1791,7 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Apple TV.",
-        "timestamp": "2026-08-12T14:34:57Z",
+        "timestamp": "2026-08-13T14:35:45Z",
         "title": "Distributor set: Apple TV"
       },
       "profile_url": "film.html?id=1361774",
@@ -1894,10 +1894,10 @@
     {
       "event_count": 4,
       "film_id": "1284041",
-      "last_updated": "2026-08-12T14:34:57Z",
+      "last_updated": "2026-08-13T14:35:45Z",
       "latest_event": {
         "confidence": "Inferred",
-        "event_id": "1284041-db6a62fd0a0e",
+        "event_id": "1284041-88df3d7e56c9",
         "event_type": "Distributor Change",
         "film_id": "1284041",
         "importance": "Medium",
@@ -1906,7 +1906,7 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-12T14:34:57Z",
+        "timestamp": "2026-08-13T14:35:45Z",
         "title": "Distributor set: Netflix"
       },
       "profile_url": "film.html?id=1284041",
@@ -1940,10 +1940,10 @@
     {
       "event_count": 4,
       "film_id": "1353167",
-      "last_updated": "2026-08-12T14:34:57Z",
+      "last_updated": "2026-08-13T14:35:45Z",
       "latest_event": {
         "confidence": "Inferred",
-        "event_id": "1353167-5b7d0bf9bfd1",
+        "event_id": "1353167-d890e8502f96",
         "event_type": "Distributor Change",
         "film_id": "1353167",
         "importance": "Medium",
@@ -1952,7 +1952,7 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Apple TV.",
-        "timestamp": "2026-08-12T14:34:57Z",
+        "timestamp": "2026-08-13T14:35:45Z",
         "title": "Distributor set: Apple TV"
       },
       "profile_url": "film.html?id=1353167",
@@ -1963,10 +1963,10 @@
     {
       "event_count": 5,
       "film_id": "1368337",
-      "last_updated": "2026-08-12T14:34:57Z",
+      "last_updated": "2026-08-13T14:35:45Z",
       "latest_event": {
         "confidence": "Inferred",
-        "event_id": "1368337-59d75cb21d8c",
+        "event_id": "1368337-89d4aae94ead",
         "event_type": "Homepage Featured",
         "film_id": "1368337",
         "importance": "Medium",
@@ -1975,7 +1975,7 @@
         },
         "source_type": "discovery_homepage",
         "summary": "The Odyssey is currently selected for the homepage experience.",
-        "timestamp": "2026-08-12T14:34:57Z",
+        "timestamp": "2026-08-13T14:35:45Z",
         "title": "Featured in The Screening Room"
       },
       "profile_url": "film.html?id=1368337",
@@ -2009,10 +2009,10 @@
     {
       "event_count": 4,
       "film_id": "1679730",
-      "last_updated": "2026-08-12T14:34:57Z",
+      "last_updated": "2026-08-13T14:35:45Z",
       "latest_event": {
         "confidence": "Inferred",
-        "event_id": "1679730-8e4b05652130",
+        "event_id": "1679730-eb0762a06f18",
         "event_type": "Distributor Change",
         "film_id": "1679730",
         "importance": "Medium",
@@ -2021,7 +2021,7 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-12T14:34:57Z",
+        "timestamp": "2026-08-13T14:35:45Z",
         "title": "Distributor set: Netflix"
       },
       "profile_url": "film.html?id=1679730",
@@ -2078,10 +2078,10 @@
     {
       "event_count": 4,
       "film_id": "1659155",
-      "last_updated": "2026-08-12T14:34:57Z",
+      "last_updated": "2026-08-13T14:35:45Z",
       "latest_event": {
         "confidence": "Inferred",
-        "event_id": "1659155-fa0620b0482e",
+        "event_id": "1659155-311b6f6a03ca",
         "event_type": "Distributor Change",
         "film_id": "1659155",
         "importance": "Medium",
@@ -2090,7 +2090,7 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-12T14:34:57Z",
+        "timestamp": "2026-08-13T14:35:45Z",
         "title": "Distributor set: Netflix"
       },
       "profile_url": "film.html?id=1659155",

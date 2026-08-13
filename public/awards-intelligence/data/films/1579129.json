@@ -8,7 +8,7 @@
       "Event Release",
       "Awards Watch"
     ],
-    "attention_score": 61.2,
+    "attention_score": 61.0,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -56,7 +56,7 @@
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 0.7749",
+        "evidence": "TMDb popularity 0.7033",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -67,14 +67,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 61.2,
+    "homepage_spotlight_score": 61.0,
     "industry_interest": "Moderate",
-    "last_updated": "20260812T143457Z",
+    "last_updated": "20260813T143545Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
         "evidence_count": 2,
-        "score": 9.7,
+        "score": 9.5,
         "statuses": [
           "verified"
         ]
@@ -227,7 +227,7 @@
   "intelligence": {
     "confidence": "Low",
     "confidence_score": 0.25,
-    "generated_at": "2026-08-12T14:34:42Z",
+    "generated_at": "2026-08-13T14:35:27Z",
     "headline": "The First Gokturk: Prologue: no material change detected",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -247,7 +247,7 @@
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=u8H9scv6S1Y",
-        "tmdb_popularity": 0.7749,
+        "tmdb_popularity": 0.7033,
         "tmdb_poster_count": 0,
         "tmdb_release_date_us_primary": "",
         "tmdb_release_date_us_theatrical": "",
@@ -268,7 +268,7 @@
   },
   "media": {
     "canonical_trailer": {
-      "retrieved_at": "2026-08-12",
+      "retrieved_at": "2026-08-13",
       "site": "YouTube",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1579129/videos",
@@ -280,7 +280,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260812T143457Z",
+    "generated_at": "20260813T143545Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -288,25 +288,25 @@
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 0.7749,
-        "retrieved_at": "2026-08-12",
+        "popularity": 0.7033,
+        "retrieved_at": "2026-08-13",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1579129",
         "status": "not_yet_rated"
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-08-12",
+      "retrieved_at": "2026-08-13",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1579129",
-      "value": 0.7749
+      "value": 0.7033
     },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 0.7749,
-      "retrieved_at": "2026-08-12",
+      "popularity": 0.7033,
+      "retrieved_at": "2026-08-13",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1579129",
       "status": "not_yet_rated"
@@ -424,14 +424,14 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.015,
+      "audience_momentum": 0.013,
       "awards_relevance": 0.8,
       "campaign_activity": 1.35,
       "talent_profile": 2.125
     },
-    "generated_at": "2026-08-12T14:34:42Z",
+    "generated_at": "2026-08-13T14:35:27Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 4.29,
+    "score": 4.288,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -468,11 +468,11 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.015,
+        "contribution": 0.013,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 0.7749
+        "value": 0.7033
       }
     ]
   },
@@ -519,7 +519,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1579129-d4bd28df492f",
+        "event_id": "1579129-910c61496f7d",
         "event_type": "Awards Tier Changed",
         "film_id": "1579129",
         "importance": "Medium",
@@ -531,12 +531,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-08-12T14:34:57Z",
+        "timestamp": "2026-08-13T14:35:45Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1579129-3add9a90c842",
+        "event_id": "1579129-b19a96236da7",
         "event_type": "Added To Database",
         "film_id": "1579129",
         "importance": "Low",
@@ -545,7 +545,7 @@
         },
         "source_type": "system",
         "summary": "The First Gokturk: Prologue is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-12T14:34:57Z",
+        "timestamp": "2026-08-13T14:35:45Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -553,7 +553,7 @@
     "screening_room_score": {
       "confidence": "Low",
       "explanation": "Current provider signals do not show a supported material change.",
-      "score": 4.29
+      "score": 4.288
     },
     "watch_triggers": [
       "Awards-Season Release",
@@ -595,7 +595,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1579129-d4bd28df492f",
+        "event_id": "1579129-910c61496f7d",
         "event_type": "Awards Tier Changed",
         "film_id": "1579129",
         "importance": "Medium",
@@ -607,12 +607,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-08-12T14:34:57Z",
+        "timestamp": "2026-08-13T14:35:45Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1579129-3add9a90c842",
+        "event_id": "1579129-b19a96236da7",
         "event_type": "Added To Database",
         "film_id": "1579129",
         "importance": "Low",
@@ -621,7 +621,7 @@
         },
         "source_type": "system",
         "summary": "The First Gokturk: Prologue is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-12T14:34:57Z",
+        "timestamp": "2026-08-13T14:35:45Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -656,7 +656,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1579129-d4bd28df492f",
+        "event_id": "1579129-910c61496f7d",
         "event_type": "Awards Tier Changed",
         "film_id": "1579129",
         "importance": "Medium",
@@ -668,12 +668,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-08-12T14:34:57Z",
+        "timestamp": "2026-08-13T14:35:45Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1579129-3add9a90c842",
+        "event_id": "1579129-b19a96236da7",
         "event_type": "Added To Database",
         "film_id": "1579129",
         "importance": "Low",
@@ -682,7 +682,7 @@
         },
         "source_type": "system",
         "summary": "The First Gokturk: Prologue is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-12T14:34:57Z",
+        "timestamp": "2026-08-13T14:35:45Z",
         "title": "Added to Awards Intelligence"
       }
     ],

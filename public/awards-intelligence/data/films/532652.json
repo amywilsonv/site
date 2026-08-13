@@ -7,7 +7,7 @@
       "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 64.4,
+    "attention_score": 64.3,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -35,7 +35,7 @@
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 3.8488",
+        "evidence": "TMDb popularity 3.691",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -51,14 +51,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 64.4,
+    "homepage_spotlight_score": 64.3,
     "industry_interest": "High",
-    "last_updated": "20260812T143457Z",
+    "last_updated": "20260813T143545Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
         "evidence_count": 1,
-        "score": 8.1,
+        "score": 8.0,
         "statuses": [
           "verified"
         ]
@@ -198,7 +198,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-08-12T14:34:42Z",
+    "generated_at": "2026-08-13T14:35:27Z",
     "headline": "The Resurrection of the Christ: Part One: popularity increasing",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -217,7 +217,7 @@
         "streaming_provider_count_us": 0,
         "tmdb_backdrop_count": 1,
         "tmdb_canonical_trailer_available": false,
-        "tmdb_popularity": 3.8488,
+        "tmdb_popularity": 3.691,
         "tmdb_poster_count": 2,
         "tmdb_release_date_us_primary": "2027-05-06",
         "tmdb_release_date_us_theatrical": "2027-05-06",
@@ -232,14 +232,14 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity rose from 2.6644 to 3.8488.",
+    "summary": "TMDb popularity rose from 2.6644 to 3.691.",
     "supporting_drivers": [
       {
         "confidence_weight": 0.9,
         "driver_type": "popularity_increasing",
-        "evidence": "TMDb popularity rose from 2.6644 to 3.8488.",
+        "evidence": "TMDb popularity rose from 2.6644 to 3.691.",
         "label": "Popularity increasing",
-        "retrieved_at": "2026-08-12T14:34:42Z",
+        "retrieved_at": "2026-08-13T14:35:27Z",
         "source_metric": "tmdb_popularity",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -249,7 +249,7 @@
   "media": {},
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260812T143457Z",
+    "generated_at": "20260813T143545Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -257,31 +257,31 @@
     "box_office": {
       "budget": 250000000,
       "currency": "USD",
-      "retrieved_at": "2026-08-12",
+      "retrieved_at": "2026-08-13",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/532652"
     },
     "ratings": {
       "tmdb": {
-        "popularity": 3.8488,
-        "retrieved_at": "2026-08-12",
+        "popularity": 3.691,
+        "retrieved_at": "2026-08-13",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/532652",
         "status": "not_yet_rated"
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-08-12",
+      "retrieved_at": "2026-08-13",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/532652",
-      "value": 3.8488
+      "value": 3.691
     },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 3.8488,
-      "retrieved_at": "2026-08-12",
+      "popularity": 3.691,
+      "retrieved_at": "2026-08-13",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/532652",
       "status": "not_yet_rated"
@@ -395,13 +395,13 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.073,
+      "audience_momentum": 0.07,
       "campaign_activity": 2.7,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-12T14:34:42Z",
+    "generated_at": "2026-08-13T14:35:27Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 6.098,
+    "score": 6.095,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -430,11 +430,11 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.073,
+        "contribution": 0.07,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 3.8488
+        "value": 3.691
       }
     ]
   },
@@ -443,7 +443,7 @@
     "external_intelligence": {
       "confidence": "High",
       "headline": "The Resurrection of the Christ: Part One: popularity increasing",
-      "summary": "TMDb popularity rose from 2.6644 to 3.8488."
+      "summary": "TMDb popularity rose from 2.6644 to 3.691."
     },
     "last_updated": "2027-05-06",
     "latest_event": {
@@ -481,7 +481,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "532652-d954185a7afb",
+        "event_id": "532652-2255d4edb864",
         "event_type": "Distributor Change",
         "film_id": "532652",
         "importance": "Medium",
@@ -490,12 +490,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Lionsgate.",
-        "timestamp": "2026-08-12T14:34:57Z",
+        "timestamp": "2026-08-13T14:35:45Z",
         "title": "Distributor set: Lionsgate"
       },
       {
         "confidence": "Inferred",
-        "event_id": "532652-2515c6ee3386",
+        "event_id": "532652-000ce51a453c",
         "event_type": "Awards Tier Changed",
         "film_id": "532652",
         "importance": "Medium",
@@ -505,15 +505,15 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-12T14:34:57Z",
+        "timestamp": "2026-08-13T14:35:45Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],
     "release_relevance": 11.2,
     "screening_room_score": {
       "confidence": "High",
-      "explanation": "TMDb popularity rose from 2.6644 to 3.8488.",
-      "score": 6.098
+      "explanation": "TMDb popularity rose from 2.6644 to 3.691.",
+      "score": 6.095
     },
     "watch_triggers": [
       "Major Studio/Streamer",
@@ -555,7 +555,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "532652-d954185a7afb",
+        "event_id": "532652-2255d4edb864",
         "event_type": "Distributor Change",
         "film_id": "532652",
         "importance": "Medium",
@@ -564,12 +564,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Lionsgate.",
-        "timestamp": "2026-08-12T14:34:57Z",
+        "timestamp": "2026-08-13T14:35:45Z",
         "title": "Distributor set: Lionsgate"
       },
       {
         "confidence": "Inferred",
-        "event_id": "532652-2515c6ee3386",
+        "event_id": "532652-000ce51a453c",
         "event_type": "Awards Tier Changed",
         "film_id": "532652",
         "importance": "Medium",
@@ -579,12 +579,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-12T14:34:57Z",
+        "timestamp": "2026-08-13T14:35:45Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "532652-a5045d875112",
+        "event_id": "532652-a37d526f31f8",
         "event_type": "Added To Database",
         "film_id": "532652",
         "importance": "Low",
@@ -593,7 +593,7 @@
         },
         "source_type": "system",
         "summary": "The Resurrection of the Christ: Part One is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-12T14:34:57Z",
+        "timestamp": "2026-08-13T14:35:45Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -628,7 +628,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "532652-d954185a7afb",
+        "event_id": "532652-2255d4edb864",
         "event_type": "Distributor Change",
         "film_id": "532652",
         "importance": "Medium",
@@ -637,12 +637,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Lionsgate.",
-        "timestamp": "2026-08-12T14:34:57Z",
+        "timestamp": "2026-08-13T14:35:45Z",
         "title": "Distributor set: Lionsgate"
       },
       {
         "confidence": "Inferred",
-        "event_id": "532652-2515c6ee3386",
+        "event_id": "532652-000ce51a453c",
         "event_type": "Awards Tier Changed",
         "film_id": "532652",
         "importance": "Medium",
@@ -652,7 +652,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-12T14:34:57Z",
+        "timestamp": "2026-08-13T14:35:45Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],
