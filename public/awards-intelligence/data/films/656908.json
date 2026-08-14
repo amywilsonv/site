@@ -8,7 +8,7 @@
       "Event Release",
       "Awards Watch"
     ],
-    "attention_score": 78.8,
+    "attention_score": 78.1,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -21,7 +21,7 @@
         "status": "inferred"
       },
       {
-        "evidence": "TMDb popularity 12.9083",
+        "evidence": "TMDb popularity 11.231",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -67,14 +67,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 78.8,
+    "homepage_spotlight_score": 78.1,
     "industry_interest": "Moderate",
-    "last_updated": "20260813T143545Z",
+    "last_updated": "20260814T142943Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
         "evidence_count": 2,
-        "score": 18.0,
+        "score": 17.3,
         "statuses": [
           "verified"
         ]
@@ -227,7 +227,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-08-13T14:35:27Z",
+    "generated_at": "2026-08-14T14:29:28Z",
     "headline": "Ramayana: trailer available",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -247,7 +247,7 @@
         "tmdb_backdrop_count": 2,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=le2W_fB_4KY",
-        "tmdb_popularity": 12.9083,
+        "tmdb_popularity": 11.231,
         "tmdb_poster_count": 6,
         "tmdb_release_date_us_primary": "",
         "tmdb_release_date_us_theatrical": "",
@@ -270,7 +270,7 @@
         "driver_type": "trailer_available",
         "evidence": "A canonical TMDb trailer URL is available.",
         "label": "Trailer available",
-        "retrieved_at": "2026-08-13T14:35:27Z",
+        "retrieved_at": "2026-08-14T14:29:28Z",
         "source_metric": "tmdb_canonical_trailer_url",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -279,7 +279,7 @@
   },
   "media": {
     "canonical_trailer": {
-      "retrieved_at": "2026-08-13",
+      "retrieved_at": "2026-08-14",
       "site": "YouTube",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/656908/videos",
@@ -291,7 +291,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260813T143545Z",
+    "generated_at": "20260814T142943Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -299,31 +299,31 @@
     "box_office": {
       "budget": 230000000,
       "currency": "USD",
-      "retrieved_at": "2026-08-13",
+      "retrieved_at": "2026-08-14",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/656908"
     },
     "ratings": {
       "tmdb": {
-        "popularity": 12.9083,
-        "retrieved_at": "2026-08-13",
+        "popularity": 11.231,
+        "retrieved_at": "2026-08-14",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/656908",
         "status": "not_yet_rated"
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-08-13",
+      "retrieved_at": "2026-08-14",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/656908",
-      "value": 12.9083
+      "value": 11.231
     },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 12.9083,
-      "retrieved_at": "2026-08-13",
+      "popularity": 11.231,
+      "retrieved_at": "2026-08-14",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/656908",
       "status": "not_yet_rated"
@@ -448,14 +448,14 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.245,
+      "audience_momentum": 0.213,
       "awards_relevance": 0.8,
       "campaign_activity": 2.7,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-13T14:35:27Z",
+    "generated_at": "2026-08-14T14:29:28Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 7.07,
+    "score": 7.038,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -492,11 +492,11 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.245,
+        "contribution": 0.213,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 12.9083
+        "value": 11.231
       }
     ]
   },
@@ -543,7 +543,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "656908-225a349fee3e",
+        "event_id": "656908-fd24be0f2322",
         "event_type": "Awards Tier Changed",
         "film_id": "656908",
         "importance": "Medium",
@@ -555,12 +555,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-08-13T14:35:45Z",
+        "timestamp": "2026-08-14T14:29:43Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "656908-61b4fa4ee0eb",
+        "event_id": "656908-a89e53cd3e5a",
         "event_type": "Added To Database",
         "film_id": "656908",
         "importance": "Low",
@@ -569,7 +569,7 @@
         },
         "source_type": "system",
         "summary": "Ramayana is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-13T14:35:45Z",
+        "timestamp": "2026-08-14T14:29:43Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -577,7 +577,7 @@
     "screening_room_score": {
       "confidence": "High",
       "explanation": "A canonical TMDb trailer URL is available.",
-      "score": 7.07
+      "score": 7.038
     },
     "watch_triggers": [
       "Awards-Season Release",
@@ -621,7 +621,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "656908-225a349fee3e",
+        "event_id": "656908-fd24be0f2322",
         "event_type": "Awards Tier Changed",
         "film_id": "656908",
         "importance": "Medium",
@@ -633,12 +633,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-08-13T14:35:45Z",
+        "timestamp": "2026-08-14T14:29:43Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "656908-61b4fa4ee0eb",
+        "event_id": "656908-a89e53cd3e5a",
         "event_type": "Added To Database",
         "film_id": "656908",
         "importance": "Low",
@@ -647,7 +647,7 @@
         },
         "source_type": "system",
         "summary": "Ramayana is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-13T14:35:45Z",
+        "timestamp": "2026-08-14T14:29:43Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -682,7 +682,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "656908-225a349fee3e",
+        "event_id": "656908-fd24be0f2322",
         "event_type": "Awards Tier Changed",
         "film_id": "656908",
         "importance": "Medium",
@@ -694,12 +694,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-08-13T14:35:45Z",
+        "timestamp": "2026-08-14T14:29:43Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "656908-61b4fa4ee0eb",
+        "event_id": "656908-a89e53cd3e5a",
         "event_type": "Added To Database",
         "film_id": "656908",
         "importance": "Low",
@@ -708,7 +708,7 @@
         },
         "source_type": "system",
         "summary": "Ramayana is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-13T14:35:45Z",
+        "timestamp": "2026-08-14T14:29:43Z",
         "title": "Added to Awards Intelligence"
       }
     ],

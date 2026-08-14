@@ -24,7 +24,7 @@
               "status": "verified"
             },
             {
-              "evidence": "TMDb popularity 5.814",
+              "evidence": "TMDb popularity 5.8528",
               "source": "audience_popularity",
               "status": "verified"
             },
@@ -62,7 +62,7 @@
           "homepage_spotlight_override": null,
           "homepage_spotlight_score": 44.3,
           "industry_interest": "High",
-          "last_updated": "20260813T143545Z",
+          "last_updated": "20260814T142943Z",
           "promotional_response": null,
           "score_families": {
             "audience/popularity": {
@@ -216,7 +216,7 @@
         "intelligence": {
           "confidence": "High",
           "confidence_score": 0.99,
-          "generated_at": "2026-08-13T14:35:27Z",
+          "generated_at": "2026-08-14T14:29:28Z",
           "headline": "Paper Tiger: popularity increasing",
           "metadata": {
             "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -235,7 +235,7 @@
               "streaming_provider_count_us": 0,
               "tmdb_backdrop_count": 0,
               "tmdb_canonical_trailer_available": false,
-              "tmdb_popularity": 5.814,
+              "tmdb_popularity": 5.8528,
               "tmdb_poster_count": 1,
               "tmdb_release_date_us_primary": "2026-11-13",
               "tmdb_release_date_us_theatrical": "2026-11-13",
@@ -250,14 +250,14 @@
             "stale_signal_count": 0
           },
           "schema_version": "phase2b_intelligence_explanation_v1",
-          "summary": "TMDb popularity rose from 2.478 to 5.814.",
+          "summary": "TMDb popularity rose from 2.478 to 5.8528.",
           "supporting_drivers": [
             {
               "confidence_weight": 0.9,
               "driver_type": "popularity_increasing",
-              "evidence": "TMDb popularity rose from 2.478 to 5.814.",
+              "evidence": "TMDb popularity rose from 2.478 to 5.8528.",
               "label": "Popularity increasing",
-              "retrieved_at": "2026-08-13T14:35:27Z",
+              "retrieved_at": "2026-08-14T14:29:28Z",
               "source_metric": "tmdb_popularity",
               "source_provider": "tmdb",
               "source_status": "available"
@@ -289,24 +289,24 @@
           "box_office": {
             "budget": 15000000,
             "currency": "USD",
-            "retrieved_at": "2026-08-13",
+            "retrieved_at": "2026-08-14",
             "source": "TMDb",
             "source_url": "https://www.themoviedb.org/movie/1381273"
           },
           "ratings": {
             "tmdb": {
-              "popularity": 5.814,
-              "retrieved_at": "2026-08-13",
+              "popularity": 5.8528,
+              "retrieved_at": "2026-08-14",
               "source": "TMDb",
               "source_url": "https://www.themoviedb.org/movie/1381273",
               "status": "not_yet_rated"
             }
           },
           "tmdb_popularity": {
-            "retrieved_at": "2026-08-13",
+            "retrieved_at": "2026-08-14",
             "source": "TMDb",
             "source_url": "https://www.themoviedb.org/movie/1381273",
-            "value": 5.814
+            "value": 5.8528
           },
           "watch_providers": {}
         },
@@ -328,8 +328,8 @@
         "profile_url": "film.html?id=1381273",
         "ratings": {
           "tmdb": {
-            "popularity": 5.814,
-            "retrieved_at": "2026-08-13",
+            "popularity": 5.8528,
+            "retrieved_at": "2026-08-14",
             "source": "TMDb",
             "source_url": "https://www.themoviedb.org/movie/1381273",
             "status": "not_yet_rated"
@@ -352,7 +352,7 @@
           },
           {
             "confidence": "Inferred",
-            "event_id": "1381273-a9725db8d362",
+            "event_id": "1381273-3e871c8b655d",
             "event_type": "Awards Tier Changed",
             "film_id": "1381273",
             "importance": "High",
@@ -366,12 +366,12 @@
             },
             "source_type": "editorial_model",
             "summary": "high awards relevance with multiple independent evidence families",
-            "timestamp": "2026-08-13T14:35:45Z",
+            "timestamp": "2026-08-14T14:29:43Z",
             "title": "Awards tier assigned: Strong Contender"
           },
           {
             "confidence": "Inferred",
-            "event_id": "1381273-b9bf5f948e45",
+            "event_id": "1381273-0bc396e0a16b",
             "event_type": "Homepage Featured",
             "film_id": "1381273",
             "importance": "Medium",
@@ -380,7 +380,7 @@
             },
             "source_type": "discovery_homepage",
             "summary": "Paper Tiger is currently selected for the homepage experience.",
-            "timestamp": "2026-08-13T14:35:45Z",
+            "timestamp": "2026-08-14T14:29:43Z",
             "title": "Featured in The Screening Room"
           }
         ],
@@ -390,15 +390,15 @@
         "release_timing_label": "Later This Year",
         "screening_room_score": {
           "families": {
-            "audience_momentum": 0.11,
+            "audience_momentum": 0.111,
             "awards_relevance": 2.4,
             "campaign_activity": 1.35,
             "festival_awards": 0.88,
             "talent_profile": 3.325
           },
-          "generated_at": "2026-08-13T14:35:27Z",
+          "generated_at": "2026-08-14T14:29:28Z",
           "schema_version": "phase3_screening_room_score_v1",
-          "score": 8.065,
+          "score": 8.066,
           "source": "derived_screening_room_score",
           "top_drivers": [
             {
@@ -557,7 +557,7 @@
     "discovery_algorithm_version": "phase5b",
     "discovery_visual_version": "phase5c",
     "film_count": 104,
-    "generated_at": "20260813T143545Z",
+    "generated_at": "20260814T142943Z",
     "homepage_count": 6,
     "homepage_filters": [
       {

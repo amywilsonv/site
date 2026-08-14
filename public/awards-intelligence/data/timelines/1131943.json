@@ -16,7 +16,7 @@
     },
     {
       "confidence": "Inferred",
-      "event_id": "1131943-26a5a46b3093",
+      "event_id": "1131943-ba6c1c646f63",
       "event_type": "Distributor Change",
       "film_id": "1131943",
       "importance": "Medium",
@@ -25,12 +25,12 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Prime Video.",
-      "timestamp": "2026-08-13T14:35:45Z",
+      "timestamp": "2026-08-14T14:29:43Z",
       "title": "Distributor set: Prime Video"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1131943-71e53e53d233",
+      "event_id": "1131943-9a7a38fc1771",
       "event_type": "Awards Tier Changed",
       "film_id": "1131943",
       "importance": "Medium",
@@ -40,12 +40,12 @@
       },
       "source_type": "editorial_model",
       "summary": "insufficient credible awards evidence",
-      "timestamp": "2026-08-13T14:35:45Z",
+      "timestamp": "2026-08-14T14:29:43Z",
       "title": "Awards tier assigned: No Current Awards Case"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1131943-f0a5419cf052",
+      "event_id": "1131943-81a9badddbc1",
       "event_type": "Added To Database",
       "film_id": "1131943",
       "importance": "Low",
@@ -54,7 +54,7 @@
       },
       "source_type": "system",
       "summary": "Madden is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-08-13T14:35:45Z",
+      "timestamp": "2026-08-14T14:29:43Z",
       "title": "Added to Awards Intelligence"
     }
   ],
@@ -75,7 +75,7 @@
   "metadata": {
     "event_count": 4,
     "film_id": "1131943",
-    "generated_at": "20260813T143545Z",
+    "generated_at": "20260814T142943Z",
     "timeline_version": "phase6b",
     "title": "Madden",
     "tmdb_id": "1131943"

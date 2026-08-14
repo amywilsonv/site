@@ -2,7 +2,7 @@
   "events": [
     {
       "confidence": "Inferred",
-      "event_id": "949838-5d27f47f6b0d",
+      "event_id": "949838-db5a7792f5f1",
       "event_type": "Distributor Change",
       "film_id": "949838",
       "importance": "Medium",
@@ -11,12 +11,12 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Netflix.",
-      "timestamp": "2026-08-13T14:35:45Z",
+      "timestamp": "2026-08-14T14:29:43Z",
       "title": "Distributor set: Netflix"
     },
     {
       "confidence": "Inferred",
-      "event_id": "949838-41050de5f708",
+      "event_id": "949838-838c5f3b016a",
       "event_type": "Awards Tier Changed",
       "film_id": "949838",
       "importance": "Medium",
@@ -26,12 +26,12 @@
       },
       "source_type": "editorial_model",
       "summary": "insufficient credible awards evidence",
-      "timestamp": "2026-08-13T14:35:45Z",
+      "timestamp": "2026-08-14T14:29:43Z",
       "title": "Awards tier assigned: No Current Awards Case"
     },
     {
       "confidence": "Inferred",
-      "event_id": "949838-b98827fa4355",
+      "event_id": "949838-6eecf73f3e78",
       "event_type": "Added To Database",
       "film_id": "949838",
       "importance": "Low",
@@ -40,7 +40,7 @@
       },
       "source_type": "system",
       "summary": "72 HOURS is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-08-13T14:35:45Z",
+      "timestamp": "2026-08-14T14:29:43Z",
       "title": "Added to Awards Intelligence"
     },
     {
@@ -60,7 +60,7 @@
   ],
   "latest_event": {
     "confidence": "Inferred",
-    "event_id": "949838-5d27f47f6b0d",
+    "event_id": "949838-db5a7792f5f1",
     "event_type": "Distributor Change",
     "film_id": "949838",
     "importance": "Medium",
@@ -69,13 +69,13 @@
     },
     "source_type": "metadata",
     "summary": "Current distributor is Netflix.",
-    "timestamp": "2026-08-13T14:35:45Z",
+    "timestamp": "2026-08-14T14:29:43Z",
     "title": "Distributor set: Netflix"
   },
   "metadata": {
     "event_count": 4,
     "film_id": "949838",
-    "generated_at": "20260813T143545Z",
+    "generated_at": "20260814T142943Z",
     "timeline_version": "phase6b",
     "title": "72 HOURS",
     "tmdb_id": "949838"

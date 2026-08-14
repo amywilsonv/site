@@ -35,7 +35,7 @@
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 4.9703",
+        "evidence": "TMDb popularity 4.9862",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -58,7 +58,7 @@
     "homepage_spotlight_override": null,
     "homepage_spotlight_score": 71.9,
     "industry_interest": "High",
-    "last_updated": "20260813T143545Z",
+    "last_updated": "20260814T142943Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
@@ -206,7 +206,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-08-13T14:35:27Z",
+    "generated_at": "2026-08-14T14:29:28Z",
     "headline": "The Social Reckoning: popularity increasing",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -226,7 +226,7 @@
         "tmdb_backdrop_count": 1,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=gM4LkaXwGuY",
-        "tmdb_popularity": 4.9703,
+        "tmdb_popularity": 4.9862,
         "tmdb_poster_count": 10,
         "tmdb_release_date_us_primary": "2026-10-09",
         "tmdb_release_date_us_theatrical": "2026-10-09",
@@ -242,14 +242,14 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity rose from 4.9029 to 4.9703.",
+    "summary": "TMDb popularity rose from 4.9029 to 4.9862.",
     "supporting_drivers": [
       {
         "confidence_weight": 0.9,
         "driver_type": "popularity_increasing",
-        "evidence": "TMDb popularity rose from 4.9029 to 4.9703.",
+        "evidence": "TMDb popularity rose from 4.9029 to 4.9862.",
         "label": "Popularity increasing",
-        "retrieved_at": "2026-08-13T14:35:27Z",
+        "retrieved_at": "2026-08-14T14:29:28Z",
         "source_metric": "tmdb_popularity",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -258,7 +258,7 @@
   },
   "media": {
     "canonical_trailer": {
-      "retrieved_at": "2026-08-13",
+      "retrieved_at": "2026-08-14",
       "site": "YouTube",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1281331/videos",
@@ -270,7 +270,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260813T143545Z",
+    "generated_at": "20260814T142943Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -278,25 +278,25 @@
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 4.9703,
-        "retrieved_at": "2026-08-13",
+        "popularity": 4.9862,
+        "retrieved_at": "2026-08-14",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1281331",
         "status": "not_yet_rated"
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-08-13",
+      "retrieved_at": "2026-08-14",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1281331",
-      "value": 4.9703
+      "value": 4.9862
     },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 4.9703,
-      "retrieved_at": "2026-08-13",
+      "popularity": 4.9862,
+      "retrieved_at": "2026-08-14",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1281331",
       "status": "not_yet_rated"
@@ -422,13 +422,13 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.094,
+      "audience_momentum": 0.095,
       "campaign_activity": 2.7,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-13T14:35:27Z",
+    "generated_at": "2026-08-14T14:29:28Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 6.119,
+    "score": 6.12,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -457,11 +457,11 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.094,
+        "contribution": 0.095,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 4.9703
+        "value": 4.9862
       }
     ]
   },
@@ -470,7 +470,7 @@
     "external_intelligence": {
       "confidence": "High",
       "headline": "The Social Reckoning: popularity increasing",
-      "summary": "TMDb popularity rose from 4.9029 to 4.9703."
+      "summary": "TMDb popularity rose from 4.9029 to 4.9862."
     },
     "last_updated": "2026-10-09",
     "latest_event": {
@@ -508,7 +508,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1281331-996bba848e2d",
+        "event_id": "1281331-805eab93b9bd",
         "event_type": "Distributor Change",
         "film_id": "1281331",
         "importance": "Medium",
@@ -517,12 +517,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Columbia Pictures.",
-        "timestamp": "2026-08-13T14:35:45Z",
+        "timestamp": "2026-08-14T14:29:43Z",
         "title": "Distributor set: Columbia Pictures"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1281331-487e386822ef",
+        "event_id": "1281331-570756045e31",
         "event_type": "Awards Tier Changed",
         "film_id": "1281331",
         "importance": "Medium",
@@ -532,15 +532,15 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-13T14:35:45Z",
+        "timestamp": "2026-08-14T14:29:43Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],
     "release_relevance": 35.5,
     "screening_room_score": {
       "confidence": "High",
-      "explanation": "TMDb popularity rose from 4.9029 to 4.9703.",
-      "score": 6.119
+      "explanation": "TMDb popularity rose from 4.9029 to 4.9862.",
+      "score": 6.12
     },
     "watch_triggers": [
       "Major Studio/Streamer",
@@ -585,7 +585,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1281331-996bba848e2d",
+        "event_id": "1281331-805eab93b9bd",
         "event_type": "Distributor Change",
         "film_id": "1281331",
         "importance": "Medium",
@@ -594,12 +594,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Columbia Pictures.",
-        "timestamp": "2026-08-13T14:35:45Z",
+        "timestamp": "2026-08-14T14:29:43Z",
         "title": "Distributor set: Columbia Pictures"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1281331-487e386822ef",
+        "event_id": "1281331-570756045e31",
         "event_type": "Awards Tier Changed",
         "film_id": "1281331",
         "importance": "Medium",
@@ -609,12 +609,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-13T14:35:45Z",
+        "timestamp": "2026-08-14T14:29:43Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1281331-412ebd01a9e6",
+        "event_id": "1281331-333f040bd4c0",
         "event_type": "Added To Database",
         "film_id": "1281331",
         "importance": "Low",
@@ -623,7 +623,7 @@
         },
         "source_type": "system",
         "summary": "The Social Reckoning is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-13T14:35:45Z",
+        "timestamp": "2026-08-14T14:29:43Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -658,7 +658,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1281331-996bba848e2d",
+        "event_id": "1281331-805eab93b9bd",
         "event_type": "Distributor Change",
         "film_id": "1281331",
         "importance": "Medium",
@@ -667,12 +667,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Columbia Pictures.",
-        "timestamp": "2026-08-13T14:35:45Z",
+        "timestamp": "2026-08-14T14:29:43Z",
         "title": "Distributor set: Columbia Pictures"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1281331-487e386822ef",
+        "event_id": "1281331-570756045e31",
         "event_type": "Awards Tier Changed",
         "film_id": "1281331",
         "importance": "Medium",
@@ -682,7 +682,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-13T14:35:45Z",
+        "timestamp": "2026-08-14T14:29:43Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],

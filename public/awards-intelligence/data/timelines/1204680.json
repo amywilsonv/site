@@ -16,7 +16,7 @@
     },
     {
       "confidence": "Inferred",
-      "event_id": "1204680-d991bef83f33",
+      "event_id": "1204680-af585a542118",
       "event_type": "Homepage Featured",
       "film_id": "1204680",
       "importance": "Medium",
@@ -25,12 +25,12 @@
       },
       "source_type": "discovery_homepage",
       "summary": "Coyote vs. Acme is currently selected for the homepage experience.",
-      "timestamp": "2026-08-13T14:35:45Z",
+      "timestamp": "2026-08-14T14:29:43Z",
       "title": "Featured in The Screening Room"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1204680-cd081a8c1d57",
+      "event_id": "1204680-eb23534b7b25",
       "event_type": "Distributor Change",
       "film_id": "1204680",
       "importance": "Medium",
@@ -39,12 +39,12 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Warner Bros. Pictures.",
-      "timestamp": "2026-08-13T14:35:45Z",
+      "timestamp": "2026-08-14T14:29:43Z",
       "title": "Distributor set: Warner Bros. Pictures"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1204680-89f679d8d34f",
+      "event_id": "1204680-0f7f19e7ec07",
       "event_type": "Awards Tier Changed",
       "film_id": "1204680",
       "importance": "Medium",
@@ -56,12 +56,12 @@
       },
       "source_type": "editorial_model",
       "summary": "plausible but incomplete awards evidence",
-      "timestamp": "2026-08-13T14:35:45Z",
+      "timestamp": "2026-08-14T14:29:43Z",
       "title": "Awards tier assigned: Emerging"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1204680-8601c9fa3bc9",
+      "event_id": "1204680-14b06b087d97",
       "event_type": "Added To Database",
       "film_id": "1204680",
       "importance": "Low",
@@ -70,7 +70,7 @@
       },
       "source_type": "system",
       "summary": "Coyote vs. Acme is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-08-13T14:35:45Z",
+      "timestamp": "2026-08-14T14:29:43Z",
       "title": "Added to Awards Intelligence"
     }
   ],
@@ -91,7 +91,7 @@
   "metadata": {
     "event_count": 5,
     "film_id": "1204680",
-    "generated_at": "20260813T143545Z",
+    "generated_at": "20260814T142943Z",
     "timeline_version": "phase6b",
     "title": "Coyote vs. Acme",
     "tmdb_id": "1204680"

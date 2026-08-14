@@ -8,26 +8,26 @@
       "Event Release",
       "Awards Watch"
     ],
-    "attention_score": 92.7,
+    "attention_score": 90.4,
     "attention_version": "phase7e_attention_v1",
-    "audience_interest": "High",
+    "audience_interest": "Moderate",
     "conversation_level": "Unavailable",
     "cultural_relevance": "Moderate",
     "early_reception": null,
     "evidence_sources": [
       {
-        "evidence": "TMDb popularity 105.203",
+        "evidence": "TMDb popularity 96.6392",
         "source": "audience_popularity",
         "status": "verified"
       },
       {
-        "evidence": "Commercial scale and release context",
-        "source": "commercial_scale",
+        "evidence": "Public-interest, franchise, event, or major-studio tracking signal",
+        "source": "event_awareness",
         "status": "inferred"
       },
       {
-        "evidence": "Public-interest, franchise, event, or major-studio tracking signal",
-        "source": "event_awareness",
+        "evidence": "Commercial scale and release context",
+        "source": "commercial_scale",
         "status": "inferred"
       },
       {
@@ -61,15 +61,15 @@
         "status": "inferred"
       },
       {
-        "evidence": "88",
+        "evidence": "89",
         "source": "tmdb_vote_count",
         "status": "verified"
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 92.7,
+    "homepage_spotlight_score": 90.4,
     "industry_interest": "Moderate",
-    "last_updated": "20260813T143545Z",
+    "last_updated": "20260814T142943Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
@@ -81,7 +81,7 @@
       },
       "commercial": {
         "evidence_count": 1,
-        "score": 15.4,
+        "score": 13.1,
         "statuses": [
           "inferred"
         ]
@@ -162,7 +162,7 @@
     "probabilities": {}
   },
   "commercial": {
-    "commercial_significance": 59.3,
+    "commercial_significance": 50.5,
     "distributor": "Netflix",
     "franchise": "",
     "release_strategy": "Active release campaign",
@@ -185,7 +185,7 @@
     "editorial_category": "Major Release",
     "editorial_summary": "Netflix release worth monitoring for Craft Categories potential.",
     "importance_tier": "Watchlist",
-    "primary_story": "major studio or streamer scale; exceptional TMDb popularity; filmmaker attached to large-scale release",
+    "primary_story": "major studio or streamer scale; high TMDb popularity; filmmaker attached to large-scale release",
     "story_strength": "Strong",
     "why_it_matters": "Netflix release worth monitoring for Craft Categories potential."
   },
@@ -223,7 +223,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-08-13T14:35:27Z",
+    "generated_at": "2026-08-14T14:29:28Z",
     "headline": "The Debt Collector: release approaching",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -243,13 +243,13 @@
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=U9vJ2Z4SFQI",
-        "tmdb_popularity": 105.2029,
+        "tmdb_popularity": 96.6392,
         "tmdb_poster_count": 4,
         "tmdb_release_date_us_primary": "2026-07-23",
         "tmdb_release_date_us_theatrical": "",
         "tmdb_release_status": "Released",
-        "tmdb_vote_average": 7.909,
-        "tmdb_vote_count": 88,
+        "tmdb_vote_average": 7.9,
+        "tmdb_vote_count": 89,
         "tmdb_watch_provider_count_us": 2,
         "trailer_available": true,
         "trailer_count": 1,
@@ -266,7 +266,7 @@
         "driver_type": "release_approaching",
         "evidence": "US release is 3 days away on 2026-07-23.",
         "label": "Release approaching",
-        "retrieved_at": "2026-08-13T14:35:27Z",
+        "retrieved_at": "2026-08-14T14:29:28Z",
         "source_metric": "tmdb_release_date_us_primary",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -275,7 +275,7 @@
   },
   "media": {
     "canonical_trailer": {
-      "retrieved_at": "2026-08-13",
+      "retrieved_at": "2026-08-14",
       "site": "YouTube",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1630409/videos",
@@ -287,7 +287,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260813T143545Z",
+    "generated_at": "20260814T142943Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -295,20 +295,20 @@
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 105.2029,
-        "retrieved_at": "2026-08-13",
+        "popularity": 96.6392,
+        "retrieved_at": "2026-08-14",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1630409",
         "status": "rated",
-        "vote_average": 7.909,
-        "vote_count": 88
+        "vote_average": 7.9,
+        "vote_count": 89
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-08-13",
+      "retrieved_at": "2026-08-14",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1630409",
-      "value": 105.2029
+      "value": 96.6392
     },
     "watch_providers": {
       "country": "US",
@@ -326,20 +326,20 @@
           "provider_name": "Netflix Standard with Ads"
         }
       ],
-      "retrieved_at": "2026-08-13",
+      "retrieved_at": "2026-08-14",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1630409/watch?locale=US"
     }
   },
   "ratings": {
     "tmdb": {
-      "popularity": 105.2029,
-      "retrieved_at": "2026-08-13",
+      "popularity": 96.6392,
+      "retrieved_at": "2026-08-14",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1630409",
       "status": "rated",
-      "vote_average": 7.909,
-      "vote_count": 88
+      "vote_average": 7.9,
+      "vote_count": 89
     }
   },
   "related": {
@@ -355,6 +355,18 @@
         ],
         "title": "The Last House",
         "tmdb_id": "1284041"
+      },
+      {
+        "profile_url": "film.html?id=1487864",
+        "relationship_score": 48,
+        "shared_signals": [
+          "Major Release",
+          "Crime",
+          "Thriller",
+          "Netflix"
+        ],
+        "title": "Nando Between Two Worlds - A Sintonia Film",
+        "tmdb_id": "1487864"
       },
       {
         "profile_url": "film.html?id=949838",
@@ -398,16 +410,6 @@
         ],
         "title": "Heartstopper Forever",
         "tmdb_id": "1468683"
-      },
-      {
-        "profile_url": "film.html?id=1522689",
-        "relationship_score": 36,
-        "shared_signals": [
-          "Major Release",
-          "Netflix"
-        ],
-        "title": "Why Did I Get Married Again?",
-        "tmdb_id": "1522689"
       }
     ],
     "related_people": [
@@ -453,25 +455,25 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 2.668,
-      "audience_quality": 7.514,
+      "audience_momentum": 2.512,
+      "audience_quality": 7.505,
       "availability": 3.967,
       "awards_relevance": 0.8,
       "campaign_activity": 1.35,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-13T14:35:27Z",
+    "generated_at": "2026-08-14T14:29:28Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 19.624,
+    "score": 19.459,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
         "confidence": 0.95,
-        "contribution": 7.514,
+        "contribution": 7.505,
         "metric_name": "tmdb_vote_average",
         "provider": "tmdb",
         "score_family": "audience_quality",
-        "value": 7.909
+        "value": 7.9
       },
       {
         "confidence": 0.85,
@@ -491,11 +493,11 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 1.999,
+        "contribution": 1.836,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 105.2029
+        "value": 96.6392
       },
       {
         "confidence": 0.85,
@@ -508,16 +510,16 @@
     ]
   },
   "signals": {
-    "cultural_significance": 59.3,
+    "cultural_significance": 50.5,
     "external_intelligence": {
       "confidence": "High",
       "headline": "The Debt Collector: release approaching",
       "summary": "US release is 3 days away on 2026-07-23."
     },
-    "last_updated": "2026-08-13T14:35:45Z",
+    "last_updated": "2026-08-14T14:29:43Z",
     "latest_event": {
       "confidence": "Inferred",
-      "event_id": "1630409-69c1a1583a10",
+      "event_id": "1630409-5c4ff90f9cb9",
       "event_type": "Distributor Change",
       "film_id": "1630409",
       "importance": "Medium",
@@ -526,7 +528,7 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Netflix.",
-      "timestamp": "2026-08-13T14:35:45Z",
+      "timestamp": "2026-08-14T14:29:43Z",
       "title": "Distributor set: Netflix"
     },
     "latest_intelligence": "As of 2026-07-18, this is a Netflix release dated 2026-07-23 with Craft Categories relevance; current awards profile is Craft Potential and data status is developing.",
@@ -536,7 +538,7 @@
     "recent_activity": [
       {
         "confidence": "Inferred",
-        "event_id": "1630409-69c1a1583a10",
+        "event_id": "1630409-5c4ff90f9cb9",
         "event_type": "Distributor Change",
         "film_id": "1630409",
         "importance": "Medium",
@@ -545,12 +547,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-13T14:35:45Z",
+        "timestamp": "2026-08-14T14:29:43Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1630409-32e3379c8a81",
+        "event_id": "1630409-503e8bbd9121",
         "event_type": "Awards Tier Changed",
         "film_id": "1630409",
         "importance": "Medium",
@@ -562,12 +564,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-13T14:35:45Z",
+        "timestamp": "2026-08-14T14:29:43Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1630409-1a2de1992bca",
+        "event_id": "1630409-424b7d211363",
         "event_type": "Added To Database",
         "film_id": "1630409",
         "importance": "Low",
@@ -576,15 +578,15 @@
         },
         "source_type": "system",
         "summary": "The Debt Collector is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-13T14:35:45Z",
+        "timestamp": "2026-08-14T14:29:43Z",
         "title": "Added to Awards Intelligence"
       }
     ],
-    "release_relevance": 55.2,
+    "release_relevance": 52.8,
     "screening_room_score": {
       "confidence": "High",
       "explanation": "US release is 3 days away on 2026-07-23.",
-      "score": 19.624
+      "score": 19.459
     },
     "watch_triggers": [
       "Prestige Distributor",
@@ -613,7 +615,7 @@
     "events": [
       {
         "confidence": "Inferred",
-        "event_id": "1630409-69c1a1583a10",
+        "event_id": "1630409-5c4ff90f9cb9",
         "event_type": "Distributor Change",
         "film_id": "1630409",
         "importance": "Medium",
@@ -622,12 +624,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-13T14:35:45Z",
+        "timestamp": "2026-08-14T14:29:43Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1630409-32e3379c8a81",
+        "event_id": "1630409-503e8bbd9121",
         "event_type": "Awards Tier Changed",
         "film_id": "1630409",
         "importance": "Medium",
@@ -639,12 +641,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-13T14:35:45Z",
+        "timestamp": "2026-08-14T14:29:43Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1630409-1a2de1992bca",
+        "event_id": "1630409-424b7d211363",
         "event_type": "Added To Database",
         "film_id": "1630409",
         "importance": "Low",
@@ -653,7 +655,7 @@
         },
         "source_type": "system",
         "summary": "The Debt Collector is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-13T14:35:45Z",
+        "timestamp": "2026-08-14T14:29:43Z",
         "title": "Added to Awards Intelligence"
       },
       {
@@ -673,7 +675,7 @@
     ],
     "latest_event": {
       "confidence": "Inferred",
-      "event_id": "1630409-69c1a1583a10",
+      "event_id": "1630409-5c4ff90f9cb9",
       "event_type": "Distributor Change",
       "film_id": "1630409",
       "importance": "Medium",
@@ -682,13 +684,13 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Netflix.",
-      "timestamp": "2026-08-13T14:35:45Z",
+      "timestamp": "2026-08-14T14:29:43Z",
       "title": "Distributor set: Netflix"
     },
     "recent_activity": [
       {
         "confidence": "Inferred",
-        "event_id": "1630409-69c1a1583a10",
+        "event_id": "1630409-5c4ff90f9cb9",
         "event_type": "Distributor Change",
         "film_id": "1630409",
         "importance": "Medium",
@@ -697,12 +699,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-13T14:35:45Z",
+        "timestamp": "2026-08-14T14:29:43Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1630409-32e3379c8a81",
+        "event_id": "1630409-503e8bbd9121",
         "event_type": "Awards Tier Changed",
         "film_id": "1630409",
         "importance": "Medium",
@@ -714,12 +716,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-13T14:35:45Z",
+        "timestamp": "2026-08-14T14:29:43Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1630409-1a2de1992bca",
+        "event_id": "1630409-424b7d211363",
         "event_type": "Added To Database",
         "film_id": "1630409",
         "importance": "Low",
@@ -728,7 +730,7 @@
         },
         "source_type": "system",
         "summary": "The Debt Collector is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-13T14:35:45Z",
+        "timestamp": "2026-08-14T14:29:43Z",
         "title": "Added to Awards Intelligence"
       }
     ],

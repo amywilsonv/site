@@ -8,7 +8,7 @@
       "Event Release",
       "Awards Watch"
     ],
-    "attention_score": 79.1,
+    "attention_score": 79.0,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Moderate",
     "conversation_level": "Unavailable",
@@ -16,7 +16,7 @@
     "early_reception": null,
     "evidence_sources": [
       {
-        "evidence": "TMDb popularity 38.0567",
+        "evidence": "TMDb popularity 37.1848",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -67,14 +67,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 79.1,
+    "homepage_spotlight_score": 79.0,
     "industry_interest": null,
-    "last_updated": "20260813T143545Z",
+    "last_updated": "20260814T142943Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
         "evidence_count": 2,
-        "score": 23.3,
+        "score": 23.2,
         "statuses": [
           "verified"
         ]
@@ -229,7 +229,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-08-13T14:35:27Z",
+    "generated_at": "2026-08-14T14:29:28Z",
     "headline": "THE RIBBON HERO: release approaching",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -249,12 +249,12 @@
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=Z56klGz1BPk",
-        "tmdb_popularity": 38.0567,
+        "tmdb_popularity": 37.1848,
         "tmdb_poster_count": 4,
         "tmdb_release_date_us_primary": "2026-08-07",
         "tmdb_release_date_us_theatrical": "2026-08-07",
         "tmdb_release_status": "Released",
-        "tmdb_vote_average": 7.154,
+        "tmdb_vote_average": 7.2,
         "tmdb_vote_count": 13,
         "tmdb_watch_provider_count_us": 2,
         "trailer_available": true,
@@ -265,14 +265,14 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity rose from 1.9072 to 38.0567. US release is 18 days away on 2026-08-07.",
+    "summary": "TMDb popularity rose from 1.9072 to 37.1848. US release is 18 days away on 2026-08-07.",
     "supporting_drivers": [
       {
         "confidence_weight": 0.9,
         "driver_type": "popularity_increasing",
-        "evidence": "TMDb popularity rose from 1.9072 to 38.0567.",
+        "evidence": "TMDb popularity rose from 1.9072 to 37.1848.",
         "label": "Popularity increasing",
-        "retrieved_at": "2026-08-13T14:35:27Z",
+        "retrieved_at": "2026-08-14T14:29:28Z",
         "source_metric": "tmdb_popularity",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -282,7 +282,7 @@
         "driver_type": "release_approaching",
         "evidence": "US release is 18 days away on 2026-08-07.",
         "label": "Release approaching",
-        "retrieved_at": "2026-08-13T14:35:27Z",
+        "retrieved_at": "2026-08-14T14:29:28Z",
         "source_metric": "tmdb_release_date_us_primary",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -291,7 +291,7 @@
   },
   "media": {
     "canonical_trailer": {
-      "retrieved_at": "2026-08-13",
+      "retrieved_at": "2026-08-14",
       "site": "YouTube",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1679730/videos",
@@ -303,7 +303,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260813T143545Z",
+    "generated_at": "20260814T142943Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -311,20 +311,20 @@
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 38.0567,
-        "retrieved_at": "2026-08-13",
+        "popularity": 37.1848,
+        "retrieved_at": "2026-08-14",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1679730",
         "status": "rated",
-        "vote_average": 7.154,
+        "vote_average": 7.2,
         "vote_count": 13
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-08-13",
+      "retrieved_at": "2026-08-14",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1679730",
-      "value": 38.0567
+      "value": 37.1848
     },
     "watch_providers": {
       "country": "US",
@@ -342,19 +342,19 @@
           "provider_name": "Netflix Standard with Ads"
         }
       ],
-      "retrieved_at": "2026-08-13",
+      "retrieved_at": "2026-08-14",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1679730-the-ribbon-hero/watch?locale=US"
     }
   },
   "ratings": {
     "tmdb": {
-      "popularity": 38.0567,
-      "retrieved_at": "2026-08-13",
+      "popularity": 37.1848,
+      "retrieved_at": "2026-08-14",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1679730",
       "status": "rated",
-      "vote_average": 7.154,
+      "vote_average": 7.2,
       "vote_count": 13
     }
   },
@@ -480,25 +480,25 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.822,
-      "audience_quality": 6.796,
+      "audience_momentum": 0.806,
+      "audience_quality": 6.84,
       "availability": 3.967,
       "awards_relevance": 4.0,
       "campaign_activity": 4.05,
       "talent_profile": 1.725
     },
-    "generated_at": "2026-08-13T14:35:27Z",
+    "generated_at": "2026-08-14T14:29:28Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 21.36,
+    "score": 21.388,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
         "confidence": 0.95,
-        "contribution": 6.796,
+        "contribution": 6.84,
         "metric_name": "tmdb_vote_average",
         "provider": "tmdb",
         "score_family": "audience_quality",
-        "value": 7.154
+        "value": 7.2
       },
       {
         "confidence": 0.9,
@@ -539,12 +539,12 @@
     "external_intelligence": {
       "confidence": "High",
       "headline": "THE RIBBON HERO: release approaching",
-      "summary": "TMDb popularity rose from 1.9072 to 38.0567. US release is 18 days away on 2026-08-07."
+      "summary": "TMDb popularity rose from 1.9072 to 37.1848. US release is 18 days away on 2026-08-07."
     },
-    "last_updated": "2026-08-13T14:35:45Z",
+    "last_updated": "2026-08-14T14:29:43Z",
     "latest_event": {
       "confidence": "Inferred",
-      "event_id": "1679730-eb0762a06f18",
+      "event_id": "1679730-ea9e4e9c0b20",
       "event_type": "Distributor Change",
       "film_id": "1679730",
       "importance": "Medium",
@@ -553,7 +553,7 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Netflix.",
-      "timestamp": "2026-08-13T14:35:45Z",
+      "timestamp": "2026-08-14T14:29:43Z",
       "title": "Distributor set: Netflix"
     },
     "latest_intelligence": "As of 2026-07-18, this is a Netflix release dated 2026-08-07 with Best Picture, Acting, Craft Categories, Animated Feature relevance; current awards profile is Craft Potential and data status is developing.",
@@ -563,7 +563,7 @@
     "recent_activity": [
       {
         "confidence": "Inferred",
-        "event_id": "1679730-eb0762a06f18",
+        "event_id": "1679730-ea9e4e9c0b20",
         "event_type": "Distributor Change",
         "film_id": "1679730",
         "importance": "Medium",
@@ -572,12 +572,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-13T14:35:45Z",
+        "timestamp": "2026-08-14T14:29:43Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1679730-a2220ea26211",
+        "event_id": "1679730-05e33a643a53",
         "event_type": "Awards Tier Changed",
         "film_id": "1679730",
         "importance": "Medium",
@@ -593,12 +593,12 @@
         },
         "source_type": "editorial_model",
         "summary": "category-specific awards case without broader contender evidence",
-        "timestamp": "2026-08-13T14:35:45Z",
+        "timestamp": "2026-08-14T14:29:43Z",
         "title": "Awards tier assigned: Category Contender"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1679730-a8c4dccc20bd",
+        "event_id": "1679730-0289b38f1f1f",
         "event_type": "Added To Database",
         "film_id": "1679730",
         "importance": "Low",
@@ -607,15 +607,15 @@
         },
         "source_type": "system",
         "summary": "THE RIBBON HERO is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-13T14:35:45Z",
+        "timestamp": "2026-08-14T14:29:43Z",
         "title": "Added to Awards Intelligence"
       }
     ],
     "release_relevance": 38.7,
     "screening_room_score": {
       "confidence": "High",
-      "explanation": "TMDb popularity rose from 1.9072 to 38.0567. US release is 18 days away on 2026-08-07.",
-      "score": 21.36
+      "explanation": "TMDb popularity rose from 1.9072 to 37.1848. US release is 18 days away on 2026-08-07.",
+      "score": 21.388
     },
     "watch_triggers": [
       "Prestige Distributor",
@@ -646,7 +646,7 @@
     "events": [
       {
         "confidence": "Inferred",
-        "event_id": "1679730-eb0762a06f18",
+        "event_id": "1679730-ea9e4e9c0b20",
         "event_type": "Distributor Change",
         "film_id": "1679730",
         "importance": "Medium",
@@ -655,12 +655,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-13T14:35:45Z",
+        "timestamp": "2026-08-14T14:29:43Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1679730-a2220ea26211",
+        "event_id": "1679730-05e33a643a53",
         "event_type": "Awards Tier Changed",
         "film_id": "1679730",
         "importance": "Medium",
@@ -676,12 +676,12 @@
         },
         "source_type": "editorial_model",
         "summary": "category-specific awards case without broader contender evidence",
-        "timestamp": "2026-08-13T14:35:45Z",
+        "timestamp": "2026-08-14T14:29:43Z",
         "title": "Awards tier assigned: Category Contender"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1679730-a8c4dccc20bd",
+        "event_id": "1679730-0289b38f1f1f",
         "event_type": "Added To Database",
         "film_id": "1679730",
         "importance": "Low",
@@ -690,7 +690,7 @@
         },
         "source_type": "system",
         "summary": "THE RIBBON HERO is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-13T14:35:45Z",
+        "timestamp": "2026-08-14T14:29:43Z",
         "title": "Added to Awards Intelligence"
       },
       {
@@ -710,7 +710,7 @@
     ],
     "latest_event": {
       "confidence": "Inferred",
-      "event_id": "1679730-eb0762a06f18",
+      "event_id": "1679730-ea9e4e9c0b20",
       "event_type": "Distributor Change",
       "film_id": "1679730",
       "importance": "Medium",
@@ -719,13 +719,13 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Netflix.",
-      "timestamp": "2026-08-13T14:35:45Z",
+      "timestamp": "2026-08-14T14:29:43Z",
       "title": "Distributor set: Netflix"
     },
     "recent_activity": [
       {
         "confidence": "Inferred",
-        "event_id": "1679730-eb0762a06f18",
+        "event_id": "1679730-ea9e4e9c0b20",
         "event_type": "Distributor Change",
         "film_id": "1679730",
         "importance": "Medium",
@@ -734,12 +734,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-13T14:35:45Z",
+        "timestamp": "2026-08-14T14:29:43Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1679730-a2220ea26211",
+        "event_id": "1679730-05e33a643a53",
         "event_type": "Awards Tier Changed",
         "film_id": "1679730",
         "importance": "Medium",
@@ -755,12 +755,12 @@
         },
         "source_type": "editorial_model",
         "summary": "category-specific awards case without broader contender evidence",
-        "timestamp": "2026-08-13T14:35:45Z",
+        "timestamp": "2026-08-14T14:29:43Z",
         "title": "Awards tier assigned: Category Contender"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1679730-a8c4dccc20bd",
+        "event_id": "1679730-0289b38f1f1f",
         "event_type": "Added To Database",
         "film_id": "1679730",
         "importance": "Low",
@@ -769,7 +769,7 @@
         },
         "source_type": "system",
         "summary": "THE RIBBON HERO is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-13T14:35:45Z",
+        "timestamp": "2026-08-14T14:29:43Z",
         "title": "Added to Awards Intelligence"
       }
     ],

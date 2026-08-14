@@ -7,7 +7,7 @@
       "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 48.4,
+    "attention_score": 47.6,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -40,7 +40,7 @@
         "status": "inferred"
       },
       {
-        "evidence": "TMDb popularity 1.52",
+        "evidence": "TMDb popularity 1.1507",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -51,14 +51,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 48.4,
+    "homepage_spotlight_score": 47.6,
     "industry_interest": null,
-    "last_updated": "20260813T143545Z",
+    "last_updated": "20260814T142943Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
         "evidence_count": 1,
-        "score": 4.8,
+        "score": 4.0,
         "statuses": [
           "verified"
         ]
@@ -202,10 +202,10 @@
     "tmdb_id": "1479690"
   },
   "intelligence": {
-    "confidence": "High",
-    "confidence_score": 0.99,
-    "generated_at": "2026-08-13T14:35:27Z",
-    "headline": "RaftaaR: popularity increasing",
+    "confidence": "Low",
+    "confidence_score": 0.25,
+    "generated_at": "2026-08-14T14:29:28Z",
+    "headline": "RaftaaR: no material change detected",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
       "signal_values": {
@@ -223,7 +223,7 @@
         "streaming_provider_count_us": 0,
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": false,
-        "tmdb_popularity": 1.52,
+        "tmdb_popularity": 1.1507,
         "tmdb_poster_count": 1,
         "tmdb_release_date_us_primary": "",
         "tmdb_release_date_us_theatrical": "",
@@ -238,24 +238,13 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity rose from 1.4219 to 1.52.",
-    "supporting_drivers": [
-      {
-        "confidence_weight": 0.9,
-        "driver_type": "popularity_increasing",
-        "evidence": "TMDb popularity rose from 1.4219 to 1.52.",
-        "label": "Popularity increasing",
-        "retrieved_at": "2026-08-13T14:35:27Z",
-        "source_metric": "tmdb_popularity",
-        "source_provider": "tmdb",
-        "source_status": "available"
-      }
-    ]
+    "summary": "Current provider signals do not show a supported material change.",
+    "supporting_drivers": []
   },
   "media": {},
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260813T143545Z",
+    "generated_at": "20260814T142943Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -263,25 +252,25 @@
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 1.52,
-        "retrieved_at": "2026-08-13",
+        "popularity": 1.1507,
+        "retrieved_at": "2026-08-14",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1479690",
         "status": "not_yet_rated"
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-08-13",
+      "retrieved_at": "2026-08-14",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1479690",
-      "value": 1.52
+      "value": 1.1507
     },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 1.52,
-      "retrieved_at": "2026-08-13",
+      "popularity": 1.1507,
+      "retrieved_at": "2026-08-14",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1479690",
       "status": "not_yet_rated"
@@ -409,13 +398,13 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.029,
+      "audience_momentum": 0.022,
       "awards_relevance": 2.4,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-13T14:35:27Z",
+    "generated_at": "2026-08-14T14:29:28Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 5.754,
+    "score": 5.747,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -444,20 +433,20 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.029,
+        "contribution": 0.022,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 1.52
+        "value": 1.1507
       }
     ]
   },
   "signals": {
     "cultural_significance": 19.0,
     "external_intelligence": {
-      "confidence": "High",
-      "headline": "RaftaaR: popularity increasing",
-      "summary": "TMDb popularity rose from 1.4219 to 1.52."
+      "confidence": "Low",
+      "headline": "RaftaaR: no material change detected",
+      "summary": "Current provider signals do not show a supported material change."
     },
     "last_updated": "2026-10-16",
     "latest_event": {
@@ -495,7 +484,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1479690-95e72c7a4309",
+        "event_id": "1479690-867c5fa1b953",
         "event_type": "Distributor Change",
         "film_id": "1479690",
         "importance": "Medium",
@@ -504,12 +493,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Amazon MGM Studios.",
-        "timestamp": "2026-08-13T14:35:45Z",
+        "timestamp": "2026-08-14T14:29:43Z",
         "title": "Distributor set: Amazon MGM Studios"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1479690-ccad30f54107",
+        "event_id": "1479690-a7078228867e",
         "event_type": "Awards Tier Changed",
         "film_id": "1479690",
         "importance": "Medium",
@@ -523,15 +512,15 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-13T14:35:45Z",
+        "timestamp": "2026-08-14T14:29:43Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],
     "release_relevance": 28.0,
     "screening_room_score": {
-      "confidence": "High",
-      "explanation": "TMDb popularity rose from 1.4219 to 1.52.",
-      "score": 5.754
+      "confidence": "Low",
+      "explanation": "Current provider signals do not show a supported material change.",
+      "score": 5.747
     },
     "watch_triggers": [
       "Prestige Distributor",
@@ -574,7 +563,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1479690-95e72c7a4309",
+        "event_id": "1479690-867c5fa1b953",
         "event_type": "Distributor Change",
         "film_id": "1479690",
         "importance": "Medium",
@@ -583,12 +572,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Amazon MGM Studios.",
-        "timestamp": "2026-08-13T14:35:45Z",
+        "timestamp": "2026-08-14T14:29:43Z",
         "title": "Distributor set: Amazon MGM Studios"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1479690-ccad30f54107",
+        "event_id": "1479690-a7078228867e",
         "event_type": "Awards Tier Changed",
         "film_id": "1479690",
         "importance": "Medium",
@@ -602,12 +591,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-13T14:35:45Z",
+        "timestamp": "2026-08-14T14:29:43Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1479690-853275ee76ad",
+        "event_id": "1479690-436af725935e",
         "event_type": "Added To Database",
         "film_id": "1479690",
         "importance": "Low",
@@ -616,7 +605,7 @@
         },
         "source_type": "system",
         "summary": "RaftaaR is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-13T14:35:45Z",
+        "timestamp": "2026-08-14T14:29:43Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -651,7 +640,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1479690-95e72c7a4309",
+        "event_id": "1479690-867c5fa1b953",
         "event_type": "Distributor Change",
         "film_id": "1479690",
         "importance": "Medium",
@@ -660,12 +649,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Amazon MGM Studios.",
-        "timestamp": "2026-08-13T14:35:45Z",
+        "timestamp": "2026-08-14T14:29:43Z",
         "title": "Distributor set: Amazon MGM Studios"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1479690-ccad30f54107",
+        "event_id": "1479690-a7078228867e",
         "event_type": "Awards Tier Changed",
         "film_id": "1479690",
         "importance": "Medium",
@@ -679,7 +668,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-13T14:35:45Z",
+        "timestamp": "2026-08-14T14:29:43Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],

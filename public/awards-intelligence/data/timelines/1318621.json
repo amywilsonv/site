@@ -2,7 +2,7 @@
   "events": [
     {
       "confidence": "Inferred",
-      "event_id": "1318621-b99c793fb60d",
+      "event_id": "1318621-1006bad5d456",
       "event_type": "Distributor Change",
       "film_id": "1318621",
       "importance": "Medium",
@@ -11,12 +11,12 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Disney.",
-      "timestamp": "2026-08-13T14:35:45Z",
+      "timestamp": "2026-08-14T14:29:43Z",
       "title": "Distributor set: Disney"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1318621-359a94964227",
+      "event_id": "1318621-b93988fb6e2e",
       "event_type": "Awards Tier Changed",
       "film_id": "1318621",
       "importance": "Medium",
@@ -28,12 +28,12 @@
       },
       "source_type": "editorial_model",
       "summary": "plausible but incomplete awards evidence",
-      "timestamp": "2026-08-13T14:35:45Z",
+      "timestamp": "2026-08-14T14:29:43Z",
       "title": "Awards tier assigned: Emerging"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1318621-94efeb0cbe98",
+      "event_id": "1318621-ad7116055f36",
       "event_type": "Added To Database",
       "film_id": "1318621",
       "importance": "Low",
@@ -42,7 +42,7 @@
       },
       "source_type": "system",
       "summary": "Descendants: Wicked Wonderland is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-08-13T14:35:45Z",
+      "timestamp": "2026-08-14T14:29:43Z",
       "title": "Added to Awards Intelligence"
     },
     {
@@ -62,7 +62,7 @@
   ],
   "latest_event": {
     "confidence": "Inferred",
-    "event_id": "1318621-b99c793fb60d",
+    "event_id": "1318621-1006bad5d456",
     "event_type": "Distributor Change",
     "film_id": "1318621",
     "importance": "Medium",
@@ -71,13 +71,13 @@
     },
     "source_type": "metadata",
     "summary": "Current distributor is Disney.",
-    "timestamp": "2026-08-13T14:35:45Z",
+    "timestamp": "2026-08-14T14:29:43Z",
     "title": "Distributor set: Disney"
   },
   "metadata": {
     "event_count": 4,
     "film_id": "1318621",
-    "generated_at": "20260813T143545Z",
+    "generated_at": "20260814T142943Z",
     "timeline_version": "phase6b",
     "title": "Descendants: Wicked Wonderland",
     "tmdb_id": "1318621"

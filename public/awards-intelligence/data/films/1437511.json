@@ -7,7 +7,7 @@
       "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 57.6,
+    "attention_score": 57.4,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -30,7 +30,7 @@
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 5.4655",
+        "evidence": "TMDb popularity 5.1803",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -56,14 +56,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 57.6,
+    "homepage_spotlight_score": 57.4,
     "industry_interest": null,
-    "last_updated": "20260813T143545Z",
+    "last_updated": "20260814T142943Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
         "evidence_count": 2,
-        "score": 14.0,
+        "score": 13.8,
         "statuses": [
           "verified"
         ]
@@ -206,7 +206,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-08-13T14:35:27Z",
+    "generated_at": "2026-08-14T14:29:28Z",
     "headline": "How to Rob a Bank: popularity increasing",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -226,7 +226,7 @@
         "tmdb_backdrop_count": 1,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=hoXld2b0TCs",
-        "tmdb_popularity": 5.4655,
+        "tmdb_popularity": 5.1803,
         "tmdb_poster_count": 7,
         "tmdb_release_date_us_primary": "2026-11-13",
         "tmdb_release_date_us_theatrical": "2026-11-13",
@@ -242,14 +242,14 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity rose from 3.7992 to 5.4655.",
+    "summary": "TMDb popularity rose from 3.7992 to 5.1803.",
     "supporting_drivers": [
       {
         "confidence_weight": 0.9,
         "driver_type": "popularity_increasing",
-        "evidence": "TMDb popularity rose from 3.7992 to 5.4655.",
+        "evidence": "TMDb popularity rose from 3.7992 to 5.1803.",
         "label": "Popularity increasing",
-        "retrieved_at": "2026-08-13T14:35:27Z",
+        "retrieved_at": "2026-08-14T14:29:28Z",
         "source_metric": "tmdb_popularity",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -258,7 +258,7 @@
   },
   "media": {
     "canonical_trailer": {
-      "retrieved_at": "2026-08-13",
+      "retrieved_at": "2026-08-14",
       "site": "YouTube",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1437511/videos",
@@ -270,7 +270,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260813T143545Z",
+    "generated_at": "20260814T142943Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -278,25 +278,25 @@
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 5.4655,
-        "retrieved_at": "2026-08-13",
+        "popularity": 5.1803,
+        "retrieved_at": "2026-08-14",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1437511",
         "status": "not_yet_rated"
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-08-13",
+      "retrieved_at": "2026-08-14",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1437511",
-      "value": 5.4655
+      "value": 5.1803
     },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 5.4655,
-      "retrieved_at": "2026-08-13",
+      "popularity": 5.1803,
+      "retrieved_at": "2026-08-14",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1437511",
       "status": "not_yet_rated"
@@ -338,17 +338,6 @@
         "tmdb_id": "1487861"
       },
       {
-        "profile_url": "film.html?id=1487864",
-        "relationship_score": 38,
-        "shared_signals": [
-          "General Watch",
-          "Crime",
-          "Thriller"
-        ],
-        "title": "Nando Between Two Worlds - A Sintonia Film",
-        "tmdb_id": "1487864"
-      },
-      {
         "profile_url": "film.html?id=860508",
         "relationship_score": 38,
         "shared_signals": [
@@ -369,6 +358,16 @@
         ],
         "title": "Wild Horse Nine",
         "tmdb_id": "891621"
+      },
+      {
+        "profile_url": "film.html?id=1479690",
+        "relationship_score": 36,
+        "shared_signals": [
+          "General Watch",
+          "Amazon MGM Studios"
+        ],
+        "title": "RaftaaR",
+        "tmdb_id": "1479690"
       }
     ],
     "related_people": [
@@ -422,13 +421,13 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.104,
+      "audience_momentum": 0.098,
       "campaign_activity": 2.7,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-13T14:35:27Z",
+    "generated_at": "2026-08-14T14:29:28Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 6.129,
+    "score": 6.123,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -457,11 +456,11 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.104,
+        "contribution": 0.098,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 5.4655
+        "value": 5.1803
       }
     ]
   },
@@ -470,7 +469,7 @@
     "external_intelligence": {
       "confidence": "High",
       "headline": "How to Rob a Bank: popularity increasing",
-      "summary": "TMDb popularity rose from 3.7992 to 5.4655."
+      "summary": "TMDb popularity rose from 3.7992 to 5.1803."
     },
     "last_updated": "2026-11-13",
     "latest_event": {
@@ -508,7 +507,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1437511-12d9c8e6f90e",
+        "event_id": "1437511-05968f034e15",
         "event_type": "Distributor Change",
         "film_id": "1437511",
         "importance": "Medium",
@@ -517,12 +516,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Amazon MGM Studios.",
-        "timestamp": "2026-08-13T14:35:45Z",
+        "timestamp": "2026-08-14T14:29:43Z",
         "title": "Distributor set: Amazon MGM Studios"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1437511-46815685a9cc",
+        "event_id": "1437511-054445d68a4a",
         "event_type": "Awards Tier Changed",
         "film_id": "1437511",
         "importance": "Medium",
@@ -532,15 +531,15 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-13T14:35:45Z",
+        "timestamp": "2026-08-14T14:29:43Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],
     "release_relevance": 28.0,
     "screening_room_score": {
       "confidence": "High",
-      "explanation": "TMDb popularity rose from 3.7992 to 5.4655.",
-      "score": 6.129
+      "explanation": "TMDb popularity rose from 3.7992 to 5.1803.",
+      "score": 6.123
     },
     "watch_triggers": [
       "Prestige Distributor",
@@ -583,7 +582,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1437511-12d9c8e6f90e",
+        "event_id": "1437511-05968f034e15",
         "event_type": "Distributor Change",
         "film_id": "1437511",
         "importance": "Medium",
@@ -592,12 +591,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Amazon MGM Studios.",
-        "timestamp": "2026-08-13T14:35:45Z",
+        "timestamp": "2026-08-14T14:29:43Z",
         "title": "Distributor set: Amazon MGM Studios"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1437511-46815685a9cc",
+        "event_id": "1437511-054445d68a4a",
         "event_type": "Awards Tier Changed",
         "film_id": "1437511",
         "importance": "Medium",
@@ -607,12 +606,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-13T14:35:45Z",
+        "timestamp": "2026-08-14T14:29:43Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1437511-d59b702d8a40",
+        "event_id": "1437511-c4a5b02e2056",
         "event_type": "Added To Database",
         "film_id": "1437511",
         "importance": "Low",
@@ -621,7 +620,7 @@
         },
         "source_type": "system",
         "summary": "How to Rob a Bank is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-13T14:35:45Z",
+        "timestamp": "2026-08-14T14:29:43Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -656,7 +655,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1437511-12d9c8e6f90e",
+        "event_id": "1437511-05968f034e15",
         "event_type": "Distributor Change",
         "film_id": "1437511",
         "importance": "Medium",
@@ -665,12 +664,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Amazon MGM Studios.",
-        "timestamp": "2026-08-13T14:35:45Z",
+        "timestamp": "2026-08-14T14:29:43Z",
         "title": "Distributor set: Amazon MGM Studios"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1437511-46815685a9cc",
+        "event_id": "1437511-054445d68a4a",
         "event_type": "Awards Tier Changed",
         "film_id": "1437511",
         "importance": "Medium",
@@ -680,7 +679,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-13T14:35:45Z",
+        "timestamp": "2026-08-14T14:29:43Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],
