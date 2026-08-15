@@ -16,21 +16,7 @@
     },
     {
       "confidence": "Inferred",
-      "event_id": "1204680-af585a542118",
-      "event_type": "Homepage Featured",
-      "film_id": "1204680",
-      "importance": "Medium",
-      "metadata": {
-        "editorial_category": "Major Release"
-      },
-      "source_type": "discovery_homepage",
-      "summary": "Coyote vs. Acme is currently selected for the homepage experience.",
-      "timestamp": "2026-08-14T14:29:43Z",
-      "title": "Featured in The Screening Room"
-    },
-    {
-      "confidence": "Inferred",
-      "event_id": "1204680-eb23534b7b25",
+      "event_id": "1204680-7e8a053d22f0",
       "event_type": "Distributor Change",
       "film_id": "1204680",
       "importance": "Medium",
@@ -39,12 +25,12 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Warner Bros. Pictures.",
-      "timestamp": "2026-08-14T14:29:43Z",
+      "timestamp": "2026-08-15T13:49:37Z",
       "title": "Distributor set: Warner Bros. Pictures"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1204680-0f7f19e7ec07",
+      "event_id": "1204680-7e191899a447",
       "event_type": "Awards Tier Changed",
       "film_id": "1204680",
       "importance": "Medium",
@@ -56,12 +42,12 @@
       },
       "source_type": "editorial_model",
       "summary": "plausible but incomplete awards evidence",
-      "timestamp": "2026-08-14T14:29:43Z",
+      "timestamp": "2026-08-15T13:49:37Z",
       "title": "Awards tier assigned: Emerging"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1204680-14b06b087d97",
+      "event_id": "1204680-fb35f93e3894",
       "event_type": "Added To Database",
       "film_id": "1204680",
       "importance": "Low",
@@ -70,7 +56,7 @@
       },
       "source_type": "system",
       "summary": "Coyote vs. Acme is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-08-14T14:29:43Z",
+      "timestamp": "2026-08-15T13:49:37Z",
       "title": "Added to Awards Intelligence"
     }
   ],
@@ -89,9 +75,9 @@
     "title": "Release scheduled"
   },
   "metadata": {
-    "event_count": 5,
+    "event_count": 4,
     "film_id": "1204680",
-    "generated_at": "20260814T142943Z",
+    "generated_at": "20260815T134937Z",
     "timeline_version": "phase6b",
     "title": "Coyote vs. Acme",
     "tmdb_id": "1204680"

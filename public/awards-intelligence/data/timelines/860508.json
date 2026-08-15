@@ -16,7 +16,7 @@
     },
     {
       "confidence": "Inferred",
-      "event_id": "860508-a46624c7f6a7",
+      "event_id": "860508-e801db9c1486",
       "event_type": "Distributor Change",
       "film_id": "860508",
       "importance": "Medium",
@@ -25,12 +25,12 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Netflix.",
-      "timestamp": "2026-08-14T14:29:43Z",
+      "timestamp": "2026-08-15T13:49:37Z",
       "title": "Distributor set: Netflix"
     },
     {
       "confidence": "Inferred",
-      "event_id": "860508-de81f9f9473a",
+      "event_id": "860508-9bba26ee4c34",
       "event_type": "Awards Tier Changed",
       "film_id": "860508",
       "importance": "Medium",
@@ -40,12 +40,12 @@
       },
       "source_type": "editorial_model",
       "summary": "insufficient credible awards evidence",
-      "timestamp": "2026-08-14T14:29:43Z",
+      "timestamp": "2026-08-15T13:49:37Z",
       "title": "Awards tier assigned: No Current Awards Case"
     },
     {
       "confidence": "Inferred",
-      "event_id": "860508-8c88b9744ede",
+      "event_id": "860508-2c4953e3354f",
       "event_type": "Added To Database",
       "film_id": "860508",
       "importance": "Low",
@@ -54,7 +54,7 @@
       },
       "source_type": "system",
       "summary": "The Whisper Man is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-08-14T14:29:43Z",
+      "timestamp": "2026-08-15T13:49:37Z",
       "title": "Added to Awards Intelligence"
     }
   ],
@@ -75,7 +75,7 @@
   "metadata": {
     "event_count": 4,
     "film_id": "860508",
-    "generated_at": "20260814T142943Z",
+    "generated_at": "20260815T134937Z",
     "timeline_version": "phase6b",
     "title": "The Whisper Man",
     "tmdb_id": "860508"

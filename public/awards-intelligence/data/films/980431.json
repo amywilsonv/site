@@ -16,7 +16,7 @@
     "early_reception": null,
     "evidence_sources": [
       {
-        "evidence": "TMDb popularity 131.389",
+        "evidence": "TMDb popularity 122.714",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -66,7 +66,7 @@
         "status": "inferred"
       },
       {
-        "evidence": "837",
+        "evidence": "850",
         "source": "tmdb_vote_count",
         "status": "verified"
       }
@@ -74,7 +74,7 @@
     "homepage_spotlight_override": null,
     "homepage_spotlight_score": 98.9,
     "industry_interest": "High",
-    "last_updated": "20260814T142943Z",
+    "last_updated": "20260815T134937Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
@@ -237,7 +237,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-08-14T14:29:28Z",
+    "generated_at": "2026-08-15T13:49:14Z",
     "headline": "Avatar Aang: The Last Airbender: release approaching",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -257,13 +257,13 @@
         "tmdb_backdrop_count": 6,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=7b20GRFZBFE",
-        "tmdb_popularity": 131.3887,
+        "tmdb_popularity": 122.7143,
         "tmdb_poster_count": 25,
         "tmdb_release_date_us_primary": "2026-07-24",
         "tmdb_release_date_us_theatrical": "2026-07-24",
         "tmdb_release_status": "Released",
-        "tmdb_vote_average": 9.27,
-        "tmdb_vote_count": 837,
+        "tmdb_vote_average": 9.259,
+        "tmdb_vote_count": 850,
         "tmdb_watch_provider_count_us": 8,
         "trailer_available": true,
         "trailer_count": 2,
@@ -280,7 +280,7 @@
         "driver_type": "release_approaching",
         "evidence": "US release is 4 days away on 2026-07-24.",
         "label": "Release approaching",
-        "retrieved_at": "2026-08-14T14:29:28Z",
+        "retrieved_at": "2026-08-15T13:49:14Z",
         "source_metric": "tmdb_release_date_us_primary",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -289,7 +289,7 @@
   },
   "media": {
     "canonical_trailer": {
-      "retrieved_at": "2026-08-14",
+      "retrieved_at": "2026-08-15",
       "site": "YouTube",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/980431/videos",
@@ -301,7 +301,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260814T142943Z",
+    "generated_at": "20260815T134937Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -309,20 +309,20 @@
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 131.3887,
-        "retrieved_at": "2026-08-14",
+        "popularity": 122.7143,
+        "retrieved_at": "2026-08-15",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/980431",
         "status": "rated",
-        "vote_average": 9.27,
-        "vote_count": 837
+        "vote_average": 9.259,
+        "vote_count": 850
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-08-14",
+      "retrieved_at": "2026-08-15",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/980431",
-      "value": 131.3887
+      "value": 122.7143
     },
     "watch_providers": {
       "buy": [
@@ -378,20 +378,20 @@
           "provider_name": "Paramount+ Roku Premium Channel"
         }
       ],
-      "retrieved_at": "2026-08-14",
+      "retrieved_at": "2026-08-15",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/980431-avatar-aang-the-last-airbender/watch?locale=US"
     }
   },
   "ratings": {
     "tmdb": {
-      "popularity": 131.3887,
-      "retrieved_at": "2026-08-14",
+      "popularity": 122.7143,
+      "retrieved_at": "2026-08-15",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/980431",
       "status": "rated",
-      "vote_average": 9.27,
-      "vote_count": 837
+      "vote_average": 9.259,
+      "vote_count": 850
     }
   },
   "related": {
@@ -419,6 +419,18 @@
         ],
         "title": "The Essentials 2",
         "tmdb_id": "1714703"
+      },
+      {
+        "profile_url": "film.html?id=1185806",
+        "relationship_score": 52,
+        "shared_signals": [
+          "Adventure",
+          "Animation",
+          "Animated Feature",
+          "Craft Categories"
+        ],
+        "title": "PAW Patrol: The Dino Movie",
+        "tmdb_id": "1185806"
       },
       {
         "profile_url": "film.html?id=1663937",
@@ -455,18 +467,6 @@
         ],
         "title": "Bad Fairies",
         "tmdb_id": "1138528"
-      },
-      {
-        "profile_url": "film.html?id=1185806",
-        "relationship_score": 46,
-        "shared_signals": [
-          "Adventure",
-          "Animation",
-          "Animated Feature",
-          "Craft Categories"
-        ],
-        "title": "PAW Patrol: The Dino Movie",
-        "tmdb_id": "1185806"
       }
     ],
     "related_people": [
@@ -528,33 +528,33 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 8.857,
-      "audience_quality": 8.806,
+      "audience_momentum": 8.792,
+      "audience_quality": 8.796,
       "availability": 7.65,
       "awards_relevance": 2.4,
       "campaign_activity": 2.7,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-14T14:29:28Z",
+    "generated_at": "2026-08-15T13:49:14Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 33.738,
+    "score": 33.663,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
         "confidence": 0.95,
-        "contribution": 8.806,
+        "contribution": 8.796,
         "metric_name": "tmdb_vote_average",
         "provider": "tmdb",
         "score_family": "audience_quality",
-        "value": 9.27
+        "value": 9.259
       },
       {
         "confidence": 0.95,
-        "contribution": 6.361,
+        "contribution": 6.46,
         "metric_name": "tmdb_vote_count",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 837
+        "value": 850
       },
       {
         "confidence": 0.85,
@@ -589,10 +589,10 @@
       "headline": "Avatar Aang: The Last Airbender: release approaching",
       "summary": "US release is 4 days away on 2026-07-24."
     },
-    "last_updated": "2026-08-14T14:29:43Z",
+    "last_updated": "2026-08-15T13:49:37Z",
     "latest_event": {
       "confidence": "Inferred",
-      "event_id": "980431-8a8f4c67df3d",
+      "event_id": "980431-ef00a0705f88",
       "event_type": "Homepage Featured",
       "film_id": "980431",
       "importance": "Medium",
@@ -601,7 +601,7 @@
       },
       "source_type": "discovery_homepage",
       "summary": "Avatar Aang: The Last Airbender is currently selected for the homepage experience.",
-      "timestamp": "2026-08-14T14:29:43Z",
+      "timestamp": "2026-08-15T13:49:37Z",
       "title": "Featured in The Screening Room"
     },
     "latest_intelligence": "As of 2026-07-18, this is a Paramount Pictures release dated 2026-07-24 with Craft Categories, Animated Feature relevance; current awards profile is Craft Potential and data status is developing.",
@@ -611,7 +611,7 @@
     "recent_activity": [
       {
         "confidence": "Inferred",
-        "event_id": "980431-8a8f4c67df3d",
+        "event_id": "980431-ef00a0705f88",
         "event_type": "Homepage Featured",
         "film_id": "980431",
         "importance": "Medium",
@@ -620,12 +620,12 @@
         },
         "source_type": "discovery_homepage",
         "summary": "Avatar Aang: The Last Airbender is currently selected for the homepage experience.",
-        "timestamp": "2026-08-14T14:29:43Z",
+        "timestamp": "2026-08-15T13:49:37Z",
         "title": "Featured in The Screening Room"
       },
       {
         "confidence": "Inferred",
-        "event_id": "980431-d2567d359140",
+        "event_id": "980431-0a3b18c8697f",
         "event_type": "Distributor Change",
         "film_id": "980431",
         "importance": "Medium",
@@ -634,12 +634,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Paramount Pictures.",
-        "timestamp": "2026-08-14T14:29:43Z",
+        "timestamp": "2026-08-15T13:49:37Z",
         "title": "Distributor set: Paramount Pictures"
       },
       {
         "confidence": "Inferred",
-        "event_id": "980431-af3b315309be",
+        "event_id": "980431-d306e302226c",
         "event_type": "Awards Tier Changed",
         "film_id": "980431",
         "importance": "Medium",
@@ -653,7 +653,7 @@
         },
         "source_type": "editorial_model",
         "summary": "category-specific awards case without broader contender evidence",
-        "timestamp": "2026-08-14T14:29:43Z",
+        "timestamp": "2026-08-15T13:49:37Z",
         "title": "Awards tier assigned: Category Contender"
       }
     ],
@@ -661,7 +661,7 @@
     "screening_room_score": {
       "confidence": "High",
       "explanation": "US release is 4 days away on 2026-07-24.",
-      "score": 33.738
+      "score": 33.663
     },
     "watch_triggers": [
       "Major Studio/Streamer",
@@ -692,7 +692,7 @@
     "events": [
       {
         "confidence": "Inferred",
-        "event_id": "980431-8a8f4c67df3d",
+        "event_id": "980431-ef00a0705f88",
         "event_type": "Homepage Featured",
         "film_id": "980431",
         "importance": "Medium",
@@ -701,12 +701,12 @@
         },
         "source_type": "discovery_homepage",
         "summary": "Avatar Aang: The Last Airbender is currently selected for the homepage experience.",
-        "timestamp": "2026-08-14T14:29:43Z",
+        "timestamp": "2026-08-15T13:49:37Z",
         "title": "Featured in The Screening Room"
       },
       {
         "confidence": "Inferred",
-        "event_id": "980431-d2567d359140",
+        "event_id": "980431-0a3b18c8697f",
         "event_type": "Distributor Change",
         "film_id": "980431",
         "importance": "Medium",
@@ -715,12 +715,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Paramount Pictures.",
-        "timestamp": "2026-08-14T14:29:43Z",
+        "timestamp": "2026-08-15T13:49:37Z",
         "title": "Distributor set: Paramount Pictures"
       },
       {
         "confidence": "Inferred",
-        "event_id": "980431-af3b315309be",
+        "event_id": "980431-d306e302226c",
         "event_type": "Awards Tier Changed",
         "film_id": "980431",
         "importance": "Medium",
@@ -734,12 +734,12 @@
         },
         "source_type": "editorial_model",
         "summary": "category-specific awards case without broader contender evidence",
-        "timestamp": "2026-08-14T14:29:43Z",
+        "timestamp": "2026-08-15T13:49:37Z",
         "title": "Awards tier assigned: Category Contender"
       },
       {
         "confidence": "Inferred",
-        "event_id": "980431-dbd6d94bf3d6",
+        "event_id": "980431-d2476d0fd21c",
         "event_type": "Added To Database",
         "film_id": "980431",
         "importance": "Low",
@@ -748,7 +748,7 @@
         },
         "source_type": "system",
         "summary": "Avatar Aang: The Last Airbender is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-14T14:29:43Z",
+        "timestamp": "2026-08-15T13:49:37Z",
         "title": "Added to Awards Intelligence"
       },
       {
@@ -782,7 +782,7 @@
     ],
     "latest_event": {
       "confidence": "Inferred",
-      "event_id": "980431-8a8f4c67df3d",
+      "event_id": "980431-ef00a0705f88",
       "event_type": "Homepage Featured",
       "film_id": "980431",
       "importance": "Medium",
@@ -791,13 +791,13 @@
       },
       "source_type": "discovery_homepage",
       "summary": "Avatar Aang: The Last Airbender is currently selected for the homepage experience.",
-      "timestamp": "2026-08-14T14:29:43Z",
+      "timestamp": "2026-08-15T13:49:37Z",
       "title": "Featured in The Screening Room"
     },
     "recent_activity": [
       {
         "confidence": "Inferred",
-        "event_id": "980431-8a8f4c67df3d",
+        "event_id": "980431-ef00a0705f88",
         "event_type": "Homepage Featured",
         "film_id": "980431",
         "importance": "Medium",
@@ -806,12 +806,12 @@
         },
         "source_type": "discovery_homepage",
         "summary": "Avatar Aang: The Last Airbender is currently selected for the homepage experience.",
-        "timestamp": "2026-08-14T14:29:43Z",
+        "timestamp": "2026-08-15T13:49:37Z",
         "title": "Featured in The Screening Room"
       },
       {
         "confidence": "Inferred",
-        "event_id": "980431-d2567d359140",
+        "event_id": "980431-0a3b18c8697f",
         "event_type": "Distributor Change",
         "film_id": "980431",
         "importance": "Medium",
@@ -820,12 +820,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Paramount Pictures.",
-        "timestamp": "2026-08-14T14:29:43Z",
+        "timestamp": "2026-08-15T13:49:37Z",
         "title": "Distributor set: Paramount Pictures"
       },
       {
         "confidence": "Inferred",
-        "event_id": "980431-af3b315309be",
+        "event_id": "980431-d306e302226c",
         "event_type": "Awards Tier Changed",
         "film_id": "980431",
         "importance": "Medium",
@@ -839,7 +839,7 @@
         },
         "source_type": "editorial_model",
         "summary": "category-specific awards case without broader contender evidence",
-        "timestamp": "2026-08-14T14:29:43Z",
+        "timestamp": "2026-08-15T13:49:37Z",
         "title": "Awards tier assigned: Category Contender"
       }
     ],

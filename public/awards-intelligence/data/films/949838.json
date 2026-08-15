@@ -1,32 +1,27 @@
 {
   "attention_intelligence": {
-    "anticipation_level": "High",
+    "anticipation_level": "Moderate",
     "attention_confidence": "High",
     "attention_reasons": [
       "Most Anticipated",
       "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 81.9,
+    "attention_score": 73.3,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Moderate",
     "conversation_level": "Unavailable",
-    "cultural_relevance": "Moderate",
+    "cultural_relevance": null,
     "early_reception": null,
     "evidence_sources": [
       {
-        "evidence": "TMDb popularity 51.8841",
+        "evidence": "TMDb popularity 48.4432",
         "source": "audience_popularity",
         "status": "verified"
       },
       {
         "evidence": "Public-interest, franchise, event, or major-studio tracking signal",
         "source": "event_awareness",
-        "status": "inferred"
-      },
-      {
-        "evidence": "Commercial scale and release context",
-        "source": "commercial_scale",
         "status": "inferred"
       },
       {
@@ -45,37 +40,42 @@
         "status": "verified"
       },
       {
-        "evidence": "Director: Tim Story",
-        "source": "filmmaker_interest",
-        "status": "verified"
-      },
-      {
         "evidence": "Trailer URL present",
         "source": "trailer_available",
         "status": "verified"
       },
       {
-        "evidence": "328",
+        "evidence": "Commercial scale and release context",
+        "source": "commercial_scale",
+        "status": "inferred"
+      },
+      {
+        "evidence": "Director: Tim Story",
+        "source": "filmmaker_interest",
+        "status": "verified"
+      },
+      {
+        "evidence": "331",
         "source": "tmdb_vote_count",
         "status": "verified"
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 81.9,
-    "industry_interest": "Moderate",
-    "last_updated": "20260814T142943Z",
+    "homepage_spotlight_score": 73.3,
+    "industry_interest": null,
+    "last_updated": "20260815T134937Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
         "evidence_count": 2,
-        "score": 24.9,
+        "score": 24.5,
         "statuses": [
           "verified"
         ]
       },
       "commercial": {
         "evidence_count": 1,
-        "score": 13.1,
+        "score": 7.1,
         "statuses": [
           "inferred"
         ]
@@ -97,7 +97,7 @@
       },
       "talent/prestige": {
         "evidence_count": 2,
-        "score": 14.4,
+        "score": 12.2,
         "statuses": [
           "verified"
         ]
@@ -147,7 +147,7 @@
     "probabilities": {}
   },
   "commercial": {
-    "commercial_significance": 50.5,
+    "commercial_significance": 27.2,
     "distributor": "Netflix",
     "franchise": "",
     "release_strategy": "Active release campaign",
@@ -171,11 +171,11 @@
     }
   },
   "editorial": {
-    "discovery_reason": "Major Release - Tim Story film with large-scale commercial or public-interest signals.",
-    "editorial_category": "Major Release",
+    "discovery_reason": "Netflix release worth monitoring for awards-season potential.",
+    "editorial_category": "General Watch",
     "editorial_summary": "Netflix release worth monitoring for awards-season potential.",
     "importance_tier": "Watchlist",
-    "primary_story": "major studio or streamer scale; high TMDb popularity; filmmaker attached to large-scale release",
+    "primary_story": "generic generated rationale",
     "story_strength": "Developing",
     "why_it_matters": "Netflix release worth monitoring for awards-season potential."
   },
@@ -204,7 +204,7 @@
     "profile_url": "film.html?id=949838",
     "release_date": "2026-07-20",
     "release_display": "In theaters Jul. 20",
-    "runtime": 102,
+    "runtime": 105,
     "synopsis": "To save his career, a 40-year-old ad exec joins a crew of twentysomethings for a wild Miami bachelor party after they mistakenly add him to a group chat.",
     "title": "72 HOURS",
     "tmdb_id": "949838"
@@ -212,7 +212,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-08-14T14:29:28Z",
+    "generated_at": "2026-08-15T13:49:14Z",
     "headline": "72 HOURS: release approaching",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -232,13 +232,13 @@
         "tmdb_backdrop_count": 3,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=N-J-HR3quc4",
-        "tmdb_popularity": 51.8841,
+        "tmdb_popularity": 48.4432,
         "tmdb_poster_count": 9,
         "tmdb_release_date_us_primary": "2026-07-20",
         "tmdb_release_date_us_theatrical": "",
         "tmdb_release_status": "Released",
-        "tmdb_vote_average": 6.848,
-        "tmdb_vote_count": 328,
+        "tmdb_vote_average": 6.855,
+        "tmdb_vote_count": 331,
         "tmdb_watch_provider_count_us": 2,
         "trailer_available": true,
         "trailer_count": 2,
@@ -255,7 +255,7 @@
         "driver_type": "release_approaching",
         "evidence": "US release is 0 days away on 2026-07-20.",
         "label": "Release approaching",
-        "retrieved_at": "2026-08-14T14:29:28Z",
+        "retrieved_at": "2026-08-15T13:49:14Z",
         "source_metric": "tmdb_release_date_us_primary",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -264,7 +264,7 @@
   },
   "media": {
     "canonical_trailer": {
-      "retrieved_at": "2026-08-14",
+      "retrieved_at": "2026-08-15",
       "site": "YouTube",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/949838/videos",
@@ -276,7 +276,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260814T142943Z",
+    "generated_at": "20260815T134937Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -284,20 +284,20 @@
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 51.8841,
-        "retrieved_at": "2026-08-14",
+        "popularity": 48.4432,
+        "retrieved_at": "2026-08-15",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/949838",
         "status": "rated",
-        "vote_average": 6.848,
-        "vote_count": 328
+        "vote_average": 6.855,
+        "vote_count": 331
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-08-14",
+      "retrieved_at": "2026-08-15",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/949838",
-      "value": 51.8841
+      "value": 48.4432
     },
     "watch_providers": {
       "country": "US",
@@ -315,87 +315,89 @@
           "provider_name": "Netflix Standard with Ads"
         }
       ],
-      "retrieved_at": "2026-08-14",
+      "retrieved_at": "2026-08-15",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/949838-72-hours/watch?locale=US"
     }
   },
   "ratings": {
     "tmdb": {
-      "popularity": 51.8841,
-      "retrieved_at": "2026-08-14",
+      "popularity": 48.4432,
+      "retrieved_at": "2026-08-15",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/949838",
       "status": "rated",
-      "vote_average": 6.848,
-      "vote_count": 328
+      "vote_average": 6.855,
+      "vote_count": 331
     }
   },
   "related": {
     "related_films": [
       {
-        "profile_url": "film.html?id=1487864",
+        "profile_url": "film.html?id=1514863",
         "relationship_score": 42,
         "shared_signals": [
-          "Major Release",
-          "Crime",
-          "Netflix"
-        ],
-        "title": "Nando Between Two Worlds - A Sintonia Film",
-        "tmdb_id": "1487864"
-      },
-      {
-        "profile_url": "film.html?id=1457866",
-        "relationship_score": 42,
-        "shared_signals": [
-          "Major Release",
+          "General Watch",
           "Comedy",
           "Netflix"
         ],
-        "title": "The Adventures of Cliff Booth",
-        "tmdb_id": "1457866"
+        "title": "Best of the Best",
+        "tmdb_id": "1514863"
       },
       {
-        "profile_url": "film.html?id=1630409",
+        "profile_url": "film.html?id=1365884",
         "relationship_score": 42,
         "shared_signals": [
-          "Major Release",
-          "Crime",
-          "Netflix"
-        ],
-        "title": "The Debt Collector",
-        "tmdb_id": "1630409"
-      },
-      {
-        "profile_url": "film.html?id=1522689",
-        "relationship_score": 42,
-        "shared_signals": [
-          "Major Release",
+          "General Watch",
           "Comedy",
           "Netflix"
         ],
-        "title": "Why Did I Get Married Again?",
-        "tmdb_id": "1522689"
+        "title": "Call My Agent! The Movie",
+        "tmdb_id": "1365884"
       },
       {
-        "profile_url": "film.html?id=1468683",
-        "relationship_score": 36,
+        "profile_url": "film.html?id=1504358",
+        "relationship_score": 42,
         "shared_signals": [
-          "Major Release",
+          "General Watch",
+          "Comedy",
           "Netflix"
         ],
-        "title": "Heartstopper Forever",
-        "tmdb_id": "1468683"
+        "title": "Don't Say Good Luck",
+        "tmdb_id": "1504358"
       },
       {
-        "profile_url": "film.html?id=1284041",
-        "relationship_score": 36,
+        "profile_url": "film.html?id=1487861",
+        "relationship_score": 42,
         "shared_signals": [
-          "Major Release",
+          "General Watch",
+          "Crime",
           "Netflix"
         ],
-        "title": "The Last House",
-        "tmdb_id": "1284041"
+        "title": "Elize: Shadows of a Woman",
+        "tmdb_id": "1487861"
+      },
+      {
+        "profile_url": "film.html?id=1421594",
+        "relationship_score": 42,
+        "shared_signals": [
+          "General Watch",
+          "Crime",
+          "Netflix"
+        ],
+        "title": "Inside the Trustor Scandal",
+        "tmdb_id": "1421594"
+      },
+      {
+        "profile_url": "film.html?id=1620682",
+        "relationship_score": 42,
+        "shared_signals": [
+          "General Watch",
+          "Comedy",
+          "Netflix"
+        ],
+        "title": "Love in Slow Motion",
+        "tmdb_id": "1620682"
       }
     ],
     "related_people": [
@@ -461,24 +463,24 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 3.479,
-      "audience_quality": 6.506,
+      "audience_momentum": 3.436,
+      "audience_quality": 6.512,
       "availability": 3.967,
       "campaign_activity": 2.7,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-14T14:29:28Z",
+    "generated_at": "2026-08-15T13:49:14Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 19.977,
+    "score": 19.94,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
         "confidence": 0.95,
-        "contribution": 6.506,
+        "contribution": 6.512,
         "metric_name": "tmdb_vote_average",
         "provider": "tmdb",
         "score_family": "audience_quality",
-        "value": 6.848
+        "value": 6.855
       },
       {
         "confidence": 0.9,
@@ -490,11 +492,11 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 2.493,
+        "contribution": 2.516,
         "metric_name": "tmdb_vote_count",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 328
+        "value": 331
       },
       {
         "confidence": 0.85,
@@ -515,16 +517,16 @@
     ]
   },
   "signals": {
-    "cultural_significance": 50.5,
+    "cultural_significance": 27.2,
     "external_intelligence": {
       "confidence": "High",
       "headline": "72 HOURS: release approaching",
       "summary": "US release is 0 days away on 2026-07-20."
     },
-    "last_updated": "2026-08-14T14:29:43Z",
+    "last_updated": "2026-08-15T13:49:37Z",
     "latest_event": {
       "confidence": "Inferred",
-      "event_id": "949838-db5a7792f5f1",
+      "event_id": "949838-274826dee7e0",
       "event_type": "Distributor Change",
       "film_id": "949838",
       "importance": "Medium",
@@ -533,7 +535,7 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Netflix.",
-      "timestamp": "2026-08-14T14:29:43Z",
+      "timestamp": "2026-08-15T13:49:37Z",
       "title": "Distributor set: Netflix"
     },
     "latest_intelligence": "As of 2026-07-18, this is a Netflix release dated 2026-07-24 with general awards monitoring relevance; current awards profile is Developing and data status is developing.",
@@ -543,7 +545,7 @@
     "recent_activity": [
       {
         "confidence": "Inferred",
-        "event_id": "949838-db5a7792f5f1",
+        "event_id": "949838-274826dee7e0",
         "event_type": "Distributor Change",
         "film_id": "949838",
         "importance": "Medium",
@@ -552,12 +554,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-14T14:29:43Z",
+        "timestamp": "2026-08-15T13:49:37Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "949838-838c5f3b016a",
+        "event_id": "949838-7f1319ef39ec",
         "event_type": "Awards Tier Changed",
         "film_id": "949838",
         "importance": "Medium",
@@ -567,12 +569,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-14T14:29:43Z",
+        "timestamp": "2026-08-15T13:49:37Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "949838-6eecf73f3e78",
+        "event_id": "949838-e0f7c5d8b69c",
         "event_type": "Added To Database",
         "film_id": "949838",
         "importance": "Low",
@@ -581,15 +583,15 @@
         },
         "source_type": "system",
         "summary": "72 HOURS is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-14T14:29:43Z",
+        "timestamp": "2026-08-15T13:49:37Z",
         "title": "Added to Awards Intelligence"
       }
     ],
-    "release_relevance": 52.8,
+    "release_relevance": 46.4,
     "screening_room_score": {
       "confidence": "High",
       "explanation": "US release is 0 days away on 2026-07-20.",
-      "score": 19.977
+      "score": 19.94
     },
     "watch_triggers": [
       "Prestige Distributor",
@@ -617,7 +619,7 @@
     "events": [
       {
         "confidence": "Inferred",
-        "event_id": "949838-db5a7792f5f1",
+        "event_id": "949838-274826dee7e0",
         "event_type": "Distributor Change",
         "film_id": "949838",
         "importance": "Medium",
@@ -626,12 +628,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-14T14:29:43Z",
+        "timestamp": "2026-08-15T13:49:37Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "949838-838c5f3b016a",
+        "event_id": "949838-7f1319ef39ec",
         "event_type": "Awards Tier Changed",
         "film_id": "949838",
         "importance": "Medium",
@@ -641,12 +643,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-14T14:29:43Z",
+        "timestamp": "2026-08-15T13:49:37Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "949838-6eecf73f3e78",
+        "event_id": "949838-e0f7c5d8b69c",
         "event_type": "Added To Database",
         "film_id": "949838",
         "importance": "Low",
@@ -655,7 +657,7 @@
         },
         "source_type": "system",
         "summary": "72 HOURS is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-14T14:29:43Z",
+        "timestamp": "2026-08-15T13:49:37Z",
         "title": "Added to Awards Intelligence"
       },
       {
@@ -675,7 +677,7 @@
     ],
     "latest_event": {
       "confidence": "Inferred",
-      "event_id": "949838-db5a7792f5f1",
+      "event_id": "949838-274826dee7e0",
       "event_type": "Distributor Change",
       "film_id": "949838",
       "importance": "Medium",
@@ -684,13 +686,13 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Netflix.",
-      "timestamp": "2026-08-14T14:29:43Z",
+      "timestamp": "2026-08-15T13:49:37Z",
       "title": "Distributor set: Netflix"
     },
     "recent_activity": [
       {
         "confidence": "Inferred",
-        "event_id": "949838-db5a7792f5f1",
+        "event_id": "949838-274826dee7e0",
         "event_type": "Distributor Change",
         "film_id": "949838",
         "importance": "Medium",
@@ -699,12 +701,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-14T14:29:43Z",
+        "timestamp": "2026-08-15T13:49:37Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "949838-838c5f3b016a",
+        "event_id": "949838-7f1319ef39ec",
         "event_type": "Awards Tier Changed",
         "film_id": "949838",
         "importance": "Medium",
@@ -714,12 +716,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-14T14:29:43Z",
+        "timestamp": "2026-08-15T13:49:37Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "949838-6eecf73f3e78",
+        "event_id": "949838-e0f7c5d8b69c",
         "event_type": "Added To Database",
         "film_id": "949838",
         "importance": "Low",
@@ -728,7 +730,7 @@
         },
         "source_type": "system",
         "summary": "72 HOURS is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-14T14:29:43Z",
+        "timestamp": "2026-08-15T13:49:37Z",
         "title": "Added to Awards Intelligence"
       }
     ],

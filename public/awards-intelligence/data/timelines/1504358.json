@@ -2,7 +2,7 @@
   "events": [
     {
       "confidence": "Inferred",
-      "event_id": "1504358-6fc9bcb500db",
+      "event_id": "1504358-25507f667024",
       "event_type": "Distributor Change",
       "film_id": "1504358",
       "importance": "Medium",
@@ -11,12 +11,12 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Netflix.",
-      "timestamp": "2026-08-14T14:29:43Z",
+      "timestamp": "2026-08-15T13:49:37Z",
       "title": "Distributor set: Netflix"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1504358-f0ee813246fc",
+      "event_id": "1504358-650110e6de6c",
       "event_type": "Awards Tier Changed",
       "film_id": "1504358",
       "importance": "Medium",
@@ -31,12 +31,12 @@
       },
       "source_type": "editorial_model",
       "summary": "insufficient credible awards evidence",
-      "timestamp": "2026-08-14T14:29:43Z",
+      "timestamp": "2026-08-15T13:49:37Z",
       "title": "Awards tier assigned: No Current Awards Case"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1504358-7186df52fb5f",
+      "event_id": "1504358-1b020b82847d",
       "event_type": "Added To Database",
       "film_id": "1504358",
       "importance": "Low",
@@ -45,7 +45,7 @@
       },
       "source_type": "system",
       "summary": "Don't Say Good Luck is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-08-14T14:29:43Z",
+      "timestamp": "2026-08-15T13:49:37Z",
       "title": "Added to Awards Intelligence"
     },
     {
@@ -65,7 +65,7 @@
   ],
   "latest_event": {
     "confidence": "Inferred",
-    "event_id": "1504358-6fc9bcb500db",
+    "event_id": "1504358-25507f667024",
     "event_type": "Distributor Change",
     "film_id": "1504358",
     "importance": "Medium",
@@ -74,13 +74,13 @@
     },
     "source_type": "metadata",
     "summary": "Current distributor is Netflix.",
-    "timestamp": "2026-08-14T14:29:43Z",
+    "timestamp": "2026-08-15T13:49:37Z",
     "title": "Distributor set: Netflix"
   },
   "metadata": {
     "event_count": 4,
     "film_id": "1504358",
-    "generated_at": "20260814T142943Z",
+    "generated_at": "20260815T134937Z",
     "timeline_version": "phase6b",
     "title": "Don't Say Good Luck",
     "tmdb_id": "1504358"

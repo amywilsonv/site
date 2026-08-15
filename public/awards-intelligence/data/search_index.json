@@ -26,7 +26,7 @@
       "normalized_title": "72 hours",
       "original_title": "72 HOURS",
       "poster": "https://image.tmdb.org/t/p/original/9Bu1PW2R1XayqRqnl0aDOgMcrdS.jpg",
-      "primary_badge": "Major Release",
+      "primary_badge": "General Watch",
       "profile_payload_url": "data/films/949838.json",
       "release_date": "2026-07-20",
       "release_display": "In theaters Jul. 20",
@@ -621,7 +621,7 @@
       "id": "1204680",
       "normalized_title": "coyote vs. acme",
       "original_title": "Coyote vs. Acme",
-      "poster": "https://image.tmdb.org/t/p/original/qTDRp8d1vzsFekTEgPC7X0jRRKE.jpg",
+      "poster": "https://image.tmdb.org/t/p/original/orkLtdgMGiO9rTVMqJ1kKwrnup1.jpg",
       "primary_badge": "Major Release",
       "profile_payload_url": "data/films/1204680.json",
       "release_date": "2026-08-28",
@@ -680,7 +680,7 @@
       "id": "1504358",
       "normalized_title": "don't say good luck",
       "original_title": "Don't Say Good Luck",
-      "poster": "https://image.tmdb.org/t/p/original/w3NNwo7kImaJS7fL6YlBsJx0i6R.jpg",
+      "poster": "https://image.tmdb.org/t/p/original/dgTKahWonzVLeN8Lm22WR2S7D0A.jpg",
       "primary_badge": "General Watch",
       "profile_payload_url": "data/films/1504358.json",
       "release_date": "2026-08-14",
@@ -1555,10 +1555,11 @@
       "entity_type": "film",
       "franchise": "Franchise/Event",
       "genres": [
-        "Adventure",
         "Animation",
-        "Comedy",
-        "Family"
+        "Adventure",
+        "Family",
+        "Fantasy",
+        "Comedy"
       ],
       "id": "1185806",
       "normalized_title": "paw patrol the dino movie",
@@ -1569,7 +1570,7 @@
       "release_date": "2026-08-14",
       "release_display": "In theaters Aug. 14",
       "release_year": "2026",
-      "search_text": "paw patrol the dino movie paw patrol the dino movie unknown cal brunker franchise/event adventure animation comedy family",
+      "search_text": "paw patrol the dino movie paw patrol the dino movie unknown cal brunker franchise/event animation adventure family fantasy comedy",
       "title": "PAW Patrol: The Dino Movie",
       "tmdb_id": "1185806",
       "why_it_matters": "Upcoming Cal Brunker film with Animated Feature, Craft Categories monitoring value."
@@ -1585,9 +1586,10 @@
       "entity_type": "film",
       "franchise": "Franchise/Event",
       "genres": [
+        "Romance",
         "Fantasy",
-        "Drama",
-        "Comedy"
+        "Comedy",
+        "Drama"
       ],
       "id": "1302904",
       "normalized_title": "practical magic 2",
@@ -1598,7 +1600,7 @@
       "release_date": "2026-09-11",
       "release_display": "In theaters Sep. 11",
       "release_year": "2026",
-      "search_text": "practical magic 2 practical magic 2 warner bros. pictures susanne bier franchise/event fantasy drama comedy",
+      "search_text": "practical magic 2 practical magic 2 warner bros. pictures susanne bier franchise/event romance fantasy comedy drama",
       "title": "Practical Magic 2",
       "tmdb_id": "1302904",
       "why_it_matters": "Upcoming Susanne Bier film with Craft Categories monitoring value."
@@ -2663,6 +2665,7 @@
       "franchise": "",
       "genres": [
         "Crime",
+        "Drama",
         "Thriller"
       ],
       "id": "860508",
@@ -2674,7 +2677,7 @@
       "release_date": "2026-08-28",
       "release_display": "In theaters Aug. 28",
       "release_year": "2026",
-      "search_text": "the whisper man the whisper man netflix james ashcroft crime thriller",
+      "search_text": "the whisper man the whisper man netflix james ashcroft crime drama thriller",
       "title": "The Whisper Man",
       "tmdb_id": "860508",
       "why_it_matters": "Netflix release worth monitoring for awards-season potential."

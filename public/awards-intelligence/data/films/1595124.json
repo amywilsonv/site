@@ -8,7 +8,7 @@
       "Event Release",
       "Awards Watch"
     ],
-    "attention_score": 55.2,
+    "attention_score": 54.8,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -36,7 +36,7 @@
         "status": "inferred"
       },
       {
-        "evidence": "TMDb popularity 2.6112",
+        "evidence": "TMDb popularity 2.3098",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -57,14 +57,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 55.2,
+    "homepage_spotlight_score": 54.8,
     "industry_interest": null,
-    "last_updated": "20260814T142943Z",
+    "last_updated": "20260815T134937Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
         "evidence_count": 1,
-        "score": 6.6,
+        "score": 6.2,
         "statuses": [
           "verified"
         ]
@@ -219,7 +219,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-08-14T14:29:28Z",
+    "generated_at": "2026-08-15T13:49:14Z",
     "headline": "Steps: popularity increasing",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -238,7 +238,7 @@
         "streaming_provider_count_us": 0,
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": false,
-        "tmdb_popularity": 2.6112,
+        "tmdb_popularity": 2.3098,
         "tmdb_poster_count": 1,
         "tmdb_release_date_us_primary": "2026-11-20",
         "tmdb_release_date_us_theatrical": "",
@@ -253,14 +253,14 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity rose from 2.0507 to 2.6112.",
+    "summary": "TMDb popularity rose from 2.0507 to 2.3098.",
     "supporting_drivers": [
       {
         "confidence_weight": 0.9,
         "driver_type": "popularity_increasing",
-        "evidence": "TMDb popularity rose from 2.0507 to 2.6112.",
+        "evidence": "TMDb popularity rose from 2.0507 to 2.3098.",
         "label": "Popularity increasing",
-        "retrieved_at": "2026-08-14T14:29:28Z",
+        "retrieved_at": "2026-08-15T13:49:14Z",
         "source_metric": "tmdb_popularity",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -270,7 +270,7 @@
   "media": {},
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260814T142943Z",
+    "generated_at": "20260815T134937Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -278,25 +278,25 @@
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 2.6112,
-        "retrieved_at": "2026-08-14",
+        "popularity": 2.3098,
+        "retrieved_at": "2026-08-15",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1595124",
         "status": "not_yet_rated"
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-08-14",
+      "retrieved_at": "2026-08-15",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1595124",
-      "value": 2.6112
+      "value": 2.3098
     },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 2.6112,
-      "retrieved_at": "2026-08-14",
+      "popularity": 2.3098,
+      "retrieved_at": "2026-08-15",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1595124",
       "status": "not_yet_rated"
@@ -304,6 +304,18 @@
   },
   "related": {
     "related_films": [
+      {
+        "profile_url": "film.html?id=1185806",
+        "relationship_score": 74,
+        "shared_signals": [
+          "Animation Spotlight",
+          "Animation",
+          "Comedy",
+          "Animated Feature"
+        ],
+        "title": "PAW Patrol: The Dino Movie",
+        "tmdb_id": "1185806"
+      },
       {
         "profile_url": "film.html?id=1679730",
         "relationship_score": 72,
@@ -327,18 +339,6 @@
         ],
         "title": "Bad Fairies",
         "tmdb_id": "1138528"
-      },
-      {
-        "profile_url": "film.html?id=1185806",
-        "relationship_score": 68,
-        "shared_signals": [
-          "Animation Spotlight",
-          "Animation",
-          "Comedy",
-          "Animated Feature"
-        ],
-        "title": "PAW Patrol: The Dino Movie",
-        "tmdb_id": "1185806"
       },
       {
         "profile_url": "film.html?id=1477104",
@@ -424,13 +424,13 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.05,
+      "audience_momentum": 0.044,
       "awards_relevance": 2.4,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-14T14:29:28Z",
+    "generated_at": "2026-08-15T13:49:14Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 5.775,
+    "score": 5.769,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -459,11 +459,11 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.05,
+        "contribution": 0.044,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 2.6112
+        "value": 2.3098
       }
     ]
   },
@@ -472,7 +472,7 @@
     "external_intelligence": {
       "confidence": "High",
       "headline": "Steps: popularity increasing",
-      "summary": "TMDb popularity rose from 2.0507 to 2.6112."
+      "summary": "TMDb popularity rose from 2.0507 to 2.3098."
     },
     "last_updated": "2026-11-20",
     "latest_event": {
@@ -510,7 +510,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1595124-3c3b7fa203ad",
+        "event_id": "1595124-a73a628ec7c8",
         "event_type": "Distributor Change",
         "film_id": "1595124",
         "importance": "Medium",
@@ -519,12 +519,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-14T14:29:43Z",
+        "timestamp": "2026-08-15T13:49:37Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1595124-1d2e95849c5d",
+        "event_id": "1595124-c55f67766a6a",
         "event_type": "Awards Tier Changed",
         "film_id": "1595124",
         "importance": "Medium",
@@ -538,15 +538,15 @@
         },
         "source_type": "editorial_model",
         "summary": "category-specific awards case without broader contender evidence",
-        "timestamp": "2026-08-14T14:29:43Z",
+        "timestamp": "2026-08-15T13:49:37Z",
         "title": "Awards tier assigned: Category Contender"
       }
     ],
     "release_relevance": 20.6,
     "screening_room_score": {
       "confidence": "High",
-      "explanation": "TMDb popularity rose from 2.0507 to 2.6112.",
-      "score": 5.775
+      "explanation": "TMDb popularity rose from 2.0507 to 2.3098.",
+      "score": 5.769
     },
     "watch_triggers": [
       "Prestige Distributor",
@@ -590,7 +590,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1595124-3c3b7fa203ad",
+        "event_id": "1595124-a73a628ec7c8",
         "event_type": "Distributor Change",
         "film_id": "1595124",
         "importance": "Medium",
@@ -599,12 +599,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-14T14:29:43Z",
+        "timestamp": "2026-08-15T13:49:37Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1595124-1d2e95849c5d",
+        "event_id": "1595124-c55f67766a6a",
         "event_type": "Awards Tier Changed",
         "film_id": "1595124",
         "importance": "Medium",
@@ -618,12 +618,12 @@
         },
         "source_type": "editorial_model",
         "summary": "category-specific awards case without broader contender evidence",
-        "timestamp": "2026-08-14T14:29:43Z",
+        "timestamp": "2026-08-15T13:49:37Z",
         "title": "Awards tier assigned: Category Contender"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1595124-8e50147978f9",
+        "event_id": "1595124-7f74d256543f",
         "event_type": "Added To Database",
         "film_id": "1595124",
         "importance": "Low",
@@ -632,7 +632,7 @@
         },
         "source_type": "system",
         "summary": "Steps is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-14T14:29:43Z",
+        "timestamp": "2026-08-15T13:49:37Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -667,7 +667,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1595124-3c3b7fa203ad",
+        "event_id": "1595124-a73a628ec7c8",
         "event_type": "Distributor Change",
         "film_id": "1595124",
         "importance": "Medium",
@@ -676,12 +676,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-14T14:29:43Z",
+        "timestamp": "2026-08-15T13:49:37Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1595124-1d2e95849c5d",
+        "event_id": "1595124-c55f67766a6a",
         "event_type": "Awards Tier Changed",
         "film_id": "1595124",
         "importance": "Medium",
@@ -695,7 +695,7 @@
         },
         "source_type": "editorial_model",
         "summary": "category-specific awards case without broader contender evidence",
-        "timestamp": "2026-08-14T14:29:43Z",
+        "timestamp": "2026-08-15T13:49:37Z",
         "title": "Awards tier assigned: Category Contender"
       }
     ],

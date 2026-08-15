@@ -7,7 +7,7 @@
       "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 71.7,
+    "attention_score": 71.4,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -55,20 +55,20 @@
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 1.7301",
+        "evidence": "TMDb popularity 1.49",
         "source": "audience_popularity",
         "status": "verified"
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 71.7,
+    "homepage_spotlight_score": 71.4,
     "industry_interest": "High",
-    "last_updated": "20260814T142943Z",
+    "last_updated": "20260815T134937Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
         "evidence_count": 2,
-        "score": 10.9,
+        "score": 10.6,
         "statuses": [
           "verified"
         ]
@@ -212,7 +212,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-08-14T14:29:28Z",
+    "generated_at": "2026-08-15T13:49:14Z",
     "headline": "Why Did I Get Married Again?: popularity increasing",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -232,7 +232,7 @@
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=VylsOZBYxQA",
-        "tmdb_popularity": 1.7301,
+        "tmdb_popularity": 1.49,
         "tmdb_poster_count": 2,
         "tmdb_release_date_us_primary": "2026-09-09",
         "tmdb_release_date_us_theatrical": "",
@@ -248,14 +248,14 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity rose from 1.2757 to 1.7301. A canonical TMDb trailer URL is available.",
+    "summary": "TMDb popularity rose from 1.2757 to 1.49. A canonical TMDb trailer URL is available.",
     "supporting_drivers": [
       {
         "confidence_weight": 0.9,
         "driver_type": "popularity_increasing",
-        "evidence": "TMDb popularity rose from 1.2757 to 1.7301.",
+        "evidence": "TMDb popularity rose from 1.2757 to 1.49.",
         "label": "Popularity increasing",
-        "retrieved_at": "2026-08-14T14:29:28Z",
+        "retrieved_at": "2026-08-15T13:49:14Z",
         "source_metric": "tmdb_popularity",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -265,7 +265,7 @@
         "driver_type": "trailer_available",
         "evidence": "A canonical TMDb trailer URL is available.",
         "label": "Trailer available",
-        "retrieved_at": "2026-08-14T14:29:28Z",
+        "retrieved_at": "2026-08-15T13:49:14Z",
         "source_metric": "tmdb_canonical_trailer_url",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -274,7 +274,7 @@
   },
   "media": {
     "canonical_trailer": {
-      "retrieved_at": "2026-08-14",
+      "retrieved_at": "2026-08-15",
       "site": "YouTube",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1522689/videos",
@@ -286,7 +286,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260814T142943Z",
+    "generated_at": "20260815T134937Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -294,25 +294,25 @@
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 1.7301,
-        "retrieved_at": "2026-08-14",
+        "popularity": 1.49,
+        "retrieved_at": "2026-08-15",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1522689",
         "status": "not_yet_rated"
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-08-14",
+      "retrieved_at": "2026-08-15",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1522689",
-      "value": 1.7301
+      "value": 1.49
     },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 1.7301,
-      "retrieved_at": "2026-08-14",
+      "popularity": 1.49,
+      "retrieved_at": "2026-08-15",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1522689",
       "status": "not_yet_rated"
@@ -431,14 +431,14 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.033,
+      "audience_momentum": 0.028,
       "awards_relevance": 2.4,
       "campaign_activity": 2.7,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-14T14:29:28Z",
+    "generated_at": "2026-08-15T13:49:14Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 8.458,
+    "score": 8.453,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -475,11 +475,11 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.033,
+        "contribution": 0.028,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 1.7301
+        "value": 1.49
       }
     ]
   },
@@ -488,7 +488,7 @@
     "external_intelligence": {
       "confidence": "High",
       "headline": "Why Did I Get Married Again?: popularity increasing",
-      "summary": "TMDb popularity rose from 1.2757 to 1.7301. A canonical TMDb trailer URL is available."
+      "summary": "TMDb popularity rose from 1.2757 to 1.49. A canonical TMDb trailer URL is available."
     },
     "last_updated": "2026-09-09",
     "latest_event": {
@@ -526,7 +526,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1522689-2165070df851",
+        "event_id": "1522689-e54f2c143786",
         "event_type": "Distributor Change",
         "film_id": "1522689",
         "importance": "Medium",
@@ -535,12 +535,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-14T14:29:43Z",
+        "timestamp": "2026-08-15T13:49:37Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1522689-c478753d13bd",
+        "event_id": "1522689-f8115ef842d5",
         "event_type": "Awards Tier Changed",
         "film_id": "1522689",
         "importance": "Medium",
@@ -554,15 +554,15 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-14T14:29:43Z",
+        "timestamp": "2026-08-15T13:49:37Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],
     "release_relevance": 35.5,
     "screening_room_score": {
       "confidence": "High",
-      "explanation": "TMDb popularity rose from 1.2757 to 1.7301. A canonical TMDb trailer URL is available.",
-      "score": 8.458
+      "explanation": "TMDb popularity rose from 1.2757 to 1.49. A canonical TMDb trailer URL is available.",
+      "score": 8.453
     },
     "watch_triggers": [
       "Prestige Distributor",
@@ -606,7 +606,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1522689-2165070df851",
+        "event_id": "1522689-e54f2c143786",
         "event_type": "Distributor Change",
         "film_id": "1522689",
         "importance": "Medium",
@@ -615,12 +615,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-14T14:29:43Z",
+        "timestamp": "2026-08-15T13:49:37Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1522689-c478753d13bd",
+        "event_id": "1522689-f8115ef842d5",
         "event_type": "Awards Tier Changed",
         "film_id": "1522689",
         "importance": "Medium",
@@ -634,12 +634,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-14T14:29:43Z",
+        "timestamp": "2026-08-15T13:49:37Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1522689-0712a602d912",
+        "event_id": "1522689-b6fd8d7b672d",
         "event_type": "Added To Database",
         "film_id": "1522689",
         "importance": "Low",
@@ -648,7 +648,7 @@
         },
         "source_type": "system",
         "summary": "Why Did I Get Married Again? is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-14T14:29:43Z",
+        "timestamp": "2026-08-15T13:49:37Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -683,7 +683,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1522689-2165070df851",
+        "event_id": "1522689-e54f2c143786",
         "event_type": "Distributor Change",
         "film_id": "1522689",
         "importance": "Medium",
@@ -692,12 +692,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-14T14:29:43Z",
+        "timestamp": "2026-08-15T13:49:37Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1522689-c478753d13bd",
+        "event_id": "1522689-f8115ef842d5",
         "event_type": "Awards Tier Changed",
         "film_id": "1522689",
         "importance": "Medium",
@@ -711,7 +711,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-14T14:29:43Z",
+        "timestamp": "2026-08-15T13:49:37Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],

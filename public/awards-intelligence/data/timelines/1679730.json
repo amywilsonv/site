@@ -2,7 +2,7 @@
   "events": [
     {
       "confidence": "Inferred",
-      "event_id": "1679730-ea9e4e9c0b20",
+      "event_id": "1679730-d3a0991e753f",
       "event_type": "Distributor Change",
       "film_id": "1679730",
       "importance": "Medium",
@@ -11,12 +11,12 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Netflix.",
-      "timestamp": "2026-08-14T14:29:43Z",
+      "timestamp": "2026-08-15T13:49:37Z",
       "title": "Distributor set: Netflix"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1679730-05e33a643a53",
+      "event_id": "1679730-8353ac0da0a6",
       "event_type": "Awards Tier Changed",
       "film_id": "1679730",
       "importance": "Medium",
@@ -32,12 +32,12 @@
       },
       "source_type": "editorial_model",
       "summary": "category-specific awards case without broader contender evidence",
-      "timestamp": "2026-08-14T14:29:43Z",
+      "timestamp": "2026-08-15T13:49:37Z",
       "title": "Awards tier assigned: Category Contender"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1679730-0289b38f1f1f",
+      "event_id": "1679730-50c6a1d608b9",
       "event_type": "Added To Database",
       "film_id": "1679730",
       "importance": "Low",
@@ -46,7 +46,7 @@
       },
       "source_type": "system",
       "summary": "THE RIBBON HERO is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-08-14T14:29:43Z",
+      "timestamp": "2026-08-15T13:49:37Z",
       "title": "Added to Awards Intelligence"
     },
     {
@@ -66,7 +66,7 @@
   ],
   "latest_event": {
     "confidence": "Inferred",
-    "event_id": "1679730-ea9e4e9c0b20",
+    "event_id": "1679730-d3a0991e753f",
     "event_type": "Distributor Change",
     "film_id": "1679730",
     "importance": "Medium",
@@ -75,13 +75,13 @@
     },
     "source_type": "metadata",
     "summary": "Current distributor is Netflix.",
-    "timestamp": "2026-08-14T14:29:43Z",
+    "timestamp": "2026-08-15T13:49:37Z",
     "title": "Distributor set: Netflix"
   },
   "metadata": {
     "event_count": 4,
     "film_id": "1679730",
-    "generated_at": "20260814T142943Z",
+    "generated_at": "20260815T134937Z",
     "timeline_version": "phase6b",
     "title": "THE RIBBON HERO",
     "tmdb_id": "1679730"

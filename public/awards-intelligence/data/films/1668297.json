@@ -6,7 +6,7 @@
       "Most Anticipated",
       "Major Filmmaker"
     ],
-    "attention_score": 23.1,
+    "attention_score": 23.6,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -24,13 +24,13 @@
         "status": "verified"
       },
       {
-        "evidence": "Director: Denis Gulyar",
-        "source": "filmmaker_interest",
+        "evidence": "TMDb popularity 1.2363",
+        "source": "audience_popularity",
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 1.0422",
-        "source": "audience_popularity",
+        "evidence": "Director: Denis Gulyar",
+        "source": "filmmaker_interest",
         "status": "verified"
       },
       {
@@ -40,14 +40,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 23.1,
+    "homepage_spotlight_score": 23.6,
     "industry_interest": null,
-    "last_updated": "20260814T142943Z",
+    "last_updated": "20260815T134937Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
         "evidence_count": 1,
-        "score": 3.7,
+        "score": 4.2,
         "statuses": [
           "verified"
         ]
@@ -185,7 +185,7 @@
   "intelligence": {
     "confidence": "Low",
     "confidence_score": 0.25,
-    "generated_at": "2026-08-14T14:29:28Z",
+    "generated_at": "2026-08-15T13:49:14Z",
     "headline": "Living Book: no material change detected",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -204,7 +204,7 @@
         "streaming_provider_count_us": 0,
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": false,
-        "tmdb_popularity": 1.0422,
+        "tmdb_popularity": 1.2363,
         "tmdb_poster_count": 0,
         "tmdb_release_date_us_primary": "",
         "tmdb_release_date_us_theatrical": "",
@@ -225,7 +225,7 @@
   "media": {},
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260814T142943Z",
+    "generated_at": "20260815T134937Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -233,25 +233,25 @@
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 1.0422,
-        "retrieved_at": "2026-08-14",
+        "popularity": 1.2363,
+        "retrieved_at": "2026-08-15",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1668297",
         "status": "not_yet_rated"
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-08-14",
+      "retrieved_at": "2026-08-15",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1668297",
-      "value": 1.0422
+      "value": 1.2363
     },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 1.0422,
-      "retrieved_at": "2026-08-14",
+      "popularity": 1.2363,
+      "retrieved_at": "2026-08-15",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1668297",
       "status": "not_yet_rated"
@@ -378,12 +378,12 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.02,
+      "audience_momentum": 0.023,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-14T14:29:28Z",
+    "generated_at": "2026-08-15T13:49:14Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 3.345,
+    "score": 3.348,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -404,11 +404,11 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.02,
+        "contribution": 0.023,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 1.0422
+        "value": 1.2363
       }
     ]
   },
@@ -455,7 +455,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1668297-87e08837ec08",
+        "event_id": "1668297-091de2def19f",
         "event_type": "Awards Tier Changed",
         "film_id": "1668297",
         "importance": "Medium",
@@ -465,12 +465,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-14T14:29:43Z",
+        "timestamp": "2026-08-15T13:49:37Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1668297-511dbb71dff7",
+        "event_id": "1668297-c5028725bee1",
         "event_type": "Added To Database",
         "film_id": "1668297",
         "importance": "Low",
@@ -479,7 +479,7 @@
         },
         "source_type": "system",
         "summary": "Living Book is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-14T14:29:43Z",
+        "timestamp": "2026-08-15T13:49:37Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -487,7 +487,7 @@
     "screening_room_score": {
       "confidence": "Low",
       "explanation": "Current provider signals do not show a supported material change.",
-      "score": 3.345
+      "score": 3.348
     },
     "watch_triggers": [
       "Awards-Season Release",
@@ -529,7 +529,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1668297-87e08837ec08",
+        "event_id": "1668297-091de2def19f",
         "event_type": "Awards Tier Changed",
         "film_id": "1668297",
         "importance": "Medium",
@@ -539,12 +539,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-14T14:29:43Z",
+        "timestamp": "2026-08-15T13:49:37Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1668297-511dbb71dff7",
+        "event_id": "1668297-c5028725bee1",
         "event_type": "Added To Database",
         "film_id": "1668297",
         "importance": "Low",
@@ -553,7 +553,7 @@
         },
         "source_type": "system",
         "summary": "Living Book is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-14T14:29:43Z",
+        "timestamp": "2026-08-15T13:49:37Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -588,7 +588,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1668297-87e08837ec08",
+        "event_id": "1668297-091de2def19f",
         "event_type": "Awards Tier Changed",
         "film_id": "1668297",
         "importance": "Medium",
@@ -598,12 +598,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-14T14:29:43Z",
+        "timestamp": "2026-08-15T13:49:37Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1668297-511dbb71dff7",
+        "event_id": "1668297-c5028725bee1",
         "event_type": "Added To Database",
         "film_id": "1668297",
         "importance": "Low",
@@ -612,7 +612,7 @@
         },
         "source_type": "system",
         "summary": "Living Book is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-14T14:29:43Z",
+        "timestamp": "2026-08-15T13:49:37Z",
         "title": "Added to Awards Intelligence"
       }
     ],

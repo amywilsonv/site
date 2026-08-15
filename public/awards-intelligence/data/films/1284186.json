@@ -7,7 +7,7 @@
       "Major Filmmaker",
       "Awards Watch"
     ],
-    "attention_score": 36.1,
+    "attention_score": 35.7,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -20,7 +20,7 @@
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 5.0385",
+        "evidence": "TMDb popularity 4.6306",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -51,14 +51,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 36.1,
+    "homepage_spotlight_score": 35.7,
     "industry_interest": null,
-    "last_updated": "20260814T142943Z",
+    "last_updated": "20260815T134937Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
         "evidence_count": 1,
-        "score": 9.3,
+        "score": 8.9,
         "statuses": [
           "verified"
         ]
@@ -202,7 +202,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-08-14T14:29:28Z",
+    "generated_at": "2026-08-15T13:49:14Z",
     "headline": "Sacrifice: popularity increasing",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -221,12 +221,12 @@
         "streaming_provider_count_us": 0,
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": false,
-        "tmdb_popularity": 5.0385,
+        "tmdb_popularity": 4.6306,
         "tmdb_poster_count": 3,
         "tmdb_release_date_us_primary": "",
         "tmdb_release_date_us_theatrical": "",
         "tmdb_release_status": "Released",
-        "tmdb_vote_average": 4.75,
+        "tmdb_vote_average": 4.8,
         "tmdb_vote_count": 2,
         "tmdb_watch_provider_count_us": 0,
         "trailer_available": false,
@@ -236,14 +236,14 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity rose from 1.8859 to 5.0385.",
+    "summary": "TMDb popularity rose from 1.8859 to 4.6306.",
     "supporting_drivers": [
       {
         "confidence_weight": 0.9,
         "driver_type": "popularity_increasing",
-        "evidence": "TMDb popularity rose from 1.8859 to 5.0385.",
+        "evidence": "TMDb popularity rose from 1.8859 to 4.6306.",
         "label": "Popularity increasing",
-        "retrieved_at": "2026-08-14T14:29:28Z",
+        "retrieved_at": "2026-08-15T13:49:14Z",
         "source_metric": "tmdb_popularity",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -253,7 +253,7 @@
   "media": {},
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260814T142943Z",
+    "generated_at": "20260815T134937Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -261,31 +261,31 @@
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 5.0385,
-        "retrieved_at": "2026-08-14",
+        "popularity": 4.6306,
+        "retrieved_at": "2026-08-15",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1284186",
         "status": "rated",
-        "vote_average": 4.75,
+        "vote_average": 4.8,
         "vote_count": 2
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-08-14",
+      "retrieved_at": "2026-08-15",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1284186",
-      "value": 5.0385
+      "value": 4.6306
     },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 5.0385,
-      "retrieved_at": "2026-08-14",
+      "popularity": 4.6306,
+      "retrieved_at": "2026-08-15",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1284186",
       "status": "rated",
-      "vote_average": 4.75,
+      "vote_average": 4.8,
       "vote_count": 2
     }
   },
@@ -419,23 +419,23 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.111,
-      "audience_quality": 4.513,
+      "audience_momentum": 0.103,
+      "audience_quality": 4.56,
       "awards_relevance": 0.8,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-14T14:29:28Z",
+    "generated_at": "2026-08-15T13:49:14Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 8.749,
+    "score": 8.788,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
         "confidence": 0.95,
-        "contribution": 4.513,
+        "contribution": 4.56,
         "metric_name": "tmdb_vote_average",
         "provider": "tmdb",
         "score_family": "audience_quality",
-        "value": 4.75
+        "value": 4.8
       },
       {
         "confidence": 0.55,
@@ -463,11 +463,11 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.096,
+        "contribution": 0.088,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 5.0385
+        "value": 4.6306
       }
     ]
   },
@@ -476,7 +476,7 @@
     "external_intelligence": {
       "confidence": "High",
       "headline": "Sacrifice: popularity increasing",
-      "summary": "TMDb popularity rose from 1.8859 to 5.0385."
+      "summary": "TMDb popularity rose from 1.8859 to 4.6306."
     },
     "last_updated": "2026-09-10",
     "latest_event": {
@@ -514,7 +514,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1284186-865198f2a5a6",
+        "event_id": "1284186-e6e6a7910ee6",
         "event_type": "Awards Tier Changed",
         "film_id": "1284186",
         "importance": "Medium",
@@ -526,12 +526,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-14T14:29:43Z",
+        "timestamp": "2026-08-15T13:49:37Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1284186-e22e4c6bb81d",
+        "event_id": "1284186-102f9b9ff62a",
         "event_type": "Added To Database",
         "film_id": "1284186",
         "importance": "Low",
@@ -540,15 +540,15 @@
         },
         "source_type": "system",
         "summary": "Sacrifice is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-14T14:29:43Z",
+        "timestamp": "2026-08-15T13:49:37Z",
         "title": "Added to Awards Intelligence"
       }
     ],
     "release_relevance": 25.4,
     "screening_room_score": {
       "confidence": "High",
-      "explanation": "TMDb popularity rose from 1.8859 to 5.0385.",
-      "score": 8.749
+      "explanation": "TMDb popularity rose from 1.8859 to 4.6306.",
+      "score": 8.788
     },
     "watch_triggers": [
       "Prestige Producer",
@@ -591,7 +591,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1284186-865198f2a5a6",
+        "event_id": "1284186-e6e6a7910ee6",
         "event_type": "Awards Tier Changed",
         "film_id": "1284186",
         "importance": "Medium",
@@ -603,12 +603,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-14T14:29:43Z",
+        "timestamp": "2026-08-15T13:49:37Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1284186-e22e4c6bb81d",
+        "event_id": "1284186-102f9b9ff62a",
         "event_type": "Added To Database",
         "film_id": "1284186",
         "importance": "Low",
@@ -617,7 +617,7 @@
         },
         "source_type": "system",
         "summary": "Sacrifice is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-14T14:29:43Z",
+        "timestamp": "2026-08-15T13:49:37Z",
         "title": "Added to Awards Intelligence"
       },
       {
@@ -666,7 +666,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1284186-865198f2a5a6",
+        "event_id": "1284186-e6e6a7910ee6",
         "event_type": "Awards Tier Changed",
         "film_id": "1284186",
         "importance": "Medium",
@@ -678,12 +678,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-14T14:29:43Z",
+        "timestamp": "2026-08-15T13:49:37Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1284186-e22e4c6bb81d",
+        "event_id": "1284186-102f9b9ff62a",
         "event_type": "Added To Database",
         "film_id": "1284186",
         "importance": "Low",
@@ -692,7 +692,7 @@
         },
         "source_type": "system",
         "summary": "Sacrifice is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-14T14:29:43Z",
+        "timestamp": "2026-08-15T13:49:37Z",
         "title": "Added to Awards Intelligence"
       }
     ],
