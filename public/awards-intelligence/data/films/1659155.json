@@ -7,7 +7,7 @@
       "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 68.3,
+    "attention_score": 68.2,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -15,7 +15,7 @@
     "early_reception": null,
     "evidence_sources": [
       {
-        "evidence": "TMDb popularity 17.6886",
+        "evidence": "TMDb popularity 17.2501",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -55,20 +55,20 @@
         "status": "verified"
       },
       {
-        "evidence": "76",
+        "evidence": "80",
         "source": "tmdb_vote_count",
         "status": "verified"
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 68.3,
+    "homepage_spotlight_score": 68.2,
     "industry_interest": null,
-    "last_updated": "20260815T134937Z",
+    "last_updated": "20260816T135019Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
         "evidence_count": 2,
-        "score": 19.5,
+        "score": 19.4,
         "statuses": [
           "verified"
         ]
@@ -208,7 +208,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-08-15T13:49:14Z",
+    "generated_at": "2026-08-16T13:50:05Z",
     "headline": "The Truthers: release approaching",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -228,13 +228,13 @@
         "tmdb_backdrop_count": 1,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=IvL0oT13djs",
-        "tmdb_popularity": 17.6886,
+        "tmdb_popularity": 17.2501,
         "tmdb_poster_count": 3,
         "tmdb_release_date_us_primary": "2026-07-24",
         "tmdb_release_date_us_theatrical": "",
         "tmdb_release_status": "Released",
-        "tmdb_vote_average": 5.836,
-        "tmdb_vote_count": 76,
+        "tmdb_vote_average": 5.819,
+        "tmdb_vote_count": 80,
         "tmdb_watch_provider_count_us": 2,
         "trailer_available": true,
         "trailer_count": 1,
@@ -251,7 +251,7 @@
         "driver_type": "release_approaching",
         "evidence": "US release is 4 days away on 2026-07-24.",
         "label": "Release approaching",
-        "retrieved_at": "2026-08-15T13:49:14Z",
+        "retrieved_at": "2026-08-16T13:50:05Z",
         "source_metric": "tmdb_release_date_us_primary",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -260,7 +260,7 @@
   },
   "media": {
     "canonical_trailer": {
-      "retrieved_at": "2026-08-15",
+      "retrieved_at": "2026-08-16",
       "site": "YouTube",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1659155/videos",
@@ -272,7 +272,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260815T134937Z",
+    "generated_at": "20260816T135019Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -280,20 +280,20 @@
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 17.6886,
-        "retrieved_at": "2026-08-15",
+        "popularity": 17.2501,
+        "retrieved_at": "2026-08-16",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1659155",
         "status": "rated",
-        "vote_average": 5.836,
-        "vote_count": 76
+        "vote_average": 5.819,
+        "vote_count": 80
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-08-15",
+      "retrieved_at": "2026-08-16",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1659155",
-      "value": 17.6886
+      "value": 17.2501
     },
     "watch_providers": {
       "country": "US",
@@ -311,20 +311,20 @@
           "provider_name": "Netflix Standard with Ads"
         }
       ],
-      "retrieved_at": "2026-08-15",
+      "retrieved_at": "2026-08-16",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1659155-los-creyentes/watch?locale=US"
     }
   },
   "ratings": {
     "tmdb": {
-      "popularity": 17.6886,
-      "retrieved_at": "2026-08-15",
+      "popularity": 17.2501,
+      "retrieved_at": "2026-08-16",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1659155",
       "status": "rated",
-      "vote_average": 5.836,
-      "vote_count": 76
+      "vote_average": 5.819,
+      "vote_count": 80
     }
   },
   "related": {
@@ -441,24 +441,24 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.914,
-      "audience_quality": 5.544,
+      "audience_momentum": 0.936,
+      "audience_quality": 5.528,
       "availability": 3.967,
       "campaign_activity": 1.35,
       "talent_profile": 2.925
     },
-    "generated_at": "2026-08-15T13:49:14Z",
+    "generated_at": "2026-08-16T13:50:05Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 14.7,
+    "score": 14.706,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
         "confidence": 0.95,
-        "contribution": 5.544,
+        "contribution": 5.528,
         "metric_name": "tmdb_vote_average",
         "provider": "tmdb",
         "score_family": "audience_quality",
-        "value": 5.836
+        "value": 5.819
       },
       {
         "confidence": 0.85,
@@ -501,10 +501,10 @@
       "headline": "The Truthers: release approaching",
       "summary": "US release is 4 days away on 2026-07-24."
     },
-    "last_updated": "2026-08-15T13:49:37Z",
+    "last_updated": "2026-08-16T13:50:19Z",
     "latest_event": {
       "confidence": "Inferred",
-      "event_id": "1659155-4bedc4ec2cda",
+      "event_id": "1659155-46ac7b0ed682",
       "event_type": "Distributor Change",
       "film_id": "1659155",
       "importance": "Medium",
@@ -513,7 +513,7 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Netflix.",
-      "timestamp": "2026-08-15T13:49:37Z",
+      "timestamp": "2026-08-16T13:50:19Z",
       "title": "Distributor set: Netflix"
     },
     "latest_intelligence": "As of 2026-07-18, this is a Netflix release dated 2026-07-24 with general awards monitoring relevance; current awards profile is Developing and data status is developing.",
@@ -523,7 +523,7 @@
     "recent_activity": [
       {
         "confidence": "Inferred",
-        "event_id": "1659155-4bedc4ec2cda",
+        "event_id": "1659155-46ac7b0ed682",
         "event_type": "Distributor Change",
         "film_id": "1659155",
         "importance": "Medium",
@@ -532,12 +532,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-15T13:49:37Z",
+        "timestamp": "2026-08-16T13:50:19Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1659155-d557963485fc",
+        "event_id": "1659155-efdea260bfad",
         "event_type": "Awards Tier Changed",
         "film_id": "1659155",
         "importance": "Medium",
@@ -547,12 +547,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-15T13:49:37Z",
+        "timestamp": "2026-08-16T13:50:19Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1659155-116fff80f12e",
+        "event_id": "1659155-3e8728e0c662",
         "event_type": "Added To Database",
         "film_id": "1659155",
         "importance": "Low",
@@ -561,7 +561,7 @@
         },
         "source_type": "system",
         "summary": "The Truthers is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-15T13:49:37Z",
+        "timestamp": "2026-08-16T13:50:19Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -569,7 +569,7 @@
     "screening_room_score": {
       "confidence": "High",
       "explanation": "US release is 4 days away on 2026-07-24.",
-      "score": 14.7
+      "score": 14.706
     },
     "watch_triggers": [
       "Prestige Distributor",
@@ -597,7 +597,7 @@
     "events": [
       {
         "confidence": "Inferred",
-        "event_id": "1659155-4bedc4ec2cda",
+        "event_id": "1659155-46ac7b0ed682",
         "event_type": "Distributor Change",
         "film_id": "1659155",
         "importance": "Medium",
@@ -606,12 +606,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-15T13:49:37Z",
+        "timestamp": "2026-08-16T13:50:19Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1659155-d557963485fc",
+        "event_id": "1659155-efdea260bfad",
         "event_type": "Awards Tier Changed",
         "film_id": "1659155",
         "importance": "Medium",
@@ -621,12 +621,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-15T13:49:37Z",
+        "timestamp": "2026-08-16T13:50:19Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1659155-116fff80f12e",
+        "event_id": "1659155-3e8728e0c662",
         "event_type": "Added To Database",
         "film_id": "1659155",
         "importance": "Low",
@@ -635,7 +635,7 @@
         },
         "source_type": "system",
         "summary": "The Truthers is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-15T13:49:37Z",
+        "timestamp": "2026-08-16T13:50:19Z",
         "title": "Added to Awards Intelligence"
       },
       {
@@ -655,7 +655,7 @@
     ],
     "latest_event": {
       "confidence": "Inferred",
-      "event_id": "1659155-4bedc4ec2cda",
+      "event_id": "1659155-46ac7b0ed682",
       "event_type": "Distributor Change",
       "film_id": "1659155",
       "importance": "Medium",
@@ -664,13 +664,13 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Netflix.",
-      "timestamp": "2026-08-15T13:49:37Z",
+      "timestamp": "2026-08-16T13:50:19Z",
       "title": "Distributor set: Netflix"
     },
     "recent_activity": [
       {
         "confidence": "Inferred",
-        "event_id": "1659155-4bedc4ec2cda",
+        "event_id": "1659155-46ac7b0ed682",
         "event_type": "Distributor Change",
         "film_id": "1659155",
         "importance": "Medium",
@@ -679,12 +679,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-15T13:49:37Z",
+        "timestamp": "2026-08-16T13:50:19Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1659155-d557963485fc",
+        "event_id": "1659155-efdea260bfad",
         "event_type": "Awards Tier Changed",
         "film_id": "1659155",
         "importance": "Medium",
@@ -694,12 +694,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-15T13:49:37Z",
+        "timestamp": "2026-08-16T13:50:19Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1659155-116fff80f12e",
+        "event_id": "1659155-3e8728e0c662",
         "event_type": "Added To Database",
         "film_id": "1659155",
         "importance": "Low",
@@ -708,7 +708,7 @@
         },
         "source_type": "system",
         "summary": "The Truthers is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-15T13:49:37Z",
+        "timestamp": "2026-08-16T13:50:19Z",
         "title": "Added to Awards Intelligence"
       }
     ],

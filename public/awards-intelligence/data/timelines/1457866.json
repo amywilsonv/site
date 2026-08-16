@@ -16,7 +16,7 @@
     },
     {
       "confidence": "Inferred",
-      "event_id": "1457866-4b0e3a28508e",
+      "event_id": "1457866-e4ea62ec4420",
       "event_type": "Distributor Change",
       "film_id": "1457866",
       "importance": "Medium",
@@ -25,12 +25,12 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Netflix.",
-      "timestamp": "2026-08-15T13:49:37Z",
+      "timestamp": "2026-08-16T13:50:19Z",
       "title": "Distributor set: Netflix"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1457866-eb8621b90295",
+      "event_id": "1457866-21c1c1875dc4",
       "event_type": "Awards Tier Changed",
       "film_id": "1457866",
       "importance": "Medium",
@@ -44,12 +44,12 @@
       },
       "source_type": "editorial_model",
       "summary": "insufficient credible awards evidence",
-      "timestamp": "2026-08-15T13:49:37Z",
+      "timestamp": "2026-08-16T13:50:19Z",
       "title": "Awards tier assigned: No Current Awards Case"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1457866-88872230d534",
+      "event_id": "1457866-3eb696c6abe8",
       "event_type": "Added To Database",
       "film_id": "1457866",
       "importance": "Low",
@@ -58,7 +58,7 @@
       },
       "source_type": "system",
       "summary": "The Adventures of Cliff Booth is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-08-15T13:49:37Z",
+      "timestamp": "2026-08-16T13:50:19Z",
       "title": "Added to Awards Intelligence"
     }
   ],
@@ -79,7 +79,7 @@
   "metadata": {
     "event_count": 4,
     "film_id": "1457866",
-    "generated_at": "20260815T134937Z",
+    "generated_at": "20260816T135019Z",
     "timeline_version": "phase6b",
     "title": "The Adventures of Cliff Booth",
     "tmdb_id": "1457866"

@@ -16,7 +16,7 @@
     },
     {
       "confidence": "Inferred",
-      "event_id": "1365884-868b8fc08391",
+      "event_id": "1365884-c6da2e67d6f9",
       "event_type": "Distributor Change",
       "film_id": "1365884",
       "importance": "Medium",
@@ -25,12 +25,12 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Netflix.",
-      "timestamp": "2026-08-15T13:49:37Z",
+      "timestamp": "2026-08-16T13:50:19Z",
       "title": "Distributor set: Netflix"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1365884-1486c355d383",
+      "event_id": "1365884-e2c1f708c671",
       "event_type": "Awards Tier Changed",
       "film_id": "1365884",
       "importance": "Medium",
@@ -44,12 +44,12 @@
       },
       "source_type": "editorial_model",
       "summary": "insufficient credible awards evidence",
-      "timestamp": "2026-08-15T13:49:37Z",
+      "timestamp": "2026-08-16T13:50:19Z",
       "title": "Awards tier assigned: No Current Awards Case"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1365884-3f7f623f1572",
+      "event_id": "1365884-80d066f3f84b",
       "event_type": "Added To Database",
       "film_id": "1365884",
       "importance": "Low",
@@ -58,7 +58,7 @@
       },
       "source_type": "system",
       "summary": "Call My Agent! The Movie is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-08-15T13:49:37Z",
+      "timestamp": "2026-08-16T13:50:19Z",
       "title": "Added to Awards Intelligence"
     }
   ],
@@ -79,7 +79,7 @@
   "metadata": {
     "event_count": 4,
     "film_id": "1365884",
-    "generated_at": "20260815T134937Z",
+    "generated_at": "20260816T135019Z",
     "timeline_version": "phase6b",
     "title": "Call My Agent! The Movie",
     "tmdb_id": "1365884"

@@ -16,7 +16,7 @@
     "early_reception": null,
     "evidence_sources": [
       {
-        "evidence": "TMDb popularity 20.8704",
+        "evidence": "TMDb popularity 20.5721",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -56,7 +56,7 @@
         "status": "verified"
       },
       {
-        "evidence": "30",
+        "evidence": "32",
         "source": "tmdb_vote_count",
         "status": "verified"
       }
@@ -64,7 +64,7 @@
     "homepage_spotlight_override": null,
     "homepage_spotlight_score": 70.6,
     "industry_interest": null,
-    "last_updated": "20260815T134937Z",
+    "last_updated": "20260816T135019Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
@@ -220,7 +220,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-08-15T13:49:14Z",
+    "generated_at": "2026-08-16T13:50:05Z",
     "headline": "Snoopy Presents: There's No Place Like Home, Snoopy: release approaching",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -240,13 +240,13 @@
         "tmdb_backdrop_count": 5,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=A-NQmpNsZIc",
-        "tmdb_popularity": 20.8704,
+        "tmdb_popularity": 20.5721,
         "tmdb_poster_count": 5,
         "tmdb_release_date_us_primary": "2026-07-30",
         "tmdb_release_date_us_theatrical": "",
         "tmdb_release_status": "Released",
-        "tmdb_vote_average": 8.383,
-        "tmdb_vote_count": 30,
+        "tmdb_vote_average": 8.484,
+        "tmdb_vote_count": 32,
         "tmdb_watch_provider_count_us": 2,
         "trailer_available": true,
         "trailer_count": 2,
@@ -256,14 +256,14 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity rose from 1.731 to 20.8704. US release is 10 days away on 2026-07-30.",
+    "summary": "TMDb popularity rose from 1.731 to 20.5721. US release is 10 days away on 2026-07-30.",
     "supporting_drivers": [
       {
         "confidence_weight": 0.9,
         "driver_type": "popularity_increasing",
-        "evidence": "TMDb popularity rose from 1.731 to 20.8704.",
+        "evidence": "TMDb popularity rose from 1.731 to 20.5721.",
         "label": "Popularity increasing",
-        "retrieved_at": "2026-08-15T13:49:14Z",
+        "retrieved_at": "2026-08-16T13:50:05Z",
         "source_metric": "tmdb_popularity",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -273,7 +273,7 @@
         "driver_type": "release_approaching",
         "evidence": "US release is 10 days away on 2026-07-30.",
         "label": "Release approaching",
-        "retrieved_at": "2026-08-15T13:49:14Z",
+        "retrieved_at": "2026-08-16T13:50:05Z",
         "source_metric": "tmdb_release_date_us_primary",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -282,7 +282,7 @@
   },
   "media": {
     "canonical_trailer": {
-      "retrieved_at": "2026-08-15",
+      "retrieved_at": "2026-08-16",
       "site": "YouTube",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1698575/videos",
@@ -294,7 +294,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260815T134937Z",
+    "generated_at": "20260816T135019Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -302,20 +302,20 @@
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 20.8704,
-        "retrieved_at": "2026-08-15",
+        "popularity": 20.5721,
+        "retrieved_at": "2026-08-16",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1698575",
         "status": "rated",
-        "vote_average": 8.383,
-        "vote_count": 30
+        "vote_average": 8.484,
+        "vote_count": 32
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-08-15",
+      "retrieved_at": "2026-08-16",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1698575",
-      "value": 20.8704
+      "value": 20.5721
     },
     "watch_providers": {
       "country": "US",
@@ -333,20 +333,20 @@
           "provider_name": "Apple TV Amazon Channel"
         }
       ],
-      "retrieved_at": "2026-08-15",
+      "retrieved_at": "2026-08-16",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1698575-snoopy-presents-there-s-no-place-like-home-snoopy/watch?locale=US"
     }
   },
   "ratings": {
     "tmdb": {
-      "popularity": 20.8704,
-      "retrieved_at": "2026-08-15",
+      "popularity": 20.5721,
+      "retrieved_at": "2026-08-16",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1698575",
       "status": "rated",
-      "vote_average": 8.383,
-      "vote_count": 30
+      "vote_average": 8.484,
+      "vote_count": 32
     }
   },
   "related": {
@@ -471,25 +471,25 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.625,
-      "audience_quality": 7.964,
+      "audience_momentum": 0.634,
+      "audience_quality": 8.06,
       "availability": 3.967,
       "awards_relevance": 2.4,
       "campaign_activity": 2.7,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-15T13:49:14Z",
+    "generated_at": "2026-08-16T13:50:05Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 20.981,
+    "score": 21.086,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
         "confidence": 0.95,
-        "contribution": 7.964,
+        "contribution": 8.06,
         "metric_name": "tmdb_vote_average",
         "provider": "tmdb",
         "score_family": "audience_quality",
-        "value": 8.383
+        "value": 8.484
       },
       {
         "confidence": 0.9,
@@ -530,12 +530,12 @@
     "external_intelligence": {
       "confidence": "High",
       "headline": "Snoopy Presents: There's No Place Like Home, Snoopy: release approaching",
-      "summary": "TMDb popularity rose from 1.731 to 20.8704. US release is 10 days away on 2026-07-30."
+      "summary": "TMDb popularity rose from 1.731 to 20.5721. US release is 10 days away on 2026-07-30."
     },
-    "last_updated": "2026-08-15T13:49:37Z",
+    "last_updated": "2026-08-16T13:50:19Z",
     "latest_event": {
       "confidence": "Inferred",
-      "event_id": "1698575-8fdc3c2460ff",
+      "event_id": "1698575-c8ef0403db87",
       "event_type": "Distributor Change",
       "film_id": "1698575",
       "importance": "Medium",
@@ -544,7 +544,7 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Apple TV.",
-      "timestamp": "2026-08-15T13:49:37Z",
+      "timestamp": "2026-08-16T13:50:19Z",
       "title": "Distributor set: Apple TV"
     },
     "latest_intelligence": "As of 2026-07-18, this is a Apple TV release dated 2026-07-31 with Craft Categories, Animated Feature relevance; current awards profile is Craft Potential and data status is developing.",
@@ -554,7 +554,7 @@
     "recent_activity": [
       {
         "confidence": "Inferred",
-        "event_id": "1698575-8fdc3c2460ff",
+        "event_id": "1698575-c8ef0403db87",
         "event_type": "Distributor Change",
         "film_id": "1698575",
         "importance": "Medium",
@@ -563,12 +563,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Apple TV.",
-        "timestamp": "2026-08-15T13:49:37Z",
+        "timestamp": "2026-08-16T13:50:19Z",
         "title": "Distributor set: Apple TV"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1698575-14f1465ec04e",
+        "event_id": "1698575-2ef0d346d1a4",
         "event_type": "Awards Tier Changed",
         "film_id": "1698575",
         "importance": "Medium",
@@ -582,12 +582,12 @@
         },
         "source_type": "editorial_model",
         "summary": "category-specific awards case without broader contender evidence",
-        "timestamp": "2026-08-15T13:49:37Z",
+        "timestamp": "2026-08-16T13:50:19Z",
         "title": "Awards tier assigned: Category Contender"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1698575-d9f6c9be29cd",
+        "event_id": "1698575-4a4ed4cf2d67",
         "event_type": "Added To Database",
         "film_id": "1698575",
         "importance": "Low",
@@ -596,15 +596,15 @@
         },
         "source_type": "system",
         "summary": "Snoopy Presents: There's No Place Like Home, Snoopy is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-15T13:49:37Z",
+        "timestamp": "2026-08-16T13:50:19Z",
         "title": "Added to Awards Intelligence"
       }
     ],
     "release_relevance": 46.4,
     "screening_room_score": {
       "confidence": "High",
-      "explanation": "TMDb popularity rose from 1.731 to 20.8704. US release is 10 days away on 2026-07-30.",
-      "score": 20.981
+      "explanation": "TMDb popularity rose from 1.731 to 20.5721. US release is 10 days away on 2026-07-30.",
+      "score": 21.086
     },
     "watch_triggers": [
       "Prestige Distributor",
@@ -634,7 +634,7 @@
     "events": [
       {
         "confidence": "Inferred",
-        "event_id": "1698575-8fdc3c2460ff",
+        "event_id": "1698575-c8ef0403db87",
         "event_type": "Distributor Change",
         "film_id": "1698575",
         "importance": "Medium",
@@ -643,12 +643,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Apple TV.",
-        "timestamp": "2026-08-15T13:49:37Z",
+        "timestamp": "2026-08-16T13:50:19Z",
         "title": "Distributor set: Apple TV"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1698575-14f1465ec04e",
+        "event_id": "1698575-2ef0d346d1a4",
         "event_type": "Awards Tier Changed",
         "film_id": "1698575",
         "importance": "Medium",
@@ -662,12 +662,12 @@
         },
         "source_type": "editorial_model",
         "summary": "category-specific awards case without broader contender evidence",
-        "timestamp": "2026-08-15T13:49:37Z",
+        "timestamp": "2026-08-16T13:50:19Z",
         "title": "Awards tier assigned: Category Contender"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1698575-d9f6c9be29cd",
+        "event_id": "1698575-4a4ed4cf2d67",
         "event_type": "Added To Database",
         "film_id": "1698575",
         "importance": "Low",
@@ -676,7 +676,7 @@
         },
         "source_type": "system",
         "summary": "Snoopy Presents: There's No Place Like Home, Snoopy is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-15T13:49:37Z",
+        "timestamp": "2026-08-16T13:50:19Z",
         "title": "Added to Awards Intelligence"
       },
       {
@@ -696,7 +696,7 @@
     ],
     "latest_event": {
       "confidence": "Inferred",
-      "event_id": "1698575-8fdc3c2460ff",
+      "event_id": "1698575-c8ef0403db87",
       "event_type": "Distributor Change",
       "film_id": "1698575",
       "importance": "Medium",
@@ -705,13 +705,13 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Apple TV.",
-      "timestamp": "2026-08-15T13:49:37Z",
+      "timestamp": "2026-08-16T13:50:19Z",
       "title": "Distributor set: Apple TV"
     },
     "recent_activity": [
       {
         "confidence": "Inferred",
-        "event_id": "1698575-8fdc3c2460ff",
+        "event_id": "1698575-c8ef0403db87",
         "event_type": "Distributor Change",
         "film_id": "1698575",
         "importance": "Medium",
@@ -720,12 +720,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Apple TV.",
-        "timestamp": "2026-08-15T13:49:37Z",
+        "timestamp": "2026-08-16T13:50:19Z",
         "title": "Distributor set: Apple TV"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1698575-14f1465ec04e",
+        "event_id": "1698575-2ef0d346d1a4",
         "event_type": "Awards Tier Changed",
         "film_id": "1698575",
         "importance": "Medium",
@@ -739,12 +739,12 @@
         },
         "source_type": "editorial_model",
         "summary": "category-specific awards case without broader contender evidence",
-        "timestamp": "2026-08-15T13:49:37Z",
+        "timestamp": "2026-08-16T13:50:19Z",
         "title": "Awards tier assigned: Category Contender"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1698575-d9f6c9be29cd",
+        "event_id": "1698575-4a4ed4cf2d67",
         "event_type": "Added To Database",
         "film_id": "1698575",
         "importance": "Low",
@@ -753,7 +753,7 @@
         },
         "source_type": "system",
         "summary": "Snoopy Presents: There's No Place Like Home, Snoopy is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-15T13:49:37Z",
+        "timestamp": "2026-08-16T13:50:19Z",
         "title": "Added to Awards Intelligence"
       }
     ],

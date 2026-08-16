@@ -8,7 +8,7 @@
       "Event Release",
       "Awards Watch"
     ],
-    "attention_score": 67.4,
+    "attention_score": 67.6,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -51,7 +51,7 @@
         "status": "inferred"
       },
       {
-        "evidence": "TMDb popularity 1.8835",
+        "evidence": "TMDb popularity 2.0683",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -62,14 +62,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 67.4,
+    "homepage_spotlight_score": 67.6,
     "industry_interest": "Moderate",
-    "last_updated": "20260815T134937Z",
+    "last_updated": "20260816T135019Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
         "evidence_count": 2,
-        "score": 11.0,
+        "score": 11.2,
         "statuses": [
           "verified"
         ]
@@ -221,7 +221,7 @@
   "intelligence": {
     "confidence": "Low",
     "confidence_score": 0.25,
-    "generated_at": "2026-08-15T13:49:14Z",
+    "generated_at": "2026-08-16T13:50:05Z",
     "headline": "Brohr: no material change detected",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -241,7 +241,7 @@
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=7CO8HaLsRnM",
-        "tmdb_popularity": 1.8835,
+        "tmdb_popularity": 2.0683,
         "tmdb_poster_count": 0,
         "tmdb_release_date_us_primary": "",
         "tmdb_release_date_us_theatrical": "",
@@ -262,7 +262,7 @@
   },
   "media": {
     "canonical_trailer": {
-      "retrieved_at": "2026-08-15",
+      "retrieved_at": "2026-08-16",
       "site": "YouTube",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1722484/videos",
@@ -274,7 +274,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260815T134937Z",
+    "generated_at": "20260816T135019Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -282,25 +282,25 @@
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 1.8835,
-        "retrieved_at": "2026-08-15",
+        "popularity": 2.0683,
+        "retrieved_at": "2026-08-16",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1722484",
         "status": "not_yet_rated"
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-08-15",
+      "retrieved_at": "2026-08-16",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1722484",
-      "value": 1.8835
+      "value": 2.0683
     },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 1.8835,
-      "retrieved_at": "2026-08-15",
+      "popularity": 2.0683,
+      "retrieved_at": "2026-08-16",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1722484",
       "status": "not_yet_rated"
@@ -416,14 +416,14 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.036,
+      "audience_momentum": 0.039,
       "awards_relevance": 2.4,
       "campaign_activity": 5.4,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-15T13:49:14Z",
+    "generated_at": "2026-08-16T13:50:05Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 11.161,
+    "score": 11.164,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -460,11 +460,11 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.036,
+        "contribution": 0.039,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 1.8835
+        "value": 2.0683
       }
     ]
   },
@@ -511,7 +511,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1722484-0c8d10e558cb",
+        "event_id": "1722484-7914623d3aa4",
         "event_type": "Awards Tier Changed",
         "film_id": "1722484",
         "importance": "Medium",
@@ -525,12 +525,12 @@
         },
         "source_type": "editorial_model",
         "summary": "category-specific awards case without broader contender evidence",
-        "timestamp": "2026-08-15T13:49:37Z",
+        "timestamp": "2026-08-16T13:50:19Z",
         "title": "Awards tier assigned: Category Contender"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1722484-ec9e8fcebcc5",
+        "event_id": "1722484-fc90783f0123",
         "event_type": "Added To Database",
         "film_id": "1722484",
         "importance": "Low",
@@ -539,7 +539,7 @@
         },
         "source_type": "system",
         "summary": "Brohr is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-15T13:49:37Z",
+        "timestamp": "2026-08-16T13:50:19Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -547,7 +547,7 @@
     "screening_room_score": {
       "confidence": "Low",
       "explanation": "Current provider signals do not show a supported material change.",
-      "score": 11.161
+      "score": 11.164
     },
     "watch_triggers": [
       "Awards-Season Release",
@@ -592,7 +592,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1722484-0c8d10e558cb",
+        "event_id": "1722484-7914623d3aa4",
         "event_type": "Awards Tier Changed",
         "film_id": "1722484",
         "importance": "Medium",
@@ -606,12 +606,12 @@
         },
         "source_type": "editorial_model",
         "summary": "category-specific awards case without broader contender evidence",
-        "timestamp": "2026-08-15T13:49:37Z",
+        "timestamp": "2026-08-16T13:50:19Z",
         "title": "Awards tier assigned: Category Contender"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1722484-ec9e8fcebcc5",
+        "event_id": "1722484-fc90783f0123",
         "event_type": "Added To Database",
         "film_id": "1722484",
         "importance": "Low",
@@ -620,7 +620,7 @@
         },
         "source_type": "system",
         "summary": "Brohr is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-15T13:49:37Z",
+        "timestamp": "2026-08-16T13:50:19Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -655,7 +655,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1722484-0c8d10e558cb",
+        "event_id": "1722484-7914623d3aa4",
         "event_type": "Awards Tier Changed",
         "film_id": "1722484",
         "importance": "Medium",
@@ -669,12 +669,12 @@
         },
         "source_type": "editorial_model",
         "summary": "category-specific awards case without broader contender evidence",
-        "timestamp": "2026-08-15T13:49:37Z",
+        "timestamp": "2026-08-16T13:50:19Z",
         "title": "Awards tier assigned: Category Contender"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1722484-ec9e8fcebcc5",
+        "event_id": "1722484-fc90783f0123",
         "event_type": "Added To Database",
         "film_id": "1722484",
         "importance": "Low",
@@ -683,7 +683,7 @@
         },
         "source_type": "system",
         "summary": "Brohr is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-15T13:49:37Z",
+        "timestamp": "2026-08-16T13:50:19Z",
         "title": "Added to Awards Intelligence"
       }
     ],

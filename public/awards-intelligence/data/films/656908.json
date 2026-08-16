@@ -8,7 +8,7 @@
       "Event Release",
       "Awards Watch"
     ],
-    "attention_score": 73.2,
+    "attention_score": 72.8,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -21,14 +21,14 @@
         "status": "inferred"
       },
       {
-        "evidence": "TMDb popularity 9.8445",
-        "source": "audience_popularity",
-        "status": "verified"
-      },
-      {
         "evidence": "Franchise, sequel, or recognizable IP signal in available metadata",
         "source": "franchise_ip_recognition",
         "status": "inferred"
+      },
+      {
+        "evidence": "TMDb popularity 8.9752",
+        "source": "audience_popularity",
+        "status": "verified"
       },
       {
         "evidence": "Principal cast listed: Ranbir Kapoor, Sai Pallavi, Yash, Ravi Dubey",
@@ -67,14 +67,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 73.2,
+    "homepage_spotlight_score": 72.8,
     "industry_interest": "Moderate",
-    "last_updated": "20260815T134937Z",
+    "last_updated": "20260816T135019Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
         "evidence_count": 2,
-        "score": 16.7,
+        "score": 16.3,
         "statuses": [
           "verified"
         ]
@@ -172,10 +172,9 @@
     ]
   },
   "diagnostics": {
-    "completeness_score": 78,
+    "completeness_score": 89,
     "confidence": "Medium",
     "missing_fields": [
-      "runtime",
       "distributor"
     ],
     "relationship_counts": {
@@ -219,7 +218,7 @@
     "profile_url": "film.html?id=656908",
     "release_date": "2026-11-08",
     "release_display": "In theaters Nov. 8",
-    "runtime": null,
+    "runtime": 199,
     "synopsis": "An ancient epic follows a young prince and princess whose marriage and subsequent exile mark the beginning of a legendary journey. Their story of love, duty and destiny sets the stage for greater challenges ahead.",
     "title": "Ramayana",
     "tmdb_id": "656908"
@@ -227,7 +226,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-08-15T13:49:14Z",
+    "generated_at": "2026-08-16T13:50:05Z",
     "headline": "Ramayana: trailer available",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -247,7 +246,7 @@
         "tmdb_backdrop_count": 2,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=le2W_fB_4KY",
-        "tmdb_popularity": 9.8445,
+        "tmdb_popularity": 8.9752,
         "tmdb_poster_count": 6,
         "tmdb_release_date_us_primary": "",
         "tmdb_release_date_us_theatrical": "",
@@ -270,7 +269,7 @@
         "driver_type": "trailer_available",
         "evidence": "A canonical TMDb trailer URL is available.",
         "label": "Trailer available",
-        "retrieved_at": "2026-08-15T13:49:14Z",
+        "retrieved_at": "2026-08-16T13:50:05Z",
         "source_metric": "tmdb_canonical_trailer_url",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -279,7 +278,7 @@
   },
   "media": {
     "canonical_trailer": {
-      "retrieved_at": "2026-08-15",
+      "retrieved_at": "2026-08-16",
       "site": "YouTube",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/656908/videos",
@@ -291,7 +290,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260815T134937Z",
+    "generated_at": "20260816T135019Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -299,31 +298,31 @@
     "box_office": {
       "budget": 230000000,
       "currency": "USD",
-      "retrieved_at": "2026-08-15",
+      "retrieved_at": "2026-08-16",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/656908"
     },
     "ratings": {
       "tmdb": {
-        "popularity": 9.8445,
-        "retrieved_at": "2026-08-15",
+        "popularity": 8.9752,
+        "retrieved_at": "2026-08-16",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/656908",
         "status": "not_yet_rated"
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-08-15",
+      "retrieved_at": "2026-08-16",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/656908",
-      "value": 9.8445
+      "value": 8.9752
     },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 9.8445,
-      "retrieved_at": "2026-08-15",
+      "popularity": 8.9752,
+      "retrieved_at": "2026-08-16",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/656908",
       "status": "not_yet_rated"
@@ -448,14 +447,14 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.187,
+      "audience_momentum": 0.171,
       "awards_relevance": 0.8,
       "campaign_activity": 2.7,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-15T13:49:14Z",
+    "generated_at": "2026-08-16T13:50:05Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 7.012,
+    "score": 6.996,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -492,11 +491,11 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.187,
+        "contribution": 0.171,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 9.8445
+        "value": 8.9752
       }
     ]
   },
@@ -543,7 +542,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "656908-fa77d3df2f7d",
+        "event_id": "656908-aacaf53a683d",
         "event_type": "Awards Tier Changed",
         "film_id": "656908",
         "importance": "Medium",
@@ -555,12 +554,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-08-15T13:49:37Z",
+        "timestamp": "2026-08-16T13:50:19Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "656908-1ecd2fe12ce1",
+        "event_id": "656908-89bd44b8c9af",
         "event_type": "Added To Database",
         "film_id": "656908",
         "importance": "Low",
@@ -569,7 +568,7 @@
         },
         "source_type": "system",
         "summary": "Ramayana is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-15T13:49:37Z",
+        "timestamp": "2026-08-16T13:50:19Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -577,7 +576,7 @@
     "screening_room_score": {
       "confidence": "High",
       "explanation": "A canonical TMDb trailer URL is available.",
-      "score": 7.012
+      "score": 6.996
     },
     "watch_triggers": [
       "Awards-Season Release",
@@ -621,7 +620,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "656908-fa77d3df2f7d",
+        "event_id": "656908-aacaf53a683d",
         "event_type": "Awards Tier Changed",
         "film_id": "656908",
         "importance": "Medium",
@@ -633,12 +632,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-08-15T13:49:37Z",
+        "timestamp": "2026-08-16T13:50:19Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "656908-1ecd2fe12ce1",
+        "event_id": "656908-89bd44b8c9af",
         "event_type": "Added To Database",
         "film_id": "656908",
         "importance": "Low",
@@ -647,7 +646,7 @@
         },
         "source_type": "system",
         "summary": "Ramayana is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-15T13:49:37Z",
+        "timestamp": "2026-08-16T13:50:19Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -682,7 +681,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "656908-fa77d3df2f7d",
+        "event_id": "656908-aacaf53a683d",
         "event_type": "Awards Tier Changed",
         "film_id": "656908",
         "importance": "Medium",
@@ -694,12 +693,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-08-15T13:49:37Z",
+        "timestamp": "2026-08-16T13:50:19Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "656908-1ecd2fe12ce1",
+        "event_id": "656908-89bd44b8c9af",
         "event_type": "Added To Database",
         "film_id": "656908",
         "importance": "Low",
@@ -708,7 +707,7 @@
         },
         "source_type": "system",
         "summary": "Ramayana is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-15T13:49:37Z",
+        "timestamp": "2026-08-16T13:50:19Z",
         "title": "Added to Awards Intelligence"
       }
     ],

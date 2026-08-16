@@ -7,7 +7,7 @@
       "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 56.4,
+    "attention_score": 56.8,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -30,7 +30,7 @@
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 4.0703",
+        "evidence": "TMDb popularity 4.5189",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -56,14 +56,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 56.4,
+    "homepage_spotlight_score": 56.8,
     "industry_interest": null,
-    "last_updated": "20260815T134937Z",
+    "last_updated": "20260816T135019Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
         "evidence_count": 2,
-        "score": 12.8,
+        "score": 13.2,
         "statuses": [
           "verified"
         ]
@@ -203,7 +203,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-08-15T13:49:14Z",
+    "generated_at": "2026-08-16T13:50:05Z",
     "headline": "The Whisper Man: release approaching",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -223,7 +223,7 @@
         "tmdb_backdrop_count": 2,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=ZHRR-1CKYIQ",
-        "tmdb_popularity": 4.0703,
+        "tmdb_popularity": 4.5189,
         "tmdb_poster_count": 6,
         "tmdb_release_date_us_primary": "2026-08-28",
         "tmdb_release_date_us_theatrical": "",
@@ -239,14 +239,14 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity rose from 1.9916 to 4.0703. US release is 39 days away on 2026-08-28.",
+    "summary": "TMDb popularity rose from 1.9916 to 4.5189. US release is 39 days away on 2026-08-28.",
     "supporting_drivers": [
       {
         "confidence_weight": 0.9,
         "driver_type": "popularity_increasing",
-        "evidence": "TMDb popularity rose from 1.9916 to 4.0703.",
+        "evidence": "TMDb popularity rose from 1.9916 to 4.5189.",
         "label": "Popularity increasing",
-        "retrieved_at": "2026-08-15T13:49:14Z",
+        "retrieved_at": "2026-08-16T13:50:05Z",
         "source_metric": "tmdb_popularity",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -256,7 +256,7 @@
         "driver_type": "release_approaching",
         "evidence": "US release is 39 days away on 2026-08-28.",
         "label": "Release approaching",
-        "retrieved_at": "2026-08-15T13:49:14Z",
+        "retrieved_at": "2026-08-16T13:50:05Z",
         "source_metric": "tmdb_release_date_us_primary",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -265,7 +265,7 @@
   },
   "media": {
     "canonical_trailer": {
-      "retrieved_at": "2026-08-15",
+      "retrieved_at": "2026-08-16",
       "site": "YouTube",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/860508/videos",
@@ -277,7 +277,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260815T134937Z",
+    "generated_at": "20260816T135019Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -285,25 +285,25 @@
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 4.0703,
-        "retrieved_at": "2026-08-15",
+        "popularity": 4.5189,
+        "retrieved_at": "2026-08-16",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/860508",
         "status": "not_yet_rated"
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-08-15",
+      "retrieved_at": "2026-08-16",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/860508",
-      "value": 4.0703
+      "value": 4.5189
     },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 4.0703,
-      "retrieved_at": "2026-08-15",
+      "popularity": 4.5189,
+      "retrieved_at": "2026-08-16",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/860508",
       "status": "not_yet_rated"
@@ -424,13 +424,13 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.077,
+      "audience_momentum": 0.086,
       "campaign_activity": 1.35,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-15T13:49:14Z",
+    "generated_at": "2026-08-16T13:50:05Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 4.752,
+    "score": 4.761,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -459,11 +459,11 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.077,
+        "contribution": 0.086,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 4.0703
+        "value": 4.5189
       }
     ]
   },
@@ -472,7 +472,7 @@
     "external_intelligence": {
       "confidence": "High",
       "headline": "The Whisper Man: release approaching",
-      "summary": "TMDb popularity rose from 1.9916 to 4.0703. US release is 39 days away on 2026-08-28."
+      "summary": "TMDb popularity rose from 1.9916 to 4.5189. US release is 39 days away on 2026-08-28."
     },
     "last_updated": "2026-08-28",
     "latest_event": {
@@ -510,7 +510,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "860508-e801db9c1486",
+        "event_id": "860508-c2f00fbb1e8c",
         "event_type": "Distributor Change",
         "film_id": "860508",
         "importance": "Medium",
@@ -519,12 +519,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-15T13:49:37Z",
+        "timestamp": "2026-08-16T13:50:19Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "860508-9bba26ee4c34",
+        "event_id": "860508-9761677fb4e3",
         "event_type": "Awards Tier Changed",
         "film_id": "860508",
         "importance": "Medium",
@@ -534,15 +534,15 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-15T13:49:37Z",
+        "timestamp": "2026-08-16T13:50:19Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],
     "release_relevance": 36.8,
     "screening_room_score": {
       "confidence": "High",
-      "explanation": "TMDb popularity rose from 1.9916 to 4.0703. US release is 39 days away on 2026-08-28.",
-      "score": 4.752
+      "explanation": "TMDb popularity rose from 1.9916 to 4.5189. US release is 39 days away on 2026-08-28.",
+      "score": 4.761
     },
     "watch_triggers": [
       "Prestige Distributor",
@@ -584,7 +584,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "860508-e801db9c1486",
+        "event_id": "860508-c2f00fbb1e8c",
         "event_type": "Distributor Change",
         "film_id": "860508",
         "importance": "Medium",
@@ -593,12 +593,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-15T13:49:37Z",
+        "timestamp": "2026-08-16T13:50:19Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "860508-9bba26ee4c34",
+        "event_id": "860508-9761677fb4e3",
         "event_type": "Awards Tier Changed",
         "film_id": "860508",
         "importance": "Medium",
@@ -608,12 +608,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-15T13:49:37Z",
+        "timestamp": "2026-08-16T13:50:19Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "860508-2c4953e3354f",
+        "event_id": "860508-f225cf5e2d45",
         "event_type": "Added To Database",
         "film_id": "860508",
         "importance": "Low",
@@ -622,7 +622,7 @@
         },
         "source_type": "system",
         "summary": "The Whisper Man is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-15T13:49:37Z",
+        "timestamp": "2026-08-16T13:50:19Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -657,7 +657,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "860508-e801db9c1486",
+        "event_id": "860508-c2f00fbb1e8c",
         "event_type": "Distributor Change",
         "film_id": "860508",
         "importance": "Medium",
@@ -666,12 +666,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-15T13:49:37Z",
+        "timestamp": "2026-08-16T13:50:19Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "860508-9bba26ee4c34",
+        "event_id": "860508-9761677fb4e3",
         "event_type": "Awards Tier Changed",
         "film_id": "860508",
         "importance": "Medium",
@@ -681,7 +681,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-15T13:49:37Z",
+        "timestamp": "2026-08-16T13:50:19Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],

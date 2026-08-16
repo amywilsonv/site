@@ -45,7 +45,7 @@
         "status": "inferred"
       },
       {
-        "evidence": "TMDb popularity 1.3185",
+        "evidence": "TMDb popularity 1.3514",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -63,7 +63,7 @@
     "homepage_spotlight_override": null,
     "homepage_spotlight_score": 54.3,
     "industry_interest": "Moderate",
-    "last_updated": "20260815T134937Z",
+    "last_updated": "20260816T135019Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
@@ -222,7 +222,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-08-15T13:49:14Z",
+    "generated_at": "2026-08-16T13:50:05Z",
     "headline": "The Secret Woman: release approaching",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -242,7 +242,7 @@
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=FldeGkt4e4k",
-        "tmdb_popularity": 1.3185,
+        "tmdb_popularity": 1.3514,
         "tmdb_poster_count": 1,
         "tmdb_release_date_us_primary": "2026-08-28",
         "tmdb_release_date_us_theatrical": "",
@@ -258,14 +258,14 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity rose from 0.1331 to 1.3185. US release is 39 days away on 2026-08-28. A canonical TMDb trailer URL is available.",
+    "summary": "TMDb popularity rose from 0.1331 to 1.3514. US release is 39 days away on 2026-08-28. A canonical TMDb trailer URL is available.",
     "supporting_drivers": [
       {
         "confidence_weight": 0.9,
         "driver_type": "popularity_increasing",
-        "evidence": "TMDb popularity rose from 0.1331 to 1.3185.",
+        "evidence": "TMDb popularity rose from 0.1331 to 1.3514.",
         "label": "Popularity increasing",
-        "retrieved_at": "2026-08-15T13:49:14Z",
+        "retrieved_at": "2026-08-16T13:50:05Z",
         "source_metric": "tmdb_popularity",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -275,7 +275,7 @@
         "driver_type": "release_approaching",
         "evidence": "US release is 39 days away on 2026-08-28.",
         "label": "Release approaching",
-        "retrieved_at": "2026-08-15T13:49:14Z",
+        "retrieved_at": "2026-08-16T13:50:05Z",
         "source_metric": "tmdb_release_date_us_primary",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -285,7 +285,7 @@
         "driver_type": "trailer_available",
         "evidence": "A canonical TMDb trailer URL is available.",
         "label": "Trailer available",
-        "retrieved_at": "2026-08-15T13:49:14Z",
+        "retrieved_at": "2026-08-16T13:50:05Z",
         "source_metric": "tmdb_canonical_trailer_url",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -294,7 +294,7 @@
   },
   "media": {
     "canonical_trailer": {
-      "retrieved_at": "2026-08-15",
+      "retrieved_at": "2026-08-16",
       "site": "YouTube",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1631807/videos",
@@ -306,7 +306,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260815T134937Z",
+    "generated_at": "20260816T135019Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -314,25 +314,25 @@
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 1.3185,
-        "retrieved_at": "2026-08-15",
+        "popularity": 1.3514,
+        "retrieved_at": "2026-08-16",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1631807",
         "status": "not_yet_rated"
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-08-15",
+      "retrieved_at": "2026-08-16",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1631807",
-      "value": 1.3185
+      "value": 1.3514
     },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 1.3185,
-      "retrieved_at": "2026-08-15",
+      "popularity": 1.3514,
+      "retrieved_at": "2026-08-16",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1631807",
       "status": "not_yet_rated"
@@ -351,18 +351,6 @@
         ],
         "title": "Call My Agent! The Movie",
         "tmdb_id": "1365884"
-      },
-      {
-        "profile_url": "film.html?id=1504358",
-        "relationship_score": 56,
-        "shared_signals": [
-          "General Watch",
-          "Drama",
-          "Acting",
-          "Best Picture"
-        ],
-        "title": "Don't Say Good Luck",
-        "tmdb_id": "1504358"
       },
       {
         "profile_url": "film.html?id=1422041",
@@ -411,6 +399,18 @@
         ],
         "title": "I Play Rocky",
         "tmdb_id": "1286656"
+      },
+      {
+        "profile_url": "film.html?id=1558094",
+        "relationship_score": 46,
+        "shared_signals": [
+          "General Watch",
+          "Drama",
+          "Acting",
+          "Best Picture"
+        ],
+        "title": "Let Love In",
+        "tmdb_id": "1558094"
       }
     ],
     "related_people": [
@@ -456,13 +456,13 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.025,
+      "audience_momentum": 0.026,
       "awards_relevance": 2.4,
       "campaign_activity": 1.35
     },
-    "generated_at": "2026-08-15T13:49:14Z",
+    "generated_at": "2026-08-16T13:50:05Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 3.775,
+    "score": 3.776,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -483,11 +483,11 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.025,
+        "contribution": 0.026,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 1.3185
+        "value": 1.3514
       }
     ]
   },
@@ -496,7 +496,7 @@
     "external_intelligence": {
       "confidence": "High",
       "headline": "The Secret Woman: release approaching",
-      "summary": "TMDb popularity rose from 0.1331 to 1.3185. US release is 39 days away on 2026-08-28. A canonical TMDb trailer URL is available."
+      "summary": "TMDb popularity rose from 0.1331 to 1.3514. US release is 39 days away on 2026-08-28. A canonical TMDb trailer URL is available."
     },
     "last_updated": "2026-08-28",
     "latest_event": {
@@ -534,7 +534,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1631807-83d5c9b571d3",
+        "event_id": "1631807-3b83df0ef020",
         "event_type": "Distributor Change",
         "film_id": "1631807",
         "importance": "Medium",
@@ -543,12 +543,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-15T13:49:37Z",
+        "timestamp": "2026-08-16T13:50:19Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1631807-ffd581375e5d",
+        "event_id": "1631807-37228106582c",
         "event_type": "Awards Tier Changed",
         "film_id": "1631807",
         "importance": "Medium",
@@ -562,15 +562,15 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-08-15T13:49:37Z",
+        "timestamp": "2026-08-16T13:50:19Z",
         "title": "Awards tier assigned: Emerging"
       }
     ],
     "release_relevance": 40.6,
     "screening_room_score": {
       "confidence": "High",
-      "explanation": "TMDb popularity rose from 0.1331 to 1.3185. US release is 39 days away on 2026-08-28. A canonical TMDb trailer URL is available.",
-      "score": 3.775
+      "explanation": "TMDb popularity rose from 0.1331 to 1.3514. US release is 39 days away on 2026-08-28. A canonical TMDb trailer URL is available.",
+      "score": 3.776
     },
     "watch_triggers": [
       "Prestige Distributor",
@@ -610,7 +610,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1631807-83d5c9b571d3",
+        "event_id": "1631807-3b83df0ef020",
         "event_type": "Distributor Change",
         "film_id": "1631807",
         "importance": "Medium",
@@ -619,12 +619,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-15T13:49:37Z",
+        "timestamp": "2026-08-16T13:50:19Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1631807-ffd581375e5d",
+        "event_id": "1631807-37228106582c",
         "event_type": "Awards Tier Changed",
         "film_id": "1631807",
         "importance": "Medium",
@@ -638,12 +638,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-08-15T13:49:37Z",
+        "timestamp": "2026-08-16T13:50:19Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1631807-cc2c4b6c7985",
+        "event_id": "1631807-75c976d1aad1",
         "event_type": "Added To Database",
         "film_id": "1631807",
         "importance": "Low",
@@ -652,7 +652,7 @@
         },
         "source_type": "system",
         "summary": "The Secret Woman is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-15T13:49:37Z",
+        "timestamp": "2026-08-16T13:50:19Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -687,7 +687,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1631807-83d5c9b571d3",
+        "event_id": "1631807-3b83df0ef020",
         "event_type": "Distributor Change",
         "film_id": "1631807",
         "importance": "Medium",
@@ -696,12 +696,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-15T13:49:37Z",
+        "timestamp": "2026-08-16T13:50:19Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1631807-ffd581375e5d",
+        "event_id": "1631807-37228106582c",
         "event_type": "Awards Tier Changed",
         "film_id": "1631807",
         "importance": "Medium",
@@ -715,7 +715,7 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-08-15T13:49:37Z",
+        "timestamp": "2026-08-16T13:50:19Z",
         "title": "Awards tier assigned: Emerging"
       }
     ],

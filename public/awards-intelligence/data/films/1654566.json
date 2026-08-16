@@ -7,7 +7,7 @@
       "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 45.0,
+    "attention_score": 45.1,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -45,20 +45,20 @@
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 0.7918",
+        "evidence": "TMDb popularity 0.807",
         "source": "audience_popularity",
         "status": "verified"
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 45.0,
+    "homepage_spotlight_score": 45.1,
     "industry_interest": null,
-    "last_updated": "20260815T134937Z",
+    "last_updated": "20260816T135019Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
         "evidence_count": 1,
-        "score": 3.0,
+        "score": 3.1,
         "statuses": [
           "verified"
         ]
@@ -205,7 +205,7 @@
   "intelligence": {
     "confidence": "Low",
     "confidence_score": 0.25,
-    "generated_at": "2026-08-15T13:49:14Z",
+    "generated_at": "2026-08-16T13:50:05Z",
     "headline": "Vibe: no material change detected",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -224,7 +224,7 @@
         "streaming_provider_count_us": 0,
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": false,
-        "tmdb_popularity": 0.7918,
+        "tmdb_popularity": 0.807,
         "tmdb_poster_count": 0,
         "tmdb_release_date_us_primary": "",
         "tmdb_release_date_us_theatrical": "",
@@ -245,7 +245,7 @@
   "media": {},
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260815T134937Z",
+    "generated_at": "20260816T135019Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -253,25 +253,25 @@
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 0.7918,
-        "retrieved_at": "2026-08-15",
+        "popularity": 0.807,
+        "retrieved_at": "2026-08-16",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1654566",
         "status": "not_yet_rated"
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-08-15",
+      "retrieved_at": "2026-08-16",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1654566",
-      "value": 0.7918
+      "value": 0.807
     },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 0.7918,
-      "retrieved_at": "2026-08-15",
+      "popularity": 0.807,
+      "retrieved_at": "2026-08-16",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1654566",
       "status": "not_yet_rated"
@@ -302,18 +302,6 @@
         ],
         "title": "Call My Agent! The Movie",
         "tmdb_id": "1365884"
-      },
-      {
-        "profile_url": "film.html?id=1504358",
-        "relationship_score": 62,
-        "shared_signals": [
-          "General Watch",
-          "Comedy",
-          "Drama",
-          "Acting"
-        ],
-        "title": "Don't Say Good Luck",
-        "tmdb_id": "1504358"
       },
       {
         "profile_url": "film.html?id=1437882",
@@ -350,6 +338,18 @@
         ],
         "title": "La Bola Negra",
         "tmdb_id": "1422041"
+      },
+      {
+        "profile_url": "film.html?id=1558094",
+        "relationship_score": 56,
+        "shared_signals": [
+          "General Watch",
+          "Drama",
+          "Acting",
+          "Best Picture"
+        ],
+        "title": "Let Love In",
+        "tmdb_id": "1558094"
       }
     ],
     "related_people": [
@@ -399,7 +399,7 @@
       "awards_relevance": 2.4,
       "talent_profile": 2.525
     },
-    "generated_at": "2026-08-15T13:49:14Z",
+    "generated_at": "2026-08-16T13:50:05Z",
     "schema_version": "phase3_screening_room_score_v1",
     "score": 4.94,
     "source": "derived_screening_room_score",
@@ -434,7 +434,7 @@
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 0.7918
+        "value": 0.807
       }
     ]
   },
@@ -481,7 +481,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1654566-310d68218079",
+        "event_id": "1654566-0580badd2482",
         "event_type": "Distributor Change",
         "film_id": "1654566",
         "importance": "Medium",
@@ -490,12 +490,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Amazon MGM Studios.",
-        "timestamp": "2026-08-15T13:49:37Z",
+        "timestamp": "2026-08-16T13:50:19Z",
         "title": "Distributor set: Amazon MGM Studios"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1654566-5949efe884f0",
+        "event_id": "1654566-b607a2173f3b",
         "event_type": "Awards Tier Changed",
         "film_id": "1654566",
         "importance": "Medium",
@@ -509,7 +509,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-15T13:49:37Z",
+        "timestamp": "2026-08-16T13:50:19Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],
@@ -558,7 +558,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1654566-310d68218079",
+        "event_id": "1654566-0580badd2482",
         "event_type": "Distributor Change",
         "film_id": "1654566",
         "importance": "Medium",
@@ -567,12 +567,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Amazon MGM Studios.",
-        "timestamp": "2026-08-15T13:49:37Z",
+        "timestamp": "2026-08-16T13:50:19Z",
         "title": "Distributor set: Amazon MGM Studios"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1654566-5949efe884f0",
+        "event_id": "1654566-b607a2173f3b",
         "event_type": "Awards Tier Changed",
         "film_id": "1654566",
         "importance": "Medium",
@@ -586,12 +586,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-15T13:49:37Z",
+        "timestamp": "2026-08-16T13:50:19Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1654566-7a6a9ef3170a",
+        "event_id": "1654566-ef765a0283dd",
         "event_type": "Added To Database",
         "film_id": "1654566",
         "importance": "Low",
@@ -600,7 +600,7 @@
         },
         "source_type": "system",
         "summary": "Vibe is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-15T13:49:37Z",
+        "timestamp": "2026-08-16T13:50:19Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -635,7 +635,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1654566-310d68218079",
+        "event_id": "1654566-0580badd2482",
         "event_type": "Distributor Change",
         "film_id": "1654566",
         "importance": "Medium",
@@ -644,12 +644,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Amazon MGM Studios.",
-        "timestamp": "2026-08-15T13:49:37Z",
+        "timestamp": "2026-08-16T13:50:19Z",
         "title": "Distributor set: Amazon MGM Studios"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1654566-5949efe884f0",
+        "event_id": "1654566-b607a2173f3b",
         "event_type": "Awards Tier Changed",
         "film_id": "1654566",
         "importance": "Medium",
@@ -663,7 +663,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-15T13:49:37Z",
+        "timestamp": "2026-08-16T13:50:19Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],

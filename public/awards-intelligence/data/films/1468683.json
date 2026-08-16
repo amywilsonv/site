@@ -7,7 +7,7 @@
       "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 72.6,
+    "attention_score": 71.7,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -20,14 +20,14 @@
         "status": "inferred"
       },
       {
-        "evidence": "TMDb popularity 14.8233",
-        "source": "audience_popularity",
-        "status": "verified"
-      },
-      {
         "evidence": "Public-interest, franchise, event, or major-studio tracking signal",
         "source": "event_awareness",
         "status": "inferred"
+      },
+      {
+        "evidence": "TMDb popularity 12.316",
+        "source": "audience_popularity",
+        "status": "verified"
       },
       {
         "evidence": "Major distributor: Netflix",
@@ -55,20 +55,20 @@
         "status": "verified"
       },
       {
-        "evidence": "234",
+        "evidence": "238",
         "source": "tmdb_vote_count",
         "status": "verified"
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 72.6,
+    "homepage_spotlight_score": 71.7,
     "industry_interest": "High",
-    "last_updated": "20260815T134937Z",
+    "last_updated": "20260816T135019Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
         "evidence_count": 2,
-        "score": 18.7,
+        "score": 17.8,
         "statuses": [
           "verified"
         ]
@@ -198,7 +198,7 @@
     "imdb_id": "",
     "language": "en",
     "original_title": "Heartstopper Forever",
-    "poster": "https://image.tmdb.org/t/p/original/ch28kJu4pG2x07sN22valXvV3JY.jpg",
+    "poster": "https://image.tmdb.org/t/p/original/mHt4cVaxU3Ms6OyP1olCJ2tFIY1.jpg",
     "profile_payload_url": "data/films/1468683.json",
     "profile_url": "film.html?id=1468683",
     "release_date": "2026-07-17",
@@ -211,7 +211,7 @@
   "intelligence": {
     "confidence": "Low",
     "confidence_score": 0.25,
-    "generated_at": "2026-08-15T13:49:14Z",
+    "generated_at": "2026-08-16T13:50:05Z",
     "headline": "Heartstopper Forever: no material change detected",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -231,13 +231,13 @@
         "tmdb_backdrop_count": 2,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=locuQ-skySE",
-        "tmdb_popularity": 14.8233,
+        "tmdb_popularity": 12.316,
         "tmdb_poster_count": 22,
         "tmdb_release_date_us_primary": "2026-07-17",
         "tmdb_release_date_us_theatrical": "",
         "tmdb_release_status": "Released",
-        "tmdb_vote_average": 7.3,
-        "tmdb_vote_count": 234,
+        "tmdb_vote_average": 7.279,
+        "tmdb_vote_count": 238,
         "tmdb_watch_provider_count_us": 2,
         "trailer_available": true,
         "trailer_count": 10,
@@ -252,7 +252,7 @@
   },
   "media": {
     "canonical_trailer": {
-      "retrieved_at": "2026-08-15",
+      "retrieved_at": "2026-08-16",
       "site": "YouTube",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1468683/videos",
@@ -264,7 +264,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260815T134937Z",
+    "generated_at": "20260816T135019Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -272,20 +272,20 @@
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 14.8233,
-        "retrieved_at": "2026-08-15",
+        "popularity": 12.316,
+        "retrieved_at": "2026-08-16",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1468683",
         "status": "rated",
-        "vote_average": 7.3,
-        "vote_count": 234
+        "vote_average": 7.279,
+        "vote_count": 238
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-08-15",
+      "retrieved_at": "2026-08-16",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1468683",
-      "value": 14.8233
+      "value": 12.316
     },
     "watch_providers": {
       "country": "US",
@@ -303,20 +303,20 @@
           "provider_name": "Netflix Standard with Ads"
         }
       ],
-      "retrieved_at": "2026-08-15",
+      "retrieved_at": "2026-08-16",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1468683-heartstopper-forever/watch?locale=US"
     }
   },
   "ratings": {
     "tmdb": {
-      "popularity": 14.8233,
-      "retrieved_at": "2026-08-15",
+      "popularity": 12.316,
+      "retrieved_at": "2026-08-16",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1468683",
       "status": "rated",
-      "vote_average": 7.3,
-      "vote_count": 234
+      "vote_average": 7.279,
+      "vote_count": 238
     }
   },
   "related": {
@@ -332,6 +332,18 @@
         ],
         "title": "Why Did I Get Married Again?",
         "tmdb_id": "1522689"
+      },
+      {
+        "profile_url": "film.html?id=1504358",
+        "relationship_score": 66,
+        "shared_signals": [
+          "Major Release",
+          "Drama",
+          "Acting",
+          "Best Picture"
+        ],
+        "title": "Don't Say Good Luck",
+        "tmdb_id": "1504358"
       },
       {
         "profile_url": "film.html?id=1487864",
@@ -368,18 +380,6 @@
         ],
         "title": "Call My Agent! The Movie",
         "tmdb_id": "1365884"
-      },
-      {
-        "profile_url": "film.html?id=1504358",
-        "relationship_score": 50,
-        "shared_signals": [
-          "Drama",
-          "Acting",
-          "Best Picture",
-          "Netflix"
-        ],
-        "title": "Don't Say Good Luck",
-        "tmdb_id": "1504358"
       },
       {
         "profile_url": "film.html?id=1422041",
@@ -437,25 +437,25 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 2.06,
-      "audience_quality": 6.935,
+      "audience_momentum": 2.043,
+      "audience_quality": 6.915,
       "availability": 3.967,
       "awards_relevance": 2.4,
       "campaign_activity": 5.4,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-15T13:49:14Z",
+    "generated_at": "2026-08-16T13:50:05Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 24.087,
+    "score": 24.05,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
         "confidence": 0.95,
-        "contribution": 6.935,
+        "contribution": 6.915,
         "metric_name": "tmdb_vote_average",
         "provider": "tmdb",
         "score_family": "audience_quality",
-        "value": 7.3
+        "value": 7.279
       },
       {
         "confidence": 0.9,
@@ -498,10 +498,10 @@
       "headline": "Heartstopper Forever: no material change detected",
       "summary": "Current provider signals do not show a supported material change."
     },
-    "last_updated": "2026-08-15T13:49:37Z",
+    "last_updated": "2026-08-16T13:50:19Z",
     "latest_event": {
       "confidence": "Inferred",
-      "event_id": "1468683-ea013534c1a0",
+      "event_id": "1468683-55946f1f585f",
       "event_type": "Homepage Featured",
       "film_id": "1468683",
       "importance": "Medium",
@@ -510,7 +510,7 @@
       },
       "source_type": "discovery_homepage",
       "summary": "Heartstopper Forever is currently selected for the homepage experience.",
-      "timestamp": "2026-08-15T13:49:37Z",
+      "timestamp": "2026-08-16T13:50:19Z",
       "title": "Featured in The Screening Room"
     },
     "latest_intelligence": "As of 2026-07-18, this is a Netflix release dated 2026-07-17 with Best Picture, Acting relevance; current awards profile is Developing and data status is developing.",
@@ -520,7 +520,7 @@
     "recent_activity": [
       {
         "confidence": "Inferred",
-        "event_id": "1468683-ea013534c1a0",
+        "event_id": "1468683-55946f1f585f",
         "event_type": "Homepage Featured",
         "film_id": "1468683",
         "importance": "Medium",
@@ -529,12 +529,12 @@
         },
         "source_type": "discovery_homepage",
         "summary": "Heartstopper Forever is currently selected for the homepage experience.",
-        "timestamp": "2026-08-15T13:49:37Z",
+        "timestamp": "2026-08-16T13:50:19Z",
         "title": "Featured in The Screening Room"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1468683-e6e04ed07485",
+        "event_id": "1468683-4ab71b8d4948",
         "event_type": "Distributor Change",
         "film_id": "1468683",
         "importance": "Medium",
@@ -543,12 +543,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-15T13:49:37Z",
+        "timestamp": "2026-08-16T13:50:19Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1468683-df781fd673c6",
+        "event_id": "1468683-bf578c36b717",
         "event_type": "Awards Tier Changed",
         "film_id": "1468683",
         "importance": "Medium",
@@ -562,7 +562,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-15T13:49:37Z",
+        "timestamp": "2026-08-16T13:50:19Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],
@@ -570,7 +570,7 @@
     "screening_room_score": {
       "confidence": "Low",
       "explanation": "Current provider signals do not show a supported material change.",
-      "score": 24.087
+      "score": 24.05
     },
     "watch_triggers": [
       "Prestige Distributor",
@@ -601,7 +601,7 @@
     "events": [
       {
         "confidence": "Inferred",
-        "event_id": "1468683-ea013534c1a0",
+        "event_id": "1468683-55946f1f585f",
         "event_type": "Homepage Featured",
         "film_id": "1468683",
         "importance": "Medium",
@@ -610,12 +610,12 @@
         },
         "source_type": "discovery_homepage",
         "summary": "Heartstopper Forever is currently selected for the homepage experience.",
-        "timestamp": "2026-08-15T13:49:37Z",
+        "timestamp": "2026-08-16T13:50:19Z",
         "title": "Featured in The Screening Room"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1468683-e6e04ed07485",
+        "event_id": "1468683-4ab71b8d4948",
         "event_type": "Distributor Change",
         "film_id": "1468683",
         "importance": "Medium",
@@ -624,12 +624,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-15T13:49:37Z",
+        "timestamp": "2026-08-16T13:50:19Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1468683-df781fd673c6",
+        "event_id": "1468683-bf578c36b717",
         "event_type": "Awards Tier Changed",
         "film_id": "1468683",
         "importance": "Medium",
@@ -643,12 +643,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-15T13:49:37Z",
+        "timestamp": "2026-08-16T13:50:19Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1468683-c92d3b05b8fe",
+        "event_id": "1468683-0bf066b7661e",
         "event_type": "Added To Database",
         "film_id": "1468683",
         "importance": "Low",
@@ -657,7 +657,7 @@
         },
         "source_type": "system",
         "summary": "Heartstopper Forever is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-15T13:49:37Z",
+        "timestamp": "2026-08-16T13:50:19Z",
         "title": "Added to Awards Intelligence"
       },
       {
@@ -691,7 +691,7 @@
     ],
     "latest_event": {
       "confidence": "Inferred",
-      "event_id": "1468683-ea013534c1a0",
+      "event_id": "1468683-55946f1f585f",
       "event_type": "Homepage Featured",
       "film_id": "1468683",
       "importance": "Medium",
@@ -700,13 +700,13 @@
       },
       "source_type": "discovery_homepage",
       "summary": "Heartstopper Forever is currently selected for the homepage experience.",
-      "timestamp": "2026-08-15T13:49:37Z",
+      "timestamp": "2026-08-16T13:50:19Z",
       "title": "Featured in The Screening Room"
     },
     "recent_activity": [
       {
         "confidence": "Inferred",
-        "event_id": "1468683-ea013534c1a0",
+        "event_id": "1468683-55946f1f585f",
         "event_type": "Homepage Featured",
         "film_id": "1468683",
         "importance": "Medium",
@@ -715,12 +715,12 @@
         },
         "source_type": "discovery_homepage",
         "summary": "Heartstopper Forever is currently selected for the homepage experience.",
-        "timestamp": "2026-08-15T13:49:37Z",
+        "timestamp": "2026-08-16T13:50:19Z",
         "title": "Featured in The Screening Room"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1468683-e6e04ed07485",
+        "event_id": "1468683-4ab71b8d4948",
         "event_type": "Distributor Change",
         "film_id": "1468683",
         "importance": "Medium",
@@ -729,12 +729,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-15T13:49:37Z",
+        "timestamp": "2026-08-16T13:50:19Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1468683-df781fd673c6",
+        "event_id": "1468683-bf578c36b717",
         "event_type": "Awards Tier Changed",
         "film_id": "1468683",
         "importance": "Medium",
@@ -748,7 +748,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-15T13:49:37Z",
+        "timestamp": "2026-08-16T13:50:19Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],
