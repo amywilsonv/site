@@ -8,7 +8,7 @@
       "Event Release",
       "Awards Watch"
     ],
-    "attention_score": 55.5,
+    "attention_score": 55.3,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -46,7 +46,7 @@
         "status": "inferred"
       },
       {
-        "evidence": "TMDb popularity 1.31",
+        "evidence": "TMDb popularity 1.1593",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -57,14 +57,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 55.5,
+    "homepage_spotlight_score": 55.3,
     "industry_interest": null,
-    "last_updated": "20260816T135019Z",
+    "last_updated": "20260817T135843Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
         "evidence_count": 2,
-        "score": 10.4,
+        "score": 10.2,
         "statuses": [
           "verified"
         ]
@@ -217,7 +217,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-08-16T13:50:05Z",
+    "generated_at": "2026-08-17T13:58:26Z",
     "headline": "Ghosts: The Possession of Button House: popularity increasing",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -237,7 +237,7 @@
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=enE6YJoy-n0",
-        "tmdb_popularity": 1.31,
+        "tmdb_popularity": 1.1593,
         "tmdb_poster_count": 2,
         "tmdb_release_date_us_primary": "",
         "tmdb_release_date_us_theatrical": "",
@@ -253,14 +253,14 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity rose from 1.1425 to 1.31.",
+    "summary": "TMDb popularity rose from 1.1425 to 1.1593.",
     "supporting_drivers": [
       {
         "confidence_weight": 0.9,
         "driver_type": "popularity_increasing",
-        "evidence": "TMDb popularity rose from 1.1425 to 1.31.",
+        "evidence": "TMDb popularity rose from 1.1425 to 1.1593.",
         "label": "Popularity increasing",
-        "retrieved_at": "2026-08-16T13:50:05Z",
+        "retrieved_at": "2026-08-17T13:58:26Z",
         "source_metric": "tmdb_popularity",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -269,7 +269,7 @@
   },
   "media": {
     "canonical_trailer": {
-      "retrieved_at": "2026-08-16",
+      "retrieved_at": "2026-08-17",
       "site": "YouTube",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1643567/videos",
@@ -281,7 +281,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260816T135019Z",
+    "generated_at": "20260817T135843Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -289,25 +289,25 @@
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 1.31,
-        "retrieved_at": "2026-08-16",
+        "popularity": 1.1593,
+        "retrieved_at": "2026-08-17",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1643567",
         "status": "not_yet_rated"
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-08-16",
+      "retrieved_at": "2026-08-17",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1643567",
-      "value": 1.31
+      "value": 1.1593
     },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 1.31,
-      "retrieved_at": "2026-08-16",
+      "popularity": 1.1593,
+      "retrieved_at": "2026-08-17",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1643567",
       "status": "not_yet_rated"
@@ -434,14 +434,14 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.025,
+      "audience_momentum": 0.022,
       "awards_relevance": 0.8,
       "campaign_activity": 1.35,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-16T13:50:05Z",
+    "generated_at": "2026-08-17T13:58:26Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 5.5,
+    "score": 5.497,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -478,11 +478,11 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.025,
+        "contribution": 0.022,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 1.31
+        "value": 1.1593
       }
     ]
   },
@@ -491,7 +491,7 @@
     "external_intelligence": {
       "confidence": "High",
       "headline": "Ghosts: The Possession of Button House: popularity increasing",
-      "summary": "TMDb popularity rose from 1.1425 to 1.31."
+      "summary": "TMDb popularity rose from 1.1425 to 1.1593."
     },
     "last_updated": "2026-10-23",
     "latest_event": {
@@ -529,7 +529,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1643567-48792a89abf2",
+        "event_id": "1643567-9c442035b26c",
         "event_type": "Awards Tier Changed",
         "film_id": "1643567",
         "importance": "Medium",
@@ -541,12 +541,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-16T13:50:19Z",
+        "timestamp": "2026-08-17T13:58:43Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1643567-50cc08d60665",
+        "event_id": "1643567-84d520e31f03",
         "event_type": "Added To Database",
         "film_id": "1643567",
         "importance": "Low",
@@ -555,15 +555,15 @@
         },
         "source_type": "system",
         "summary": "Ghosts: The Possession of Button House is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-16T13:50:19Z",
+        "timestamp": "2026-08-17T13:58:43Z",
         "title": "Added to Awards Intelligence"
       }
     ],
     "release_relevance": 28.0,
     "screening_room_score": {
       "confidence": "High",
-      "explanation": "TMDb popularity rose from 1.1425 to 1.31.",
-      "score": 5.5
+      "explanation": "TMDb popularity rose from 1.1425 to 1.1593.",
+      "score": 5.497
     },
     "watch_triggers": [
       "Prestige Producer",
@@ -607,7 +607,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1643567-48792a89abf2",
+        "event_id": "1643567-9c442035b26c",
         "event_type": "Awards Tier Changed",
         "film_id": "1643567",
         "importance": "Medium",
@@ -619,12 +619,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-16T13:50:19Z",
+        "timestamp": "2026-08-17T13:58:43Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1643567-50cc08d60665",
+        "event_id": "1643567-84d520e31f03",
         "event_type": "Added To Database",
         "film_id": "1643567",
         "importance": "Low",
@@ -633,7 +633,7 @@
         },
         "source_type": "system",
         "summary": "Ghosts: The Possession of Button House is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-16T13:50:19Z",
+        "timestamp": "2026-08-17T13:58:43Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -668,7 +668,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1643567-48792a89abf2",
+        "event_id": "1643567-9c442035b26c",
         "event_type": "Awards Tier Changed",
         "film_id": "1643567",
         "importance": "Medium",
@@ -680,12 +680,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-16T13:50:19Z",
+        "timestamp": "2026-08-17T13:58:43Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1643567-50cc08d60665",
+        "event_id": "1643567-84d520e31f03",
         "event_type": "Added To Database",
         "film_id": "1643567",
         "importance": "Low",
@@ -694,7 +694,7 @@
         },
         "source_type": "system",
         "summary": "Ghosts: The Possession of Button House is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-16T13:50:19Z",
+        "timestamp": "2026-08-17T13:58:43Z",
         "title": "Added to Awards Intelligence"
       }
     ],

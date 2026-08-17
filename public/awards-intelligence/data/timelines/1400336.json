@@ -16,7 +16,7 @@
     },
     {
       "confidence": "Inferred",
-      "event_id": "1400336-8f57062fdc00",
+      "event_id": "1400336-2e24d08e88c8",
       "event_type": "Distributor Change",
       "film_id": "1400336",
       "importance": "Medium",
@@ -25,12 +25,12 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Paramount Pictures.",
-      "timestamp": "2026-08-16T13:50:19Z",
+      "timestamp": "2026-08-17T13:58:43Z",
       "title": "Distributor set: Paramount Pictures"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1400336-90048adc53ed",
+      "event_id": "1400336-ae60ac3d1cdb",
       "event_type": "Awards Tier Changed",
       "film_id": "1400336",
       "importance": "Medium",
@@ -40,12 +40,12 @@
       },
       "source_type": "editorial_model",
       "summary": "insufficient credible awards evidence",
-      "timestamp": "2026-08-16T13:50:19Z",
+      "timestamp": "2026-08-17T13:58:43Z",
       "title": "Awards tier assigned: No Current Awards Case"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1400336-fb7d0fb4e1cd",
+      "event_id": "1400336-7d6c0129a8eb",
       "event_type": "Added To Database",
       "film_id": "1400336",
       "importance": "Low",
@@ -54,7 +54,7 @@
       },
       "source_type": "system",
       "summary": "Focker-in-Law is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-08-16T13:50:19Z",
+      "timestamp": "2026-08-17T13:58:43Z",
       "title": "Added to Awards Intelligence"
     }
   ],
@@ -75,7 +75,7 @@
   "metadata": {
     "event_count": 4,
     "film_id": "1400336",
-    "generated_at": "20260816T135019Z",
+    "generated_at": "20260817T135843Z",
     "timeline_version": "phase6b",
     "title": "Focker-in-Law",
     "tmdb_id": "1400336"

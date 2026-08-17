@@ -2,7 +2,7 @@
   "events": [
     {
       "confidence": "Inferred",
-      "event_id": "1468683-55946f1f585f",
+      "event_id": "1468683-a79f35b6b3a2",
       "event_type": "Homepage Featured",
       "film_id": "1468683",
       "importance": "Medium",
@@ -11,12 +11,12 @@
       },
       "source_type": "discovery_homepage",
       "summary": "Heartstopper Forever is currently selected for the homepage experience.",
-      "timestamp": "2026-08-16T13:50:19Z",
+      "timestamp": "2026-08-17T13:58:43Z",
       "title": "Featured in The Screening Room"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1468683-4ab71b8d4948",
+      "event_id": "1468683-a227cc9dedf3",
       "event_type": "Distributor Change",
       "film_id": "1468683",
       "importance": "Medium",
@@ -25,12 +25,12 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Netflix.",
-      "timestamp": "2026-08-16T13:50:19Z",
+      "timestamp": "2026-08-17T13:58:43Z",
       "title": "Distributor set: Netflix"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1468683-bf578c36b717",
+      "event_id": "1468683-ed08f3cd5320",
       "event_type": "Awards Tier Changed",
       "film_id": "1468683",
       "importance": "Medium",
@@ -44,12 +44,12 @@
       },
       "source_type": "editorial_model",
       "summary": "insufficient credible awards evidence",
-      "timestamp": "2026-08-16T13:50:19Z",
+      "timestamp": "2026-08-17T13:58:43Z",
       "title": "Awards tier assigned: No Current Awards Case"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1468683-0bf066b7661e",
+      "event_id": "1468683-b60905c007b6",
       "event_type": "Added To Database",
       "film_id": "1468683",
       "importance": "Low",
@@ -58,7 +58,7 @@
       },
       "source_type": "system",
       "summary": "Heartstopper Forever is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-08-16T13:50:19Z",
+      "timestamp": "2026-08-17T13:58:43Z",
       "title": "Added to Awards Intelligence"
     },
     {
@@ -92,7 +92,7 @@
   ],
   "latest_event": {
     "confidence": "Inferred",
-    "event_id": "1468683-55946f1f585f",
+    "event_id": "1468683-a79f35b6b3a2",
     "event_type": "Homepage Featured",
     "film_id": "1468683",
     "importance": "Medium",
@@ -101,13 +101,13 @@
     },
     "source_type": "discovery_homepage",
     "summary": "Heartstopper Forever is currently selected for the homepage experience.",
-    "timestamp": "2026-08-16T13:50:19Z",
+    "timestamp": "2026-08-17T13:58:43Z",
     "title": "Featured in The Screening Room"
   },
   "metadata": {
     "event_count": 6,
     "film_id": "1468683",
-    "generated_at": "20260816T135019Z",
+    "generated_at": "20260817T135843Z",
     "timeline_version": "phase6b",
     "title": "Heartstopper Forever",
     "tmdb_id": "1468683"

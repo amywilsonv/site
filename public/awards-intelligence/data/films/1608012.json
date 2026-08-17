@@ -7,7 +7,7 @@
       "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 50.9,
+    "attention_score": 50.8,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -45,20 +45,20 @@
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 0.9514",
+        "evidence": "TMDb popularity 0.941",
         "source": "audience_popularity",
         "status": "verified"
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 50.9,
+    "homepage_spotlight_score": 50.8,
     "industry_interest": "Moderate",
-    "last_updated": "20260816T135019Z",
+    "last_updated": "20260817T135843Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
         "evidence_count": 1,
-        "score": 3.5,
+        "score": 3.4,
         "statuses": [
           "verified"
         ]
@@ -200,7 +200,7 @@
   "intelligence": {
     "confidence": "Low",
     "confidence_score": 0.25,
-    "generated_at": "2026-08-16T13:50:05Z",
+    "generated_at": "2026-08-17T13:58:26Z",
     "headline": "A\u015fk Tesad\u00fcfleri Sever 3: no material change detected",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -219,7 +219,7 @@
         "streaming_provider_count_us": 0,
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": false,
-        "tmdb_popularity": 0.9514,
+        "tmdb_popularity": 0.941,
         "tmdb_poster_count": 0,
         "tmdb_release_date_us_primary": "",
         "tmdb_release_date_us_theatrical": "",
@@ -240,7 +240,7 @@
   "media": {},
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260816T135019Z",
+    "generated_at": "20260817T135843Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -248,25 +248,25 @@
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 0.9514,
-        "retrieved_at": "2026-08-16",
+        "popularity": 0.941,
+        "retrieved_at": "2026-08-17",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1608012",
         "status": "not_yet_rated"
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-08-16",
+      "retrieved_at": "2026-08-17",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1608012",
-      "value": 0.9514
+      "value": 0.941
     },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 0.9514,
-      "retrieved_at": "2026-08-16",
+      "popularity": 0.941,
+      "retrieved_at": "2026-08-17",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1608012",
       "status": "not_yet_rated"
@@ -385,7 +385,7 @@
       "audience_momentum": 0.018,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-16T13:50:05Z",
+    "generated_at": "2026-08-17T13:58:26Z",
     "schema_version": "phase3_screening_room_score_v1",
     "score": 3.343,
     "source": "derived_screening_room_score",
@@ -412,7 +412,7 @@
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 0.9514
+        "value": 0.941
       }
     ]
   },
@@ -459,7 +459,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1608012-8f83b338f5c2",
+        "event_id": "1608012-6ac5c43ac011",
         "event_type": "Awards Tier Changed",
         "film_id": "1608012",
         "importance": "Medium",
@@ -469,12 +469,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-16T13:50:19Z",
+        "timestamp": "2026-08-17T13:58:43Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1608012-a707c227e7fd",
+        "event_id": "1608012-47c5c2f39876",
         "event_type": "Added To Database",
         "film_id": "1608012",
         "importance": "Low",
@@ -483,7 +483,7 @@
         },
         "source_type": "system",
         "summary": "A\u015fk Tesad\u00fcfleri Sever 3 is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-16T13:50:19Z",
+        "timestamp": "2026-08-17T13:58:43Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -533,7 +533,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1608012-8f83b338f5c2",
+        "event_id": "1608012-6ac5c43ac011",
         "event_type": "Awards Tier Changed",
         "film_id": "1608012",
         "importance": "Medium",
@@ -543,12 +543,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-16T13:50:19Z",
+        "timestamp": "2026-08-17T13:58:43Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1608012-a707c227e7fd",
+        "event_id": "1608012-47c5c2f39876",
         "event_type": "Added To Database",
         "film_id": "1608012",
         "importance": "Low",
@@ -557,7 +557,7 @@
         },
         "source_type": "system",
         "summary": "A\u015fk Tesad\u00fcfleri Sever 3 is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-16T13:50:19Z",
+        "timestamp": "2026-08-17T13:58:43Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -592,7 +592,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1608012-8f83b338f5c2",
+        "event_id": "1608012-6ac5c43ac011",
         "event_type": "Awards Tier Changed",
         "film_id": "1608012",
         "importance": "Medium",
@@ -602,12 +602,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-16T13:50:19Z",
+        "timestamp": "2026-08-17T13:58:43Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1608012-a707c227e7fd",
+        "event_id": "1608012-47c5c2f39876",
         "event_type": "Added To Database",
         "film_id": "1608012",
         "importance": "Low",
@@ -616,7 +616,7 @@
         },
         "source_type": "system",
         "summary": "A\u015fk Tesad\u00fcfleri Sever 3 is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-16T13:50:19Z",
+        "timestamp": "2026-08-17T13:58:43Z",
         "title": "Added to Awards Intelligence"
       }
     ],
