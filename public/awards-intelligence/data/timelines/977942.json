@@ -16,7 +16,7 @@
     },
     {
       "confidence": "Inferred",
-      "event_id": "977942-a647b4b59a1d",
+      "event_id": "977942-6f8df90d7fb2",
       "event_type": "Distributor Change",
       "film_id": "977942",
       "importance": "Medium",
@@ -25,12 +25,12 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Focus Features.",
-      "timestamp": "2026-08-17T13:58:43Z",
+      "timestamp": "2026-08-18T14:03:02Z",
       "title": "Distributor set: Focus Features"
     },
     {
       "confidence": "Inferred",
-      "event_id": "977942-1bf49ae028a2",
+      "event_id": "977942-b052a317360f",
       "event_type": "Awards Tier Changed",
       "film_id": "977942",
       "importance": "Medium",
@@ -45,12 +45,12 @@
       },
       "source_type": "editorial_model",
       "summary": "insufficient credible awards evidence",
-      "timestamp": "2026-08-17T13:58:43Z",
+      "timestamp": "2026-08-18T14:03:02Z",
       "title": "Awards tier assigned: No Current Awards Case"
     },
     {
       "confidence": "Inferred",
-      "event_id": "977942-5fa21b97b5f2",
+      "event_id": "977942-e0ed28402a82",
       "event_type": "Added To Database",
       "film_id": "977942",
       "importance": "Low",
@@ -59,7 +59,7 @@
       },
       "source_type": "system",
       "summary": "The Uprising is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-08-17T13:58:43Z",
+      "timestamp": "2026-08-18T14:03:02Z",
       "title": "Added to Awards Intelligence"
     },
     {
@@ -94,7 +94,7 @@
   "metadata": {
     "event_count": 5,
     "film_id": "977942",
-    "generated_at": "20260817T135843Z",
+    "generated_at": "20260818T140302Z",
     "timeline_version": "phase6b",
     "title": "The Uprising",
     "tmdb_id": "977942"

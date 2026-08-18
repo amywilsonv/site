@@ -7,7 +7,7 @@
       "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 64.4,
+    "attention_score": 64.2,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -25,7 +25,7 @@
         "status": "inferred"
       },
       {
-        "evidence": "TMDb popularity 7.1687",
+        "evidence": "TMDb popularity 6.8077",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -56,14 +56,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 64.4,
+    "homepage_spotlight_score": 64.2,
     "industry_interest": "Moderate",
-    "last_updated": "20260817T135843Z",
+    "last_updated": "20260818T140302Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
         "evidence_count": 2,
-        "score": 15.2,
+        "score": 15.0,
         "statuses": [
           "verified"
         ]
@@ -205,7 +205,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-08-17T13:58:26Z",
+    "generated_at": "2026-08-18T14:02:45Z",
     "headline": "Drawn Together: popularity increasing",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -225,7 +225,7 @@
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=WlGzP8FvsfY",
-        "tmdb_popularity": 7.1687,
+        "tmdb_popularity": 6.8077,
         "tmdb_poster_count": 1,
         "tmdb_release_date_us_primary": "2026-09-09",
         "tmdb_release_date_us_theatrical": "",
@@ -241,14 +241,14 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity rose from 2.9055 to 7.1687. A canonical TMDb trailer URL is available.",
+    "summary": "TMDb popularity rose from 2.9055 to 6.8077. A canonical TMDb trailer URL is available.",
     "supporting_drivers": [
       {
         "confidence_weight": 0.9,
         "driver_type": "popularity_increasing",
-        "evidence": "TMDb popularity rose from 2.9055 to 7.1687.",
+        "evidence": "TMDb popularity rose from 2.9055 to 6.8077.",
         "label": "Popularity increasing",
-        "retrieved_at": "2026-08-17T13:58:26Z",
+        "retrieved_at": "2026-08-18T14:02:45Z",
         "source_metric": "tmdb_popularity",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -258,7 +258,7 @@
         "driver_type": "trailer_available",
         "evidence": "A canonical TMDb trailer URL is available.",
         "label": "Trailer available",
-        "retrieved_at": "2026-08-17T13:58:26Z",
+        "retrieved_at": "2026-08-18T14:02:45Z",
         "source_metric": "tmdb_canonical_trailer_url",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -267,7 +267,7 @@
   },
   "media": {
     "canonical_trailer": {
-      "retrieved_at": "2026-08-17",
+      "retrieved_at": "2026-08-18",
       "site": "YouTube",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1440098/videos",
@@ -279,7 +279,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260817T135843Z",
+    "generated_at": "20260818T140302Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -287,25 +287,25 @@
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 7.1687,
-        "retrieved_at": "2026-08-17",
+        "popularity": 6.8077,
+        "retrieved_at": "2026-08-18",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1440098",
         "status": "not_yet_rated"
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-08-17",
+      "retrieved_at": "2026-08-18",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1440098",
-      "value": 7.1687
+      "value": 6.8077
     },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 7.1687,
-      "retrieved_at": "2026-08-17",
+      "popularity": 6.8077,
+      "retrieved_at": "2026-08-18",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1440098",
       "status": "not_yet_rated"
@@ -422,13 +422,13 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.136,
+      "audience_momentum": 0.129,
       "campaign_activity": 5.4,
       "talent_profile": 2.925
     },
-    "generated_at": "2026-08-17T13:58:26Z",
+    "generated_at": "2026-08-18T14:02:45Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 8.461,
+    "score": 8.454,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -457,11 +457,11 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.136,
+        "contribution": 0.129,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 7.1687
+        "value": 6.8077
       }
     ]
   },
@@ -470,7 +470,7 @@
     "external_intelligence": {
       "confidence": "High",
       "headline": "Drawn Together: popularity increasing",
-      "summary": "TMDb popularity rose from 2.9055 to 7.1687. A canonical TMDb trailer URL is available."
+      "summary": "TMDb popularity rose from 2.9055 to 6.8077. A canonical TMDb trailer URL is available."
     },
     "last_updated": "2026-09-09",
     "latest_event": {
@@ -508,7 +508,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1440098-a96ef0051ef9",
+        "event_id": "1440098-ea617474f02d",
         "event_type": "Awards Tier Changed",
         "film_id": "1440098",
         "importance": "Medium",
@@ -518,12 +518,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-17T13:58:43Z",
+        "timestamp": "2026-08-18T14:03:02Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1440098-81ff03f0ff31",
+        "event_id": "1440098-56a3130dda35",
         "event_type": "Added To Database",
         "film_id": "1440098",
         "importance": "Low",
@@ -532,15 +532,15 @@
         },
         "source_type": "system",
         "summary": "Drawn Together is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-17T13:58:43Z",
+        "timestamp": "2026-08-18T14:03:02Z",
         "title": "Added to Awards Intelligence"
       }
     ],
     "release_relevance": 31.1,
     "screening_room_score": {
       "confidence": "High",
-      "explanation": "TMDb popularity rose from 2.9055 to 7.1687. A canonical TMDb trailer URL is available.",
-      "score": 8.461
+      "explanation": "TMDb popularity rose from 2.9055 to 6.8077. A canonical TMDb trailer URL is available.",
+      "score": 8.454
     },
     "watch_triggers": [
       "Awards-Season Release",
@@ -581,7 +581,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1440098-a96ef0051ef9",
+        "event_id": "1440098-ea617474f02d",
         "event_type": "Awards Tier Changed",
         "film_id": "1440098",
         "importance": "Medium",
@@ -591,12 +591,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-17T13:58:43Z",
+        "timestamp": "2026-08-18T14:03:02Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1440098-81ff03f0ff31",
+        "event_id": "1440098-56a3130dda35",
         "event_type": "Added To Database",
         "film_id": "1440098",
         "importance": "Low",
@@ -605,7 +605,7 @@
         },
         "source_type": "system",
         "summary": "Drawn Together is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-17T13:58:43Z",
+        "timestamp": "2026-08-18T14:03:02Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -640,7 +640,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1440098-a96ef0051ef9",
+        "event_id": "1440098-ea617474f02d",
         "event_type": "Awards Tier Changed",
         "film_id": "1440098",
         "importance": "Medium",
@@ -650,12 +650,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-17T13:58:43Z",
+        "timestamp": "2026-08-18T14:03:02Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1440098-81ff03f0ff31",
+        "event_id": "1440098-56a3130dda35",
         "event_type": "Added To Database",
         "film_id": "1440098",
         "importance": "Low",
@@ -664,7 +664,7 @@
         },
         "source_type": "system",
         "summary": "Drawn Together is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-17T13:58:43Z",
+        "timestamp": "2026-08-18T14:03:02Z",
         "title": "Added to Awards Intelligence"
       }
     ],

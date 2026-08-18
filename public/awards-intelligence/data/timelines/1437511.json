@@ -16,7 +16,7 @@
     },
     {
       "confidence": "Inferred",
-      "event_id": "1437511-807a53a7e811",
+      "event_id": "1437511-789fc517c9d6",
       "event_type": "Distributor Change",
       "film_id": "1437511",
       "importance": "Medium",
@@ -25,12 +25,12 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Amazon MGM Studios.",
-      "timestamp": "2026-08-17T13:58:43Z",
+      "timestamp": "2026-08-18T14:03:02Z",
       "title": "Distributor set: Amazon MGM Studios"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1437511-97c7d95d14b1",
+      "event_id": "1437511-c61ad957d10a",
       "event_type": "Awards Tier Changed",
       "film_id": "1437511",
       "importance": "Medium",
@@ -40,12 +40,12 @@
       },
       "source_type": "editorial_model",
       "summary": "insufficient credible awards evidence",
-      "timestamp": "2026-08-17T13:58:43Z",
+      "timestamp": "2026-08-18T14:03:02Z",
       "title": "Awards tier assigned: No Current Awards Case"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1437511-1f2fe2b1f211",
+      "event_id": "1437511-624a4244d5f8",
       "event_type": "Added To Database",
       "film_id": "1437511",
       "importance": "Low",
@@ -54,7 +54,7 @@
       },
       "source_type": "system",
       "summary": "How to Rob a Bank is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-08-17T13:58:43Z",
+      "timestamp": "2026-08-18T14:03:02Z",
       "title": "Added to Awards Intelligence"
     }
   ],
@@ -75,7 +75,7 @@
   "metadata": {
     "event_count": 4,
     "film_id": "1437511",
-    "generated_at": "20260817T135843Z",
+    "generated_at": "20260818T140302Z",
     "timeline_version": "phase6b",
     "title": "How to Rob a Bank",
     "tmdb_id": "1437511"

@@ -16,7 +16,7 @@
     },
     {
       "confidence": "Inferred",
-      "event_id": "1204680-56d65db51974",
+      "event_id": "1204680-a69318bdf61c",
       "event_type": "Distributor Change",
       "film_id": "1204680",
       "importance": "Medium",
@@ -25,12 +25,12 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Warner Bros. Pictures.",
-      "timestamp": "2026-08-17T13:58:43Z",
+      "timestamp": "2026-08-18T14:03:02Z",
       "title": "Distributor set: Warner Bros. Pictures"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1204680-f6f83d72698a",
+      "event_id": "1204680-d7ddc366954f",
       "event_type": "Awards Tier Changed",
       "film_id": "1204680",
       "importance": "Medium",
@@ -42,12 +42,12 @@
       },
       "source_type": "editorial_model",
       "summary": "plausible but incomplete awards evidence",
-      "timestamp": "2026-08-17T13:58:43Z",
+      "timestamp": "2026-08-18T14:03:02Z",
       "title": "Awards tier assigned: Emerging"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1204680-662e7e202342",
+      "event_id": "1204680-7d07022e205b",
       "event_type": "Added To Database",
       "film_id": "1204680",
       "importance": "Low",
@@ -56,7 +56,7 @@
       },
       "source_type": "system",
       "summary": "Coyote vs. Acme is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-08-17T13:58:43Z",
+      "timestamp": "2026-08-18T14:03:02Z",
       "title": "Added to Awards Intelligence"
     }
   ],
@@ -77,7 +77,7 @@
   "metadata": {
     "event_count": 4,
     "film_id": "1204680",
-    "generated_at": "20260817T135843Z",
+    "generated_at": "20260818T140302Z",
     "timeline_version": "phase6b",
     "title": "Coyote vs. Acme",
     "tmdb_id": "1204680"

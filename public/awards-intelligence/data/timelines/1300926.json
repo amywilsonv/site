@@ -16,7 +16,7 @@
     },
     {
       "confidence": "Inferred",
-      "event_id": "1300926-4417b2477b89",
+      "event_id": "1300926-713d4914361c",
       "event_type": "Awards Tier Changed",
       "film_id": "1300926",
       "importance": "Medium",
@@ -30,12 +30,12 @@
       },
       "source_type": "editorial_model",
       "summary": "category-specific awards case without broader contender evidence",
-      "timestamp": "2026-08-17T13:58:43Z",
+      "timestamp": "2026-08-18T14:03:02Z",
       "title": "Awards tier assigned: Category Contender"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1300926-bce132163607",
+      "event_id": "1300926-c4fdc5150358",
       "event_type": "Added To Database",
       "film_id": "1300926",
       "importance": "Low",
@@ -44,7 +44,7 @@
       },
       "source_type": "system",
       "summary": "The Angry Birds Movie 3 is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-08-17T13:58:43Z",
+      "timestamp": "2026-08-18T14:03:02Z",
       "title": "Added to Awards Intelligence"
     }
   ],
@@ -65,7 +65,7 @@
   "metadata": {
     "event_count": 3,
     "film_id": "1300926",
-    "generated_at": "20260817T135843Z",
+    "generated_at": "20260818T140302Z",
     "timeline_version": "phase6b",
     "title": "The Angry Birds Movie 3",
     "tmdb_id": "1300926"

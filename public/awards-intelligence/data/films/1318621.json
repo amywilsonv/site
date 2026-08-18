@@ -8,7 +8,7 @@
       "Event Release",
       "Awards Watch"
     ],
-    "attention_score": 88.1,
+    "attention_score": 87.9,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Moderate",
     "conversation_level": "Unavailable",
@@ -16,7 +16,7 @@
     "early_reception": null,
     "evidence_sources": [
       {
-        "evidence": "TMDb popularity 40.3917",
+        "evidence": "TMDb popularity 38.3866",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -66,20 +66,20 @@
         "status": "verified"
       },
       {
-        "evidence": "153",
+        "evidence": "154",
         "source": "tmdb_vote_count",
         "status": "verified"
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 88.1,
+    "homepage_spotlight_score": 87.9,
     "industry_interest": "High",
-    "last_updated": "20260817T135843Z",
+    "last_updated": "20260818T140302Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
         "evidence_count": 2,
-        "score": 23.6,
+        "score": 23.4,
         "statuses": [
           "verified"
         ]
@@ -233,7 +233,7 @@
   "intelligence": {
     "confidence": "Low",
     "confidence_score": 0.25,
-    "generated_at": "2026-08-17T13:58:26Z",
+    "generated_at": "2026-08-18T14:02:45Z",
     "headline": "Descendants: Wicked Wonderland: no material change detected",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -253,13 +253,13 @@
         "tmdb_backdrop_count": 3,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=0Gg7x3xBqBU",
-        "tmdb_popularity": 40.3917,
+        "tmdb_popularity": 38.3866,
         "tmdb_poster_count": 20,
         "tmdb_release_date_us_primary": "2026-07-16",
         "tmdb_release_date_us_theatrical": "",
         "tmdb_release_status": "Released",
-        "tmdb_vote_average": 7.575,
-        "tmdb_vote_count": 153,
+        "tmdb_vote_average": 7.591,
+        "tmdb_vote_count": 154,
         "tmdb_watch_provider_count_us": 5,
         "trailer_available": true,
         "trailer_count": 12,
@@ -274,7 +274,7 @@
   },
   "media": {
     "canonical_trailer": {
-      "retrieved_at": "2026-08-17",
+      "retrieved_at": "2026-08-18",
       "site": "YouTube",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1318621/videos",
@@ -286,7 +286,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260817T135843Z",
+    "generated_at": "20260818T140302Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -294,20 +294,20 @@
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 40.3917,
-        "retrieved_at": "2026-08-17",
+        "popularity": 38.3866,
+        "retrieved_at": "2026-08-18",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1318621",
         "status": "rated",
-        "vote_average": 7.575,
-        "vote_count": 153
+        "vote_average": 7.591,
+        "vote_count": 154
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-08-17",
+      "retrieved_at": "2026-08-18",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1318621",
-      "value": 40.3917
+      "value": 38.3866
     },
     "watch_providers": {
       "buy": [
@@ -345,20 +345,20 @@
           "provider_name": "fuboTV"
         }
       ],
-      "retrieved_at": "2026-08-17",
+      "retrieved_at": "2026-08-18",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1318621-descendants-wicked-wonderland/watch?locale=US"
     }
   },
   "ratings": {
     "tmdb": {
-      "popularity": 40.3917,
-      "retrieved_at": "2026-08-17",
+      "popularity": 38.3866,
+      "retrieved_at": "2026-08-18",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1318621",
       "status": "rated",
-      "vote_average": 7.575,
-      "vote_count": 153
+      "vote_average": 7.591,
+      "vote_count": 154
     }
   },
   "related": {
@@ -492,25 +492,25 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 1.93,
-      "audience_quality": 7.196,
+      "audience_momentum": 1.899,
+      "audience_quality": 7.211,
       "availability": 6.517,
       "awards_relevance": 0.8,
       "campaign_activity": 5.4,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-17T13:58:26Z",
+    "generated_at": "2026-08-18T14:02:45Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 25.168,
+    "score": 25.152,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
         "confidence": 0.95,
-        "contribution": 7.196,
+        "contribution": 7.211,
         "metric_name": "tmdb_vote_average",
         "provider": "tmdb",
         "score_family": "audience_quality",
-        "value": 7.575
+        "value": 7.591
       },
       {
         "confidence": 0.9,
@@ -553,10 +553,10 @@
       "headline": "Descendants: Wicked Wonderland: no material change detected",
       "summary": "Current provider signals do not show a supported material change."
     },
-    "last_updated": "2026-08-17T13:58:43Z",
+    "last_updated": "2026-08-18T14:03:02Z",
     "latest_event": {
       "confidence": "Inferred",
-      "event_id": "1318621-cc8b5bd1a9da",
+      "event_id": "1318621-ca9f38e3f1dc",
       "event_type": "Distributor Change",
       "film_id": "1318621",
       "importance": "Medium",
@@ -565,7 +565,7 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Disney.",
-      "timestamp": "2026-08-17T13:58:43Z",
+      "timestamp": "2026-08-18T14:03:02Z",
       "title": "Distributor set: Disney"
     },
     "latest_intelligence": "As of 2026-07-18, this is a Disney release dated 2026-07-16 with Craft Categories relevance; current awards profile is Craft Potential and data status is developing.",
@@ -575,7 +575,7 @@
     "recent_activity": [
       {
         "confidence": "Inferred",
-        "event_id": "1318621-cc8b5bd1a9da",
+        "event_id": "1318621-ca9f38e3f1dc",
         "event_type": "Distributor Change",
         "film_id": "1318621",
         "importance": "Medium",
@@ -584,12 +584,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Disney.",
-        "timestamp": "2026-08-17T13:58:43Z",
+        "timestamp": "2026-08-18T14:03:02Z",
         "title": "Distributor set: Disney"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1318621-88da7f9636ce",
+        "event_id": "1318621-9abbbfaba292",
         "event_type": "Awards Tier Changed",
         "film_id": "1318621",
         "importance": "Medium",
@@ -601,12 +601,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-08-17T13:58:43Z",
+        "timestamp": "2026-08-18T14:03:02Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1318621-47a9d7244ada",
+        "event_id": "1318621-97f0bdc78720",
         "event_type": "Added To Database",
         "film_id": "1318621",
         "importance": "Low",
@@ -615,7 +615,7 @@
         },
         "source_type": "system",
         "summary": "Descendants: Wicked Wonderland is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-17T13:58:43Z",
+        "timestamp": "2026-08-18T14:03:02Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -623,7 +623,7 @@
     "screening_room_score": {
       "confidence": "Low",
       "explanation": "Current provider signals do not show a supported material change.",
-      "score": 25.168
+      "score": 25.152
     },
     "watch_triggers": [
       "Major Studio/Streamer",
@@ -653,7 +653,7 @@
     "events": [
       {
         "confidence": "Inferred",
-        "event_id": "1318621-cc8b5bd1a9da",
+        "event_id": "1318621-ca9f38e3f1dc",
         "event_type": "Distributor Change",
         "film_id": "1318621",
         "importance": "Medium",
@@ -662,12 +662,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Disney.",
-        "timestamp": "2026-08-17T13:58:43Z",
+        "timestamp": "2026-08-18T14:03:02Z",
         "title": "Distributor set: Disney"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1318621-88da7f9636ce",
+        "event_id": "1318621-9abbbfaba292",
         "event_type": "Awards Tier Changed",
         "film_id": "1318621",
         "importance": "Medium",
@@ -679,12 +679,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-08-17T13:58:43Z",
+        "timestamp": "2026-08-18T14:03:02Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1318621-47a9d7244ada",
+        "event_id": "1318621-97f0bdc78720",
         "event_type": "Added To Database",
         "film_id": "1318621",
         "importance": "Low",
@@ -693,7 +693,7 @@
         },
         "source_type": "system",
         "summary": "Descendants: Wicked Wonderland is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-17T13:58:43Z",
+        "timestamp": "2026-08-18T14:03:02Z",
         "title": "Added to Awards Intelligence"
       },
       {
@@ -713,7 +713,7 @@
     ],
     "latest_event": {
       "confidence": "Inferred",
-      "event_id": "1318621-cc8b5bd1a9da",
+      "event_id": "1318621-ca9f38e3f1dc",
       "event_type": "Distributor Change",
       "film_id": "1318621",
       "importance": "Medium",
@@ -722,13 +722,13 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Disney.",
-      "timestamp": "2026-08-17T13:58:43Z",
+      "timestamp": "2026-08-18T14:03:02Z",
       "title": "Distributor set: Disney"
     },
     "recent_activity": [
       {
         "confidence": "Inferred",
-        "event_id": "1318621-cc8b5bd1a9da",
+        "event_id": "1318621-ca9f38e3f1dc",
         "event_type": "Distributor Change",
         "film_id": "1318621",
         "importance": "Medium",
@@ -737,12 +737,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Disney.",
-        "timestamp": "2026-08-17T13:58:43Z",
+        "timestamp": "2026-08-18T14:03:02Z",
         "title": "Distributor set: Disney"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1318621-88da7f9636ce",
+        "event_id": "1318621-9abbbfaba292",
         "event_type": "Awards Tier Changed",
         "film_id": "1318621",
         "importance": "Medium",
@@ -754,12 +754,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-08-17T13:58:43Z",
+        "timestamp": "2026-08-18T14:03:02Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1318621-47a9d7244ada",
+        "event_id": "1318621-97f0bdc78720",
         "event_type": "Added To Database",
         "film_id": "1318621",
         "importance": "Low",
@@ -768,7 +768,7 @@
         },
         "source_type": "system",
         "summary": "Descendants: Wicked Wonderland is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-17T13:58:43Z",
+        "timestamp": "2026-08-18T14:03:02Z",
         "title": "Added to Awards Intelligence"
       }
     ],

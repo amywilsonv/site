@@ -7,7 +7,7 @@
       "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 47.7,
+    "attention_score": 47.6,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -40,7 +40,7 @@
         "status": "inferred"
       },
       {
-        "evidence": "TMDb popularity 1.2126",
+        "evidence": "TMDb popularity 1.1887",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -51,14 +51,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 47.7,
+    "homepage_spotlight_score": 47.6,
     "industry_interest": null,
-    "last_updated": "20260817T135843Z",
+    "last_updated": "20260818T140302Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
         "evidence_count": 1,
-        "score": 4.1,
+        "score": 4.0,
         "statuses": [
           "verified"
         ]
@@ -204,7 +204,7 @@
   "intelligence": {
     "confidence": "Low",
     "confidence_score": 0.25,
-    "generated_at": "2026-08-17T13:58:26Z",
+    "generated_at": "2026-08-18T14:02:45Z",
     "headline": "RaftaaR: no material change detected",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -223,7 +223,7 @@
         "streaming_provider_count_us": 0,
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": false,
-        "tmdb_popularity": 1.2126,
+        "tmdb_popularity": 1.1887,
         "tmdb_poster_count": 1,
         "tmdb_release_date_us_primary": "",
         "tmdb_release_date_us_theatrical": "",
@@ -244,7 +244,7 @@
   "media": {},
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260817T135843Z",
+    "generated_at": "20260818T140302Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -252,25 +252,25 @@
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 1.2126,
-        "retrieved_at": "2026-08-17",
+        "popularity": 1.1887,
+        "retrieved_at": "2026-08-18",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1479690",
         "status": "not_yet_rated"
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-08-17",
+      "retrieved_at": "2026-08-18",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1479690",
-      "value": 1.2126
+      "value": 1.1887
     },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 1.2126,
-      "retrieved_at": "2026-08-17",
+      "popularity": 1.1887,
+      "retrieved_at": "2026-08-18",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1479690",
       "status": "not_yet_rated"
@@ -402,7 +402,7 @@
       "awards_relevance": 2.4,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-17T13:58:26Z",
+    "generated_at": "2026-08-18T14:02:45Z",
     "schema_version": "phase3_screening_room_score_v1",
     "score": 5.748,
     "source": "derived_screening_room_score",
@@ -437,7 +437,7 @@
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 1.2126
+        "value": 1.1887
       }
     ]
   },
@@ -484,7 +484,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1479690-740c97f9ab35",
+        "event_id": "1479690-abc7f7c42c4a",
         "event_type": "Distributor Change",
         "film_id": "1479690",
         "importance": "Medium",
@@ -493,12 +493,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Amazon MGM Studios.",
-        "timestamp": "2026-08-17T13:58:43Z",
+        "timestamp": "2026-08-18T14:03:02Z",
         "title": "Distributor set: Amazon MGM Studios"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1479690-294ff5ad7979",
+        "event_id": "1479690-4e3883d6e7a9",
         "event_type": "Awards Tier Changed",
         "film_id": "1479690",
         "importance": "Medium",
@@ -512,7 +512,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-17T13:58:43Z",
+        "timestamp": "2026-08-18T14:03:02Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],
@@ -563,7 +563,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1479690-740c97f9ab35",
+        "event_id": "1479690-abc7f7c42c4a",
         "event_type": "Distributor Change",
         "film_id": "1479690",
         "importance": "Medium",
@@ -572,12 +572,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Amazon MGM Studios.",
-        "timestamp": "2026-08-17T13:58:43Z",
+        "timestamp": "2026-08-18T14:03:02Z",
         "title": "Distributor set: Amazon MGM Studios"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1479690-294ff5ad7979",
+        "event_id": "1479690-4e3883d6e7a9",
         "event_type": "Awards Tier Changed",
         "film_id": "1479690",
         "importance": "Medium",
@@ -591,12 +591,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-17T13:58:43Z",
+        "timestamp": "2026-08-18T14:03:02Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1479690-00f9060bf0e2",
+        "event_id": "1479690-92f0aa08c024",
         "event_type": "Added To Database",
         "film_id": "1479690",
         "importance": "Low",
@@ -605,7 +605,7 @@
         },
         "source_type": "system",
         "summary": "RaftaaR is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-17T13:58:43Z",
+        "timestamp": "2026-08-18T14:03:02Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -640,7 +640,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1479690-740c97f9ab35",
+        "event_id": "1479690-abc7f7c42c4a",
         "event_type": "Distributor Change",
         "film_id": "1479690",
         "importance": "Medium",
@@ -649,12 +649,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Amazon MGM Studios.",
-        "timestamp": "2026-08-17T13:58:43Z",
+        "timestamp": "2026-08-18T14:03:02Z",
         "title": "Distributor set: Amazon MGM Studios"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1479690-294ff5ad7979",
+        "event_id": "1479690-4e3883d6e7a9",
         "event_type": "Awards Tier Changed",
         "film_id": "1479690",
         "importance": "Medium",
@@ -668,7 +668,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-17T13:58:43Z",
+        "timestamp": "2026-08-18T14:03:02Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],

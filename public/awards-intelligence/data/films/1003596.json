@@ -16,7 +16,7 @@
     "early_reception": null,
     "evidence_sources": [
       {
-        "evidence": "TMDb popularity 104.501",
+        "evidence": "TMDb popularity 112.157",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -64,7 +64,7 @@
     "homepage_spotlight_override": null,
     "homepage_spotlight_score": 91.4,
     "industry_interest": "High",
-    "last_updated": "20260817T135843Z",
+    "last_updated": "20260818T140302Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
@@ -219,10 +219,10 @@
     "tmdb_id": "1003596"
   },
   "intelligence": {
-    "confidence": "Low",
-    "confidence_score": 0.25,
-    "generated_at": "2026-08-17T13:58:26Z",
-    "headline": "Avengers: Doomsday: no material change detected",
+    "confidence": "High",
+    "confidence_score": 0.99,
+    "generated_at": "2026-08-18T14:02:45Z",
+    "headline": "Avengers: Doomsday: popularity increasing",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
       "signal_values": {
@@ -241,7 +241,7 @@
         "tmdb_backdrop_count": 2,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=X1aFkAkFASk",
-        "tmdb_popularity": 104.5009,
+        "tmdb_popularity": 112.1566,
         "tmdb_poster_count": 28,
         "tmdb_release_date_us_primary": "2026-12-18",
         "tmdb_release_date_us_theatrical": "2026-12-18",
@@ -257,12 +257,23 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "Current provider signals do not show a supported material change.",
-    "supporting_drivers": []
+    "summary": "TMDb popularity rose from 108.257 to 112.157.",
+    "supporting_drivers": [
+      {
+        "confidence_weight": 0.9,
+        "driver_type": "popularity_increasing",
+        "evidence": "TMDb popularity rose from 108.257 to 112.157.",
+        "label": "Popularity increasing",
+        "retrieved_at": "2026-08-18T14:02:45Z",
+        "source_metric": "tmdb_popularity",
+        "source_provider": "tmdb",
+        "source_status": "available"
+      }
+    ]
   },
   "media": {
     "canonical_trailer": {
-      "retrieved_at": "2026-08-17",
+      "retrieved_at": "2026-08-18",
       "site": "YouTube",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1003596/videos",
@@ -274,7 +285,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260817T135843Z",
+    "generated_at": "20260818T140302Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -282,25 +293,25 @@
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 104.5009,
-        "retrieved_at": "2026-08-17",
+        "popularity": 112.1566,
+        "retrieved_at": "2026-08-18",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1003596",
         "status": "not_yet_rated"
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-08-17",
+      "retrieved_at": "2026-08-18",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1003596",
-      "value": 104.5009
+      "value": 112.1566
     },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 104.5009,
-      "retrieved_at": "2026-08-17",
+      "popularity": 112.1566,
+      "retrieved_at": "2026-08-18",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1003596",
       "status": "not_yet_rated"
@@ -428,14 +439,14 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 1.986,
+      "audience_momentum": 2.131,
       "awards_relevance": 0.8,
       "campaign_activity": 5.4,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-17T13:58:26Z",
+    "generated_at": "2026-08-18T14:02:45Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 11.511,
+    "score": 11.656,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -456,11 +467,11 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 1.986,
+        "contribution": 2.131,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 104.5009
+        "value": 112.1566
       },
       {
         "confidence": 0.5,
@@ -483,9 +494,9 @@
   "signals": {
     "cultural_significance": 100,
     "external_intelligence": {
-      "confidence": "Low",
-      "headline": "Avengers: Doomsday: no material change detected",
-      "summary": "Current provider signals do not show a supported material change."
+      "confidence": "High",
+      "headline": "Avengers: Doomsday: popularity increasing",
+      "summary": "TMDb popularity rose from 108.257 to 112.157."
     },
     "last_updated": "2026-12-18",
     "latest_event": {
@@ -523,7 +534,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1003596-a03f81ab2772",
+        "event_id": "1003596-0200259e6bbd",
         "event_type": "Awards Tier Changed",
         "film_id": "1003596",
         "importance": "Medium",
@@ -535,12 +546,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-08-17T13:58:43Z",
+        "timestamp": "2026-08-18T14:03:02Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1003596-2bbd795995e9",
+        "event_id": "1003596-17ca54255233",
         "event_type": "Added To Database",
         "film_id": "1003596",
         "importance": "Low",
@@ -549,15 +560,15 @@
         },
         "source_type": "system",
         "summary": "Avengers: Doomsday is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-17T13:58:43Z",
+        "timestamp": "2026-08-18T14:03:02Z",
         "title": "Added to Awards Intelligence"
       }
     ],
     "release_relevance": 30.8,
     "screening_room_score": {
-      "confidence": "Low",
-      "explanation": "Current provider signals do not show a supported material change.",
-      "score": 11.511
+      "confidence": "High",
+      "explanation": "TMDb popularity rose from 108.257 to 112.157.",
+      "score": 11.656
     },
     "watch_triggers": [
       "Major Studio/Streamer",
@@ -601,7 +612,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1003596-a03f81ab2772",
+        "event_id": "1003596-0200259e6bbd",
         "event_type": "Awards Tier Changed",
         "film_id": "1003596",
         "importance": "Medium",
@@ -613,12 +624,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-08-17T13:58:43Z",
+        "timestamp": "2026-08-18T14:03:02Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1003596-2bbd795995e9",
+        "event_id": "1003596-17ca54255233",
         "event_type": "Added To Database",
         "film_id": "1003596",
         "importance": "Low",
@@ -627,7 +638,7 @@
         },
         "source_type": "system",
         "summary": "Avengers: Doomsday is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-17T13:58:43Z",
+        "timestamp": "2026-08-18T14:03:02Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -662,7 +673,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1003596-a03f81ab2772",
+        "event_id": "1003596-0200259e6bbd",
         "event_type": "Awards Tier Changed",
         "film_id": "1003596",
         "importance": "Medium",
@@ -674,12 +685,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-08-17T13:58:43Z",
+        "timestamp": "2026-08-18T14:03:02Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1003596-2bbd795995e9",
+        "event_id": "1003596-17ca54255233",
         "event_type": "Added To Database",
         "film_id": "1003596",
         "importance": "Low",
@@ -688,7 +699,7 @@
         },
         "source_type": "system",
         "summary": "Avengers: Doomsday is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-17T13:58:43Z",
+        "timestamp": "2026-08-18T14:03:02Z",
         "title": "Added to Awards Intelligence"
       }
     ],
