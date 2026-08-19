@@ -16,7 +16,7 @@
     },
     {
       "confidence": "Inferred",
-      "event_id": "1288069-b2e5acfb5f67",
+      "event_id": "1288069-a3a0f6699d6d",
       "event_type": "Distributor Change",
       "film_id": "1288069",
       "importance": "Medium",
@@ -25,12 +25,12 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Apple TV.",
-      "timestamp": "2026-08-18T14:03:02Z",
+      "timestamp": "2026-08-19T14:03:52Z",
       "title": "Distributor set: Apple TV"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1288069-8ebcef4bced7",
+      "event_id": "1288069-2da48a8961c7",
       "event_type": "Awards Tier Changed",
       "film_id": "1288069",
       "importance": "Medium",
@@ -44,12 +44,12 @@
       },
       "source_type": "editorial_model",
       "summary": "insufficient credible awards evidence",
-      "timestamp": "2026-08-18T14:03:02Z",
+      "timestamp": "2026-08-19T14:03:52Z",
       "title": "Awards tier assigned: No Current Awards Case"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1288069-8bdb7bc7d4e7",
+      "event_id": "1288069-ce663f8973f4",
       "event_type": "Added To Database",
       "film_id": "1288069",
       "importance": "Low",
@@ -58,7 +58,7 @@
       },
       "source_type": "system",
       "summary": "Tenzing is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-08-18T14:03:02Z",
+      "timestamp": "2026-08-19T14:03:52Z",
       "title": "Added to Awards Intelligence"
     }
   ],
@@ -79,7 +79,7 @@
   "metadata": {
     "event_count": 4,
     "film_id": "1288069",
-    "generated_at": "20260818T140302Z",
+    "generated_at": "20260819T140352Z",
     "timeline_version": "phase6b",
     "title": "Tenzing",
     "tmdb_id": "1288069"

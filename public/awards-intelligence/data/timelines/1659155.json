@@ -2,7 +2,7 @@
   "events": [
     {
       "confidence": "Inferred",
-      "event_id": "1659155-a99a46a623eb",
+      "event_id": "1659155-70db1dbc0380",
       "event_type": "Distributor Change",
       "film_id": "1659155",
       "importance": "Medium",
@@ -11,12 +11,12 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Netflix.",
-      "timestamp": "2026-08-18T14:03:02Z",
+      "timestamp": "2026-08-19T14:03:52Z",
       "title": "Distributor set: Netflix"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1659155-395e2e35080c",
+      "event_id": "1659155-2cd1c0f3b226",
       "event_type": "Awards Tier Changed",
       "film_id": "1659155",
       "importance": "Medium",
@@ -26,12 +26,12 @@
       },
       "source_type": "editorial_model",
       "summary": "insufficient credible awards evidence",
-      "timestamp": "2026-08-18T14:03:02Z",
+      "timestamp": "2026-08-19T14:03:52Z",
       "title": "Awards tier assigned: No Current Awards Case"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1659155-df8a8ccac960",
+      "event_id": "1659155-b9912351e325",
       "event_type": "Added To Database",
       "film_id": "1659155",
       "importance": "Low",
@@ -40,7 +40,7 @@
       },
       "source_type": "system",
       "summary": "The Truthers is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-08-18T14:03:02Z",
+      "timestamp": "2026-08-19T14:03:52Z",
       "title": "Added to Awards Intelligence"
     },
     {
@@ -60,7 +60,7 @@
   ],
   "latest_event": {
     "confidence": "Inferred",
-    "event_id": "1659155-a99a46a623eb",
+    "event_id": "1659155-70db1dbc0380",
     "event_type": "Distributor Change",
     "film_id": "1659155",
     "importance": "Medium",
@@ -69,13 +69,13 @@
     },
     "source_type": "metadata",
     "summary": "Current distributor is Netflix.",
-    "timestamp": "2026-08-18T14:03:02Z",
+    "timestamp": "2026-08-19T14:03:52Z",
     "title": "Distributor set: Netflix"
   },
   "metadata": {
     "event_count": 4,
     "film_id": "1659155",
-    "generated_at": "20260818T140302Z",
+    "generated_at": "20260819T140352Z",
     "timeline_version": "phase6b",
     "title": "The Truthers",
     "tmdb_id": "1659155"

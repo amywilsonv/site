@@ -16,7 +16,7 @@
     },
     {
       "confidence": "Inferred",
-      "event_id": "1495293-3f9f1a8b1c14",
+      "event_id": "1495293-f20f01c4f664",
       "event_type": "Awards Tier Changed",
       "film_id": "1495293",
       "importance": "Medium",
@@ -28,12 +28,12 @@
       },
       "source_type": "editorial_model",
       "summary": "plausible but incomplete awards evidence",
-      "timestamp": "2026-08-18T14:03:02Z",
+      "timestamp": "2026-08-19T14:03:52Z",
       "title": "Awards tier assigned: Emerging"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1495293-39fb8989096d",
+      "event_id": "1495293-5eaace54a5f0",
       "event_type": "Added To Database",
       "film_id": "1495293",
       "importance": "Low",
@@ -42,7 +42,7 @@
       },
       "source_type": "system",
       "summary": "Arasan is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-08-18T14:03:02Z",
+      "timestamp": "2026-08-19T14:03:52Z",
       "title": "Added to Awards Intelligence"
     }
   ],
@@ -63,7 +63,7 @@
   "metadata": {
     "event_count": 3,
     "film_id": "1495293",
-    "generated_at": "20260818T140302Z",
+    "generated_at": "20260819T140352Z",
     "timeline_version": "phase6b",
     "title": "Arasan",
     "tmdb_id": "1495293"

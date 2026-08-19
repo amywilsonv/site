@@ -1,13 +1,13 @@
 {
   "attention_intelligence": {
-    "anticipation_level": "Developing",
+    "anticipation_level": "Moderate",
     "attention_confidence": "High",
     "attention_reasons": [
       "Most Anticipated",
       "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 46.7,
+    "attention_score": 54.3,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -30,8 +30,18 @@
         "status": "verified"
       },
       {
+        "evidence": "Trailer URL present",
+        "source": "trailer_available",
+        "status": "verified"
+      },
+      {
         "evidence": "Release date: 2026-09-18",
         "source": "release_proximity",
+        "status": "verified"
+      },
+      {
+        "evidence": "TMDb popularity 1.5905",
+        "source": "audience_popularity",
         "status": "verified"
       },
       {
@@ -43,22 +53,17 @@
         "evidence": "Director: Lena Khan",
         "source": "filmmaker_interest",
         "status": "verified"
-      },
-      {
-        "evidence": "TMDb popularity 0.8342",
-        "source": "audience_popularity",
-        "status": "verified"
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 46.7,
+    "homepage_spotlight_score": 54.3,
     "industry_interest": null,
-    "last_updated": "20260818T140302Z",
-    "promotional_response": null,
+    "last_updated": "20260819T140352Z",
+    "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
-        "evidence_count": 1,
-        "score": 3.1,
+        "evidence_count": 2,
+        "score": 10.7,
         "statuses": [
           "verified"
         ]
@@ -199,7 +204,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-08-18T14:02:45Z",
+    "generated_at": "2026-08-19T14:03:32Z",
     "headline": "Best of the Best: popularity increasing",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -217,8 +222,9 @@
         "streaming_flatrate_provider_count_us": 0,
         "streaming_provider_count_us": 0,
         "tmdb_backdrop_count": 0,
-        "tmdb_canonical_trailer_available": false,
-        "tmdb_popularity": 0.8342,
+        "tmdb_canonical_trailer_available": true,
+        "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=PuNATO-6a9U",
+        "tmdb_popularity": 1.5905,
         "tmdb_poster_count": 1,
         "tmdb_release_date_us_primary": "2026-09-18",
         "tmdb_release_date_us_theatrical": "",
@@ -226,31 +232,53 @@
         "tmdb_vote_average": 0,
         "tmdb_vote_count": 0,
         "tmdb_watch_provider_count_us": 0,
-        "trailer_available": false,
-        "trailer_count": 0
+        "trailer_available": true,
+        "trailer_count": 1,
+        "trailer_url": "https://www.youtube.com/watch?v=PuNATO-6a9U"
       },
-      "source_signal_count": 24,
+      "source_signal_count": 26,
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity rose from 0.5045 to 0.8342.",
+    "summary": "TMDb popularity rose from 0.5045 to 1.5905. A canonical TMDb trailer URL is available.",
     "supporting_drivers": [
       {
         "confidence_weight": 0.9,
         "driver_type": "popularity_increasing",
-        "evidence": "TMDb popularity rose from 0.5045 to 0.8342.",
+        "evidence": "TMDb popularity rose from 0.5045 to 1.5905.",
         "label": "Popularity increasing",
-        "retrieved_at": "2026-08-18T14:02:45Z",
+        "retrieved_at": "2026-08-19T14:03:32Z",
         "source_metric": "tmdb_popularity",
+        "source_provider": "tmdb",
+        "source_status": "available"
+      },
+      {
+        "confidence_weight": 0.85,
+        "driver_type": "trailer_available",
+        "evidence": "A canonical TMDb trailer URL is available.",
+        "label": "Trailer available",
+        "retrieved_at": "2026-08-19T14:03:32Z",
+        "source_metric": "tmdb_canonical_trailer_url",
         "source_provider": "tmdb",
         "source_status": "available"
       }
     ]
   },
-  "media": {},
+  "media": {
+    "canonical_trailer": {
+      "retrieved_at": "2026-08-19",
+      "site": "YouTube",
+      "source": "TMDb",
+      "source_url": "https://www.themoviedb.org/movie/1514863/videos",
+      "title": "Official Trailer",
+      "type": "Trailer",
+      "url": "https://www.youtube.com/watch?v=PuNATO-6a9U"
+    },
+    "latest_trailer_url": "https://www.youtube.com/watch?v=PuNATO-6a9U"
+  },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260818T140302Z",
+    "generated_at": "20260819T140352Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -258,25 +286,25 @@
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 0.8342,
-        "retrieved_at": "2026-08-18",
+        "popularity": 1.5905,
+        "retrieved_at": "2026-08-19",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1514863",
         "status": "not_yet_rated"
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-08-18",
+      "retrieved_at": "2026-08-19",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1514863",
-      "value": 0.8342
+      "value": 1.5905
     },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 0.8342,
-      "retrieved_at": "2026-08-18",
+      "popularity": 1.5905,
+      "retrieved_at": "2026-08-19",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1514863",
       "status": "not_yet_rated"
@@ -395,12 +423,13 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.016,
+      "audience_momentum": 0.03,
+      "campaign_activity": 1.35,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-18T14:02:45Z",
+    "generated_at": "2026-08-19T14:03:32Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 3.341,
+    "score": 4.705,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -412,6 +441,14 @@
         "value": 8
       },
       {
+        "confidence": 0.9,
+        "contribution": 1.35,
+        "metric_name": "trailer_count",
+        "provider": "trailers",
+        "score_family": "campaign_activity",
+        "value": 1
+      },
+      {
         "confidence": 0.5,
         "contribution": 1.125,
         "metric_name": "legacy_dashboard_credited_talent_count",
@@ -421,11 +458,11 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.016,
+        "contribution": 0.03,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 0.8342
+        "value": 1.5905
       }
     ]
   },
@@ -434,7 +471,7 @@
     "external_intelligence": {
       "confidence": "High",
       "headline": "Best of the Best: popularity increasing",
-      "summary": "TMDb popularity rose from 0.5045 to 0.8342."
+      "summary": "TMDb popularity rose from 0.5045 to 1.5905. A canonical TMDb trailer URL is available."
     },
     "last_updated": "2026-09-18",
     "latest_event": {
@@ -472,7 +509,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1514863-3216b7666e9f",
+        "event_id": "1514863-16c23818f1f9",
         "event_type": "Distributor Change",
         "film_id": "1514863",
         "importance": "Medium",
@@ -481,12 +518,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-18T14:03:02Z",
+        "timestamp": "2026-08-19T14:03:52Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1514863-3bf9a3d591d1",
+        "event_id": "1514863-03df4e391a71",
         "event_type": "Awards Tier Changed",
         "film_id": "1514863",
         "importance": "Medium",
@@ -496,15 +533,15 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-18T14:03:02Z",
+        "timestamp": "2026-08-19T14:03:52Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],
     "release_relevance": 28.0,
     "screening_room_score": {
       "confidence": "High",
-      "explanation": "TMDb popularity rose from 0.5045 to 0.8342.",
-      "score": 3.341
+      "explanation": "TMDb popularity rose from 0.5045 to 1.5905. A canonical TMDb trailer URL is available.",
+      "score": 4.705
     },
     "watch_triggers": [
       "Prestige Distributor",
@@ -546,7 +583,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1514863-3216b7666e9f",
+        "event_id": "1514863-16c23818f1f9",
         "event_type": "Distributor Change",
         "film_id": "1514863",
         "importance": "Medium",
@@ -555,12 +592,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-18T14:03:02Z",
+        "timestamp": "2026-08-19T14:03:52Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1514863-3bf9a3d591d1",
+        "event_id": "1514863-03df4e391a71",
         "event_type": "Awards Tier Changed",
         "film_id": "1514863",
         "importance": "Medium",
@@ -570,12 +607,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-18T14:03:02Z",
+        "timestamp": "2026-08-19T14:03:52Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1514863-2650ef9c4614",
+        "event_id": "1514863-e0556139ada2",
         "event_type": "Added To Database",
         "film_id": "1514863",
         "importance": "Low",
@@ -584,7 +621,7 @@
         },
         "source_type": "system",
         "summary": "Best of the Best is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-18T14:03:02Z",
+        "timestamp": "2026-08-19T14:03:52Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -619,7 +656,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1514863-3216b7666e9f",
+        "event_id": "1514863-16c23818f1f9",
         "event_type": "Distributor Change",
         "film_id": "1514863",
         "importance": "Medium",
@@ -628,12 +665,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-18T14:03:02Z",
+        "timestamp": "2026-08-19T14:03:52Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1514863-3bf9a3d591d1",
+        "event_id": "1514863-03df4e391a71",
         "event_type": "Awards Tier Changed",
         "film_id": "1514863",
         "importance": "Medium",
@@ -643,7 +680,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-18T14:03:02Z",
+        "timestamp": "2026-08-19T14:03:52Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],

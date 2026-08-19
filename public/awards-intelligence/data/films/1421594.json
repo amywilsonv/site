@@ -7,7 +7,7 @@
       "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 58.1,
+    "attention_score": 58.5,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -30,7 +30,7 @@
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 4.4393",
+        "evidence": "TMDb popularity 4.7764",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -61,14 +61,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 58.1,
+    "homepage_spotlight_score": 58.5,
     "industry_interest": null,
-    "last_updated": "20260818T140302Z",
+    "last_updated": "20260819T140352Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
         "evidence_count": 2,
-        "score": 13.1,
+        "score": 13.5,
         "statuses": [
           "verified"
         ]
@@ -207,7 +207,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-08-18T14:02:45Z",
+    "generated_at": "2026-08-19T14:03:32Z",
     "headline": "Inside the Trustor Scandal: release approaching",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -227,7 +227,7 @@
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=Ia_cAr_IM54",
-        "tmdb_popularity": 4.4393,
+        "tmdb_popularity": 4.7764,
         "tmdb_poster_count": 1,
         "tmdb_release_date_us_primary": "2026-08-05",
         "tmdb_release_date_us_theatrical": "",
@@ -243,14 +243,14 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity rose from 1.3386 to 4.4393. US release is 16 days away on 2026-08-05.",
+    "summary": "TMDb popularity rose from 1.3386 to 4.7764. US release is 16 days away on 2026-08-05.",
     "supporting_drivers": [
       {
         "confidence_weight": 0.9,
         "driver_type": "popularity_increasing",
-        "evidence": "TMDb popularity rose from 1.3386 to 4.4393.",
+        "evidence": "TMDb popularity rose from 1.3386 to 4.7764.",
         "label": "Popularity increasing",
-        "retrieved_at": "2026-08-18T14:02:45Z",
+        "retrieved_at": "2026-08-19T14:03:32Z",
         "source_metric": "tmdb_popularity",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -260,7 +260,7 @@
         "driver_type": "release_approaching",
         "evidence": "US release is 16 days away on 2026-08-05.",
         "label": "Release approaching",
-        "retrieved_at": "2026-08-18T14:02:45Z",
+        "retrieved_at": "2026-08-19T14:03:32Z",
         "source_metric": "tmdb_release_date_us_primary",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -269,7 +269,7 @@
   },
   "media": {
     "canonical_trailer": {
-      "retrieved_at": "2026-08-18",
+      "retrieved_at": "2026-08-19",
       "site": "YouTube",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1421594/videos",
@@ -281,7 +281,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260818T140302Z",
+    "generated_at": "20260819T140352Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -289,8 +289,8 @@
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 4.4393,
-        "retrieved_at": "2026-08-18",
+        "popularity": 4.7764,
+        "retrieved_at": "2026-08-19",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1421594",
         "status": "rated",
@@ -299,10 +299,10 @@
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-08-18",
+      "retrieved_at": "2026-08-19",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1421594",
-      "value": 4.4393
+      "value": 4.7764
     },
     "watch_providers": {
       "country": "US",
@@ -320,15 +320,15 @@
           "provider_name": "Netflix Standard with Ads"
         }
       ],
-      "retrieved_at": "2026-08-18",
+      "retrieved_at": "2026-08-19",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1421594-trustorharvan/watch?locale=US"
     }
   },
   "ratings": {
     "tmdb": {
-      "popularity": 4.4393,
-      "retrieved_at": "2026-08-18",
+      "popularity": 4.7764,
+      "retrieved_at": "2026-08-19",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1421594",
       "status": "rated",
@@ -383,6 +383,17 @@
         "tmdb_id": "1487861"
       },
       {
+        "profile_url": "film.html?id=1487864",
+        "relationship_score": 42,
+        "shared_signals": [
+          "General Watch",
+          "Crime",
+          "Netflix"
+        ],
+        "title": "Nando Between Two Worlds - A Sintonia Film",
+        "tmdb_id": "1487864"
+      },
+      {
         "profile_url": "film.html?id=860508",
         "relationship_score": 42,
         "shared_signals": [
@@ -392,16 +403,6 @@
         ],
         "title": "The Whisper Man",
         "tmdb_id": "860508"
-      },
-      {
-        "profile_url": "film.html?id=1514863",
-        "relationship_score": 36,
-        "shared_signals": [
-          "General Watch",
-          "Netflix"
-        ],
-        "title": "Best of the Best",
-        "tmdb_id": "1514863"
       }
     ],
     "related_people": [
@@ -447,15 +448,15 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.137,
+      "audience_momentum": 0.144,
       "audience_quality": 5.415,
       "availability": 3.967,
       "campaign_activity": 1.35,
       "talent_profile": 0.125
     },
-    "generated_at": "2026-08-18T14:02:45Z",
+    "generated_at": "2026-08-19T14:03:32Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 10.994,
+    "score": 11.001,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -505,12 +506,12 @@
     "external_intelligence": {
       "confidence": "High",
       "headline": "Inside the Trustor Scandal: release approaching",
-      "summary": "TMDb popularity rose from 1.3386 to 4.4393. US release is 16 days away on 2026-08-05."
+      "summary": "TMDb popularity rose from 1.3386 to 4.7764. US release is 16 days away on 2026-08-05."
     },
-    "last_updated": "2026-08-18T14:03:02Z",
+    "last_updated": "2026-08-19T14:03:52Z",
     "latest_event": {
       "confidence": "Inferred",
-      "event_id": "1421594-fcfd5d3a3155",
+      "event_id": "1421594-950878ae00ad",
       "event_type": "Distributor Change",
       "film_id": "1421594",
       "importance": "Medium",
@@ -519,7 +520,7 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Netflix.",
-      "timestamp": "2026-08-18T14:03:02Z",
+      "timestamp": "2026-08-19T14:03:52Z",
       "title": "Distributor set: Netflix"
     },
     "latest_intelligence": "As of 2026-07-18, this is a Netflix release dated 2026-08-05 with general awards monitoring relevance; current awards profile is Developing and data status is developing.",
@@ -529,7 +530,7 @@
     "recent_activity": [
       {
         "confidence": "Inferred",
-        "event_id": "1421594-fcfd5d3a3155",
+        "event_id": "1421594-950878ae00ad",
         "event_type": "Distributor Change",
         "film_id": "1421594",
         "importance": "Medium",
@@ -538,12 +539,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-18T14:03:02Z",
+        "timestamp": "2026-08-19T14:03:52Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1421594-ce170e882caf",
+        "event_id": "1421594-a435561a5b5c",
         "event_type": "Awards Tier Changed",
         "film_id": "1421594",
         "importance": "Medium",
@@ -553,12 +554,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-18T14:03:02Z",
+        "timestamp": "2026-08-19T14:03:52Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1421594-9e80889ada83",
+        "event_id": "1421594-a67174f05612",
         "event_type": "Added To Database",
         "film_id": "1421594",
         "importance": "Low",
@@ -567,15 +568,15 @@
         },
         "source_type": "system",
         "summary": "Inside the Trustor Scandal is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-18T14:03:02Z",
+        "timestamp": "2026-08-19T14:03:52Z",
         "title": "Added to Awards Intelligence"
       }
     ],
     "release_relevance": 36.8,
     "screening_room_score": {
       "confidence": "High",
-      "explanation": "TMDb popularity rose from 1.3386 to 4.4393. US release is 16 days away on 2026-08-05.",
-      "score": 10.994
+      "explanation": "TMDb popularity rose from 1.3386 to 4.7764. US release is 16 days away on 2026-08-05.",
+      "score": 11.001
     },
     "watch_triggers": [
       "Prestige Distributor",
@@ -601,7 +602,7 @@
     "events": [
       {
         "confidence": "Inferred",
-        "event_id": "1421594-fcfd5d3a3155",
+        "event_id": "1421594-950878ae00ad",
         "event_type": "Distributor Change",
         "film_id": "1421594",
         "importance": "Medium",
@@ -610,12 +611,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-18T14:03:02Z",
+        "timestamp": "2026-08-19T14:03:52Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1421594-ce170e882caf",
+        "event_id": "1421594-a435561a5b5c",
         "event_type": "Awards Tier Changed",
         "film_id": "1421594",
         "importance": "Medium",
@@ -625,12 +626,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-18T14:03:02Z",
+        "timestamp": "2026-08-19T14:03:52Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1421594-9e80889ada83",
+        "event_id": "1421594-a67174f05612",
         "event_type": "Added To Database",
         "film_id": "1421594",
         "importance": "Low",
@@ -639,7 +640,7 @@
         },
         "source_type": "system",
         "summary": "Inside the Trustor Scandal is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-18T14:03:02Z",
+        "timestamp": "2026-08-19T14:03:52Z",
         "title": "Added to Awards Intelligence"
       },
       {
@@ -673,7 +674,7 @@
     ],
     "latest_event": {
       "confidence": "Inferred",
-      "event_id": "1421594-fcfd5d3a3155",
+      "event_id": "1421594-950878ae00ad",
       "event_type": "Distributor Change",
       "film_id": "1421594",
       "importance": "Medium",
@@ -682,13 +683,13 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Netflix.",
-      "timestamp": "2026-08-18T14:03:02Z",
+      "timestamp": "2026-08-19T14:03:52Z",
       "title": "Distributor set: Netflix"
     },
     "recent_activity": [
       {
         "confidence": "Inferred",
-        "event_id": "1421594-fcfd5d3a3155",
+        "event_id": "1421594-950878ae00ad",
         "event_type": "Distributor Change",
         "film_id": "1421594",
         "importance": "Medium",
@@ -697,12 +698,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-18T14:03:02Z",
+        "timestamp": "2026-08-19T14:03:52Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1421594-ce170e882caf",
+        "event_id": "1421594-a435561a5b5c",
         "event_type": "Awards Tier Changed",
         "film_id": "1421594",
         "importance": "Medium",
@@ -712,12 +713,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-18T14:03:02Z",
+        "timestamp": "2026-08-19T14:03:52Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1421594-9e80889ada83",
+        "event_id": "1421594-a67174f05612",
         "event_type": "Added To Database",
         "film_id": "1421594",
         "importance": "Low",
@@ -726,7 +727,7 @@
         },
         "source_type": "system",
         "summary": "Inside the Trustor Scandal is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-18T14:03:02Z",
+        "timestamp": "2026-08-19T14:03:52Z",
         "title": "Added to Awards Intelligence"
       }
     ],

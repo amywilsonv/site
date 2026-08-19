@@ -15,7 +15,7 @@
     "early_reception": null,
     "evidence_sources": [
       {
-        "evidence": "TMDb popularity 82.8828",
+        "evidence": "TMDb popularity 83.3879",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -60,7 +60,7 @@
         "status": "verified"
       },
       {
-        "evidence": "57",
+        "evidence": "63",
         "source": "tmdb_vote_count",
         "status": "verified"
       }
@@ -68,7 +68,7 @@
     "homepage_spotlight_override": null,
     "homepage_spotlight_score": 91.9,
     "industry_interest": "High",
-    "last_updated": "20260818T140302Z",
+    "last_updated": "20260819T140352Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
@@ -223,7 +223,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-08-18T14:02:45Z",
+    "generated_at": "2026-08-19T14:03:32Z",
     "headline": "Camp Rock 3: release approaching",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -243,13 +243,13 @@
         "tmdb_backdrop_count": 5,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=02-RDIZ5Rdw",
-        "tmdb_popularity": 82.8828,
+        "tmdb_popularity": 83.3879,
         "tmdb_poster_count": 16,
         "tmdb_release_date_us_primary": "2026-08-13",
         "tmdb_release_date_us_theatrical": "",
         "tmdb_release_status": "Released",
-        "tmdb_vote_average": 6.316,
-        "tmdb_vote_count": 57,
+        "tmdb_vote_average": 6.317,
+        "tmdb_vote_count": 63,
         "tmdb_watch_provider_count_us": 7,
         "trailer_available": true,
         "trailer_count": 3,
@@ -259,14 +259,14 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity rose from 3.4032 to 82.8828. US release is 24 days away on 2026-08-13.",
+    "summary": "TMDb popularity rose from 3.4032 to 83.3879. US release is 24 days away on 2026-08-13.",
     "supporting_drivers": [
       {
         "confidence_weight": 0.9,
         "driver_type": "popularity_increasing",
-        "evidence": "TMDb popularity rose from 3.4032 to 82.8828.",
+        "evidence": "TMDb popularity rose from 3.4032 to 83.3879.",
         "label": "Popularity increasing",
-        "retrieved_at": "2026-08-18T14:02:45Z",
+        "retrieved_at": "2026-08-19T14:03:32Z",
         "source_metric": "tmdb_popularity",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -276,7 +276,7 @@
         "driver_type": "release_approaching",
         "evidence": "US release is 24 days away on 2026-08-13.",
         "label": "Release approaching",
-        "retrieved_at": "2026-08-18T14:02:45Z",
+        "retrieved_at": "2026-08-19T14:03:32Z",
         "source_metric": "tmdb_release_date_us_primary",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -285,7 +285,7 @@
   },
   "media": {
     "canonical_trailer": {
-      "retrieved_at": "2026-08-18",
+      "retrieved_at": "2026-08-19",
       "site": "YouTube",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1493400/videos",
@@ -297,7 +297,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260818T140302Z",
+    "generated_at": "20260819T140352Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -305,20 +305,20 @@
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 82.8828,
-        "retrieved_at": "2026-08-18",
+        "popularity": 83.3879,
+        "retrieved_at": "2026-08-19",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1493400",
         "status": "rated",
-        "vote_average": 6.316,
-        "vote_count": 57
+        "vote_average": 6.317,
+        "vote_count": 63
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-08-18",
+      "retrieved_at": "2026-08-19",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1493400",
-      "value": 82.8828
+      "value": 83.3879
     },
     "watch_providers": {
       "buy": [
@@ -368,20 +368,20 @@
           "provider_name": "YouTube TV"
         }
       ],
-      "retrieved_at": "2026-08-18",
+      "retrieved_at": "2026-08-19",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1493400-camp-rock-3/watch?locale=US"
     }
   },
   "ratings": {
     "tmdb": {
-      "popularity": 82.8828,
-      "retrieved_at": "2026-08-18",
+      "popularity": 83.3879,
+      "retrieved_at": "2026-08-19",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1493400",
       "status": "rated",
-      "vote_average": 6.316,
-      "vote_count": 57
+      "vote_average": 6.317,
+      "vote_count": 63
     }
   },
   "related": {
@@ -514,25 +514,25 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 2.008,
-      "audience_quality": 6.0,
+      "audience_momentum": 2.063,
+      "audience_quality": 6.001,
       "availability": 7.65,
       "awards_relevance": 0.8,
       "campaign_activity": 4.05,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-18T14:02:45Z",
+    "generated_at": "2026-08-19T14:03:32Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 23.833,
+    "score": 23.889,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
         "confidence": 0.95,
-        "contribution": 6.0,
+        "contribution": 6.001,
         "metric_name": "tmdb_vote_average",
         "provider": "tmdb",
         "score_family": "audience_quality",
-        "value": 6.316
+        "value": 6.317
       },
       {
         "confidence": 0.85,
@@ -573,12 +573,12 @@
     "external_intelligence": {
       "confidence": "High",
       "headline": "Camp Rock 3: release approaching",
-      "summary": "TMDb popularity rose from 3.4032 to 82.8828. US release is 24 days away on 2026-08-13."
+      "summary": "TMDb popularity rose from 3.4032 to 83.3879. US release is 24 days away on 2026-08-13."
     },
-    "last_updated": "2026-08-18T14:03:02Z",
+    "last_updated": "2026-08-19T14:03:52Z",
     "latest_event": {
       "confidence": "Inferred",
-      "event_id": "1493400-4adb999cc24a",
+      "event_id": "1493400-d481952b9006",
       "event_type": "Homepage Featured",
       "film_id": "1493400",
       "importance": "Medium",
@@ -587,7 +587,7 @@
       },
       "source_type": "discovery_homepage",
       "summary": "Camp Rock 3 is currently selected for the homepage experience.",
-      "timestamp": "2026-08-18T14:03:02Z",
+      "timestamp": "2026-08-19T14:03:52Z",
       "title": "Featured in The Screening Room"
     },
     "latest_intelligence": "As of 2026-07-18, this is a Disney release dated 2026-08-13 with Song / Score relevance; current awards profile is Unknown and data status is developing.",
@@ -597,7 +597,7 @@
     "recent_activity": [
       {
         "confidence": "Inferred",
-        "event_id": "1493400-4adb999cc24a",
+        "event_id": "1493400-d481952b9006",
         "event_type": "Homepage Featured",
         "film_id": "1493400",
         "importance": "Medium",
@@ -606,12 +606,12 @@
         },
         "source_type": "discovery_homepage",
         "summary": "Camp Rock 3 is currently selected for the homepage experience.",
-        "timestamp": "2026-08-18T14:03:02Z",
+        "timestamp": "2026-08-19T14:03:52Z",
         "title": "Featured in The Screening Room"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1493400-7a28d81a4596",
+        "event_id": "1493400-b4b9cce0c916",
         "event_type": "Distributor Change",
         "film_id": "1493400",
         "importance": "Medium",
@@ -620,12 +620,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Disney.",
-        "timestamp": "2026-08-18T14:03:02Z",
+        "timestamp": "2026-08-19T14:03:52Z",
         "title": "Distributor set: Disney"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1493400-2143b7c58c29",
+        "event_id": "1493400-92b195bbb59c",
         "event_type": "Awards Tier Changed",
         "film_id": "1493400",
         "importance": "Medium",
@@ -637,15 +637,15 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-08-18T14:03:02Z",
+        "timestamp": "2026-08-19T14:03:52Z",
         "title": "Awards tier assigned: Emerging"
       }
     ],
     "release_relevance": 52.4,
     "screening_room_score": {
       "confidence": "High",
-      "explanation": "TMDb popularity rose from 3.4032 to 82.8828. US release is 24 days away on 2026-08-13.",
-      "score": 23.833
+      "explanation": "TMDb popularity rose from 3.4032 to 83.3879. US release is 24 days away on 2026-08-13.",
+      "score": 23.889
     },
     "watch_triggers": [
       "Major Studio/Streamer",
@@ -673,7 +673,7 @@
     "events": [
       {
         "confidence": "Inferred",
-        "event_id": "1493400-4adb999cc24a",
+        "event_id": "1493400-d481952b9006",
         "event_type": "Homepage Featured",
         "film_id": "1493400",
         "importance": "Medium",
@@ -682,12 +682,12 @@
         },
         "source_type": "discovery_homepage",
         "summary": "Camp Rock 3 is currently selected for the homepage experience.",
-        "timestamp": "2026-08-18T14:03:02Z",
+        "timestamp": "2026-08-19T14:03:52Z",
         "title": "Featured in The Screening Room"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1493400-7a28d81a4596",
+        "event_id": "1493400-b4b9cce0c916",
         "event_type": "Distributor Change",
         "film_id": "1493400",
         "importance": "Medium",
@@ -696,12 +696,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Disney.",
-        "timestamp": "2026-08-18T14:03:02Z",
+        "timestamp": "2026-08-19T14:03:52Z",
         "title": "Distributor set: Disney"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1493400-2143b7c58c29",
+        "event_id": "1493400-92b195bbb59c",
         "event_type": "Awards Tier Changed",
         "film_id": "1493400",
         "importance": "Medium",
@@ -713,12 +713,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-08-18T14:03:02Z",
+        "timestamp": "2026-08-19T14:03:52Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1493400-3d1bdd702935",
+        "event_id": "1493400-eef4cb9f64b9",
         "event_type": "Added To Database",
         "film_id": "1493400",
         "importance": "Low",
@@ -727,7 +727,7 @@
         },
         "source_type": "system",
         "summary": "Camp Rock 3 is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-18T14:03:02Z",
+        "timestamp": "2026-08-19T14:03:52Z",
         "title": "Added to Awards Intelligence"
       },
       {
@@ -747,7 +747,7 @@
     ],
     "latest_event": {
       "confidence": "Inferred",
-      "event_id": "1493400-4adb999cc24a",
+      "event_id": "1493400-d481952b9006",
       "event_type": "Homepage Featured",
       "film_id": "1493400",
       "importance": "Medium",
@@ -756,13 +756,13 @@
       },
       "source_type": "discovery_homepage",
       "summary": "Camp Rock 3 is currently selected for the homepage experience.",
-      "timestamp": "2026-08-18T14:03:02Z",
+      "timestamp": "2026-08-19T14:03:52Z",
       "title": "Featured in The Screening Room"
     },
     "recent_activity": [
       {
         "confidence": "Inferred",
-        "event_id": "1493400-4adb999cc24a",
+        "event_id": "1493400-d481952b9006",
         "event_type": "Homepage Featured",
         "film_id": "1493400",
         "importance": "Medium",
@@ -771,12 +771,12 @@
         },
         "source_type": "discovery_homepage",
         "summary": "Camp Rock 3 is currently selected for the homepage experience.",
-        "timestamp": "2026-08-18T14:03:02Z",
+        "timestamp": "2026-08-19T14:03:52Z",
         "title": "Featured in The Screening Room"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1493400-7a28d81a4596",
+        "event_id": "1493400-b4b9cce0c916",
         "event_type": "Distributor Change",
         "film_id": "1493400",
         "importance": "Medium",
@@ -785,12 +785,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Disney.",
-        "timestamp": "2026-08-18T14:03:02Z",
+        "timestamp": "2026-08-19T14:03:52Z",
         "title": "Distributor set: Disney"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1493400-2143b7c58c29",
+        "event_id": "1493400-92b195bbb59c",
         "event_type": "Awards Tier Changed",
         "film_id": "1493400",
         "importance": "Medium",
@@ -802,7 +802,7 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-08-18T14:03:02Z",
+        "timestamp": "2026-08-19T14:03:52Z",
         "title": "Awards tier assigned: Emerging"
       }
     ],

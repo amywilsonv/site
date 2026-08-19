@@ -2,7 +2,7 @@
   "events": [
     {
       "confidence": "Inferred",
-      "event_id": "1185806-7e8a99cfba28",
+      "event_id": "1185806-82692d3aea65",
       "event_type": "Awards Tier Changed",
       "film_id": "1185806",
       "importance": "Medium",
@@ -16,12 +16,12 @@
       },
       "source_type": "editorial_model",
       "summary": "category-specific awards case without broader contender evidence",
-      "timestamp": "2026-08-18T14:03:02Z",
+      "timestamp": "2026-08-19T14:03:52Z",
       "title": "Awards tier assigned: Category Contender"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1185806-b084255cad80",
+      "event_id": "1185806-fea41ca04728",
       "event_type": "Added To Database",
       "film_id": "1185806",
       "importance": "Low",
@@ -30,7 +30,7 @@
       },
       "source_type": "system",
       "summary": "PAW Patrol: The Dino Movie is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-08-18T14:03:02Z",
+      "timestamp": "2026-08-19T14:03:52Z",
       "title": "Added to Awards Intelligence"
     },
     {
@@ -50,7 +50,7 @@
   ],
   "latest_event": {
     "confidence": "Inferred",
-    "event_id": "1185806-7e8a99cfba28",
+    "event_id": "1185806-82692d3aea65",
     "event_type": "Awards Tier Changed",
     "film_id": "1185806",
     "importance": "Medium",
@@ -64,13 +64,13 @@
     },
     "source_type": "editorial_model",
     "summary": "category-specific awards case without broader contender evidence",
-    "timestamp": "2026-08-18T14:03:02Z",
+    "timestamp": "2026-08-19T14:03:52Z",
     "title": "Awards tier assigned: Category Contender"
   },
   "metadata": {
     "event_count": 3,
     "film_id": "1185806",
-    "generated_at": "20260818T140302Z",
+    "generated_at": "20260819T140352Z",
     "timeline_version": "phase6b",
     "title": "PAW Patrol: The Dino Movie",
     "tmdb_id": "1185806"
