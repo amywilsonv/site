@@ -16,7 +16,7 @@
     },
     {
       "confidence": "Inferred",
-      "event_id": "1670061-376468e4f559",
+      "event_id": "1670061-73fc9d50b261",
       "event_type": "Awards Tier Changed",
       "film_id": "1670061",
       "importance": "Medium",
@@ -28,12 +28,12 @@
       },
       "source_type": "editorial_model",
       "summary": "insufficient credible awards evidence",
-      "timestamp": "2026-08-20T14:06:23Z",
+      "timestamp": "2026-07-29T21:38:25Z",
       "title": "Awards tier assigned: No Current Awards Case"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1670061-68f020013707",
+      "event_id": "1670061-9b5ba61028d6",
       "event_type": "Added To Database",
       "film_id": "1670061",
       "importance": "Low",
@@ -42,7 +42,7 @@
       },
       "source_type": "system",
       "summary": "Beasts Clutching at Straws is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-08-20T14:06:23Z",
+      "timestamp": "2026-07-29T21:38:25Z",
       "title": "Added to Awards Intelligence"
     }
   ],
@@ -63,7 +63,7 @@
   "metadata": {
     "event_count": 3,
     "film_id": "1670061",
-    "generated_at": "20260820T140623Z",
+    "generated_at": "slice57_current_discovery_enrichment",
     "timeline_version": "phase6b",
     "title": "Beasts Clutching at Straws",
     "tmdb_id": "1670061"

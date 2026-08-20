@@ -7,7 +7,7 @@
       "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 52.1,
+    "attention_score": 51.4,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -40,25 +40,25 @@
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 1.2895",
-        "source": "audience_popularity",
+        "evidence": "Director: Selvaraghavan",
+        "source": "filmmaker_interest",
         "status": "verified"
       },
       {
-        "evidence": "Director: Selvaraghavan",
-        "source": "filmmaker_interest",
+        "evidence": "TMDb popularity 1.0254",
+        "source": "audience_popularity",
         "status": "verified"
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 52.1,
+    "homepage_spotlight_score": 51.4,
     "industry_interest": "Moderate",
-    "last_updated": "20260820T140623Z",
+    "last_updated": "20260729T213825Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
         "evidence_count": 1,
-        "score": 4.3,
+        "score": 3.6,
         "statuses": [
           "verified"
         ]
@@ -135,6 +135,23 @@
     "predicted_categories": [],
     "probabilities": {}
   },
+  "awards_intelligence": {
+    "awards_candidate_status": "PROVISIONAL",
+    "awards_status": null,
+    "best_picture_rank": null,
+    "forecast_stage": null,
+    "forecast_stage_label": null,
+    "nominee_probability": null,
+    "percentage_policy": "PERCENTAGES_NOT_READY",
+    "prediction_confidence": null,
+    "probability_is_calibrated": false,
+    "public_card_behavior": "no_awards_badge",
+    "rank_change": null,
+    "ranking_eligibility": "NOT_RANKED",
+    "ranking_last_updated_at": null,
+    "source_artifact": "academy_nominee_website_card_handoff_v1.json",
+    "why_it_ranks": []
+  },
   "commercial": {
     "commercial_significance": 37.0,
     "distributor": "Unknown",
@@ -183,7 +200,7 @@
       "Drama"
     ],
     "id": "1324688",
-    "imdb_id": "",
+    "imdb_id": "tt28549815",
     "language": "ta",
     "original_title": "7\u0b9c\u0bbf \u0bb0\u0bc6\u0baf\u0bbf\u0ba9\u0bcd\u0baa\u0bcb \u0b95\u0bbe\u0bb2\u0ba9\u0bbf 2",
     "poster": "https://image.tmdb.org/t/p/original/dCa3OeEhTeN7rAMWzFclDgBMK8h.jpg",
@@ -191,16 +208,16 @@
     "profile_url": "film.html?id=1324688",
     "release_date": "2026-11-06",
     "release_display": "In theaters Nov. 6",
-    "runtime": null,
+    "runtime": 0,
     "synopsis": "Nearly 10 years post the tragic death of Anitha, Kathir's ailing mother makes desperate attempts to get him settled after sensing his attraction to the daughter of Flat No.7G's Newest Tenant.",
     "title": "7G Rainbow Colony 2",
     "tmdb_id": "1324688"
   },
   "intelligence": {
-    "confidence": "High",
-    "confidence_score": 0.99,
-    "generated_at": "2026-08-20T14:06:00Z",
-    "headline": "7G Rainbow Colony 2: popularity increasing",
+    "confidence": "Low",
+    "confidence_score": 0.25,
+    "generated_at": "2026-07-29T21:38:25Z",
+    "headline": "7G Rainbow Colony 2: no material change detected",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
       "signal_values": {
@@ -218,7 +235,7 @@
         "streaming_provider_count_us": 5,
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": false,
-        "tmdb_popularity": 1.2895,
+        "tmdb_popularity": 1.0254,
         "tmdb_poster_count": 0,
         "tmdb_release_date_us_primary": "",
         "tmdb_release_date_us_theatrical": "",
@@ -233,44 +250,33 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity rose from 1.0254 to 1.2895.",
-    "supporting_drivers": [
-      {
-        "confidence_weight": 0.9,
-        "driver_type": "popularity_increasing",
-        "evidence": "TMDb popularity rose from 1.0254 to 1.2895.",
-        "label": "Popularity increasing",
-        "retrieved_at": "2026-08-20T14:06:00Z",
-        "source_metric": "tmdb_popularity",
-        "source_provider": "tmdb",
-        "source_status": "available"
-      }
-    ]
+    "summary": "Current provider signals do not show a supported material change.",
+    "supporting_drivers": []
   },
-  "media": {},
+  "media": {
+    "backdrop": "https://image.tmdb.org/t/p/original/2c87U9zWOvJvOJxxgIxTtalkaQ6.jpg",
+    "poster": "https://image.tmdb.org/t/p/original/dCa3OeEhTeN7rAMWzFclDgBMK8h.jpg"
+  },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260820T140623Z",
-    "profile_version": "phase6a",
+    "awards_intelligence_integrated_at": "2026-08-16T00:00:00Z",
+    "awards_intelligence_source": "academy_nominee_website_card_handoff_v1.json",
+    "generated_at": "slice57_current_discovery_enrichment",
+    "profile_version": "phase6a_registry_canonical_id_bridge_slice57_enriched",
     "source_data_date": "2026-07-20"
   },
   "performance": {
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 1.2895,
-        "retrieved_at": "2026-08-20",
+        "popularity": 1.0254,
+        "retrieved_at": "2026-07-29",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1324688",
         "status": "not_yet_rated"
       }
     },
-    "tmdb_popularity": {
-      "retrieved_at": "2026-08-20",
-      "source": "TMDb",
-      "source_url": "https://www.themoviedb.org/movie/1324688",
-      "value": 1.2895
-    },
+    "tmdb_popularity": 1.0254,
     "watch_providers": {
       "buy": [
         {
@@ -289,7 +295,7 @@
       "country": "US",
       "flatrate": [
         {
-          "display_priority": 45,
+          "display_priority": 48,
           "logo_url": "https://image.tmdb.org/t/p/original/6KEQzITx2RrCAQt5Nw9WrL1OI8z.jpg",
           "provider_id": 309,
           "provider_name": "Sun Nxt"
@@ -309,15 +315,15 @@
           "provider_name": "YouTube"
         }
       ],
-      "retrieved_at": "2026-08-20",
+      "retrieved_at": "2026-07-29",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1324688-7-2/watch?locale=US"
     }
   },
   "ratings": {
     "tmdb": {
-      "popularity": 1.2895,
-      "retrieved_at": "2026-08-20",
+      "popularity": 1.0254,
+      "retrieved_at": "2026-07-29",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1324688",
       "status": "not_yet_rated"
@@ -433,13 +439,13 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.025,
+      "audience_momentum": 0.019,
       "availability": 5.383,
       "talent_profile": 2.525
     },
-    "generated_at": "2026-08-20T14:06:00Z",
+    "generated_at": "2026-07-29T21:38:25Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 7.933,
+    "score": 7.927,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -476,20 +482,20 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.025,
+        "contribution": 0.019,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 1.2895
+        "value": 1.0254
       }
     ]
   },
   "signals": {
     "cultural_significance": 37.0,
     "external_intelligence": {
-      "confidence": "High",
-      "headline": "7G Rainbow Colony 2: popularity increasing",
-      "summary": "TMDb popularity rose from 1.0254 to 1.2895."
+      "confidence": "Low",
+      "headline": "7G Rainbow Colony 2: no material change detected",
+      "summary": "Current provider signals do not show a supported material change."
     },
     "last_updated": "2026-11-06",
     "latest_event": {
@@ -527,7 +533,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1324688-32e8b53faa40",
+        "event_id": "1324688-c498254185eb",
         "event_type": "Awards Tier Changed",
         "film_id": "1324688",
         "importance": "Medium",
@@ -537,12 +543,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1324688-d8f812397c75",
+        "event_id": "1324688-a9dad7982535",
         "event_type": "Added To Database",
         "film_id": "1324688",
         "importance": "Low",
@@ -551,15 +557,15 @@
         },
         "source_type": "system",
         "summary": "7G Rainbow Colony 2 is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Added to Awards Intelligence"
       }
     ],
     "release_relevance": 31.1,
     "screening_room_score": {
-      "confidence": "High",
-      "explanation": "TMDb popularity rose from 1.0254 to 1.2895.",
-      "score": 7.933
+      "confidence": "Low",
+      "explanation": "Current provider signals do not show a supported material change.",
+      "score": 7.927
     },
     "watch_triggers": [
       "Awards-Season Release",
@@ -579,7 +585,9 @@
       "Jayaram"
     ],
     "producers": [],
-    "writers": []
+    "writers": [
+      "Selvaraghavan"
+    ]
   },
   "timeline": {
     "events": [
@@ -599,7 +607,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1324688-32e8b53faa40",
+        "event_id": "1324688-c498254185eb",
         "event_type": "Awards Tier Changed",
         "film_id": "1324688",
         "importance": "Medium",
@@ -609,12 +617,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1324688-d8f812397c75",
+        "event_id": "1324688-a9dad7982535",
         "event_type": "Added To Database",
         "film_id": "1324688",
         "importance": "Low",
@@ -623,7 +631,7 @@
         },
         "source_type": "system",
         "summary": "7G Rainbow Colony 2 is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -658,7 +666,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1324688-32e8b53faa40",
+        "event_id": "1324688-c498254185eb",
         "event_type": "Awards Tier Changed",
         "film_id": "1324688",
         "importance": "Medium",
@@ -668,12 +676,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1324688-d8f812397c75",
+        "event_id": "1324688-a9dad7982535",
         "event_type": "Added To Database",
         "film_id": "1324688",
         "importance": "Low",
@@ -682,7 +690,7 @@
         },
         "source_type": "system",
         "summary": "7G Rainbow Colony 2 is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Added to Awards Intelligence"
       }
     ],

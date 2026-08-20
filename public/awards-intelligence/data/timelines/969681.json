@@ -2,65 +2,6 @@
   "events": [
     {
       "confidence": "Inferred",
-      "event_id": "969681-a439be368abb",
-      "event_type": "Homepage Featured",
-      "film_id": "969681",
-      "importance": "Medium",
-      "metadata": {
-        "editorial_category": "Major Release"
-      },
-      "source_type": "discovery_homepage",
-      "summary": "Spider-Man: Brand New Day is currently selected for the homepage experience.",
-      "timestamp": "2026-08-20T14:06:23Z",
-      "title": "Featured in The Screening Room"
-    },
-    {
-      "confidence": "Inferred",
-      "event_id": "969681-2def8e57694d",
-      "event_type": "Distributor Change",
-      "film_id": "969681",
-      "importance": "Medium",
-      "metadata": {
-        "distributor": "Columbia Pictures"
-      },
-      "source_type": "metadata",
-      "summary": "Current distributor is Columbia Pictures.",
-      "timestamp": "2026-08-20T14:06:23Z",
-      "title": "Distributor set: Columbia Pictures"
-    },
-    {
-      "confidence": "Inferred",
-      "event_id": "969681-4569230423f4",
-      "event_type": "Awards Tier Changed",
-      "film_id": "969681",
-      "importance": "Medium",
-      "metadata": {
-        "awards_tier": "Emerging",
-        "categories": [
-          "Craft Categories"
-        ]
-      },
-      "source_type": "editorial_model",
-      "summary": "plausible but incomplete awards evidence",
-      "timestamp": "2026-08-20T14:06:23Z",
-      "title": "Awards tier assigned: Emerging"
-    },
-    {
-      "confidence": "Inferred",
-      "event_id": "969681-6c18501e5e3e",
-      "event_type": "Added To Database",
-      "film_id": "969681",
-      "importance": "Low",
-      "metadata": {
-        "profile_version": "phase6a"
-      },
-      "source_type": "system",
-      "summary": "Spider-Man: Brand New Day is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-08-20T14:06:23Z",
-      "title": "Added to Awards Intelligence"
-    },
-    {
-      "confidence": "Inferred",
       "event_id": "969681-24e0a495b200",
       "event_type": "Release Scheduled",
       "film_id": "969681",
@@ -72,26 +13,85 @@
       "summary": "Release currently scheduled for In theaters Jul. 31.",
       "timestamp": "2026-07-31",
       "title": "Release scheduled"
+    },
+    {
+      "confidence": "Inferred",
+      "event_id": "969681-c1ce1396264b",
+      "event_type": "Homepage Featured",
+      "film_id": "969681",
+      "importance": "Medium",
+      "metadata": {
+        "editorial_category": "Major Release"
+      },
+      "source_type": "discovery_homepage",
+      "summary": "Spider-Man: Brand New Day is currently selected for the homepage experience.",
+      "timestamp": "2026-07-29T21:38:25Z",
+      "title": "Featured in The Screening Room"
+    },
+    {
+      "confidence": "Inferred",
+      "event_id": "969681-c3efdf7e5394",
+      "event_type": "Distributor Change",
+      "film_id": "969681",
+      "importance": "Medium",
+      "metadata": {
+        "distributor": "Columbia Pictures"
+      },
+      "source_type": "metadata",
+      "summary": "Current distributor is Columbia Pictures.",
+      "timestamp": "2026-07-29T21:38:25Z",
+      "title": "Distributor set: Columbia Pictures"
+    },
+    {
+      "confidence": "Inferred",
+      "event_id": "969681-3d263626663d",
+      "event_type": "Awards Tier Changed",
+      "film_id": "969681",
+      "importance": "Medium",
+      "metadata": {
+        "awards_tier": "Emerging",
+        "categories": [
+          "Craft Categories"
+        ]
+      },
+      "source_type": "editorial_model",
+      "summary": "plausible but incomplete awards evidence",
+      "timestamp": "2026-07-29T21:38:25Z",
+      "title": "Awards tier assigned: Emerging"
+    },
+    {
+      "confidence": "Inferred",
+      "event_id": "969681-8aca941e809d",
+      "event_type": "Added To Database",
+      "film_id": "969681",
+      "importance": "Low",
+      "metadata": {
+        "profile_version": "phase6a"
+      },
+      "source_type": "system",
+      "summary": "Spider-Man: Brand New Day is tracked in the Film Intelligence profile set.",
+      "timestamp": "2026-07-29T21:38:25Z",
+      "title": "Added to Awards Intelligence"
     }
   ],
   "latest_event": {
     "confidence": "Inferred",
-    "event_id": "969681-a439be368abb",
-    "event_type": "Homepage Featured",
+    "event_id": "969681-24e0a495b200",
+    "event_type": "Release Scheduled",
     "film_id": "969681",
     "importance": "Medium",
     "metadata": {
-      "editorial_category": "Major Release"
+      "release_date": "2026-07-31"
     },
-    "source_type": "discovery_homepage",
-    "summary": "Spider-Man: Brand New Day is currently selected for the homepage experience.",
-    "timestamp": "2026-08-20T14:06:23Z",
-    "title": "Featured in The Screening Room"
+    "source_type": "metadata",
+    "summary": "Release currently scheduled for In theaters Jul. 31.",
+    "timestamp": "2026-07-31",
+    "title": "Release scheduled"
   },
   "metadata": {
     "event_count": 5,
     "film_id": "969681",
-    "generated_at": "20260820T140623Z",
+    "generated_at": "slice57_current_discovery_enrichment",
     "timeline_version": "phase6b",
     "title": "Spider-Man: Brand New Day",
     "tmdb_id": "969681"

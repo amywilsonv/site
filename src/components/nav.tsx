@@ -1,51 +1,62 @@
+"use client"
+
 import Link from "next/link"
+import { usePathname } from "next/navigation"
 import { Clapperboard, Code, Mail } from "lucide-react"
 import { cn } from "@/lib/utils"
-import { buttonVariants } from "@/components/ui/button"
 
 const navLinks = [
-  { href: "/", label: "Home" },
-  { href: "/projects", label: "Projects" },
-  { href: "/writing", label: "Writing" },
+  { href: "/", label: "Work" },
   { href: "/about", label: "About" },
 ]
 
 export function Nav() {
+  const pathname = usePathname()
+
   return (
-    <header className="flex items-center justify-between py-4 border-b">
-      <Link href="/" className="text-sm font-semibold tracking-tight">
+    <header className="mx-auto flex w-full max-w-[994px] items-center justify-between gap-6 border-b border-border py-9 sm:py-14">
+      <Link href="/" className="shrink-0 text-sm font-bold tracking-normal">
         Amy Wilson
       </Link>
-      <nav className="flex items-center gap-0.5">
+      <nav className="flex min-w-0 flex-wrap items-center justify-end gap-x-6 gap-y-3 text-sm">
         {navLinks.map(({ href, label }) => (
           <Link
             key={href}
             href={href}
-            className={cn(buttonVariants({ variant: "ghost", size: "sm" }))}
+            className={cn(
+              "border-b border-transparent py-1 font-medium text-foreground transition-colors hover:border-foreground",
+              (href === "/" ? pathname === "/" : pathname.startsWith(href)) &&
+                "border-foreground font-bold",
+            )}
           >
             {label}
           </Link>
         ))}
+        <span className="hidden h-4 w-px bg-border sm:block" />
         <a
-          aria-label="Letterboxd"
           href="https://letterboxd.com/amywilson"
-          className={cn(buttonVariants({ variant: "ghost", size: "icon" }))}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-1.5 py-1 font-medium text-muted-foreground transition-colors hover:text-foreground"
         >
-          <Clapperboard className="size-4" />
+          <Clapperboard className="size-3.5" />
+          Letterboxd
         </a>
         <a
-          aria-label="GitHub"
           href="https://github.com/amywilsonv"
-          className={cn(buttonVariants({ variant: "ghost", size: "icon" }))}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-1.5 py-1 font-medium text-muted-foreground transition-colors hover:text-foreground"
         >
-          <Code className="size-4" />
+          <Code className="size-3.5" />
+          GitHub
         </a>
         <a
-          aria-label="Email"
           href="mailto:hello@example.com"
-          className={cn(buttonVariants({ variant: "ghost", size: "icon" }))}
+          className="inline-flex items-center gap-1.5 py-1 font-medium text-muted-foreground transition-colors hover:text-foreground"
         >
-          <Mail className="size-4" />
+          <Mail className="size-3.5" />
+          Email
         </a>
       </nav>
     </header>

@@ -7,7 +7,7 @@
       "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 74.2,
+    "attention_score": 71.7,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -25,12 +25,7 @@
         "status": "inferred"
       },
       {
-        "evidence": "TMDb popularity 6.534",
-        "source": "audience_popularity",
-        "status": "verified"
-      },
-      {
-        "evidence": "Principal cast listed: Jay Chandrasekhar, Kevin Heffernan, Steve Lemme, Paul Soter",
+        "evidence": "Principal cast listed: Jay Chandrasekhar, Paul Soter, Steve Lemme, Erik Stolhanske",
         "source": "cast_interest",
         "status": "verified"
       },
@@ -50,6 +45,11 @@
         "status": "verified"
       },
       {
+        "evidence": "TMDb popularity 3.6074",
+        "source": "audience_popularity",
+        "status": "verified"
+      },
+      {
         "evidence": "Prestige distributor: Searchlight Pictures",
         "source": "prestige_distributor",
         "status": "verified"
@@ -58,22 +58,17 @@
         "evidence": "Director: Jay Chandrasekhar",
         "source": "filmmaker_interest",
         "status": "verified"
-      },
-      {
-        "evidence": "12",
-        "source": "tmdb_vote_count",
-        "status": "verified"
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 74.2,
+    "homepage_spotlight_score": 71.7,
     "industry_interest": "Moderate",
-    "last_updated": "20260820T140623Z",
+    "last_updated": "20260729T213825Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
         "evidence_count": 2,
-        "score": 14.8,
+        "score": 12.3,
         "statuses": [
           "verified"
         ]
@@ -157,6 +152,23 @@
     "predicted_categories": [],
     "probabilities": {}
   },
+  "awards_intelligence": {
+    "awards_candidate_status": "PROVISIONAL",
+    "awards_status": null,
+    "best_picture_rank": null,
+    "forecast_stage": null,
+    "forecast_stage_label": null,
+    "nominee_probability": null,
+    "percentage_policy": "PERCENTAGES_NOT_READY",
+    "prediction_confidence": null,
+    "probability_is_calibrated": false,
+    "public_card_behavior": "no_awards_badge",
+    "rank_change": null,
+    "ranking_eligibility": "NOT_RANKED",
+    "ranking_last_updated_at": null,
+    "source_artifact": "academy_nominee_website_card_handoff_v1.json",
+    "why_it_ranks": []
+  },
   "commercial": {
     "commercial_significance": 37.0,
     "distributor": "Searchlight Pictures",
@@ -206,23 +218,23 @@
       "Mystery"
     ],
     "id": "675871",
-    "imdb_id": "",
+    "imdb_id": "tt8820258",
     "language": "en",
     "original_title": "Super Troopers 3",
-    "poster": "https://image.tmdb.org/t/p/original/VVU42nqsEmUtFpH1d9MHj5BIpF.jpg",
+    "poster": "https://image.tmdb.org/t/p/original/eV2Uhn8A93V4ELySlrBGvBuQJLj.jpg",
     "profile_payload_url": "data/films/675871.json",
     "profile_url": "film.html?id=675871",
     "release_date": "2026-08-07",
     "release_display": "In theaters Aug. 7",
-    "runtime": 100,
-    "synopsis": "When Farva's over-the-top Indian engagement to Thorny's sister spirals into chaos, the Super Troopers must navigate Thorny's schemes to break up the relationship, all while trying to bring down a pernicious new drug ring.",
+    "runtime": 104,
+    "synopsis": "When Farva\u2019s wildly over-the-top Indian engagement to Thorny\u2019s sister spirals into chaos, the Super Troopers must navigate Thorny\u2019s schemes to break up the relationship, while trying to crack a pernicious new drug ring  \u2014 all to save the day and maybe the wedding itself.",
     "title": "Super Troopers 3",
     "tmdb_id": "675871"
   },
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-08-20T14:06:00Z",
+    "generated_at": "2026-07-29T21:38:25Z",
     "headline": "Super Troopers 3: release approaching",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -239,43 +251,33 @@
         "streaming_available_us": false,
         "streaming_flatrate_provider_count_us": 0,
         "streaming_provider_count_us": 0,
-        "tmdb_backdrop_count": 1,
+        "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=cYFevn5frf0",
-        "tmdb_popularity": 6.534,
-        "tmdb_poster_count": 16,
+        "tmdb_popularity": 3.6074,
+        "tmdb_poster_count": 10,
         "tmdb_release_date_us_primary": "2026-08-07",
         "tmdb_release_date_us_theatrical": "2026-08-07",
-        "tmdb_release_status": "Released",
-        "tmdb_vote_average": 6.3,
-        "tmdb_vote_count": 12,
+        "tmdb_release_status": "Post Production",
+        "tmdb_vote_average": 0,
+        "tmdb_vote_count": 0,
         "tmdb_watch_provider_count_us": 0,
         "trailer_available": true,
-        "trailer_count": 61,
+        "trailer_count": 2,
         "trailer_url": "https://www.youtube.com/watch?v=cYFevn5frf0"
       },
       "source_signal_count": 26,
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity rose from 3.6074 to 6.534. US release is 18 days away on 2026-08-07.",
+    "summary": "US release is 18 days away on 2026-08-07.",
     "supporting_drivers": [
-      {
-        "confidence_weight": 0.9,
-        "driver_type": "popularity_increasing",
-        "evidence": "TMDb popularity rose from 3.6074 to 6.534.",
-        "label": "Popularity increasing",
-        "retrieved_at": "2026-08-20T14:06:00Z",
-        "source_metric": "tmdb_popularity",
-        "source_provider": "tmdb",
-        "source_status": "available"
-      },
       {
         "confidence_weight": 0.8,
         "driver_type": "release_approaching",
         "evidence": "US release is 18 days away on 2026-08-07.",
         "label": "Release approaching",
-        "retrieved_at": "2026-08-20T14:06:00Z",
+        "retrieved_at": "2026-07-29T21:38:25Z",
         "source_metric": "tmdb_release_date_us_primary",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -283,8 +285,9 @@
     ]
   },
   "media": {
+    "backdrop": "https://image.tmdb.org/t/p/original/oU2H07DQVjGMp2vUgrYzso36v15.jpg",
     "canonical_trailer": {
-      "retrieved_at": "2026-08-20",
+      "retrieved_at": "2026-07-29",
       "site": "YouTube",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/675871/videos",
@@ -292,50 +295,39 @@
       "type": "Trailer",
       "url": "https://www.youtube.com/watch?v=cYFevn5frf0"
     },
-    "latest_trailer_url": "https://www.youtube.com/watch?v=cYFevn5frf0"
+    "latest_trailer_url": "https://www.youtube.com/watch?v=cYFevn5frf0",
+    "poster": "https://image.tmdb.org/t/p/original/eV2Uhn8A93V4ELySlrBGvBuQJLj.jpg",
+    "trailer": "https://www.youtube.com/watch?v=cYFevn5frf0"
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260820T140623Z",
-    "profile_version": "phase6a",
+    "awards_intelligence_integrated_at": "2026-08-16T00:00:00Z",
+    "awards_intelligence_source": "academy_nominee_website_card_handoff_v1.json",
+    "generated_at": "slice57_current_discovery_enrichment",
+    "profile_version": "phase6a_registry_canonical_id_bridge_slice57_enriched",
     "source_data_date": "2026-07-20"
   },
   "performance": {
-    "box_office": {
-      "currency": "USD",
-      "retrieved_at": "2026-08-20",
-      "revenue": 6858200,
-      "source": "TMDb",
-      "source_url": "https://www.themoviedb.org/movie/675871"
-    },
+    "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 6.534,
-        "retrieved_at": "2026-08-20",
+        "popularity": 3.6074,
+        "retrieved_at": "2026-07-29",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/675871",
-        "status": "rated",
-        "vote_average": 6.3,
-        "vote_count": 12
+        "status": "not_yet_rated"
       }
     },
-    "tmdb_popularity": {
-      "retrieved_at": "2026-08-20",
-      "source": "TMDb",
-      "source_url": "https://www.themoviedb.org/movie/675871",
-      "value": 6.534
-    },
+    "tmdb_popularity": 3.6074,
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 6.534,
-      "retrieved_at": "2026-08-20",
+      "popularity": 3.6074,
+      "retrieved_at": "2026-07-29",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/675871",
-      "status": "rated",
-      "vote_average": 6.3,
-      "vote_count": 12
+      "status": "not_yet_rated"
     }
   },
   "related": {
@@ -383,17 +375,6 @@
         "tmdb_id": "1530151"
       },
       {
-        "profile_url": "film.html?id=949838",
-        "relationship_score": 38,
-        "shared_signals": [
-          "General Watch",
-          "Comedy",
-          "Crime"
-        ],
-        "title": "72 HOURS",
-        "tmdb_id": "949838"
-      },
-      {
         "profile_url": "film.html?id=1324688",
         "relationship_score": 38,
         "shared_signals": [
@@ -401,6 +382,15 @@
         ],
         "title": "7G Rainbow Colony 2",
         "tmdb_id": "1324688"
+      },
+      {
+        "profile_url": "film.html?id=1705668",
+        "relationship_score": 38,
+        "shared_signals": [
+          "General Watch"
+        ],
+        "title": "Aa Bata Aama 2",
+        "tmdb_id": "1705668"
       }
     ],
     "related_people": [
@@ -409,7 +399,7 @@
         "role": "director"
       },
       {
-        "name": "Kevin Heffernan",
+        "name": "Paul Soter",
         "role": "actor"
       },
       {
@@ -417,15 +407,15 @@
         "role": "actor"
       },
       {
-        "name": "Paul Soter",
-        "role": "actor"
-      },
-      {
         "name": "Erik Stolhanske",
         "role": "actor"
       },
       {
-        "name": "Hannah Simone",
+        "name": "Kevin Heffernan",
+        "role": "actor"
+      },
+      {
+        "name": "Brian Cox",
         "role": "actor"
       }
     ],
@@ -454,31 +444,22 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.215,
-      "audience_quality": 5.985,
-      "campaign_activity": 5.4,
+      "audience_momentum": 0.069,
+      "campaign_activity": 2.7,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-20T14:06:00Z",
+    "generated_at": "2026-07-29T21:38:25Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 14.925,
+    "score": 6.094,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
-        "confidence": 0.95,
-        "contribution": 5.985,
-        "metric_name": "tmdb_vote_average",
-        "provider": "tmdb",
-        "score_family": "audience_quality",
-        "value": 6.3
-      },
-      {
         "confidence": 0.9,
-        "contribution": 5.4,
+        "contribution": 2.7,
         "metric_name": "trailer_count",
         "provider": "trailers",
         "score_family": "campaign_activity",
-        "value": 61
+        "value": 2
       },
       {
         "confidence": 0.55,
@@ -498,11 +479,11 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.124,
+        "contribution": 0.069,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 6.534
+        "value": 3.6074
       }
     ]
   },
@@ -511,146 +492,28 @@
     "external_intelligence": {
       "confidence": "High",
       "headline": "Super Troopers 3: release approaching",
-      "summary": "TMDb popularity rose from 3.6074 to 6.534. US release is 18 days away on 2026-08-07."
+      "summary": "US release is 18 days away on 2026-08-07."
     },
-    "last_updated": "2026-08-20T14:06:23Z",
+    "last_updated": "2026-08-07",
     "latest_event": {
       "confidence": "Inferred",
-      "event_id": "675871-653ad0091165",
-      "event_type": "Distributor Change",
+      "event_id": "675871-aec80524fb0d",
+      "event_type": "Release Scheduled",
       "film_id": "675871",
       "importance": "Medium",
       "metadata": {
-        "distributor": "Searchlight Pictures"
+        "release_date": "2026-08-07"
       },
       "source_type": "metadata",
-      "summary": "Current distributor is Searchlight Pictures.",
-      "timestamp": "2026-08-20T14:06:23Z",
-      "title": "Distributor set: Searchlight Pictures"
+      "summary": "Release currently scheduled for In theaters Aug. 7.",
+      "timestamp": "2026-08-07",
+      "title": "Release scheduled"
     },
     "latest_intelligence": "As of 2026-07-18, this is a Searchlight Pictures release dated 2026-08-07 with general awards monitoring relevance; current awards profile is Developing and data status is developing.",
     "momentum": 0.0,
     "narrative_importance": 0,
     "next_signal": "Watch for festival placement, reviews, and release-date movement.",
     "recent_activity": [
-      {
-        "confidence": "Inferred",
-        "event_id": "675871-653ad0091165",
-        "event_type": "Distributor Change",
-        "film_id": "675871",
-        "importance": "Medium",
-        "metadata": {
-          "distributor": "Searchlight Pictures"
-        },
-        "source_type": "metadata",
-        "summary": "Current distributor is Searchlight Pictures.",
-        "timestamp": "2026-08-20T14:06:23Z",
-        "title": "Distributor set: Searchlight Pictures"
-      },
-      {
-        "confidence": "Inferred",
-        "event_id": "675871-d1e7a63340aa",
-        "event_type": "Awards Tier Changed",
-        "film_id": "675871",
-        "importance": "Medium",
-        "metadata": {
-          "awards_tier": "No Current Awards Case",
-          "categories": []
-        },
-        "source_type": "editorial_model",
-        "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
-        "title": "Awards tier assigned: No Current Awards Case"
-      },
-      {
-        "confidence": "Inferred",
-        "event_id": "675871-2244540073ee",
-        "event_type": "Added To Database",
-        "film_id": "675871",
-        "importance": "Low",
-        "metadata": {
-          "profile_version": "phase6a"
-        },
-        "source_type": "system",
-        "summary": "Super Troopers 3 is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-20T14:06:23Z",
-        "title": "Added to Awards Intelligence"
-      }
-    ],
-    "release_relevance": 40.9,
-    "screening_room_score": {
-      "confidence": "High",
-      "explanation": "TMDb popularity rose from 3.6074 to 6.534. US release is 18 days away on 2026-08-07.",
-      "score": 14.925
-    },
-    "watch_triggers": [
-      "Prestige Distributor",
-      "Major Studio/Streamer",
-      "Franchise/Event",
-      "Trailer Available"
-    ],
-    "whats_changed": ""
-  },
-  "talent": {
-    "director": "Jay Chandrasekhar",
-    "principal_cast": [
-      "Jay Chandrasekhar",
-      "Kevin Heffernan",
-      "Steve Lemme",
-      "Paul Soter",
-      "Erik Stolhanske",
-      "Hannah Simone",
-      "Marisa Coughlan",
-      "Nat Faxon"
-    ],
-    "producers": [],
-    "writers": []
-  },
-  "timeline": {
-    "events": [
-      {
-        "confidence": "Inferred",
-        "event_id": "675871-653ad0091165",
-        "event_type": "Distributor Change",
-        "film_id": "675871",
-        "importance": "Medium",
-        "metadata": {
-          "distributor": "Searchlight Pictures"
-        },
-        "source_type": "metadata",
-        "summary": "Current distributor is Searchlight Pictures.",
-        "timestamp": "2026-08-20T14:06:23Z",
-        "title": "Distributor set: Searchlight Pictures"
-      },
-      {
-        "confidence": "Inferred",
-        "event_id": "675871-d1e7a63340aa",
-        "event_type": "Awards Tier Changed",
-        "film_id": "675871",
-        "importance": "Medium",
-        "metadata": {
-          "awards_tier": "No Current Awards Case",
-          "categories": []
-        },
-        "source_type": "editorial_model",
-        "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
-        "title": "Awards tier assigned: No Current Awards Case"
-      },
-      {
-        "confidence": "Inferred",
-        "event_id": "675871-2244540073ee",
-        "event_type": "Added To Database",
-        "film_id": "675871",
-        "importance": "Low",
-        "metadata": {
-          "profile_version": "phase6a"
-        },
-        "source_type": "system",
-        "summary": "Super Troopers 3 is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-20T14:06:23Z",
-        "title": "Added to Awards Intelligence"
-      },
       {
         "confidence": "Inferred",
         "event_id": "675871-aec80524fb0d",
@@ -664,26 +527,10 @@
         "summary": "Release currently scheduled for In theaters Aug. 7.",
         "timestamp": "2026-08-07",
         "title": "Release scheduled"
-      }
-    ],
-    "latest_event": {
-      "confidence": "Inferred",
-      "event_id": "675871-653ad0091165",
-      "event_type": "Distributor Change",
-      "film_id": "675871",
-      "importance": "Medium",
-      "metadata": {
-        "distributor": "Searchlight Pictures"
       },
-      "source_type": "metadata",
-      "summary": "Current distributor is Searchlight Pictures.",
-      "timestamp": "2026-08-20T14:06:23Z",
-      "title": "Distributor set: Searchlight Pictures"
-    },
-    "recent_activity": [
       {
         "confidence": "Inferred",
-        "event_id": "675871-653ad0091165",
+        "event_id": "675871-430c8410b3dd",
         "event_type": "Distributor Change",
         "film_id": "675871",
         "importance": "Medium",
@@ -692,12 +539,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Searchlight Pictures.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Distributor set: Searchlight Pictures"
       },
       {
         "confidence": "Inferred",
-        "event_id": "675871-d1e7a63340aa",
+        "event_id": "675871-9c77d9a8640e",
         "event_type": "Awards Tier Changed",
         "film_id": "675871",
         "importance": "Medium",
@@ -707,12 +554,93 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
+        "title": "Awards tier assigned: No Current Awards Case"
+      }
+    ],
+    "release_relevance": 40.9,
+    "screening_room_score": {
+      "confidence": "High",
+      "explanation": "US release is 18 days away on 2026-08-07.",
+      "score": 6.094
+    },
+    "watch_triggers": [
+      "Prestige Distributor",
+      "Major Studio/Streamer",
+      "Franchise/Event",
+      "Trailer Available"
+    ],
+    "whats_changed": ""
+  },
+  "talent": {
+    "director": "Jay Chandrasekhar",
+    "principal_cast": [
+      "Jay Chandrasekhar",
+      "Paul Soter",
+      "Steve Lemme",
+      "Erik Stolhanske",
+      "Kevin Heffernan",
+      "Brian Cox",
+      "Marisa Coughlan",
+      "Nat Faxon"
+    ],
+    "producers": [],
+    "writers": [
+      "Paul Soter",
+      "Kevin Heffernan",
+      "Steve Lemme",
+      "Jay Chandrasekhar",
+      "Erik Stolhanske"
+    ]
+  },
+  "timeline": {
+    "events": [
+      {
+        "confidence": "Inferred",
+        "event_id": "675871-aec80524fb0d",
+        "event_type": "Release Scheduled",
+        "film_id": "675871",
+        "importance": "Medium",
+        "metadata": {
+          "release_date": "2026-08-07"
+        },
+        "source_type": "metadata",
+        "summary": "Release currently scheduled for In theaters Aug. 7.",
+        "timestamp": "2026-08-07",
+        "title": "Release scheduled"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "675871-430c8410b3dd",
+        "event_type": "Distributor Change",
+        "film_id": "675871",
+        "importance": "Medium",
+        "metadata": {
+          "distributor": "Searchlight Pictures"
+        },
+        "source_type": "metadata",
+        "summary": "Current distributor is Searchlight Pictures.",
+        "timestamp": "2026-07-29T21:38:25Z",
+        "title": "Distributor set: Searchlight Pictures"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "675871-9c77d9a8640e",
+        "event_type": "Awards Tier Changed",
+        "film_id": "675871",
+        "importance": "Medium",
+        "metadata": {
+          "awards_tier": "No Current Awards Case",
+          "categories": []
+        },
+        "source_type": "editorial_model",
+        "summary": "insufficient credible awards evidence",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "675871-2244540073ee",
+        "event_id": "675871-11da6a5c77c4",
         "event_type": "Added To Database",
         "film_id": "675871",
         "importance": "Low",
@@ -721,8 +649,67 @@
         },
         "source_type": "system",
         "summary": "Super Troopers 3 is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Added to Awards Intelligence"
+      }
+    ],
+    "latest_event": {
+      "confidence": "Inferred",
+      "event_id": "675871-aec80524fb0d",
+      "event_type": "Release Scheduled",
+      "film_id": "675871",
+      "importance": "Medium",
+      "metadata": {
+        "release_date": "2026-08-07"
+      },
+      "source_type": "metadata",
+      "summary": "Release currently scheduled for In theaters Aug. 7.",
+      "timestamp": "2026-08-07",
+      "title": "Release scheduled"
+    },
+    "recent_activity": [
+      {
+        "confidence": "Inferred",
+        "event_id": "675871-aec80524fb0d",
+        "event_type": "Release Scheduled",
+        "film_id": "675871",
+        "importance": "Medium",
+        "metadata": {
+          "release_date": "2026-08-07"
+        },
+        "source_type": "metadata",
+        "summary": "Release currently scheduled for In theaters Aug. 7.",
+        "timestamp": "2026-08-07",
+        "title": "Release scheduled"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "675871-430c8410b3dd",
+        "event_type": "Distributor Change",
+        "film_id": "675871",
+        "importance": "Medium",
+        "metadata": {
+          "distributor": "Searchlight Pictures"
+        },
+        "source_type": "metadata",
+        "summary": "Current distributor is Searchlight Pictures.",
+        "timestamp": "2026-07-29T21:38:25Z",
+        "title": "Distributor set: Searchlight Pictures"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "675871-9c77d9a8640e",
+        "event_type": "Awards Tier Changed",
+        "film_id": "675871",
+        "importance": "Medium",
+        "metadata": {
+          "awards_tier": "No Current Awards Case",
+          "categories": []
+        },
+        "source_type": "editorial_model",
+        "summary": "insufficient credible awards evidence",
+        "timestamp": "2026-07-29T21:38:25Z",
+        "title": "Awards tier assigned: No Current Awards Case"
       }
     ],
     "supported_event_types": [

@@ -7,7 +7,7 @@
       "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 42.8,
+    "attention_score": 43.1,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -25,12 +25,12 @@
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 2.6642",
+        "evidence": "TMDb popularity 2.8938",
         "source": "audience_popularity",
         "status": "verified"
       },
       {
-        "evidence": "Release date: 2026-11-18",
+        "evidence": "Release date: 2026-11-26",
         "source": "release_proximity",
         "status": "verified"
       },
@@ -46,14 +46,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 42.8,
+    "homepage_spotlight_score": 43.1,
     "industry_interest": null,
-    "last_updated": "20260820T140623Z",
+    "last_updated": "20260729T213825Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
         "evidence_count": 1,
-        "score": 6.7,
+        "score": 7.0,
         "statuses": [
           "verified"
         ]
@@ -130,6 +130,23 @@
     "predicted_categories": [],
     "probabilities": {}
   },
+  "awards_intelligence": {
+    "awards_candidate_status": "PROVISIONAL",
+    "awards_status": null,
+    "best_picture_rank": null,
+    "forecast_stage": null,
+    "forecast_stage_label": null,
+    "nominee_probability": null,
+    "percentage_policy": "PERCENTAGES_NOT_READY",
+    "prediction_confidence": null,
+    "probability_is_calibrated": false,
+    "public_card_behavior": "no_awards_badge",
+    "rank_change": null,
+    "ranking_eligibility": "NOT_RANKED",
+    "ranking_last_updated_at": null,
+    "source_artifact": "academy_nominee_website_card_handoff_v1.json",
+    "why_it_ranks": []
+  },
   "commercial": {
     "commercial_significance": 19.0,
     "distributor": "Prime Video",
@@ -139,8 +156,7 @@
       "Escape Artists",
       "SMAC Entertainment",
       "Skydance Sports",
-      "Amazon MGM Studios",
-      "Big Indie Pictures"
+      "Amazon MGM Studios"
     ]
   },
   "diagnostics": {
@@ -153,7 +169,7 @@
     "relationship_counts": {
       "related_films": 6,
       "related_people": 7,
-      "related_studios": 6
+      "related_studios": 5
     }
   },
   "editorial": {
@@ -173,7 +189,7 @@
     "premiere_type": ""
   },
   "film_identity": {
-    "backdrop": "https://image.tmdb.org/t/p/original/lRsapglJZIyMfGl8oQyNASlZqDC.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/hH2LGvFAohvkVkRNWBp2OB8vCW.jpg",
     "country": [
       "US"
     ],
@@ -182,23 +198,23 @@
       "History"
     ],
     "id": "1131943",
-    "imdb_id": "",
+    "imdb_id": "tt24818230",
     "language": "en",
     "original_title": "Madden",
     "poster": "",
     "profile_payload_url": "data/films/1131943.json",
     "profile_url": "film.html?id=1131943",
-    "release_date": "2026-11-18",
-    "release_display": "In theaters Nov. 18",
-    "runtime": null,
-    "synopsis": "Chronicles John Madden's incredible journey alongside best friend and true original Al Davis\u2014from a Super Bowl-winning partnership with the Raiders, to becoming football\u2019s most recognizable voice, to building the worldwide Madden NFL video game.",
+    "release_date": "2026-11-26",
+    "release_display": "In theaters Nov. 26",
+    "runtime": 0,
+    "synopsis": "John Madden's remarkable journey-from a Super Bowl-winning partnership with Al Davis and the Raiders, to creating Madden NFL, and becoming one of the most iconic voices in football history.",
     "title": "Madden",
     "tmdb_id": "1131943"
   },
   "intelligence": {
     "confidence": "Low",
     "confidence_score": 0.25,
-    "generated_at": "2026-08-20T14:06:00Z",
+    "generated_at": "2026-07-29T21:38:25Z",
     "headline": "Madden: no material change detected",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -217,16 +233,16 @@
         "streaming_provider_count_us": 0,
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": false,
-        "tmdb_popularity": 2.6642,
+        "tmdb_popularity": 2.8938,
         "tmdb_poster_count": 0,
-        "tmdb_release_date_us_primary": "2026-11-18",
+        "tmdb_release_date_us_primary": "2026-11-26",
         "tmdb_release_date_us_theatrical": "",
         "tmdb_release_status": "Post Production",
         "tmdb_vote_average": 0,
         "tmdb_vote_count": 0,
         "tmdb_watch_provider_count_us": 0,
         "trailer_available": false,
-        "trailer_count": 2
+        "trailer_count": 1
       },
       "source_signal_count": 24,
       "stale_signal_count": 0
@@ -235,36 +251,35 @@
     "summary": "Current provider signals do not show a supported material change.",
     "supporting_drivers": []
   },
-  "media": {},
+  "media": {
+    "backdrop": "https://image.tmdb.org/t/p/original/hH2LGvFAohvkVkRNWBp2OB8vCW.jpg"
+  },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260820T140623Z",
-    "profile_version": "phase6a",
+    "awards_intelligence_integrated_at": "2026-08-16T00:00:00Z",
+    "awards_intelligence_source": "academy_nominee_website_card_handoff_v1.json",
+    "generated_at": "slice57_current_discovery_enrichment",
+    "profile_version": "phase6a_registry_canonical_id_bridge_slice57_enriched",
     "source_data_date": "2026-07-20"
   },
   "performance": {
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 2.6642,
-        "retrieved_at": "2026-08-20",
+        "popularity": 2.8938,
+        "retrieved_at": "2026-07-29",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1131943",
         "status": "not_yet_rated"
       }
     },
-    "tmdb_popularity": {
-      "retrieved_at": "2026-08-20",
-      "source": "TMDb",
-      "source_url": "https://www.themoviedb.org/movie/1131943",
-      "value": 2.6642
-    },
+    "tmdb_popularity": 2.8938,
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 2.6642,
-      "retrieved_at": "2026-08-20",
+      "popularity": 2.8938,
+      "retrieved_at": "2026-07-29",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1131943",
       "status": "not_yet_rated"
@@ -385,32 +400,20 @@
       {
         "name": "Amazon MGM Studios",
         "role": "production_company"
-      },
-      {
-        "name": "Big Indie Pictures",
-        "role": "production_company"
       }
     ]
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.051,
-      "campaign_activity": 2.7,
+      "audience_momentum": 0.055,
+      "campaign_activity": 1.35,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-20T14:06:00Z",
+    "generated_at": "2026-07-29T21:38:25Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 6.076,
+    "score": 4.73,
     "source": "derived_screening_room_score",
     "top_drivers": [
-      {
-        "confidence": 0.9,
-        "contribution": 2.7,
-        "metric_name": "trailer_count",
-        "provider": "trailers",
-        "score_family": "campaign_activity",
-        "value": 2
-      },
       {
         "confidence": 0.55,
         "contribution": 2.2,
@@ -418,6 +421,14 @@
         "provider": "legacy_dashboard_talent_history_adapter",
         "score_family": "talent_profile",
         "value": 8
+      },
+      {
+        "confidence": 0.9,
+        "contribution": 1.35,
+        "metric_name": "trailer_count",
+        "provider": "trailers",
+        "score_family": "campaign_activity",
+        "value": 1
       },
       {
         "confidence": 0.5,
@@ -429,11 +440,11 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.051,
+        "contribution": 0.055,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 2.6642
+        "value": 2.8938
       }
     ]
   },
@@ -444,19 +455,19 @@
       "headline": "Madden: no material change detected",
       "summary": "Current provider signals do not show a supported material change."
     },
-    "last_updated": "2026-11-18",
+    "last_updated": "2026-11-26",
     "latest_event": {
       "confidence": "Inferred",
-      "event_id": "1131943-186254a05363",
+      "event_id": "1131943-288d9e540e94",
       "event_type": "Release Scheduled",
       "film_id": "1131943",
       "importance": "Medium",
       "metadata": {
-        "release_date": "2026-11-18"
+        "release_date": "2026-11-26"
       },
       "source_type": "metadata",
-      "summary": "Release currently scheduled for In theaters Nov. 18.",
-      "timestamp": "2026-11-18",
+      "summary": "Release currently scheduled for In theaters Nov. 26.",
+      "timestamp": "2026-11-26",
       "title": "Release scheduled"
     },
     "latest_intelligence": "As of 2026-07-18, this is a Prime Video release dated 2026-11-26 with general awards monitoring relevance; current awards profile is Unknown and data status is developing.",
@@ -466,21 +477,21 @@
     "recent_activity": [
       {
         "confidence": "Inferred",
-        "event_id": "1131943-186254a05363",
+        "event_id": "1131943-288d9e540e94",
         "event_type": "Release Scheduled",
         "film_id": "1131943",
         "importance": "Medium",
         "metadata": {
-          "release_date": "2026-11-18"
+          "release_date": "2026-11-26"
         },
         "source_type": "metadata",
-        "summary": "Release currently scheduled for In theaters Nov. 18.",
-        "timestamp": "2026-11-18",
+        "summary": "Release currently scheduled for In theaters Nov. 26.",
+        "timestamp": "2026-11-26",
         "title": "Release scheduled"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1131943-981aa8382aa5",
+        "event_id": "1131943-caeb7eb20874",
         "event_type": "Distributor Change",
         "film_id": "1131943",
         "importance": "Medium",
@@ -489,12 +500,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Prime Video.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Distributor set: Prime Video"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1131943-a06dab8762bf",
+        "event_id": "1131943-c3f8ac59f2ca",
         "event_type": "Awards Tier Changed",
         "film_id": "1131943",
         "importance": "Medium",
@@ -504,7 +515,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],
@@ -512,7 +523,7 @@
     "screening_room_score": {
       "confidence": "Low",
       "explanation": "Current provider signals do not show a supported material change.",
-      "score": 6.076
+      "score": 4.73
     },
     "watch_triggers": [
       "Major Studio/Streamer",
@@ -534,27 +545,30 @@
       "David Lengel"
     ],
     "producers": [],
-    "writers": []
+    "writers": [
+      "David O. Russell",
+      "Cambron Clark"
+    ]
   },
   "timeline": {
     "events": [
       {
         "confidence": "Inferred",
-        "event_id": "1131943-186254a05363",
+        "event_id": "1131943-288d9e540e94",
         "event_type": "Release Scheduled",
         "film_id": "1131943",
         "importance": "Medium",
         "metadata": {
-          "release_date": "2026-11-18"
+          "release_date": "2026-11-26"
         },
         "source_type": "metadata",
-        "summary": "Release currently scheduled for In theaters Nov. 18.",
-        "timestamp": "2026-11-18",
+        "summary": "Release currently scheduled for In theaters Nov. 26.",
+        "timestamp": "2026-11-26",
         "title": "Release scheduled"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1131943-981aa8382aa5",
+        "event_id": "1131943-caeb7eb20874",
         "event_type": "Distributor Change",
         "film_id": "1131943",
         "importance": "Medium",
@@ -563,12 +577,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Prime Video.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Distributor set: Prime Video"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1131943-a06dab8762bf",
+        "event_id": "1131943-c3f8ac59f2ca",
         "event_type": "Awards Tier Changed",
         "film_id": "1131943",
         "importance": "Medium",
@@ -578,12 +592,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1131943-382403a670e3",
+        "event_id": "1131943-827fd8c6eade",
         "event_type": "Added To Database",
         "film_id": "1131943",
         "importance": "Low",
@@ -592,42 +606,42 @@
         },
         "source_type": "system",
         "summary": "Madden is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Added to Awards Intelligence"
       }
     ],
     "latest_event": {
       "confidence": "Inferred",
-      "event_id": "1131943-186254a05363",
+      "event_id": "1131943-288d9e540e94",
       "event_type": "Release Scheduled",
       "film_id": "1131943",
       "importance": "Medium",
       "metadata": {
-        "release_date": "2026-11-18"
+        "release_date": "2026-11-26"
       },
       "source_type": "metadata",
-      "summary": "Release currently scheduled for In theaters Nov. 18.",
-      "timestamp": "2026-11-18",
+      "summary": "Release currently scheduled for In theaters Nov. 26.",
+      "timestamp": "2026-11-26",
       "title": "Release scheduled"
     },
     "recent_activity": [
       {
         "confidence": "Inferred",
-        "event_id": "1131943-186254a05363",
+        "event_id": "1131943-288d9e540e94",
         "event_type": "Release Scheduled",
         "film_id": "1131943",
         "importance": "Medium",
         "metadata": {
-          "release_date": "2026-11-18"
+          "release_date": "2026-11-26"
         },
         "source_type": "metadata",
-        "summary": "Release currently scheduled for In theaters Nov. 18.",
-        "timestamp": "2026-11-18",
+        "summary": "Release currently scheduled for In theaters Nov. 26.",
+        "timestamp": "2026-11-26",
         "title": "Release scheduled"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1131943-981aa8382aa5",
+        "event_id": "1131943-caeb7eb20874",
         "event_type": "Distributor Change",
         "film_id": "1131943",
         "importance": "Medium",
@@ -636,12 +650,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Prime Video.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Distributor set: Prime Video"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1131943-a06dab8762bf",
+        "event_id": "1131943-c3f8ac59f2ca",
         "event_type": "Awards Tier Changed",
         "film_id": "1131943",
         "importance": "Medium",
@@ -651,7 +665,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],

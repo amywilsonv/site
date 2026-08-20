@@ -8,7 +8,7 @@
       "Event Release",
       "Awards Watch"
     ],
-    "attention_score": 54.4,
+    "attention_score": 54.7,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -26,7 +26,7 @@
         "status": "verified"
       },
       {
-        "evidence": "Principal cast listed: Sam Rockwell, Scarlett Johansson, Tom Waits, Kathryn Hunter",
+        "evidence": "Principal cast listed: Sam Rockwell, Scarlett Johansson, Tom Waits, Patton Oswalt",
         "source": "cast_interest",
         "status": "verified"
       },
@@ -36,7 +36,7 @@
         "status": "inferred"
       },
       {
-        "evidence": "TMDb popularity 2.1767",
+        "evidence": "TMDb popularity 2.3717",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -57,14 +57,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 54.4,
+    "homepage_spotlight_score": 54.7,
     "industry_interest": null,
-    "last_updated": "20260820T140623Z",
+    "last_updated": "20260729T213825Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
         "evidence_count": 1,
-        "score": 6.0,
+        "score": 6.3,
         "statuses": [
           "verified"
         ]
@@ -153,6 +153,32 @@
     ],
     "probabilities": {}
   },
+  "awards_intelligence": {
+    "awards_candidate_status": "ACTIVE_CONTENDER",
+    "awards_status": "WATCHLIST",
+    "best_picture_rank": 27,
+    "forecast_stage": "STAGE_B",
+    "forecast_stage_label": "Stage B Early Season",
+    "nominee_probability": null,
+    "percentage_policy": "PERCENTAGES_NOT_READY",
+    "prediction_confidence": "RESEARCH_ONLY",
+    "probability_is_calibrated": false,
+    "public_card_behavior": "show_awards_status_and_rank",
+    "rank_change": null,
+    "ranking_eligibility": "RANKABLE",
+    "ranking_last_updated_at": "2026-08-16T00:00:00Z",
+    "source_artifact": "academy_nominee_website_card_handoff_v1.json",
+    "why_it_ranks": [
+      {
+        "code": "FALL_AWARDS_WINDOW_RELEASE",
+        "text": "Release timing falls in the fall awards window."
+      },
+      {
+        "code": "US_PRODUCTION_METADATA",
+        "text": "US production metadata present."
+      }
+    ]
+  },
   "commercial": {
     "commercial_significance": 19.0,
     "distributor": "Netflix",
@@ -203,10 +229,10 @@
       "Mystery"
     ],
     "id": "940009",
-    "imdb_id": "",
+    "imdb_id": "tt18270542",
     "language": "en",
     "original_title": "Ray Gunn",
-    "poster": "https://image.tmdb.org/t/p/original/qXexEAo999wlEp5rMsFnVSRaTSM.jpg",
+    "poster": "https://image.tmdb.org/t/p/original/e6eujC5Oq0C6y9tSUystGvS4Sh6.jpg",
     "profile_payload_url": "data/films/940009.json",
     "profile_url": "film.html?id=940009",
     "release_date": "2026-12-18",
@@ -219,7 +245,7 @@
   "intelligence": {
     "confidence": "Low",
     "confidence_score": 0.25,
-    "generated_at": "2026-08-20T14:06:00Z",
+    "generated_at": "2026-07-29T21:38:25Z",
     "headline": "Ray Gunn: no material change detected",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -238,8 +264,8 @@
         "streaming_provider_count_us": 0,
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": false,
-        "tmdb_popularity": 2.1767,
-        "tmdb_poster_count": 8,
+        "tmdb_popularity": 2.3717,
+        "tmdb_poster_count": 11,
         "tmdb_release_date_us_primary": "2026-12-18",
         "tmdb_release_date_us_theatrical": "",
         "tmdb_release_status": "Post Production",
@@ -256,42 +282,42 @@
     "summary": "Current provider signals do not show a supported material change.",
     "supporting_drivers": []
   },
-  "media": {},
+  "media": {
+    "backdrop": "https://image.tmdb.org/t/p/original/ueQMi6C6NQjWiG9wXC1NvBKWOVi.jpg",
+    "poster": "https://image.tmdb.org/t/p/original/e6eujC5Oq0C6y9tSUystGvS4Sh6.jpg"
+  },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260820T140623Z",
-    "profile_version": "phase6a",
+    "awards_intelligence_integrated_at": "2026-08-16T00:00:00Z",
+    "awards_intelligence_source": "academy_nominee_website_card_handoff_v1.json",
+    "generated_at": "slice57_current_discovery_enrichment",
+    "profile_version": "phase6a_registry_canonical_id_bridge_slice57_enriched",
     "source_data_date": "2026-07-20"
   },
   "performance": {
     "box_office": {
       "budget": 150000000,
       "currency": "USD",
-      "retrieved_at": "2026-08-20",
+      "retrieved_at": "2026-07-29",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/940009"
     },
     "ratings": {
       "tmdb": {
-        "popularity": 2.1767,
-        "retrieved_at": "2026-08-20",
+        "popularity": 2.3717,
+        "retrieved_at": "2026-07-29",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/940009",
         "status": "not_yet_rated"
       }
     },
-    "tmdb_popularity": {
-      "retrieved_at": "2026-08-20",
-      "source": "TMDb",
-      "source_url": "https://www.themoviedb.org/movie/940009",
-      "value": 2.1767
-    },
+    "tmdb_popularity": 2.3717,
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 2.1767,
-      "retrieved_at": "2026-08-20",
+      "popularity": 2.3717,
+      "retrieved_at": "2026-07-29",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/940009",
       "status": "not_yet_rated"
@@ -390,7 +416,7 @@
         "role": "actor"
       },
       {
-        "name": "Kathryn Hunter",
+        "name": "Patton Oswalt",
         "role": "actor"
       },
       {
@@ -423,13 +449,13 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.041,
+      "audience_momentum": 0.045,
       "awards_relevance": 2.4,
       "talent_profile": 2.925
     },
-    "generated_at": "2026-08-20T14:06:00Z",
+    "generated_at": "2026-07-29T21:38:25Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 5.366,
+    "score": 5.37,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -458,11 +484,11 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.041,
+        "contribution": 0.045,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 2.1767
+        "value": 2.3717
       }
     ]
   },
@@ -509,7 +535,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "940009-43bd3286988c",
+        "event_id": "940009-e91b91c8eeec",
         "event_type": "Distributor Change",
         "film_id": "940009",
         "importance": "Medium",
@@ -518,12 +544,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "940009-e9bf319a55d9",
+        "event_id": "940009-3008ffbc835e",
         "event_type": "Awards Tier Changed",
         "film_id": "940009",
         "importance": "Medium",
@@ -537,7 +563,7 @@
         },
         "source_type": "editorial_model",
         "summary": "category-specific awards case without broader contender evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Awards tier assigned: Category Contender"
       }
     ],
@@ -545,7 +571,7 @@
     "screening_room_score": {
       "confidence": "Low",
       "explanation": "Current provider signals do not show a supported material change.",
-      "score": 5.366
+      "score": 5.37
     },
     "watch_triggers": [
       "Prestige Distributor",
@@ -562,13 +588,16 @@
       "Sam Rockwell",
       "Scarlett Johansson",
       "Tom Waits",
-      "Kathryn Hunter",
+      "Patton Oswalt",
       "John Ratzenberger",
       "Jamie Costa",
-      "Patton Oswalt"
+      "Kathryn Hunter"
     ],
     "producers": [],
-    "writers": []
+    "writers": [
+      "Brad Bird",
+      "Matthew Robbins"
+    ]
   },
   "timeline": {
     "events": [
@@ -588,7 +617,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "940009-43bd3286988c",
+        "event_id": "940009-e91b91c8eeec",
         "event_type": "Distributor Change",
         "film_id": "940009",
         "importance": "Medium",
@@ -597,12 +626,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "940009-e9bf319a55d9",
+        "event_id": "940009-3008ffbc835e",
         "event_type": "Awards Tier Changed",
         "film_id": "940009",
         "importance": "Medium",
@@ -616,12 +645,12 @@
         },
         "source_type": "editorial_model",
         "summary": "category-specific awards case without broader contender evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Awards tier assigned: Category Contender"
       },
       {
         "confidence": "Inferred",
-        "event_id": "940009-a3ce91b3ee40",
+        "event_id": "940009-d0330a2426e7",
         "event_type": "Added To Database",
         "film_id": "940009",
         "importance": "Low",
@@ -630,7 +659,7 @@
         },
         "source_type": "system",
         "summary": "Ray Gunn is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -665,7 +694,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "940009-43bd3286988c",
+        "event_id": "940009-e91b91c8eeec",
         "event_type": "Distributor Change",
         "film_id": "940009",
         "importance": "Medium",
@@ -674,12 +703,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "940009-e9bf319a55d9",
+        "event_id": "940009-3008ffbc835e",
         "event_type": "Awards Tier Changed",
         "film_id": "940009",
         "importance": "Medium",
@@ -693,7 +722,7 @@
         },
         "source_type": "editorial_model",
         "summary": "category-specific awards case without broader contender evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Awards tier assigned: Category Contender"
       }
     ],

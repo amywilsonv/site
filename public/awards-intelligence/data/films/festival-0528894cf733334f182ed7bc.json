@@ -1,0 +1,156 @@
+{
+  "attention_intelligence": {},
+  "awards": {
+    "award_history": [],
+    "awards_tier": "No Current Awards Case",
+    "comparable_nominees": [],
+    "confidence": 0,
+    "current_awards_profile": "Festival Watch",
+    "explanation": "Film-discovery record only; not a nominee forecast.",
+    "predicted_categories": [],
+    "probabilities": {}
+  },
+  "awards_intelligence": {
+    "awards_candidate_status": "DISCOVERY_ONLY",
+    "awards_status": null,
+    "best_picture_rank": null,
+    "forecast_stage": null,
+    "forecast_stage_label": null,
+    "nominee_probability": null,
+    "percentage_policy": "PERCENTAGES_NOT_READY",
+    "prediction_confidence": null,
+    "probability_is_calibrated": false,
+    "public_card_behavior": "no_awards_badge",
+    "rank_change": null,
+    "ranking_eligibility": "NOT_RANKED",
+    "ranking_last_updated_at": null,
+    "source_artifact": "academy_nominee_website_card_handoff_v1.json",
+    "why_it_ranks": []
+  },
+  "commercial": {
+    "commercial_significance": 0,
+    "distributor": "Unknown",
+    "franchise": "",
+    "release_strategy": "",
+    "studio": [
+      "Richard Avedon Foundation",
+      "Fifth Season",
+      "Imagine Documentaries"
+    ]
+  },
+  "diagnostics": {
+    "completeness_score": 0,
+    "confidence": "Source-backed",
+    "missing_fields": [],
+    "relationship_counts": {}
+  },
+  "editorial": {
+    "discovery_reason": "Approved official festival lineup source",
+    "editorial_category": "Festival Watch",
+    "editorial_summary": "Source-backed official approved-festival lineup discovery record.",
+    "importance_tier": "Watchlist",
+    "primary_story": "Official festival lineup discovery",
+    "story_strength": "Developing",
+    "why_it_matters": "Source-backed official approved-festival lineup discovery record."
+  },
+  "festival": {
+    "awards_received": [],
+    "display_status": "Official Selection",
+    "festival_history": [
+      {
+        "festival_name": "Cannes",
+        "festival_year": 2026,
+        "last_updated": "2026-08-16T00:00:00Z",
+        "section": "Special Screenings",
+        "signal": "Official festival lineup source.",
+        "source_url": "https://www.festival-cannes.com/en/press/press-releases/the-films-of-the-official-selection-2026/"
+      }
+    ],
+    "festival_status": "Official Selection",
+    "premiere_type": ""
+  },
+  "film_identity": {
+    "backdrop": "https://image.tmdb.org/t/p/original/8mdZuwDtyhidCrb7ffsfl0FLeoN.jpg",
+    "canonical_film_id": "festival-0528894cf733334f182ed7bc",
+    "country": [
+      "US"
+    ],
+    "genres": [
+      "Documentary"
+    ],
+    "id": "festival-0528894cf733334f182ed7bc",
+    "imdb_id": "tt41593493",
+    "language": "en",
+    "original_title": "AVEDON",
+    "poster": "https://image.tmdb.org/t/p/original/n1uljBD7czHQmxhZAvFLuZlSnGe.jpg",
+    "profile_id": "festival-0528894cf733334f182ed7bc",
+    "profile_payload_url": "data/films/festival-0528894cf733334f182ed7bc.json",
+    "profile_url": "film.html?id=festival-0528894cf733334f182ed7bc",
+    "release_date": "2026-05-17",
+    "release_display": "2026-05-17",
+    "runtime": 0,
+    "synopsis": "Richard Avedon\u2019s photographs didn\u2019t just reflect culture, they shaped it, and continue to do so. The feature documentary AVEDON traces the life and legacy of an artist who used fashion, portraiture, and commercial photography to explore identity, power, fear and beauty. With unprecedented access to Avedon\u2019s archive, including never before seen photos, behind the scenes recordings, and interviews with those who knew him best, AVEDON is a visually stunning examination of the mind of an artist who shaped our collective image of the 20th century.",
+    "title": "AVEDON",
+    "tmdb_id": "1666787"
+  },
+  "media": {
+    "backdrop": "https://image.tmdb.org/t/p/original/8mdZuwDtyhidCrb7ffsfl0FLeoN.jpg",
+    "poster": "https://image.tmdb.org/t/p/original/n1uljBD7czHQmxhZAvFLuZlSnGe.jpg",
+    "trailer": ""
+  },
+  "metadata": {
+    "algorithm_version": "phase5b",
+    "awards_intelligence_integrated_at": "2026-08-16T00:00:00Z",
+    "awards_intelligence_source": "academy_nominee_website_card_handoff_v1.json",
+    "generated_at": "slice57_current_discovery_enrichment",
+    "profile_version": "phase6a_registry_canonical_id_bridge_slice57_enriched",
+    "registry": {
+      "canonical_film_id": "festival-0528894cf733334f182ed7bc",
+      "discovery_sources": "Cannes",
+      "first_seen_date": "2026-08-16",
+      "source_paths": "https://www.festival-cannes.com/en/press/press-releases/the-films-of-the-official-selection-2026/",
+      "tmdb_enriched_at": "2026-08-16",
+      "tmdb_enrichment_source": "slice_56_high_confidence_recoverability_audit"
+    },
+    "source_data_date": "2026-08-15"
+  },
+  "performance": {
+    "tmdb_popularity": 0.976
+  },
+  "ratings": {
+    "tmdb": {
+      "popularity": 0.976,
+      "rating": 4.0,
+      "vote_count": 1
+    }
+  },
+  "related": {
+    "related_films": [],
+    "related_people": [],
+    "related_studios": []
+  },
+  "signals": {
+    "cultural_significance": 0,
+    "latest_intelligence": "AVEDON entered film discovery via approved source-backed metadata.",
+    "momentum": 0,
+    "narrative_importance": 0,
+    "next_signal": "Monitor distributor, release, and TMDb enrichment updates.",
+    "release_relevance": 0,
+    "watch_triggers": [
+      "Official Festival Lineup"
+    ],
+    "whats_changed": "Added through canonical registry current-season export bridge."
+  },
+  "talent": {
+    "director": "Ron HOWARD",
+    "principal_cast": [
+      "Richard Avedon"
+    ],
+    "producers": [],
+    "writers": []
+  },
+  "timeline": {
+    "events": [],
+    "supported_event_types": []
+  }
+}

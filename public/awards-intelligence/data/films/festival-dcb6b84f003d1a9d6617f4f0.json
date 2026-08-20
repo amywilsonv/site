@@ -1,0 +1,168 @@
+{
+  "attention_intelligence": {},
+  "awards": {
+    "award_history": [],
+    "awards_tier": "No Current Awards Case",
+    "comparable_nominees": [],
+    "confidence": 0,
+    "current_awards_profile": "Festival Watch",
+    "explanation": "Film-discovery record only; not a nominee forecast.",
+    "predicted_categories": [],
+    "probabilities": {}
+  },
+  "awards_intelligence": {
+    "awards_candidate_status": "WATCHLIST",
+    "awards_status": null,
+    "best_picture_rank": null,
+    "forecast_stage": null,
+    "forecast_stage_label": null,
+    "nominee_probability": null,
+    "percentage_policy": "PERCENTAGES_NOT_READY",
+    "prediction_confidence": null,
+    "probability_is_calibrated": false,
+    "public_card_behavior": "optional_watchlist_badge",
+    "rank_change": null,
+    "ranking_eligibility": "NOT_RANKED",
+    "ranking_last_updated_at": null,
+    "source_artifact": "academy_nominee_website_card_handoff_v1.json",
+    "why_it_ranks": []
+  },
+  "commercial": {
+    "commercial_significance": 0,
+    "distributor": "Unknown",
+    "franchise": "",
+    "release_strategy": "",
+    "studio": [
+      "Peninsula Films",
+      "Concordia Studio",
+      "MountainA",
+      "Slow Pony",
+      "MRC"
+    ]
+  },
+  "diagnostics": {
+    "completeness_score": 0,
+    "confidence": "Source-backed",
+    "missing_fields": [],
+    "relationship_counts": {}
+  },
+  "editorial": {
+    "discovery_reason": "Approved official festival lineup source",
+    "editorial_category": "Festival Watch",
+    "editorial_summary": "Source-backed official approved-festival lineup discovery record.",
+    "importance_tier": "Watchlist",
+    "primary_story": "Official festival lineup discovery",
+    "story_strength": "Developing",
+    "why_it_matters": "Source-backed official approved-festival lineup discovery record."
+  },
+  "festival": {
+    "awards_received": [],
+    "display_status": "Official Selection",
+    "festival_history": [
+      {
+        "festival_name": "Sundance",
+        "festival_year": 2026,
+        "last_updated": "2026-08-16T00:00:00Z",
+        "section": "Premieres",
+        "signal": "Official festival lineup source.",
+        "source_url": "https://d2wsrejhnxatgp.cloudfront.net/assest/prod2/Program_Guide.pdf"
+      }
+    ],
+    "festival_status": "Official Selection",
+    "premiere_type": ""
+  },
+  "film_identity": {
+    "backdrop": "https://image.tmdb.org/t/p/original/cQpTCPdaJCKm88BBuwJb5wecWZL.jpg",
+    "canonical_film_id": "festival-dcb6b84f003d1a9d6617f4f0",
+    "country": [
+      "US",
+      "FR"
+    ],
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "id": "festival-dcb6b84f003d1a9d6617f4f0",
+    "imdb_id": "tt34382912",
+    "language": "en",
+    "original_title": "The Gallerist",
+    "poster": "https://image.tmdb.org/t/p/original/xqqno510An90CfExaIW5Co7m0xY.jpg",
+    "profile_id": "festival-dcb6b84f003d1a9d6617f4f0",
+    "profile_payload_url": "data/films/festival-dcb6b84f003d1a9d6617f4f0.json",
+    "profile_url": "film.html?id=festival-dcb6b84f003d1a9d6617f4f0",
+    "release_date": "2026-12-04",
+    "release_display": "2026-12-04",
+    "runtime": 88,
+    "synopsis": "A desperate gallerist conspires to sell a dead body at Art Basel Miami.",
+    "title": "The Gallerist",
+    "tmdb_id": "1379537"
+  },
+  "media": {
+    "backdrop": "https://image.tmdb.org/t/p/original/cQpTCPdaJCKm88BBuwJb5wecWZL.jpg",
+    "poster": "https://image.tmdb.org/t/p/original/xqqno510An90CfExaIW5Co7m0xY.jpg",
+    "trailer": ""
+  },
+  "metadata": {
+    "algorithm_version": "phase5b",
+    "awards_intelligence_integrated_at": "2026-08-16T00:00:00Z",
+    "awards_intelligence_source": "academy_nominee_website_card_handoff_v1.json",
+    "generated_at": "slice57_current_discovery_enrichment",
+    "profile_version": "phase6a_registry_canonical_id_bridge_slice57_enriched",
+    "registry": {
+      "canonical_film_id": "festival-dcb6b84f003d1a9d6617f4f0",
+      "discovery_sources": "Sundance",
+      "first_seen_date": "2026-08-16",
+      "source_paths": "https://d2wsrejhnxatgp.cloudfront.net/assest/prod2/Program_Guide.pdf",
+      "tmdb_enriched_at": "2026-08-16",
+      "tmdb_enrichment_source": "slice_56_high_confidence_recoverability_audit"
+    },
+    "source_data_date": "2026-08-15"
+  },
+  "performance": {
+    "tmdb_popularity": 2.7942
+  },
+  "ratings": {
+    "tmdb": {
+      "popularity": 2.7942
+    }
+  },
+  "related": {
+    "related_films": [],
+    "related_people": [],
+    "related_studios": []
+  },
+  "signals": {
+    "cultural_significance": 0,
+    "latest_intelligence": "The Gallerist entered film discovery via approved source-backed metadata.",
+    "momentum": 0,
+    "narrative_importance": 0,
+    "next_signal": "Monitor distributor, release, and TMDb enrichment updates.",
+    "release_relevance": 0,
+    "watch_triggers": [
+      "Official Festival Lineup"
+    ],
+    "whats_changed": "Added through canonical registry current-season export bridge."
+  },
+  "talent": {
+    "director": "Cathy Yan",
+    "principal_cast": [
+      "Natalie Portman",
+      "Jenna Ortega",
+      "Da'Vine Joy Randolph",
+      "Sterling K. Brown",
+      "Zach Galifianakis",
+      "Catherine Zeta-Jones",
+      "Daniel Br\u00fchl",
+      "Charli xcx"
+    ],
+    "producers": [],
+    "writers": [
+      "Cathy Yan",
+      "James Pedersen"
+    ]
+  },
+  "timeline": {
+    "events": [],
+    "supported_event_types": []
+  }
+}

@@ -1,24 +1,19 @@
 {
   "attention_intelligence": {
-    "anticipation_level": "Moderate",
+    "anticipation_level": "Developing",
     "attention_confidence": "High",
     "attention_reasons": [
       "Most Anticipated",
       "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 68.3,
+    "attention_score": 49.6,
     "attention_version": "phase7e_attention_v1",
-    "audience_interest": "Moderate",
+    "audience_interest": "Developing",
     "conversation_level": "Unavailable",
     "cultural_relevance": null,
     "early_reception": null,
     "evidence_sources": [
-      {
-        "evidence": "TMDb popularity 42.395",
-        "source": "audience_popularity",
-        "status": "verified"
-      },
       {
         "evidence": "Public-interest, franchise, event, or major-studio tracking signal",
         "source": "event_awareness",
@@ -30,13 +25,18 @@
         "status": "verified"
       },
       {
-        "evidence": "Principal cast listed: Christian Malheiros, Duda Pimenta, Julia Yamaguchi, JottaP\u00ea\ufeff",
+        "evidence": "Release date: 2026-08-12",
+        "source": "release_proximity",
+        "status": "verified"
+      },
+      {
+        "evidence": "Principal cast listed: Julia Yamaguchi, Christian Malheiros, Jottap\u00ea, Bruna Mascarenhas",
         "source": "cast_interest",
         "status": "verified"
       },
       {
-        "evidence": "Release date: 2026-08-12",
-        "source": "release_proximity",
+        "evidence": "TMDb popularity 2.2073",
+        "source": "audience_popularity",
         "status": "verified"
       },
       {
@@ -48,29 +48,24 @@
         "evidence": "Director: Johnny Ara\u00fajo",
         "source": "filmmaker_interest",
         "status": "verified"
-      },
-      {
-        "evidence": "13",
-        "source": "tmdb_vote_count",
-        "status": "verified"
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 68.3,
+    "homepage_spotlight_score": 49.6,
     "industry_interest": null,
-    "last_updated": "20260820T140623Z",
+    "last_updated": "20260729T213825Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
         "evidence_count": 1,
-        "score": 19.5,
+        "score": 6.0,
         "statuses": [
           "verified"
         ]
       },
       "commercial": {
         "evidence_count": 1,
-        "score": 7.1,
+        "score": 4.9,
         "statuses": [
           "inferred"
         ]
@@ -92,7 +87,7 @@
       },
       "talent/prestige": {
         "evidence_count": 2,
-        "score": 12.2,
+        "score": 9.2,
         "statuses": [
           "verified"
         ]
@@ -145,8 +140,25 @@
     ],
     "probabilities": {}
   },
+  "awards_intelligence": {
+    "awards_candidate_status": "PROVISIONAL",
+    "awards_status": null,
+    "best_picture_rank": null,
+    "forecast_stage": null,
+    "forecast_stage_label": null,
+    "nominee_probability": null,
+    "percentage_policy": "PERCENTAGES_NOT_READY",
+    "prediction_confidence": null,
+    "probability_is_calibrated": false,
+    "public_card_behavior": "no_awards_badge",
+    "rank_change": null,
+    "ranking_eligibility": "NOT_RANKED",
+    "ranking_last_updated_at": null,
+    "source_artifact": "academy_nominee_website_card_handoff_v1.json",
+    "why_it_ranks": []
+  },
   "commercial": {
-    "commercial_significance": 27.2,
+    "commercial_significance": 19.0,
     "distributor": "Netflix",
     "franchise": "",
     "release_strategy": "Streamer awards release",
@@ -155,12 +167,15 @@
     ]
   },
   "diagnostics": {
-    "completeness_score": 100,
-    "confidence": "High",
-    "missing_fields": [],
+    "completeness_score": 78,
+    "confidence": "Medium",
+    "missing_fields": [
+      "runtime",
+      "synopsis"
+    ],
     "relationship_counts": {
       "related_films": 6,
-      "related_people": 7,
+      "related_people": 6,
       "related_studios": 2
     }
   },
@@ -181,33 +196,32 @@
     "premiere_type": ""
   },
   "film_identity": {
-    "backdrop": "https://image.tmdb.org/t/p/original/pWvYluV8GNWQJRC4IdrZuJPLwzO.jpg",
+    "backdrop": "",
     "country": [
       "BR"
     ],
     "genres": [
-      "Drama",
-      "Thriller",
-      "Crime"
+      "Crime",
+      "Drama"
     ],
     "id": "1487864",
-    "imdb_id": "",
+    "imdb_id": "tt43640198",
     "language": "pt",
     "original_title": "Nando Entre Dois Mundos: Um Filme Sintonia",
-    "poster": "https://image.tmdb.org/t/p/original/lP558W6RgDYaQvs9GKNGPUhVOLU.jpg",
+    "poster": "https://image.tmdb.org/t/p/original/dwnqhUeXO1vRgXH9zgyeeihpxqo.jpg",
     "profile_payload_url": "data/films/1487864.json",
     "profile_url": "film.html?id=1487864",
     "release_date": "2026-08-12",
     "release_display": "In theaters Aug. 12",
-    "runtime": 109,
-    "synopsis": "Caught between family life and his obligations to the criminal underworld, Nando faces an impossible choice about where his true loyalties lie.",
+    "runtime": 0,
+    "synopsis": "",
     "title": "Nando Between Two Worlds - A Sintonia Film",
     "tmdb_id": "1487864"
   },
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-08-20T14:06:00Z",
+    "generated_at": "2026-07-29T21:38:25Z",
     "headline": "Nando Between Two Worlds - A Sintonia Film: release approaching",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -221,19 +235,19 @@
         "legacy_dashboard_festival_status": "",
         "legacy_dashboard_precursor_award_count": 0,
         "legacy_dashboard_principal_cast_count": 5,
-        "streaming_available_us": true,
-        "streaming_flatrate_provider_count_us": 2,
-        "streaming_provider_count_us": 2,
-        "tmdb_backdrop_count": 1,
+        "streaming_available_us": false,
+        "streaming_flatrate_provider_count_us": 0,
+        "streaming_provider_count_us": 0,
+        "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": false,
-        "tmdb_popularity": 42.395,
-        "tmdb_poster_count": 2,
+        "tmdb_popularity": 2.2073,
+        "tmdb_poster_count": 0,
         "tmdb_release_date_us_primary": "2026-08-12",
         "tmdb_release_date_us_theatrical": "",
-        "tmdb_release_status": "Released",
-        "tmdb_vote_average": 5.3,
-        "tmdb_vote_count": 13,
-        "tmdb_watch_provider_count_us": 2,
+        "tmdb_release_status": "Post Production",
+        "tmdb_vote_average": 0,
+        "tmdb_vote_count": 0,
+        "tmdb_watch_provider_count_us": 0,
         "trailer_available": false,
         "trailer_count": 0
       },
@@ -241,93 +255,59 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity rose from 2.2073 to 42.395. US release is 23 days away on 2026-08-12.",
+    "summary": "US release is 23 days away on 2026-08-12.",
     "supporting_drivers": [
-      {
-        "confidence_weight": 0.9,
-        "driver_type": "popularity_increasing",
-        "evidence": "TMDb popularity rose from 2.2073 to 42.395.",
-        "label": "Popularity increasing",
-        "retrieved_at": "2026-08-20T14:06:00Z",
-        "source_metric": "tmdb_popularity",
-        "source_provider": "tmdb",
-        "source_status": "available"
-      },
       {
         "confidence_weight": 0.8,
         "driver_type": "release_approaching",
         "evidence": "US release is 23 days away on 2026-08-12.",
         "label": "Release approaching",
-        "retrieved_at": "2026-08-20T14:06:00Z",
+        "retrieved_at": "2026-07-29T21:38:25Z",
         "source_metric": "tmdb_release_date_us_primary",
         "source_provider": "tmdb",
         "source_status": "available"
       }
     ]
   },
-  "media": {},
+  "media": {
+    "poster": "https://image.tmdb.org/t/p/original/dwnqhUeXO1vRgXH9zgyeeihpxqo.jpg"
+  },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260820T140623Z",
-    "profile_version": "phase6a",
+    "awards_intelligence_integrated_at": "2026-08-16T00:00:00Z",
+    "awards_intelligence_source": "academy_nominee_website_card_handoff_v1.json",
+    "generated_at": "slice57_current_discovery_enrichment",
+    "profile_version": "phase6a_registry_canonical_id_bridge_slice57_enriched",
     "source_data_date": "2026-07-20"
   },
   "performance": {
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 42.395,
-        "retrieved_at": "2026-08-20",
+        "popularity": 2.2073,
+        "retrieved_at": "2026-07-29",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1487864",
-        "status": "rated",
-        "vote_average": 5.3,
-        "vote_count": 13
+        "status": "not_yet_rated"
       }
     },
-    "tmdb_popularity": {
-      "retrieved_at": "2026-08-20",
-      "source": "TMDb",
-      "source_url": "https://www.themoviedb.org/movie/1487864",
-      "value": 42.395
-    },
-    "watch_providers": {
-      "country": "US",
-      "flatrate": [
-        {
-          "display_priority": 2,
-          "logo_url": "https://image.tmdb.org/t/p/original/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
-          "provider_id": 8,
-          "provider_name": "Netflix"
-        },
-        {
-          "display_priority": 151,
-          "logo_url": "https://image.tmdb.org/t/p/original/dpR8r13zWDeUR0QkzWidrdMxa56.jpg",
-          "provider_id": 1796,
-          "provider_name": "Netflix Standard with Ads"
-        }
-      ],
-      "retrieved_at": "2026-08-20",
-      "source": "TMDb",
-      "source_url": "https://www.themoviedb.org/movie/1487864-nando-entre-dois-mundos-um-filme-sintonia/watch?locale=US"
-    }
+    "tmdb_popularity": 2.2073,
+    "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 42.395,
-      "retrieved_at": "2026-08-20",
+      "popularity": 2.2073,
+      "retrieved_at": "2026-07-29",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1487864",
-      "status": "rated",
-      "vote_average": 5.3,
-      "vote_count": 13
+      "status": "not_yet_rated"
     }
   },
   "related": {
     "related_films": [
       {
         "profile_url": "film.html?id=1631807",
-        "relationship_score": 68,
+        "relationship_score": 72,
         "shared_signals": [
           "General Watch",
           "Crime",
@@ -350,6 +330,18 @@
         "tmdb_id": "1365884"
       },
       {
+        "profile_url": "film.html?id=1504358",
+        "relationship_score": 66,
+        "shared_signals": [
+          "General Watch",
+          "Drama",
+          "Acting",
+          "Best Picture"
+        ],
+        "title": "Don't Say Good Luck",
+        "tmdb_id": "1504358"
+      },
+      {
         "profile_url": "film.html?id=1422041",
         "relationship_score": 66,
         "shared_signals": [
@@ -363,12 +355,12 @@
       },
       {
         "profile_url": "film.html?id=1437882",
-        "relationship_score": 62,
+        "relationship_score": 56,
         "shared_signals": [
           "General Watch",
           "Drama",
-          "Thriller",
-          "Acting"
+          "Acting",
+          "Best Picture"
         ],
         "title": "A Place in Hell",
         "tmdb_id": "1437882"
@@ -384,18 +376,6 @@
         ],
         "title": "I Play Rocky",
         "tmdb_id": "1286656"
-      },
-      {
-        "profile_url": "film.html?id=1558094",
-        "relationship_score": 56,
-        "shared_signals": [
-          "General Watch",
-          "Drama",
-          "Acting",
-          "Best Picture"
-        ],
-        "title": "Let Love In",
-        "tmdb_id": "1558094"
       }
     ],
     "related_people": [
@@ -404,19 +384,15 @@
         "role": "director"
       },
       {
-        "name": "Christian Malheiros",
-        "role": "actor"
-      },
-      {
-        "name": "Duda Pimenta",
-        "role": "actor"
-      },
-      {
         "name": "Julia Yamaguchi",
         "role": "actor"
       },
       {
-        "name": "JottaP\u00ea\ufeff",
+        "name": "Christian Malheiros",
+        "role": "actor"
+      },
+      {
+        "name": "Jottap\u00ea",
         "role": "actor"
       },
       {
@@ -424,7 +400,7 @@
         "role": "actor"
       },
       {
-        "name": "Enio Cavalcante",
+        "name": "Duda Pimenta",
         "role": "actor"
       }
     ],
@@ -441,25 +417,15 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.905,
-      "audience_quality": 5.035,
-      "availability": 3.967,
+      "audience_momentum": 0.042,
       "awards_relevance": 2.4,
       "talent_profile": 2.125
     },
-    "generated_at": "2026-08-20T14:06:00Z",
+    "generated_at": "2026-07-29T21:38:25Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 14.432,
+    "score": 4.567,
     "source": "derived_screening_room_score",
     "top_drivers": [
-      {
-        "confidence": 0.95,
-        "contribution": 5.035,
-        "metric_name": "tmdb_vote_average",
-        "provider": "tmdb",
-        "score_family": "audience_quality",
-        "value": 5.3
-      },
       {
         "confidence": 0.5,
         "contribution": 2.4,
@@ -469,183 +435,58 @@
         "value": 3
       },
       {
-        "confidence": 0.85,
-        "contribution": 2.267,
-        "metric_name": "streaming_flatrate_provider_count_us",
-        "provider": "streaming_availability",
-        "score_family": "availability",
-        "value": 2
-      },
-      {
-        "confidence": 0.85,
-        "contribution": 1.7,
-        "metric_name": "streaming_provider_count_us",
-        "provider": "streaming_availability",
-        "score_family": "availability",
-        "value": 2
-      },
-      {
         "confidence": 0.55,
         "contribution": 1.375,
         "metric_name": "legacy_dashboard_principal_cast_count",
         "provider": "legacy_dashboard_talent_history_adapter",
         "score_family": "talent_profile",
         "value": 5
+      },
+      {
+        "confidence": 0.5,
+        "contribution": 0.75,
+        "metric_name": "legacy_dashboard_credited_talent_count",
+        "provider": "legacy_dashboard_talent_history_adapter",
+        "score_family": "talent_profile",
+        "value": 6
+      },
+      {
+        "confidence": 0.95,
+        "contribution": 0.042,
+        "metric_name": "tmdb_popularity",
+        "provider": "tmdb",
+        "score_family": "audience_momentum",
+        "value": 2.2073
       }
     ]
   },
   "signals": {
-    "cultural_significance": 27.2,
+    "cultural_significance": 19.0,
     "external_intelligence": {
       "confidence": "High",
       "headline": "Nando Between Two Worlds - A Sintonia Film: release approaching",
-      "summary": "TMDb popularity rose from 2.2073 to 42.395. US release is 23 days away on 2026-08-12."
+      "summary": "US release is 23 days away on 2026-08-12."
     },
-    "last_updated": "2026-08-20T14:06:23Z",
+    "last_updated": "2026-08-12",
     "latest_event": {
       "confidence": "Inferred",
-      "event_id": "1487864-cb49afae8a44",
-      "event_type": "Distributor Change",
+      "event_id": "1487864-78cd09e64f47",
+      "event_type": "Release Scheduled",
       "film_id": "1487864",
       "importance": "Medium",
       "metadata": {
-        "distributor": "Netflix"
+        "release_date": "2026-08-12"
       },
       "source_type": "metadata",
-      "summary": "Current distributor is Netflix.",
-      "timestamp": "2026-08-20T14:06:23Z",
-      "title": "Distributor set: Netflix"
+      "summary": "Release currently scheduled for In theaters Aug. 12.",
+      "timestamp": "2026-08-12",
+      "title": "Release scheduled"
     },
     "latest_intelligence": "As of 2026-07-18, this is a Netflix release dated 2026-08-12 with Best Picture, Acting relevance; current awards profile is Developing and data status is developing.",
     "momentum": 0.0,
     "narrative_importance": 0,
     "next_signal": "Watch for trailer and first campaign positioning.",
     "recent_activity": [
-      {
-        "confidence": "Inferred",
-        "event_id": "1487864-cb49afae8a44",
-        "event_type": "Distributor Change",
-        "film_id": "1487864",
-        "importance": "Medium",
-        "metadata": {
-          "distributor": "Netflix"
-        },
-        "source_type": "metadata",
-        "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-20T14:06:23Z",
-        "title": "Distributor set: Netflix"
-      },
-      {
-        "confidence": "Inferred",
-        "event_id": "1487864-5dca6b8383bf",
-        "event_type": "Awards Tier Changed",
-        "film_id": "1487864",
-        "importance": "Medium",
-        "metadata": {
-          "awards_tier": "No Current Awards Case",
-          "categories": [
-            "Best Picture",
-            "Acting",
-            "Multiple Pathways"
-          ]
-        },
-        "source_type": "editorial_model",
-        "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
-        "title": "Awards tier assigned: No Current Awards Case"
-      },
-      {
-        "confidence": "Inferred",
-        "event_id": "1487864-fddba059ca32",
-        "event_type": "Added To Database",
-        "film_id": "1487864",
-        "importance": "Low",
-        "metadata": {
-          "profile_version": "phase6a"
-        },
-        "source_type": "system",
-        "summary": "Nando Between Two Worlds - A Sintonia Film is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-20T14:06:23Z",
-        "title": "Added to Awards Intelligence"
-      }
-    ],
-    "release_relevance": 38.7,
-    "screening_room_score": {
-      "confidence": "High",
-      "explanation": "TMDb popularity rose from 2.2073 to 42.395. US release is 23 days away on 2026-08-12.",
-      "score": 14.432
-    },
-    "watch_triggers": [
-      "Prestige Distributor",
-      "Major Studio/Streamer",
-      "Awards-Friendly Genre"
-    ],
-    "whats_changed": ""
-  },
-  "talent": {
-    "director": "Johnny Ara\u00fajo",
-    "principal_cast": [
-      "Christian Malheiros",
-      "Duda Pimenta",
-      "Julia Yamaguchi",
-      "JottaP\u00ea\ufeff",
-      "Bruna Mascarenhas",
-      "Enio Cavalcante",
-      "Henrique Santana",
-      "Victor Galisteu"
-    ],
-    "producers": [],
-    "writers": []
-  },
-  "timeline": {
-    "events": [
-      {
-        "confidence": "Inferred",
-        "event_id": "1487864-cb49afae8a44",
-        "event_type": "Distributor Change",
-        "film_id": "1487864",
-        "importance": "Medium",
-        "metadata": {
-          "distributor": "Netflix"
-        },
-        "source_type": "metadata",
-        "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-20T14:06:23Z",
-        "title": "Distributor set: Netflix"
-      },
-      {
-        "confidence": "Inferred",
-        "event_id": "1487864-5dca6b8383bf",
-        "event_type": "Awards Tier Changed",
-        "film_id": "1487864",
-        "importance": "Medium",
-        "metadata": {
-          "awards_tier": "No Current Awards Case",
-          "categories": [
-            "Best Picture",
-            "Acting",
-            "Multiple Pathways"
-          ]
-        },
-        "source_type": "editorial_model",
-        "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
-        "title": "Awards tier assigned: No Current Awards Case"
-      },
-      {
-        "confidence": "Inferred",
-        "event_id": "1487864-fddba059ca32",
-        "event_type": "Added To Database",
-        "film_id": "1487864",
-        "importance": "Low",
-        "metadata": {
-          "profile_version": "phase6a"
-        },
-        "source_type": "system",
-        "summary": "Nando Between Two Worlds - A Sintonia Film is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-20T14:06:23Z",
-        "title": "Added to Awards Intelligence"
-      },
       {
         "confidence": "Inferred",
         "event_id": "1487864-78cd09e64f47",
@@ -659,26 +500,10 @@
         "summary": "Release currently scheduled for In theaters Aug. 12.",
         "timestamp": "2026-08-12",
         "title": "Release scheduled"
-      }
-    ],
-    "latest_event": {
-      "confidence": "Inferred",
-      "event_id": "1487864-cb49afae8a44",
-      "event_type": "Distributor Change",
-      "film_id": "1487864",
-      "importance": "Medium",
-      "metadata": {
-        "distributor": "Netflix"
       },
-      "source_type": "metadata",
-      "summary": "Current distributor is Netflix.",
-      "timestamp": "2026-08-20T14:06:23Z",
-      "title": "Distributor set: Netflix"
-    },
-    "recent_activity": [
       {
         "confidence": "Inferred",
-        "event_id": "1487864-cb49afae8a44",
+        "event_id": "1487864-67eb261c0932",
         "event_type": "Distributor Change",
         "film_id": "1487864",
         "importance": "Medium",
@@ -687,12 +512,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1487864-5dca6b8383bf",
+        "event_id": "1487864-e13042a8a4c3",
         "event_type": "Awards Tier Changed",
         "film_id": "1487864",
         "importance": "Medium",
@@ -706,12 +531,93 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
+        "title": "Awards tier assigned: No Current Awards Case"
+      }
+    ],
+    "release_relevance": 36.8,
+    "screening_room_score": {
+      "confidence": "High",
+      "explanation": "US release is 23 days away on 2026-08-12.",
+      "score": 4.567
+    },
+    "watch_triggers": [
+      "Prestige Distributor",
+      "Major Studio/Streamer",
+      "Awards-Friendly Genre"
+    ],
+    "whats_changed": ""
+  },
+  "talent": {
+    "director": "Johnny Ara\u00fajo",
+    "principal_cast": [
+      "Julia Yamaguchi",
+      "Christian Malheiros",
+      "Jottap\u00ea",
+      "Bruna Mascarenhas",
+      "Duda Pimenta"
+    ],
+    "producers": [],
+    "writers": [
+      "KondZilla",
+      "Felipe Braga",
+      "Guilherme Moraes Quintella",
+      "L\u00e9o Todeschini",
+      "Denis Nielsen"
+    ]
+  },
+  "timeline": {
+    "events": [
+      {
+        "confidence": "Inferred",
+        "event_id": "1487864-78cd09e64f47",
+        "event_type": "Release Scheduled",
+        "film_id": "1487864",
+        "importance": "Medium",
+        "metadata": {
+          "release_date": "2026-08-12"
+        },
+        "source_type": "metadata",
+        "summary": "Release currently scheduled for In theaters Aug. 12.",
+        "timestamp": "2026-08-12",
+        "title": "Release scheduled"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1487864-67eb261c0932",
+        "event_type": "Distributor Change",
+        "film_id": "1487864",
+        "importance": "Medium",
+        "metadata": {
+          "distributor": "Netflix"
+        },
+        "source_type": "metadata",
+        "summary": "Current distributor is Netflix.",
+        "timestamp": "2026-07-29T21:38:25Z",
+        "title": "Distributor set: Netflix"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1487864-e13042a8a4c3",
+        "event_type": "Awards Tier Changed",
+        "film_id": "1487864",
+        "importance": "Medium",
+        "metadata": {
+          "awards_tier": "No Current Awards Case",
+          "categories": [
+            "Best Picture",
+            "Acting",
+            "Multiple Pathways"
+          ]
+        },
+        "source_type": "editorial_model",
+        "summary": "insufficient credible awards evidence",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1487864-fddba059ca32",
+        "event_id": "1487864-12d561f455e2",
         "event_type": "Added To Database",
         "film_id": "1487864",
         "importance": "Low",
@@ -720,8 +626,71 @@
         },
         "source_type": "system",
         "summary": "Nando Between Two Worlds - A Sintonia Film is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Added to Awards Intelligence"
+      }
+    ],
+    "latest_event": {
+      "confidence": "Inferred",
+      "event_id": "1487864-78cd09e64f47",
+      "event_type": "Release Scheduled",
+      "film_id": "1487864",
+      "importance": "Medium",
+      "metadata": {
+        "release_date": "2026-08-12"
+      },
+      "source_type": "metadata",
+      "summary": "Release currently scheduled for In theaters Aug. 12.",
+      "timestamp": "2026-08-12",
+      "title": "Release scheduled"
+    },
+    "recent_activity": [
+      {
+        "confidence": "Inferred",
+        "event_id": "1487864-78cd09e64f47",
+        "event_type": "Release Scheduled",
+        "film_id": "1487864",
+        "importance": "Medium",
+        "metadata": {
+          "release_date": "2026-08-12"
+        },
+        "source_type": "metadata",
+        "summary": "Release currently scheduled for In theaters Aug. 12.",
+        "timestamp": "2026-08-12",
+        "title": "Release scheduled"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1487864-67eb261c0932",
+        "event_type": "Distributor Change",
+        "film_id": "1487864",
+        "importance": "Medium",
+        "metadata": {
+          "distributor": "Netflix"
+        },
+        "source_type": "metadata",
+        "summary": "Current distributor is Netflix.",
+        "timestamp": "2026-07-29T21:38:25Z",
+        "title": "Distributor set: Netflix"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1487864-e13042a8a4c3",
+        "event_type": "Awards Tier Changed",
+        "film_id": "1487864",
+        "importance": "Medium",
+        "metadata": {
+          "awards_tier": "No Current Awards Case",
+          "categories": [
+            "Best Picture",
+            "Acting",
+            "Multiple Pathways"
+          ]
+        },
+        "source_type": "editorial_model",
+        "summary": "insufficient credible awards evidence",
+        "timestamp": "2026-07-29T21:38:25Z",
+        "title": "Awards tier assigned: No Current Awards Case"
       }
     ],
     "supported_event_types": [

@@ -2,65 +2,6 @@
   "events": [
     {
       "confidence": "Inferred",
-      "event_id": "1493400-29422a9d73f0",
-      "event_type": "Homepage Featured",
-      "film_id": "1493400",
-      "importance": "Medium",
-      "metadata": {
-        "editorial_category": "Major Release"
-      },
-      "source_type": "discovery_homepage",
-      "summary": "Camp Rock 3 is currently selected for the homepage experience.",
-      "timestamp": "2026-08-20T14:06:23Z",
-      "title": "Featured in The Screening Room"
-    },
-    {
-      "confidence": "Inferred",
-      "event_id": "1493400-22f914355dac",
-      "event_type": "Distributor Change",
-      "film_id": "1493400",
-      "importance": "Medium",
-      "metadata": {
-        "distributor": "Disney"
-      },
-      "source_type": "metadata",
-      "summary": "Current distributor is Disney.",
-      "timestamp": "2026-08-20T14:06:23Z",
-      "title": "Distributor set: Disney"
-    },
-    {
-      "confidence": "Inferred",
-      "event_id": "1493400-dbeede3051a8",
-      "event_type": "Awards Tier Changed",
-      "film_id": "1493400",
-      "importance": "Medium",
-      "metadata": {
-        "awards_tier": "Emerging",
-        "categories": [
-          "Song / Score"
-        ]
-      },
-      "source_type": "editorial_model",
-      "summary": "plausible but incomplete awards evidence",
-      "timestamp": "2026-08-20T14:06:23Z",
-      "title": "Awards tier assigned: Emerging"
-    },
-    {
-      "confidence": "Inferred",
-      "event_id": "1493400-7dd2406bcfa9",
-      "event_type": "Added To Database",
-      "film_id": "1493400",
-      "importance": "Low",
-      "metadata": {
-        "profile_version": "phase6a"
-      },
-      "source_type": "system",
-      "summary": "Camp Rock 3 is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-08-20T14:06:23Z",
-      "title": "Added to Awards Intelligence"
-    },
-    {
-      "confidence": "Inferred",
       "event_id": "1493400-6e8eb0fcc46b",
       "event_type": "Release Scheduled",
       "film_id": "1493400",
@@ -72,26 +13,71 @@
       "summary": "Release currently scheduled for In theaters Aug. 13.",
       "timestamp": "2026-08-13",
       "title": "Release scheduled"
+    },
+    {
+      "confidence": "Inferred",
+      "event_id": "1493400-9b70042e8910",
+      "event_type": "Distributor Change",
+      "film_id": "1493400",
+      "importance": "Medium",
+      "metadata": {
+        "distributor": "Disney"
+      },
+      "source_type": "metadata",
+      "summary": "Current distributor is Disney.",
+      "timestamp": "2026-07-29T21:38:25Z",
+      "title": "Distributor set: Disney"
+    },
+    {
+      "confidence": "Inferred",
+      "event_id": "1493400-e109360f7404",
+      "event_type": "Awards Tier Changed",
+      "film_id": "1493400",
+      "importance": "Medium",
+      "metadata": {
+        "awards_tier": "Emerging",
+        "categories": [
+          "Song / Score"
+        ]
+      },
+      "source_type": "editorial_model",
+      "summary": "plausible but incomplete awards evidence",
+      "timestamp": "2026-07-29T21:38:25Z",
+      "title": "Awards tier assigned: Emerging"
+    },
+    {
+      "confidence": "Inferred",
+      "event_id": "1493400-c79f4ec250aa",
+      "event_type": "Added To Database",
+      "film_id": "1493400",
+      "importance": "Low",
+      "metadata": {
+        "profile_version": "phase6a"
+      },
+      "source_type": "system",
+      "summary": "Camp Rock 3 is tracked in the Film Intelligence profile set.",
+      "timestamp": "2026-07-29T21:38:25Z",
+      "title": "Added to Awards Intelligence"
     }
   ],
   "latest_event": {
     "confidence": "Inferred",
-    "event_id": "1493400-29422a9d73f0",
-    "event_type": "Homepage Featured",
+    "event_id": "1493400-6e8eb0fcc46b",
+    "event_type": "Release Scheduled",
     "film_id": "1493400",
     "importance": "Medium",
     "metadata": {
-      "editorial_category": "Major Release"
+      "release_date": "2026-08-13"
     },
-    "source_type": "discovery_homepage",
-    "summary": "Camp Rock 3 is currently selected for the homepage experience.",
-    "timestamp": "2026-08-20T14:06:23Z",
-    "title": "Featured in The Screening Room"
+    "source_type": "metadata",
+    "summary": "Release currently scheduled for In theaters Aug. 13.",
+    "timestamp": "2026-08-13",
+    "title": "Release scheduled"
   },
   "metadata": {
-    "event_count": 5,
+    "event_count": 4,
     "film_id": "1493400",
-    "generated_at": "20260820T140623Z",
+    "generated_at": "slice57_current_discovery_enrichment",
     "timeline_version": "phase6b",
     "title": "Camp Rock 3",
     "tmdb_id": "1493400"

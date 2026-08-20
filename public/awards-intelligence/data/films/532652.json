@@ -7,7 +7,7 @@
       "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 63.6,
+    "attention_score": 63.0,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -40,7 +40,7 @@
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 3.1393",
+        "evidence": "TMDb popularity 2.6644",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -51,14 +51,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 63.6,
+    "homepage_spotlight_score": 63.0,
     "industry_interest": "High",
-    "last_updated": "20260820T140623Z",
+    "last_updated": "20260729T213825Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
         "evidence_count": 1,
-        "score": 7.3,
+        "score": 6.7,
         "statuses": [
           "verified"
         ]
@@ -135,6 +135,23 @@
     "predicted_categories": [],
     "probabilities": {}
   },
+  "awards_intelligence": {
+    "awards_candidate_status": "ELIGIBILITY_UNCERTAIN",
+    "awards_status": null,
+    "best_picture_rank": null,
+    "forecast_stage": null,
+    "forecast_stage_label": null,
+    "nominee_probability": null,
+    "percentage_policy": "PERCENTAGES_NOT_READY",
+    "prediction_confidence": null,
+    "probability_is_calibrated": false,
+    "public_card_behavior": "no_awards_badge",
+    "rank_change": null,
+    "ranking_eligibility": "NOT_RANKED",
+    "ranking_last_updated_at": null,
+    "source_artifact": "academy_nominee_website_card_handoff_v1.json",
+    "why_it_ranks": []
+  },
   "commercial": {
     "commercial_significance": 62.8,
     "distributor": "Lionsgate",
@@ -182,7 +199,7 @@
       "Drama"
     ],
     "id": "532652",
-    "imdb_id": "",
+    "imdb_id": "tt5795232",
     "language": "en",
     "original_title": "The Resurrection of the Christ: Part One",
     "poster": "https://image.tmdb.org/t/p/original/qx3QVH1eVqtrdvL1dndXPhCktLq.jpg",
@@ -190,16 +207,16 @@
     "profile_url": "film.html?id=532652",
     "release_date": "2027-05-06",
     "release_display": "May. 6, 2027",
-    "runtime": null,
+    "runtime": 0,
     "synopsis": "The first part of a two-part sequel to The Passion of the Christ. Plot TBA.",
     "title": "The Resurrection of the Christ: Part One",
     "tmdb_id": "532652"
   },
   "intelligence": {
-    "confidence": "High",
-    "confidence_score": 0.99,
-    "generated_at": "2026-08-20T14:06:00Z",
-    "headline": "The Resurrection of the Christ: Part One: popularity increasing",
+    "confidence": "Low",
+    "confidence_score": 0.25,
+    "generated_at": "2026-07-29T21:38:25Z",
+    "headline": "The Resurrection of the Christ: Part One: no material change detected",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
       "signal_values": {
@@ -217,7 +234,7 @@
         "streaming_provider_count_us": 0,
         "tmdb_backdrop_count": 1,
         "tmdb_canonical_trailer_available": false,
-        "tmdb_popularity": 3.1393,
+        "tmdb_popularity": 2.6644,
         "tmdb_poster_count": 2,
         "tmdb_release_date_us_primary": "2027-05-06",
         "tmdb_release_date_us_theatrical": "2027-05-06",
@@ -232,56 +249,45 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity rose from 2.6644 to 3.1393.",
-    "supporting_drivers": [
-      {
-        "confidence_weight": 0.9,
-        "driver_type": "popularity_increasing",
-        "evidence": "TMDb popularity rose from 2.6644 to 3.1393.",
-        "label": "Popularity increasing",
-        "retrieved_at": "2026-08-20T14:06:00Z",
-        "source_metric": "tmdb_popularity",
-        "source_provider": "tmdb",
-        "source_status": "available"
-      }
-    ]
+    "summary": "Current provider signals do not show a supported material change.",
+    "supporting_drivers": []
   },
-  "media": {},
+  "media": {
+    "backdrop": "https://image.tmdb.org/t/p/original/uLCH0RWdJoj0GOoaJfsqpOCMODr.jpg",
+    "poster": "https://image.tmdb.org/t/p/original/qx3QVH1eVqtrdvL1dndXPhCktLq.jpg"
+  },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260820T140623Z",
-    "profile_version": "phase6a",
+    "awards_intelligence_integrated_at": "2026-08-16T00:00:00Z",
+    "awards_intelligence_source": "academy_nominee_website_card_handoff_v1.json",
+    "generated_at": "slice57_current_discovery_enrichment",
+    "profile_version": "phase6a_registry_canonical_id_bridge_slice57_enriched",
     "source_data_date": "2026-07-20"
   },
   "performance": {
     "box_office": {
       "budget": 250000000,
       "currency": "USD",
-      "retrieved_at": "2026-08-20",
+      "retrieved_at": "2026-07-29",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/532652"
     },
     "ratings": {
       "tmdb": {
-        "popularity": 3.1393,
-        "retrieved_at": "2026-08-20",
+        "popularity": 2.6644,
+        "retrieved_at": "2026-07-29",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/532652",
         "status": "not_yet_rated"
       }
     },
-    "tmdb_popularity": {
-      "retrieved_at": "2026-08-20",
-      "source": "TMDb",
-      "source_url": "https://www.themoviedb.org/movie/532652",
-      "value": 3.1393
-    },
+    "tmdb_popularity": 2.6644,
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 3.1393,
-      "retrieved_at": "2026-08-20",
+      "popularity": 2.6644,
+      "retrieved_at": "2026-07-29",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/532652",
       "status": "not_yet_rated"
@@ -289,16 +295,6 @@
   },
   "related": {
     "related_films": [
-      {
-        "profile_url": "film.html?id=1693902",
-        "relationship_score": 44,
-        "shared_signals": [
-          "Major Release",
-          "Drama"
-        ],
-        "title": "Jhingedaau 2",
-        "tmdb_id": "1693902"
-      },
       {
         "profile_url": "film.html?id=1457866",
         "relationship_score": 44,
@@ -335,7 +331,7 @@
         "shared_signals": [
           "Major Release"
         ],
-        "title": "Focker-in-Law",
+        "title": "Focker-In-Law",
         "tmdb_id": "1400336"
       },
       {
@@ -346,6 +342,16 @@
         ],
         "title": "The Mouse Trap: Welcome to the Mickeyverse",
         "tmdb_id": "1353167"
+      },
+      {
+        "profile_url": "film.html?id=1493400",
+        "relationship_score": 34,
+        "shared_signals": [
+          "Major Release",
+          "Drama"
+        ],
+        "title": "Camp Rock 3",
+        "tmdb_id": "1493400"
       }
     ],
     "related_people": [
@@ -395,13 +401,13 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.06,
+      "audience_momentum": 0.051,
       "campaign_activity": 2.7,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-20T14:06:00Z",
+    "generated_at": "2026-07-29T21:38:25Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 6.085,
+    "score": 6.076,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -430,20 +436,20 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.06,
+        "contribution": 0.051,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 3.1393
+        "value": 2.6644
       }
     ]
   },
   "signals": {
     "cultural_significance": 62.8,
     "external_intelligence": {
-      "confidence": "High",
-      "headline": "The Resurrection of the Christ: Part One: popularity increasing",
-      "summary": "TMDb popularity rose from 2.6644 to 3.1393."
+      "confidence": "Low",
+      "headline": "The Resurrection of the Christ: Part One: no material change detected",
+      "summary": "Current provider signals do not show a supported material change."
     },
     "last_updated": "2027-05-06",
     "latest_event": {
@@ -481,7 +487,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "532652-2e368ba2cded",
+        "event_id": "532652-c3990564b796",
         "event_type": "Distributor Change",
         "film_id": "532652",
         "importance": "Medium",
@@ -490,12 +496,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Lionsgate.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Distributor set: Lionsgate"
       },
       {
         "confidence": "Inferred",
-        "event_id": "532652-227e26f2ea2d",
+        "event_id": "532652-d1f9988a2f24",
         "event_type": "Awards Tier Changed",
         "film_id": "532652",
         "importance": "Medium",
@@ -505,15 +511,15 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],
     "release_relevance": 11.2,
     "screening_room_score": {
-      "confidence": "High",
-      "explanation": "TMDb popularity rose from 2.6644 to 3.1393.",
-      "score": 6.085
+      "confidence": "Low",
+      "explanation": "Current provider signals do not show a supported material change.",
+      "score": 6.076
     },
     "watch_triggers": [
       "Major Studio/Streamer",
@@ -535,7 +541,11 @@
       "Andrea Scarduzio"
     ],
     "producers": [],
-    "writers": []
+    "writers": [
+      "Mel Gibson",
+      "Randall Wallace",
+      "Donal Gibson"
+    ]
   },
   "timeline": {
     "events": [
@@ -555,7 +565,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "532652-2e368ba2cded",
+        "event_id": "532652-c3990564b796",
         "event_type": "Distributor Change",
         "film_id": "532652",
         "importance": "Medium",
@@ -564,12 +574,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Lionsgate.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Distributor set: Lionsgate"
       },
       {
         "confidence": "Inferred",
-        "event_id": "532652-227e26f2ea2d",
+        "event_id": "532652-d1f9988a2f24",
         "event_type": "Awards Tier Changed",
         "film_id": "532652",
         "importance": "Medium",
@@ -579,12 +589,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "532652-a8edcaf860ff",
+        "event_id": "532652-43d1998f8d91",
         "event_type": "Added To Database",
         "film_id": "532652",
         "importance": "Low",
@@ -593,7 +603,7 @@
         },
         "source_type": "system",
         "summary": "The Resurrection of the Christ: Part One is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -628,7 +638,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "532652-2e368ba2cded",
+        "event_id": "532652-c3990564b796",
         "event_type": "Distributor Change",
         "film_id": "532652",
         "importance": "Medium",
@@ -637,12 +647,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Lionsgate.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Distributor set: Lionsgate"
       },
       {
         "confidence": "Inferred",
-        "event_id": "532652-227e26f2ea2d",
+        "event_id": "532652-d1f9988a2f24",
         "event_type": "Awards Tier Changed",
         "film_id": "532652",
         "importance": "Medium",
@@ -652,7 +662,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],

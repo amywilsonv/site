@@ -146,14 +146,6 @@ const categoryLabels: Record<string, string> = {
 
 const forecastCeremonies = [2025, 2026] as const;
 
-const modelLabels: Record<string, string> = {
-  logistic_regression: "Logistic Regression",
-  random_forest: "Random Forest",
-  xgboost: "XGBoost",
-  lightgbm: "LightGBM",
-  catboost: "CatBoost",
-};
-
 const featureLabels: Record<string, string> = {
   pga_win: "PGA win",
   pga_nomination: "PGA nomination",
@@ -239,7 +231,7 @@ const definitions = {
     "A test that only lets the model learn from earlier ceremonies before predicting a later one.",
   "Current Big 6 Nominees": "Known nominees included in the selected ceremony forecast.",
   "Win Probability":
-    "The nominee's share of the category after raw model scores are normalized to 100%.",
+    "A relative read on how strongly the nominee ranks in the current public forecast.",
   Confidence: "A quick read on how separated the prediction is from the rest of the field.",
   Backtested: "How often this model got past ceremonies right when tested year by year.",
   "Backtested Accuracy": "How often this model got past ceremonies right when tested year by year.",
@@ -271,10 +263,6 @@ function percent(value: number | null | undefined) {
 
 function ceremonyYear(filmYear: number) {
   return filmYear + 1;
-}
-
-function modelName(value: string) {
-  return modelLabels[value] ?? value.replaceAll("_", " ").replace(/\b\w/g, (letter) => letter.toUpperCase());
 }
 
 function featureName(value: string) {
@@ -584,8 +572,8 @@ export default function OscarPredictionDashboard() {
         <div className="mx-auto max-w-6xl rounded-xl border border-[#d9c99e] bg-[#fff8e6] px-5 py-4 sm:px-6">
           <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[#8c6f3d]">Current scope</p>
           <p className="mt-2 max-w-4xl text-sm leading-6 text-[#4f493f]">
-            This prototype currently ranks known nominees and estimates winner probabilities. It does not yet identify
-            likely nominees from the full universe of eligible films.
+            This prototype currently ranks known nominees. It does not yet identify likely nominees from the full
+            universe of eligible films.
           </p>
         </div>
       </section>
@@ -634,8 +622,8 @@ export default function OscarPredictionDashboard() {
           title="Nominee Rankings"
           description={
             <>
-              The full ordering matters. <DefinitionTooltip term="Win Probability" /> shows relative strength within a
-              race, while <DefinitionTooltip term="Confidence" /> gives a quick read on separation.
+              The full ordering matters. <DefinitionTooltip term="Confidence" /> gives a quick read on separation within
+              each race.
             </>
           }
         />
@@ -974,26 +962,14 @@ function PredictionCard({
           {display.secondary ?? ""}
         </p>
       </div>
-      <div>
-        <div className="flex items-end justify-between gap-3">
-          <span className="text-xs font-semibold uppercase tracking-[0.14em] text-[#6d675d]">
-            Win Probability
-          </span>
-          <span className="text-[clamp(1.25rem,2.3vw,1.7rem)] font-medium">
-            {percent(prediction.display_win_probability)}
-          </span>
-        </div>
-        <div className="mt-2 h-1.5 rounded-full bg-black/10">
-          <div
-            className="h-full rounded-full bg-[#8c6f3d]"
-            style={{ width: `${Math.min(100, Math.max(0, prediction.display_win_probability * 100))}%` }}
-          />
-        </div>
-      </div>
       <div className="grid gap-2 text-sm">
         <InfoBox
-          label="Backtested Accuracy"
-          value={percent(prediction.backtested_winner_accuracy)}
+          label="Forecast Position"
+          value={`Rank #${prediction.predicted_rank}`}
+        />
+        <InfoBox
+          label="Forecast Read"
+          value={displayConfidence(prediction.display_win_probability)}
         />
       </div>
       <FactorList
@@ -1026,26 +1002,22 @@ function RankingCard({ title, rows }: { title: string; rows: DisplayPrediction[]
       <div
         className={`hidden border-b border-black/10 bg-[#f7f4ee] px-4 py-2 text-[0.66rem] font-semibold uppercase tracking-[0.12em] text-[#6d675d] sm:grid sm:items-center sm:gap-3 ${
           isBestPicture
-            ? "sm:grid-cols-[2rem_minmax(0,1.8fr)_5.5rem_6.5rem_4.5rem]"
-            : "sm:grid-cols-[2rem_minmax(0,1.15fr)_minmax(0,1.2fr)_5.5rem_6.5rem_4.5rem]"
+            ? "sm:grid-cols-[2rem_minmax(0,1.8fr)_6.5rem]"
+            : "sm:grid-cols-[2rem_minmax(0,1.15fr)_minmax(0,1.2fr)_6.5rem]"
         }`}
       >
         {isBestPicture ? (
           <>
             <div>Rank</div>
             <div>Film</div>
-            <div>Win %</div>
-            <div>Model</div>
-            <div>Confidence</div>
+            <div>Read</div>
           </>
         ) : (
           <>
             <div>Rank</div>
             <div>Film</div>
             <div>Nominee</div>
-            <div>Win %</div>
-            <div>Model</div>
-            <div>Confidence</div>
+            <div>Read</div>
           </>
         )}
       </div>
@@ -1056,8 +1028,8 @@ function RankingCard({ title, rows }: { title: string; rows: DisplayPrediction[]
               row.predicted_rank === 1 ? "bg-[#fff8e6]" : ""
             } ${
               isBestPicture
-                ? "sm:grid-cols-[2rem_minmax(0,1.8fr)_5.5rem_6.5rem_4.5rem]"
-                : "sm:grid-cols-[2rem_minmax(0,1.15fr)_minmax(0,1.2fr)_5.5rem_6.5rem_4.5rem]"
+                ? "sm:grid-cols-[2rem_minmax(0,1.8fr)_6.5rem]"
+                : "sm:grid-cols-[2rem_minmax(0,1.15fr)_minmax(0,1.2fr)_6.5rem]"
             }`}
             key={`${row.category_key}-${row.predicted_rank}-${row.film}-${row.person ?? "film"}`}
           >
@@ -1077,12 +1049,7 @@ function RankingCard({ title, rows }: { title: string; rows: DisplayPrediction[]
               </div>
             ) : null}
             <div className="flex items-center justify-between gap-3 sm:block">
-              <span className="text-xs uppercase tracking-[0.12em] text-[#6d675d] sm:hidden">Win %</span>
-              <span className="text-sm font-medium">{percent(row.display_win_probability)}</span>
-            </div>
-            <div className="hidden text-xs text-[#6d675d] sm:block">{modelName(row.model_type_used)}</div>
-            <div className="flex items-center justify-between gap-3 sm:block">
-              <span className="text-xs uppercase tracking-[0.12em] text-[#6d675d] sm:hidden">Confidence</span>
+              <span className="text-xs uppercase tracking-[0.12em] text-[#6d675d] sm:hidden">Read</span>
               <span className="text-xs text-[#6d675d]">{displayConfidence(row.display_win_probability)}</span>
             </div>
           </div>
@@ -1109,7 +1076,7 @@ function WhyModelLikesSection({ winners }: { winners: DisplayPrediction[] }) {
                 <span className="rounded-full border border-black/10 bg-[#f7f4ee] px-3 py-1 text-xs font-medium text-[#5e5a52]">
                   {categoryLabels[winner.category_key]}
                 </span>
-                <span className="text-xs font-medium text-[#8c6f3d]">{percent(winner.display_win_probability)}</span>
+                <span className="text-xs font-medium text-[#8c6f3d]">Rank #{winner.predicted_rank}</span>
               </div>
               <p className="mt-4 text-[0.68rem] font-semibold uppercase tracking-[0.14em] text-[#6d675d]">Leader</p>
               <h3 className="mt-1 font-medium leading-snug text-[#25231f]">{display.primary}</h3>

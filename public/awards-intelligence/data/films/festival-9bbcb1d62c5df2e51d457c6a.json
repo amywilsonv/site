@@ -1,0 +1,165 @@
+{
+  "attention_intelligence": {},
+  "awards": {
+    "award_history": [],
+    "awards_tier": "No Current Awards Case",
+    "comparable_nominees": [],
+    "confidence": 0,
+    "current_awards_profile": "Festival Watch",
+    "explanation": "Film-discovery record only; not a nominee forecast.",
+    "predicted_categories": [],
+    "probabilities": {}
+  },
+  "awards_intelligence": {
+    "awards_candidate_status": "WATCHLIST",
+    "awards_status": null,
+    "best_picture_rank": null,
+    "forecast_stage": null,
+    "forecast_stage_label": null,
+    "nominee_probability": null,
+    "percentage_policy": "PERCENTAGES_NOT_READY",
+    "prediction_confidence": null,
+    "probability_is_calibrated": false,
+    "public_card_behavior": "optional_watchlist_badge",
+    "rank_change": null,
+    "ranking_eligibility": "NOT_RANKED",
+    "ranking_last_updated_at": null,
+    "source_artifact": "academy_nominee_website_card_handoff_v1.json",
+    "why_it_ranks": []
+  },
+  "commercial": {
+    "commercial_significance": 0,
+    "distributor": "Unknown",
+    "franchise": "",
+    "release_strategy": "",
+    "studio": [
+      "Crave",
+      "CBC Films",
+      "Mixtape VR",
+      "Sph\u00e8re M\u00e9dia"
+    ]
+  },
+  "diagnostics": {
+    "completeness_score": 0,
+    "confidence": "Source-backed",
+    "missing_fields": [],
+    "relationship_counts": {}
+  },
+  "editorial": {
+    "discovery_reason": "Approved official festival lineup source",
+    "editorial_category": "Festival Watch",
+    "editorial_summary": "Source-backed approved-festival lineup discovery record.",
+    "importance_tier": "Watchlist",
+    "primary_story": "Official festival lineup discovery",
+    "story_strength": "Developing",
+    "why_it_matters": "Source-backed approved-festival lineup discovery record."
+  },
+  "festival": {
+    "awards_received": [],
+    "display_status": "Official Selection",
+    "festival_history": [
+      {
+        "festival_name": "TIFF",
+        "festival_year": 2026,
+        "last_updated": "2026-08-16T00:00:00Z",
+        "section": "Platform",
+        "signal": "Festival selection recovered from authoritative secondary reproduction after official detail page access was blocked.",
+        "source_url": "https://en.wikipedia.org/wiki/2026_Toronto_International_Film_Festival"
+      }
+    ],
+    "festival_status": "Official Selection",
+    "premiere_type": ""
+  },
+  "film_identity": {
+    "backdrop": "",
+    "canonical_film_id": "festival-9bbcb1d62c5df2e51d457c6a",
+    "country": [
+      "CA"
+    ],
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Thriller"
+    ],
+    "id": "festival-9bbcb1d62c5df2e51d457c6a",
+    "imdb_id": "tt37677746",
+    "language": "en",
+    "original_title": "In the Heart of the South",
+    "poster": "",
+    "profile_id": "festival-9bbcb1d62c5df2e51d457c6a",
+    "profile_payload_url": "data/films/festival-9bbcb1d62c5df2e51d457c6a.json",
+    "profile_url": "film.html?id=festival-9bbcb1d62c5df2e51d457c6a",
+    "release_date": "2026-09-10",
+    "release_display": "2026-09-10",
+    "runtime": 95,
+    "synopsis": "Yura Ivalu is an ambitious Inuk multimedia artist who spirals out of control when an estranged childhood friend, Sesi Ilupaalik, forces Yura to confront the trauma she\u2019s built her career on and the identity she built as an avenue to escape.",
+    "title": "In the Heart of the South",
+    "tmdb_id": "1535659"
+  },
+  "media": {
+    "backdrop": "",
+    "poster": "",
+    "trailer": ""
+  },
+  "metadata": {
+    "algorithm_version": "phase5b",
+    "awards_intelligence_integrated_at": "2026-08-16T00:00:00Z",
+    "awards_intelligence_source": "academy_nominee_website_card_handoff_v1.json",
+    "generated_at": "slice57_current_discovery_enrichment",
+    "profile_version": "phase6a_registry_canonical_id_bridge_slice57_enriched",
+    "registry": {
+      "canonical_film_id": "festival-9bbcb1d62c5df2e51d457c6a",
+      "discovery_sources": "TIFF",
+      "first_seen_date": "2026-08-16",
+      "source_paths": "https://en.wikipedia.org/wiki/2026_Toronto_International_Film_Festival",
+      "tmdb_enriched_at": "2026-08-16",
+      "tmdb_enrichment_source": "slice_56_high_confidence_recoverability_audit"
+    },
+    "source_data_date": "2026-08-15"
+  },
+  "performance": {
+    "tmdb_popularity": 1.646
+  },
+  "ratings": {
+    "tmdb": {
+      "popularity": 1.646
+    }
+  },
+  "related": {
+    "related_films": [],
+    "related_people": [],
+    "related_studios": []
+  },
+  "signals": {
+    "cultural_significance": 0,
+    "latest_intelligence": "In the Heart of the South entered film discovery via approved source-backed metadata.",
+    "momentum": 0,
+    "narrative_importance": 0,
+    "next_signal": "Monitor distributor, release, and TMDb enrichment updates.",
+    "release_relevance": 0,
+    "watch_triggers": [
+      "Official Festival Lineup"
+    ],
+    "whats_changed": "Added through canonical registry current-season export bridge."
+  },
+  "talent": {
+    "director": "Nyla Innuksuk",
+    "principal_cast": [
+      "Anna Lambe",
+      "Zorga Qaunaq",
+      "Star Slade",
+      "Tara Nicodemo",
+      "Alexander Nunez",
+      "Jack Greig"
+    ],
+    "producers": [],
+    "writers": [
+      "Nyla Innuksuk",
+      "Ryan Cavan"
+    ]
+  },
+  "timeline": {
+    "events": [],
+    "supported_event_types": []
+  }
+}

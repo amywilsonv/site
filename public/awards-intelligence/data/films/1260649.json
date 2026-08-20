@@ -1,6 +1,6 @@
 {
   "attention_intelligence": {
-    "anticipation_level": "High",
+    "anticipation_level": "Moderate",
     "attention_confidence": "High",
     "attention_reasons": [
       "Most Anticipated",
@@ -8,7 +8,7 @@
       "Event Release",
       "Awards Watch"
     ],
-    "attention_score": 78.6,
+    "attention_score": 72.7,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -31,23 +31,18 @@
         "status": "inferred"
       },
       {
-        "evidence": "TMDb popularity 7.3385",
-        "source": "audience_popularity",
-        "status": "verified"
-      },
-      {
         "evidence": "Principal cast listed: Dwayne Johnson, Kevin Hart, Jack Black, Karen Gillan",
         "source": "cast_interest",
         "status": "verified"
       },
       {
-        "evidence": "Director: Jake Kasdan",
-        "source": "filmmaker_interest",
+        "evidence": "TMDb popularity 5.2008",
+        "source": "audience_popularity",
         "status": "verified"
       },
       {
-        "evidence": "Trailer URL present",
-        "source": "trailer_available",
+        "evidence": "Director: Jake Kasdan",
+        "source": "filmmaker_interest",
         "status": "verified"
       },
       {
@@ -62,14 +57,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 78.6,
+    "homepage_spotlight_score": 72.7,
     "industry_interest": "High",
-    "last_updated": "20260820T140623Z",
-    "promotional_response": "Trailer available",
+    "last_updated": "20260729T213825Z",
+    "promotional_response": null,
     "score_families": {
       "audience/popularity": {
-        "evidence_count": 2,
-        "score": 15.3,
+        "evidence_count": 1,
+        "score": 9.4,
         "statuses": [
           "verified"
         ]
@@ -155,6 +150,32 @@
     ],
     "probabilities": {}
   },
+  "awards_intelligence": {
+    "awards_candidate_status": "ACTIVE_CONTENDER",
+    "awards_status": "CONTENDER",
+    "best_picture_rank": 9,
+    "forecast_stage": "STAGE_B",
+    "forecast_stage_label": "Stage B Early Season",
+    "nominee_probability": null,
+    "percentage_policy": "PERCENTAGES_NOT_READY",
+    "prediction_confidence": "RESEARCH_ONLY",
+    "probability_is_calibrated": false,
+    "public_card_behavior": "show_awards_status_and_rank",
+    "rank_change": null,
+    "ranking_eligibility": "RANKABLE_HIGH_UNCERTAINTY",
+    "ranking_last_updated_at": "2026-08-16T00:00:00Z",
+    "source_artifact": "academy_nominee_website_card_handoff_v1.json",
+    "why_it_ranks": [
+      {
+        "code": "FALL_AWARDS_WINDOW_RELEASE",
+        "text": "Release timing falls in the fall awards window."
+      },
+      {
+        "code": "US_PRODUCTION_METADATA",
+        "text": "US production metadata present."
+      }
+    ]
+  },
   "commercial": {
     "commercial_significance": 62.8,
     "distributor": "Columbia Pictures",
@@ -164,8 +185,7 @@
       "Matt Tolmach Productions",
       "Seven Bucks Productions",
       "Columbia Pictures",
-      "The Detective Agency",
-      "TSG Entertainment"
+      "The Detective Agency"
     ]
   },
   "diagnostics": {
@@ -177,7 +197,7 @@
     "relationship_counts": {
       "related_films": 6,
       "related_people": 7,
-      "related_studios": 6
+      "related_studios": 5
     }
   },
   "editorial": {
@@ -197,34 +217,34 @@
     "premiere_type": ""
   },
   "film_identity": {
-    "backdrop": "https://image.tmdb.org/t/p/original/pYN5Zjc3l1hj2hMeBbzRYDYTC1E.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/sI65LrPqw0w9VYHfWfa0KoO5c1J.jpg",
     "country": [
       "US"
     ],
     "genres": [
+      "Fantasy",
       "Adventure",
-      "Comedy",
-      "Fantasy"
+      "Comedy"
     ],
     "id": "1260649",
-    "imdb_id": "",
+    "imdb_id": "tt26735127",
     "language": "en",
     "original_title": "Jumanji: Open World",
-    "poster": "https://image.tmdb.org/t/p/original/wlzAdBQw2XnmVW05YEJLNdAbizA.jpg",
+    "poster": "https://image.tmdb.org/t/p/original/aUJg1QoAenZ7GodF38OrfyiOtKu.jpg",
     "profile_payload_url": "data/films/1260649.json",
     "profile_url": "film.html?id=1260649",
     "release_date": "2026-12-25",
     "release_display": "In theaters Dec. 25",
-    "runtime": null,
+    "runtime": 0,
     "synopsis": "Our heroes have escaped the ever-changing jungles of Jumanji before, but this time the game comes to us - as Jumanji breaks free of its console, unleashing its chaos into our world.",
     "title": "Jumanji: Open World",
     "tmdb_id": "1260649"
   },
   "intelligence": {
-    "confidence": "High",
-    "confidence_score": 0.99,
-    "generated_at": "2026-08-20T14:06:00Z",
-    "headline": "Jumanji: Open World: popularity increasing",
+    "confidence": "Low",
+    "confidence_score": 0.25,
+    "generated_at": "2026-07-29T21:38:25Z",
+    "headline": "Jumanji: Open World: no material change detected",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
       "signal_values": {
@@ -240,90 +260,55 @@
         "streaming_available_us": false,
         "streaming_flatrate_provider_count_us": 0,
         "streaming_provider_count_us": 0,
-        "tmdb_backdrop_count": 1,
-        "tmdb_canonical_trailer_available": true,
-        "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=zhApeaHMvfs",
-        "tmdb_popularity": 7.3385,
-        "tmdb_poster_count": 2,
+        "tmdb_backdrop_count": 0,
+        "tmdb_canonical_trailer_available": false,
+        "tmdb_popularity": 5.2008,
+        "tmdb_poster_count": 0,
         "tmdb_release_date_us_primary": "2026-12-25",
         "tmdb_release_date_us_theatrical": "2026-12-25",
         "tmdb_release_status": "Post Production",
         "tmdb_vote_average": 0,
         "tmdb_vote_count": 0,
         "tmdb_watch_provider_count_us": 0,
-        "trailer_available": true,
-        "trailer_count": 6,
-        "trailer_url": "https://www.youtube.com/watch?v=zhApeaHMvfs"
+        "trailer_available": false,
+        "trailer_count": 4
       },
-      "source_signal_count": 26,
+      "source_signal_count": 24,
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity rose from 5.2008 to 7.3385. A canonical TMDb trailer URL is available.",
-    "supporting_drivers": [
-      {
-        "confidence_weight": 0.9,
-        "driver_type": "popularity_increasing",
-        "evidence": "TMDb popularity rose from 5.2008 to 7.3385.",
-        "label": "Popularity increasing",
-        "retrieved_at": "2026-08-20T14:06:00Z",
-        "source_metric": "tmdb_popularity",
-        "source_provider": "tmdb",
-        "source_status": "available"
-      },
-      {
-        "confidence_weight": 0.85,
-        "driver_type": "trailer_available",
-        "evidence": "A canonical TMDb trailer URL is available.",
-        "label": "Trailer available",
-        "retrieved_at": "2026-08-20T14:06:00Z",
-        "source_metric": "tmdb_canonical_trailer_url",
-        "source_provider": "tmdb",
-        "source_status": "available"
-      }
-    ]
+    "summary": "Current provider signals do not show a supported material change.",
+    "supporting_drivers": []
   },
   "media": {
-    "canonical_trailer": {
-      "retrieved_at": "2026-08-20",
-      "site": "YouTube",
-      "source": "TMDb",
-      "source_url": "https://www.themoviedb.org/movie/1260649/videos",
-      "title": "Official Trailer",
-      "type": "Trailer",
-      "url": "https://www.youtube.com/watch?v=zhApeaHMvfs"
-    },
-    "latest_trailer_url": "https://www.youtube.com/watch?v=zhApeaHMvfs"
+    "backdrop": "https://image.tmdb.org/t/p/original/sI65LrPqw0w9VYHfWfa0KoO5c1J.jpg"
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260820T140623Z",
-    "profile_version": "phase6a",
+    "awards_intelligence_integrated_at": "2026-08-16T00:00:00Z",
+    "awards_intelligence_source": "academy_nominee_website_card_handoff_v1.json",
+    "generated_at": "slice57_current_discovery_enrichment",
+    "profile_version": "phase6a_registry_canonical_id_bridge_slice57_enriched",
     "source_data_date": "2026-07-20"
   },
   "performance": {
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 7.3385,
-        "retrieved_at": "2026-08-20",
+        "popularity": 5.2008,
+        "retrieved_at": "2026-07-29",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1260649",
         "status": "not_yet_rated"
       }
     },
-    "tmdb_popularity": {
-      "retrieved_at": "2026-08-20",
-      "source": "TMDb",
-      "source_url": "https://www.themoviedb.org/movie/1260649",
-      "value": 7.3385
-    },
+    "tmdb_popularity": 5.2008,
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 7.3385,
-      "retrieved_at": "2026-08-20",
+      "popularity": 5.2008,
+      "retrieved_at": "2026-07-29",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1260649",
       "status": "not_yet_rated"
@@ -380,18 +365,6 @@
         "tmdb_id": "1302904"
       },
       {
-        "profile_url": "film.html?id=1306322",
-        "relationship_score": 46,
-        "shared_signals": [
-          "Major Release",
-          "Adventure",
-          "Comedy",
-          "Craft Categories"
-        ],
-        "title": "Spaceballs: The New One",
-        "tmdb_id": "1306322"
-      },
-      {
         "profile_url": "film.html?id=1368337",
         "relationship_score": 46,
         "shared_signals": [
@@ -402,6 +375,18 @@
         ],
         "title": "The Odyssey",
         "tmdb_id": "1368337"
+      },
+      {
+        "profile_url": "film.html?id=1078446",
+        "relationship_score": 46,
+        "shared_signals": [
+          "Major Release",
+          "Comedy",
+          "Fantasy",
+          "Craft Categories"
+        ],
+        "title": "Violent Night 2",
+        "tmdb_id": "1078446"
       }
     ],
     "related_people": [
@@ -454,23 +439,19 @@
       {
         "name": "The Detective Agency",
         "role": "production_company"
-      },
-      {
-        "name": "TSG Entertainment",
-        "role": "production_company"
       }
     ]
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.139,
+      "audience_momentum": 0.099,
       "awards_relevance": 0.8,
       "campaign_activity": 5.4,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-20T14:06:00Z",
+    "generated_at": "2026-07-29T21:38:25Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 9.664,
+    "score": 9.624,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -479,7 +460,7 @@
         "metric_name": "trailer_count",
         "provider": "trailers",
         "score_family": "campaign_activity",
-        "value": 6
+        "value": 4
       },
       {
         "confidence": 0.55,
@@ -507,20 +488,20 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.139,
+        "contribution": 0.099,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 7.3385
+        "value": 5.2008
       }
     ]
   },
   "signals": {
     "cultural_significance": 62.8,
     "external_intelligence": {
-      "confidence": "High",
-      "headline": "Jumanji: Open World: popularity increasing",
-      "summary": "TMDb popularity rose from 5.2008 to 7.3385. A canonical TMDb trailer URL is available."
+      "confidence": "Low",
+      "headline": "Jumanji: Open World: no material change detected",
+      "summary": "Current provider signals do not show a supported material change."
     },
     "last_updated": "2026-12-25",
     "latest_event": {
@@ -558,7 +539,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1260649-7b45d5688e9e",
+        "event_id": "1260649-a131f62f86a2",
         "event_type": "Distributor Change",
         "film_id": "1260649",
         "importance": "Medium",
@@ -567,12 +548,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Columbia Pictures.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Distributor set: Columbia Pictures"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1260649-6f621b3f2740",
+        "event_id": "1260649-df292d9c65e1",
         "event_type": "Awards Tier Changed",
         "film_id": "1260649",
         "importance": "Medium",
@@ -584,15 +565,15 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Awards tier assigned: Emerging"
       }
     ],
     "release_relevance": 26.2,
     "screening_room_score": {
-      "confidence": "High",
-      "explanation": "TMDb popularity rose from 5.2008 to 7.3385. A canonical TMDb trailer URL is available.",
-      "score": 9.664
+      "confidence": "Low",
+      "explanation": "Current provider signals do not show a supported material change.",
+      "score": 9.624
     },
     "watch_triggers": [
       "Major Studio/Streamer",
@@ -615,7 +596,11 @@
       "Madison Iseman"
     ],
     "producers": [],
-    "writers": []
+    "writers": [
+      "Jeff Pinkner",
+      "Scott Rosenberg",
+      "Jake Kasdan"
+    ]
   },
   "timeline": {
     "events": [
@@ -635,7 +620,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1260649-7b45d5688e9e",
+        "event_id": "1260649-a131f62f86a2",
         "event_type": "Distributor Change",
         "film_id": "1260649",
         "importance": "Medium",
@@ -644,12 +629,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Columbia Pictures.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Distributor set: Columbia Pictures"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1260649-6f621b3f2740",
+        "event_id": "1260649-df292d9c65e1",
         "event_type": "Awards Tier Changed",
         "film_id": "1260649",
         "importance": "Medium",
@@ -661,12 +646,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1260649-1834564a21e4",
+        "event_id": "1260649-4e6aaf8c5001",
         "event_type": "Added To Database",
         "film_id": "1260649",
         "importance": "Low",
@@ -675,7 +660,7 @@
         },
         "source_type": "system",
         "summary": "Jumanji: Open World is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -710,7 +695,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1260649-7b45d5688e9e",
+        "event_id": "1260649-a131f62f86a2",
         "event_type": "Distributor Change",
         "film_id": "1260649",
         "importance": "Medium",
@@ -719,12 +704,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Columbia Pictures.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Distributor set: Columbia Pictures"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1260649-6f621b3f2740",
+        "event_id": "1260649-df292d9c65e1",
         "event_type": "Awards Tier Changed",
         "film_id": "1260649",
         "importance": "Medium",
@@ -736,7 +721,7 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Awards tier assigned: Emerging"
       }
     ],

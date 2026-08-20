@@ -51,7 +51,7 @@
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 1.1134",
+        "evidence": "TMDb popularity 1.1425",
         "source": "audience_popularity",
         "status": "verified"
       }
@@ -59,7 +59,7 @@
     "homepage_spotlight_override": null,
     "homepage_spotlight_score": 55.2,
     "industry_interest": null,
-    "last_updated": "20260820T140623Z",
+    "last_updated": "20260729T213825Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
@@ -150,16 +150,33 @@
     ],
     "probabilities": {}
   },
+  "awards_intelligence": {
+    "awards_candidate_status": "PROVISIONAL",
+    "awards_status": null,
+    "best_picture_rank": null,
+    "forecast_stage": null,
+    "forecast_stage_label": null,
+    "nominee_probability": null,
+    "percentage_policy": "PERCENTAGES_NOT_READY",
+    "prediction_confidence": null,
+    "probability_is_calibrated": false,
+    "public_card_behavior": "no_awards_badge",
+    "rank_change": null,
+    "ranking_eligibility": "NOT_RANKED",
+    "ranking_last_updated_at": null,
+    "source_artifact": "academy_nominee_website_card_handoff_v1.json",
+    "why_it_ranks": []
+  },
   "commercial": {
     "commercial_significance": 19.0,
     "distributor": "Unknown",
     "franchise": "",
     "release_strategy": "Release radar monitoring",
     "studio": [
+      "Lionsgate Television",
       "BBC Film",
       "BBC Studios",
-      "Lionsgate UK",
-      "Monumental Pictures"
+      "Monumental Television"
     ]
   },
   "diagnostics": {
@@ -197,11 +214,12 @@
       "GB"
     ],
     "genres": [
-      "Fantasy",
-      "Comedy"
+      "Comedy",
+      "Adventure",
+      "Fantasy"
     ],
     "id": "1643567",
-    "imdb_id": "",
+    "imdb_id": "tt40311603",
     "language": "en",
     "original_title": "Ghosts: The Possession of Button House",
     "poster": "https://image.tmdb.org/t/p/original/gKrq4tpyIHP2MNU4E1l7lb31PDk.jpg",
@@ -209,7 +227,7 @@
     "profile_url": "film.html?id=1643567",
     "release_date": "2026-10-23",
     "release_display": "In theaters Oct. 23",
-    "runtime": null,
+    "runtime": 0,
     "synopsis": "It's a matter of life and death for Alison, Mike, Mia and the Ghosts.",
     "title": "Ghosts: The Possession of Button House",
     "tmdb_id": "1643567"
@@ -217,7 +235,7 @@
   "intelligence": {
     "confidence": "Low",
     "confidence_score": 0.25,
-    "generated_at": "2026-08-20T14:06:00Z",
+    "generated_at": "2026-07-29T21:38:25Z",
     "headline": "Ghosts: The Possession of Button House: no material change detected",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -237,8 +255,8 @@
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=enE6YJoy-n0",
-        "tmdb_popularity": 1.1134,
-        "tmdb_poster_count": 2,
+        "tmdb_popularity": 1.1425,
+        "tmdb_poster_count": 1,
         "tmdb_release_date_us_primary": "",
         "tmdb_release_date_us_theatrical": "",
         "tmdb_release_status": "Post Production",
@@ -258,7 +276,7 @@
   },
   "media": {
     "canonical_trailer": {
-      "retrieved_at": "2026-08-20",
+      "retrieved_at": "2026-07-29",
       "site": "YouTube",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1643567/videos",
@@ -266,37 +284,36 @@
       "type": "Trailer",
       "url": "https://www.youtube.com/watch?v=enE6YJoy-n0"
     },
-    "latest_trailer_url": "https://www.youtube.com/watch?v=enE6YJoy-n0"
+    "latest_trailer_url": "https://www.youtube.com/watch?v=enE6YJoy-n0",
+    "poster": "https://image.tmdb.org/t/p/original/gKrq4tpyIHP2MNU4E1l7lb31PDk.jpg",
+    "trailer": "https://www.youtube.com/watch?v=enE6YJoy-n0"
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260820T140623Z",
-    "profile_version": "phase6a",
+    "awards_intelligence_integrated_at": "2026-08-16T00:00:00Z",
+    "awards_intelligence_source": "academy_nominee_website_card_handoff_v1.json",
+    "generated_at": "slice57_current_discovery_enrichment",
+    "profile_version": "phase6a_registry_canonical_id_bridge_slice57_enriched",
     "source_data_date": "2026-07-20"
   },
   "performance": {
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 1.1134,
-        "retrieved_at": "2026-08-20",
+        "popularity": 1.1425,
+        "retrieved_at": "2026-07-29",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1643567",
         "status": "not_yet_rated"
       }
     },
-    "tmdb_popularity": {
-      "retrieved_at": "2026-08-20",
-      "source": "TMDb",
-      "source_url": "https://www.themoviedb.org/movie/1643567",
-      "value": 1.1134
-    },
+    "tmdb_popularity": 1.1425,
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 1.1134,
-      "retrieved_at": "2026-08-20",
+      "popularity": 1.1425,
+      "retrieved_at": "2026-07-29",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1643567",
       "status": "not_yet_rated"
@@ -306,32 +323,22 @@
     "related_films": [
       {
         "profile_url": "film.html?id=1284186",
-        "relationship_score": 50,
+        "relationship_score": 56,
         "shared_signals": [
           "General Watch",
+          "Adventure",
           "Comedy",
-          "Craft Categories",
-          "Unknown"
+          "Craft Categories"
         ],
         "title": "Sacrifice",
         "tmdb_id": "1284186"
       },
       {
-        "profile_url": "film.html?id=1670061",
-        "relationship_score": 44,
-        "shared_signals": [
-          "General Watch",
-          "Craft Categories",
-          "Unknown"
-        ],
-        "title": "Beasts Clutching at Straws",
-        "tmdb_id": "1670061"
-      },
-      {
         "profile_url": "film.html?id=1717258",
-        "relationship_score": 44,
+        "relationship_score": 50,
         "shared_signals": [
           "General Watch",
+          "Adventure",
           "Craft Categories",
           "Unknown"
         ],
@@ -339,37 +346,52 @@
         "tmdb_id": "1717258"
       },
       {
-        "profile_url": "film.html?id=1461432",
-        "relationship_score": 42,
+        "profile_url": "film.html?id=1620873",
+        "relationship_score": 46,
         "shared_signals": [
           "General Watch",
+          "Adventure",
           "Comedy",
-          "Unknown"
+          "Craft Categories"
         ],
-        "title": "Adult Supervision",
-        "tmdb_id": "1461432"
+        "title": "HalloWiebe: Overdrive",
+        "tmdb_id": "1620873"
       },
       {
-        "profile_url": "film.html?id=1200804",
-        "relationship_score": 42,
+        "profile_url": "film.html?id=1148365",
+        "relationship_score": 46,
         "shared_signals": [
           "General Watch",
+          "Adventure",
           "Comedy",
-          "Unknown"
+          "Craft Categories"
         ],
-        "title": "Alice J\u00fanior Summer Break",
-        "tmdb_id": "1200804"
+        "title": "Matchbox: The Movie",
+        "tmdb_id": "1148365"
       },
       {
-        "profile_url": "film.html?id=1530151",
-        "relationship_score": 42,
+        "profile_url": "film.html?id=1137844",
+        "relationship_score": 46,
         "shared_signals": [
           "General Watch",
+          "Adventure",
           "Comedy",
-          "Unknown"
+          "Craft Categories"
         ],
-        "title": "H\u00f6sten med G\u00f6ran",
-        "tmdb_id": "1530151"
+        "title": "Mayday",
+        "tmdb_id": "1137844"
+      },
+      {
+        "profile_url": "film.html?id=1147572",
+        "relationship_score": 46,
+        "shared_signals": [
+          "General Watch",
+          "Adventure",
+          "Fantasy",
+          "Craft Categories"
+        ],
+        "title": "Narnia: The Magician's Nephew",
+        "tmdb_id": "1147572"
       }
     ],
     "related_people": [
@@ -404,6 +426,10 @@
     ],
     "related_studios": [
       {
+        "name": "Lionsgate Television",
+        "role": "production_company"
+      },
+      {
         "name": "BBC Film",
         "role": "production_company"
       },
@@ -412,25 +438,21 @@
         "role": "production_company"
       },
       {
-        "name": "Lionsgate UK",
-        "role": "production_company"
-      },
-      {
-        "name": "Monumental Pictures",
+        "name": "Monumental Television",
         "role": "production_company"
       }
     ]
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.021,
+      "audience_momentum": 0.022,
       "awards_relevance": 0.8,
       "campaign_activity": 1.35,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-20T14:06:00Z",
+    "generated_at": "2026-07-29T21:38:25Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 5.496,
+    "score": 5.497,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -467,11 +489,11 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.021,
+        "contribution": 0.022,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 1.1134
+        "value": 1.1425
       }
     ]
   },
@@ -518,7 +540,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1643567-3ed0e9728299",
+        "event_id": "1643567-2baea64df0c2",
         "event_type": "Awards Tier Changed",
         "film_id": "1643567",
         "importance": "Medium",
@@ -530,12 +552,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1643567-f62926e0d69c",
+        "event_id": "1643567-aafec50f1f6f",
         "event_type": "Added To Database",
         "film_id": "1643567",
         "importance": "Low",
@@ -544,7 +566,7 @@
         },
         "source_type": "system",
         "summary": "Ghosts: The Possession of Button House is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -552,7 +574,7 @@
     "screening_room_score": {
       "confidence": "Low",
       "explanation": "Current provider signals do not show a supported material change.",
-      "score": 5.496
+      "score": 5.497
     },
     "watch_triggers": [
       "Prestige Producer",
@@ -576,7 +598,14 @@
       "Simon Farnaby"
     ],
     "producers": [],
-    "writers": []
+    "writers": [
+      "Mathew Baynton",
+      "Simon Farnaby",
+      "Martha Howe-Douglas",
+      "Jim Howick",
+      "Laurence Rickard",
+      "Ben Willbond"
+    ]
   },
   "timeline": {
     "events": [
@@ -596,7 +625,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1643567-3ed0e9728299",
+        "event_id": "1643567-2baea64df0c2",
         "event_type": "Awards Tier Changed",
         "film_id": "1643567",
         "importance": "Medium",
@@ -608,12 +637,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1643567-f62926e0d69c",
+        "event_id": "1643567-aafec50f1f6f",
         "event_type": "Added To Database",
         "film_id": "1643567",
         "importance": "Low",
@@ -622,7 +651,7 @@
         },
         "source_type": "system",
         "summary": "Ghosts: The Possession of Button House is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -657,7 +686,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1643567-3ed0e9728299",
+        "event_id": "1643567-2baea64df0c2",
         "event_type": "Awards Tier Changed",
         "film_id": "1643567",
         "importance": "Medium",
@@ -669,12 +698,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1643567-f62926e0d69c",
+        "event_id": "1643567-aafec50f1f6f",
         "event_type": "Added To Database",
         "film_id": "1643567",
         "importance": "Low",
@@ -683,7 +712,7 @@
         },
         "source_type": "system",
         "summary": "Ghosts: The Possession of Button House is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Added to Awards Intelligence"
       }
     ],

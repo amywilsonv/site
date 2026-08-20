@@ -1,0 +1,175 @@
+{
+  "attention_intelligence": {},
+  "awards": {
+    "award_history": [],
+    "awards_tier": "No Current Awards Case",
+    "comparable_nominees": [],
+    "confidence": 0,
+    "current_awards_profile": "Festival Watch",
+    "explanation": "Film-discovery record only; not a nominee forecast.",
+    "predicted_categories": [],
+    "probabilities": {}
+  },
+  "awards_intelligence": {
+    "awards_candidate_status": "ELIGIBILITY_UNCERTAIN",
+    "awards_status": null,
+    "best_picture_rank": null,
+    "forecast_stage": null,
+    "forecast_stage_label": null,
+    "nominee_probability": null,
+    "percentage_policy": "PERCENTAGES_NOT_READY",
+    "prediction_confidence": null,
+    "probability_is_calibrated": false,
+    "public_card_behavior": "no_awards_badge",
+    "rank_change": null,
+    "ranking_eligibility": "NOT_RANKED",
+    "ranking_last_updated_at": null,
+    "source_artifact": "academy_nominee_website_card_handoff_v1.json",
+    "why_it_ranks": []
+  },
+  "commercial": {
+    "commercial_significance": 0,
+    "distributor": "Unknown",
+    "franchise": "",
+    "release_strategy": "",
+    "studio": [
+      "Monarch Media",
+      "Point Grey Pictures",
+      "LYLAS Pictures",
+      "Giant Ant"
+    ]
+  },
+  "diagnostics": {
+    "completeness_score": 0,
+    "confidence": "Source-backed",
+    "missing_fields": [],
+    "relationship_counts": {}
+  },
+  "editorial": {
+    "discovery_reason": "Approved official festival lineup source",
+    "editorial_category": "Festival Watch",
+    "editorial_summary": "Source-backed official approved-festival lineup discovery record.",
+    "importance_tier": "Watchlist",
+    "primary_story": "Official festival lineup discovery",
+    "story_strength": "Developing",
+    "why_it_matters": "Source-backed official approved-festival lineup discovery record."
+  },
+  "festival": {
+    "awards_received": [],
+    "display_status": "Official Selection",
+    "festival_history": [
+      {
+        "festival_name": "Cannes",
+        "festival_year": 2026,
+        "last_updated": "2026-08-16T00:00:00Z",
+        "section": "Special Screenings",
+        "signal": "Official festival lineup source.",
+        "source_url": "https://www.festival-cannes.com/en/press/press-releases/the-films-of-the-official-selection-2026/"
+      },
+      {
+        "festival_name": "TIFF",
+        "festival_year": 2026,
+        "last_updated": "2026-08-16T00:00:00Z",
+        "section": "Centrepiece",
+        "signal": "Festival selection recovered from authoritative secondary reproduction after official detail page access was blocked.",
+        "source_url": "https://en.wikipedia.org/wiki/2026_Toronto_International_Film_Festival"
+      }
+    ],
+    "festival_status": "Official Selection",
+    "premiere_type": ""
+  },
+  "film_identity": {
+    "backdrop": "https://image.tmdb.org/t/p/original/gW1YCLaT9y7prba0HqU1OblxFod.jpg",
+    "canonical_film_id": "festival-4a19d415d7b201e249d753e3",
+    "country": [
+      "US",
+      "CA"
+    ],
+    "genres": [
+      "Animation",
+      "Drama"
+    ],
+    "id": "festival-4a19d415d7b201e249d753e3",
+    "imdb_id": "tt22183852",
+    "language": "en",
+    "original_title": "TANGLES",
+    "poster": "https://image.tmdb.org/t/p/original/uYPnma0qO28Sk6OtkU3H6f5ySex.jpg",
+    "profile_id": "festival-4a19d415d7b201e249d753e3",
+    "profile_payload_url": "data/films/festival-4a19d415d7b201e249d753e3.json",
+    "profile_url": "film.html?id=festival-4a19d415d7b201e249d753e3",
+    "release_date": "2027-01-20",
+    "release_display": "2027-01-20",
+    "runtime": 102,
+    "synopsis": "When Alzheimer's disease begins to strip away her mother's vibrant personality, a headstrong young woman is forced to return to her oddball family in the conservative small town she recently fled in order to care for her. She quickly realizes she must accept the cruel and warped reality of the disease, and the imperfect beauty of her family, in order to become the daughter they need.",
+    "title": "TANGLES",
+    "tmdb_id": "1316999"
+  },
+  "media": {
+    "backdrop": "https://image.tmdb.org/t/p/original/gW1YCLaT9y7prba0HqU1OblxFod.jpg",
+    "poster": "https://image.tmdb.org/t/p/original/uYPnma0qO28Sk6OtkU3H6f5ySex.jpg",
+    "trailer": "https://www.youtube.com/watch?v=xn2ICP5tGqQ"
+  },
+  "metadata": {
+    "algorithm_version": "phase5b",
+    "awards_intelligence_integrated_at": "2026-08-16T00:00:00Z",
+    "awards_intelligence_source": "academy_nominee_website_card_handoff_v1.json",
+    "generated_at": "slice57_current_discovery_enrichment",
+    "profile_version": "phase6a_registry_canonical_id_bridge_slice57_enriched",
+    "registry": {
+      "canonical_film_id": "festival-4a19d415d7b201e249d753e3",
+      "discovery_sources": "TIFF",
+      "first_seen_date": "2026-08-16",
+      "source_paths": "https://en.wikipedia.org/wiki/2026_Toronto_International_Film_Festival",
+      "tmdb_enriched_at": "2026-08-16",
+      "tmdb_enrichment_source": "slice_56_high_confidence_recoverability_audit"
+    },
+    "source_data_date": "2026-08-15"
+  },
+  "performance": {
+    "tmdb_popularity": 2.0116
+  },
+  "ratings": {
+    "tmdb": {
+      "popularity": 2.0116
+    }
+  },
+  "related": {
+    "related_films": [],
+    "related_people": [],
+    "related_studios": []
+  },
+  "signals": {
+    "cultural_significance": 0,
+    "latest_intelligence": "TANGLES entered film discovery via approved source-backed metadata.",
+    "momentum": 0,
+    "narrative_importance": 0,
+    "next_signal": "Monitor distributor, release, and TMDb enrichment updates.",
+    "release_relevance": 0,
+    "watch_triggers": [
+      "Official Festival Lineup"
+    ],
+    "whats_changed": "Added through canonical registry current-season export bridge."
+  },
+  "talent": {
+    "director": "Leah NELSON",
+    "principal_cast": [
+      "Julia Louis-Dreyfus",
+      "Abbi Jacobson",
+      "Bryan Cranston",
+      "Samira Wiley",
+      "Beanie Feldstein",
+      "Seth Rogen",
+      "Wanda Sykes",
+      "Bowen Yang"
+    ],
+    "producers": [],
+    "writers": [
+      "Leah Nelson",
+      "Trev Renney"
+    ]
+  },
+  "timeline": {
+    "events": [],
+    "supported_event_types": []
+  }
+}

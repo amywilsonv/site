@@ -26,7 +26,7 @@ const categories: Category[] = [
         title: "The Screening Room",
         label:
           "A hidden-beta movie-intelligence platform for understanding which films matter, why they matter, and what changed across release, festival, attention, reception, and awards signals.",
-        href: "/projects/awards-intelligence",
+        href: "/projects/screening-room",
         cta: "View project",
         status: "Published",
       },

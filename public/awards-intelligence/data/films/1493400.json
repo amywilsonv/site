@@ -7,18 +7,13 @@
       "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 91.9,
+    "attention_score": 76.0,
     "attention_version": "phase7e_attention_v1",
-    "audience_interest": "Moderate",
+    "audience_interest": "Developing",
     "conversation_level": "Unavailable",
-    "cultural_relevance": "High",
+    "cultural_relevance": "Moderate",
     "early_reception": null,
     "evidence_sources": [
-      {
-        "evidence": "TMDb popularity 81.6613",
-        "source": "audience_popularity",
-        "status": "verified"
-      },
       {
         "evidence": "Commercial scale and release context",
         "source": "commercial_scale",
@@ -40,7 +35,7 @@
         "status": "verified"
       },
       {
-        "evidence": "Principal cast listed: Liamani Segura, Malachi Barton, Lumi Pollack, Hudson Stone",
+        "evidence": "Principal cast listed: Kevin Jonas, Joe Jonas, Nick Jonas, Liamani Segura",
         "source": "cast_interest",
         "status": "verified"
       },
@@ -60,27 +55,27 @@
         "status": "verified"
       },
       {
-        "evidence": "69",
-        "source": "tmdb_vote_count",
+        "evidence": "TMDb popularity 3.4032",
+        "source": "audience_popularity",
         "status": "verified"
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 91.9,
+    "homepage_spotlight_score": 76.0,
     "industry_interest": "High",
-    "last_updated": "20260820T140623Z",
+    "last_updated": "20260729T213825Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
         "evidence_count": 2,
-        "score": 26.4,
+        "score": 12.2,
         "statuses": [
           "verified"
         ]
       },
       "commercial": {
         "evidence_count": 1,
-        "score": 18.0,
+        "score": 16.3,
         "statuses": [
           "inferred"
         ]
@@ -153,29 +148,50 @@
     ],
     "probabilities": {}
   },
+  "awards_intelligence": {
+    "awards_candidate_status": "ACTIVE_CONTENDER",
+    "awards_status": "ON THE BUBBLE",
+    "best_picture_rank": 18,
+    "forecast_stage": "STAGE_B",
+    "forecast_stage_label": "Stage B Early Season",
+    "nominee_probability": null,
+    "percentage_policy": "PERCENTAGES_NOT_READY",
+    "prediction_confidence": "RESEARCH_ONLY",
+    "probability_is_calibrated": false,
+    "public_card_behavior": "show_awards_status_and_rank",
+    "rank_change": null,
+    "ranking_eligibility": "RANKABLE_HIGH_UNCERTAINTY",
+    "ranking_last_updated_at": "2026-08-16T00:00:00Z",
+    "source_artifact": "academy_nominee_website_card_handoff_v1.json",
+    "why_it_ranks": [
+      {
+        "code": "US_PRODUCTION_METADATA",
+        "text": "US production metadata present."
+      }
+    ]
+  },
   "commercial": {
-    "commercial_significance": 87.4,
+    "commercial_significance": 62.8,
     "distributor": "Disney",
     "franchise": "Franchise/Event",
     "release_strategy": "Active release campaign",
     "studio": [
+      "Copper Cup Entertainment",
+      "Oops Doughnuts Productions",
       "Chorus Boy",
-      "Disney Channel",
-      "Bear Claw Productions",
-      "Powered by Jonas",
-      "DLG Entertainment",
-      "Potato Monkey Productions",
-      "Obstinate Headstrong Girl"
+      "Disney Kids & Family"
     ]
   },
   "diagnostics": {
-    "completeness_score": 100,
+    "completeness_score": 89,
     "confidence": "High",
-    "missing_fields": [],
+    "missing_fields": [
+      "runtime"
+    ],
     "relationship_counts": {
       "related_films": 6,
       "related_people": 7,
-      "related_studios": 7
+      "related_studios": 5
     }
   },
   "editorial": {
@@ -183,7 +199,7 @@
     "editorial_category": "Major Release",
     "editorial_summary": "Upcoming Veronica Rodriguez film with Song / Score monitoring value.",
     "importance_tier": "Monitoring",
-    "primary_story": "franchise/event-release signal; major studio or streamer scale; high TMDb popularity; filmmaker attached to large-scale release",
+    "primary_story": "franchise/event-release signal; major studio or streamer scale; filmmaker attached to large-scale release",
     "story_strength": "Strong",
     "why_it_matters": "Upcoming Veronica Rodriguez film with Song / Score monitoring value."
   },
@@ -195,7 +211,7 @@
     "premiere_type": ""
   },
   "film_identity": {
-    "backdrop": "https://image.tmdb.org/t/p/original/vJb3fniB8E0JnSMr1tDyIsb6gPi.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/cIgwRsLM56BHXigzBlmVkqCLrYh.jpg",
     "country": [
       "US",
       "CA"
@@ -207,15 +223,15 @@
       "TV Movie"
     ],
     "id": "1493400",
-    "imdb_id": "",
+    "imdb_id": "tt6743524",
     "language": "en",
     "original_title": "Camp Rock 3",
-    "poster": "https://image.tmdb.org/t/p/original/rS7byWK9cfPfdLeFNlRIaJxH9mN.jpg",
+    "poster": "https://image.tmdb.org/t/p/original/8wI9KByZtzBMWOzDFjxHPSOAuOH.jpg",
     "profile_payload_url": "data/films/1493400.json",
     "profile_url": "film.html?id=1493400",
     "release_date": "2026-08-13",
     "release_display": "In theaters Aug. 13",
-    "runtime": 93,
+    "runtime": 0,
     "synopsis": "When Connect 3 loses their opening act for a major reunion tour, they return to their beloved Camp Rock to discover the next big thing. As campers vie for the chance to open for their favorite band, tensions rise and friendships are tested - leading to unexpected alliances, revelations, and romances.",
     "title": "Camp Rock 3",
     "tmdb_id": "1493400"
@@ -223,7 +239,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-08-20T14:06:00Z",
+    "generated_at": "2026-07-29T21:38:25Z",
     "headline": "Camp Rock 3: release approaching",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -237,20 +253,20 @@
         "legacy_dashboard_festival_status": "",
         "legacy_dashboard_precursor_award_count": 0,
         "legacy_dashboard_principal_cast_count": 8,
-        "streaming_available_us": true,
-        "streaming_flatrate_provider_count_us": 3,
-        "streaming_provider_count_us": 7,
-        "tmdb_backdrop_count": 5,
+        "streaming_available_us": false,
+        "streaming_flatrate_provider_count_us": 0,
+        "streaming_provider_count_us": 0,
+        "tmdb_backdrop_count": 2,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=02-RDIZ5Rdw",
-        "tmdb_popularity": 81.6613,
-        "tmdb_poster_count": 16,
+        "tmdb_popularity": 3.4032,
+        "tmdb_poster_count": 8,
         "tmdb_release_date_us_primary": "2026-08-13",
         "tmdb_release_date_us_theatrical": "",
-        "tmdb_release_status": "Released",
-        "tmdb_vote_average": 6.3,
-        "tmdb_vote_count": 69,
-        "tmdb_watch_provider_count_us": 7,
+        "tmdb_release_status": "Post Production",
+        "tmdb_vote_average": 0,
+        "tmdb_vote_count": 0,
+        "tmdb_watch_provider_count_us": 0,
         "trailer_available": true,
         "trailer_count": 3,
         "trailer_url": "https://www.youtube.com/watch?v=02-RDIZ5Rdw"
@@ -259,24 +275,14 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity rose from 3.4032 to 81.6613. US release is 24 days away on 2026-08-13.",
+    "summary": "US release is 24 days away on 2026-08-13.",
     "supporting_drivers": [
-      {
-        "confidence_weight": 0.9,
-        "driver_type": "popularity_increasing",
-        "evidence": "TMDb popularity rose from 3.4032 to 81.6613.",
-        "label": "Popularity increasing",
-        "retrieved_at": "2026-08-20T14:06:00Z",
-        "source_metric": "tmdb_popularity",
-        "source_provider": "tmdb",
-        "source_status": "available"
-      },
       {
         "confidence_weight": 0.8,
         "driver_type": "release_approaching",
         "evidence": "US release is 24 days away on 2026-08-13.",
         "label": "Release approaching",
-        "retrieved_at": "2026-08-20T14:06:00Z",
+        "retrieved_at": "2026-07-29T21:38:25Z",
         "source_metric": "tmdb_release_date_us_primary",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -284,8 +290,9 @@
     ]
   },
   "media": {
+    "backdrop": "https://image.tmdb.org/t/p/original/cIgwRsLM56BHXigzBlmVkqCLrYh.jpg",
     "canonical_trailer": {
-      "retrieved_at": "2026-08-20",
+      "retrieved_at": "2026-07-29",
       "site": "YouTube",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1493400/videos",
@@ -293,95 +300,39 @@
       "type": "Trailer",
       "url": "https://www.youtube.com/watch?v=02-RDIZ5Rdw"
     },
-    "latest_trailer_url": "https://www.youtube.com/watch?v=02-RDIZ5Rdw"
+    "latest_trailer_url": "https://www.youtube.com/watch?v=02-RDIZ5Rdw",
+    "poster": "https://image.tmdb.org/t/p/original/8wI9KByZtzBMWOzDFjxHPSOAuOH.jpg",
+    "trailer": "https://www.youtube.com/watch?v=02-RDIZ5Rdw"
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260820T140623Z",
-    "profile_version": "phase6a",
+    "awards_intelligence_integrated_at": "2026-08-16T00:00:00Z",
+    "awards_intelligence_source": "academy_nominee_website_card_handoff_v1.json",
+    "generated_at": "slice57_current_discovery_enrichment",
+    "profile_version": "phase6a_registry_canonical_id_bridge_slice57_enriched",
     "source_data_date": "2026-07-20"
   },
   "performance": {
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 81.6613,
-        "retrieved_at": "2026-08-20",
+        "popularity": 3.4032,
+        "retrieved_at": "2026-07-29",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1493400",
-        "status": "rated",
-        "vote_average": 6.3,
-        "vote_count": 69
+        "status": "not_yet_rated"
       }
     },
-    "tmdb_popularity": {
-      "retrieved_at": "2026-08-20",
-      "source": "TMDb",
-      "source_url": "https://www.themoviedb.org/movie/1493400",
-      "value": 81.6613
-    },
-    "watch_providers": {
-      "buy": [
-        {
-          "display_priority": 8,
-          "logo_url": "https://image.tmdb.org/t/p/original/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg",
-          "provider_id": 10,
-          "provider_name": "Amazon Video"
-        },
-        {
-          "display_priority": 20,
-          "logo_url": "https://image.tmdb.org/t/p/original/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
-          "provider_id": 3,
-          "provider_name": "Google Play Movies"
-        },
-        {
-          "display_priority": 21,
-          "logo_url": "https://image.tmdb.org/t/p/original/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
-          "provider_id": 192,
-          "provider_name": "YouTube"
-        },
-        {
-          "display_priority": 37,
-          "logo_url": "https://image.tmdb.org/t/p/original/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg",
-          "provider_id": 7,
-          "provider_name": "Fandango At Home"
-        }
-      ],
-      "country": "US",
-      "flatrate": [
-        {
-          "display_priority": 3,
-          "logo_url": "https://image.tmdb.org/t/p/original/97yvRBw1GzX7fXprcF80er19ot.jpg",
-          "provider_id": 337,
-          "provider_name": "Disney Plus"
-        },
-        {
-          "display_priority": 10,
-          "logo_url": "https://image.tmdb.org/t/p/original/9BgaNQRMDvVlji1JBZi6tcfxpKx.jpg",
-          "provider_id": 257,
-          "provider_name": "fuboTV"
-        },
-        {
-          "display_priority": 38,
-          "logo_url": "https://image.tmdb.org/t/p/original/x9zOHTUkQzt3PgPVKbMH9CKBwLK.jpg",
-          "provider_id": 2528,
-          "provider_name": "YouTube TV"
-        }
-      ],
-      "retrieved_at": "2026-08-20",
-      "source": "TMDb",
-      "source_url": "https://www.themoviedb.org/movie/1493400-camp-rock-3/watch?locale=US"
-    }
+    "tmdb_popularity": 3.4032,
+    "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 81.6613,
-      "retrieved_at": "2026-08-20",
+      "popularity": 3.4032,
+      "retrieved_at": "2026-07-29",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1493400",
-      "status": "rated",
-      "vote_average": 6.3,
-      "vote_count": 69
+      "status": "not_yet_rated"
     }
   },
   "related": {
@@ -439,22 +390,33 @@
         "tmdb_id": "1318621"
       },
       {
-        "profile_url": "film.html?id=1504358",
-        "relationship_score": 42,
+        "profile_url": "film.html?id=1457866",
+        "relationship_score": 40,
         "shared_signals": [
           "Major Release",
           "Comedy",
-          "Drama",
-          "Song / Score"
+          "Drama"
         ],
-        "title": "Don't Say Good Luck",
-        "tmdb_id": "1504358"
+        "title": "The Adventures of Cliff Booth",
+        "tmdb_id": "1457866"
       }
     ],
     "related_people": [
       {
         "name": "Veronica Rodriguez",
         "role": "director"
+      },
+      {
+        "name": "Kevin Jonas",
+        "role": "actor"
+      },
+      {
+        "name": "Joe Jonas",
+        "role": "actor"
+      },
+      {
+        "name": "Nick Jonas",
+        "role": "actor"
       },
       {
         "name": "Liamani Segura",
@@ -467,18 +429,6 @@
       {
         "name": "Lumi Pollack",
         "role": "actor"
-      },
-      {
-        "name": "Hudson Stone",
-        "role": "actor"
-      },
-      {
-        "name": "Casey Trotter",
-        "role": "actor"
-      },
-      {
-        "name": "Brooklynn Pitts",
-        "role": "actor"
       }
     ],
     "related_studios": [
@@ -487,61 +437,35 @@
         "role": "distributor"
       },
       {
+        "name": "Copper Cup Entertainment",
+        "role": "production_company"
+      },
+      {
+        "name": "Oops Doughnuts Productions",
+        "role": "production_company"
+      },
+      {
         "name": "Chorus Boy",
         "role": "production_company"
       },
       {
-        "name": "Disney Channel",
-        "role": "production_company"
-      },
-      {
-        "name": "Bear Claw Productions",
-        "role": "production_company"
-      },
-      {
-        "name": "Powered by Jonas",
-        "role": "production_company"
-      },
-      {
-        "name": "DLG Entertainment",
-        "role": "production_company"
-      },
-      {
-        "name": "Potato Monkey Productions",
+        "name": "Disney Kids & Family",
         "role": "production_company"
       }
     ]
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 2.076,
-      "audience_quality": 5.985,
-      "availability": 7.65,
+      "audience_momentum": 0.065,
       "awards_relevance": 0.8,
       "campaign_activity": 4.05,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-20T14:06:00Z",
+    "generated_at": "2026-07-29T21:38:25Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 23.886,
+    "score": 8.24,
     "source": "derived_screening_room_score",
     "top_drivers": [
-      {
-        "confidence": 0.95,
-        "contribution": 5.985,
-        "metric_name": "tmdb_vote_average",
-        "provider": "tmdb",
-        "score_family": "audience_quality",
-        "value": 6.3
-      },
-      {
-        "confidence": 0.85,
-        "contribution": 4.25,
-        "metric_name": "streaming_provider_count_us",
-        "provider": "streaming_availability",
-        "score_family": "availability",
-        "value": 7
-      },
       {
         "confidence": 0.9,
         "contribution": 4.05,
@@ -551,185 +475,66 @@
         "value": 3
       },
       {
-        "confidence": 0.85,
-        "contribution": 3.4,
-        "metric_name": "streaming_flatrate_provider_count_us",
-        "provider": "streaming_availability",
-        "score_family": "availability",
-        "value": 3
-      },
-      {
         "confidence": 0.55,
         "contribution": 2.2,
         "metric_name": "legacy_dashboard_principal_cast_count",
         "provider": "legacy_dashboard_talent_history_adapter",
         "score_family": "talent_profile",
         "value": 8
+      },
+      {
+        "confidence": 0.5,
+        "contribution": 1.125,
+        "metric_name": "legacy_dashboard_credited_talent_count",
+        "provider": "legacy_dashboard_talent_history_adapter",
+        "score_family": "talent_profile",
+        "value": 9
+      },
+      {
+        "confidence": 0.5,
+        "contribution": 0.8,
+        "metric_name": "legacy_dashboard_awards_category_count",
+        "provider": "legacy_dashboard_awards_precursors_adapter",
+        "score_family": "awards_relevance",
+        "value": 1
+      },
+      {
+        "confidence": 0.95,
+        "contribution": 0.065,
+        "metric_name": "tmdb_popularity",
+        "provider": "tmdb",
+        "score_family": "audience_momentum",
+        "value": 3.4032
       }
     ]
   },
   "signals": {
-    "cultural_significance": 87.4,
+    "cultural_significance": 62.8,
     "external_intelligence": {
       "confidence": "High",
       "headline": "Camp Rock 3: release approaching",
-      "summary": "TMDb popularity rose from 3.4032 to 81.6613. US release is 24 days away on 2026-08-13."
+      "summary": "US release is 24 days away on 2026-08-13."
     },
-    "last_updated": "2026-08-20T14:06:23Z",
+    "last_updated": "2026-08-13",
     "latest_event": {
       "confidence": "Inferred",
-      "event_id": "1493400-29422a9d73f0",
-      "event_type": "Homepage Featured",
+      "event_id": "1493400-6e8eb0fcc46b",
+      "event_type": "Release Scheduled",
       "film_id": "1493400",
       "importance": "Medium",
       "metadata": {
-        "editorial_category": "Major Release"
+        "release_date": "2026-08-13"
       },
-      "source_type": "discovery_homepage",
-      "summary": "Camp Rock 3 is currently selected for the homepage experience.",
-      "timestamp": "2026-08-20T14:06:23Z",
-      "title": "Featured in The Screening Room"
+      "source_type": "metadata",
+      "summary": "Release currently scheduled for In theaters Aug. 13.",
+      "timestamp": "2026-08-13",
+      "title": "Release scheduled"
     },
     "latest_intelligence": "As of 2026-07-18, this is a Disney release dated 2026-08-13 with Song / Score relevance; current awards profile is Unknown and data status is developing.",
     "momentum": 0.0,
     "narrative_importance": 0,
     "next_signal": "Watch for trailer and first campaign positioning.",
     "recent_activity": [
-      {
-        "confidence": "Inferred",
-        "event_id": "1493400-29422a9d73f0",
-        "event_type": "Homepage Featured",
-        "film_id": "1493400",
-        "importance": "Medium",
-        "metadata": {
-          "editorial_category": "Major Release"
-        },
-        "source_type": "discovery_homepage",
-        "summary": "Camp Rock 3 is currently selected for the homepage experience.",
-        "timestamp": "2026-08-20T14:06:23Z",
-        "title": "Featured in The Screening Room"
-      },
-      {
-        "confidence": "Inferred",
-        "event_id": "1493400-22f914355dac",
-        "event_type": "Distributor Change",
-        "film_id": "1493400",
-        "importance": "Medium",
-        "metadata": {
-          "distributor": "Disney"
-        },
-        "source_type": "metadata",
-        "summary": "Current distributor is Disney.",
-        "timestamp": "2026-08-20T14:06:23Z",
-        "title": "Distributor set: Disney"
-      },
-      {
-        "confidence": "Inferred",
-        "event_id": "1493400-dbeede3051a8",
-        "event_type": "Awards Tier Changed",
-        "film_id": "1493400",
-        "importance": "Medium",
-        "metadata": {
-          "awards_tier": "Emerging",
-          "categories": [
-            "Song / Score"
-          ]
-        },
-        "source_type": "editorial_model",
-        "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
-        "title": "Awards tier assigned: Emerging"
-      }
-    ],
-    "release_relevance": 52.4,
-    "screening_room_score": {
-      "confidence": "High",
-      "explanation": "TMDb popularity rose from 3.4032 to 81.6613. US release is 24 days away on 2026-08-13.",
-      "score": 23.886
-    },
-    "watch_triggers": [
-      "Major Studio/Streamer",
-      "Awards-Friendly Genre",
-      "Franchise/Event"
-    ],
-    "whats_changed": ""
-  },
-  "talent": {
-    "director": "Veronica Rodriguez",
-    "principal_cast": [
-      "Liamani Segura",
-      "Malachi Barton",
-      "Lumi Pollack",
-      "Hudson Stone",
-      "Casey Trotter",
-      "Brooklynn Pitts",
-      "Joe Jonas",
-      "Nick Jonas"
-    ],
-    "producers": [],
-    "writers": []
-  },
-  "timeline": {
-    "events": [
-      {
-        "confidence": "Inferred",
-        "event_id": "1493400-29422a9d73f0",
-        "event_type": "Homepage Featured",
-        "film_id": "1493400",
-        "importance": "Medium",
-        "metadata": {
-          "editorial_category": "Major Release"
-        },
-        "source_type": "discovery_homepage",
-        "summary": "Camp Rock 3 is currently selected for the homepage experience.",
-        "timestamp": "2026-08-20T14:06:23Z",
-        "title": "Featured in The Screening Room"
-      },
-      {
-        "confidence": "Inferred",
-        "event_id": "1493400-22f914355dac",
-        "event_type": "Distributor Change",
-        "film_id": "1493400",
-        "importance": "Medium",
-        "metadata": {
-          "distributor": "Disney"
-        },
-        "source_type": "metadata",
-        "summary": "Current distributor is Disney.",
-        "timestamp": "2026-08-20T14:06:23Z",
-        "title": "Distributor set: Disney"
-      },
-      {
-        "confidence": "Inferred",
-        "event_id": "1493400-dbeede3051a8",
-        "event_type": "Awards Tier Changed",
-        "film_id": "1493400",
-        "importance": "Medium",
-        "metadata": {
-          "awards_tier": "Emerging",
-          "categories": [
-            "Song / Score"
-          ]
-        },
-        "source_type": "editorial_model",
-        "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
-        "title": "Awards tier assigned: Emerging"
-      },
-      {
-        "confidence": "Inferred",
-        "event_id": "1493400-7dd2406bcfa9",
-        "event_type": "Added To Database",
-        "film_id": "1493400",
-        "importance": "Low",
-        "metadata": {
-          "profile_version": "phase6a"
-        },
-        "source_type": "system",
-        "summary": "Camp Rock 3 is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-20T14:06:23Z",
-        "title": "Added to Awards Intelligence"
-      },
       {
         "confidence": "Inferred",
         "event_id": "1493400-6e8eb0fcc46b",
@@ -743,40 +548,10 @@
         "summary": "Release currently scheduled for In theaters Aug. 13.",
         "timestamp": "2026-08-13",
         "title": "Release scheduled"
-      }
-    ],
-    "latest_event": {
-      "confidence": "Inferred",
-      "event_id": "1493400-29422a9d73f0",
-      "event_type": "Homepage Featured",
-      "film_id": "1493400",
-      "importance": "Medium",
-      "metadata": {
-        "editorial_category": "Major Release"
-      },
-      "source_type": "discovery_homepage",
-      "summary": "Camp Rock 3 is currently selected for the homepage experience.",
-      "timestamp": "2026-08-20T14:06:23Z",
-      "title": "Featured in The Screening Room"
-    },
-    "recent_activity": [
-      {
-        "confidence": "Inferred",
-        "event_id": "1493400-29422a9d73f0",
-        "event_type": "Homepage Featured",
-        "film_id": "1493400",
-        "importance": "Medium",
-        "metadata": {
-          "editorial_category": "Major Release"
-        },
-        "source_type": "discovery_homepage",
-        "summary": "Camp Rock 3 is currently selected for the homepage experience.",
-        "timestamp": "2026-08-20T14:06:23Z",
-        "title": "Featured in The Screening Room"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1493400-22f914355dac",
+        "event_id": "1493400-9b70042e8910",
         "event_type": "Distributor Change",
         "film_id": "1493400",
         "importance": "Medium",
@@ -785,12 +560,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Disney.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Distributor set: Disney"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1493400-dbeede3051a8",
+        "event_id": "1493400-e109360f7404",
         "event_type": "Awards Tier Changed",
         "film_id": "1493400",
         "importance": "Medium",
@@ -802,7 +577,160 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
+        "title": "Awards tier assigned: Emerging"
+      }
+    ],
+    "release_relevance": 46.8,
+    "screening_room_score": {
+      "confidence": "High",
+      "explanation": "US release is 24 days away on 2026-08-13.",
+      "score": 8.24
+    },
+    "watch_triggers": [
+      "Major Studio/Streamer",
+      "Awards-Friendly Genre",
+      "Franchise/Event"
+    ],
+    "whats_changed": ""
+  },
+  "talent": {
+    "director": "Veronica Rodriguez",
+    "principal_cast": [
+      "Kevin Jonas",
+      "Joe Jonas",
+      "Nick Jonas",
+      "Liamani Segura",
+      "Malachi Barton",
+      "Lumi Pollack",
+      "Hudson Stone",
+      "Casey Trotter"
+    ],
+    "producers": [],
+    "writers": [
+      "Eydie Faye"
+    ]
+  },
+  "timeline": {
+    "events": [
+      {
+        "confidence": "Inferred",
+        "event_id": "1493400-6e8eb0fcc46b",
+        "event_type": "Release Scheduled",
+        "film_id": "1493400",
+        "importance": "Medium",
+        "metadata": {
+          "release_date": "2026-08-13"
+        },
+        "source_type": "metadata",
+        "summary": "Release currently scheduled for In theaters Aug. 13.",
+        "timestamp": "2026-08-13",
+        "title": "Release scheduled"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1493400-9b70042e8910",
+        "event_type": "Distributor Change",
+        "film_id": "1493400",
+        "importance": "Medium",
+        "metadata": {
+          "distributor": "Disney"
+        },
+        "source_type": "metadata",
+        "summary": "Current distributor is Disney.",
+        "timestamp": "2026-07-29T21:38:25Z",
+        "title": "Distributor set: Disney"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1493400-e109360f7404",
+        "event_type": "Awards Tier Changed",
+        "film_id": "1493400",
+        "importance": "Medium",
+        "metadata": {
+          "awards_tier": "Emerging",
+          "categories": [
+            "Song / Score"
+          ]
+        },
+        "source_type": "editorial_model",
+        "summary": "plausible but incomplete awards evidence",
+        "timestamp": "2026-07-29T21:38:25Z",
+        "title": "Awards tier assigned: Emerging"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1493400-c79f4ec250aa",
+        "event_type": "Added To Database",
+        "film_id": "1493400",
+        "importance": "Low",
+        "metadata": {
+          "profile_version": "phase6a"
+        },
+        "source_type": "system",
+        "summary": "Camp Rock 3 is tracked in the Film Intelligence profile set.",
+        "timestamp": "2026-07-29T21:38:25Z",
+        "title": "Added to Awards Intelligence"
+      }
+    ],
+    "latest_event": {
+      "confidence": "Inferred",
+      "event_id": "1493400-6e8eb0fcc46b",
+      "event_type": "Release Scheduled",
+      "film_id": "1493400",
+      "importance": "Medium",
+      "metadata": {
+        "release_date": "2026-08-13"
+      },
+      "source_type": "metadata",
+      "summary": "Release currently scheduled for In theaters Aug. 13.",
+      "timestamp": "2026-08-13",
+      "title": "Release scheduled"
+    },
+    "recent_activity": [
+      {
+        "confidence": "Inferred",
+        "event_id": "1493400-6e8eb0fcc46b",
+        "event_type": "Release Scheduled",
+        "film_id": "1493400",
+        "importance": "Medium",
+        "metadata": {
+          "release_date": "2026-08-13"
+        },
+        "source_type": "metadata",
+        "summary": "Release currently scheduled for In theaters Aug. 13.",
+        "timestamp": "2026-08-13",
+        "title": "Release scheduled"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1493400-9b70042e8910",
+        "event_type": "Distributor Change",
+        "film_id": "1493400",
+        "importance": "Medium",
+        "metadata": {
+          "distributor": "Disney"
+        },
+        "source_type": "metadata",
+        "summary": "Current distributor is Disney.",
+        "timestamp": "2026-07-29T21:38:25Z",
+        "title": "Distributor set: Disney"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1493400-e109360f7404",
+        "event_type": "Awards Tier Changed",
+        "film_id": "1493400",
+        "importance": "Medium",
+        "metadata": {
+          "awards_tier": "Emerging",
+          "categories": [
+            "Song / Score"
+          ]
+        },
+        "source_type": "editorial_model",
+        "summary": "plausible but incomplete awards evidence",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Awards tier assigned: Emerging"
       }
     ],

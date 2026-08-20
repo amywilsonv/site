@@ -2,7 +2,21 @@
   "events": [
     {
       "confidence": "Inferred",
-      "event_id": "1185806-2be97bca35ab",
+      "event_id": "1185806-501fee6975bc",
+      "event_type": "Release Scheduled",
+      "film_id": "1185806",
+      "importance": "Medium",
+      "metadata": {
+        "release_date": "2026-08-14"
+      },
+      "source_type": "metadata",
+      "summary": "Release currently scheduled for In theaters Aug. 14.",
+      "timestamp": "2026-08-14",
+      "title": "Release scheduled"
+    },
+    {
+      "confidence": "Inferred",
+      "event_id": "1185806-71e194557e1c",
       "event_type": "Awards Tier Changed",
       "film_id": "1185806",
       "importance": "Medium",
@@ -16,12 +30,12 @@
       },
       "source_type": "editorial_model",
       "summary": "category-specific awards case without broader contender evidence",
-      "timestamp": "2026-08-20T14:06:23Z",
+      "timestamp": "2026-07-29T21:38:25Z",
       "title": "Awards tier assigned: Category Contender"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1185806-31f2c5b1490d",
+      "event_id": "1185806-09359451f7e7",
       "event_type": "Added To Database",
       "film_id": "1185806",
       "importance": "Low",
@@ -30,47 +44,28 @@
       },
       "source_type": "system",
       "summary": "PAW Patrol: The Dino Movie is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-08-20T14:06:23Z",
+      "timestamp": "2026-07-29T21:38:25Z",
       "title": "Added to Awards Intelligence"
-    },
-    {
-      "confidence": "Inferred",
-      "event_id": "1185806-501fee6975bc",
-      "event_type": "Release Scheduled",
-      "film_id": "1185806",
-      "importance": "Medium",
-      "metadata": {
-        "release_date": "2026-08-14"
-      },
-      "source_type": "metadata",
-      "summary": "Release currently scheduled for In theaters Aug. 14.",
-      "timestamp": "2026-08-14",
-      "title": "Release scheduled"
     }
   ],
   "latest_event": {
     "confidence": "Inferred",
-    "event_id": "1185806-2be97bca35ab",
-    "event_type": "Awards Tier Changed",
+    "event_id": "1185806-501fee6975bc",
+    "event_type": "Release Scheduled",
     "film_id": "1185806",
     "importance": "Medium",
     "metadata": {
-      "awards_tier": "Category Contender",
-      "categories": [
-        "Animated Feature",
-        "Craft Categories",
-        "Multiple Pathways"
-      ]
+      "release_date": "2026-08-14"
     },
-    "source_type": "editorial_model",
-    "summary": "category-specific awards case without broader contender evidence",
-    "timestamp": "2026-08-20T14:06:23Z",
-    "title": "Awards tier assigned: Category Contender"
+    "source_type": "metadata",
+    "summary": "Release currently scheduled for In theaters Aug. 14.",
+    "timestamp": "2026-08-14",
+    "title": "Release scheduled"
   },
   "metadata": {
     "event_count": 3,
     "film_id": "1185806",
-    "generated_at": "20260820T140623Z",
+    "generated_at": "slice57_current_discovery_enrichment",
     "timeline_version": "phase6b",
     "title": "PAW Patrol: The Dino Movie",
     "tmdb_id": "1185806"

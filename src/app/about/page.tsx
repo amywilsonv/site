@@ -1,7 +1,4 @@
 import type { Metadata } from "next"
-import { Mail, Code } from "lucide-react"
-import { cn } from "@/lib/utils"
-import { buttonVariants } from "@/components/ui/button"
 
 export const metadata: Metadata = { title: "About" }
 
@@ -10,17 +7,17 @@ const interests = [
   "Audience psychology and what drives fandom",
   "AI-assisted analytics and media intelligence workflows",
   "Release strategy and the mechanics of cultural conversation",
-  "Product and UX design in entertainment apps",
-  "Forecasting models for awards and box office",
 ]
 
 export default function AboutPage() {
   return (
     <>
-      <section className="py-16 lg:py-20 max-w-2xl">
-        <h1 className="text-6xl lg:text-7xl font-light tracking-tighter mb-8">About</h1>
+      <section className="max-w-[650px] py-16 sm:py-18">
+        <h1 className="mb-10 text-6xl font-bold leading-tight tracking-normal sm:text-[60px]">
+          About
+        </h1>
 
-        <div className="space-y-5 text-base leading-relaxed text-foreground">
+        <div className="space-y-8 text-lg leading-8 text-foreground">
           <p>
             I&apos;m a strategy and analytics professional building a focused practice at the
             intersection of entertainment, media, and AI. My background is in consulting and
@@ -41,44 +38,23 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="border-t pt-10 pb-12 max-w-2xl">
-        <h2 className="text-sm font-semibold uppercase tracking-widest text-muted-foreground mb-6">
+      <section className="max-w-[640px] border-t border-border pt-12 pb-20">
+        <h2 className="font-serif text-base italic leading-none text-[#8d857b]">
           What I explore
         </h2>
-        <ul className="space-y-2.5">
-          {interests.map((item) => (
-            <li key={item} className="flex items-start gap-3 text-sm leading-relaxed">
-              <span className="mt-2 w-1 h-1 rounded-full bg-amber-400 shrink-0" />
-              {item}
+        <ul className="mt-6 border-y border-border">
+          {interests.map((item, index) => (
+            <li
+              key={item}
+              className="grid grid-cols-[48px_1fr] items-baseline gap-0 border-t border-border py-5 first:border-t-0"
+            >
+              <span className="font-serif text-2xl italic leading-none text-[#9a9185]">
+                {String(index + 1).padStart(2, "0")}
+              </span>
+              <span className="text-base leading-6">{item}</span>
             </li>
           ))}
         </ul>
-      </section>
-
-      <section className="border-t pt-10 pb-20 max-w-2xl">
-        <h2 className="text-sm font-semibold uppercase tracking-widest text-muted-foreground mb-6">
-          Get in touch
-        </h2>
-        <p className="text-sm text-muted-foreground mb-6 leading-relaxed">
-          I&apos;m always interested in conversations about entertainment strategy, analytics
-          projects, or opportunities at the intersection of media and technology.
-        </p>
-        <div className="flex flex-col sm:flex-row gap-3">
-          <a
-            href="mailto:hello@example.com"
-            className={cn(buttonVariants())}
-          >
-            <Mail className="size-4" />
-            hello@example.com
-          </a>
-          <a
-            href="https://github.com/amywilsonv"
-            className={cn(buttonVariants({ variant: "outline" }))}
-          >
-            <Code className="size-4" />
-            GitHub
-          </a>
-        </div>
       </section>
     </>
   )

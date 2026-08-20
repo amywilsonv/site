@@ -7,7 +7,7 @@
       "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 43.6,
+    "attention_score": 42.5,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -25,13 +25,13 @@
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 2.9404",
-        "source": "audience_popularity",
+        "evidence": "Release date: 2026-09-23",
+        "source": "release_proximity",
         "status": "verified"
       },
       {
-        "evidence": "Release date: 2026-09-23",
-        "source": "release_proximity",
+        "evidence": "TMDb popularity 2.1949",
+        "source": "audience_popularity",
         "status": "verified"
       },
       {
@@ -46,14 +46,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 43.6,
+    "homepage_spotlight_score": 42.5,
     "industry_interest": null,
-    "last_updated": "20260820T140623Z",
+    "last_updated": "20260729T213825Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
         "evidence_count": 1,
-        "score": 7.1,
+        "score": 6.0,
         "statuses": [
           "verified"
         ]
@@ -132,6 +132,23 @@
     ],
     "probabilities": {}
   },
+  "awards_intelligence": {
+    "awards_candidate_status": "PROVISIONAL",
+    "awards_status": null,
+    "best_picture_rank": null,
+    "forecast_stage": null,
+    "forecast_stage_label": null,
+    "nominee_probability": null,
+    "percentage_policy": "PERCENTAGES_NOT_READY",
+    "prediction_confidence": null,
+    "probability_is_calibrated": false,
+    "public_card_behavior": "no_awards_badge",
+    "rank_change": null,
+    "ranking_eligibility": "NOT_RANKED",
+    "ranking_last_updated_at": null,
+    "source_artifact": "academy_nominee_website_card_handoff_v1.json",
+    "why_it_ranks": []
+  },
   "commercial": {
     "commercial_significance": 19.0,
     "distributor": "Prime Video",
@@ -173,7 +190,7 @@
     "premiere_type": ""
   },
   "film_identity": {
-    "backdrop": "https://image.tmdb.org/t/p/original/p1Xk8xNHHP1HJx2yGZuREp8Etab.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/koX7CvqQ9nYEXIAPSDxbbnBw7bR.jpg",
     "country": [
       "US"
     ],
@@ -182,7 +199,7 @@
       "Comedy"
     ],
     "id": "1032863",
-    "imdb_id": "",
+    "imdb_id": "tt22526100",
     "language": "en",
     "original_title": "The Love Hypothesis",
     "poster": "https://image.tmdb.org/t/p/original/mSeGcWakOmhPd1n0QcinqIIUu1B.jpg",
@@ -190,16 +207,16 @@
     "profile_url": "film.html?id=1032863",
     "release_date": "2026-09-23",
     "release_display": "In theaters Sep. 23",
-    "runtime": null,
+    "runtime": 0,
     "synopsis": "Olive Smith, a biology PhD candidate, and Dr. Adam Carlsen, a hotshot professor and well-known tyrant, enter into a fake relationship, seeing each of their carefully calculated theories on love get thrown into chaos.",
     "title": "The Love Hypothesis",
     "tmdb_id": "1032863"
   },
   "intelligence": {
-    "confidence": "High",
-    "confidence_score": 0.99,
-    "generated_at": "2026-08-20T14:06:00Z",
-    "headline": "The Love Hypothesis: popularity increasing",
+    "confidence": "Low",
+    "confidence_score": 0.25,
+    "generated_at": "2026-07-29T21:38:25Z",
+    "headline": "The Love Hypothesis: no material change detected",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
       "signal_values": {
@@ -217,8 +234,8 @@
         "streaming_provider_count_us": 0,
         "tmdb_backdrop_count": 1,
         "tmdb_canonical_trailer_available": false,
-        "tmdb_popularity": 2.9404,
-        "tmdb_poster_count": 3,
+        "tmdb_popularity": 2.1949,
+        "tmdb_poster_count": 1,
         "tmdb_release_date_us_primary": "2026-09-23",
         "tmdb_release_date_us_theatrical": "",
         "tmdb_release_status": "Post Production",
@@ -232,50 +249,39 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity rose from 2.1949 to 2.9404.",
-    "supporting_drivers": [
-      {
-        "confidence_weight": 0.9,
-        "driver_type": "popularity_increasing",
-        "evidence": "TMDb popularity rose from 2.1949 to 2.9404.",
-        "label": "Popularity increasing",
-        "retrieved_at": "2026-08-20T14:06:00Z",
-        "source_metric": "tmdb_popularity",
-        "source_provider": "tmdb",
-        "source_status": "available"
-      }
-    ]
+    "summary": "Current provider signals do not show a supported material change.",
+    "supporting_drivers": []
   },
-  "media": {},
+  "media": {
+    "backdrop": "https://image.tmdb.org/t/p/original/koX7CvqQ9nYEXIAPSDxbbnBw7bR.jpg",
+    "poster": "https://image.tmdb.org/t/p/original/mSeGcWakOmhPd1n0QcinqIIUu1B.jpg"
+  },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260820T140623Z",
-    "profile_version": "phase6a",
+    "awards_intelligence_integrated_at": "2026-08-16T00:00:00Z",
+    "awards_intelligence_source": "academy_nominee_website_card_handoff_v1.json",
+    "generated_at": "slice57_current_discovery_enrichment",
+    "profile_version": "phase6a_registry_canonical_id_bridge_slice57_enriched",
     "source_data_date": "2026-07-20"
   },
   "performance": {
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 2.9404,
-        "retrieved_at": "2026-08-20",
+        "popularity": 2.1949,
+        "retrieved_at": "2026-07-29",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1032863",
         "status": "not_yet_rated"
       }
     },
-    "tmdb_popularity": {
-      "retrieved_at": "2026-08-20",
-      "source": "TMDb",
-      "source_url": "https://www.themoviedb.org/movie/1032863",
-      "value": 2.9404
-    },
+    "tmdb_popularity": 2.1949,
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 2.9404,
-      "retrieved_at": "2026-08-20",
+      "popularity": 2.1949,
+      "retrieved_at": "2026-07-29",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1032863",
       "status": "not_yet_rated"
@@ -403,13 +409,13 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.056,
+      "audience_momentum": 0.042,
       "awards_relevance": 0.8,
       "talent_profile": 2.525
     },
-    "generated_at": "2026-08-20T14:06:00Z",
+    "generated_at": "2026-07-29T21:38:25Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 3.381,
+    "score": 3.367,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -438,20 +444,20 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.056,
+        "contribution": 0.042,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 2.9404
+        "value": 2.1949
       }
     ]
   },
   "signals": {
     "cultural_significance": 19.0,
     "external_intelligence": {
-      "confidence": "High",
-      "headline": "The Love Hypothesis: popularity increasing",
-      "summary": "TMDb popularity rose from 2.1949 to 2.9404."
+      "confidence": "Low",
+      "headline": "The Love Hypothesis: no material change detected",
+      "summary": "Current provider signals do not show a supported material change."
     },
     "last_updated": "2026-09-23",
     "latest_event": {
@@ -489,7 +495,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1032863-43fdeda2340e",
+        "event_id": "1032863-049ae84c889c",
         "event_type": "Distributor Change",
         "film_id": "1032863",
         "importance": "Medium",
@@ -498,12 +504,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Prime Video.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Distributor set: Prime Video"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1032863-eaf13e403f2c",
+        "event_id": "1032863-76f3863e9f66",
         "event_type": "Awards Tier Changed",
         "film_id": "1032863",
         "importance": "Medium",
@@ -515,15 +521,15 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],
     "release_relevance": 28.0,
     "screening_room_score": {
-      "confidence": "High",
-      "explanation": "TMDb popularity rose from 2.1949 to 2.9404.",
-      "score": 3.381
+      "confidence": "Low",
+      "explanation": "Current provider signals do not show a supported material change.",
+      "score": 3.367
     },
     "watch_triggers": [
       "Major Studio/Streamer",
@@ -543,7 +549,9 @@
       "Arty Froushan"
     ],
     "producers": [],
-    "writers": []
+    "writers": [
+      "Sarah Rothschild"
+    ]
   },
   "timeline": {
     "events": [
@@ -563,7 +571,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1032863-43fdeda2340e",
+        "event_id": "1032863-049ae84c889c",
         "event_type": "Distributor Change",
         "film_id": "1032863",
         "importance": "Medium",
@@ -572,12 +580,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Prime Video.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Distributor set: Prime Video"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1032863-eaf13e403f2c",
+        "event_id": "1032863-76f3863e9f66",
         "event_type": "Awards Tier Changed",
         "film_id": "1032863",
         "importance": "Medium",
@@ -589,12 +597,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1032863-b05f03544656",
+        "event_id": "1032863-db2a2dbf6a3f",
         "event_type": "Added To Database",
         "film_id": "1032863",
         "importance": "Low",
@@ -603,7 +611,7 @@
         },
         "source_type": "system",
         "summary": "The Love Hypothesis is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -638,7 +646,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1032863-43fdeda2340e",
+        "event_id": "1032863-049ae84c889c",
         "event_type": "Distributor Change",
         "film_id": "1032863",
         "importance": "Medium",
@@ -647,12 +655,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Prime Video.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Distributor set: Prime Video"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1032863-eaf13e403f2c",
+        "event_id": "1032863-76f3863e9f66",
         "event_type": "Awards Tier Changed",
         "film_id": "1032863",
         "importance": "Medium",
@@ -664,7 +672,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],

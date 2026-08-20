@@ -8,7 +8,7 @@
       "Event Release",
       "Awards Watch"
     ],
-    "attention_score": 55.6,
+    "attention_score": 56.2,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -31,7 +31,7 @@
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 2.8543",
+        "evidence": "TMDb popularity 3.3731",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -57,14 +57,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 55.6,
+    "homepage_spotlight_score": 56.2,
     "industry_interest": null,
-    "last_updated": "20260820T140623Z",
+    "last_updated": "20260729T213825Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
         "evidence_count": 1,
-        "score": 7.0,
+        "score": 7.6,
         "statuses": [
           "verified"
         ]
@@ -151,6 +151,23 @@
     ],
     "probabilities": {}
   },
+  "awards_intelligence": {
+    "awards_candidate_status": "ELIGIBILITY_UNCERTAIN",
+    "awards_status": null,
+    "best_picture_rank": null,
+    "forecast_stage": null,
+    "forecast_stage_label": null,
+    "nominee_probability": null,
+    "percentage_policy": "PERCENTAGES_NOT_READY",
+    "prediction_confidence": null,
+    "probability_is_calibrated": false,
+    "public_card_behavior": "no_awards_badge",
+    "rank_change": null,
+    "ranking_eligibility": "NOT_RANKED",
+    "ranking_last_updated_at": null,
+    "source_artifact": "academy_nominee_website_card_handoff_v1.json",
+    "why_it_ranks": []
+  },
   "commercial": {
     "commercial_significance": 19.0,
     "distributor": "Netflix",
@@ -201,15 +218,15 @@
       "Family"
     ],
     "id": "1147572",
-    "imdb_id": "",
+    "imdb_id": "tt9077514",
     "language": "en",
     "original_title": "Narnia: The Magician's Nephew",
-    "poster": "https://image.tmdb.org/t/p/original/xmzEkG8wrpoQeX6AKRL7EBpCxio.jpg",
+    "poster": "https://image.tmdb.org/t/p/original/ckKx8XP3ld8x7UGouSdnZTLYJgn.jpg",
     "profile_payload_url": "data/films/1147572.json",
     "profile_url": "film.html?id=1147572",
     "release_date": "2027-02-12",
     "release_display": "Feb. 12, 2027",
-    "runtime": null,
+    "runtime": 0,
     "synopsis": "The new upcoming film by Greta Gerwig.",
     "title": "Narnia: The Magician's Nephew",
     "tmdb_id": "1147572"
@@ -217,7 +234,7 @@
   "intelligence": {
     "confidence": "Low",
     "confidence_score": 0.25,
-    "generated_at": "2026-08-20T14:06:00Z",
+    "generated_at": "2026-07-29T21:38:25Z",
     "headline": "Narnia: The Magician's Nephew: no material change detected",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -234,9 +251,9 @@
         "streaming_available_us": false,
         "streaming_flatrate_provider_count_us": 0,
         "streaming_provider_count_us": 0,
-        "tmdb_backdrop_count": 1,
+        "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": false,
-        "tmdb_popularity": 2.8543,
+        "tmdb_popularity": 3.3731,
         "tmdb_poster_count": 5,
         "tmdb_release_date_us_primary": "2027-02-12",
         "tmdb_release_date_us_theatrical": "2027-02-12",
@@ -254,42 +271,42 @@
     "summary": "Current provider signals do not show a supported material change.",
     "supporting_drivers": []
   },
-  "media": {},
+  "media": {
+    "backdrop": "https://image.tmdb.org/t/p/original/yrsI7srveMyG3YlvWRRvcIMOMYi.jpg",
+    "poster": "https://image.tmdb.org/t/p/original/ckKx8XP3ld8x7UGouSdnZTLYJgn.jpg"
+  },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260820T140623Z",
-    "profile_version": "phase6a",
+    "awards_intelligence_integrated_at": "2026-08-16T00:00:00Z",
+    "awards_intelligence_source": "academy_nominee_website_card_handoff_v1.json",
+    "generated_at": "slice57_current_discovery_enrichment",
+    "profile_version": "phase6a_registry_canonical_id_bridge_slice57_enriched",
     "source_data_date": "2026-07-20"
   },
   "performance": {
     "box_office": {
       "budget": 200000000,
       "currency": "USD",
-      "retrieved_at": "2026-08-20",
+      "retrieved_at": "2026-07-29",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1147572"
     },
     "ratings": {
       "tmdb": {
-        "popularity": 2.8543,
-        "retrieved_at": "2026-08-20",
+        "popularity": 3.3731,
+        "retrieved_at": "2026-07-29",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1147572",
         "status": "not_yet_rated"
       }
     },
-    "tmdb_popularity": {
-      "retrieved_at": "2026-08-20",
-      "source": "TMDb",
-      "source_url": "https://www.themoviedb.org/movie/1147572",
-      "value": 2.8543
-    },
+    "tmdb_popularity": 3.3731,
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 2.8543,
-      "retrieved_at": "2026-08-20",
+      "popularity": 3.3731,
+      "retrieved_at": "2026-07-29",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1147572",
       "status": "not_yet_rated"
@@ -297,6 +314,18 @@
   },
   "related": {
     "related_films": [
+      {
+        "profile_url": "film.html?id=1643567",
+        "relationship_score": 46,
+        "shared_signals": [
+          "General Watch",
+          "Adventure",
+          "Fantasy",
+          "Craft Categories"
+        ],
+        "title": "Ghosts: The Possession of Button House",
+        "tmdb_id": "1643567"
+      },
       {
         "profile_url": "film.html?id=1422041",
         "relationship_score": 44,
@@ -309,15 +338,15 @@
         "tmdb_id": "1422041"
       },
       {
-        "profile_url": "film.html?id=1643567",
-        "relationship_score": 40,
+        "profile_url": "film.html?id=1284041",
+        "relationship_score": 44,
         "shared_signals": [
           "General Watch",
-          "Fantasy",
-          "Craft Categories"
+          "Craft Categories",
+          "Netflix"
         ],
-        "title": "Ghosts: The Possession of Button House",
-        "tmdb_id": "1643567"
+        "title": "The Last House",
+        "tmdb_id": "1284041"
       },
       {
         "profile_url": "film.html?id=1148365",
@@ -351,17 +380,6 @@
         ],
         "title": "Sacrifice",
         "tmdb_id": "1284186"
-      },
-      {
-        "profile_url": "film.html?id=1288211",
-        "relationship_score": 40,
-        "shared_signals": [
-          "General Watch",
-          "Adventure",
-          "Craft Categories"
-        ],
-        "title": "The Great Beyond",
-        "tmdb_id": "1288211"
       }
     ],
     "related_people": [
@@ -411,13 +429,13 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.054,
+      "audience_momentum": 0.064,
       "awards_relevance": 0.8,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-20T14:06:00Z",
+    "generated_at": "2026-07-29T21:38:25Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 4.179,
+    "score": 4.189,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -446,11 +464,11 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.054,
+        "contribution": 0.064,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 2.8543
+        "value": 3.3731
       }
     ]
   },
@@ -497,7 +515,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1147572-1e5dd5fb3fd6",
+        "event_id": "1147572-4ea632b08beb",
         "event_type": "Distributor Change",
         "film_id": "1147572",
         "importance": "Medium",
@@ -506,12 +524,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1147572-067a99432042",
+        "event_id": "1147572-f617f64356b8",
         "event_type": "Awards Tier Changed",
         "film_id": "1147572",
         "importance": "Medium",
@@ -523,7 +541,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],
@@ -531,7 +549,7 @@
     "screening_room_score": {
       "confidence": "Low",
       "explanation": "Current provider signals do not show a supported material change.",
-      "score": 4.179
+      "score": 4.189
     },
     "watch_triggers": [
       "Prestige Distributor",
@@ -553,7 +571,9 @@
       "Kobna Holdbrook-Smith"
     ],
     "producers": [],
-    "writers": []
+    "writers": [
+      "Greta Gerwig"
+    ]
   },
   "timeline": {
     "events": [
@@ -573,7 +593,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1147572-1e5dd5fb3fd6",
+        "event_id": "1147572-4ea632b08beb",
         "event_type": "Distributor Change",
         "film_id": "1147572",
         "importance": "Medium",
@@ -582,12 +602,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1147572-067a99432042",
+        "event_id": "1147572-f617f64356b8",
         "event_type": "Awards Tier Changed",
         "film_id": "1147572",
         "importance": "Medium",
@@ -599,12 +619,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1147572-086e8e4bc35f",
+        "event_id": "1147572-c506d9ad44e6",
         "event_type": "Added To Database",
         "film_id": "1147572",
         "importance": "Low",
@@ -613,7 +633,7 @@
         },
         "source_type": "system",
         "summary": "Narnia: The Magician's Nephew is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -648,7 +668,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1147572-1e5dd5fb3fd6",
+        "event_id": "1147572-4ea632b08beb",
         "event_type": "Distributor Change",
         "film_id": "1147572",
         "importance": "Medium",
@@ -657,12 +677,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1147572-067a99432042",
+        "event_id": "1147572-f617f64356b8",
         "event_type": "Awards Tier Changed",
         "film_id": "1147572",
         "importance": "Medium",
@@ -674,7 +694,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],

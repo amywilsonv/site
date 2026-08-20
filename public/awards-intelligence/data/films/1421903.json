@@ -20,12 +20,12 @@
         "status": "inferred"
       },
       {
-        "evidence": "Principal cast listed: Aaron Taylor-Johnson, Lily-Rose Depp, Willem Dafoe, Bodhi Rae Breathnach",
+        "evidence": "Principal cast listed: Aaron Taylor-Johnson, Lily-Rose Depp, Bodhi Rae Breathnach, Willem Dafoe",
         "source": "cast_interest",
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 4.8461",
+        "evidence": "TMDb popularity 4.8191",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -53,7 +53,7 @@
     "homepage_spotlight_override": null,
     "homepage_spotlight_score": 51.7,
     "industry_interest": null,
-    "last_updated": "20260820T140623Z",
+    "last_updated": "20260729T213825Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
@@ -135,6 +135,23 @@
     "predicted_categories": [],
     "probabilities": {}
   },
+  "awards_intelligence": {
+    "awards_candidate_status": "PROVISIONAL",
+    "awards_status": null,
+    "best_picture_rank": null,
+    "forecast_stage": null,
+    "forecast_stage_label": null,
+    "nominee_probability": null,
+    "percentage_policy": "PERCENTAGES_NOT_READY",
+    "prediction_confidence": null,
+    "probability_is_calibrated": false,
+    "public_card_behavior": "no_awards_badge",
+    "rank_change": null,
+    "ranking_eligibility": "NOT_RANKED",
+    "ranking_last_updated_at": null,
+    "source_artifact": "academy_nominee_website_card_handoff_v1.json",
+    "why_it_ranks": []
+  },
   "commercial": {
     "commercial_significance": 0,
     "distributor": "Focus Features",
@@ -184,24 +201,24 @@
       "Horror"
     ],
     "id": "1421903",
-    "imdb_id": "",
+    "imdb_id": "tt35514120",
     "language": "en",
     "original_title": "Werwulf",
-    "poster": "https://image.tmdb.org/t/p/original/imnkSt4PSQpxIuyiRpJCiLk3SZz.jpg",
+    "poster": "https://image.tmdb.org/t/p/original/qXqCece01iDhDoeX1V3y6rbPkNK.jpg",
     "profile_payload_url": "data/films/1421903.json",
     "profile_url": "film.html?id=1421903",
     "release_date": "2026-12-25",
     "release_display": "In theaters Dec. 25",
-    "runtime": null,
+    "runtime": 0,
     "synopsis": "A harrowing tale of devotion, damnation and the devil within.",
     "title": "Werwulf",
     "tmdb_id": "1421903"
   },
   "intelligence": {
-    "confidence": "High",
-    "confidence_score": 0.99,
-    "generated_at": "2026-08-20T14:06:00Z",
-    "headline": "Werwulf: popularity increasing",
+    "confidence": "Low",
+    "confidence_score": 0.25,
+    "generated_at": "2026-07-29T21:38:25Z",
+    "headline": "Werwulf: no material change detected",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
       "signal_values": {
@@ -220,8 +237,8 @@
         "tmdb_backdrop_count": 1,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=cmjpadVj-Vk",
-        "tmdb_popularity": 4.8461,
-        "tmdb_poster_count": 9,
+        "tmdb_popularity": 4.8191,
+        "tmdb_poster_count": 16,
         "tmdb_release_date_us_primary": "2026-12-25",
         "tmdb_release_date_us_theatrical": "2026-12-25",
         "tmdb_release_status": "Post Production",
@@ -236,23 +253,13 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity rose from 4.8191 to 4.8461.",
-    "supporting_drivers": [
-      {
-        "confidence_weight": 0.9,
-        "driver_type": "popularity_increasing",
-        "evidence": "TMDb popularity rose from 4.8191 to 4.8461.",
-        "label": "Popularity increasing",
-        "retrieved_at": "2026-08-20T14:06:00Z",
-        "source_metric": "tmdb_popularity",
-        "source_provider": "tmdb",
-        "source_status": "available"
-      }
-    ]
+    "summary": "Current provider signals do not show a supported material change.",
+    "supporting_drivers": []
   },
   "media": {
+    "backdrop": "https://image.tmdb.org/t/p/original/jmW9NkzbpI9vhyxJU2x644Nj7VU.jpg",
     "canonical_trailer": {
-      "retrieved_at": "2026-08-20",
+      "retrieved_at": "2026-07-29",
       "site": "YouTube",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1421903/videos",
@@ -260,37 +267,36 @@
       "type": "Trailer",
       "url": "https://www.youtube.com/watch?v=cmjpadVj-Vk"
     },
-    "latest_trailer_url": "https://www.youtube.com/watch?v=cmjpadVj-Vk"
+    "latest_trailer_url": "https://www.youtube.com/watch?v=cmjpadVj-Vk",
+    "poster": "https://image.tmdb.org/t/p/original/qXqCece01iDhDoeX1V3y6rbPkNK.jpg",
+    "trailer": "https://www.youtube.com/watch?v=cmjpadVj-Vk"
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260820T140623Z",
-    "profile_version": "phase6a",
+    "awards_intelligence_integrated_at": "2026-08-16T00:00:00Z",
+    "awards_intelligence_source": "academy_nominee_website_card_handoff_v1.json",
+    "generated_at": "slice57_current_discovery_enrichment",
+    "profile_version": "phase6a_registry_canonical_id_bridge_slice57_enriched",
     "source_data_date": "2026-07-20"
   },
   "performance": {
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 4.8461,
-        "retrieved_at": "2026-08-20",
+        "popularity": 4.8191,
+        "retrieved_at": "2026-07-29",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1421903",
         "status": "not_yet_rated"
       }
     },
-    "tmdb_popularity": {
-      "retrieved_at": "2026-08-20",
-      "source": "TMDb",
-      "source_url": "https://www.themoviedb.org/movie/1421903",
-      "value": 4.8461
-    },
+    "tmdb_popularity": 4.8191,
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 4.8461,
-      "retrieved_at": "2026-08-20",
+      "popularity": 4.8191,
+      "retrieved_at": "2026-07-29",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1421903",
       "status": "not_yet_rated"
@@ -339,13 +345,14 @@
         "tmdb_id": "1728408"
       },
       {
-        "profile_url": "film.html?id=949838",
-        "relationship_score": 26,
+        "profile_url": "film.html?id=1284041",
+        "relationship_score": 32,
         "shared_signals": [
-          "General Watch"
+          "General Watch",
+          "Horror"
         ],
-        "title": "72 HOURS",
-        "tmdb_id": "949838"
+        "title": "The Last House",
+        "tmdb_id": "1284041"
       },
       {
         "profile_url": "film.html?id=1324688",
@@ -371,11 +378,11 @@
         "role": "actor"
       },
       {
-        "name": "Willem Dafoe",
+        "name": "Bodhi Rae Breathnach",
         "role": "actor"
       },
       {
-        "name": "Bodhi Rae Breathnach",
+        "name": "Willem Dafoe",
         "role": "actor"
       },
       {
@@ -412,7 +419,7 @@
       "campaign_activity": 1.35,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-20T14:06:00Z",
+    "generated_at": "2026-07-29T21:38:25Z",
     "schema_version": "phase3_screening_room_score_v1",
     "score": 4.767,
     "source": "derived_screening_room_score",
@@ -447,16 +454,16 @@
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 4.8461
+        "value": 4.8191
       }
     ]
   },
   "signals": {
     "cultural_significance": 0,
     "external_intelligence": {
-      "confidence": "High",
-      "headline": "Werwulf: popularity increasing",
-      "summary": "TMDb popularity rose from 4.8191 to 4.8461."
+      "confidence": "Low",
+      "headline": "Werwulf: no material change detected",
+      "summary": "Current provider signals do not show a supported material change."
     },
     "last_updated": "2026-12-25",
     "latest_event": {
@@ -494,7 +501,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1421903-994877447444",
+        "event_id": "1421903-3c27d1f6ed06",
         "event_type": "Distributor Change",
         "film_id": "1421903",
         "importance": "Medium",
@@ -503,12 +510,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Focus Features.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Distributor set: Focus Features"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1421903-a949e35eaafb",
+        "event_id": "1421903-d3302429675b",
         "event_type": "Awards Tier Changed",
         "film_id": "1421903",
         "importance": "Medium",
@@ -518,14 +525,14 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],
     "release_relevance": 18.2,
     "screening_room_score": {
-      "confidence": "High",
-      "explanation": "TMDb popularity rose from 4.8191 to 4.8461.",
+      "confidence": "Low",
+      "explanation": "Current provider signals do not show a supported material change.",
       "score": 4.767
     },
     "watch_triggers": [
@@ -542,15 +549,18 @@
     "principal_cast": [
       "Aaron Taylor-Johnson",
       "Lily-Rose Depp",
-      "Willem Dafoe",
       "Bodhi Rae Breathnach",
+      "Willem Dafoe",
       "Ralph Ineson",
       "Vidal Arzoni",
       "Ned Dennehy",
       "Jack Morris"
     ],
     "producers": [],
-    "writers": []
+    "writers": [
+      "Robert Eggers",
+      "Sj\u00f3n"
+    ]
   },
   "timeline": {
     "events": [
@@ -570,7 +580,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1421903-994877447444",
+        "event_id": "1421903-3c27d1f6ed06",
         "event_type": "Distributor Change",
         "film_id": "1421903",
         "importance": "Medium",
@@ -579,12 +589,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Focus Features.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Distributor set: Focus Features"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1421903-a949e35eaafb",
+        "event_id": "1421903-d3302429675b",
         "event_type": "Awards Tier Changed",
         "film_id": "1421903",
         "importance": "Medium",
@@ -594,12 +604,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1421903-e31515548ad9",
+        "event_id": "1421903-8deb95cf9867",
         "event_type": "Added To Database",
         "film_id": "1421903",
         "importance": "Low",
@@ -608,7 +618,7 @@
         },
         "source_type": "system",
         "summary": "Werwulf is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -643,7 +653,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1421903-994877447444",
+        "event_id": "1421903-3c27d1f6ed06",
         "event_type": "Distributor Change",
         "film_id": "1421903",
         "importance": "Medium",
@@ -652,12 +662,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Focus Features.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Distributor set: Focus Features"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1421903-a949e35eaafb",
+        "event_id": "1421903-d3302429675b",
         "event_type": "Awards Tier Changed",
         "film_id": "1421903",
         "importance": "Medium",
@@ -667,7 +677,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],

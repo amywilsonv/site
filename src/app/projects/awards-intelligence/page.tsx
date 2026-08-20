@@ -9,20 +9,16 @@ import { AnalyticsLink } from "@/components/analytics-link"
 export const metadata: Metadata = {
   title: "The Screening Room",
   description:
-    "A hidden-beta movie-intelligence platform for understanding which films matter, why they matter, and what changed.",
-  robots: {
-    index: false,
-    follow: false,
-  },
+    "A movie-intelligence platform for understanding which films matter, why they matter, and what changed.",
   openGraph: {
     title: "The Screening Room",
     description:
-      "A hidden-beta movie-intelligence platform for understanding which films matter, why they matter, and what changed.",
+      "A movie-intelligence platform for understanding which films matter, why they matter, and what changed.",
     images: ["/project-assets/awards-intelligence/screening-room-refined-homepage-desktop.png"],
   },
 }
 
-const appUrl = "/awards-intelligence/discovery.html"
+const appUrl = "/screening-room/"
 
 const dimensions = [
   "Creative",
@@ -39,7 +35,7 @@ const capabilities = [
   "Film intelligence profiles with timelines and latest activity",
   "Universal local search across titles, filmmakers, distributors, franchises, and genres",
   "Refresh-ready data pipeline with audit logs before live writes",
-  "Static production payloads for a fast hidden-beta preview",
+  "Static production payloads for a fast public preview",
 ]
 
 const system = [
@@ -96,7 +92,7 @@ export default function AwardsIntelligencePage() {
               <span className="flex size-5 items-center justify-center bg-foreground text-[10px] font-semibold text-background">
                 SR
               </span>
-              Hidden beta
+              Live project
             </div>
             <h1 className="max-w-3xl text-6xl font-light tracking-tighter leading-[1.02] lg:text-7xl">
               The Screening Room
@@ -114,7 +110,7 @@ export default function AwardsIntelligencePage() {
                 eventPayload={{ surface: "project_page" }}
                 className="inline-flex items-center gap-2 border border-foreground bg-foreground px-4 py-2 text-sm font-medium text-background transition-colors hover:bg-foreground/90"
               >
-                Launch hidden beta
+                Launch Screening Room
                 <ArrowUpRight className="size-4" />
               </AnalyticsLink>
               <Link
@@ -206,7 +202,7 @@ export default function AwardsIntelligencePage() {
       <CaseSection title="Outcome">
         <div className="space-y-5">
           <p>
-            The hidden beta now supports a recruiter-reviewable product flow:
+            The Screening Room now supports a recruiter-reviewable product flow:
             Home, Discover, Festival Radar, Awards Intelligence, Film profiles,
             Timeline activity, Search, and return navigation back to the
             portfolio.
@@ -224,7 +220,7 @@ export default function AwardsIntelligencePage() {
       <section className="border-t py-10">
         <div className="mb-6 flex items-baseline justify-between gap-6">
           <h2 className="text-sm font-medium">Current experience</h2>
-          <span className="text-xs text-muted-foreground">Hidden beta preview</span>
+          <span className="text-xs text-muted-foreground">Live product preview</span>
         </div>
         <div className="grid gap-5">
           {screenshots.map((shot) => (
@@ -250,9 +246,8 @@ export default function AwardsIntelligencePage() {
           <h2 className="text-sm font-medium">Status</h2>
           <div>
             <p className="max-w-2xl text-sm leading-relaxed text-muted-foreground">
-              The project is ready for hidden-beta review. It should remain
-              unindexed while final data-quality and public-linking decisions
-              are reviewed.
+              The project is ready for public review, with the live product
+              linked through the clean Screening Room route.
             </p>
             <AnalyticsLink
               href={appUrl}

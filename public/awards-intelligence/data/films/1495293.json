@@ -8,7 +8,7 @@
       "Event Release",
       "Awards Watch"
     ],
-    "attention_score": 58.9,
+    "attention_score": 59.8,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -51,20 +51,20 @@
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 0.6332",
+        "evidence": "TMDb popularity 0.9249",
         "source": "audience_popularity",
         "status": "verified"
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 58.9,
+    "homepage_spotlight_score": 59.8,
     "industry_interest": "Moderate",
-    "last_updated": "20260820T140623Z",
+    "last_updated": "20260729T213825Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
         "evidence_count": 1,
-        "score": 2.5,
+        "score": 3.4,
         "statuses": [
           "verified"
         ]
@@ -150,6 +150,28 @@
     ],
     "probabilities": {}
   },
+  "awards_intelligence": {
+    "awards_candidate_status": "ACTIVE_CONTENDER",
+    "awards_status": "ON THE BUBBLE",
+    "best_picture_rank": 25,
+    "forecast_stage": "STAGE_B",
+    "forecast_stage_label": "Stage B Early Season",
+    "nominee_probability": null,
+    "percentage_policy": "PERCENTAGES_NOT_READY",
+    "prediction_confidence": "RESEARCH_ONLY",
+    "probability_is_calibrated": false,
+    "public_card_behavior": "show_awards_status_and_rank",
+    "rank_change": null,
+    "ranking_eligibility": "RANKABLE_HIGH_UNCERTAINTY",
+    "ranking_last_updated_at": "2026-08-16T00:00:00Z",
+    "source_artifact": "academy_nominee_website_card_handoff_v1.json",
+    "why_it_ranks": [
+      {
+        "code": "FALL_AWARDS_WINDOW_RELEASE",
+        "text": "Release timing falls in the fall awards window."
+      }
+    ]
+  },
   "commercial": {
     "commercial_significance": 37.0,
     "distributor": "Unknown",
@@ -200,7 +222,7 @@
       "Thriller"
     ],
     "id": "1495293",
-    "imdb_id": "",
+    "imdb_id": "tt37458144",
     "language": "ta",
     "original_title": "\u0b85\u0bb0\u0b9a\u0ba9\u0bcd",
     "poster": "https://image.tmdb.org/t/p/original/v7rgQyI8WGJf6cf3IvfkdyzV0HN.jpg",
@@ -208,7 +230,7 @@
     "profile_url": "film.html?id=1495293",
     "release_date": "2026-11-06",
     "release_display": "In theaters Nov. 6",
-    "runtime": null,
+    "runtime": 0,
     "synopsis": "Taking place as an untold story in the same world as Vetrimaaran's Vadachennai, a man holds a struggling, dark past in the 1990s.",
     "title": "Arasan",
     "tmdb_id": "1495293"
@@ -216,7 +238,7 @@
   "intelligence": {
     "confidence": "Low",
     "confidence_score": 0.25,
-    "generated_at": "2026-08-20T14:06:00Z",
+    "generated_at": "2026-07-29T21:38:25Z",
     "headline": "Arasan: no material change detected",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -235,7 +257,7 @@
         "streaming_provider_count_us": 0,
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": false,
-        "tmdb_popularity": 0.6332,
+        "tmdb_popularity": 0.9249,
         "tmdb_poster_count": 0,
         "tmdb_release_date_us_primary": "",
         "tmdb_release_date_us_theatrical": "",
@@ -253,42 +275,42 @@
     "summary": "Current provider signals do not show a supported material change.",
     "supporting_drivers": []
   },
-  "media": {},
+  "media": {
+    "backdrop": "https://image.tmdb.org/t/p/original/gpNilVJGKbZ5BElEXEdRgD2MYXG.jpg",
+    "poster": "https://image.tmdb.org/t/p/original/v7rgQyI8WGJf6cf3IvfkdyzV0HN.jpg"
+  },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260820T140623Z",
-    "profile_version": "phase6a",
+    "awards_intelligence_integrated_at": "2026-08-16T00:00:00Z",
+    "awards_intelligence_source": "academy_nominee_website_card_handoff_v1.json",
+    "generated_at": "slice57_current_discovery_enrichment",
+    "profile_version": "phase6a_registry_canonical_id_bridge_slice57_enriched",
     "source_data_date": "2026-07-20"
   },
   "performance": {
     "box_office": {
       "budget": 21000000,
       "currency": "USD",
-      "retrieved_at": "2026-08-20",
+      "retrieved_at": "2026-07-29",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1495293"
     },
     "ratings": {
       "tmdb": {
-        "popularity": 0.6332,
-        "retrieved_at": "2026-08-20",
+        "popularity": 0.9249,
+        "retrieved_at": "2026-07-29",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1495293",
         "status": "not_yet_rated"
       }
     },
-    "tmdb_popularity": {
-      "retrieved_at": "2026-08-20",
-      "source": "TMDb",
-      "source_url": "https://www.themoviedb.org/movie/1495293",
-      "value": 0.6332
-    },
+    "tmdb_popularity": 0.9249,
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 0.6332,
-      "retrieved_at": "2026-08-20",
+      "popularity": 0.9249,
+      "retrieved_at": "2026-07-29",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1495293",
       "status": "not_yet_rated"
@@ -407,13 +429,13 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.012,
+      "audience_momentum": 0.018,
       "awards_relevance": 0.8,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-20T14:06:00Z",
+    "generated_at": "2026-07-29T21:38:25Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 4.137,
+    "score": 4.143,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -442,11 +464,11 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.012,
+        "contribution": 0.018,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 0.6332
+        "value": 0.9249
       }
     ]
   },
@@ -493,7 +515,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1495293-81e121d32e31",
+        "event_id": "1495293-b9f75973ed45",
         "event_type": "Awards Tier Changed",
         "film_id": "1495293",
         "importance": "Medium",
@@ -505,12 +527,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1495293-ea3dddf3e0c5",
+        "event_id": "1495293-f0b747625c2a",
         "event_type": "Added To Database",
         "film_id": "1495293",
         "importance": "Low",
@@ -519,7 +541,7 @@
         },
         "source_type": "system",
         "summary": "Arasan is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -527,7 +549,7 @@
     "screening_room_score": {
       "confidence": "Low",
       "explanation": "Current provider signals do not show a supported material change.",
-      "score": 4.137
+      "score": 4.143
     },
     "watch_triggers": [
       "Awards-Season Release",
@@ -550,7 +572,9 @@
       "Pavel Navageethan"
     ],
     "producers": [],
-    "writers": []
+    "writers": [
+      "Vetrimaaran"
+    ]
   },
   "timeline": {
     "events": [
@@ -570,7 +594,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1495293-81e121d32e31",
+        "event_id": "1495293-b9f75973ed45",
         "event_type": "Awards Tier Changed",
         "film_id": "1495293",
         "importance": "Medium",
@@ -582,12 +606,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1495293-ea3dddf3e0c5",
+        "event_id": "1495293-f0b747625c2a",
         "event_type": "Added To Database",
         "film_id": "1495293",
         "importance": "Low",
@@ -596,7 +620,7 @@
         },
         "source_type": "system",
         "summary": "Arasan is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -631,7 +655,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1495293-81e121d32e31",
+        "event_id": "1495293-b9f75973ed45",
         "event_type": "Awards Tier Changed",
         "film_id": "1495293",
         "importance": "Medium",
@@ -643,12 +667,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1495293-ea3dddf3e0c5",
+        "event_id": "1495293-f0b747625c2a",
         "event_type": "Added To Database",
         "film_id": "1495293",
         "importance": "Low",
@@ -657,7 +681,7 @@
         },
         "source_type": "system",
         "summary": "Arasan is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Added to Awards Intelligence"
       }
     ],

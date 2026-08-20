@@ -1,0 +1,160 @@
+{
+  "attention_intelligence": {},
+  "awards": {
+    "award_history": [],
+    "awards_tier": "No Current Awards Case",
+    "comparable_nominees": [],
+    "confidence": 0,
+    "current_awards_profile": "Festival Watch",
+    "explanation": "Film-discovery record only; not a nominee forecast.",
+    "predicted_categories": [],
+    "probabilities": {}
+  },
+  "awards_intelligence": {
+    "awards_candidate_status": "DISCOVERY_ONLY",
+    "awards_status": null,
+    "best_picture_rank": null,
+    "forecast_stage": null,
+    "forecast_stage_label": null,
+    "nominee_probability": null,
+    "percentage_policy": "PERCENTAGES_NOT_READY",
+    "prediction_confidence": null,
+    "probability_is_calibrated": false,
+    "public_card_behavior": "no_awards_badge",
+    "rank_change": null,
+    "ranking_eligibility": "NOT_RANKED",
+    "ranking_last_updated_at": null,
+    "source_artifact": "academy_nominee_website_card_handoff_v1.json",
+    "why_it_ranks": []
+  },
+  "commercial": {
+    "commercial_significance": 0,
+    "distributor": "Unknown",
+    "franchise": "",
+    "release_strategy": "",
+    "studio": [
+      "Giraffe Pictures",
+      "Singapore Film Commission",
+      "MPA APSA Academy Films"
+    ]
+  },
+  "diagnostics": {
+    "completeness_score": 0,
+    "confidence": "Source-backed",
+    "missing_fields": [],
+    "relationship_counts": {}
+  },
+  "editorial": {
+    "discovery_reason": "Approved official festival lineup source",
+    "editorial_category": "Festival Watch",
+    "editorial_summary": "Source-backed approved-festival lineup discovery record.",
+    "importance_tier": "Watchlist",
+    "primary_story": "Official festival lineup discovery",
+    "story_strength": "Developing",
+    "why_it_matters": "Source-backed approved-festival lineup discovery record."
+  },
+  "festival": {
+    "awards_received": [],
+    "display_status": "Official Selection",
+    "festival_history": [
+      {
+        "festival_name": "TIFF",
+        "festival_year": 2026,
+        "last_updated": "2026-08-16T00:00:00Z",
+        "section": "Centrepiece",
+        "signal": "Festival selection recovered from authoritative secondary reproduction after official detail page access was blocked.",
+        "source_url": "https://en.wikipedia.org/wiki/2026_Toronto_International_Film_Festival"
+      }
+    ],
+    "festival_status": "Official Selection",
+    "premiere_type": ""
+  },
+  "film_identity": {
+    "backdrop": "https://image.tmdb.org/t/p/original/abVlmOXtnCQNxIUbGLie4LywfZr.jpg",
+    "canonical_film_id": "festival-a2813d3649522ccaa7ccf7ef",
+    "country": [
+      "SG",
+      "AU"
+    ],
+    "genres": [
+      "Drama"
+    ],
+    "id": "festival-a2813d3649522ccaa7ccf7ef",
+    "imdb_id": "tt13848364",
+    "language": "zh",
+    "original_title": "We Are All Strangers",
+    "poster": "https://image.tmdb.org/t/p/original/aFs5h73L9BS4Q4UItDhWC5sw4Z9.jpg",
+    "profile_id": "festival-a2813d3649522ccaa7ccf7ef",
+    "profile_payload_url": "data/films/festival-a2813d3649522ccaa7ccf7ef.json",
+    "profile_url": "film.html?id=festival-a2813d3649522ccaa7ccf7ef",
+    "release_date": "2026-08-20",
+    "release_display": "2026-08-20",
+    "runtime": 157,
+    "synopsis": "A life-altering event forces 21-year-old Junyang and his girlfriend to face reality. At the same time, while Junyang\u2019s father is struggling to hold their modest life together, a woman enters his life and both generations are forced to redefine their family.",
+    "title": "We Are All Strangers",
+    "tmdb_id": "884692"
+  },
+  "media": {
+    "backdrop": "https://image.tmdb.org/t/p/original/abVlmOXtnCQNxIUbGLie4LywfZr.jpg",
+    "poster": "https://image.tmdb.org/t/p/original/aFs5h73L9BS4Q4UItDhWC5sw4Z9.jpg",
+    "trailer": "https://www.youtube.com/watch?v=RmBVnpJIRBw"
+  },
+  "metadata": {
+    "algorithm_version": "phase5b",
+    "awards_intelligence_integrated_at": "2026-08-16T00:00:00Z",
+    "awards_intelligence_source": "academy_nominee_website_card_handoff_v1.json",
+    "generated_at": "slice57_current_discovery_enrichment",
+    "profile_version": "phase6a_registry_canonical_id_bridge_slice57_enriched",
+    "registry": {
+      "canonical_film_id": "festival-a2813d3649522ccaa7ccf7ef",
+      "discovery_sources": "TIFF",
+      "first_seen_date": "2026-08-16",
+      "source_paths": "https://en.wikipedia.org/wiki/2026_Toronto_International_Film_Festival",
+      "tmdb_enriched_at": "2026-08-16",
+      "tmdb_enrichment_source": "slice_56_high_confidence_recoverability_audit"
+    },
+    "source_data_date": "2026-08-15"
+  },
+  "performance": {
+    "tmdb_popularity": 1.7713
+  },
+  "ratings": {
+    "tmdb": {
+      "popularity": 1.7713
+    }
+  },
+  "related": {
+    "related_films": [],
+    "related_people": [],
+    "related_studios": []
+  },
+  "signals": {
+    "cultural_significance": 0,
+    "latest_intelligence": "We Are All Strangers entered film discovery via approved source-backed metadata.",
+    "momentum": 0,
+    "narrative_importance": 0,
+    "next_signal": "Monitor distributor, release, and TMDb enrichment updates.",
+    "release_relevance": 0,
+    "watch_triggers": [
+      "Official Festival Lineup"
+    ],
+    "whats_changed": "Added through canonical registry current-season export bridge."
+  },
+  "talent": {
+    "director": "Anthony Chen",
+    "principal_cast": [
+      "Yeo Yann Yann",
+      "Koh Jia Ler",
+      "Andi Lim",
+      "Regene Lim"
+    ],
+    "producers": [],
+    "writers": [
+      "Anthony Chen"
+    ]
+  },
+  "timeline": {
+    "events": [],
+    "supported_event_types": []
+  }
+}

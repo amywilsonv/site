@@ -1,0 +1,173 @@
+{
+  "attention_intelligence": {},
+  "awards": {
+    "award_history": [],
+    "awards_tier": "No Current Awards Case",
+    "comparable_nominees": [],
+    "confidence": 0,
+    "current_awards_profile": "Festival Watch",
+    "explanation": "Film-discovery record only; not a nominee forecast.",
+    "predicted_categories": [],
+    "probabilities": {}
+  },
+  "awards_intelligence": {
+    "awards_candidate_status": "WATCHLIST",
+    "awards_status": null,
+    "best_picture_rank": null,
+    "forecast_stage": null,
+    "forecast_stage_label": null,
+    "nominee_probability": null,
+    "percentage_policy": "PERCENTAGES_NOT_READY",
+    "prediction_confidence": null,
+    "probability_is_calibrated": false,
+    "public_card_behavior": "optional_watchlist_badge",
+    "rank_change": null,
+    "ranking_eligibility": "NOT_RANKED",
+    "ranking_last_updated_at": null,
+    "source_artifact": "academy_nominee_website_card_handoff_v1.json",
+    "why_it_ranks": []
+  },
+  "commercial": {
+    "commercial_significance": 0,
+    "distributor": "Unknown",
+    "franchise": "",
+    "release_strategy": "",
+    "studio": [
+      "Pitchipo\u00ef Productions",
+      "Studio TF1",
+      "TF1 Films Production",
+      "uMedia",
+      "Cin\u00e9cap 9",
+      "Ind\u00e9films 14",
+      "uFund",
+      "193",
+      "OD Films"
+    ]
+  },
+  "diagnostics": {
+    "completeness_score": 0,
+    "confidence": "Source-backed",
+    "missing_fields": [],
+    "relationship_counts": {}
+  },
+  "editorial": {
+    "discovery_reason": "Approved official festival lineup source",
+    "editorial_category": "Festival Watch",
+    "editorial_summary": "Source-backed official approved-festival lineup discovery record.",
+    "importance_tier": "Watchlist",
+    "primary_story": "Official festival lineup discovery",
+    "story_strength": "Developing",
+    "why_it_matters": "Source-backed official approved-festival lineup discovery record."
+  },
+  "festival": {
+    "awards_received": [],
+    "display_status": "Official Selection",
+    "festival_history": [
+      {
+        "festival_name": "Cannes",
+        "festival_year": 2026,
+        "last_updated": "2026-08-16T00:00:00Z",
+        "section": "In Competition",
+        "signal": "Official festival lineup source.",
+        "source_url": "https://www.festival-cannes.com/en/press/press-releases/the-films-of-the-official-selection-2026/"
+      }
+    ],
+    "festival_status": "Official Selection",
+    "premiere_type": ""
+  },
+  "film_identity": {
+    "backdrop": "https://image.tmdb.org/t/p/original/bcH6CmYcHuPnAQXUhW0Rr5hFuvc.jpg",
+    "canonical_film_id": "festival-9e3885d38b73f8fc7a351431",
+    "country": [
+      "FR",
+      "BE",
+      "US"
+    ],
+    "genres": [
+      "History",
+      "Drama",
+      "War"
+    ],
+    "id": "festival-9e3885d38b73f8fc7a351431",
+    "imdb_id": "tt36899180",
+    "language": "fr",
+    "original_title": "MOULIN",
+    "poster": "https://image.tmdb.org/t/p/original/f3yopLJXRBcPvgkfRji1jloDrxd.jpg",
+    "profile_id": "festival-9e3885d38b73f8fc7a351431",
+    "profile_payload_url": "data/films/festival-9e3885d38b73f8fc7a351431.json",
+    "profile_url": "film.html?id=festival-9e3885d38b73f8fc7a351431",
+    "release_date": "2026-10-28",
+    "release_display": "2026-10-28",
+    "runtime": 130,
+    "synopsis": "In June 1943, Jean Moulin, leader of the French Resistance, is arrested while attempting to reunite the forces of the \"Arm\u00e9e Secr\u00e8te.\" Interrogated by Klaus Barbie, the head of the Gestapo in Lyon, Moulin is drawn into a relentless confrontation.",
+    "title": "MOULIN",
+    "tmdb_id": "1437925"
+  },
+  "media": {
+    "backdrop": "https://image.tmdb.org/t/p/original/bcH6CmYcHuPnAQXUhW0Rr5hFuvc.jpg",
+    "poster": "https://image.tmdb.org/t/p/original/f3yopLJXRBcPvgkfRji1jloDrxd.jpg",
+    "trailer": ""
+  },
+  "metadata": {
+    "algorithm_version": "phase5b",
+    "awards_intelligence_integrated_at": "2026-08-16T00:00:00Z",
+    "awards_intelligence_source": "academy_nominee_website_card_handoff_v1.json",
+    "generated_at": "slice57_current_discovery_enrichment",
+    "profile_version": "phase6a_registry_canonical_id_bridge_slice57_enriched",
+    "registry": {
+      "canonical_film_id": "festival-9e3885d38b73f8fc7a351431",
+      "discovery_sources": "Cannes",
+      "first_seen_date": "2026-08-16",
+      "source_paths": "https://www.festival-cannes.com/en/press/press-releases/the-films-of-the-official-selection-2026/",
+      "tmdb_enriched_at": "2026-08-16",
+      "tmdb_enrichment_source": "slice_56_high_confidence_recoverability_audit"
+    },
+    "source_data_date": "2026-08-15"
+  },
+  "performance": {
+    "tmdb_popularity": 3.143
+  },
+  "ratings": {
+    "tmdb": {
+      "popularity": 3.143
+    }
+  },
+  "related": {
+    "related_films": [],
+    "related_people": [],
+    "related_studios": []
+  },
+  "signals": {
+    "cultural_significance": 0,
+    "latest_intelligence": "MOULIN entered film discovery via approved source-backed metadata.",
+    "momentum": 0,
+    "narrative_importance": 0,
+    "next_signal": "Monitor distributor, release, and TMDb enrichment updates.",
+    "release_relevance": 0,
+    "watch_triggers": [
+      "Official Festival Lineup"
+    ],
+    "whats_changed": "Added through canonical registry current-season export bridge."
+  },
+  "talent": {
+    "director": "L\u00e1szl\u00f3 NEMES",
+    "principal_cast": [
+      "Gilles Lellouche",
+      "Lars Eidinger",
+      "Louise Bourgoin",
+      "Marcin Czarnik",
+      "Max Warburton",
+      "F\u00e9lix Lefebvre",
+      "Hortense de Gromard",
+      "Th\u00e9o Costa-Marini"
+    ],
+    "producers": [],
+    "writers": [
+      "Olivier Demangel"
+    ]
+  },
+  "timeline": {
+    "events": [],
+    "supported_event_types": []
+  }
+}

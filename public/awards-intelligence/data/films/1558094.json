@@ -7,7 +7,7 @@
       "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 37.6,
+    "attention_score": 38.0,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -30,7 +30,7 @@
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 1.2315",
+        "evidence": "TMDb popularity 1.3786",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -46,14 +46,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 37.6,
+    "homepage_spotlight_score": 38.0,
     "industry_interest": null,
-    "last_updated": "20260820T140623Z",
+    "last_updated": "20260729T213825Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
         "evidence_count": 1,
-        "score": 4.1,
+        "score": 4.5,
         "statuses": [
           "verified"
         ]
@@ -134,6 +134,23 @@
     ],
     "probabilities": {}
   },
+  "awards_intelligence": {
+    "awards_candidate_status": "PROVISIONAL",
+    "awards_status": null,
+    "best_picture_rank": null,
+    "forecast_stage": null,
+    "forecast_stage_label": null,
+    "nominee_probability": null,
+    "percentage_policy": "PERCENTAGES_NOT_READY",
+    "prediction_confidence": null,
+    "probability_is_calibrated": false,
+    "public_card_behavior": "no_awards_badge",
+    "rank_change": null,
+    "ranking_eligibility": "NOT_RANKED",
+    "ranking_last_updated_at": null,
+    "source_artifact": "academy_nominee_website_card_handoff_v1.json",
+    "why_it_ranks": []
+  },
   "commercial": {
     "commercial_significance": 0,
     "distributor": "Mubi",
@@ -189,7 +206,7 @@
       "Drama"
     ],
     "id": "1558094",
-    "imdb_id": "",
+    "imdb_id": "tt38608081",
     "language": "nl",
     "original_title": "Let Love In",
     "poster": "",
@@ -205,7 +222,7 @@
   "intelligence": {
     "confidence": "Low",
     "confidence_score": 0.25,
-    "generated_at": "2026-08-20T14:06:00Z",
+    "generated_at": "2026-07-29T21:38:25Z",
     "headline": "Let Love In: no material change detected",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -224,7 +241,7 @@
         "streaming_provider_count_us": 0,
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": false,
-        "tmdb_popularity": 1.2315,
+        "tmdb_popularity": 1.3786,
         "tmdb_poster_count": 0,
         "tmdb_release_date_us_primary": "",
         "tmdb_release_date_us_theatrical": "",
@@ -242,36 +259,35 @@
     "summary": "Current provider signals do not show a supported material change.",
     "supporting_drivers": []
   },
-  "media": {},
+  "media": {
+    "backdrop": "https://image.tmdb.org/t/p/original/sUsilL87qamoWLLV9E7Liop2NcG.jpg"
+  },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260820T140623Z",
-    "profile_version": "phase6a",
+    "awards_intelligence_integrated_at": "2026-08-16T00:00:00Z",
+    "awards_intelligence_source": "academy_nominee_website_card_handoff_v1.json",
+    "generated_at": "slice57_current_discovery_enrichment",
+    "profile_version": "phase6a_registry_canonical_id_bridge_slice57_enriched",
     "source_data_date": "2026-07-20"
   },
   "performance": {
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 1.2315,
-        "retrieved_at": "2026-08-20",
+        "popularity": 1.3786,
+        "retrieved_at": "2026-07-29",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1558094",
         "status": "not_yet_rated"
       }
     },
-    "tmdb_popularity": {
-      "retrieved_at": "2026-08-20",
-      "source": "TMDb",
-      "source_url": "https://www.themoviedb.org/movie/1558094",
-      "value": 1.2315
-    },
+    "tmdb_popularity": 1.3786,
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 1.2315,
-      "retrieved_at": "2026-08-20",
+      "popularity": 1.3786,
+      "retrieved_at": "2026-07-29",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1558094",
       "status": "not_yet_rated"
@@ -302,6 +318,18 @@
         ],
         "title": "Call My Agent! The Movie",
         "tmdb_id": "1365884"
+      },
+      {
+        "profile_url": "film.html?id=1504358",
+        "relationship_score": 56,
+        "shared_signals": [
+          "General Watch",
+          "Drama",
+          "Acting",
+          "Best Picture"
+        ],
+        "title": "Don't Say Good Luck",
+        "tmdb_id": "1504358"
       },
       {
         "profile_url": "film.html?id=1286656",
@@ -338,18 +366,6 @@
         ],
         "title": "Nando Between Two Worlds - A Sintonia Film",
         "tmdb_id": "1487864"
-      },
-      {
-        "profile_url": "film.html?id=1479690",
-        "relationship_score": 56,
-        "shared_signals": [
-          "General Watch",
-          "Drama",
-          "Acting",
-          "Best Picture"
-        ],
-        "title": "RaftaaR",
-        "tmdb_id": "1479690"
       }
     ],
     "related_people": [
@@ -399,13 +415,13 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.023,
+      "audience_momentum": 0.026,
       "awards_relevance": 2.4,
       "talent_profile": 0.925
     },
-    "generated_at": "2026-08-20T14:06:00Z",
+    "generated_at": "2026-07-29T21:38:25Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 3.348,
+    "score": 3.351,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -434,11 +450,11 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.023,
+        "contribution": 0.026,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 1.2315
+        "value": 1.3786
       }
     ]
   },
@@ -485,7 +501,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1558094-2c535c6a0941",
+        "event_id": "1558094-cd4db8f8f2c4",
         "event_type": "Distributor Change",
         "film_id": "1558094",
         "importance": "Medium",
@@ -494,12 +510,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Mubi.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Distributor set: Mubi"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1558094-828a88a3d1b8",
+        "event_id": "1558094-b1d02df7367a",
         "event_type": "Awards Tier Changed",
         "film_id": "1558094",
         "importance": "Medium",
@@ -513,7 +529,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],
@@ -521,7 +537,7 @@
     "screening_room_score": {
       "confidence": "Low",
       "explanation": "Current provider signals do not show a supported material change.",
-      "score": 3.348
+      "score": 3.351
     },
     "watch_triggers": [
       "Prestige Distributor",
@@ -538,7 +554,11 @@
       "Charlotte Vandermeersch"
     ],
     "producers": [],
-    "writers": []
+    "writers": [
+      "Anne Paulicevich",
+      "Felix van Groeningen",
+      "Charlotte Vandermeersch"
+    ]
   },
   "timeline": {
     "events": [
@@ -558,7 +578,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1558094-2c535c6a0941",
+        "event_id": "1558094-cd4db8f8f2c4",
         "event_type": "Distributor Change",
         "film_id": "1558094",
         "importance": "Medium",
@@ -567,12 +587,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Mubi.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Distributor set: Mubi"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1558094-828a88a3d1b8",
+        "event_id": "1558094-b1d02df7367a",
         "event_type": "Awards Tier Changed",
         "film_id": "1558094",
         "importance": "Medium",
@@ -586,12 +606,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1558094-d2effba6a0cd",
+        "event_id": "1558094-de80f2f0e453",
         "event_type": "Added To Database",
         "film_id": "1558094",
         "importance": "Low",
@@ -600,7 +620,7 @@
         },
         "source_type": "system",
         "summary": "Let Love In is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -635,7 +655,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1558094-2c535c6a0941",
+        "event_id": "1558094-cd4db8f8f2c4",
         "event_type": "Distributor Change",
         "film_id": "1558094",
         "importance": "Medium",
@@ -644,12 +664,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Mubi.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Distributor set: Mubi"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1558094-828a88a3d1b8",
+        "event_id": "1558094-b1d02df7367a",
         "event_type": "Awards Tier Changed",
         "film_id": "1558094",
         "importance": "Medium",
@@ -663,7 +683,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],

@@ -2,21 +2,21 @@
   "events": [
     {
       "confidence": "Inferred",
-      "event_id": "1170608-7b34b4ef2631",
+      "event_id": "1170608-576341e12a60",
       "event_type": "Release Scheduled",
       "film_id": "1170608",
       "importance": "Medium",
       "metadata": {
-        "release_date": "2026-12-15"
+        "release_date": "2026-12-18"
       },
       "source_type": "metadata",
-      "summary": "Release currently scheduled for In theaters Dec. 15.",
-      "timestamp": "2026-12-15",
+      "summary": "Release currently scheduled for In theaters Dec. 18.",
+      "timestamp": "2026-12-18",
       "title": "Release scheduled"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1170608-5d65a33683f8",
+      "event_id": "1170608-2d6b2f8728b6",
       "event_type": "Awards Tier Changed",
       "film_id": "1170608",
       "importance": "Medium",
@@ -28,12 +28,12 @@
       },
       "source_type": "editorial_model",
       "summary": "plausible but incomplete awards evidence",
-      "timestamp": "2026-08-20T14:06:23Z",
+      "timestamp": "2026-07-29T21:38:25Z",
       "title": "Awards tier assigned: Emerging"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1170608-1138f2448af5",
+      "event_id": "1170608-c68b8de0a4da",
       "event_type": "Added To Database",
       "film_id": "1170608",
       "importance": "Low",
@@ -42,28 +42,28 @@
       },
       "source_type": "system",
       "summary": "Dune: Part Three is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-08-20T14:06:23Z",
+      "timestamp": "2026-07-29T21:38:25Z",
       "title": "Added to Awards Intelligence"
     }
   ],
   "latest_event": {
     "confidence": "Inferred",
-    "event_id": "1170608-7b34b4ef2631",
+    "event_id": "1170608-576341e12a60",
     "event_type": "Release Scheduled",
     "film_id": "1170608",
     "importance": "Medium",
     "metadata": {
-      "release_date": "2026-12-15"
+      "release_date": "2026-12-18"
     },
     "source_type": "metadata",
-    "summary": "Release currently scheduled for In theaters Dec. 15.",
-    "timestamp": "2026-12-15",
+    "summary": "Release currently scheduled for In theaters Dec. 18.",
+    "timestamp": "2026-12-18",
     "title": "Release scheduled"
   },
   "metadata": {
     "event_count": 3,
     "film_id": "1170608",
-    "generated_at": "20260820T140623Z",
+    "generated_at": "slice57_current_discovery_enrichment",
     "timeline_version": "phase6b",
     "title": "Dune: Part Three",
     "tmdb_id": "1170608"

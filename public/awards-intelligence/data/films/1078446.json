@@ -1,6 +1,6 @@
 {
   "attention_intelligence": {
-    "anticipation_level": "High",
+    "anticipation_level": "Moderate",
     "attention_confidence": "High",
     "attention_reasons": [
       "Most Anticipated",
@@ -8,7 +8,7 @@
       "Event Release",
       "Awards Watch"
     ],
-    "attention_score": 78.4,
+    "attention_score": 70.9,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -41,18 +41,8 @@
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 3.9234",
-        "source": "audience_popularity",
-        "status": "verified"
-      },
-      {
         "evidence": "Director: Tommy Wirkola",
         "source": "filmmaker_interest",
-        "status": "verified"
-      },
-      {
-        "evidence": "Trailer URL present",
-        "source": "trailer_available",
         "status": "verified"
       },
       {
@@ -61,20 +51,25 @@
         "status": "inferred"
       },
       {
+        "evidence": "TMDb popularity 1.7039",
+        "source": "audience_popularity",
+        "status": "verified"
+      },
+      {
         "evidence": "Release date: 2026-12-04",
         "source": "release_proximity",
         "status": "verified"
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 78.4,
+    "homepage_spotlight_score": 70.9,
     "industry_interest": "High",
-    "last_updated": "20260820T140623Z",
-    "promotional_response": "Trailer available",
+    "last_updated": "20260729T213825Z",
+    "promotional_response": null,
     "score_families": {
       "audience/popularity": {
-        "evidence_count": 2,
-        "score": 12.6,
+        "evidence_count": 1,
+        "score": 5.1,
         "statuses": [
           "verified"
         ]
@@ -161,6 +156,32 @@
     ],
     "probabilities": {}
   },
+  "awards_intelligence": {
+    "awards_candidate_status": "ACTIVE_CONTENDER",
+    "awards_status": "CONTENDER",
+    "best_picture_rank": 10,
+    "forecast_stage": "STAGE_B",
+    "forecast_stage_label": "Stage B Early Season",
+    "nominee_probability": null,
+    "percentage_policy": "PERCENTAGES_NOT_READY",
+    "prediction_confidence": "RESEARCH_ONLY",
+    "probability_is_calibrated": false,
+    "public_card_behavior": "show_awards_status_and_rank",
+    "rank_change": null,
+    "ranking_eligibility": "RANKABLE_HIGH_UNCERTAINTY",
+    "ranking_last_updated_at": "2026-08-16T00:00:00Z",
+    "source_artifact": "academy_nominee_website_card_handoff_v1.json",
+    "why_it_ranks": [
+      {
+        "code": "FALL_AWARDS_WINDOW_RELEASE",
+        "text": "Release timing falls in the fall awards window."
+      },
+      {
+        "code": "US_PRODUCTION_METADATA",
+        "text": "US production metadata present."
+      }
+    ]
+  },
   "commercial": {
     "commercial_significance": 62.8,
     "distributor": "Universal Pictures",
@@ -200,7 +221,7 @@
     "premiere_type": ""
   },
   "film_identity": {
-    "backdrop": "https://image.tmdb.org/t/p/original/uvYnQE4I40J5vtj2acWYWSlv672.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/78dChJs7doULSEhIiOvGUcXQRGU.jpg",
     "country": [
       "US"
     ],
@@ -210,24 +231,24 @@
       "Fantasy"
     ],
     "id": "1078446",
-    "imdb_id": "",
+    "imdb_id": "tt32432428",
     "language": "en",
     "original_title": "Violent Night 2",
-    "poster": "https://image.tmdb.org/t/p/original/wKgTxSjVZBjtTzK1wEXkLffaWC1.jpg",
+    "poster": "https://image.tmdb.org/t/p/original/sI9m5PUoZT6upungDXVTSPTtfgX.jpg",
     "profile_payload_url": "data/films/1078446.json",
     "profile_url": "film.html?id=1078446",
     "release_date": "2026-12-04",
     "release_display": "In theaters Dec. 4",
-    "runtime": null,
-    "synopsis": "When Santa forgets the true meaning of Christmas, he finds himself in the heart of a lively mall community in desperate need of his help. Sapped of his magic, he\u2019ll need another way to take on the goons threatening the mall, and time is running out. Santa has to rediscover his faith in goodness and call in some last-minute reinforcements from the one person no baddie wants to tangle with: Mrs. Claus.",
+    "runtime": 0,
+    "synopsis": "The sequel to the 2022 film. Plot TBA.",
     "title": "Violent Night 2",
     "tmdb_id": "1078446"
   },
   "intelligence": {
-    "confidence": "High",
-    "confidence_score": 0.99,
-    "generated_at": "2026-08-20T14:06:00Z",
-    "headline": "Violent Night 2: popularity increasing",
+    "confidence": "Low",
+    "confidence_score": 0.25,
+    "generated_at": "2026-07-29T21:38:25Z",
+    "headline": "Violent Night 2: no material change detected",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
       "signal_values": {
@@ -243,90 +264,56 @@
         "streaming_available_us": false,
         "streaming_flatrate_provider_count_us": 0,
         "streaming_provider_count_us": 0,
-        "tmdb_backdrop_count": 3,
-        "tmdb_canonical_trailer_available": true,
-        "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=FmM2giDwLAE",
-        "tmdb_popularity": 3.9234,
-        "tmdb_poster_count": 4,
+        "tmdb_backdrop_count": 2,
+        "tmdb_canonical_trailer_available": false,
+        "tmdb_popularity": 1.7039,
+        "tmdb_poster_count": 3,
         "tmdb_release_date_us_primary": "2026-12-04",
         "tmdb_release_date_us_theatrical": "2026-12-04",
         "tmdb_release_status": "Post Production",
         "tmdb_vote_average": 0,
         "tmdb_vote_count": 0,
         "tmdb_watch_provider_count_us": 0,
-        "trailer_available": true,
-        "trailer_count": 1,
-        "trailer_url": "https://www.youtube.com/watch?v=FmM2giDwLAE"
+        "trailer_available": false,
+        "trailer_count": 0
       },
-      "source_signal_count": 26,
+      "source_signal_count": 24,
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity rose from 1.7039 to 3.9234. A canonical TMDb trailer URL is available.",
-    "supporting_drivers": [
-      {
-        "confidence_weight": 0.9,
-        "driver_type": "popularity_increasing",
-        "evidence": "TMDb popularity rose from 1.7039 to 3.9234.",
-        "label": "Popularity increasing",
-        "retrieved_at": "2026-08-20T14:06:00Z",
-        "source_metric": "tmdb_popularity",
-        "source_provider": "tmdb",
-        "source_status": "available"
-      },
-      {
-        "confidence_weight": 0.85,
-        "driver_type": "trailer_available",
-        "evidence": "A canonical TMDb trailer URL is available.",
-        "label": "Trailer available",
-        "retrieved_at": "2026-08-20T14:06:00Z",
-        "source_metric": "tmdb_canonical_trailer_url",
-        "source_provider": "tmdb",
-        "source_status": "available"
-      }
-    ]
+    "summary": "Current provider signals do not show a supported material change.",
+    "supporting_drivers": []
   },
   "media": {
-    "canonical_trailer": {
-      "retrieved_at": "2026-08-20",
-      "site": "YouTube",
-      "source": "TMDb",
-      "source_url": "https://www.themoviedb.org/movie/1078446/videos",
-      "title": "Official Trailer",
-      "type": "Trailer",
-      "url": "https://www.youtube.com/watch?v=FmM2giDwLAE"
-    },
-    "latest_trailer_url": "https://www.youtube.com/watch?v=FmM2giDwLAE"
+    "backdrop": "https://image.tmdb.org/t/p/original/78dChJs7doULSEhIiOvGUcXQRGU.jpg",
+    "poster": "https://image.tmdb.org/t/p/original/sI9m5PUoZT6upungDXVTSPTtfgX.jpg"
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260820T140623Z",
-    "profile_version": "phase6a",
+    "awards_intelligence_integrated_at": "2026-08-16T00:00:00Z",
+    "awards_intelligence_source": "academy_nominee_website_card_handoff_v1.json",
+    "generated_at": "slice57_current_discovery_enrichment",
+    "profile_version": "phase6a_registry_canonical_id_bridge_slice57_enriched",
     "source_data_date": "2026-07-20"
   },
   "performance": {
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 3.9234,
-        "retrieved_at": "2026-08-20",
+        "popularity": 1.7039,
+        "retrieved_at": "2026-07-29",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1078446",
         "status": "not_yet_rated"
       }
     },
-    "tmdb_popularity": {
-      "retrieved_at": "2026-08-20",
-      "source": "TMDb",
-      "source_url": "https://www.themoviedb.org/movie/1078446",
-      "value": 3.9234
-    },
+    "tmdb_popularity": 1.7039,
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 3.9234,
-      "retrieved_at": "2026-08-20",
+      "popularity": 1.7039,
+      "retrieved_at": "2026-07-29",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1078446",
       "status": "not_yet_rated"
@@ -452,14 +439,13 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.075,
+      "audience_momentum": 0.032,
       "awards_relevance": 0.8,
-      "campaign_activity": 1.35,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-20T14:06:00Z",
+    "generated_at": "2026-07-29T21:38:25Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 5.55,
+    "score": 4.157,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -469,14 +455,6 @@
         "provider": "legacy_dashboard_talent_history_adapter",
         "score_family": "talent_profile",
         "value": 8
-      },
-      {
-        "confidence": 0.9,
-        "contribution": 1.35,
-        "metric_name": "trailer_count",
-        "provider": "trailers",
-        "score_family": "campaign_activity",
-        "value": 1
       },
       {
         "confidence": 0.5,
@@ -496,20 +474,20 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.075,
+        "contribution": 0.032,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 3.9234
+        "value": 1.7039
       }
     ]
   },
   "signals": {
     "cultural_significance": 62.8,
     "external_intelligence": {
-      "confidence": "High",
-      "headline": "Violent Night 2: popularity increasing",
-      "summary": "TMDb popularity rose from 1.7039 to 3.9234. A canonical TMDb trailer URL is available."
+      "confidence": "Low",
+      "headline": "Violent Night 2: no material change detected",
+      "summary": "Current provider signals do not show a supported material change."
     },
     "last_updated": "2026-12-04",
     "latest_event": {
@@ -547,7 +525,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1078446-6538590c79cd",
+        "event_id": "1078446-40ec83b5cc17",
         "event_type": "Distributor Change",
         "film_id": "1078446",
         "importance": "Medium",
@@ -556,12 +534,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Universal Pictures.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Distributor set: Universal Pictures"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1078446-f9f11dec12cf",
+        "event_id": "1078446-4a7b2ed2af46",
         "event_type": "Awards Tier Changed",
         "film_id": "1078446",
         "importance": "Medium",
@@ -573,15 +551,15 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Awards tier assigned: Emerging"
       }
     ],
     "release_relevance": 26.2,
     "screening_room_score": {
-      "confidence": "High",
-      "explanation": "TMDb popularity rose from 1.7039 to 3.9234. A canonical TMDb trailer URL is available.",
-      "score": 5.55
+      "confidence": "Low",
+      "explanation": "Current provider signals do not show a supported material change.",
+      "score": 4.157
     },
     "watch_triggers": [
       "Major Studio/Streamer",
@@ -604,7 +582,10 @@
       "Maggie Robertson"
     ],
     "producers": [],
-    "writers": []
+    "writers": [
+      "Pat Casey",
+      "Josh Miller"
+    ]
   },
   "timeline": {
     "events": [
@@ -624,7 +605,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1078446-6538590c79cd",
+        "event_id": "1078446-40ec83b5cc17",
         "event_type": "Distributor Change",
         "film_id": "1078446",
         "importance": "Medium",
@@ -633,12 +614,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Universal Pictures.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Distributor set: Universal Pictures"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1078446-f9f11dec12cf",
+        "event_id": "1078446-4a7b2ed2af46",
         "event_type": "Awards Tier Changed",
         "film_id": "1078446",
         "importance": "Medium",
@@ -650,12 +631,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1078446-1221016258e6",
+        "event_id": "1078446-ea0245f1786e",
         "event_type": "Added To Database",
         "film_id": "1078446",
         "importance": "Low",
@@ -664,7 +645,7 @@
         },
         "source_type": "system",
         "summary": "Violent Night 2 is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -699,7 +680,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1078446-6538590c79cd",
+        "event_id": "1078446-40ec83b5cc17",
         "event_type": "Distributor Change",
         "film_id": "1078446",
         "importance": "Medium",
@@ -708,12 +689,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Universal Pictures.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Distributor set: Universal Pictures"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1078446-f9f11dec12cf",
+        "event_id": "1078446-4a7b2ed2af46",
         "event_type": "Awards Tier Changed",
         "film_id": "1078446",
         "importance": "Medium",
@@ -725,7 +706,7 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Awards tier assigned: Emerging"
       }
     ],

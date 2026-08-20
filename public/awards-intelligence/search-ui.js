@@ -28,6 +28,7 @@ window.AwardsSearch = (() => {
     return search(query, index, limit).map((result) => ({
       id: result.id,
       tmdb_id: result.tmdb_id,
+      profile_id: result.id,
       poster: result.poster,
       title: result.title,
       release_year: result.release_year,
@@ -86,7 +87,7 @@ window.AwardsSearch = (() => {
         renderPanel(panel, currentResults, input);
       } else if (event.key === "Enter") {
         if (activeIndex >= 0 && currentResults[activeIndex]) {
-          track("autocomplete_selection", { query: input.value.trim(), tmdb_id: currentResults[activeIndex].tmdb_id, title: currentResults[activeIndex].title });
+          track("autocomplete_selection", { query: input.value.trim(), profile_id: currentResults[activeIndex].id, tmdb_id: currentResults[activeIndex].tmdb_id, title: currentResults[activeIndex].title });
           window.location.href = currentResults[activeIndex].destination_url;
         } else if (input.value.trim()) {
           track("search_performed", { query: input.value.trim(), surface: "global_enter" });
@@ -114,13 +115,13 @@ window.AwardsSearch = (() => {
       return;
     }
     panel.innerHTML = results.map((result, index) => `
-      <a id="search-option-${index}" class="search-suggestion ${index === activeIndex ? "active" : ""}" href="${escapeHtml(result.destination_url)}" role="option" aria-selected="${index === activeIndex ? "true" : "false"}" data-autocomplete-selection="${escapeHtml(result.tmdb_id)}">
+      <a id="search-option-${index}" class="search-suggestion ${index === activeIndex ? "active" : ""}" href="${escapeHtml(result.destination_url)}" role="option" aria-selected="${index === activeIndex ? "true" : "false"}" data-autocomplete-selection="${escapeHtml(result.id || result.tmdb_id)}">
         ${result.poster ? `<img src="${escapeHtml(result.poster)}" alt="">` : `<span class="search-thumb"></span>`}
         <span><strong>${escapeHtml(result.title)}</strong><small>${escapeHtml([result.release_year, result.primary_badge].filter(Boolean).join(" · "))}</small></span>
       </a>
     `).join("");
     panel.querySelectorAll("[data-autocomplete-selection]").forEach((link, index) => {
-      link.addEventListener("click", () => track("autocomplete_selection", { tmdb_id: results[index].tmdb_id, title: results[index].title, query: input?.value.trim() || "" }));
+      link.addEventListener("click", () => track("autocomplete_selection", { profile_id: results[index].id, tmdb_id: results[index].tmdb_id, title: results[index].title, query: input?.value.trim() || "" }));
     });
     panel.classList.remove("hidden");
     input?.setAttribute("aria-expanded", "true");

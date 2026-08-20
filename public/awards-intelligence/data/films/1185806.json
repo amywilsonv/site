@@ -8,22 +8,22 @@
       "Event Release",
       "Awards Watch"
     ],
-    "attention_score": 86.4,
+    "attention_score": 81.5,
     "attention_version": "phase7e_attention_v1",
-    "audience_interest": "Moderate",
+    "audience_interest": "Developing",
     "conversation_level": "Unavailable",
     "cultural_relevance": "Moderate",
     "early_reception": null,
     "evidence_sources": [
       {
-        "evidence": "TMDb popularity 33.7797",
-        "source": "audience_popularity",
-        "status": "verified"
-      },
-      {
         "evidence": "Public-interest, franchise, event, or major-studio tracking signal",
         "source": "event_awareness",
         "status": "inferred"
+      },
+      {
+        "evidence": "TMDb popularity 12.3262",
+        "source": "audience_popularity",
+        "status": "verified"
       },
       {
         "evidence": "Franchise, sequel, or recognizable IP signal in available metadata",
@@ -36,7 +36,7 @@
         "status": "inferred"
       },
       {
-        "evidence": "Principal cast listed: Carter Young, Mckenna Grace, Terry Crews, Meredith MacNeill",
+        "evidence": "Principal cast listed: Carter Young, Hayden Chamberlen, Mckenna Grace, Rain Janjua",
         "source": "cast_interest",
         "status": "verified"
       },
@@ -61,20 +61,20 @@
         "status": "inferred"
       },
       {
-        "evidence": "34",
+        "evidence": "2",
         "source": "tmdb_vote_count",
         "status": "verified"
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 86.4,
+    "homepage_spotlight_score": 81.5,
     "industry_interest": "Moderate",
-    "last_updated": "20260820T140623Z",
+    "last_updated": "20260729T213825Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
         "evidence_count": 2,
-        "score": 22.7,
+        "score": 17.8,
         "statuses": [
           "verified"
         ]
@@ -162,6 +162,28 @@
     ],
     "probabilities": {}
   },
+  "awards_intelligence": {
+    "awards_candidate_status": "ACTIVE_CONTENDER",
+    "awards_status": "WATCHLIST",
+    "best_picture_rank": 41,
+    "forecast_stage": "STAGE_B",
+    "forecast_stage_label": "Stage B Early Season",
+    "nominee_probability": null,
+    "percentage_policy": "PERCENTAGES_NOT_READY",
+    "prediction_confidence": "RESEARCH_ONLY",
+    "probability_is_calibrated": false,
+    "public_card_behavior": "show_awards_status_and_rank",
+    "rank_change": null,
+    "ranking_eligibility": "RANKABLE",
+    "ranking_last_updated_at": "2026-08-16T00:00:00Z",
+    "source_artifact": "academy_nominee_website_card_handoff_v1.json",
+    "why_it_ranks": [
+      {
+        "code": "US_PRODUCTION_METADATA",
+        "text": "US production metadata present."
+      }
+    ]
+  },
   "commercial": {
     "commercial_significance": 45.1,
     "distributor": "Unknown",
@@ -202,22 +224,23 @@
     "premiere_type": ""
   },
   "film_identity": {
-    "backdrop": "https://image.tmdb.org/t/p/original/6TSxLmwT7j1ugtKi8NyMmdzWAGj.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/rlREba6gEHwcIyxvZLrUebJjxsI.jpg",
     "country": [
-      "CA"
+      "CA",
+      "FR",
+      "US"
     ],
     "genres": [
-      "Animation",
       "Adventure",
-      "Family",
-      "Fantasy",
-      "Comedy"
+      "Animation",
+      "Comedy",
+      "Family"
     ],
     "id": "1185806",
-    "imdb_id": "",
+    "imdb_id": "tt29356163",
     "language": "en",
     "original_title": "PAW Patrol: The Dino Movie",
-    "poster": "https://image.tmdb.org/t/p/original/qnin56Syy5rbG7KCaxWY7SPuy6p.jpg",
+    "poster": "https://image.tmdb.org/t/p/original/mVx2O7ikolw0lQC3XEIM4C2uYwd.jpg",
     "profile_payload_url": "data/films/1185806.json",
     "profile_url": "film.html?id=1185806",
     "release_date": "2026-08-14",
@@ -230,7 +253,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-08-20T14:06:00Z",
+    "generated_at": "2026-07-29T21:38:25Z",
     "headline": "PAW Patrol: The Dino Movie: release approaching",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -247,43 +270,33 @@
         "streaming_available_us": false,
         "streaming_flatrate_provider_count_us": 0,
         "streaming_provider_count_us": 0,
-        "tmdb_backdrop_count": 6,
+        "tmdb_backdrop_count": 3,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=xgI5iYmOf5Q",
-        "tmdb_popularity": 33.7797,
-        "tmdb_poster_count": 48,
+        "tmdb_popularity": 12.3262,
+        "tmdb_poster_count": 37,
         "tmdb_release_date_us_primary": "2026-08-14",
         "tmdb_release_date_us_theatrical": "2026-08-14",
         "tmdb_release_status": "Released",
-        "tmdb_vote_average": 7.0,
-        "tmdb_vote_count": 34,
+        "tmdb_vote_average": 3.5,
+        "tmdb_vote_count": 2,
         "tmdb_watch_provider_count_us": 0,
         "trailer_available": true,
-        "trailer_count": 37,
+        "trailer_count": 16,
         "trailer_url": "https://www.youtube.com/watch?v=xgI5iYmOf5Q"
       },
       "source_signal_count": 26,
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity rose from 12.3262 to 33.7797. US release is 25 days away on 2026-08-14.",
+    "summary": "US release is 25 days away on 2026-08-14.",
     "supporting_drivers": [
-      {
-        "confidence_weight": 0.9,
-        "driver_type": "popularity_increasing",
-        "evidence": "TMDb popularity rose from 12.3262 to 33.7797.",
-        "label": "Popularity increasing",
-        "retrieved_at": "2026-08-20T14:06:00Z",
-        "source_metric": "tmdb_popularity",
-        "source_provider": "tmdb",
-        "source_status": "available"
-      },
       {
         "confidence_weight": 0.8,
         "driver_type": "release_approaching",
         "evidence": "US release is 25 days away on 2026-08-14.",
         "label": "Release approaching",
-        "retrieved_at": "2026-08-20T14:06:00Z",
+        "retrieved_at": "2026-07-29T21:38:25Z",
         "source_metric": "tmdb_release_date_us_primary",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -291,8 +304,9 @@
     ]
   },
   "media": {
+    "backdrop": "https://image.tmdb.org/t/p/original/rlREba6gEHwcIyxvZLrUebJjxsI.jpg",
     "canonical_trailer": {
-      "retrieved_at": "2026-08-20",
+      "retrieved_at": "2026-07-29",
       "site": "YouTube",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1185806/videos",
@@ -300,51 +314,44 @@
       "type": "Trailer",
       "url": "https://www.youtube.com/watch?v=xgI5iYmOf5Q"
     },
-    "latest_trailer_url": "https://www.youtube.com/watch?v=xgI5iYmOf5Q"
+    "latest_trailer_url": "https://www.youtube.com/watch?v=xgI5iYmOf5Q",
+    "poster": "https://image.tmdb.org/t/p/original/mVx2O7ikolw0lQC3XEIM4C2uYwd.jpg",
+    "trailer": "https://www.youtube.com/watch?v=xgI5iYmOf5Q"
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260820T140623Z",
-    "profile_version": "phase6a",
+    "awards_intelligence_integrated_at": "2026-08-16T00:00:00Z",
+    "awards_intelligence_source": "academy_nominee_website_card_handoff_v1.json",
+    "generated_at": "slice57_current_discovery_enrichment",
+    "profile_version": "phase6a_registry_canonical_id_bridge_slice57_enriched",
     "source_data_date": "2026-07-20"
   },
   "performance": {
-    "box_office": {
-      "budget": 40000000,
-      "currency": "USD",
-      "retrieved_at": "2026-08-20",
-      "revenue": 69000000,
-      "source": "TMDb",
-      "source_url": "https://www.themoviedb.org/movie/1185806"
-    },
+    "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 33.7797,
-        "retrieved_at": "2026-08-20",
+        "popularity": 12.3262,
+        "retrieved_at": "2026-07-29",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1185806",
         "status": "rated",
-        "vote_average": 7.0,
-        "vote_count": 34
+        "vote_average": 3.5,
+        "vote_count": 2
       }
     },
-    "tmdb_popularity": {
-      "retrieved_at": "2026-08-20",
-      "source": "TMDb",
-      "source_url": "https://www.themoviedb.org/movie/1185806",
-      "value": 33.7797
-    },
+    "tmdb_popularity": 12.3262,
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 33.7797,
-      "retrieved_at": "2026-08-20",
+      "popularity": 12.3262,
+      "rating": 3.5,
+      "retrieved_at": "2026-07-29",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1185806",
       "status": "rated",
-      "vote_average": 7.0,
-      "vote_count": 34
+      "vote_average": 3.5,
+      "vote_count": 2
     }
   },
   "related": {
@@ -374,18 +381,6 @@
         "tmdb_id": "1663937"
       },
       {
-        "profile_url": "film.html?id=1714703",
-        "relationship_score": 96,
-        "shared_signals": [
-          "Animation Spotlight",
-          "Adventure",
-          "Animation",
-          "Animated Feature"
-        ],
-        "title": "The Essentials 2",
-        "tmdb_id": "1714703"
-      },
-      {
         "profile_url": "film.html?id=1300926",
         "relationship_score": 90,
         "shared_signals": [
@@ -396,6 +391,18 @@
         ],
         "title": "The Angry Birds Movie 3",
         "tmdb_id": "1300926"
+      },
+      {
+        "profile_url": "film.html?id=1714703",
+        "relationship_score": 90,
+        "shared_signals": [
+          "Animation Spotlight",
+          "Adventure",
+          "Animation",
+          "Animated Feature"
+        ],
+        "title": "The Essentials 2",
+        "tmdb_id": "1714703"
       },
       {
         "profile_url": "film.html?id=1722484",
@@ -411,12 +418,12 @@
       },
       {
         "profile_url": "film.html?id=822653",
-        "relationship_score": 84,
+        "relationship_score": 78,
         "shared_signals": [
           "Animation Spotlight",
           "Animation",
-          "Fantasy",
-          "Animated Feature"
+          "Animated Feature",
+          "Craft Categories"
         ],
         "title": "Puella Magi Madoka Magica the Movie -Walpurgisnacht: Rising-",
         "tmdb_id": "822653"
@@ -432,23 +439,23 @@
         "role": "actor"
       },
       {
+        "name": "Hayden Chamberlen",
+        "role": "actor"
+      },
+      {
         "name": "Mckenna Grace",
         "role": "actor"
       },
       {
-        "name": "Terry Crews",
+        "name": "Rain Janjua",
         "role": "actor"
       },
       {
-        "name": "Meredith MacNeill",
+        "name": "Henry Bolan",
         "role": "actor"
       },
       {
-        "name": "Ron Pardo",
-        "role": "actor"
-      },
-      {
-        "name": "Jennifer Hudson",
+        "name": "Lucien Duncan-Reid",
         "role": "actor"
       }
     ],
@@ -469,32 +476,32 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.9,
-      "audience_quality": 6.65,
+      "audience_momentum": 0.249,
+      "audience_quality": 3.325,
       "awards_relevance": 2.4,
       "campaign_activity": 5.4,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-20T14:06:00Z",
+    "generated_at": "2026-07-29T21:38:25Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 18.675,
+    "score": 14.699,
     "source": "derived_screening_room_score",
     "top_drivers": [
-      {
-        "confidence": 0.95,
-        "contribution": 6.65,
-        "metric_name": "tmdb_vote_average",
-        "provider": "tmdb",
-        "score_family": "audience_quality",
-        "value": 7.0
-      },
       {
         "confidence": 0.9,
         "contribution": 5.4,
         "metric_name": "trailer_count",
         "provider": "trailers",
         "score_family": "campaign_activity",
-        "value": 37
+        "value": 16
+      },
+      {
+        "confidence": 0.95,
+        "contribution": 3.325,
+        "metric_name": "tmdb_vote_average",
+        "provider": "tmdb",
+        "score_family": "audience_quality",
+        "value": 3.5
       },
       {
         "confidence": 0.5,
@@ -527,66 +534,28 @@
     "external_intelligence": {
       "confidence": "High",
       "headline": "PAW Patrol: The Dino Movie: release approaching",
-      "summary": "TMDb popularity rose from 12.3262 to 33.7797. US release is 25 days away on 2026-08-14."
+      "summary": "US release is 25 days away on 2026-08-14."
     },
-    "last_updated": "2026-08-20T14:06:23Z",
+    "last_updated": "2026-08-14",
     "latest_event": {
       "confidence": "Inferred",
-      "event_id": "1185806-2be97bca35ab",
-      "event_type": "Awards Tier Changed",
+      "event_id": "1185806-501fee6975bc",
+      "event_type": "Release Scheduled",
       "film_id": "1185806",
       "importance": "Medium",
       "metadata": {
-        "awards_tier": "Category Contender",
-        "categories": [
-          "Animated Feature",
-          "Craft Categories",
-          "Multiple Pathways"
-        ]
+        "release_date": "2026-08-14"
       },
-      "source_type": "editorial_model",
-      "summary": "category-specific awards case without broader contender evidence",
-      "timestamp": "2026-08-20T14:06:23Z",
-      "title": "Awards tier assigned: Category Contender"
+      "source_type": "metadata",
+      "summary": "Release currently scheduled for In theaters Aug. 14.",
+      "timestamp": "2026-08-14",
+      "title": "Release scheduled"
     },
     "latest_intelligence": "As of 2026-07-18, this is a unknown distributor release dated 2026-08-14 with Craft Categories, Animated Feature relevance; current awards profile is Craft Potential and data status is developing.",
     "momentum": 0.0,
     "narrative_importance": 0,
     "next_signal": "Confirm US distributor/release plan.",
     "recent_activity": [
-      {
-        "confidence": "Inferred",
-        "event_id": "1185806-2be97bca35ab",
-        "event_type": "Awards Tier Changed",
-        "film_id": "1185806",
-        "importance": "Medium",
-        "metadata": {
-          "awards_tier": "Category Contender",
-          "categories": [
-            "Animated Feature",
-            "Craft Categories",
-            "Multiple Pathways"
-          ]
-        },
-        "source_type": "editorial_model",
-        "summary": "category-specific awards case without broader contender evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
-        "title": "Awards tier assigned: Category Contender"
-      },
-      {
-        "confidence": "Inferred",
-        "event_id": "1185806-31f2c5b1490d",
-        "event_type": "Added To Database",
-        "film_id": "1185806",
-        "importance": "Low",
-        "metadata": {
-          "profile_version": "phase6a"
-        },
-        "source_type": "system",
-        "summary": "PAW Patrol: The Dino Movie is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-20T14:06:23Z",
-        "title": "Added to Awards Intelligence"
-      },
       {
         "confidence": "Inferred",
         "event_id": "1185806-501fee6975bc",
@@ -600,13 +569,46 @@
         "summary": "Release currently scheduled for In theaters Aug. 14.",
         "timestamp": "2026-08-14",
         "title": "Release scheduled"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1185806-71e194557e1c",
+        "event_type": "Awards Tier Changed",
+        "film_id": "1185806",
+        "importance": "Medium",
+        "metadata": {
+          "awards_tier": "Category Contender",
+          "categories": [
+            "Animated Feature",
+            "Craft Categories",
+            "Multiple Pathways"
+          ]
+        },
+        "source_type": "editorial_model",
+        "summary": "category-specific awards case without broader contender evidence",
+        "timestamp": "2026-07-29T21:38:25Z",
+        "title": "Awards tier assigned: Category Contender"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1185806-09359451f7e7",
+        "event_type": "Added To Database",
+        "film_id": "1185806",
+        "importance": "Low",
+        "metadata": {
+          "profile_version": "phase6a"
+        },
+        "source_type": "system",
+        "summary": "PAW Patrol: The Dino Movie is tracked in the Film Intelligence profile set.",
+        "timestamp": "2026-07-29T21:38:25Z",
+        "title": "Added to Awards Intelligence"
       }
     ],
     "release_relevance": 42.8,
     "screening_room_score": {
       "confidence": "High",
-      "explanation": "TMDb popularity rose from 12.3262 to 33.7797. US release is 25 days away on 2026-08-14.",
-      "score": 18.675
+      "explanation": "US release is 25 days away on 2026-08-14.",
+      "score": 14.699
     },
     "watch_triggers": [
       "Major Studio/Streamer",
@@ -621,22 +623,39 @@
     "director": "Cal Brunker",
     "principal_cast": [
       "Carter Young",
+      "Hayden Chamberlen",
       "Mckenna Grace",
-      "Terry Crews",
-      "Meredith MacNeill",
-      "Ron Pardo",
-      "Jennifer Hudson",
-      "Hayden Chemberlen",
-      "Fortune Feimster"
+      "Rain Janjua",
+      "Henry Bolan",
+      "Lucien Duncan-Reid",
+      "Nylan Parthipan",
+      "William Desrosiers"
     ],
     "producers": [],
-    "writers": []
+    "writers": [
+      "Cal Brunker",
+      "Bob Barlen"
+    ]
   },
   "timeline": {
     "events": [
       {
         "confidence": "Inferred",
-        "event_id": "1185806-2be97bca35ab",
+        "event_id": "1185806-501fee6975bc",
+        "event_type": "Release Scheduled",
+        "film_id": "1185806",
+        "importance": "Medium",
+        "metadata": {
+          "release_date": "2026-08-14"
+        },
+        "source_type": "metadata",
+        "summary": "Release currently scheduled for In theaters Aug. 14.",
+        "timestamp": "2026-08-14",
+        "title": "Release scheduled"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1185806-71e194557e1c",
         "event_type": "Awards Tier Changed",
         "film_id": "1185806",
         "importance": "Medium",
@@ -650,12 +669,12 @@
         },
         "source_type": "editorial_model",
         "summary": "category-specific awards case without broader contender evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Awards tier assigned: Category Contender"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1185806-31f2c5b1490d",
+        "event_id": "1185806-09359451f7e7",
         "event_type": "Added To Database",
         "film_id": "1185806",
         "importance": "Low",
@@ -664,77 +683,25 @@
         },
         "source_type": "system",
         "summary": "PAW Patrol: The Dino Movie is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Added to Awards Intelligence"
-      },
-      {
-        "confidence": "Inferred",
-        "event_id": "1185806-501fee6975bc",
-        "event_type": "Release Scheduled",
-        "film_id": "1185806",
-        "importance": "Medium",
-        "metadata": {
-          "release_date": "2026-08-14"
-        },
-        "source_type": "metadata",
-        "summary": "Release currently scheduled for In theaters Aug. 14.",
-        "timestamp": "2026-08-14",
-        "title": "Release scheduled"
       }
     ],
     "latest_event": {
       "confidence": "Inferred",
-      "event_id": "1185806-2be97bca35ab",
-      "event_type": "Awards Tier Changed",
+      "event_id": "1185806-501fee6975bc",
+      "event_type": "Release Scheduled",
       "film_id": "1185806",
       "importance": "Medium",
       "metadata": {
-        "awards_tier": "Category Contender",
-        "categories": [
-          "Animated Feature",
-          "Craft Categories",
-          "Multiple Pathways"
-        ]
+        "release_date": "2026-08-14"
       },
-      "source_type": "editorial_model",
-      "summary": "category-specific awards case without broader contender evidence",
-      "timestamp": "2026-08-20T14:06:23Z",
-      "title": "Awards tier assigned: Category Contender"
+      "source_type": "metadata",
+      "summary": "Release currently scheduled for In theaters Aug. 14.",
+      "timestamp": "2026-08-14",
+      "title": "Release scheduled"
     },
     "recent_activity": [
-      {
-        "confidence": "Inferred",
-        "event_id": "1185806-2be97bca35ab",
-        "event_type": "Awards Tier Changed",
-        "film_id": "1185806",
-        "importance": "Medium",
-        "metadata": {
-          "awards_tier": "Category Contender",
-          "categories": [
-            "Animated Feature",
-            "Craft Categories",
-            "Multiple Pathways"
-          ]
-        },
-        "source_type": "editorial_model",
-        "summary": "category-specific awards case without broader contender evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
-        "title": "Awards tier assigned: Category Contender"
-      },
-      {
-        "confidence": "Inferred",
-        "event_id": "1185806-31f2c5b1490d",
-        "event_type": "Added To Database",
-        "film_id": "1185806",
-        "importance": "Low",
-        "metadata": {
-          "profile_version": "phase6a"
-        },
-        "source_type": "system",
-        "summary": "PAW Patrol: The Dino Movie is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-20T14:06:23Z",
-        "title": "Added to Awards Intelligence"
-      },
       {
         "confidence": "Inferred",
         "event_id": "1185806-501fee6975bc",
@@ -748,6 +715,39 @@
         "summary": "Release currently scheduled for In theaters Aug. 14.",
         "timestamp": "2026-08-14",
         "title": "Release scheduled"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1185806-71e194557e1c",
+        "event_type": "Awards Tier Changed",
+        "film_id": "1185806",
+        "importance": "Medium",
+        "metadata": {
+          "awards_tier": "Category Contender",
+          "categories": [
+            "Animated Feature",
+            "Craft Categories",
+            "Multiple Pathways"
+          ]
+        },
+        "source_type": "editorial_model",
+        "summary": "category-specific awards case without broader contender evidence",
+        "timestamp": "2026-07-29T21:38:25Z",
+        "title": "Awards tier assigned: Category Contender"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1185806-09359451f7e7",
+        "event_type": "Added To Database",
+        "film_id": "1185806",
+        "importance": "Low",
+        "metadata": {
+          "profile_version": "phase6a"
+        },
+        "source_type": "system",
+        "summary": "PAW Patrol: The Dino Movie is tracked in the Film Intelligence profile set.",
+        "timestamp": "2026-07-29T21:38:25Z",
+        "title": "Added to Awards Intelligence"
       }
     ],
     "supported_event_types": [

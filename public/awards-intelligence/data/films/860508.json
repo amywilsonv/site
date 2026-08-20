@@ -7,7 +7,7 @@
       "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 57.3,
+    "attention_score": 54.7,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -30,11 +30,6 @@
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 5.0089",
-        "source": "audience_popularity",
-        "status": "verified"
-      },
-      {
         "evidence": "Trailer URL present",
         "source": "trailer_available",
         "status": "verified"
@@ -42,6 +37,11 @@
       {
         "evidence": "Release date: 2026-08-28",
         "source": "release_proximity",
+        "status": "verified"
+      },
+      {
+        "evidence": "TMDb popularity 1.9916",
+        "source": "audience_popularity",
         "status": "verified"
       },
       {
@@ -56,14 +56,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 57.3,
+    "homepage_spotlight_score": 54.7,
     "industry_interest": null,
-    "last_updated": "20260820T140623Z",
+    "last_updated": "20260729T213825Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
         "evidence_count": 2,
-        "score": 13.7,
+        "score": 11.1,
         "statuses": [
           "verified"
         ]
@@ -141,6 +141,23 @@
     "predicted_categories": [],
     "probabilities": {}
   },
+  "awards_intelligence": {
+    "awards_candidate_status": "PROVISIONAL",
+    "awards_status": null,
+    "best_picture_rank": null,
+    "forecast_stage": null,
+    "forecast_stage_label": null,
+    "nominee_probability": null,
+    "percentage_policy": "PERCENTAGES_NOT_READY",
+    "prediction_confidence": null,
+    "probability_is_calibrated": false,
+    "public_card_behavior": "no_awards_badge",
+    "rank_change": null,
+    "ranking_eligibility": "NOT_RANKED",
+    "ranking_last_updated_at": null,
+    "source_artifact": "academy_nominee_website_card_handoff_v1.json",
+    "why_it_ranks": []
+  },
   "commercial": {
     "commercial_significance": 19.0,
     "distributor": "Netflix",
@@ -183,11 +200,10 @@
     ],
     "genres": [
       "Crime",
-      "Drama",
       "Thriller"
     ],
     "id": "860508",
-    "imdb_id": "",
+    "imdb_id": "tt11561116",
     "language": "en",
     "original_title": "The Whisper Man",
     "poster": "https://image.tmdb.org/t/p/original/6UqflU8Qqkz7Dq4swJPqs0ZJjY4.jpg",
@@ -203,7 +219,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-08-20T14:06:00Z",
+    "generated_at": "2026-07-29T21:38:25Z",
     "headline": "The Whisper Man: release approaching",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -220,11 +236,11 @@
         "streaming_available_us": false,
         "streaming_flatrate_provider_count_us": 0,
         "streaming_provider_count_us": 0,
-        "tmdb_backdrop_count": 4,
+        "tmdb_backdrop_count": 2,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=ZHRR-1CKYIQ",
-        "tmdb_popularity": 5.0089,
-        "tmdb_poster_count": 11,
+        "tmdb_popularity": 1.9916,
+        "tmdb_poster_count": 4,
         "tmdb_release_date_us_primary": "2026-08-28",
         "tmdb_release_date_us_theatrical": "",
         "tmdb_release_status": "Post Production",
@@ -239,24 +255,14 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity rose from 1.9916 to 5.0089. US release is 39 days away on 2026-08-28.",
+    "summary": "US release is 39 days away on 2026-08-28.",
     "supporting_drivers": [
-      {
-        "confidence_weight": 0.9,
-        "driver_type": "popularity_increasing",
-        "evidence": "TMDb popularity rose from 1.9916 to 5.0089.",
-        "label": "Popularity increasing",
-        "retrieved_at": "2026-08-20T14:06:00Z",
-        "source_metric": "tmdb_popularity",
-        "source_provider": "tmdb",
-        "source_status": "available"
-      },
       {
         "confidence_weight": 0.8,
         "driver_type": "release_approaching",
         "evidence": "US release is 39 days away on 2026-08-28.",
         "label": "Release approaching",
-        "retrieved_at": "2026-08-20T14:06:00Z",
+        "retrieved_at": "2026-07-29T21:38:25Z",
         "source_metric": "tmdb_release_date_us_primary",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -264,8 +270,9 @@
     ]
   },
   "media": {
+    "backdrop": "https://image.tmdb.org/t/p/original/uauoVKKCkNA9iWjgJCL8TdSfLf5.jpg",
     "canonical_trailer": {
-      "retrieved_at": "2026-08-20",
+      "retrieved_at": "2026-07-29",
       "site": "YouTube",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/860508/videos",
@@ -273,37 +280,36 @@
       "type": "Trailer",
       "url": "https://www.youtube.com/watch?v=ZHRR-1CKYIQ"
     },
-    "latest_trailer_url": "https://www.youtube.com/watch?v=ZHRR-1CKYIQ"
+    "latest_trailer_url": "https://www.youtube.com/watch?v=ZHRR-1CKYIQ",
+    "poster": "https://image.tmdb.org/t/p/original/6UqflU8Qqkz7Dq4swJPqs0ZJjY4.jpg",
+    "trailer": "https://www.youtube.com/watch?v=ZHRR-1CKYIQ"
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260820T140623Z",
-    "profile_version": "phase6a",
+    "awards_intelligence_integrated_at": "2026-08-16T00:00:00Z",
+    "awards_intelligence_source": "academy_nominee_website_card_handoff_v1.json",
+    "generated_at": "slice57_current_discovery_enrichment",
+    "profile_version": "phase6a_registry_canonical_id_bridge_slice57_enriched",
     "source_data_date": "2026-07-20"
   },
   "performance": {
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 5.0089,
-        "retrieved_at": "2026-08-20",
+        "popularity": 1.9916,
+        "retrieved_at": "2026-07-29",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/860508",
         "status": "not_yet_rated"
       }
     },
-    "tmdb_popularity": {
-      "retrieved_at": "2026-08-20",
-      "source": "TMDb",
-      "source_url": "https://www.themoviedb.org/movie/860508",
-      "value": 5.0089
-    },
+    "tmdb_popularity": 1.9916,
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 5.0089,
-      "retrieved_at": "2026-08-20",
+      "popularity": 1.9916,
+      "retrieved_at": "2026-07-29",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/860508",
       "status": "not_yet_rated"
@@ -312,74 +318,71 @@
   "related": {
     "related_films": [
       {
-        "profile_url": "film.html?id=1487861",
-        "relationship_score": 54,
-        "shared_signals": [
-          "General Watch",
-          "Crime",
-          "Drama",
-          "Netflix"
-        ],
-        "title": "Elize: Shadows of a Woman",
-        "tmdb_id": "1487861"
-      },
-      {
-        "profile_url": "film.html?id=1487864",
-        "relationship_score": 54,
-        "shared_signals": [
-          "General Watch",
-          "Crime",
-          "Drama",
-          "Netflix"
-        ],
-        "title": "Nando Between Two Worlds - A Sintonia Film",
-        "tmdb_id": "1487864"
-      },
-      {
-        "profile_url": "film.html?id=1659155",
+        "profile_url": "film.html?id=1631807",
         "relationship_score": 48,
         "shared_signals": [
           "General Watch",
-          "Drama",
+          "Crime",
           "Thriller",
-          "Netflix"
-        ],
-        "title": "The Truthers",
-        "tmdb_id": "1659155"
-      },
-      {
-        "profile_url": "film.html?id=1670061",
-        "relationship_score": 44,
-        "shared_signals": [
-          "General Watch",
-          "Crime",
-          "Drama"
-        ],
-        "title": "Beasts Clutching at Straws",
-        "tmdb_id": "1670061"
-      },
-      {
-        "profile_url": "film.html?id=1631807",
-        "relationship_score": 44,
-        "shared_signals": [
-          "General Watch",
-          "Crime",
-          "Drama",
           "Netflix"
         ],
         "title": "The Secret Woman",
         "tmdb_id": "1631807"
       },
       {
-        "profile_url": "film.html?id=949838",
+        "profile_url": "film.html?id=1421594",
         "relationship_score": 42,
         "shared_signals": [
           "General Watch",
           "Crime",
           "Netflix"
         ],
-        "title": "72 HOURS",
-        "tmdb_id": "949838"
+        "title": "Inside the Trustor Scandal",
+        "tmdb_id": "1421594"
+      },
+      {
+        "profile_url": "film.html?id=1487864",
+        "relationship_score": 42,
+        "shared_signals": [
+          "General Watch",
+          "Crime",
+          "Netflix"
+        ],
+        "title": "Nando Between Two Worlds - A Sintonia Film",
+        "tmdb_id": "1487864"
+      },
+      {
+        "profile_url": "film.html?id=1284041",
+        "relationship_score": 42,
+        "shared_signals": [
+          "General Watch",
+          "Thriller",
+          "Netflix"
+        ],
+        "title": "The Last House",
+        "tmdb_id": "1284041"
+      },
+      {
+        "profile_url": "film.html?id=1670061",
+        "relationship_score": 38,
+        "shared_signals": [
+          "General Watch",
+          "Crime",
+          "Thriller"
+        ],
+        "title": "Beasts Clutching at Straws",
+        "tmdb_id": "1670061"
+      },
+      {
+        "profile_url": "film.html?id=1437511",
+        "relationship_score": 38,
+        "shared_signals": [
+          "General Watch",
+          "Crime",
+          "Thriller"
+        ],
+        "title": "How to Rob a Bank",
+        "tmdb_id": "1437511"
       }
     ],
     "related_people": [
@@ -425,13 +428,13 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.095,
+      "audience_momentum": 0.038,
       "campaign_activity": 1.35,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-20T14:06:00Z",
+    "generated_at": "2026-07-29T21:38:25Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 4.77,
+    "score": 4.713,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -460,11 +463,11 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.095,
+        "contribution": 0.038,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 5.0089
+        "value": 1.9916
       }
     ]
   },
@@ -473,7 +476,7 @@
     "external_intelligence": {
       "confidence": "High",
       "headline": "The Whisper Man: release approaching",
-      "summary": "TMDb popularity rose from 1.9916 to 5.0089. US release is 39 days away on 2026-08-28."
+      "summary": "US release is 39 days away on 2026-08-28."
     },
     "last_updated": "2026-08-28",
     "latest_event": {
@@ -511,7 +514,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "860508-04d9ca3b35bb",
+        "event_id": "860508-05fd06d0bdf8",
         "event_type": "Distributor Change",
         "film_id": "860508",
         "importance": "Medium",
@@ -520,12 +523,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "860508-ff965394eb75",
+        "event_id": "860508-196bfdb610ae",
         "event_type": "Awards Tier Changed",
         "film_id": "860508",
         "importance": "Medium",
@@ -535,15 +538,15 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],
     "release_relevance": 36.8,
     "screening_room_score": {
       "confidence": "High",
-      "explanation": "TMDb popularity rose from 1.9916 to 5.0089. US release is 39 days away on 2026-08-28.",
-      "score": 4.77
+      "explanation": "US release is 39 days away on 2026-08-28.",
+      "score": 4.713
     },
     "watch_triggers": [
       "Prestige Distributor",
@@ -565,7 +568,10 @@
       "John Carroll Lynch"
     ],
     "producers": [],
-    "writers": []
+    "writers": [
+      "Ben Jacoby",
+      "Chase Palmer"
+    ]
   },
   "timeline": {
     "events": [
@@ -585,7 +591,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "860508-04d9ca3b35bb",
+        "event_id": "860508-05fd06d0bdf8",
         "event_type": "Distributor Change",
         "film_id": "860508",
         "importance": "Medium",
@@ -594,12 +600,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "860508-ff965394eb75",
+        "event_id": "860508-196bfdb610ae",
         "event_type": "Awards Tier Changed",
         "film_id": "860508",
         "importance": "Medium",
@@ -609,12 +615,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "860508-528ec7986ccd",
+        "event_id": "860508-6745b4de9da6",
         "event_type": "Added To Database",
         "film_id": "860508",
         "importance": "Low",
@@ -623,7 +629,7 @@
         },
         "source_type": "system",
         "summary": "The Whisper Man is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -658,7 +664,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "860508-04d9ca3b35bb",
+        "event_id": "860508-05fd06d0bdf8",
         "event_type": "Distributor Change",
         "film_id": "860508",
         "importance": "Medium",
@@ -667,12 +673,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "860508-ff965394eb75",
+        "event_id": "860508-196bfdb610ae",
         "event_type": "Awards Tier Changed",
         "film_id": "860508",
         "importance": "Medium",
@@ -682,7 +688,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],

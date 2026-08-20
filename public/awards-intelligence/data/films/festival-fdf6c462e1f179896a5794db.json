@@ -1,0 +1,172 @@
+{
+  "attention_intelligence": {},
+  "awards": {
+    "award_history": [],
+    "awards_tier": "No Current Awards Case",
+    "comparable_nominees": [],
+    "confidence": 0,
+    "current_awards_profile": "Festival Watch",
+    "explanation": "Film-discovery record only; not a nominee forecast.",
+    "predicted_categories": [],
+    "probabilities": {}
+  },
+  "awards_intelligence": {
+    "awards_candidate_status": "WATCHLIST",
+    "awards_status": null,
+    "best_picture_rank": null,
+    "forecast_stage": null,
+    "forecast_stage_label": null,
+    "nominee_probability": null,
+    "percentage_policy": "PERCENTAGES_NOT_READY",
+    "prediction_confidence": null,
+    "probability_is_calibrated": false,
+    "public_card_behavior": "optional_watchlist_badge",
+    "rank_change": null,
+    "ranking_eligibility": "NOT_RANKED",
+    "ranking_last_updated_at": null,
+    "source_artifact": "academy_nominee_website_card_handoff_v1.json",
+    "why_it_ranks": []
+  },
+  "commercial": {
+    "commercial_significance": 0,
+    "distributor": "Unknown",
+    "franchise": "",
+    "release_strategy": "",
+    "studio": [
+      "Soci\u00e9t\u00e9 Parisienne de Production",
+      "ARTE France Cin\u00e9ma",
+      "Phenomen Berlin",
+      "Essential Filmproduktion",
+      "Plattform Produktion"
+    ]
+  },
+  "diagnostics": {
+    "completeness_score": 0,
+    "confidence": "Source-backed",
+    "missing_fields": [],
+    "relationship_counts": {}
+  },
+  "editorial": {
+    "discovery_reason": "Approved official festival lineup source",
+    "editorial_category": "Festival Watch",
+    "editorial_summary": "Source-backed official approved-festival lineup discovery record.",
+    "importance_tier": "Watchlist",
+    "primary_story": "Official festival lineup discovery",
+    "story_strength": "Developing",
+    "why_it_matters": "Source-backed official approved-festival lineup discovery record."
+  },
+  "festival": {
+    "awards_received": [],
+    "display_status": "Official Selection",
+    "festival_history": [
+      {
+        "festival_name": "Venice",
+        "festival_year": 2026,
+        "last_updated": "2026-08-16T00:00:00Z",
+        "section": "Venezia 83 Competition",
+        "signal": "Official festival lineup source.",
+        "source_url": "https://www.labiennale.org/en/cinema/2026/venezia-83-competition"
+      }
+    ],
+    "festival_status": "Official Selection",
+    "premiere_type": ""
+  },
+  "film_identity": {
+    "backdrop": "https://image.tmdb.org/t/p/original/s1mTvpCDLrl3MYXhfRpAVsEJ7V7.jpg",
+    "canonical_film_id": "festival-fdf6c462e1f179896a5794db",
+    "country": [
+      "DE",
+      "FR",
+      "SE",
+      "RU"
+    ],
+    "genres": [
+      "Drama",
+      "Thriller"
+    ],
+    "id": "festival-fdf6c462e1f179896a5794db",
+    "imdb_id": "tt43702526",
+    "language": "ru",
+    "original_title": "Dau",
+    "poster": "https://image.tmdb.org/t/p/original/8BbLmtpZVfh9b7D7WMqeJ0kR1Uz.jpg",
+    "profile_id": "festival-fdf6c462e1f179896a5794db",
+    "profile_payload_url": "data/films/festival-fdf6c462e1f179896a5794db.json",
+    "profile_url": "film.html?id=festival-fdf6c462e1f179896a5794db",
+    "release_date": "2026-09-09",
+    "release_display": "2026-09-09",
+    "runtime": 195,
+    "synopsis": "Inspired by the life of Soviet physicists who created the atomic bomb, DAU tells the story of a brilliant Greek-born physicist living in the USSR from 1928 to 1968. Driven to understand the laws of the universe, Dau is soon forced to use his genius in service of the state and help create the deadliest weapon in history. In a secret research institute, everyday life is shaped by scientific dominance, power, surveillance and privilege. Increasingly stripped of his autonomy, Dau attempts to find freedom and happiness outside his marriage through an endless succession of affairs, ultimately losing both himself and his ability to love. Spanning four transformative decades, DAU is both an intimate portrait of one man and a monumental fresco of a society shaped by violence and ideology. It is a saga about the search for happiness, the price of freedom, and the countless everyday compromises that quietly shape both a human destiny and the course of history.",
+    "title": "Dau",
+    "tmdb_id": "1734147"
+  },
+  "media": {
+    "backdrop": "https://image.tmdb.org/t/p/original/s1mTvpCDLrl3MYXhfRpAVsEJ7V7.jpg",
+    "poster": "https://image.tmdb.org/t/p/original/8BbLmtpZVfh9b7D7WMqeJ0kR1Uz.jpg",
+    "trailer": ""
+  },
+  "metadata": {
+    "algorithm_version": "phase5b",
+    "awards_intelligence_integrated_at": "2026-08-16T00:00:00Z",
+    "awards_intelligence_source": "academy_nominee_website_card_handoff_v1.json",
+    "generated_at": "slice57_current_discovery_enrichment",
+    "profile_version": "phase6a_registry_canonical_id_bridge_slice57_enriched",
+    "registry": {
+      "canonical_film_id": "festival-fdf6c462e1f179896a5794db",
+      "discovery_sources": "Venice",
+      "first_seen_date": "2026-08-16",
+      "source_paths": "https://www.labiennale.org/en/cinema/2026/venezia-83-competition",
+      "tmdb_enriched_at": "2026-08-16",
+      "tmdb_enrichment_source": "slice_56_high_confidence_recoverability_audit"
+    },
+    "source_data_date": "2026-08-15"
+  },
+  "performance": {
+    "tmdb_popularity": 1.6
+  },
+  "ratings": {
+    "tmdb": {
+      "popularity": 1.6
+    }
+  },
+  "related": {
+    "related_films": [],
+    "related_people": [],
+    "related_studios": []
+  },
+  "signals": {
+    "cultural_significance": 0,
+    "latest_intelligence": "Dau entered film discovery via approved source-backed metadata.",
+    "momentum": 0,
+    "narrative_importance": 0,
+    "next_signal": "Monitor distributor, release, and TMDb enrichment updates.",
+    "release_relevance": 0,
+    "watch_triggers": [
+      "Official Festival Lineup"
+    ],
+    "whats_changed": "Added through canonical registry current-season export bridge."
+  },
+  "talent": {
+    "director": "Ilya Khrzhanovsky",
+    "principal_cast": [
+      "Teodor Currentzis",
+      "Radmila Shegoleva",
+      "Anatoly Vasiliev",
+      "Vladimir Azhippo",
+      "Dmitri Tcherniakov",
+      "Dmitry Cheglakov",
+      "Demyan Kudryavstev",
+      "Maria Nafpliotou"
+    ],
+    "producers": [],
+    "writers": [
+      "Ilya Khrzhanovsky",
+      "Susanne Marian",
+      "Vladimir Sorokin",
+      "Ilya Permyakov"
+    ]
+  },
+  "timeline": {
+    "events": [],
+    "supported_event_types": []
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "attention_intelligence": {},
+  "awards": {
+    "award_history": [],
+    "awards_tier": "No Current Awards Case",
+    "comparable_nominees": [],
+    "confidence": 0,
+    "current_awards_profile": "Festival Watch",
+    "explanation": "Film-discovery record only; not a nominee forecast.",
+    "predicted_categories": [],
+    "probabilities": {}
+  },
+  "awards_intelligence": {
+    "awards_candidate_status": "ACTIVE_CONTENDER",
+    "awards_status": null,
+    "best_picture_rank": null,
+    "forecast_stage": null,
+    "forecast_stage_label": null,
+    "nominee_probability": null,
+    "percentage_policy": "PERCENTAGES_NOT_READY",
+    "prediction_confidence": null,
+    "probability_is_calibrated": false,
+    "public_card_behavior": "no_public_badge_pending_evidence",
+    "rank_change": null,
+    "ranking_eligibility": "RANKING_PENDING_MORE_EVIDENCE",
+    "ranking_last_updated_at": null,
+    "source_artifact": "academy_nominee_website_card_handoff_v1.json",
+    "why_it_ranks": []
+  },
+  "commercial": {
+    "commercial_significance": 0,
+    "distributor": "Unknown",
+    "franchise": "",
+    "release_strategy": "",
+    "studio": [
+      "El Deseo"
+    ]
+  },
+  "diagnostics": {
+    "completeness_score": 0,
+    "confidence": "Source-backed",
+    "missing_fields": [],
+    "relationship_counts": {}
+  },
+  "editorial": {
+    "discovery_reason": "Approved official festival lineup source",
+    "editorial_category": "Festival Watch",
+    "editorial_summary": "Source-backed official approved-festival lineup discovery record.",
+    "importance_tier": "Watchlist",
+    "primary_story": "Official festival lineup discovery",
+    "story_strength": "Developing",
+    "why_it_matters": "Source-backed official approved-festival lineup discovery record."
+  },
+  "festival": {
+    "awards_received": [],
+    "display_status": "Official Selection",
+    "festival_history": [
+      {
+        "festival_name": "Cannes",
+        "festival_year": 2026,
+        "last_updated": "2026-08-16T00:00:00Z",
+        "section": "In Competition",
+        "signal": "Official festival lineup source.",
+        "source_url": "https://www.festival-cannes.com/en/press/press-releases/the-films-of-the-official-selection-2026/"
+      },
+      {
+        "festival_name": "TIFF",
+        "festival_year": 2026,
+        "last_updated": "2026-08-16T00:00:00Z",
+        "section": "Special Presentations",
+        "signal": "Festival selection recovered from authoritative secondary reproduction after official detail page access was blocked.",
+        "source_url": "https://en.wikipedia.org/wiki/2026_Toronto_International_Film_Festival"
+      },
+      {
+        "festival_name": "NYFF",
+        "festival_year": 2026,
+        "last_updated": "2026-08-16T00:00:00Z",
+        "section": "Main Slate",
+        "signal": "Festival selection recovered from authoritative secondary reproduction after official detail page access was blocked.",
+        "source_url": "https://en.wikipedia.org/wiki/2026_New_York_Film_Festival"
+      }
+    ],
+    "festival_status": "Official Selection",
+    "premiere_type": ""
+  },
+  "film_identity": {
+    "backdrop": "https://image.tmdb.org/t/p/original/ppLv2F7dhvI3wxaEoOP1E0OyBPP.jpg",
+    "canonical_film_id": "festival-a27aabd849c040ca6c00acb3",
+    "country": [
+      "ES"
+    ],
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "id": "festival-a27aabd849c040ca6c00acb3",
+    "imdb_id": "tt28088049",
+    "language": "es",
+    "original_title": "AMARGA NAVIDAD",
+    "poster": "https://image.tmdb.org/t/p/original/q030Fi4tubXBJKg3D9otPDgGP2o.jpg",
+    "profile_id": "festival-a27aabd849c040ca6c00acb3",
+    "profile_payload_url": "data/films/festival-a27aabd849c040ca6c00acb3.json",
+    "profile_url": "film.html?id=festival-a27aabd849c040ca6c00acb3",
+    "release_date": "2026-11-13",
+    "release_display": "2026-11-13",
+    "runtime": 111,
+    "synopsis": "In 2025 Spain, a celebrated film director struggles to write the screenplay for an autofictional film set in 2004 Spain about an unsuccessful movie director turned director of commercials who suffers a panic attack that forces her to take a break by visiting the Canary Islands, where she begins work on a new film.",
+    "title": "AMARGA NAVIDAD",
+    "tmdb_id": "1088548"
+  },
+  "media": {
+    "backdrop": "https://image.tmdb.org/t/p/original/ppLv2F7dhvI3wxaEoOP1E0OyBPP.jpg",
+    "poster": "https://image.tmdb.org/t/p/original/q030Fi4tubXBJKg3D9otPDgGP2o.jpg",
+    "trailer": "https://www.youtube.com/watch?v=7PgPkSpuYpY"
+  },
+  "metadata": {
+    "algorithm_version": "phase5b",
+    "awards_intelligence_integrated_at": "2026-08-16T00:00:00Z",
+    "awards_intelligence_source": "academy_nominee_website_card_handoff_v1.json",
+    "generated_at": "slice57_current_discovery_enrichment",
+    "profile_version": "phase6a_registry_canonical_id_bridge_slice57_enriched",
+    "registry": {
+      "canonical_film_id": "festival-a27aabd849c040ca6c00acb3",
+      "discovery_sources": "NYFF|TIFF",
+      "first_seen_date": "2026-08-16",
+      "source_paths": "https://en.wikipedia.org/wiki/2026_New_York_Film_Festival|https://en.wikipedia.org/wiki/2026_Toronto_International_Film_Festival",
+      "tmdb_enriched_at": "2026-08-16",
+      "tmdb_enrichment_source": "slice_56_high_confidence_recoverability_audit"
+    },
+    "source_data_date": "2026-08-15"
+  },
+  "performance": {
+    "box_office": {
+      "budget": 11700000,
+      "revenue": 4755643
+    },
+    "tmdb_popularity": 5.5844
+  },
+  "ratings": {
+    "tmdb": {
+      "popularity": 5.5844,
+      "rating": 6.3,
+      "vote_count": 119
+    }
+  },
+  "related": {
+    "related_films": [],
+    "related_people": [],
+    "related_studios": []
+  },
+  "signals": {
+    "cultural_significance": 0,
+    "latest_intelligence": "AMARGA NAVIDAD entered film discovery via approved source-backed metadata.",
+    "momentum": 0,
+    "narrative_importance": 0,
+    "next_signal": "Monitor distributor, release, and TMDb enrichment updates.",
+    "release_relevance": 0,
+    "watch_triggers": [
+      "Official Festival Lineup"
+    ],
+    "whats_changed": "Added through canonical registry current-season export bridge."
+  },
+  "talent": {
+    "director": "Pedro ALMOD\u00d3VAR",
+    "principal_cast": [
+      "B\u00e1rbara Lennie",
+      "Leonardo Sbaraglia",
+      "Aitana S\u00e1nchez-Gij\u00f3n",
+      "Victoria Luengo",
+      "Patrick Criado",
+      "Milena Smit",
+      "Quim Guti\u00e9rrez",
+      "Rossy de Palma"
+    ],
+    "producers": [],
+    "writers": [
+      "Pedro Almod\u00f3var"
+    ]
+  },
+  "timeline": {
+    "events": [],
+    "supported_event_types": []
+  }
+}

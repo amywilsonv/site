@@ -7,7 +7,7 @@
       "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 53.2,
+    "attention_score": 53.3,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -25,7 +25,7 @@
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 4.3152",
+        "evidence": "TMDb popularity 4.4028",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -51,14 +51,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 53.2,
+    "homepage_spotlight_score": 53.3,
     "industry_interest": null,
-    "last_updated": "20260820T140623Z",
+    "last_updated": "20260729T213825Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
         "evidence_count": 2,
-        "score": 13.0,
+        "score": 13.1,
         "statuses": [
           "verified"
         ]
@@ -135,6 +135,23 @@
     "predicted_categories": [],
     "probabilities": {}
   },
+  "awards_intelligence": {
+    "awards_candidate_status": "PROVISIONAL",
+    "awards_status": null,
+    "best_picture_rank": null,
+    "forecast_stage": null,
+    "forecast_stage_label": null,
+    "nominee_probability": null,
+    "percentage_policy": "PERCENTAGES_NOT_READY",
+    "prediction_confidence": null,
+    "probability_is_calibrated": false,
+    "public_card_behavior": "no_awards_badge",
+    "rank_change": null,
+    "ranking_eligibility": "NOT_RANKED",
+    "ranking_last_updated_at": null,
+    "source_artifact": "academy_nominee_website_card_handoff_v1.json",
+    "why_it_ranks": []
+  },
   "commercial": {
     "commercial_significance": 0,
     "distributor": "Searchlight Pictures",
@@ -169,9 +186,26 @@
   },
   "festival": {
     "awards_received": [],
-    "display_status": "No verified festival information in the current dataset.",
-    "festival_history": [],
-    "festival_status": "",
+    "display_status": "Official Selection",
+    "festival_history": [
+      {
+        "festival_name": "Venice",
+        "festival_year": 2026,
+        "last_updated": "2026-08-16T00:00:00Z",
+        "section": "Venezia 83 Competition",
+        "signal": "Official festival lineup source.",
+        "source_url": "https://www.labiennale.org/en/cinema/2026/venezia-83-competition"
+      },
+      {
+        "festival_name": "TIFF",
+        "festival_year": 2026,
+        "last_updated": "2026-08-16T00:00:00Z",
+        "section": "Special Presentations",
+        "signal": "Festival selection recovered from authoritative secondary reproduction after official detail page access was blocked.",
+        "source_url": "https://en.wikipedia.org/wiki/2026_Toronto_International_Film_Festival"
+      }
+    ],
+    "festival_status": "Official Selection",
     "premiere_type": ""
   },
   "film_identity": {
@@ -187,7 +221,7 @@
       "Thriller"
     ],
     "id": "891621",
-    "imdb_id": "",
+    "imdb_id": "tt15799564",
     "language": "en",
     "original_title": "Wild Horse Nine",
     "poster": "https://image.tmdb.org/t/p/original/dNJFRtVg3xLQ7dbNIQ55cmmIniD.jpg",
@@ -203,7 +237,7 @@
   "intelligence": {
     "confidence": "Low",
     "confidence_score": 0.25,
-    "generated_at": "2026-08-20T14:06:00Z",
+    "generated_at": "2026-07-29T21:38:25Z",
     "headline": "Wild Horse Nine: no material change detected",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -223,7 +257,7 @@
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=Haw_sznA5aQ",
-        "tmdb_popularity": 4.3152,
+        "tmdb_popularity": 4.4028,
         "tmdb_poster_count": 8,
         "tmdb_release_date_us_primary": "2026-11-06",
         "tmdb_release_date_us_theatrical": "2026-11-06",
@@ -243,8 +277,9 @@
     "supporting_drivers": []
   },
   "media": {
+    "backdrop": "https://image.tmdb.org/t/p/original/3uLA0ujne91bkzFStZICCYeqhnt.jpg",
     "canonical_trailer": {
-      "retrieved_at": "2026-08-20",
+      "retrieved_at": "2026-07-29",
       "site": "YouTube",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/891621/videos",
@@ -252,43 +287,46 @@
       "type": "Trailer",
       "url": "https://www.youtube.com/watch?v=Haw_sznA5aQ"
     },
-    "latest_trailer_url": "https://www.youtube.com/watch?v=Haw_sznA5aQ"
+    "latest_trailer_url": "https://www.youtube.com/watch?v=Haw_sznA5aQ",
+    "poster": "https://image.tmdb.org/t/p/original/dNJFRtVg3xLQ7dbNIQ55cmmIniD.jpg",
+    "trailer": "https://www.youtube.com/watch?v=Haw_sznA5aQ"
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260820T140623Z",
-    "profile_version": "phase6a",
+    "awards_intelligence_integrated_at": "2026-08-16T00:00:00Z",
+    "awards_intelligence_source": "academy_nominee_website_card_handoff_v1.json",
+    "generated_at": "slice57_current_discovery_enrichment",
+    "profile_version": "phase6a_registry_canonical_id_bridge_slice57_enriched",
+    "registry": {
+      "discovery_sources": "TIFF",
+      "source_paths": "https://en.wikipedia.org/wiki/2026_Toronto_International_Film_Festival"
+    },
     "source_data_date": "2026-07-20"
   },
   "performance": {
     "box_office": {
       "budget": 5000000,
       "currency": "USD",
-      "retrieved_at": "2026-08-20",
+      "retrieved_at": "2026-07-29",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/891621"
     },
     "ratings": {
       "tmdb": {
-        "popularity": 4.3152,
-        "retrieved_at": "2026-08-20",
+        "popularity": 4.4028,
+        "retrieved_at": "2026-07-29",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/891621",
         "status": "not_yet_rated"
       }
     },
-    "tmdb_popularity": {
-      "retrieved_at": "2026-08-20",
-      "source": "TMDb",
-      "source_url": "https://www.themoviedb.org/movie/891621",
-      "value": 4.3152
-    },
+    "tmdb_popularity": 4.4028,
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 4.3152,
-      "retrieved_at": "2026-08-20",
+      "popularity": 4.4028,
+      "retrieved_at": "2026-07-29",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/891621",
       "status": "not_yet_rated"
@@ -309,17 +347,6 @@
         "tmdb_id": "675871"
       },
       {
-        "profile_url": "film.html?id=949838",
-        "relationship_score": 38,
-        "shared_signals": [
-          "General Watch",
-          "Comedy",
-          "Crime"
-        ],
-        "title": "72 HOURS",
-        "tmdb_id": "949838"
-      },
-      {
         "profile_url": "film.html?id=1670061",
         "relationship_score": 38,
         "shared_signals": [
@@ -329,17 +356,6 @@
         ],
         "title": "Beasts Clutching at Straws",
         "tmdb_id": "1670061"
-      },
-      {
-        "profile_url": "film.html?id=1487861",
-        "relationship_score": 38,
-        "shared_signals": [
-          "General Watch",
-          "Crime",
-          "Thriller"
-        ],
-        "title": "Elize: Shadows of a Woman",
-        "tmdb_id": "1487861"
       },
       {
         "profile_url": "film.html?id=1437511",
@@ -353,15 +369,36 @@
         "tmdb_id": "1437511"
       },
       {
-        "profile_url": "film.html?id=1487864",
+        "profile_url": "film.html?id=1631807",
         "relationship_score": 38,
         "shared_signals": [
           "General Watch",
           "Crime",
           "Thriller"
         ],
-        "title": "Nando Between Two Worlds - A Sintonia Film",
-        "tmdb_id": "1487864"
+        "title": "The Secret Woman",
+        "tmdb_id": "1631807"
+      },
+      {
+        "profile_url": "film.html?id=860508",
+        "relationship_score": 38,
+        "shared_signals": [
+          "General Watch",
+          "Crime",
+          "Thriller"
+        ],
+        "title": "The Whisper Man",
+        "tmdb_id": "860508"
+      },
+      {
+        "profile_url": "film.html?id=1437882",
+        "relationship_score": 32,
+        "shared_signals": [
+          "General Watch",
+          "Thriller"
+        ],
+        "title": "A Place in Hell",
+        "tmdb_id": "1437882"
       }
     ],
     "related_people": [
@@ -423,13 +460,13 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.082,
+      "audience_momentum": 0.084,
       "campaign_activity": 1.35,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-20T14:06:00Z",
+    "generated_at": "2026-07-29T21:38:25Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 4.757,
+    "score": 4.759,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -458,11 +495,11 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.082,
+        "contribution": 0.084,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 4.3152
+        "value": 4.4028
       }
     ]
   },
@@ -509,7 +546,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "891621-ca0c52b0ed28",
+        "event_id": "891621-425545430330",
         "event_type": "Distributor Change",
         "film_id": "891621",
         "importance": "Medium",
@@ -518,12 +555,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Searchlight Pictures.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Distributor set: Searchlight Pictures"
       },
       {
         "confidence": "Inferred",
-        "event_id": "891621-909b6f6e1c2d",
+        "event_id": "891621-98be8680e397",
         "event_type": "Awards Tier Changed",
         "film_id": "891621",
         "importance": "Medium",
@@ -533,7 +570,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],
@@ -541,7 +578,7 @@
     "screening_room_score": {
       "confidence": "Low",
       "explanation": "Current provider signals do not show a supported material change.",
-      "score": 4.757
+      "score": 4.759
     },
     "watch_triggers": [
       "Prestige Distributor",
@@ -565,7 +602,9 @@
       "Ail\u00edn Salas"
     ],
     "producers": [],
-    "writers": []
+    "writers": [
+      "Martin McDonagh"
+    ]
   },
   "timeline": {
     "events": [
@@ -585,7 +624,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "891621-ca0c52b0ed28",
+        "event_id": "891621-425545430330",
         "event_type": "Distributor Change",
         "film_id": "891621",
         "importance": "Medium",
@@ -594,12 +633,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Searchlight Pictures.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Distributor set: Searchlight Pictures"
       },
       {
         "confidence": "Inferred",
-        "event_id": "891621-909b6f6e1c2d",
+        "event_id": "891621-98be8680e397",
         "event_type": "Awards Tier Changed",
         "film_id": "891621",
         "importance": "Medium",
@@ -609,12 +648,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "891621-7281ae46d1be",
+        "event_id": "891621-6c4314e8c4eb",
         "event_type": "Added To Database",
         "film_id": "891621",
         "importance": "Low",
@@ -623,7 +662,7 @@
         },
         "source_type": "system",
         "summary": "Wild Horse Nine is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -658,7 +697,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "891621-ca0c52b0ed28",
+        "event_id": "891621-425545430330",
         "event_type": "Distributor Change",
         "film_id": "891621",
         "importance": "Medium",
@@ -667,12 +706,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Searchlight Pictures.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Distributor set: Searchlight Pictures"
       },
       {
         "confidence": "Inferred",
-        "event_id": "891621-909b6f6e1c2d",
+        "event_id": "891621-98be8680e397",
         "event_type": "Awards Tier Changed",
         "film_id": "891621",
         "importance": "Medium",
@@ -682,7 +721,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],

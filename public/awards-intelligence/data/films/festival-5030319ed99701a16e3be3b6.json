@@ -1,0 +1,157 @@
+{
+  "attention_intelligence": {},
+  "awards": {
+    "award_history": [],
+    "awards_tier": "No Current Awards Case",
+    "comparable_nominees": [],
+    "confidence": 0,
+    "current_awards_profile": "Festival Watch",
+    "explanation": "Film-discovery record only; not a nominee forecast.",
+    "predicted_categories": [],
+    "probabilities": {}
+  },
+  "awards_intelligence": {
+    "awards_candidate_status": "DISCOVERY_ONLY",
+    "awards_status": null,
+    "best_picture_rank": null,
+    "forecast_stage": null,
+    "forecast_stage_label": null,
+    "nominee_probability": null,
+    "percentage_policy": "PERCENTAGES_NOT_READY",
+    "prediction_confidence": null,
+    "probability_is_calibrated": false,
+    "public_card_behavior": "no_awards_badge",
+    "rank_change": null,
+    "ranking_eligibility": "NOT_RANKED",
+    "ranking_last_updated_at": null,
+    "source_artifact": "academy_nominee_website_card_handoff_v1.json",
+    "why_it_ranks": []
+  },
+  "commercial": {
+    "commercial_significance": 0,
+    "distributor": "Unknown",
+    "franchise": "",
+    "release_strategy": "",
+    "studio": []
+  },
+  "diagnostics": {
+    "completeness_score": 0,
+    "confidence": "Source-backed",
+    "missing_fields": [],
+    "relationship_counts": {}
+  },
+  "editorial": {
+    "discovery_reason": "Approved official festival lineup source",
+    "editorial_category": "Festival Watch",
+    "editorial_summary": "Source-backed approved-festival lineup discovery record.",
+    "importance_tier": "Watchlist",
+    "primary_story": "Official festival lineup discovery",
+    "story_strength": "Developing",
+    "why_it_matters": "Source-backed approved-festival lineup discovery record."
+  },
+  "festival": {
+    "awards_received": [],
+    "display_status": "Official Selection",
+    "festival_history": [
+      {
+        "festival_name": "TIFF",
+        "festival_year": 2026,
+        "last_updated": "2026-08-16T00:00:00Z",
+        "section": "Centrepiece",
+        "signal": "Festival selection recovered from authoritative secondary reproduction after official detail page access was blocked.",
+        "source_url": "https://en.wikipedia.org/wiki/2026_Toronto_International_Film_Festival"
+      }
+    ],
+    "festival_status": "Official Selection",
+    "premiere_type": ""
+  },
+  "film_identity": {
+    "backdrop": "https://image.tmdb.org/t/p/original/knnfNdnExoYtN9Lgy2Dpui6bKd3.jpg",
+    "canonical_film_id": "festival-5030319ed99701a16e3be3b6",
+    "country": [],
+    "genres": [
+      "War"
+    ],
+    "id": "festival-5030319ed99701a16e3be3b6",
+    "imdb_id": "",
+    "language": "he",
+    "original_title": "Our Loves",
+    "poster": "https://image.tmdb.org/t/p/original/3Zd8HgVduE2XznIvwCtlo0d9KXX.jpg",
+    "profile_id": "festival-5030319ed99701a16e3be3b6",
+    "profile_payload_url": "data/films/festival-5030319ed99701a16e3be3b6.json",
+    "profile_url": "film.html?id=festival-5030319ed99701a16e3be3b6",
+    "release_date": "2026-09-03",
+    "release_display": "2026-09-03",
+    "runtime": 117,
+    "synopsis": "Based on true events. The story of 7 characters whose lives will unknowingly entangle. Each character is trapped in a failed relationship due to both tragic and comedic events, which leads them all to a shared belief: October 6th, the day the love died, is their worst day ever. The following day, during Hamas' sudden attack on Israel, they'll desperately have to try to survive while figuring out the true meaning of their lives and what must be changed.",
+    "title": "Our Loves",
+    "tmdb_id": "1239958"
+  },
+  "media": {
+    "backdrop": "https://image.tmdb.org/t/p/original/knnfNdnExoYtN9Lgy2Dpui6bKd3.jpg",
+    "poster": "https://image.tmdb.org/t/p/original/3Zd8HgVduE2XznIvwCtlo0d9KXX.jpg",
+    "trailer": ""
+  },
+  "metadata": {
+    "algorithm_version": "phase5b",
+    "awards_intelligence_integrated_at": "2026-08-16T00:00:00Z",
+    "awards_intelligence_source": "academy_nominee_website_card_handoff_v1.json",
+    "generated_at": "slice57_current_discovery_enrichment",
+    "profile_version": "phase6a_registry_canonical_id_bridge_slice57_enriched",
+    "registry": {
+      "canonical_film_id": "festival-5030319ed99701a16e3be3b6",
+      "discovery_sources": "TIFF",
+      "first_seen_date": "2026-08-16",
+      "source_paths": "https://en.wikipedia.org/wiki/2026_Toronto_International_Film_Festival",
+      "tmdb_enriched_at": "2026-08-16",
+      "tmdb_enrichment_source": "slice_56_high_confidence_recoverability_audit"
+    },
+    "source_data_date": "2026-08-15"
+  },
+  "performance": {
+    "tmdb_popularity": 1.5023
+  },
+  "ratings": {
+    "tmdb": {
+      "popularity": 1.5023
+    }
+  },
+  "related": {
+    "related_films": [],
+    "related_people": [],
+    "related_studios": []
+  },
+  "signals": {
+    "cultural_significance": 0,
+    "latest_intelligence": "Our Loves entered film discovery via approved source-backed metadata.",
+    "momentum": 0,
+    "narrative_importance": 0,
+    "next_signal": "Monitor distributor, release, and TMDb enrichment updates.",
+    "release_relevance": 0,
+    "watch_triggers": [
+      "Official Festival Lineup"
+    ],
+    "whats_changed": "Added through canonical registry current-season export bridge."
+  },
+  "talent": {
+    "director": "Avi Nesher",
+    "principal_cast": [
+      "Shalom Michaelshvili",
+      "Magi Azarzar",
+      "Yaniv Biton",
+      "Lena Fraifeld",
+      "Evelin Hagoel",
+      "Hadas Yaron",
+      "\u05d3\u05e0\u05d9\u05d0\u05dc \u05d2\u05d9\u05de\u05e4\u05dc",
+      "Noa Cohen"
+    ],
+    "producers": [],
+    "writers": [
+      "Avi Nesher"
+    ]
+  },
+  "timeline": {
+    "events": [],
+    "supported_event_types": []
+  }
+}

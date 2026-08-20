@@ -8,7 +8,7 @@
       "Event Release",
       "Awards Watch"
     ],
-    "attention_score": 66.0,
+    "attention_score": 67.2,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -51,25 +51,25 @@
         "status": "inferred"
       },
       {
-        "evidence": "Director: Hidenori Ishida",
-        "source": "filmmaker_interest",
+        "evidence": "TMDb popularity 1.6589",
+        "source": "audience_popularity",
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 0.7396",
-        "source": "audience_popularity",
+        "evidence": "Director: Hidenori Ishida",
+        "source": "filmmaker_interest",
         "status": "verified"
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 66.0,
+    "homepage_spotlight_score": 67.2,
     "industry_interest": "Moderate",
-    "last_updated": "20260820T140623Z",
+    "last_updated": "20260729T213825Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
         "evidence_count": 2,
-        "score": 9.6,
+        "score": 10.8,
         "statuses": [
           "verified"
         ]
@@ -155,6 +155,28 @@
     ],
     "probabilities": {}
   },
+  "awards_intelligence": {
+    "awards_candidate_status": "ACTIVE_CONTENDER",
+    "awards_status": "WATCHLIST",
+    "best_picture_rank": 42,
+    "forecast_stage": "STAGE_B",
+    "forecast_stage_label": "Stage B Early Season",
+    "nominee_probability": null,
+    "percentage_policy": "PERCENTAGES_NOT_READY",
+    "prediction_confidence": "RESEARCH_ONLY",
+    "probability_is_calibrated": false,
+    "public_card_behavior": "show_awards_status_and_rank",
+    "rank_change": null,
+    "ranking_eligibility": "RANKABLE",
+    "ranking_last_updated_at": "2026-08-16T00:00:00Z",
+    "source_artifact": "academy_nominee_website_card_handoff_v1.json",
+    "why_it_ranks": [
+      {
+        "code": "FALL_AWARDS_WINDOW_RELEASE",
+        "text": "Release timing falls in the fall awards window."
+      }
+    ]
+  },
   "commercial": {
     "commercial_significance": 37.0,
     "distributor": "Unknown",
@@ -205,7 +227,7 @@
       "Drama"
     ],
     "id": "1567149",
-    "imdb_id": "",
+    "imdb_id": "tt41389717",
     "language": "ja",
     "original_title": "\u4eee\u9762\u30e9\u30a4\u30c0\u30fc\u30ab\u30d6\u30c820th \u5929\u3092\u7d99\u3050\u3082\u306e",
     "poster": "https://image.tmdb.org/t/p/original/5LBfnGFPXn5hUmywY7L4jDTEi9E.jpg",
@@ -221,7 +243,7 @@
   "intelligence": {
     "confidence": "Low",
     "confidence_score": 0.25,
-    "generated_at": "2026-08-20T14:06:00Z",
+    "generated_at": "2026-07-29T21:38:25Z",
     "headline": "Kamen Rider Kabuto 20th: \u200b\u200bThe One Who Inherits the Heavens: no material change detected",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -241,7 +263,7 @@
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=Dzi6MrhZH2w",
-        "tmdb_popularity": 0.7396,
+        "tmdb_popularity": 1.6589,
         "tmdb_poster_count": 0,
         "tmdb_release_date_us_primary": "",
         "tmdb_release_date_us_theatrical": "",
@@ -261,8 +283,9 @@
     "supporting_drivers": []
   },
   "media": {
+    "backdrop": "https://image.tmdb.org/t/p/original/91o7HXppuF0O6mHfPYwMCTPMW7h.jpg",
     "canonical_trailer": {
-      "retrieved_at": "2026-08-20",
+      "retrieved_at": "2026-07-29",
       "site": "YouTube",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1567149/videos",
@@ -270,37 +293,36 @@
       "type": "Trailer",
       "url": "https://www.youtube.com/watch?v=Dzi6MrhZH2w"
     },
-    "latest_trailer_url": "https://www.youtube.com/watch?v=Dzi6MrhZH2w"
+    "latest_trailer_url": "https://www.youtube.com/watch?v=Dzi6MrhZH2w",
+    "poster": "https://image.tmdb.org/t/p/original/5LBfnGFPXn5hUmywY7L4jDTEi9E.jpg",
+    "trailer": "https://www.youtube.com/watch?v=Dzi6MrhZH2w"
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260820T140623Z",
-    "profile_version": "phase6a",
+    "awards_intelligence_integrated_at": "2026-08-16T00:00:00Z",
+    "awards_intelligence_source": "academy_nominee_website_card_handoff_v1.json",
+    "generated_at": "slice57_current_discovery_enrichment",
+    "profile_version": "phase6a_registry_canonical_id_bridge_slice57_enriched",
     "source_data_date": "2026-07-20"
   },
   "performance": {
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 0.7396,
-        "retrieved_at": "2026-08-20",
+        "popularity": 1.6589,
+        "retrieved_at": "2026-07-29",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1567149",
         "status": "not_yet_rated"
       }
     },
-    "tmdb_popularity": {
-      "retrieved_at": "2026-08-20",
-      "source": "TMDb",
-      "source_url": "https://www.themoviedb.org/movie/1567149",
-      "value": 0.7396
-    },
+    "tmdb_popularity": 1.6589,
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 0.7396,
-      "retrieved_at": "2026-08-20",
+      "popularity": 1.6589,
+      "retrieved_at": "2026-07-29",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1567149",
       "status": "not_yet_rated"
@@ -425,14 +447,14 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.014,
+      "audience_momentum": 0.032,
       "awards_relevance": 0.8,
       "campaign_activity": 2.7,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-20T14:06:00Z",
+    "generated_at": "2026-07-29T21:38:25Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 6.839,
+    "score": 6.857,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -469,11 +491,11 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.014,
+        "contribution": 0.032,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 0.7396
+        "value": 1.6589
       }
     ]
   },
@@ -520,7 +542,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1567149-baafa2807520",
+        "event_id": "1567149-866d13781726",
         "event_type": "Awards Tier Changed",
         "film_id": "1567149",
         "importance": "Medium",
@@ -532,12 +554,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1567149-25f90f2a748f",
+        "event_id": "1567149-7780af5c076f",
         "event_type": "Added To Database",
         "film_id": "1567149",
         "importance": "Low",
@@ -546,7 +568,7 @@
         },
         "source_type": "system",
         "summary": "Kamen Rider Kabuto 20th: \u200b\u200bThe One Who Inherits the Heavens is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -554,7 +576,7 @@
     "screening_room_score": {
       "confidence": "Low",
       "explanation": "Current provider signals do not show a supported material change.",
-      "score": 6.839
+      "score": 6.857
     },
     "watch_triggers": [
       "Awards-Season Release",
@@ -578,7 +600,9 @@
       "Yuika Kodera"
     ],
     "producers": [],
-    "writers": []
+    "writers": [
+      "Shouji Yonemura"
+    ]
   },
   "timeline": {
     "events": [
@@ -598,7 +622,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1567149-baafa2807520",
+        "event_id": "1567149-866d13781726",
         "event_type": "Awards Tier Changed",
         "film_id": "1567149",
         "importance": "Medium",
@@ -610,12 +634,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1567149-25f90f2a748f",
+        "event_id": "1567149-7780af5c076f",
         "event_type": "Added To Database",
         "film_id": "1567149",
         "importance": "Low",
@@ -624,7 +648,7 @@
         },
         "source_type": "system",
         "summary": "Kamen Rider Kabuto 20th: \u200b\u200bThe One Who Inherits the Heavens is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -659,7 +683,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1567149-baafa2807520",
+        "event_id": "1567149-866d13781726",
         "event_type": "Awards Tier Changed",
         "film_id": "1567149",
         "importance": "Medium",
@@ -671,12 +695,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1567149-25f90f2a748f",
+        "event_id": "1567149-7780af5c076f",
         "event_type": "Added To Database",
         "film_id": "1567149",
         "importance": "Low",
@@ -685,7 +709,7 @@
         },
         "source_type": "system",
         "summary": "Kamen Rider Kabuto 20th: \u200b\u200bThe One Who Inherits the Heavens is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Added to Awards Intelligence"
       }
     ],

@@ -2,7 +2,21 @@
   "events": [
     {
       "confidence": "Inferred",
-      "event_id": "1679730-88e0cebb2d35",
+      "event_id": "1679730-3ba6a706c6e6",
+      "event_type": "Release Scheduled",
+      "film_id": "1679730",
+      "importance": "Medium",
+      "metadata": {
+        "release_date": "2026-08-07"
+      },
+      "source_type": "metadata",
+      "summary": "Release currently scheduled for In theaters Aug. 7.",
+      "timestamp": "2026-08-07",
+      "title": "Release scheduled"
+    },
+    {
+      "confidence": "Inferred",
+      "event_id": "1679730-4de36164d7c9",
       "event_type": "Distributor Change",
       "film_id": "1679730",
       "importance": "Medium",
@@ -11,12 +25,12 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Netflix.",
-      "timestamp": "2026-08-20T14:06:23Z",
+      "timestamp": "2026-07-29T21:38:25Z",
       "title": "Distributor set: Netflix"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1679730-c22a2bcc78e4",
+      "event_id": "1679730-385fd0f43684",
       "event_type": "Awards Tier Changed",
       "film_id": "1679730",
       "importance": "Medium",
@@ -32,12 +46,12 @@
       },
       "source_type": "editorial_model",
       "summary": "category-specific awards case without broader contender evidence",
-      "timestamp": "2026-08-20T14:06:23Z",
+      "timestamp": "2026-07-29T21:38:25Z",
       "title": "Awards tier assigned: Category Contender"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1679730-53b3d830fc7e",
+      "event_id": "1679730-d835efa64fd3",
       "event_type": "Added To Database",
       "film_id": "1679730",
       "importance": "Low",
@@ -46,42 +60,28 @@
       },
       "source_type": "system",
       "summary": "THE RIBBON HERO is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-08-20T14:06:23Z",
+      "timestamp": "2026-07-29T21:38:25Z",
       "title": "Added to Awards Intelligence"
-    },
-    {
-      "confidence": "Inferred",
-      "event_id": "1679730-3ba6a706c6e6",
-      "event_type": "Release Scheduled",
-      "film_id": "1679730",
-      "importance": "Medium",
-      "metadata": {
-        "release_date": "2026-08-07"
-      },
-      "source_type": "metadata",
-      "summary": "Release currently scheduled for In theaters Aug. 7.",
-      "timestamp": "2026-08-07",
-      "title": "Release scheduled"
     }
   ],
   "latest_event": {
     "confidence": "Inferred",
-    "event_id": "1679730-88e0cebb2d35",
-    "event_type": "Distributor Change",
+    "event_id": "1679730-3ba6a706c6e6",
+    "event_type": "Release Scheduled",
     "film_id": "1679730",
     "importance": "Medium",
     "metadata": {
-      "distributor": "Netflix"
+      "release_date": "2026-08-07"
     },
     "source_type": "metadata",
-    "summary": "Current distributor is Netflix.",
-    "timestamp": "2026-08-20T14:06:23Z",
-    "title": "Distributor set: Netflix"
+    "summary": "Release currently scheduled for In theaters Aug. 7.",
+    "timestamp": "2026-08-07",
+    "title": "Release scheduled"
   },
   "metadata": {
     "event_count": 4,
     "film_id": "1679730",
-    "generated_at": "20260820T140623Z",
+    "generated_at": "slice57_current_discovery_enrichment",
     "timeline_version": "phase6b",
     "title": "THE RIBBON HERO",
     "tmdb_id": "1679730"

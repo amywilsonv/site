@@ -6,7 +6,7 @@
       "Most Anticipated",
       "Major Filmmaker"
     ],
-    "attention_score": 24.8,
+    "attention_score": 24.3,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -24,7 +24,7 @@
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 1.9657",
+        "evidence": "TMDb popularity 1.6901",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -35,14 +35,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 24.8,
+    "homepage_spotlight_score": 24.3,
     "industry_interest": null,
-    "last_updated": "20260820T140623Z",
+    "last_updated": "20260729T213825Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
         "evidence_count": 1,
-        "score": 5.6,
+        "score": 5.1,
         "statuses": [
           "verified"
         ]
@@ -107,6 +107,23 @@
     ],
     "probabilities": {}
   },
+  "awards_intelligence": {
+    "awards_candidate_status": "PROVISIONAL",
+    "awards_status": null,
+    "best_picture_rank": null,
+    "forecast_stage": null,
+    "forecast_stage_label": null,
+    "nominee_probability": null,
+    "percentage_policy": "PERCENTAGES_NOT_READY",
+    "prediction_confidence": null,
+    "probability_is_calibrated": false,
+    "public_card_behavior": "no_awards_badge",
+    "rank_change": null,
+    "ranking_eligibility": "NOT_RANKED",
+    "ranking_last_updated_at": null,
+    "source_artifact": "academy_nominee_website_card_handoff_v1.json",
+    "why_it_ranks": []
+  },
   "commercial": {
     "commercial_significance": 0,
     "distributor": "Unknown",
@@ -158,7 +175,7 @@
       "Drama"
     ],
     "id": "1425784",
-    "imdb_id": "",
+    "imdb_id": "tt33995791",
     "language": "en",
     "original_title": "Animol",
     "poster": "https://image.tmdb.org/t/p/original/idD3K5rPLkUyEHb3mqLOwIr8XsY.jpg",
@@ -166,16 +183,16 @@
     "profile_url": "film.html?id=1425784",
     "release_date": "2026-10-23",
     "release_display": "In theaters Oct. 23",
-    "runtime": 93,
+    "runtime": 90,
     "synopsis": "Behind the walls of a young offender institution, Troy is thrust into a brutal world of gangs, loyalty and violence from the moment he arrives. When an unspoken bond develops with a fellow inmate, it becomes a dangerous vulnerability for them.",
     "title": "Animol",
     "tmdb_id": "1425784"
   },
   "intelligence": {
-    "confidence": "High",
-    "confidence_score": 0.99,
-    "generated_at": "2026-08-20T14:06:00Z",
-    "headline": "Animol: popularity increasing",
+    "confidence": "Low",
+    "confidence_score": 0.25,
+    "generated_at": "2026-07-29T21:38:25Z",
+    "headline": "Animol: no material change detected",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
       "signal_values": {
@@ -193,7 +210,7 @@
         "streaming_provider_count_us": 0,
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": false,
-        "tmdb_popularity": 1.9657,
+        "tmdb_popularity": 1.6901,
         "tmdb_poster_count": 1,
         "tmdb_release_date_us_primary": "",
         "tmdb_release_date_us_theatrical": "",
@@ -208,50 +225,39 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity rose from 1.6901 to 1.9657.",
-    "supporting_drivers": [
-      {
-        "confidence_weight": 0.9,
-        "driver_type": "popularity_increasing",
-        "evidence": "TMDb popularity rose from 1.6901 to 1.9657.",
-        "label": "Popularity increasing",
-        "retrieved_at": "2026-08-20T14:06:00Z",
-        "source_metric": "tmdb_popularity",
-        "source_provider": "tmdb",
-        "source_status": "available"
-      }
-    ]
+    "summary": "Current provider signals do not show a supported material change.",
+    "supporting_drivers": []
   },
-  "media": {},
+  "media": {
+    "backdrop": "https://image.tmdb.org/t/p/original/k2nrkAOCZO9XAHPdIkAovWmzjoV.jpg",
+    "poster": "https://image.tmdb.org/t/p/original/idD3K5rPLkUyEHb3mqLOwIr8XsY.jpg"
+  },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260820T140623Z",
-    "profile_version": "phase6a",
+    "awards_intelligence_integrated_at": "2026-08-16T00:00:00Z",
+    "awards_intelligence_source": "academy_nominee_website_card_handoff_v1.json",
+    "generated_at": "slice57_current_discovery_enrichment",
+    "profile_version": "phase6a_registry_canonical_id_bridge_slice57_enriched",
     "source_data_date": "2026-07-20"
   },
   "performance": {
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 1.9657,
-        "retrieved_at": "2026-08-20",
+        "popularity": 1.6901,
+        "retrieved_at": "2026-07-29",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1425784",
         "status": "not_yet_rated"
       }
     },
-    "tmdb_popularity": {
-      "retrieved_at": "2026-08-20",
-      "source": "TMDb",
-      "source_url": "https://www.themoviedb.org/movie/1425784",
-      "value": 1.9657
-    },
+    "tmdb_popularity": 1.6901,
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 1.9657,
-      "retrieved_at": "2026-08-20",
+      "popularity": 1.6901,
+      "retrieved_at": "2026-07-29",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1425784",
       "status": "not_yet_rated"
@@ -386,13 +392,13 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.037,
+      "audience_momentum": 0.032,
       "awards_relevance": 0.8,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-20T14:06:00Z",
+    "generated_at": "2026-07-29T21:38:25Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 4.162,
+    "score": 4.157,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -421,20 +427,20 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.037,
+        "contribution": 0.032,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 1.9657
+        "value": 1.6901
       }
     ]
   },
   "signals": {
     "cultural_significance": 0,
     "external_intelligence": {
-      "confidence": "High",
-      "headline": "Animol: popularity increasing",
-      "summary": "TMDb popularity rose from 1.6901 to 1.9657."
+      "confidence": "Low",
+      "headline": "Animol: no material change detected",
+      "summary": "Current provider signals do not show a supported material change."
     },
     "last_updated": "2026-10-23",
     "latest_event": {
@@ -472,7 +478,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1425784-54d95b1becd7",
+        "event_id": "1425784-9366f9f2fd9c",
         "event_type": "Awards Tier Changed",
         "film_id": "1425784",
         "importance": "Medium",
@@ -484,12 +490,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1425784-3c70470b5155",
+        "event_id": "1425784-ce5b5eedbba0",
         "event_type": "Added To Database",
         "film_id": "1425784",
         "importance": "Low",
@@ -498,15 +504,15 @@
         },
         "source_type": "system",
         "summary": "Animol is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Added to Awards Intelligence"
       }
     ],
     "release_relevance": 27.1,
     "screening_room_score": {
-      "confidence": "High",
-      "explanation": "TMDb popularity rose from 1.6901 to 1.9657.",
-      "score": 4.162
+      "confidence": "Low",
+      "explanation": "Current provider signals do not show a supported material change.",
+      "score": 4.157
     },
     "watch_triggers": [
       "Prestige Producer",
@@ -528,7 +534,9 @@
       "Richie Bratby"
     ],
     "producers": [],
-    "writers": []
+    "writers": [
+      "Nick Love"
+    ]
   },
   "timeline": {
     "events": [
@@ -548,7 +556,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1425784-54d95b1becd7",
+        "event_id": "1425784-9366f9f2fd9c",
         "event_type": "Awards Tier Changed",
         "film_id": "1425784",
         "importance": "Medium",
@@ -560,12 +568,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1425784-3c70470b5155",
+        "event_id": "1425784-ce5b5eedbba0",
         "event_type": "Added To Database",
         "film_id": "1425784",
         "importance": "Low",
@@ -574,7 +582,7 @@
         },
         "source_type": "system",
         "summary": "Animol is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -609,7 +617,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1425784-54d95b1becd7",
+        "event_id": "1425784-9366f9f2fd9c",
         "event_type": "Awards Tier Changed",
         "film_id": "1425784",
         "importance": "Medium",
@@ -621,12 +629,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1425784-3c70470b5155",
+        "event_id": "1425784-ce5b5eedbba0",
         "event_type": "Added To Database",
         "film_id": "1425784",
         "importance": "Low",
@@ -635,7 +643,7 @@
         },
         "source_type": "system",
         "summary": "Animol is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Added to Awards Intelligence"
       }
     ],

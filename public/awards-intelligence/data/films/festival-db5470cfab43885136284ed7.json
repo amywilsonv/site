@@ -1,0 +1,177 @@
+{
+  "attention_intelligence": {},
+  "awards": {
+    "award_history": [],
+    "awards_tier": "No Current Awards Case",
+    "comparable_nominees": [],
+    "confidence": 0,
+    "current_awards_profile": "Festival Watch",
+    "explanation": "Film-discovery record only; not a nominee forecast.",
+    "predicted_categories": [],
+    "probabilities": {}
+  },
+  "awards_intelligence": {
+    "awards_candidate_status": "ACTIVE_CONTENDER",
+    "awards_status": null,
+    "best_picture_rank": null,
+    "forecast_stage": null,
+    "forecast_stage_label": null,
+    "nominee_probability": null,
+    "percentage_policy": "PERCENTAGES_NOT_READY",
+    "prediction_confidence": null,
+    "probability_is_calibrated": false,
+    "public_card_behavior": "no_public_badge_pending_evidence",
+    "rank_change": null,
+    "ranking_eligibility": "RANKING_PENDING_MORE_EVIDENCE",
+    "ranking_last_updated_at": null,
+    "source_artifact": "academy_nominee_website_card_handoff_v1.json",
+    "why_it_ranks": []
+  },
+  "commercial": {
+    "commercial_significance": 0,
+    "distributor": "Unknown",
+    "franchise": "",
+    "release_strategy": "",
+    "studio": [
+      "SaNoSi Productions",
+      "Ayizan Productions",
+      "Stenola Productions",
+      "Bidibul Productions",
+      "Metafilms"
+    ]
+  },
+  "diagnostics": {
+    "completeness_score": 0,
+    "confidence": "Source-backed",
+    "missing_fields": [],
+    "relationship_counts": {}
+  },
+  "editorial": {
+    "discovery_reason": "Approved official festival lineup source",
+    "editorial_category": "Festival Watch",
+    "editorial_summary": "Source-backed official approved-festival lineup discovery record.",
+    "importance_tier": "Watchlist",
+    "primary_story": "Official festival lineup discovery",
+    "story_strength": "Developing",
+    "why_it_matters": "Source-backed official approved-festival lineup discovery record."
+  },
+  "festival": {
+    "awards_received": [],
+    "display_status": "Official Selection",
+    "festival_history": [
+      {
+        "festival_name": "Cannes",
+        "festival_year": 2026,
+        "last_updated": "2026-08-16T00:00:00Z",
+        "section": "Cannes Premiere",
+        "signal": "Official festival lineup source.",
+        "source_url": "https://www.festival-cannes.com/en/press/press-releases/the-films-of-the-official-selection-2026/"
+      },
+      {
+        "festival_name": "TIFF",
+        "festival_year": 2026,
+        "last_updated": "2026-08-16T00:00:00Z",
+        "section": "Centrepiece",
+        "signal": "Festival selection recovered from authoritative secondary reproduction after official detail page access was blocked.",
+        "source_url": "https://en.wikipedia.org/wiki/2026_Toronto_International_Film_Festival"
+      }
+    ],
+    "festival_status": "Official Selection",
+    "premiere_type": ""
+  },
+  "film_identity": {
+    "backdrop": "https://image.tmdb.org/t/p/original/jJO3MPRW0uaksOdX8YaotkyB4w7.jpg",
+    "canonical_film_id": "festival-db5470cfab43885136284ed7",
+    "country": [
+      "FR",
+      "HT",
+      "BE",
+      "LU",
+      "CA"
+    ],
+    "genres": [
+      "Drama"
+    ],
+    "id": "festival-db5470cfab43885136284ed7",
+    "imdb_id": "tt42007280",
+    "language": "ht",
+    "original_title": "MARIE MADELEINE",
+    "poster": "https://image.tmdb.org/t/p/original/sKSXH5DuxhKUtKCkQ4HBJOl8xYs.jpg",
+    "profile_id": "festival-db5470cfab43885136284ed7",
+    "profile_payload_url": "data/films/festival-db5470cfab43885136284ed7.json",
+    "profile_url": "film.html?id=festival-db5470cfab43885136284ed7",
+    "release_date": "2026-10-21",
+    "release_display": "2026-10-21",
+    "runtime": 104,
+    "synopsis": "In Jacmel, Haiti, the sea, the churches, and the spirits shape daily life. Marie Madeleine is a free woman. She makes a living as a prostitute and navigates the nights without submitting to the rules of those who save souls. Her path crosses Joseph's, a young evangelist. A relationship blossoms between these two opposite beings. As Joseph\u2019s faith wavers, Marie Madeleine draws him into a world where desire and the quest for freedom open up a space where everything can be reinvented.",
+    "title": "MARIE MADELEINE",
+    "tmdb_id": "1660660"
+  },
+  "media": {
+    "backdrop": "https://image.tmdb.org/t/p/original/jJO3MPRW0uaksOdX8YaotkyB4w7.jpg",
+    "poster": "https://image.tmdb.org/t/p/original/sKSXH5DuxhKUtKCkQ4HBJOl8xYs.jpg",
+    "trailer": ""
+  },
+  "metadata": {
+    "algorithm_version": "phase5b",
+    "awards_intelligence_integrated_at": "2026-08-16T00:00:00Z",
+    "awards_intelligence_source": "academy_nominee_website_card_handoff_v1.json",
+    "generated_at": "slice57_current_discovery_enrichment",
+    "profile_version": "phase6a_registry_canonical_id_bridge_slice57_enriched",
+    "registry": {
+      "canonical_film_id": "festival-db5470cfab43885136284ed7",
+      "discovery_sources": "TIFF",
+      "first_seen_date": "2026-08-16",
+      "source_paths": "https://en.wikipedia.org/wiki/2026_Toronto_International_Film_Festival",
+      "tmdb_enriched_at": "2026-08-16",
+      "tmdb_enrichment_source": "slice_56_high_confidence_recoverability_audit"
+    },
+    "source_data_date": "2026-08-15"
+  },
+  "performance": {
+    "tmdb_popularity": 2.0763
+  },
+  "ratings": {
+    "tmdb": {
+      "popularity": 2.0763
+    }
+  },
+  "related": {
+    "related_films": [],
+    "related_people": [],
+    "related_studios": []
+  },
+  "signals": {
+    "cultural_significance": 0,
+    "latest_intelligence": "MARIE MADELEINE entered film discovery via approved source-backed metadata.",
+    "momentum": 0,
+    "narrative_importance": 0,
+    "next_signal": "Monitor distributor, release, and TMDb enrichment updates.",
+    "release_relevance": 0,
+    "watch_triggers": [
+      "Official Festival Lineup"
+    ],
+    "whats_changed": "Added through canonical registry current-season export bridge."
+  },
+  "talent": {
+    "director": "G\u00e9ssica G\u00c9N\u00c9US",
+    "principal_cast": [
+      "Gessica G\u00e9n\u00e9us",
+      "Beonard Monteau",
+      "Edouard Baptiste",
+      "M\u00e9lissa Mildort",
+      "Ginou Jules",
+      "Eder Romeus",
+      "Ga\u00eblle Bien-Aim\u00e9",
+      "Kevin Mesidor"
+    ],
+    "producers": [],
+    "writers": [
+      "Gessica G\u00e9n\u00e9us"
+    ]
+  },
+  "timeline": {
+    "events": [],
+    "supported_event_types": []
+  }
+}

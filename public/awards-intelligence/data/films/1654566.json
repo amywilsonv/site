@@ -7,7 +7,7 @@
       "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 43.6,
+    "attention_score": 45.5,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -45,20 +45,20 @@
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 0.3658",
+        "evidence": "TMDb popularity 0.9721",
         "source": "audience_popularity",
         "status": "verified"
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 43.6,
+    "homepage_spotlight_score": 45.5,
     "industry_interest": null,
-    "last_updated": "20260820T140623Z",
+    "last_updated": "20260729T213825Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
         "evidence_count": 1,
-        "score": 1.6,
+        "score": 3.5,
         "statuses": [
           "verified"
         ]
@@ -130,7 +130,7 @@
     "award_history": [],
     "awards_tier": "No Current Awards Case",
     "comparable_nominees": [],
-    "confidence": "High",
+    "confidence": "Medium",
     "current_awards_profile": "Developing",
     "explanation": "insufficient credible awards evidence",
     "predicted_categories": [
@@ -139,6 +139,23 @@
       "Multiple Pathways"
     ],
     "probabilities": {}
+  },
+  "awards_intelligence": {
+    "awards_candidate_status": "PROVISIONAL",
+    "awards_status": null,
+    "best_picture_rank": null,
+    "forecast_stage": null,
+    "forecast_stage_label": null,
+    "nominee_probability": null,
+    "percentage_policy": "PERCENTAGES_NOT_READY",
+    "prediction_confidence": null,
+    "probability_is_calibrated": false,
+    "public_card_behavior": "no_awards_badge",
+    "rank_change": null,
+    "ranking_eligibility": "NOT_RANKED",
+    "ranking_last_updated_at": null,
+    "source_artifact": "academy_nominee_website_card_handoff_v1.json",
+    "why_it_ranks": []
   },
   "commercial": {
     "commercial_significance": 19.0,
@@ -151,10 +168,11 @@
     ]
   },
   "diagnostics": {
-    "completeness_score": 89,
-    "confidence": "High",
+    "completeness_score": 78,
+    "confidence": "Medium",
     "missing_fields": [
-      "runtime"
+      "runtime",
+      "poster"
     ],
     "relationship_counts": {
       "related_films": 6,
@@ -168,7 +186,7 @@
     "editorial_summary": "Amazon MGM Studios release worth monitoring for Acting potential.",
     "importance_tier": "Priority Watchlist",
     "primary_story": "international profile; generic generated rationale",
-    "story_strength": "Strong",
+    "story_strength": "Developing",
     "why_it_matters": "Amazon MGM Studios release worth monitoring for Acting potential."
   },
   "festival": {
@@ -188,15 +206,15 @@
       "Drama"
     ],
     "id": "1654566",
-    "imdb_id": "",
+    "imdb_id": "tt40856286",
     "language": "hi",
     "original_title": "\u0935\u093e\u0907\u092c",
-    "poster": "https://image.tmdb.org/t/p/original/y6g47XuY2xCWBlo2al8U9SATw93.jpg",
+    "poster": "",
     "profile_payload_url": "data/films/1654566.json",
     "profile_url": "film.html?id=1654566",
     "release_date": "2026-09-18",
     "release_display": "In theaters Sep. 18",
-    "runtime": null,
+    "runtime": 0,
     "synopsis": "Two inseparable friends' ordinary, unassuming lives spiral into an unpredictable, high-energy adventure that pushes their survival instincts and friendship to the limit.",
     "title": "Vibe",
     "tmdb_id": "1654566"
@@ -204,7 +222,7 @@
   "intelligence": {
     "confidence": "Low",
     "confidence_score": 0.25,
-    "generated_at": "2026-08-20T14:06:00Z",
+    "generated_at": "2026-07-29T21:38:25Z",
     "headline": "Vibe: no material change detected",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -223,7 +241,7 @@
         "streaming_provider_count_us": 0,
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": false,
-        "tmdb_popularity": 0.3658,
+        "tmdb_popularity": 0.9721,
         "tmdb_poster_count": 0,
         "tmdb_release_date_us_primary": "",
         "tmdb_release_date_us_theatrical": "",
@@ -244,33 +262,30 @@
   "media": {},
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260820T140623Z",
-    "profile_version": "phase6a",
+    "awards_intelligence_integrated_at": "2026-08-16T00:00:00Z",
+    "awards_intelligence_source": "academy_nominee_website_card_handoff_v1.json",
+    "generated_at": "slice57_current_discovery_enrichment",
+    "profile_version": "phase6a_registry_canonical_id_bridge_slice57_enriched",
     "source_data_date": "2026-07-20"
   },
   "performance": {
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 0.3658,
-        "retrieved_at": "2026-08-20",
+        "popularity": 0.9721,
+        "retrieved_at": "2026-07-29",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1654566",
         "status": "not_yet_rated"
       }
     },
-    "tmdb_popularity": {
-      "retrieved_at": "2026-08-20",
-      "source": "TMDb",
-      "source_url": "https://www.themoviedb.org/movie/1654566",
-      "value": 0.3658
-    },
+    "tmdb_popularity": 0.9721,
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 0.3658,
-      "retrieved_at": "2026-08-20",
+      "popularity": 0.9721,
+      "retrieved_at": "2026-07-29",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1654566",
       "status": "not_yet_rated"
@@ -301,6 +316,18 @@
         ],
         "title": "Call My Agent! The Movie",
         "tmdb_id": "1365884"
+      },
+      {
+        "profile_url": "film.html?id=1504358",
+        "relationship_score": 62,
+        "shared_signals": [
+          "General Watch",
+          "Comedy",
+          "Drama",
+          "Acting"
+        ],
+        "title": "Don't Say Good Luck",
+        "tmdb_id": "1504358"
       },
       {
         "profile_url": "film.html?id=1437882",
@@ -337,18 +364,6 @@
         ],
         "title": "La Bola Negra",
         "tmdb_id": "1422041"
-      },
-      {
-        "profile_url": "film.html?id=1558094",
-        "relationship_score": 56,
-        "shared_signals": [
-          "General Watch",
-          "Drama",
-          "Acting",
-          "Best Picture"
-        ],
-        "title": "Let Love In",
-        "tmdb_id": "1558094"
       }
     ],
     "related_people": [
@@ -394,13 +409,13 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.007,
+      "audience_momentum": 0.018,
       "awards_relevance": 2.4,
       "talent_profile": 2.525
     },
-    "generated_at": "2026-08-20T14:06:00Z",
+    "generated_at": "2026-07-29T21:38:25Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 4.932,
+    "score": 4.943,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -429,11 +444,11 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.007,
+        "contribution": 0.018,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 0.3658
+        "value": 0.9721
       }
     ]
   },
@@ -480,7 +495,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1654566-a26e5acd8648",
+        "event_id": "1654566-0c1f18481661",
         "event_type": "Distributor Change",
         "film_id": "1654566",
         "importance": "Medium",
@@ -489,12 +504,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Amazon MGM Studios.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Distributor set: Amazon MGM Studios"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1654566-891283defe6c",
+        "event_id": "1654566-f379128804c2",
         "event_type": "Awards Tier Changed",
         "film_id": "1654566",
         "importance": "Medium",
@@ -508,7 +523,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],
@@ -516,7 +531,7 @@
     "screening_room_score": {
       "confidence": "Low",
       "explanation": "Current provider signals do not show a supported material change.",
-      "score": 4.932
+      "score": 4.943
     },
     "watch_triggers": [
       "Prestige Distributor",
@@ -537,7 +552,9 @@
       "Yashpal Sharma"
     ],
     "producers": [],
-    "writers": []
+    "writers": [
+      "Kunal Khemu"
+    ]
   },
   "timeline": {
     "events": [
@@ -557,7 +574,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1654566-a26e5acd8648",
+        "event_id": "1654566-0c1f18481661",
         "event_type": "Distributor Change",
         "film_id": "1654566",
         "importance": "Medium",
@@ -566,12 +583,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Amazon MGM Studios.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Distributor set: Amazon MGM Studios"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1654566-891283defe6c",
+        "event_id": "1654566-f379128804c2",
         "event_type": "Awards Tier Changed",
         "film_id": "1654566",
         "importance": "Medium",
@@ -585,12 +602,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1654566-dc5849b626d3",
+        "event_id": "1654566-32d1d9e2c1c2",
         "event_type": "Added To Database",
         "film_id": "1654566",
         "importance": "Low",
@@ -599,7 +616,7 @@
         },
         "source_type": "system",
         "summary": "Vibe is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -634,7 +651,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1654566-a26e5acd8648",
+        "event_id": "1654566-0c1f18481661",
         "event_type": "Distributor Change",
         "film_id": "1654566",
         "importance": "Medium",
@@ -643,12 +660,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Amazon MGM Studios.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Distributor set: Amazon MGM Studios"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1654566-891283defe6c",
+        "event_id": "1654566-f379128804c2",
         "event_type": "Awards Tier Changed",
         "film_id": "1654566",
         "importance": "Medium",
@@ -662,7 +679,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],

@@ -1,13 +1,13 @@
 {
   "attention_intelligence": {
-    "anticipation_level": "Developing",
+    "anticipation_level": "Moderate",
     "attention_confidence": "High",
     "attention_reasons": [
       "Most Anticipated",
       "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 49.5,
+    "attention_score": 53.9,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -35,6 +35,11 @@
         "status": "inferred"
       },
       {
+        "evidence": "TMDb popularity 2.5271",
+        "source": "audience_popularity",
+        "status": "verified"
+      },
+      {
         "evidence": "Release date: 2026-12-17",
         "source": "release_proximity",
         "status": "verified"
@@ -43,22 +48,17 @@
         "evidence": "Director: Gil Baroni",
         "source": "filmmaker_interest",
         "status": "verified"
-      },
-      {
-        "evidence": "TMDb popularity 0.5155",
-        "source": "audience_popularity",
-        "status": "verified"
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 49.5,
+    "homepage_spotlight_score": 53.9,
     "industry_interest": "Moderate",
-    "last_updated": "20260820T140623Z",
+    "last_updated": "20260729T213825Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
         "evidence_count": 1,
-        "score": 2.1,
+        "score": 6.5,
         "statuses": [
           "verified"
         ]
@@ -135,6 +135,23 @@
     "predicted_categories": [],
     "probabilities": {}
   },
+  "awards_intelligence": {
+    "awards_candidate_status": "PROVISIONAL",
+    "awards_status": null,
+    "best_picture_rank": null,
+    "forecast_stage": null,
+    "forecast_stage_label": null,
+    "nominee_probability": null,
+    "percentage_policy": "PERCENTAGES_NOT_READY",
+    "prediction_confidence": null,
+    "probability_is_calibrated": false,
+    "public_card_behavior": "no_awards_badge",
+    "rank_change": null,
+    "ranking_eligibility": "NOT_RANKED",
+    "ranking_last_updated_at": null,
+    "source_artifact": "academy_nominee_website_card_handoff_v1.json",
+    "why_it_ranks": []
+  },
   "commercial": {
     "commercial_significance": 37.0,
     "distributor": "Unknown",
@@ -184,7 +201,7 @@
       "Romance"
     ],
     "id": "1200804",
-    "imdb_id": "",
+    "imdb_id": "tt35669607",
     "language": "pt",
     "original_title": "Alice J\u00fanior: F\u00e9rias de Ver\u00e3o",
     "poster": "https://image.tmdb.org/t/p/original/jyyVxt7VEDzVJovZtBhix82I097.jpg",
@@ -192,7 +209,7 @@
     "profile_url": "film.html?id=1200804",
     "release_date": "2026-12-17",
     "release_display": "In theaters Dec. 17",
-    "runtime": null,
+    "runtime": 0,
     "synopsis": "",
     "title": "Alice J\u00fanior Summer Break",
     "tmdb_id": "1200804"
@@ -200,7 +217,7 @@
   "intelligence": {
     "confidence": "Low",
     "confidence_score": 0.25,
-    "generated_at": "2026-08-20T14:06:00Z",
+    "generated_at": "2026-07-29T21:38:25Z",
     "headline": "Alice J\u00fanior Summer Break: no material change detected",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -219,7 +236,7 @@
         "streaming_provider_count_us": 0,
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": false,
-        "tmdb_popularity": 0.5155,
+        "tmdb_popularity": 2.5271,
         "tmdb_poster_count": 0,
         "tmdb_release_date_us_primary": "",
         "tmdb_release_date_us_theatrical": "",
@@ -237,36 +254,35 @@
     "summary": "Current provider signals do not show a supported material change.",
     "supporting_drivers": []
   },
-  "media": {},
+  "media": {
+    "poster": "https://image.tmdb.org/t/p/original/jyyVxt7VEDzVJovZtBhix82I097.jpg"
+  },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260820T140623Z",
-    "profile_version": "phase6a",
+    "awards_intelligence_integrated_at": "2026-08-16T00:00:00Z",
+    "awards_intelligence_source": "academy_nominee_website_card_handoff_v1.json",
+    "generated_at": "slice57_current_discovery_enrichment",
+    "profile_version": "phase6a_registry_canonical_id_bridge_slice57_enriched",
     "source_data_date": "2026-07-20"
   },
   "performance": {
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 0.5155,
-        "retrieved_at": "2026-08-20",
+        "popularity": 2.5271,
+        "retrieved_at": "2026-07-29",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1200804",
         "status": "not_yet_rated"
       }
     },
-    "tmdb_popularity": {
-      "retrieved_at": "2026-08-20",
-      "source": "TMDb",
-      "source_url": "https://www.themoviedb.org/movie/1200804",
-      "value": 0.5155
-    },
+    "tmdb_popularity": 2.5271,
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 0.5155,
-      "retrieved_at": "2026-08-20",
+      "popularity": 2.5271,
+      "retrieved_at": "2026-07-29",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1200804",
       "status": "not_yet_rated"
@@ -379,12 +395,12 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.01,
+      "audience_momentum": 0.048,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-20T14:06:00Z",
+    "generated_at": "2026-07-29T21:38:25Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 3.335,
+    "score": 3.373,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -405,11 +421,11 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.01,
+        "contribution": 0.048,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 0.5155
+        "value": 2.5271
       }
     ]
   },
@@ -456,7 +472,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1200804-dd0306b596b6",
+        "event_id": "1200804-506019ce5d14",
         "event_type": "Awards Tier Changed",
         "film_id": "1200804",
         "importance": "Medium",
@@ -466,12 +482,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1200804-2f68b6680a95",
+        "event_id": "1200804-76aa901fd731",
         "event_type": "Added To Database",
         "film_id": "1200804",
         "importance": "Low",
@@ -480,7 +496,7 @@
         },
         "source_type": "system",
         "summary": "Alice J\u00fanior Summer Break is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -488,7 +504,7 @@
     "screening_room_score": {
       "confidence": "Low",
       "explanation": "Current provider signals do not show a supported material change.",
-      "score": 3.335
+      "score": 3.373
     },
     "watch_triggers": [
       "Awards-Season Release",
@@ -510,7 +526,12 @@
       "Emmanuel Rosset"
     ],
     "producers": [],
-    "writers": []
+    "writers": [
+      "Luiz Bertazzo",
+      "Gil Baroni",
+      "Adriel Nizer",
+      "Galga Gog\u00f3ia"
+    ]
   },
   "timeline": {
     "events": [
@@ -530,7 +551,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1200804-dd0306b596b6",
+        "event_id": "1200804-506019ce5d14",
         "event_type": "Awards Tier Changed",
         "film_id": "1200804",
         "importance": "Medium",
@@ -540,12 +561,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1200804-2f68b6680a95",
+        "event_id": "1200804-76aa901fd731",
         "event_type": "Added To Database",
         "film_id": "1200804",
         "importance": "Low",
@@ -554,7 +575,7 @@
         },
         "source_type": "system",
         "summary": "Alice J\u00fanior Summer Break is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -589,7 +610,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1200804-dd0306b596b6",
+        "event_id": "1200804-506019ce5d14",
         "event_type": "Awards Tier Changed",
         "film_id": "1200804",
         "importance": "Medium",
@@ -599,12 +620,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1200804-2f68b6680a95",
+        "event_id": "1200804-76aa901fd731",
         "event_type": "Added To Database",
         "film_id": "1200804",
         "importance": "Low",
@@ -613,7 +634,7 @@
         },
         "source_type": "system",
         "summary": "Alice J\u00fanior Summer Break is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Added to Awards Intelligence"
       }
     ],

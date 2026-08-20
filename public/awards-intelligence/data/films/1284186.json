@@ -7,7 +7,7 @@
       "Major Filmmaker",
       "Awards Watch"
     ],
-    "attention_score": 37.2,
+    "attention_score": 32.3,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -15,17 +15,12 @@
     "early_reception": null,
     "evidence_sources": [
       {
-        "evidence": "TMDb popularity 6.4548",
-        "source": "audience_popularity",
-        "status": "verified"
-      },
-      {
         "evidence": "Principal cast listed: Chris Evans, Anya Taylor-Joy, Vincent Cassel, Salma Hayek Pinault",
         "source": "cast_interest",
         "status": "verified"
       },
       {
-        "evidence": "Release date: 2026-10-16",
+        "evidence": "Release date: 2026-09-10",
         "source": "release_proximity",
         "status": "verified"
       },
@@ -33,6 +28,11 @@
         "evidence": "Current awards or craft-category potential",
         "source": "awards_potential",
         "status": "inferred"
+      },
+      {
+        "evidence": "TMDb popularity 1.8859",
+        "source": "audience_popularity",
+        "status": "verified"
       },
       {
         "evidence": "Director: Romain Gavras",
@@ -43,22 +43,17 @@
         "evidence": "Editorial distinctiveness score",
         "source": "editorial_importance",
         "status": "inferred"
-      },
-      {
-        "evidence": "4",
-        "source": "tmdb_vote_count",
-        "status": "verified"
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 37.2,
+    "homepage_spotlight_score": 32.3,
     "industry_interest": null,
-    "last_updated": "20260820T140623Z",
+    "last_updated": "20260729T213825Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
         "evidence_count": 1,
-        "score": 10.4,
+        "score": 5.5,
         "statuses": [
           "verified"
         ]
@@ -130,6 +125,23 @@
     ],
     "probabilities": {}
   },
+  "awards_intelligence": {
+    "awards_candidate_status": "PROVISIONAL",
+    "awards_status": null,
+    "best_picture_rank": null,
+    "forecast_stage": null,
+    "forecast_stage_label": null,
+    "nominee_probability": null,
+    "percentage_policy": "PERCENTAGES_NOT_READY",
+    "prediction_confidence": null,
+    "probability_is_calibrated": false,
+    "public_card_behavior": "no_awards_badge",
+    "rank_change": null,
+    "ranking_eligibility": "NOT_RANKED",
+    "ranking_last_updated_at": null,
+    "source_artifact": "academy_nominee_website_card_handoff_v1.json",
+    "why_it_ranks": []
+  },
   "commercial": {
     "commercial_significance": 0,
     "distributor": "Unknown",
@@ -172,13 +184,13 @@
     "premiere_type": ""
   },
   "film_identity": {
-    "backdrop": "https://image.tmdb.org/t/p/original/oAUf1pvGlafCZVlEuPt1JyONHR1.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/3kYnfR6PN20bD4zshZfGza6jA6f.jpg",
     "country": [
       "FR",
       "GR",
-      "US",
       "CY",
-      "GB"
+      "GB",
+      "US"
     ],
     "genres": [
       "Adventure",
@@ -186,24 +198,24 @@
       "Action"
     ],
     "id": "1284186",
-    "imdb_id": "",
+    "imdb_id": "tt32268992",
     "language": "en",
     "original_title": "Sacrifice",
-    "poster": "https://image.tmdb.org/t/p/original/o4iceiahzncK2yMnG6lnb4JSheq.jpg",
+    "poster": "https://image.tmdb.org/t/p/original/n7KgiuuGO6AX1EeLA7c8K6RQ1T5.jpg",
     "profile_payload_url": "data/films/1284186.json",
     "profile_url": "film.html?id=1284186",
-    "release_date": "2026-10-16",
-    "release_display": "In theaters Oct. 16",
+    "release_date": "2026-09-10",
+    "release_display": "In theaters Sep. 10",
     "runtime": 103,
-    "synopsis": "At an elite fundraising gala, celebrities and socialites find themselves in danger when armed activists storm the venue in pursuit of a legendary relic that could unlock supernatural powers.",
+    "synopsis": "During a star-studded charity gala brimming with celebrities, billionaires and empty speeches, a movie star in the midst of an existential crisis is taken hostage by a radical warrior and her devoted followers. As the night descends into chaos, both an inward journey and an outward adventure ensue, where the line between performance and belief, salvation and sacrifice, begins to blur.",
     "title": "Sacrifice",
     "tmdb_id": "1284186"
   },
   "intelligence": {
-    "confidence": "High",
-    "confidence_score": 0.99,
-    "generated_at": "2026-08-20T14:06:00Z",
-    "headline": "Sacrifice: popularity increasing",
+    "confidence": "Low",
+    "confidence_score": 0.25,
+    "generated_at": "2026-07-29T21:38:25Z",
+    "headline": "Sacrifice: no material change detected",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
       "signal_values": {
@@ -221,13 +233,13 @@
         "streaming_provider_count_us": 0,
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": false,
-        "tmdb_popularity": 6.4548,
-        "tmdb_poster_count": 6,
-        "tmdb_release_date_us_primary": "2026-10-16",
+        "tmdb_popularity": 1.8859,
+        "tmdb_poster_count": 2,
+        "tmdb_release_date_us_primary": "",
         "tmdb_release_date_us_theatrical": "",
         "tmdb_release_status": "Released",
-        "tmdb_vote_average": 4.875,
-        "tmdb_vote_count": 4,
+        "tmdb_vote_average": 0,
+        "tmdb_vote_count": 0,
         "tmdb_watch_provider_count_us": 0,
         "trailer_available": false,
         "trailer_count": 0
@@ -236,61 +248,58 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity rose from 1.8859 to 6.4548.",
-    "supporting_drivers": [
-      {
-        "confidence_weight": 0.9,
-        "driver_type": "popularity_increasing",
-        "evidence": "TMDb popularity rose from 1.8859 to 6.4548.",
-        "label": "Popularity increasing",
-        "retrieved_at": "2026-08-20T14:06:00Z",
-        "source_metric": "tmdb_popularity",
-        "source_provider": "tmdb",
-        "source_status": "available"
-      }
-    ]
+    "summary": "Current provider signals do not show a supported material change.",
+    "supporting_drivers": []
   },
-  "media": {},
+  "media": {
+    "backdrop": "https://image.tmdb.org/t/p/original/3kYnfR6PN20bD4zshZfGza6jA6f.jpg",
+    "poster": "https://image.tmdb.org/t/p/original/n7KgiuuGO6AX1EeLA7c8K6RQ1T5.jpg"
+  },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260820T140623Z",
-    "profile_version": "phase6a",
+    "awards_intelligence_integrated_at": "2026-08-16T00:00:00Z",
+    "awards_intelligence_source": "academy_nominee_website_card_handoff_v1.json",
+    "generated_at": "slice57_current_discovery_enrichment",
+    "profile_version": "phase6a_registry_canonical_id_bridge_slice57_enriched",
     "source_data_date": "2026-07-20"
   },
   "performance": {
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 6.4548,
-        "retrieved_at": "2026-08-20",
+        "popularity": 1.8859,
+        "retrieved_at": "2026-07-29",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1284186",
-        "status": "rated",
-        "vote_average": 4.875,
-        "vote_count": 4
+        "status": "not_yet_rated"
       }
     },
-    "tmdb_popularity": {
-      "retrieved_at": "2026-08-20",
-      "source": "TMDb",
-      "source_url": "https://www.themoviedb.org/movie/1284186",
-      "value": 6.4548
-    },
+    "tmdb_popularity": 1.8859,
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 6.4548,
-      "retrieved_at": "2026-08-20",
+      "popularity": 1.8859,
+      "retrieved_at": "2026-07-29",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1284186",
-      "status": "rated",
-      "vote_average": 4.875,
-      "vote_count": 4
+      "status": "not_yet_rated"
     }
   },
   "related": {
     "related_films": [
+      {
+        "profile_url": "film.html?id=1643567",
+        "relationship_score": 56,
+        "shared_signals": [
+          "General Watch",
+          "Adventure",
+          "Comedy",
+          "Craft Categories"
+        ],
+        "title": "Ghosts: The Possession of Button House",
+        "tmdb_id": "1643567"
+      },
       {
         "profile_url": "film.html?id=1148365",
         "relationship_score": 52,
@@ -326,18 +335,6 @@
         ],
         "title": "Beasts Clutching at Straws",
         "tmdb_id": "1670061"
-      },
-      {
-        "profile_url": "film.html?id=1643567",
-        "relationship_score": 50,
-        "shared_signals": [
-          "General Watch",
-          "Comedy",
-          "Craft Categories",
-          "Unknown"
-        ],
-        "title": "Ghosts: The Possession of Button House",
-        "tmdb_id": "1643567"
       },
       {
         "profile_url": "film.html?id=1717258",
@@ -386,11 +383,11 @@
         "role": "actor"
       },
       {
-        "name": "John Malkovich",
+        "name": "Ambika Mod",
         "role": "actor"
       },
       {
-        "name": "Charli xcx",
+        "name": "Yung Lean",
         "role": "actor"
       }
     ],
@@ -419,24 +416,15 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.153,
-      "audience_quality": 4.631,
+      "audience_momentum": 0.036,
       "awards_relevance": 0.8,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-20T14:06:00Z",
+    "generated_at": "2026-07-29T21:38:25Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 8.909,
+    "score": 4.161,
     "source": "derived_screening_room_score",
     "top_drivers": [
-      {
-        "confidence": 0.95,
-        "contribution": 4.631,
-        "metric_name": "tmdb_vote_average",
-        "provider": "tmdb",
-        "score_family": "audience_quality",
-        "value": 4.875
-      },
       {
         "confidence": 0.55,
         "contribution": 2.2,
@@ -463,34 +451,34 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.123,
+        "contribution": 0.036,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 6.4548
+        "value": 1.8859
       }
     ]
   },
   "signals": {
     "cultural_significance": 0,
     "external_intelligence": {
-      "confidence": "High",
-      "headline": "Sacrifice: popularity increasing",
-      "summary": "TMDb popularity rose from 1.8859 to 6.4548."
+      "confidence": "Low",
+      "headline": "Sacrifice: no material change detected",
+      "summary": "Current provider signals do not show a supported material change."
     },
-    "last_updated": "2026-10-16",
+    "last_updated": "2026-09-10",
     "latest_event": {
       "confidence": "Inferred",
-      "event_id": "1284186-77e31af0bdea",
+      "event_id": "1284186-d6d83bf86b47",
       "event_type": "Release Scheduled",
       "film_id": "1284186",
       "importance": "Medium",
       "metadata": {
-        "release_date": "2026-10-16"
+        "release_date": "2026-09-10"
       },
       "source_type": "metadata",
-      "summary": "Release currently scheduled for In theaters Oct. 16.",
-      "timestamp": "2026-10-16",
+      "summary": "Release currently scheduled for In theaters Sep. 10.",
+      "timestamp": "2026-09-10",
       "title": "Release scheduled"
     },
     "latest_intelligence": "As of 2026-07-18, this is a unknown distributor release dated 2026-09-10 with Craft Categories relevance; current awards profile is Craft Potential and data status is limited data.",
@@ -500,21 +488,21 @@
     "recent_activity": [
       {
         "confidence": "Inferred",
-        "event_id": "1284186-77e31af0bdea",
+        "event_id": "1284186-d6d83bf86b47",
         "event_type": "Release Scheduled",
         "film_id": "1284186",
         "importance": "Medium",
         "metadata": {
-          "release_date": "2026-10-16"
+          "release_date": "2026-09-10"
         },
         "source_type": "metadata",
-        "summary": "Release currently scheduled for In theaters Oct. 16.",
-        "timestamp": "2026-10-16",
+        "summary": "Release currently scheduled for In theaters Sep. 10.",
+        "timestamp": "2026-09-10",
         "title": "Release scheduled"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1284186-e56023e22e05",
+        "event_id": "1284186-89aea2ef6a93",
         "event_type": "Awards Tier Changed",
         "film_id": "1284186",
         "importance": "Medium",
@@ -526,12 +514,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1284186-7aca03a03932",
+        "event_id": "1284186-a55aa721b16b",
         "event_type": "Added To Database",
         "film_id": "1284186",
         "importance": "Low",
@@ -540,15 +528,15 @@
         },
         "source_type": "system",
         "summary": "Sacrifice is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Added to Awards Intelligence"
       }
     ],
     "release_relevance": 25.4,
     "screening_room_score": {
-      "confidence": "High",
-      "explanation": "TMDb popularity rose from 1.8859 to 6.4548.",
-      "score": 8.909
+      "confidence": "Low",
+      "explanation": "Current provider signals do not show a supported material change.",
+      "score": 4.161
     },
     "watch_triggers": [
       "Prestige Producer",
@@ -565,33 +553,36 @@
       "Anya Taylor-Joy",
       "Vincent Cassel",
       "Salma Hayek Pinault",
-      "John Malkovich",
-      "Charli xcx",
+      "Ambika Mod",
       "Yung Lean",
+      "John Malkovich",
       "Sam Richardson"
     ],
     "producers": [],
-    "writers": []
+    "writers": [
+      "Romain Gavras",
+      "Will Arbery"
+    ]
   },
   "timeline": {
     "events": [
       {
         "confidence": "Inferred",
-        "event_id": "1284186-77e31af0bdea",
+        "event_id": "1284186-d6d83bf86b47",
         "event_type": "Release Scheduled",
         "film_id": "1284186",
         "importance": "Medium",
         "metadata": {
-          "release_date": "2026-10-16"
+          "release_date": "2026-09-10"
         },
         "source_type": "metadata",
-        "summary": "Release currently scheduled for In theaters Oct. 16.",
-        "timestamp": "2026-10-16",
+        "summary": "Release currently scheduled for In theaters Sep. 10.",
+        "timestamp": "2026-09-10",
         "title": "Release scheduled"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1284186-e56023e22e05",
+        "event_id": "1284186-89aea2ef6a93",
         "event_type": "Awards Tier Changed",
         "film_id": "1284186",
         "importance": "Medium",
@@ -603,12 +594,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1284186-7aca03a03932",
+        "event_id": "1284186-a55aa721b16b",
         "event_type": "Added To Database",
         "film_id": "1284186",
         "importance": "Low",
@@ -617,7 +608,7 @@
         },
         "source_type": "system",
         "summary": "Sacrifice is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Added to Awards Intelligence"
       },
       {
@@ -637,36 +628,36 @@
     ],
     "latest_event": {
       "confidence": "Inferred",
-      "event_id": "1284186-77e31af0bdea",
+      "event_id": "1284186-d6d83bf86b47",
       "event_type": "Release Scheduled",
       "film_id": "1284186",
       "importance": "Medium",
       "metadata": {
-        "release_date": "2026-10-16"
+        "release_date": "2026-09-10"
       },
       "source_type": "metadata",
-      "summary": "Release currently scheduled for In theaters Oct. 16.",
-      "timestamp": "2026-10-16",
+      "summary": "Release currently scheduled for In theaters Sep. 10.",
+      "timestamp": "2026-09-10",
       "title": "Release scheduled"
     },
     "recent_activity": [
       {
         "confidence": "Inferred",
-        "event_id": "1284186-77e31af0bdea",
+        "event_id": "1284186-d6d83bf86b47",
         "event_type": "Release Scheduled",
         "film_id": "1284186",
         "importance": "Medium",
         "metadata": {
-          "release_date": "2026-10-16"
+          "release_date": "2026-09-10"
         },
         "source_type": "metadata",
-        "summary": "Release currently scheduled for In theaters Oct. 16.",
-        "timestamp": "2026-10-16",
+        "summary": "Release currently scheduled for In theaters Sep. 10.",
+        "timestamp": "2026-09-10",
         "title": "Release scheduled"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1284186-e56023e22e05",
+        "event_id": "1284186-89aea2ef6a93",
         "event_type": "Awards Tier Changed",
         "film_id": "1284186",
         "importance": "Medium",
@@ -678,12 +669,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1284186-7aca03a03932",
+        "event_id": "1284186-a55aa721b16b",
         "event_type": "Added To Database",
         "film_id": "1284186",
         "importance": "Low",
@@ -692,7 +683,7 @@
         },
         "source_type": "system",
         "summary": "Sacrifice is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Added to Awards Intelligence"
       }
     ],

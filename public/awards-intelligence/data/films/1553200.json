@@ -8,7 +8,7 @@
       "Event Release",
       "Awards Watch"
     ],
-    "attention_score": 67.4,
+    "attention_score": 67.7,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -51,7 +51,7 @@
         "status": "inferred"
       },
       {
-        "evidence": "TMDb popularity 1.9183",
+        "evidence": "TMDb popularity 2.1799",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -62,14 +62,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 67.4,
+    "homepage_spotlight_score": 67.7,
     "industry_interest": "Moderate",
-    "last_updated": "20260820T140623Z",
+    "last_updated": "20260729T213825Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
         "evidence_count": 2,
-        "score": 11.0,
+        "score": 11.3,
         "statuses": [
           "verified"
         ]
@@ -157,6 +157,28 @@
     ],
     "probabilities": {}
   },
+  "awards_intelligence": {
+    "awards_candidate_status": "ACTIVE_CONTENDER",
+    "awards_status": "WATCHLIST",
+    "best_picture_rank": 37,
+    "forecast_stage": "STAGE_B",
+    "forecast_stage_label": "Stage B Early Season",
+    "nominee_probability": null,
+    "percentage_policy": "PERCENTAGES_NOT_READY",
+    "prediction_confidence": "RESEARCH_ONLY",
+    "probability_is_calibrated": false,
+    "public_card_behavior": "show_awards_status_and_rank",
+    "rank_change": null,
+    "ranking_eligibility": "RANKABLE_HIGH_UNCERTAINTY",
+    "ranking_last_updated_at": "2026-08-16T00:00:00Z",
+    "source_artifact": "academy_nominee_website_card_handoff_v1.json",
+    "why_it_ranks": [
+      {
+        "code": "FALL_AWARDS_WINDOW_RELEASE",
+        "text": "Release timing falls in the fall awards window."
+      }
+    ]
+  },
   "commercial": {
     "commercial_significance": 37.0,
     "distributor": "Unknown",
@@ -207,7 +229,7 @@
       "Romance"
     ],
     "id": "1553200",
-    "imdb_id": "",
+    "imdb_id": "tt39927807",
     "language": "ja",
     "original_title": "\u9752\u6625\u30d6\u30bf\u91ce\u90ce\u306f\u30c7\u30a3\u30a2\u30d5\u30ec\u30f3\u30c9\u306e\u5922\u3092\u898b\u306a\u3044",
     "poster": "https://image.tmdb.org/t/p/original/4R2Ztal9sGkoSDaCqQPjMZVTN1H.jpg",
@@ -215,7 +237,7 @@
     "profile_url": "film.html?id=1553200",
     "release_date": "2026-10-16",
     "release_display": "In theaters Oct. 16",
-    "runtime": null,
+    "runtime": 0,
     "synopsis": "Faced with the truth about Miori and Touko Kirishima, Sakuta must make a choice. This will be his final case of Adolescence Syndrome!",
     "title": "Rascal Does Not Dream of a Dear Friend",
     "tmdb_id": "1553200"
@@ -223,7 +245,7 @@
   "intelligence": {
     "confidence": "Low",
     "confidence_score": 0.25,
-    "generated_at": "2026-08-20T14:06:00Z",
+    "generated_at": "2026-07-29T21:38:25Z",
     "headline": "Rascal Does Not Dream of a Dear Friend: no material change detected",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -243,7 +265,7 @@
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=sFmnbdPwbrQ",
-        "tmdb_popularity": 1.9183,
+        "tmdb_popularity": 2.1799,
         "tmdb_poster_count": 4,
         "tmdb_release_date_us_primary": "",
         "tmdb_release_date_us_theatrical": "",
@@ -263,8 +285,9 @@
     "supporting_drivers": []
   },
   "media": {
+    "backdrop": "https://image.tmdb.org/t/p/original/iR3R7012MUISPSejxeGFEXHfhDE.jpg",
     "canonical_trailer": {
-      "retrieved_at": "2026-08-20",
+      "retrieved_at": "2026-07-29",
       "site": "YouTube",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1553200/videos",
@@ -272,37 +295,36 @@
       "type": "Trailer",
       "url": "https://www.youtube.com/watch?v=sFmnbdPwbrQ"
     },
-    "latest_trailer_url": "https://www.youtube.com/watch?v=sFmnbdPwbrQ"
+    "latest_trailer_url": "https://www.youtube.com/watch?v=sFmnbdPwbrQ",
+    "poster": "https://image.tmdb.org/t/p/original/4R2Ztal9sGkoSDaCqQPjMZVTN1H.jpg",
+    "trailer": "https://www.youtube.com/watch?v=sFmnbdPwbrQ"
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260820T140623Z",
-    "profile_version": "phase6a",
+    "awards_intelligence_integrated_at": "2026-08-16T00:00:00Z",
+    "awards_intelligence_source": "academy_nominee_website_card_handoff_v1.json",
+    "generated_at": "slice57_current_discovery_enrichment",
+    "profile_version": "phase6a_registry_canonical_id_bridge_slice57_enriched",
     "source_data_date": "2026-07-20"
   },
   "performance": {
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 1.9183,
-        "retrieved_at": "2026-08-20",
+        "popularity": 2.1799,
+        "retrieved_at": "2026-07-29",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1553200",
         "status": "not_yet_rated"
       }
     },
-    "tmdb_popularity": {
-      "retrieved_at": "2026-08-20",
-      "source": "TMDb",
-      "source_url": "https://www.themoviedb.org/movie/1553200",
-      "value": 1.9183
-    },
+    "tmdb_popularity": 2.1799,
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 1.9183,
-      "retrieved_at": "2026-08-20",
+      "popularity": 2.1799,
+      "retrieved_at": "2026-07-29",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1553200",
       "status": "not_yet_rated"
@@ -422,14 +444,14 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.036,
+      "audience_momentum": 0.041,
       "awards_relevance": 2.4,
       "campaign_activity": 4.05,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-20T14:06:00Z",
+    "generated_at": "2026-07-29T21:38:25Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 9.811,
+    "score": 9.816,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -466,11 +488,11 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.036,
+        "contribution": 0.041,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 1.9183
+        "value": 2.1799
       }
     ]
   },
@@ -517,7 +539,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1553200-b0fe49dd632f",
+        "event_id": "1553200-1c057f5a1eaa",
         "event_type": "Awards Tier Changed",
         "film_id": "1553200",
         "importance": "Medium",
@@ -531,12 +553,12 @@
         },
         "source_type": "editorial_model",
         "summary": "category-specific awards case without broader contender evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Awards tier assigned: Category Contender"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1553200-380ccb03aac2",
+        "event_id": "1553200-9d681cb0d005",
         "event_type": "Added To Database",
         "film_id": "1553200",
         "importance": "Low",
@@ -545,7 +567,7 @@
         },
         "source_type": "system",
         "summary": "Rascal Does Not Dream of a Dear Friend is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -553,7 +575,7 @@
     "screening_room_score": {
       "confidence": "Low",
       "explanation": "Current provider signals do not show a supported material change.",
-      "score": 9.811
+      "score": 9.816
     },
     "watch_triggers": [
       "Awards-Season Release",
@@ -578,7 +600,9 @@
       "Nao Toyama"
     ],
     "producers": [],
-    "writers": []
+    "writers": [
+      "Masahiro Yokotani"
+    ]
   },
   "timeline": {
     "events": [
@@ -598,7 +622,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1553200-b0fe49dd632f",
+        "event_id": "1553200-1c057f5a1eaa",
         "event_type": "Awards Tier Changed",
         "film_id": "1553200",
         "importance": "Medium",
@@ -612,12 +636,12 @@
         },
         "source_type": "editorial_model",
         "summary": "category-specific awards case without broader contender evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Awards tier assigned: Category Contender"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1553200-380ccb03aac2",
+        "event_id": "1553200-9d681cb0d005",
         "event_type": "Added To Database",
         "film_id": "1553200",
         "importance": "Low",
@@ -626,7 +650,7 @@
         },
         "source_type": "system",
         "summary": "Rascal Does Not Dream of a Dear Friend is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -661,7 +685,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1553200-b0fe49dd632f",
+        "event_id": "1553200-1c057f5a1eaa",
         "event_type": "Awards Tier Changed",
         "film_id": "1553200",
         "importance": "Medium",
@@ -675,12 +699,12 @@
         },
         "source_type": "editorial_model",
         "summary": "category-specific awards case without broader contender evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Awards tier assigned: Category Contender"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1553200-380ccb03aac2",
+        "event_id": "1553200-9d681cb0d005",
         "event_type": "Added To Database",
         "film_id": "1553200",
         "importance": "Low",
@@ -689,7 +713,7 @@
         },
         "source_type": "system",
         "summary": "Rascal Does Not Dream of a Dear Friend is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Added to Awards Intelligence"
       }
     ],

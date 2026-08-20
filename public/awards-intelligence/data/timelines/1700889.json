@@ -16,7 +16,7 @@
     },
     {
       "confidence": "Inferred",
-      "event_id": "1700889-d8af384a5786",
+      "event_id": "1700889-fe289138dd04",
       "event_type": "Awards Tier Changed",
       "film_id": "1700889",
       "importance": "Medium",
@@ -28,12 +28,12 @@
       },
       "source_type": "editorial_model",
       "summary": "plausible but incomplete awards evidence",
-      "timestamp": "2026-08-20T14:06:23Z",
+      "timestamp": "2026-07-29T21:38:25Z",
       "title": "Awards tier assigned: Emerging"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1700889-692b863253cc",
+      "event_id": "1700889-ad05f89b8192",
       "event_type": "Added To Database",
       "film_id": "1700889",
       "importance": "Low",
@@ -42,7 +42,7 @@
       },
       "source_type": "system",
       "summary": "\u0420\u0443\u043a\u0438 \u0432\u0432\u0435\u0440\u0445! 2 is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-08-20T14:06:23Z",
+      "timestamp": "2026-07-29T21:38:25Z",
       "title": "Added to Awards Intelligence"
     }
   ],
@@ -63,7 +63,7 @@
   "metadata": {
     "event_count": 3,
     "film_id": "1700889",
-    "generated_at": "20260820T140623Z",
+    "generated_at": "slice57_current_discovery_enrichment",
     "timeline_version": "phase6b",
     "title": "\u0420\u0443\u043a\u0438 \u0432\u0432\u0435\u0440\u0445! 2",
     "tmdb_id": "1700889"

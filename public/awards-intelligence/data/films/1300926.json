@@ -8,7 +8,7 @@
       "Event Release",
       "Awards Watch"
     ],
-    "attention_score": 68.3,
+    "attention_score": 70.3,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -26,7 +26,12 @@
         "status": "inferred"
       },
       {
-        "evidence": "Principal cast listed: Jason Sudeikis, Josh Gad, Danny McBride, Rachel Bloom",
+        "evidence": "TMDb popularity 8.2256",
+        "source": "audience_popularity",
+        "status": "verified"
+      },
+      {
+        "evidence": "Principal cast listed: Jason Sudeikis, Josh Gad, Rachel Bloom, Danny McBride",
         "source": "cast_interest",
         "status": "verified"
       },
@@ -34,11 +39,6 @@
         "evidence": "Commercial scale and release context",
         "source": "commercial_scale",
         "status": "inferred"
-      },
-      {
-        "evidence": "TMDb popularity 5.3545",
-        "source": "audience_popularity",
-        "status": "verified"
       },
       {
         "evidence": "Trailer URL present",
@@ -62,14 +62,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 68.3,
+    "homepage_spotlight_score": 70.3,
     "industry_interest": "Moderate",
-    "last_updated": "20260820T140623Z",
+    "last_updated": "20260729T213825Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
         "evidence_count": 2,
-        "score": 13.9,
+        "score": 15.9,
         "statuses": [
           "verified"
         ]
@@ -157,6 +157,32 @@
     ],
     "probabilities": {}
   },
+  "awards_intelligence": {
+    "awards_candidate_status": "ACTIVE_CONTENDER",
+    "awards_status": "WATCHLIST",
+    "best_picture_rank": 31,
+    "forecast_stage": "STAGE_B",
+    "forecast_stage_label": "Stage B Early Season",
+    "nominee_probability": null,
+    "percentage_policy": "PERCENTAGES_NOT_READY",
+    "prediction_confidence": "RESEARCH_ONLY",
+    "probability_is_calibrated": false,
+    "public_card_behavior": "show_awards_status_and_rank",
+    "rank_change": null,
+    "ranking_eligibility": "RANKABLE_HIGH_UNCERTAINTY",
+    "ranking_last_updated_at": "2026-08-16T00:00:00Z",
+    "source_artifact": "academy_nominee_website_card_handoff_v1.json",
+    "why_it_ranks": [
+      {
+        "code": "FALL_AWARDS_WINDOW_RELEASE",
+        "text": "Release timing falls in the fall awards window."
+      },
+      {
+        "code": "US_PRODUCTION_METADATA",
+        "text": "US production metadata present."
+      }
+    ]
+  },
   "commercial": {
     "commercial_significance": 37.0,
     "distributor": "Unknown",
@@ -174,9 +200,10 @@
     ]
   },
   "diagnostics": {
-    "completeness_score": 89,
+    "completeness_score": 78,
     "confidence": "Medium",
     "missing_fields": [
+      "runtime",
       "distributor"
     ],
     "relationship_counts": {
@@ -217,7 +244,7 @@
       "Family"
     ],
     "id": "1300926",
-    "imdb_id": "",
+    "imdb_id": "tt32557122",
     "language": "en",
     "original_title": "The Angry Birds Movie 3",
     "poster": "https://image.tmdb.org/t/p/original/oxaW6X3xohnzdFSBKCrCjRDckMe.jpg",
@@ -225,7 +252,7 @@
     "profile_url": "film.html?id=1300926",
     "release_date": "2026-12-23",
     "release_display": "In theaters Dec. 23",
-    "runtime": 96,
+    "runtime": 0,
     "synopsis": "Red faces his greatest challenge yet\u2026 surviving fatherhood while saving the world.",
     "title": "The Angry Birds Movie 3",
     "tmdb_id": "1300926"
@@ -233,7 +260,7 @@
   "intelligence": {
     "confidence": "Low",
     "confidence_score": 0.25,
-    "generated_at": "2026-08-20T14:06:00Z",
+    "generated_at": "2026-07-29T21:38:25Z",
     "headline": "The Angry Birds Movie 3: no material change detected",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -250,11 +277,11 @@
         "streaming_available_us": false,
         "streaming_flatrate_provider_count_us": 0,
         "streaming_provider_count_us": 0,
-        "tmdb_backdrop_count": 11,
+        "tmdb_backdrop_count": 10,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=a9DB_aUMzME",
-        "tmdb_popularity": 5.3545,
-        "tmdb_poster_count": 18,
+        "tmdb_popularity": 8.2256,
+        "tmdb_poster_count": 17,
         "tmdb_release_date_us_primary": "2026-12-23",
         "tmdb_release_date_us_theatrical": "2026-12-23",
         "tmdb_release_status": "Post Production",
@@ -273,8 +300,9 @@
     "supporting_drivers": []
   },
   "media": {
+    "backdrop": "https://image.tmdb.org/t/p/original/ieAytQ8YcWEZGQpbBy7vHVddwd.jpg",
     "canonical_trailer": {
-      "retrieved_at": "2026-08-20",
+      "retrieved_at": "2026-07-29",
       "site": "YouTube",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1300926/videos",
@@ -282,37 +310,36 @@
       "type": "Trailer",
       "url": "https://www.youtube.com/watch?v=a9DB_aUMzME"
     },
-    "latest_trailer_url": "https://www.youtube.com/watch?v=a9DB_aUMzME"
+    "latest_trailer_url": "https://www.youtube.com/watch?v=a9DB_aUMzME",
+    "poster": "https://image.tmdb.org/t/p/original/oxaW6X3xohnzdFSBKCrCjRDckMe.jpg",
+    "trailer": "https://www.youtube.com/watch?v=a9DB_aUMzME"
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260820T140623Z",
-    "profile_version": "phase6a",
+    "awards_intelligence_integrated_at": "2026-08-16T00:00:00Z",
+    "awards_intelligence_source": "academy_nominee_website_card_handoff_v1.json",
+    "generated_at": "slice57_current_discovery_enrichment",
+    "profile_version": "phase6a_registry_canonical_id_bridge_slice57_enriched",
     "source_data_date": "2026-07-20"
   },
   "performance": {
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 5.3545,
-        "retrieved_at": "2026-08-20",
+        "popularity": 8.2256,
+        "retrieved_at": "2026-07-29",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1300926",
         "status": "not_yet_rated"
       }
     },
-    "tmdb_popularity": {
-      "retrieved_at": "2026-08-20",
-      "source": "TMDb",
-      "source_url": "https://www.themoviedb.org/movie/1300926",
-      "value": 5.3545
-    },
+    "tmdb_popularity": 8.2256,
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 5.3545,
-      "retrieved_at": "2026-08-20",
+      "popularity": 8.2256,
+      "retrieved_at": "2026-07-29",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1300926",
       "status": "not_yet_rated"
@@ -407,11 +434,11 @@
         "role": "actor"
       },
       {
-        "name": "Danny McBride",
+        "name": "Rachel Bloom",
         "role": "actor"
       },
       {
-        "name": "Rachel Bloom",
+        "name": "Danny McBride",
         "role": "actor"
       },
       {
@@ -419,7 +446,7 @@
         "role": "actor"
       },
       {
-        "name": "Walker Scobell",
+        "name": "Lily James",
         "role": "actor"
       }
     ],
@@ -452,14 +479,14 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.102,
+      "audience_momentum": 0.156,
       "awards_relevance": 2.4,
       "campaign_activity": 4.05,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-20T14:06:00Z",
+    "generated_at": "2026-07-29T21:38:25Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 9.877,
+    "score": 9.931,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -496,11 +523,11 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.102,
+        "contribution": 0.156,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 5.3545
+        "value": 8.2256
       }
     ]
   },
@@ -547,7 +574,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1300926-e4e5bf309c72",
+        "event_id": "1300926-6952e43a7f14",
         "event_type": "Awards Tier Changed",
         "film_id": "1300926",
         "importance": "Medium",
@@ -561,12 +588,12 @@
         },
         "source_type": "editorial_model",
         "summary": "category-specific awards case without broader contender evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Awards tier assigned: Category Contender"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1300926-787af7883f2c",
+        "event_id": "1300926-8b80e89dc728",
         "event_type": "Added To Database",
         "film_id": "1300926",
         "importance": "Low",
@@ -575,7 +602,7 @@
         },
         "source_type": "system",
         "summary": "The Angry Birds Movie 3 is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -583,7 +610,7 @@
     "screening_room_score": {
       "confidence": "Low",
       "explanation": "Current provider signals do not show a supported material change.",
-      "score": 9.877
+      "score": 9.931
     },
     "watch_triggers": [
       "Awards-Season Release",
@@ -599,15 +626,17 @@
     "principal_cast": [
       "Jason Sudeikis",
       "Josh Gad",
-      "Danny McBride",
       "Rachel Bloom",
+      "Danny McBride",
       "Emma Myers",
-      "Walker Scobell",
-      "James Austin Johnson",
-      "Tim Robinson"
+      "Lily James",
+      "Marcello Hern\u00e1ndez",
+      "Walker Scobell"
     ],
     "producers": [],
-    "writers": []
+    "writers": [
+      "Thurop Van Orman"
+    ]
   },
   "timeline": {
     "events": [
@@ -627,7 +656,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1300926-e4e5bf309c72",
+        "event_id": "1300926-6952e43a7f14",
         "event_type": "Awards Tier Changed",
         "film_id": "1300926",
         "importance": "Medium",
@@ -641,12 +670,12 @@
         },
         "source_type": "editorial_model",
         "summary": "category-specific awards case without broader contender evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Awards tier assigned: Category Contender"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1300926-787af7883f2c",
+        "event_id": "1300926-8b80e89dc728",
         "event_type": "Added To Database",
         "film_id": "1300926",
         "importance": "Low",
@@ -655,7 +684,7 @@
         },
         "source_type": "system",
         "summary": "The Angry Birds Movie 3 is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -690,7 +719,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1300926-e4e5bf309c72",
+        "event_id": "1300926-6952e43a7f14",
         "event_type": "Awards Tier Changed",
         "film_id": "1300926",
         "importance": "Medium",
@@ -704,12 +733,12 @@
         },
         "source_type": "editorial_model",
         "summary": "category-specific awards case without broader contender evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Awards tier assigned: Category Contender"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1300926-787af7883f2c",
+        "event_id": "1300926-8b80e89dc728",
         "event_type": "Added To Database",
         "film_id": "1300926",
         "importance": "Low",
@@ -718,7 +747,7 @@
         },
         "source_type": "system",
         "summary": "The Angry Birds Movie 3 is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Added to Awards Intelligence"
       }
     ],

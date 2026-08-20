@@ -8,7 +8,7 @@
       "Event Release",
       "Awards Watch"
     ],
-    "attention_score": 63.8,
+    "attention_score": 63.0,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -31,7 +31,7 @@
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 4.4776",
+        "evidence": "TMDb popularity 3.7173",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -41,7 +41,7 @@
         "status": "verified"
       },
       {
-        "evidence": "Release date: 2026-10-16",
+        "evidence": "Release date: 2026-11-06",
         "source": "release_proximity",
         "status": "verified"
       },
@@ -62,14 +62,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 63.8,
+    "homepage_spotlight_score": 63.0,
     "industry_interest": null,
-    "last_updated": "20260820T140623Z",
+    "last_updated": "20260729T213825Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
         "evidence_count": 2,
-        "score": 13.2,
+        "score": 12.4,
         "statuses": [
           "verified"
         ]
@@ -159,6 +159,23 @@
     ],
     "probabilities": {}
   },
+  "awards_intelligence": {
+    "awards_candidate_status": "PROVISIONAL",
+    "awards_status": null,
+    "best_picture_rank": null,
+    "forecast_stage": null,
+    "forecast_stage_label": null,
+    "nominee_probability": null,
+    "percentage_policy": "PERCENTAGES_NOT_READY",
+    "prediction_confidence": null,
+    "probability_is_calibrated": false,
+    "public_card_behavior": "no_awards_badge",
+    "rank_change": null,
+    "ranking_eligibility": "NOT_RANKED",
+    "ranking_last_updated_at": null,
+    "source_artifact": "academy_nominee_website_card_handoff_v1.json",
+    "why_it_ranks": []
+  },
   "commercial": {
     "commercial_significance": 19.0,
     "distributor": "Netflix",
@@ -193,13 +210,30 @@
   },
   "festival": {
     "awards_received": [],
-    "display_status": "No verified festival information in the current dataset.",
-    "festival_history": [],
-    "festival_status": "",
+    "display_status": "Official Selection",
+    "festival_history": [
+      {
+        "festival_name": "Cannes",
+        "festival_year": 2026,
+        "last_updated": "2026-08-16T00:00:00Z",
+        "section": "In Competition",
+        "signal": "Official festival lineup source.",
+        "source_url": "https://www.festival-cannes.com/en/press/press-releases/the-films-of-the-official-selection-2026/"
+      },
+      {
+        "festival_name": "TIFF",
+        "festival_year": 2026,
+        "last_updated": "2026-08-16T00:00:00Z",
+        "section": "Special Presentations",
+        "signal": "Festival selection recovered from authoritative secondary reproduction after official detail page access was blocked.",
+        "source_url": "https://en.wikipedia.org/wiki/2026_Toronto_International_Film_Festival"
+      }
+    ],
+    "festival_status": "Official Selection",
     "premiere_type": ""
   },
   "film_identity": {
-    "backdrop": "https://image.tmdb.org/t/p/original/wM4LLukeBIfhjn7LcVP6VIced4p.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/poQ9cHZpNVUfBc1Vw9MOIwRZyvY.jpg",
     "country": [
       "ES",
       "FR"
@@ -209,24 +243,24 @@
       "War"
     ],
     "id": "1422041",
-    "imdb_id": "",
+    "imdb_id": "tt35511966",
     "language": "es",
     "original_title": "La bola negra",
-    "poster": "https://image.tmdb.org/t/p/original/1RQ59MdEDsd3ArHJsf0luS6R6Dd.jpg",
+    "poster": "https://image.tmdb.org/t/p/original/8M46fNFLURpRcbc2Vp0AGjrt5fG.jpg",
     "profile_payload_url": "data/films/1422041.json",
     "profile_url": "film.html?id=1422041",
-    "release_date": "2026-10-16",
-    "release_display": "In theaters Oct. 16",
+    "release_date": "2026-11-06",
+    "release_display": "In theaters Nov. 6",
     "runtime": 155,
     "synopsis": "Set across three timelines \u2014 Republican Spain in 1932, the Civil War in 1937, and contemporary Spain in 2017 \u2014 the film follows a constellation of interconnected lives centered on three young men, whose emotional and political echoes gradually reveal themselves.",
     "title": "La Bola Negra",
     "tmdb_id": "1422041"
   },
   "intelligence": {
-    "confidence": "High",
-    "confidence_score": 0.99,
-    "generated_at": "2026-08-20T14:06:00Z",
-    "headline": "La Bola Negra: popularity increasing",
+    "confidence": "Low",
+    "confidence_score": 0.25,
+    "generated_at": "2026-07-29T21:38:25Z",
+    "headline": "La Bola Negra: no material change detected",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
       "signal_values": {
@@ -243,66 +277,72 @@
         "streaming_flatrate_provider_count_us": 0,
         "streaming_provider_count_us": 0,
         "tmdb_backdrop_count": 0,
-        "tmdb_canonical_trailer_available": false,
-        "tmdb_popularity": 4.4776,
-        "tmdb_poster_count": 2,
-        "tmdb_release_date_us_primary": "2026-10-16",
-        "tmdb_release_date_us_theatrical": "2026-10-16",
+        "tmdb_canonical_trailer_available": true,
+        "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=9NNU-vSeOB0",
+        "tmdb_popularity": 3.7173,
+        "tmdb_poster_count": 0,
+        "tmdb_release_date_us_primary": "2026-11-06",
+        "tmdb_release_date_us_theatrical": "2026-11-06",
         "tmdb_release_status": "Released",
         "tmdb_vote_average": 0,
         "tmdb_vote_count": 0,
         "tmdb_watch_provider_count_us": 0,
-        "trailer_available": false,
-        "trailer_count": 0
+        "trailer_available": true,
+        "trailer_count": 1,
+        "trailer_url": "https://www.youtube.com/watch?v=9NNU-vSeOB0"
       },
-      "source_signal_count": 24,
+      "source_signal_count": 26,
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity rose from 3.7173 to 4.4776.",
-    "supporting_drivers": [
-      {
-        "confidence_weight": 0.9,
-        "driver_type": "popularity_increasing",
-        "evidence": "TMDb popularity rose from 3.7173 to 4.4776.",
-        "label": "Popularity increasing",
-        "retrieved_at": "2026-08-20T14:06:00Z",
-        "source_metric": "tmdb_popularity",
-        "source_provider": "tmdb",
-        "source_status": "available"
-      }
-    ]
+    "summary": "Current provider signals do not show a supported material change.",
+    "supporting_drivers": []
   },
-  "media": {},
+  "media": {
+    "backdrop": "https://image.tmdb.org/t/p/original/poQ9cHZpNVUfBc1Vw9MOIwRZyvY.jpg",
+    "canonical_trailer": {
+      "retrieved_at": "2026-07-29",
+      "site": "YouTube",
+      "source": "TMDb",
+      "source_url": "https://www.themoviedb.org/movie/1422041/videos",
+      "title": "The Black Ball: Official Trailer | Movistar Plus+",
+      "type": "Trailer",
+      "url": "https://www.youtube.com/watch?v=9NNU-vSeOB0"
+    },
+    "latest_trailer_url": "https://www.youtube.com/watch?v=9NNU-vSeOB0",
+    "poster": "https://image.tmdb.org/t/p/original/8M46fNFLURpRcbc2Vp0AGjrt5fG.jpg",
+    "trailer": "https://www.youtube.com/watch?v=9NNU-vSeOB0"
+  },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260820T140623Z",
-    "profile_version": "phase6a",
+    "awards_intelligence_integrated_at": "2026-08-16T00:00:00Z",
+    "awards_intelligence_source": "academy_nominee_website_card_handoff_v1.json",
+    "generated_at": "slice57_current_discovery_enrichment",
+    "profile_version": "phase6a_registry_canonical_id_bridge_slice57_enriched",
+    "registry": {
+      "discovery_sources": "TIFF",
+      "source_paths": "https://en.wikipedia.org/wiki/2026_Toronto_International_Film_Festival"
+    },
     "source_data_date": "2026-07-20"
   },
   "performance": {
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 4.4776,
-        "retrieved_at": "2026-08-20",
+        "popularity": 3.7173,
+        "retrieved_at": "2026-07-29",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1422041",
         "status": "not_yet_rated"
       }
     },
-    "tmdb_popularity": {
-      "retrieved_at": "2026-08-20",
-      "source": "TMDb",
-      "source_url": "https://www.themoviedb.org/movie/1422041",
-      "value": 4.4776
-    },
+    "tmdb_popularity": 3.7173,
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 4.4776,
-      "retrieved_at": "2026-08-20",
+      "popularity": 3.7173,
+      "retrieved_at": "2026-07-29",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1422041",
       "status": "not_yet_rated"
@@ -335,6 +375,18 @@
         "tmdb_id": "1365884"
       },
       {
+        "profile_url": "film.html?id=1504358",
+        "relationship_score": 66,
+        "shared_signals": [
+          "General Watch",
+          "Drama",
+          "Acting",
+          "Best Picture"
+        ],
+        "title": "Don't Say Good Luck",
+        "tmdb_id": "1504358"
+      },
+      {
         "profile_url": "film.html?id=1487864",
         "relationship_score": 66,
         "shared_signals": [
@@ -347,6 +399,18 @@
         "tmdb_id": "1487864"
       },
       {
+        "profile_url": "film.html?id=1631807",
+        "relationship_score": 66,
+        "shared_signals": [
+          "General Watch",
+          "Drama",
+          "Acting",
+          "Best Picture"
+        ],
+        "title": "The Secret Woman",
+        "tmdb_id": "1631807"
+      },
+      {
         "profile_url": "film.html?id=1437882",
         "relationship_score": 56,
         "shared_signals": [
@@ -357,30 +421,6 @@
         ],
         "title": "A Place in Hell",
         "tmdb_id": "1437882"
-      },
-      {
-        "profile_url": "film.html?id=1286656",
-        "relationship_score": 56,
-        "shared_signals": [
-          "General Watch",
-          "Drama",
-          "Acting",
-          "Best Picture"
-        ],
-        "title": "I Play Rocky",
-        "tmdb_id": "1286656"
-      },
-      {
-        "profile_url": "film.html?id=1558094",
-        "relationship_score": 56,
-        "shared_signals": [
-          "General Watch",
-          "Drama",
-          "Acting",
-          "Best Picture"
-        ],
-        "title": "Let Love In",
-        "tmdb_id": "1558094"
       }
     ],
     "related_people": [
@@ -409,7 +449,7 @@
         "role": "actor"
       },
       {
-        "name": "Pen\u00e9lope Cruz",
+        "name": "Julio Torres",
         "role": "actor"
       }
     ],
@@ -442,13 +482,14 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.085,
+      "audience_momentum": 0.071,
       "awards_relevance": 3.2,
+      "campaign_activity": 1.35,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-20T14:06:00Z",
+    "generated_at": "2026-07-29T21:38:25Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 6.61,
+    "score": 7.946,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -468,6 +509,14 @@
         "value": 8
       },
       {
+        "confidence": 0.9,
+        "contribution": 1.35,
+        "metric_name": "trailer_count",
+        "provider": "trailers",
+        "score_family": "campaign_activity",
+        "value": 1
+      },
+      {
         "confidence": 0.5,
         "contribution": 1.125,
         "metric_name": "legacy_dashboard_credited_talent_count",
@@ -477,34 +526,34 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.085,
+        "contribution": 0.071,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 4.4776
+        "value": 3.7173
       }
     ]
   },
   "signals": {
     "cultural_significance": 19.0,
     "external_intelligence": {
-      "confidence": "High",
-      "headline": "La Bola Negra: popularity increasing",
-      "summary": "TMDb popularity rose from 3.7173 to 4.4776."
+      "confidence": "Low",
+      "headline": "La Bola Negra: no material change detected",
+      "summary": "Current provider signals do not show a supported material change."
     },
-    "last_updated": "2026-10-16",
+    "last_updated": "2026-11-06",
     "latest_event": {
       "confidence": "Inferred",
-      "event_id": "1422041-a759ca9cde92",
+      "event_id": "1422041-ab1be4d2ef6e",
       "event_type": "Release Scheduled",
       "film_id": "1422041",
       "importance": "Medium",
       "metadata": {
-        "release_date": "2026-10-16"
+        "release_date": "2026-11-06"
       },
       "source_type": "metadata",
-      "summary": "Release currently scheduled for In theaters Oct. 16.",
-      "timestamp": "2026-10-16",
+      "summary": "Release currently scheduled for In theaters Nov. 6.",
+      "timestamp": "2026-11-06",
       "title": "Release scheduled"
     },
     "latest_intelligence": "As of 2026-07-18, this is a Netflix release dated 2026-11-06 with Best Picture, Acting, Craft Categories relevance; current awards profile is Craft Potential and data status is developing.",
@@ -514,21 +563,21 @@
     "recent_activity": [
       {
         "confidence": "Inferred",
-        "event_id": "1422041-a759ca9cde92",
+        "event_id": "1422041-ab1be4d2ef6e",
         "event_type": "Release Scheduled",
         "film_id": "1422041",
         "importance": "Medium",
         "metadata": {
-          "release_date": "2026-10-16"
+          "release_date": "2026-11-06"
         },
         "source_type": "metadata",
-        "summary": "Release currently scheduled for In theaters Oct. 16.",
-        "timestamp": "2026-10-16",
+        "summary": "Release currently scheduled for In theaters Nov. 6.",
+        "timestamp": "2026-11-06",
         "title": "Release scheduled"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1422041-5eb94747a6f9",
+        "event_id": "1422041-42469b4807fb",
         "event_type": "Distributor Change",
         "film_id": "1422041",
         "importance": "Medium",
@@ -537,12 +586,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1422041-c44b224ea3b0",
+        "event_id": "1422041-6a8e02f5a3ee",
         "event_type": "Awards Tier Changed",
         "film_id": "1422041",
         "importance": "Medium",
@@ -557,15 +606,15 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],
     "release_relevance": 28.0,
     "screening_room_score": {
-      "confidence": "High",
-      "explanation": "TMDb popularity rose from 3.7173 to 4.4776.",
-      "score": 6.61
+      "confidence": "Low",
+      "explanation": "Current provider signals do not show a supported material change.",
+      "score": 7.946
     },
     "watch_triggers": [
       "Prestige Distributor",
@@ -585,32 +634,35 @@
       "Carlos Gonz\u00e1lez",
       "Milo Quifes",
       "Lola Due\u00f1as",
+      "Julio Torres",
       "Pen\u00e9lope Cruz",
-      "Glenn Close",
-      "Julio Torres"
+      "Glenn Close"
     ],
     "producers": [],
-    "writers": []
+    "writers": [
+      "Javier Ambrossi",
+      "Javier Calvo"
+    ]
   },
   "timeline": {
     "events": [
       {
         "confidence": "Inferred",
-        "event_id": "1422041-a759ca9cde92",
+        "event_id": "1422041-ab1be4d2ef6e",
         "event_type": "Release Scheduled",
         "film_id": "1422041",
         "importance": "Medium",
         "metadata": {
-          "release_date": "2026-10-16"
+          "release_date": "2026-11-06"
         },
         "source_type": "metadata",
-        "summary": "Release currently scheduled for In theaters Oct. 16.",
-        "timestamp": "2026-10-16",
+        "summary": "Release currently scheduled for In theaters Nov. 6.",
+        "timestamp": "2026-11-06",
         "title": "Release scheduled"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1422041-5eb94747a6f9",
+        "event_id": "1422041-42469b4807fb",
         "event_type": "Distributor Change",
         "film_id": "1422041",
         "importance": "Medium",
@@ -619,12 +671,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1422041-c44b224ea3b0",
+        "event_id": "1422041-6a8e02f5a3ee",
         "event_type": "Awards Tier Changed",
         "film_id": "1422041",
         "importance": "Medium",
@@ -639,12 +691,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1422041-66e180d8da2a",
+        "event_id": "1422041-dc0f9ca0e7c9",
         "event_type": "Added To Database",
         "film_id": "1422041",
         "importance": "Low",
@@ -653,7 +705,7 @@
         },
         "source_type": "system",
         "summary": "La Bola Negra is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Added to Awards Intelligence"
       },
       {
@@ -673,36 +725,36 @@
     ],
     "latest_event": {
       "confidence": "Inferred",
-      "event_id": "1422041-a759ca9cde92",
+      "event_id": "1422041-ab1be4d2ef6e",
       "event_type": "Release Scheduled",
       "film_id": "1422041",
       "importance": "Medium",
       "metadata": {
-        "release_date": "2026-10-16"
+        "release_date": "2026-11-06"
       },
       "source_type": "metadata",
-      "summary": "Release currently scheduled for In theaters Oct. 16.",
-      "timestamp": "2026-10-16",
+      "summary": "Release currently scheduled for In theaters Nov. 6.",
+      "timestamp": "2026-11-06",
       "title": "Release scheduled"
     },
     "recent_activity": [
       {
         "confidence": "Inferred",
-        "event_id": "1422041-a759ca9cde92",
+        "event_id": "1422041-ab1be4d2ef6e",
         "event_type": "Release Scheduled",
         "film_id": "1422041",
         "importance": "Medium",
         "metadata": {
-          "release_date": "2026-10-16"
+          "release_date": "2026-11-06"
         },
         "source_type": "metadata",
-        "summary": "Release currently scheduled for In theaters Oct. 16.",
-        "timestamp": "2026-10-16",
+        "summary": "Release currently scheduled for In theaters Nov. 6.",
+        "timestamp": "2026-11-06",
         "title": "Release scheduled"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1422041-5eb94747a6f9",
+        "event_id": "1422041-42469b4807fb",
         "event_type": "Distributor Change",
         "film_id": "1422041",
         "importance": "Medium",
@@ -711,12 +763,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1422041-c44b224ea3b0",
+        "event_id": "1422041-6a8e02f5a3ee",
         "event_type": "Awards Tier Changed",
         "film_id": "1422041",
         "importance": "Medium",
@@ -731,7 +783,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],

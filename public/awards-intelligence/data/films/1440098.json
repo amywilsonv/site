@@ -7,7 +7,7 @@
       "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 64.8,
+    "attention_score": 56.2,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -25,11 +25,6 @@
         "status": "inferred"
       },
       {
-        "evidence": "TMDb popularity 7.6825",
-        "source": "audience_popularity",
-        "status": "verified"
-      },
-      {
         "evidence": "Principal cast listed: Ester Exp\u00f3sito, Hugo Diego Garcia, Eric Masip, Pablo Molinero",
         "source": "cast_interest",
         "status": "verified"
@@ -40,8 +35,8 @@
         "status": "inferred"
       },
       {
-        "evidence": "Trailer URL present",
-        "source": "trailer_available",
+        "evidence": "TMDb popularity 2.9055",
+        "source": "audience_popularity",
         "status": "verified"
       },
       {
@@ -56,14 +51,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 64.8,
+    "homepage_spotlight_score": 56.2,
     "industry_interest": "Moderate",
-    "last_updated": "20260820T140623Z",
-    "promotional_response": "Trailer available",
+    "last_updated": "20260729T213825Z",
+    "promotional_response": null,
     "score_families": {
       "audience/popularity": {
-        "evidence_count": 2,
-        "score": 15.6,
+        "evidence_count": 1,
+        "score": 7.0,
         "statuses": [
           "verified"
         ]
@@ -140,6 +135,23 @@
     "predicted_categories": [],
     "probabilities": {}
   },
+  "awards_intelligence": {
+    "awards_candidate_status": "PROVISIONAL",
+    "awards_status": null,
+    "best_picture_rank": null,
+    "forecast_stage": null,
+    "forecast_stage_label": null,
+    "nominee_probability": null,
+    "percentage_policy": "PERCENTAGES_NOT_READY",
+    "prediction_confidence": null,
+    "probability_is_calibrated": false,
+    "public_card_behavior": "no_awards_badge",
+    "rank_change": null,
+    "ranking_eligibility": "NOT_RANKED",
+    "ranking_last_updated_at": null,
+    "source_artifact": "academy_nominee_website_card_handoff_v1.json",
+    "why_it_ranks": []
+  },
   "commercial": {
     "commercial_significance": 37.0,
     "distributor": "Unknown",
@@ -189,24 +201,24 @@
       "Thriller"
     ],
     "id": "1440098",
-    "imdb_id": "",
+    "imdb_id": "tt36073210",
     "language": "es",
-    "original_title": "Enfrentados: Marfil",
-    "poster": "https://image.tmdb.org/t/p/original/7HH4BtNwt7WYaBN5pwCv0cCww4z.jpg",
+    "original_title": "Marfil",
+    "poster": "https://image.tmdb.org/t/p/original/57kMCgq4vjSk23evNnFBLP6STV3.jpg",
     "profile_payload_url": "data/films/1440098.json",
     "profile_url": "film.html?id=1440098",
     "release_date": "2026-09-09",
     "release_display": "In theaters Sep. 9",
-    "runtime": null,
+    "runtime": 0,
     "synopsis": "Marfil Cort\u00e9s, a daughter of a wealthy Spanish businessman, is kidnapped and released, leading her father to hire Sebastian Moore as a bodyguard. Despite initial clashes, they form an irremediable attraction, navigating a world where no one is who they say they are.",
     "title": "Drawn Together",
     "tmdb_id": "1440098"
   },
   "intelligence": {
-    "confidence": "High",
-    "confidence_score": 0.99,
-    "generated_at": "2026-08-20T14:06:00Z",
-    "headline": "Drawn Together: popularity increasing",
+    "confidence": "Low",
+    "confidence_score": 0.25,
+    "generated_at": "2026-07-29T21:38:25Z",
+    "headline": "Drawn Together: no material change detected",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
       "signal_values": {
@@ -223,89 +235,54 @@
         "streaming_flatrate_provider_count_us": 0,
         "streaming_provider_count_us": 0,
         "tmdb_backdrop_count": 0,
-        "tmdb_canonical_trailer_available": true,
-        "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=WlGzP8FvsfY",
-        "tmdb_popularity": 7.6825,
-        "tmdb_poster_count": 1,
+        "tmdb_canonical_trailer_available": false,
+        "tmdb_popularity": 2.9055,
+        "tmdb_poster_count": 0,
         "tmdb_release_date_us_primary": "2026-09-09",
         "tmdb_release_date_us_theatrical": "",
         "tmdb_release_status": "Planned",
         "tmdb_vote_average": 0,
         "tmdb_vote_count": 0,
         "tmdb_watch_provider_count_us": 0,
-        "trailer_available": true,
-        "trailer_count": 4,
-        "trailer_url": "https://www.youtube.com/watch?v=WlGzP8FvsfY"
+        "trailer_available": false,
+        "trailer_count": 2
       },
-      "source_signal_count": 26,
+      "source_signal_count": 24,
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity rose from 2.9055 to 7.6825. A canonical TMDb trailer URL is available.",
-    "supporting_drivers": [
-      {
-        "confidence_weight": 0.9,
-        "driver_type": "popularity_increasing",
-        "evidence": "TMDb popularity rose from 2.9055 to 7.6825.",
-        "label": "Popularity increasing",
-        "retrieved_at": "2026-08-20T14:06:00Z",
-        "source_metric": "tmdb_popularity",
-        "source_provider": "tmdb",
-        "source_status": "available"
-      },
-      {
-        "confidence_weight": 0.85,
-        "driver_type": "trailer_available",
-        "evidence": "A canonical TMDb trailer URL is available.",
-        "label": "Trailer available",
-        "retrieved_at": "2026-08-20T14:06:00Z",
-        "source_metric": "tmdb_canonical_trailer_url",
-        "source_provider": "tmdb",
-        "source_status": "available"
-      }
-    ]
+    "summary": "Current provider signals do not show a supported material change.",
+    "supporting_drivers": []
   },
   "media": {
-    "canonical_trailer": {
-      "retrieved_at": "2026-08-20",
-      "site": "YouTube",
-      "source": "TMDb",
-      "source_url": "https://www.themoviedb.org/movie/1440098/videos",
-      "title": "Official Trailer [Subtitled]",
-      "type": "Trailer",
-      "url": "https://www.youtube.com/watch?v=WlGzP8FvsfY"
-    },
-    "latest_trailer_url": "https://www.youtube.com/watch?v=WlGzP8FvsfY"
+    "backdrop": "https://image.tmdb.org/t/p/original/1ewgN7tG15VPpYbW0CE3UCXabVD.jpg"
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260820T140623Z",
-    "profile_version": "phase6a",
+    "awards_intelligence_integrated_at": "2026-08-16T00:00:00Z",
+    "awards_intelligence_source": "academy_nominee_website_card_handoff_v1.json",
+    "generated_at": "slice57_current_discovery_enrichment",
+    "profile_version": "phase6a_registry_canonical_id_bridge_slice57_enriched",
     "source_data_date": "2026-07-20"
   },
   "performance": {
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 7.6825,
-        "retrieved_at": "2026-08-20",
+        "popularity": 2.9055,
+        "retrieved_at": "2026-07-29",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1440098",
         "status": "not_yet_rated"
       }
     },
-    "tmdb_popularity": {
-      "retrieved_at": "2026-08-20",
-      "source": "TMDb",
-      "source_url": "https://www.themoviedb.org/movie/1440098",
-      "value": 7.6825
-    },
+    "tmdb_popularity": 2.9055,
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 7.6825,
-      "retrieved_at": "2026-08-20",
+      "popularity": 2.9055,
+      "retrieved_at": "2026-07-29",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1440098",
       "status": "not_yet_rated"
@@ -422,22 +399,22 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.146,
-      "campaign_activity": 5.4,
+      "audience_momentum": 0.055,
+      "campaign_activity": 2.7,
       "talent_profile": 2.925
     },
-    "generated_at": "2026-08-20T14:06:00Z",
+    "generated_at": "2026-07-29T21:38:25Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 8.471,
+    "score": 5.68,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
         "confidence": 0.9,
-        "contribution": 5.4,
+        "contribution": 2.7,
         "metric_name": "trailer_count",
         "provider": "trailers",
         "score_family": "campaign_activity",
-        "value": 4
+        "value": 2
       },
       {
         "confidence": 0.55,
@@ -457,20 +434,20 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.146,
+        "contribution": 0.055,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 7.6825
+        "value": 2.9055
       }
     ]
   },
   "signals": {
     "cultural_significance": 37.0,
     "external_intelligence": {
-      "confidence": "High",
-      "headline": "Drawn Together: popularity increasing",
-      "summary": "TMDb popularity rose from 2.9055 to 7.6825. A canonical TMDb trailer URL is available."
+      "confidence": "Low",
+      "headline": "Drawn Together: no material change detected",
+      "summary": "Current provider signals do not show a supported material change."
     },
     "last_updated": "2026-09-09",
     "latest_event": {
@@ -508,7 +485,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1440098-21c034b1cf59",
+        "event_id": "1440098-0bfec6acd0ff",
         "event_type": "Awards Tier Changed",
         "film_id": "1440098",
         "importance": "Medium",
@@ -518,12 +495,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1440098-f16f40209660",
+        "event_id": "1440098-1b9f57ba6e10",
         "event_type": "Added To Database",
         "film_id": "1440098",
         "importance": "Low",
@@ -532,15 +509,15 @@
         },
         "source_type": "system",
         "summary": "Drawn Together is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Added to Awards Intelligence"
       }
     ],
     "release_relevance": 31.1,
     "screening_room_score": {
-      "confidence": "High",
-      "explanation": "TMDb popularity rose from 2.9055 to 7.6825. A canonical TMDb trailer URL is available.",
-      "score": 8.471
+      "confidence": "Low",
+      "explanation": "Current provider signals do not show a supported material change.",
+      "score": 5.68
     },
     "watch_triggers": [
       "Awards-Season Release",
@@ -561,7 +538,9 @@
       "Joaqu\u00edn Ferreira"
     ],
     "producers": [],
-    "writers": []
+    "writers": [
+      "Sof\u00eda Cuenca"
+    ]
   },
   "timeline": {
     "events": [
@@ -581,7 +560,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1440098-21c034b1cf59",
+        "event_id": "1440098-0bfec6acd0ff",
         "event_type": "Awards Tier Changed",
         "film_id": "1440098",
         "importance": "Medium",
@@ -591,12 +570,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1440098-f16f40209660",
+        "event_id": "1440098-1b9f57ba6e10",
         "event_type": "Added To Database",
         "film_id": "1440098",
         "importance": "Low",
@@ -605,7 +584,7 @@
         },
         "source_type": "system",
         "summary": "Drawn Together is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -640,7 +619,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1440098-21c034b1cf59",
+        "event_id": "1440098-0bfec6acd0ff",
         "event_type": "Awards Tier Changed",
         "film_id": "1440098",
         "importance": "Medium",
@@ -650,12 +629,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1440098-f16f40209660",
+        "event_id": "1440098-1b9f57ba6e10",
         "event_type": "Added To Database",
         "film_id": "1440098",
         "importance": "Low",
@@ -664,7 +643,7 @@
         },
         "source_type": "system",
         "summary": "Drawn Together is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Added to Awards Intelligence"
       }
     ],

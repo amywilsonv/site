@@ -1,0 +1,160 @@
+{
+  "attention_intelligence": {},
+  "awards": {
+    "award_history": [],
+    "awards_tier": "No Current Awards Case",
+    "comparable_nominees": [],
+    "confidence": 0,
+    "current_awards_profile": "Festival Watch",
+    "explanation": "Film-discovery record only; not a nominee forecast.",
+    "predicted_categories": [],
+    "probabilities": {}
+  },
+  "awards_intelligence": {
+    "awards_candidate_status": "DISCOVERY_ONLY",
+    "awards_status": null,
+    "best_picture_rank": null,
+    "forecast_stage": null,
+    "forecast_stage_label": null,
+    "nominee_probability": null,
+    "percentage_policy": "PERCENTAGES_NOT_READY",
+    "prediction_confidence": null,
+    "probability_is_calibrated": false,
+    "public_card_behavior": "no_awards_badge",
+    "rank_change": null,
+    "ranking_eligibility": "NOT_RANKED",
+    "ranking_last_updated_at": null,
+    "source_artifact": "academy_nominee_website_card_handoff_v1.json",
+    "why_it_ranks": []
+  },
+  "commercial": {
+    "commercial_significance": 0,
+    "distributor": "Unknown",
+    "franchise": "",
+    "release_strategy": "",
+    "studio": [
+      "Filmski centar Crne Gore"
+    ]
+  },
+  "diagnostics": {
+    "completeness_score": 0,
+    "confidence": "Source-backed",
+    "missing_fields": [],
+    "relationship_counts": {}
+  },
+  "editorial": {
+    "discovery_reason": "Approved official festival lineup source",
+    "editorial_category": "Festival Watch",
+    "editorial_summary": "Source-backed official approved-festival lineup discovery record.",
+    "importance_tier": "Watchlist",
+    "primary_story": "Official festival lineup discovery",
+    "story_strength": "Developing",
+    "why_it_matters": "Source-backed official approved-festival lineup discovery record."
+  },
+  "festival": {
+    "awards_received": [],
+    "display_status": "Official Selection",
+    "festival_history": [
+      {
+        "festival_name": "Sundance",
+        "festival_year": 2026,
+        "last_updated": "2026-08-16T00:00:00Z",
+        "section": "World Cinema Documentary Competition",
+        "signal": "Official festival lineup source.",
+        "source_url": "https://d2wsrejhnxatgp.cloudfront.net/assest/prod2/Program_Guide.pdf"
+      }
+    ],
+    "festival_status": "Official Selection",
+    "premiere_type": ""
+  },
+  "film_identity": {
+    "backdrop": "https://image.tmdb.org/t/p/original/fgTEyr4hpdEXdsnzZOssqQtipTj.jpg",
+    "canonical_film_id": "festival-7ad406ab5f8ef1e1e767bd68",
+    "country": [
+      "RS",
+      "FR",
+      "ME",
+      "SI",
+      "HR",
+      "BE"
+    ],
+    "genres": [
+      "Documentary"
+    ],
+    "id": "festival-7ad406ab5f8ef1e1e767bd68",
+    "imdb_id": "tt39150043",
+    "language": "sr",
+    "original_title": "To Hold a Mountain",
+    "poster": "https://image.tmdb.org/t/p/original/aQZIVIjqmxUe4nYP0BVEjlcfNXt.jpg",
+    "profile_id": "festival-7ad406ab5f8ef1e1e767bd68",
+    "profile_payload_url": "data/films/festival-7ad406ab5f8ef1e1e767bd68.json",
+    "profile_url": "film.html?id=festival-7ad406ab5f8ef1e1e767bd68",
+    "release_date": "2026-01-26",
+    "release_display": "2026-01-26",
+    "runtime": 105,
+    "synopsis": "In the remote highlands of Montenegro, a shepherd mother and daughter proudly defend their ancestral mountain from the threat of becoming a NATO military training ground, stirring memories of the violence that shattered their family.",
+    "title": "To Hold a Mountain",
+    "tmdb_id": "1596276"
+  },
+  "media": {
+    "backdrop": "https://image.tmdb.org/t/p/original/fgTEyr4hpdEXdsnzZOssqQtipTj.jpg",
+    "poster": "https://image.tmdb.org/t/p/original/aQZIVIjqmxUe4nYP0BVEjlcfNXt.jpg",
+    "trailer": ""
+  },
+  "metadata": {
+    "algorithm_version": "phase5b",
+    "awards_intelligence_integrated_at": "2026-08-16T00:00:00Z",
+    "awards_intelligence_source": "academy_nominee_website_card_handoff_v1.json",
+    "generated_at": "slice57_current_discovery_enrichment",
+    "profile_version": "phase6a_registry_canonical_id_bridge_slice57_enriched",
+    "registry": {
+      "canonical_film_id": "festival-7ad406ab5f8ef1e1e767bd68",
+      "discovery_sources": "Sundance",
+      "first_seen_date": "2026-08-16",
+      "source_paths": "https://d2wsrejhnxatgp.cloudfront.net/assest/prod2/Program_Guide.pdf",
+      "tmdb_enriched_at": "2026-08-16",
+      "tmdb_enrichment_source": "slice_56_high_confidence_recoverability_audit"
+    },
+    "source_data_date": "2026-08-15"
+  },
+  "performance": {
+    "tmdb_popularity": 4.0822
+  },
+  "ratings": {
+    "tmdb": {
+      "popularity": 4.0822,
+      "rating": 8.0,
+      "vote_count": 1
+    }
+  },
+  "related": {
+    "related_films": [],
+    "related_people": [],
+    "related_studios": []
+  },
+  "signals": {
+    "cultural_significance": 0,
+    "latest_intelligence": "To Hold a Mountain entered film discovery via approved source-backed metadata.",
+    "momentum": 0,
+    "narrative_importance": 0,
+    "next_signal": "Monitor distributor, release, and TMDb enrichment updates.",
+    "release_relevance": 0,
+    "watch_triggers": [
+      "Official Festival Lineup"
+    ],
+    "whats_changed": "Added through canonical registry current-season export bridge."
+  },
+  "talent": {
+    "director": "Biljana Tutorov",
+    "principal_cast": [
+      "Mileva Gara Jovanovi\u0107",
+      "Nada Stani\u0161i\u0107"
+    ],
+    "producers": [],
+    "writers": []
+  },
+  "timeline": {
+    "events": [],
+    "supported_event_types": []
+  }
+}

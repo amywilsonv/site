@@ -45,7 +45,7 @@
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 0.8797",
+        "evidence": "TMDb popularity 0.9091",
         "source": "audience_popularity",
         "status": "verified"
       }
@@ -53,7 +53,7 @@
     "homepage_spotlight_override": null,
     "homepage_spotlight_score": 46.9,
     "industry_interest": null,
-    "last_updated": "20260820T140623Z",
+    "last_updated": "20260729T213825Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
@@ -140,6 +140,23 @@
     ],
     "probabilities": {}
   },
+  "awards_intelligence": {
+    "awards_candidate_status": "PROVISIONAL",
+    "awards_status": null,
+    "best_picture_rank": null,
+    "forecast_stage": null,
+    "forecast_stage_label": null,
+    "nominee_probability": null,
+    "percentage_policy": "PERCENTAGES_NOT_READY",
+    "prediction_confidence": null,
+    "probability_is_calibrated": false,
+    "public_card_behavior": "no_awards_badge",
+    "rank_change": null,
+    "ranking_eligibility": "NOT_RANKED",
+    "ranking_last_updated_at": null,
+    "source_artifact": "academy_nominee_website_card_handoff_v1.json",
+    "why_it_ranks": []
+  },
   "commercial": {
     "commercial_significance": 19.0,
     "distributor": "Netflix",
@@ -152,9 +169,11 @@
     ]
   },
   "diagnostics": {
-    "completeness_score": 100,
+    "completeness_score": 89,
     "confidence": "High",
-    "missing_fields": [],
+    "missing_fields": [
+      "runtime"
+    ],
     "relationship_counts": {
       "related_films": 6,
       "related_people": 7,
@@ -187,7 +206,7 @@
       "Drama"
     ],
     "id": "1365884",
-    "imdb_id": "",
+    "imdb_id": "tt38267923",
     "language": "fr",
     "original_title": "Dix Pour Cent ! Le Film",
     "poster": "https://image.tmdb.org/t/p/original/s0NJyZcmuG91MgFwflfGyQFeg41.jpg",
@@ -195,15 +214,15 @@
     "profile_url": "film.html?id=1365884",
     "release_date": "2026-09-10",
     "release_display": "In theaters Sep. 10",
-    "runtime": 117,
-    "synopsis": "Five years after ASK Agency closed, debut director Andr\u00e9a loses her lead actor just days before filming and reunited with her old team \u2014 for better or worse.",
+    "runtime": 0,
+    "synopsis": "Five years after the series finale, Andr\u00e9a Martel is now a director on her first film. Things, however, are not running smoothly. When her lead actor drops days before cameras are set to roll, she must get the team back together, rekindling all the old friendships and rivalries.",
     "title": "Call My Agent! The Movie",
     "tmdb_id": "1365884"
   },
   "intelligence": {
     "confidence": "Low",
     "confidence_score": 0.25,
-    "generated_at": "2026-08-20T14:06:00Z",
+    "generated_at": "2026-07-29T21:38:25Z",
     "headline": "Call My Agent! The Movie: no material change detected",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -222,7 +241,7 @@
         "streaming_provider_count_us": 0,
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": false,
-        "tmdb_popularity": 0.8797,
+        "tmdb_popularity": 0.9091,
         "tmdb_poster_count": 0,
         "tmdb_release_date_us_primary": "2026-09-10",
         "tmdb_release_date_us_theatrical": "",
@@ -240,36 +259,36 @@
     "summary": "Current provider signals do not show a supported material change.",
     "supporting_drivers": []
   },
-  "media": {},
+  "media": {
+    "backdrop": "https://image.tmdb.org/t/p/original/glef8XbizwfHKfY274aOMZtiJnL.jpg",
+    "poster": "https://image.tmdb.org/t/p/original/s0NJyZcmuG91MgFwflfGyQFeg41.jpg"
+  },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260820T140623Z",
-    "profile_version": "phase6a",
+    "awards_intelligence_integrated_at": "2026-08-16T00:00:00Z",
+    "awards_intelligence_source": "academy_nominee_website_card_handoff_v1.json",
+    "generated_at": "slice57_current_discovery_enrichment",
+    "profile_version": "phase6a_registry_canonical_id_bridge_slice57_enriched",
     "source_data_date": "2026-07-20"
   },
   "performance": {
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 0.8797,
-        "retrieved_at": "2026-08-20",
+        "popularity": 0.9091,
+        "retrieved_at": "2026-07-29",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1365884",
         "status": "not_yet_rated"
       }
     },
-    "tmdb_popularity": {
-      "retrieved_at": "2026-08-20",
-      "source": "TMDb",
-      "source_url": "https://www.themoviedb.org/movie/1365884",
-      "value": 0.8797
-    },
+    "tmdb_popularity": 0.9091,
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 0.8797,
-      "retrieved_at": "2026-08-20",
+      "popularity": 0.9091,
+      "retrieved_at": "2026-07-29",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1365884",
       "status": "not_yet_rated"
@@ -277,6 +296,18 @@
   },
   "related": {
     "related_films": [
+      {
+        "profile_url": "film.html?id=1504358",
+        "relationship_score": 72,
+        "shared_signals": [
+          "General Watch",
+          "Comedy",
+          "Drama",
+          "Acting"
+        ],
+        "title": "Don't Say Good Luck",
+        "tmdb_id": "1504358"
+      },
       {
         "profile_url": "film.html?id=1422041",
         "relationship_score": 66,
@@ -302,6 +333,18 @@
         "tmdb_id": "1487864"
       },
       {
+        "profile_url": "film.html?id=1631807",
+        "relationship_score": 66,
+        "shared_signals": [
+          "General Watch",
+          "Drama",
+          "Acting",
+          "Best Picture"
+        ],
+        "title": "The Secret Woman",
+        "tmdb_id": "1631807"
+      },
+      {
         "profile_url": "film.html?id=1654566",
         "relationship_score": 62,
         "shared_signals": [
@@ -324,30 +367,6 @@
         ],
         "title": "A Place in Hell",
         "tmdb_id": "1437882"
-      },
-      {
-        "profile_url": "film.html?id=1504358",
-        "relationship_score": 56,
-        "shared_signals": [
-          "Comedy",
-          "Drama",
-          "Acting",
-          "Best Picture"
-        ],
-        "title": "Don't Say Good Luck",
-        "tmdb_id": "1504358"
-      },
-      {
-        "profile_url": "film.html?id=1286656",
-        "relationship_score": 56,
-        "shared_signals": [
-          "General Watch",
-          "Drama",
-          "Acting",
-          "Best Picture"
-        ],
-        "title": "I Play Rocky",
-        "tmdb_id": "1286656"
       }
     ],
     "related_people": [
@@ -405,7 +424,7 @@
       "awards_relevance": 2.4,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-20T14:06:00Z",
+    "generated_at": "2026-07-29T21:38:25Z",
     "schema_version": "phase3_screening_room_score_v1",
     "score": 5.742,
     "source": "derived_screening_room_score",
@@ -440,7 +459,7 @@
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 0.8797
+        "value": 0.9091
       }
     ]
   },
@@ -487,7 +506,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1365884-3c711fac0f0f",
+        "event_id": "1365884-80453028c886",
         "event_type": "Distributor Change",
         "film_id": "1365884",
         "importance": "Medium",
@@ -496,12 +515,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1365884-fef0d6b1d5c5",
+        "event_id": "1365884-6e1643e5a31b",
         "event_type": "Awards Tier Changed",
         "film_id": "1365884",
         "importance": "Medium",
@@ -515,7 +534,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],
@@ -546,7 +565,10 @@
       "Oph\u00e9lia Kolb"
     ],
     "producers": [],
-    "writers": []
+    "writers": [
+      "Fanny Herrero",
+      "Lison Daniel"
+    ]
   },
   "timeline": {
     "events": [
@@ -566,7 +588,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1365884-3c711fac0f0f",
+        "event_id": "1365884-80453028c886",
         "event_type": "Distributor Change",
         "film_id": "1365884",
         "importance": "Medium",
@@ -575,12 +597,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1365884-fef0d6b1d5c5",
+        "event_id": "1365884-6e1643e5a31b",
         "event_type": "Awards Tier Changed",
         "film_id": "1365884",
         "importance": "Medium",
@@ -594,12 +616,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1365884-3e2f2558ad93",
+        "event_id": "1365884-52a980efa7b8",
         "event_type": "Added To Database",
         "film_id": "1365884",
         "importance": "Low",
@@ -608,7 +630,7 @@
         },
         "source_type": "system",
         "summary": "Call My Agent! The Movie is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -643,7 +665,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1365884-3c711fac0f0f",
+        "event_id": "1365884-80453028c886",
         "event_type": "Distributor Change",
         "film_id": "1365884",
         "importance": "Medium",
@@ -652,12 +674,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1365884-fef0d6b1d5c5",
+        "event_id": "1365884-6e1643e5a31b",
         "event_type": "Awards Tier Changed",
         "film_id": "1365884",
         "importance": "Medium",
@@ -671,7 +693,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],

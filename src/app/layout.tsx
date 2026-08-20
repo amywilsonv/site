@@ -1,13 +1,19 @@
 import type { Metadata } from "next";
-import { Bricolage_Grotesque, Geist_Mono } from "next/font/google";
+import { Geist_Mono, Instrument_Sans, Newsreader } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 import { Nav } from "@/components/nav";
 
-const bricolage = Bricolage_Grotesque({
+const instrumentSans = Instrument_Sans({
   variable: "--font-sans",
   subsets: ["latin"],
-  weight: ["300", "400", "500", "600"],
+  weight: ["400", "500", "600", "700"],
+});
+const newsreader = Newsreader({
+  variable: "--font-serif",
+  subsets: ["latin"],
+  weight: ["400"],
+  style: ["italic"],
 });
 const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
 
@@ -24,14 +30,14 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${bricolage.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${instrumentSans.variable} ${newsreader.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
-        <div className="w-full px-6 sm:px-10 lg:px-16">
+        <div className="w-full px-5 sm:px-8">
           <Nav />
         </div>
         <main className="flex-1 w-full">
-          <div className="max-w-5xl mx-auto px-6 sm:px-10 lg:px-16">
+          <div className="mx-auto w-full max-w-[994px] px-5 sm:px-8">
             {children}
           </div>
         </main>

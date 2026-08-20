@@ -7,14 +7,14 @@ const state = {
   timing: "",
   query: "",
   visible: 30,
-  hoverTimer: null,
 };
 
 const SCREENING_ROOM_NAV = {
-  home: { key: "home", label: "Home", route: "home", view: "", hash: "" },
+  home: { key: "home", label: "Spotlight", route: "home", view: "", hash: "" },
   discover: { key: "discover", label: "Discover", route: "discover", view: "all", hash: "#discover" },
   festivals: { key: "festivals", label: "Festival Radar", route: "discover", view: "festivals", hash: "#festival-radar" },
-  awards: { key: "awards", label: "Awards Intelligence", route: "discover", view: "awards", hash: "#awards-intelligence" },
+  awards: { key: "awards", label: "Awards Intelligence", route: "awards", view: "", hash: "#awards-intelligence" },
+  about: { key: "about", label: "About", route: "about", view: "", hash: "#about" },
 };
 
 const DISCOVERY_STATE_KEY = "screening-room:return-context";
@@ -59,10 +59,9 @@ const GENERIC_DISCOVER_TAGS = new Set(["Film", "On the Radar", "General Watch", 
 
 const home = document.getElementById("homeView");
 const discover = document.getElementById("discoverView");
-const preview = document.getElementById("hoverPreview");
+const about = document.getElementById("aboutView");
 const modal = document.getElementById("filmModal");
 const scrim = document.getElementById("modalScrim");
-const aboutPanel = document.getElementById("aboutPanel");
 const SCREENING_ROOM_SCORE_METHODOLOGY = {
   range: "0 to 140 points",
   families: [
@@ -94,6 +93,7 @@ async function init() {
     wireNavigation();
     renderHome();
     renderDiscover();
+    renderAbout();
     setRoute(routeFromLocation(), { replace: true });
   } catch (error) {
     document.body.innerHTML = `<main class="app-shell">${errorState("Discovery data could not load", error.message, "Refresh the page or check that dashboard/data/discovery_homepage.json exists.")}</main>`;
@@ -120,18 +120,14 @@ function wireNavigation() {
   if (window.AwardsSearch) {
     AwardsSearch.wireGlobalSearch(document.getElementById("globalSearch"), document.getElementById("searchPanel"));
   }
-  document.querySelectorAll("[data-about-open]").forEach((button) => button.addEventListener("click", openAbout));
   window.addEventListener("popstate", () => setRoute(routeFromLocation(), { replace: true }));
   window.addEventListener("hashchange", () => setRoute(routeFromLocation(), { replace: true }));
   document.addEventListener("keydown", (event) => {
     if (event.key === "Escape") {
-      preview.classList.remove("open");
       closeModal();
-      closeAbout();
     }
   });
   scrim.addEventListener("click", closeModal);
-  scrim.addEventListener("click", closeAbout);
 }
 
 function renderLoadingShell() {
@@ -159,20 +155,19 @@ function renderLoadingShell() {
 
 function renderHome() {
   const h = state.homepage;
-  const spotlight = h.spotlight || spotlightFromFirstCard(h.screening_room[0]);
+  const spotlight = h.homepage_hero || spotlightFromFirstCard(h.awards_watch?.[0] || h.screening_room[0]);
   const festivalItems = state.discover?.views?.festivals?.all_items || [];
   home.innerHTML = `
-    ${routeHeading(SCREENING_ROOM_NAV.home.label, "Films worth following.", "homeRouteHeading")}
     ${renderLastUpdatedIndicator(h.metadata?.last_updated)}
-    ${methodologyIntro()}
     ${nowInFocus(spotlight)}
-    ${comingSoonSection(dedupeItems(h.opening_soon, [spotlight.tmdb_id]))}
+    ${newNotableSection(dedupeItems(h.new_notable || h.screening_room, [filmPublicId({ tile: spotlight })]))}
+    ${comingSoonSection(dedupeItems(h.opening_soon, [filmPublicId({ tile: spotlight })]))}
     ${festivalRadarSection(festivalItems, h.latest_signals || [])}
     ${awardsBriefingSection(h.awards_watch || [])}
     ${changesSection(h.latest_signals || [])}
   `;
   wireContent(home);
-  track("spotlight_viewed", { tmdb_id: spotlight.tmdb_id, title: spotlight.title });
+  track("spotlight_viewed", { profile_id: filmPublicId({ tile: spotlight }), tmdb_id: spotlight.tmdb_id, title: spotlight.title });
   home.querySelectorAll("[data-collection]").forEach((section) => {
     track("collection_viewed", { collection: section.dataset.collection });
   });
@@ -184,15 +179,6 @@ function routeHeading(title, subtitle = "", id = "routeHeading") {
       <h1 id="${escapeHtml(id)}">${escapeHtml(title)}</h1>
       ${subtitle ? `<p>${escapeHtml(subtitle)}</p>` : ""}
     </section>
-  `;
-}
-
-function methodologyIntro() {
-  return `
-    <div class="methodology-strip">
-      <span>The Screening Room Score combines available momentum, campaign, availability, awards/festival, and talent signals.</span>
-      <button class="methodology-link" type="button" data-methodology-open aria-haspopup="dialog">How the Screening Room Score works</button>
-    </div>
   `;
 }
 
@@ -210,16 +196,17 @@ function formatLastUpdatedDate(value) {
 
 function nowInFocus(spotlight) {
   const backdrop = heroBackdrop(spotlight);
-  const label = spotlightPrimaryLabel(spotlight);
-  const meta = [spotlight.release_display, label].filter(Boolean).join(" · ");
+  const item = findItem(filmPublicId({ tile: spotlight }));
+  const awardsMeta = awardsMetaForSpotlight(spotlight, item);
   return `
-    <article class="now-focus" data-spotlight-id="${escapeHtml(spotlight.tmdb_id || "")}">
+    <article class="now-focus" data-spotlight-id="${escapeHtml(filmPublicId({ tile: spotlight }))}">
       <div class="now-focus-copy">
         <p class="eyebrow">Now in Focus</p>
         <h2>${escapeHtml(spotlight.title || "Now in Focus")}</h2>
-        <p class="focus-hook">${escapeHtml(spotlightLead(spotlight))}</p>
-        ${meta ? `<p class="focus-release">${escapeHtml(meta)}</p>` : ""}
-        <button class="spotlight-action" type="button" data-signal="${escapeHtml(spotlight.tmdb_id || "")}">View Film <span aria-hidden="true">→</span></button>
+        <p class="focus-hook">${escapeHtml(spotlightLead(spotlight, item))}</p>
+        ${awardsMeta.status ? awardsMarker(awardsMeta, "hero") : ""}
+        ${spotlight.release_display ? `<p class="focus-release">${escapeHtml(spotlight.release_display)}</p>` : ""}
+        <button class="spotlight-action" type="button" data-signal="${escapeHtml(filmPublicId({ tile: spotlight }))}">View Film <span aria-hidden="true">→</span></button>
       </div>
       <div class="now-focus-image">
         ${backdrop ? `<img src="${escapeHtml(backdrop)}" alt="${escapeHtml(spotlight.title || "Featured film")}">` : `<div class="now-focus-placeholder">${escapeHtml(spotlight.title || "Featured film")}</div>`}
@@ -232,23 +219,25 @@ function heroBackdrop(spotlight) {
   return spotlight.backdrop_url || spotlight.backdropUrl || spotlight.hero_image || spotlight.heroImage || spotlight.landscape_image || spotlight.landscapeImage || spotlight.still_image || spotlight.stillImage || "";
 }
 
-function spotlightLead(spotlight) {
-  if ((spotlight.title || "").toLowerCase() === "the odyssey") {
-    return "Christopher Nolan’s next epic combines blockbuster scale with major cultural and awards attention.";
-  }
-  return spotlight.attention_hook || "A film with current cultural, festival, release, or awards signals worth watching.";
+function spotlightLead(spotlight, item) {
+  return editorialAwardsExplanation(item || { tile: spotlight, detail: spotlight }, {
+    fallback: spotlight.attention_hook,
+    status: spotlight.awards_status,
+    rank: spotlight.best_picture_rank,
+  });
 }
 
-function spotlightPrimaryLabel(spotlight) {
-  if ((spotlight.title || "").toLowerCase() === "the odyssey" && (spotlight.signal_labels || []).includes("Event Film")) {
-    return "Event Film";
-  }
-  return chooseContextualLabel([
-    ...(spotlight.contextual_labels?.labels || []),
-    spotlight.contextual_labels?.primary_label,
-    spotlight.primary_label,
-    ...(spotlight.signal_labels || []),
-  ]);
+function newNotableSection(items) {
+  const clean = dedupeItems(items, []);
+  if (!clean.length) return "";
+  return `
+    <section class="home-section new-notable-section" data-collection="new-notable" aria-labelledby="newNotableTitle">
+      ${sectionHeader("New & Notable", "Discovery picks from the full Film Discovery Universe.", "", "newNotableTitle")}
+      <div class="poster-grid supporting compact-home-grid">
+        ${clean.slice(0, 8).map((item) => card(item, "single-label")).join("")}
+      </div>
+    </section>
+  `;
 }
 
 function sectionHeader(title, subtitle, action = "", id = "") {
@@ -279,7 +268,7 @@ function comingSoonSection(items) {
 function releaseCard(item) {
   const label = chooseComingSoonLabel(item);
   return `
-    <button class="release-card" type="button" data-id="${escapeHtml(item.tile.tmdb_id)}" aria-label="Open ${escapeHtml(item.tile.title)}">
+    <button class="release-card" type="button" data-id="${escapeHtml(filmPublicId(item))}" aria-label="Open ${escapeHtml(item.tile.title)}">
       <span class="release-poster-wrap">
         ${item.tile.poster_url ? `<img class="release-poster" src="${escapeHtml(item.tile.poster_url)}" alt="${escapeHtml(item.tile.poster_alt)}">` : `<span class="release-placeholder">${escapeHtml(item.tile.title)}</span>`}
       </span>
@@ -292,21 +281,23 @@ function releaseCard(item) {
 
 function festivalRadarSection(items, signals) {
   const clean = dedupeItems(items, []);
-  const action = `<button class="section-action" type="button" data-explore="festivals">View all</button>`;
+  const preview = clean.slice(0, 10);
+  const action = `<button class="section-action" type="button" data-explore="festivals">View all${clean.length ? ` ${clean.length}` : ""}</button>`;
   return `
     <section class="home-section festival-bulletin" data-collection="festival-radar" aria-labelledby="festivalRadarTitle">
       ${sectionHeader("Festival Radar", "Verified festival signals worth tracking.", action, "festivalRadarTitle")}
-      ${clean.length ? `<div class="festival-list">${clean.map((item) => festivalItem(item, signals)).join("")}</div>` : emptyState("No verified festival signals yet.", "Festival updates will appear here after they are supported by the current dataset.")}
+      ${preview.length ? `<div class="festival-list">${preview.map((item) => festivalItem(item, signals)).join("")}</div>` : emptyState("No verified festival signals yet.", "Festival updates will appear here after they are supported by the current dataset.")}
     </section>
   `;
 }
 
 function festivalItem(item, signals) {
-  const signal = signals.find((entry) => entry.tmdb_id === item.tile.tmdb_id && /festival|selected|opening-night|premiere|nyff/i.test(entry.signal || ""));
+  const id = filmPublicId(item);
+  const signal = signals.find((entry) => filmPublicId({ tile: entry }) === id && /festival|selected|opening-night|premiere|nyff/i.test(entry.signal || ""));
   const note = normalizeSignalCopy(signal?.signal || item.detail.whats_changed || item.detail.festival_display_status || "");
   const context = festivalContextLabel(note, item);
   return `
-    <button class="festival-item" type="button" data-id="${escapeHtml(item.tile.tmdb_id)}" aria-label="Open ${escapeHtml(item.tile.title)}">
+    <button class="festival-item" type="button" data-id="${escapeHtml(filmPublicId(item))}" aria-label="Open ${escapeHtml(item.tile.title)}">
       ${item.tile.poster_url ? `<img src="${escapeHtml(item.tile.poster_url)}" alt="${escapeHtml(item.tile.poster_alt)}">` : `<span class="festival-thumb-placeholder">${escapeHtml(item.tile.title)}</span>`}
       <span>
         <small>${escapeHtml(context)}</small>
@@ -320,30 +311,172 @@ function festivalItem(item, signals) {
 function awardsBriefingSection(items) {
   const clean = dedupeItems(items, []);
   if (!clean.length) return "";
-  const action = `<button class="section-action" type="button" data-explore="awards">View all</button>`;
+  const action = `<button class="section-action" type="button" data-route="awards">View the full race <span aria-hidden="true">→</span></button>`;
   return `
     <section class="home-section awards-briefing" data-collection="awards-intelligence" aria-labelledby="awardsIntelligenceTitle">
-      ${sectionHeader("Awards Intelligence", "Current awards context without treating monitoring as prediction.", action, "awardsIntelligenceTitle")}
+      ${sectionHeader("Awards Watch", "Stabilized early-season outlook from Awards Intelligence.", action, "awardsIntelligenceTitle")}
       <div class="awards-brief-grid">
-        ${clean.slice(0, 6).map(awardsBriefCard).join("")}
+        ${clean.slice(0, 8).map(awardsBriefCard).join("")}
       </div>
-      <button class="awards-mobile-link" type="button" data-explore="awards">View all awards intelligence <span aria-hidden="true">→</span></button>
+      <button class="awards-mobile-link" type="button" data-route="awards">View the full race <span aria-hidden="true">→</span></button>
     </section>
   `;
 }
 
 function awardsBriefCard(item) {
-  const label = chooseCardLabel(item, "section-awards-intelligence") || item.detail.awards_profile || "Awards Watch";
+  const ai = awardsIntelligenceForItem(item);
   const explanation = homepageAwardsExplanation(item);
   return `
-    <button class="awards-brief-card" type="button" data-id="${escapeHtml(item.tile.tmdb_id)}" aria-label="Open ${escapeHtml(item.tile.title)}">
+    <button class="awards-brief-card" type="button" data-id="${escapeHtml(filmPublicId(item))}" aria-label="Open ${escapeHtml(item.tile.title)}">
       ${item.tile.poster_url ? `<img src="${escapeHtml(item.tile.poster_url)}" alt="${escapeHtml(item.tile.poster_alt)}">` : `<span class="awards-thumb-placeholder">${escapeHtml(item.tile.title)}</span>`}
       <span>
-        <small>${escapeHtml(label)}</small>
+        ${awardsMarker(ai, "brief")}
         <strong>${escapeHtml(item.tile.title)}</strong>
         ${explanation ? `<em>${escapeHtml(explanation)}</em>` : ""}
       </span>
     </button>
+  `;
+}
+
+function renderAwardsIntelligence() {
+  const items = awardsRaceItems();
+  const leader = items[0];
+  const primaryRace = items.filter((item) => ["AWARDS LEADER", "STRONG CONTENDER", "CONTENDER"].includes(awardsIntelligenceForItem(item).awards_status));
+  const bubble = items.filter((item) => awardsIntelligenceForItem(item).awards_status === "ON THE BUBBLE");
+  const watchlist = items.filter((item) => awardsIntelligenceForItem(item).awards_status === "WATCHLIST");
+  const stage = publicForecastStage(leader);
+  discover.innerHTML = `
+    <section class="awards-intelligence-route" aria-labelledby="awardsRouteHeading">
+      <div class="awards-kicker">
+        <span>Awards Intelligence</span>
+        <span>Best Picture</span>
+        <span>2027 Academy Awards</span>
+      </div>
+      <div class="awards-route-head">
+        <div>
+          <p class="eyebrow">${escapeHtml(stage.label)}</p>
+          <h1 id="awardsRouteHeading">Best Picture Forecast</h1>
+          <p>The current model-driven view of the Best Picture race. This forecast will evolve as festival, precursor, release, and campaign signals arrive through the season.</p>
+        </div>
+        <div class="awards-stage-card" aria-label="Current forecast stage">
+          <strong>${escapeHtml(stage.shortLabel)}</strong>
+          <span>${escapeHtml(stage.detail)}</span>
+          ${stage.updated ? `<small>Updated ${escapeHtml(stage.updated)}</small>` : ""}
+        </div>
+      </div>
+      ${leader ? awardsLeaderHero(leader) : emptyState("No public Best Picture forecast yet.", "Awards Intelligence will appear here when public-rankable contenders are available.")}
+      ${primaryRace.length ? awardsRaceSection(primaryRace) : ""}
+      ${bubble.length ? awardsQuietGroup("On The Bubble", "Films near the edge of the current public forecast, pending stronger season evidence.", bubble) : ""}
+      ${watchlist.length ? awardsQuietGroup("Awards Watch", "Films tracked for possible movement as additional public awards evidence develops.", watchlist) : ""}
+      ${awardsHowToRead(stage)}
+    </section>
+  `;
+  wireContent(discover);
+  track("collection_viewed", { collection: "awards-intelligence-race" });
+}
+
+function awardsLeaderHero(item) {
+  const ai = awardsIntelligenceForItem(item);
+  const image = item.detail.backdrop_url || item.tile.backdrop_url || item.tile.poster_url || item.detail.poster_url || "";
+  return `
+    <article class="awards-leader-hero">
+      <div class="awards-leader-copy">
+        ${awardsMarker(ai, "leader")}
+        <h2>${escapeHtml(item.tile.title)}</h2>
+        <p>${escapeHtml(editorialAwardsExplanation(item))}</p>
+        ${item.tile.release_display ? `<span class="awards-release-line">${escapeHtml(item.tile.release_display)}</span>` : ""}
+        ${movementMarker(ai)}
+        <button class="spotlight-action" type="button" data-signal="${escapeHtml(filmPublicId(item))}">View Film <span aria-hidden="true">→</span></button>
+      </div>
+      <div class="awards-leader-image">
+        ${image ? `<img src="${escapeHtml(image)}" alt="${escapeHtml(item.tile.title)}">` : `<span>${escapeHtml(item.tile.title)}</span>`}
+      </div>
+    </article>
+  `;
+}
+
+function awardsRaceSection(items) {
+  return `
+    <section class="awards-race-section" aria-labelledby="awardsRaceHeading">
+      <div class="section-head editorial-head">
+        <div>
+          <p class="eyebrow">The Race</p>
+          <h2 id="awardsRaceHeading">Ranked Contenders</h2>
+        </div>
+      </div>
+      <div class="awards-race-list">
+        ${items.map((item) => awardsRaceRow(item)).join("")}
+      </div>
+    </section>
+  `;
+}
+
+function awardsRaceRow(item) {
+  const ai = awardsIntelligenceForItem(item);
+  return `
+    <button class="awards-race-row" type="button" data-id="${escapeHtml(filmPublicId(item))}" aria-label="Open ${escapeHtml(item.tile.title)}">
+      ${awardsIndex(ai)}
+      ${item.tile.poster_url ? `<img src="${escapeHtml(item.tile.poster_url)}" alt="${escapeHtml(item.tile.poster_alt)}">` : `<span class="awards-race-placeholder">${escapeHtml(item.tile.title)}</span>`}
+      <span class="awards-race-copy">
+        <strong>${escapeHtml(item.tile.title)}</strong>
+        <em>${escapeHtml(editorialAwardsExplanation(item))}</em>
+        ${item.tile.release_display ? `<small>${escapeHtml(item.tile.release_display)}</small>` : ""}
+      </span>
+      ${movementMarker(ai)}
+    </button>
+  `;
+}
+
+function awardsQuietGroup(title, description, items) {
+  return `
+    <section class="awards-quiet-group" aria-labelledby="${escapeHtml(slugify(title))}">
+      <div class="section-head editorial-head">
+        <div>
+          <p class="eyebrow">${escapeHtml(title)}</p>
+          <h2 id="${escapeHtml(slugify(title))}">${escapeHtml(title)}</h2>
+          <p>${escapeHtml(description)}</p>
+        </div>
+      </div>
+      <div class="awards-quiet-list">
+        ${items.map((item) => awardsQuietRow(item)).join("")}
+      </div>
+    </section>
+  `;
+}
+
+function awardsQuietRow(item) {
+  const ai = awardsIntelligenceForItem(item);
+  return `
+    <button class="awards-quiet-row" type="button" data-id="${escapeHtml(filmPublicId(item))}" aria-label="Open ${escapeHtml(item.tile.title)}">
+      ${awardsIndex(ai)}
+      <span>
+        <strong>${escapeHtml(item.tile.title)}</strong>
+        <em>${escapeHtml(editorialAwardsExplanation(item))}</em>
+      </span>
+      ${movementMarker(ai)}
+    </button>
+  `;
+}
+
+function awardsIndex(ai) {
+  const rank = Number(ai?.best_picture_rank);
+  if (!Number.isFinite(rank)) return `<span class="awards-list-index" aria-hidden="true">—</span>`;
+  return `<span class="awards-list-index" aria-label="Current rank ${escapeHtml(rank)}">${escapeHtml(String(rank).padStart(2, "0"))}</span>`;
+}
+
+function awardsHowToRead(stage) {
+  const steps = ["Early Season", "Festival Season", "Precursors", "Final Forecast"];
+  return `
+    <section class="awards-reading-guide" aria-labelledby="awardsReadHeading">
+      <div>
+        <p class="eyebrow">${escapeHtml(stage.shortLabel)}</p>
+        <h2 id="awardsReadHeading">How to read this forecast</h2>
+        <p>The forecast currently relies on release information, film characteristics, and available festival or awards signals. As the season progresses, additional awards indicators will enter the public view.</p>
+      </div>
+      <ol class="season-steps" aria-label="Awards season progression">
+        ${steps.map((step, index) => `<li class="${index === 0 ? "active" : ""}"><span>${escapeHtml(step)}</span></li>`).join("")}
+      </ol>
+    </section>
   `;
 }
 
@@ -365,7 +498,7 @@ function changesSection(signals) {
             <p class="dispatch-date">${escapeHtml(formatDateline(date))}</p>
             ${entries.map((signal) => `
               <article class="dispatch-entry">
-                <p><strong>${escapeHtml(signal.title)}</strong> ${escapeHtml(normalizeSignalCopy(signal.signal))} <button class="dispatch-link" type="button" data-signal="${escapeHtml(signal.tmdb_id)}">View Film <span aria-hidden="true">→</span></button></p>
+                <p><strong>${escapeHtml(signal.title)}</strong> ${escapeHtml(normalizeSignalCopy(signal.signal))} <button class="dispatch-link" type="button" data-signal="${escapeHtml(filmPublicId({ tile: signal }))}">View Film <span aria-hidden="true">→</span></button></p>
               </article>
             `).join("")}
           </section>
@@ -376,7 +509,6 @@ function changesSection(signals) {
 }
 
 function renderDiscover() {
-  const source = state.discover.views[state.view];
   const items = filteredItems();
   const shown = items.slice(0, state.visible);
   const title = currentNavItem().label;
@@ -421,6 +553,40 @@ function renderDiscover() {
   });
 }
 
+function renderAbout() {
+  about.innerHTML = `
+    ${routeHeading("About", "A film-intelligence product for understanding which films matter, why they matter, and what changed.", "aboutRouteHeading")}
+    <div class="about-route-grid">
+      <section class="about-route-copy" aria-labelledby="aboutProductHeading">
+        <p class="eyebrow">The Product</p>
+        <h2 id="aboutProductHeading">The Screening Room turns release noise into film context.</h2>
+        <p>It brings release timing, festival activity, audience attention, critical reception, awards signals, and availability into one editorial browsing experience.</p>
+        <p>The goal is not to rank taste or replace criticism. It is a public-facing watch surface for films that are starting to matter commercially, culturally, or competitively.</p>
+      </section>
+      <section class="about-route-panel" aria-labelledby="aboutTracksHeading">
+        <p class="eyebrow">What It Tracks</p>
+        <h2 id="aboutTracksHeading">Signals in the current build</h2>
+        <ul class="about-signal-list">
+          <li><span>01</span><strong>Release timing</strong><em>Coming soon, opening windows, streaming availability, and theatrical context.</em></li>
+          <li><span>02</span><strong>Festival radar</strong><em>Verified selections, premieres, awards, and meaningful festival positioning.</em></li>
+          <li><span>03</span><strong>Awards context</strong><em>Category paths, precursor context, campaign activity, and current awards profile.</em></li>
+          <li><span>04</span><strong>Audience momentum</strong><em>Public attention, rating volume, popularity, and availability signals where data exists.</em></li>
+        </ul>
+      </section>
+      <section class="about-route-copy" aria-labelledby="aboutScoreHeading">
+        <p class="eyebrow">Methodology</p>
+        <h2 id="aboutScoreHeading">How the Screening Room Score works</h2>
+        <p>The Screening Room Score is a film-intelligence signal score. It combines available audience momentum, TMDb audience rating data, campaign activity, watch availability, festival and awards context, and talent-profile signals.</p>
+        <p>The current configured range is ${escapeHtml(SCREENING_ROOM_SCORE_METHODOLOGY.range)}. Higher scores mean more supported signals are present or stronger; lower scores usually mean fewer public, audience, campaign, availability, festival, awards, or talent signals are available yet.</p>
+        <ul class="methodology-inline-list">
+          ${SCREENING_ROOM_SCORE_METHODOLOGY.families.map(([label, detail]) => `<li><strong>${escapeHtml(label)}:</strong> ${escapeHtml(detail)}.</li>`).join("")}
+        </ul>
+        <p>The score is not a critic grade, box-office result, Oscar prediction, or guarantee of quality. Missing signals do not subtract points; they simply do not contribute until real data exists.</p>
+      </section>
+    </div>
+  `;
+}
+
 function filteredItems() {
   let items = state.discover.views[state.view].all_items;
   if (state.timing) items = items.filter((item) => item.tile.release_timing.release_timing_key === state.timing);
@@ -438,7 +604,7 @@ function card(item, variant = "") {
     ? [badge?.label].filter(Boolean)
     : contextualLabels(item).slice(0, 3);
   return `
-    <button class="poster-card ${cardVariant} ${item.tile.is_awards_contender ? "awards" : ""} ${item.tile.is_lead ? "lead" : ""}" type="button" data-id="${item.tile.tmdb_id}" aria-label="Open ${escapeHtml(item.tile.title)}">
+    <button class="poster-card ${cardVariant} ${item.tile.is_awards_contender ? "awards" : ""} ${item.tile.is_lead ? "lead" : ""}" type="button" data-id="${escapeHtml(filmPublicId(item))}" aria-label="Open ${escapeHtml(item.tile.title)}">
       ${labels.length ? `<span class="badge-row">${labels.map((label, index) => `<span class="badge ${index ? "secondary-badge" : escapeHtml(badge?.class || "major")}">${index ? "" : icon(badge?.icon || "diamond")}${escapeHtml(label)}</span>`).join("")}</span>` : ""}
       ${item.tile.poster_url ? `<img class="poster-img" src="${escapeHtml(item.tile.poster_url)}" alt="${escapeHtml(item.tile.poster_alt)}">` : `<div class="placeholder">${escapeHtml(item.tile.title)}</div>`}
       <span class="poster-overlay"><span class="poster-title">${escapeHtml(item.tile.title_overlay)}</span><span class="poster-line">${escapeHtml(item.tile.release_display)}</span></span>
@@ -447,6 +613,8 @@ function card(item, variant = "") {
 }
 
 function displayBadgeForCard(item, cardVariant = "") {
+  const awardsBadge = awardsBadgeForItem(item, cardVariant);
+  if (awardsBadge) return awardsBadge;
   if (cardVariant.includes("discover-card")) {
     return item.tile.discover_primary_tag || badgeFromPrimaryDiscoverLabel(item);
   }
@@ -455,6 +623,29 @@ function displayBadgeForCard(item, cardVariant = "") {
     return label ? badgeForLabel(item, label) : null;
   }
   return item.tile.public_badge;
+}
+
+function awardsBadgeForItem(item, cardVariant = "") {
+  const ai = awardsIntelligenceForItem(item);
+  if (!ai.public_card_behavior) return null;
+  const allowWatchlist = cardVariant.includes("section-awards-intelligence") || state.view === "awards";
+  const allowRanked = cardVariant.includes("section-awards-intelligence") || state.view === "awards" || !cardVariant.includes("discover-card");
+  if (ai.public_card_behavior === "show_awards_status_and_rank" && ai.awards_status && allowRanked) {
+    return { label: awardsStatusLabel(ai, cardVariant.includes("section-awards-intelligence")), icon: "star", class: "awards" };
+  }
+  if (ai.public_card_behavior === "optional_watchlist_badge" && allowWatchlist) {
+    return { label: "WATCHLIST", icon: "star", class: "awards-muted" };
+  }
+  return null;
+}
+
+function awardsIntelligenceForItem(item) {
+  return item?.detail?.awards_intelligence || item?.tile?.awards_intelligence || {};
+}
+
+function awardsStatusLabel(ai) {
+  if (!ai) return "";
+  return ai.awards_status || "";
 }
 
 function badgeFromPrimaryDiscoverLabel(item) {
@@ -512,6 +703,9 @@ function chooseCardLabel(item, cardVariant = "") {
     return chooseComingSoonLabel(item);
   }
   if (cardVariant.includes("section-awards-intelligence")) {
+    const ai = awardsIntelligenceForItem(item);
+    if (ai.awards_status) return awardsStatusLabel(ai, true);
+    if (ai.public_card_behavior === "optional_watchlist_badge") return "WATCHLIST";
     return chooseContextualLabel([
       ...(item.tile.contextual_labels?.labels || []),
       ...(item.detail.contextual_labels?.labels || []),
@@ -584,13 +778,10 @@ function chooseContextualLabel(labels, sectionPriority = []) {
 }
 
 function wireContent(root) {
-  root.querySelectorAll(".poster-card, .release-card, .festival-item, .awards-brief-card").forEach((element) => {
-    element.addEventListener("mouseenter", () => schedulePreview(element));
-    element.addEventListener("focus", () => schedulePreview(element));
-    element.addEventListener("mouseleave", clearPreview);
+  root.querySelectorAll(".poster-card, .release-card, .festival-item, .awards-brief-card, .awards-race-row, .awards-quiet-row").forEach((element) => {
     element.addEventListener("click", () => {
-      track("homepage_card_click", { tmdb_id: element.dataset.id, route: state.route });
-      track("film_opened", { tmdb_id: element.dataset.id, route: state.route });
+      track("homepage_card_click", { profile_id: element.dataset.id, route: state.route });
+      track("film_opened", { profile_id: element.dataset.id, route: state.route });
       openDetail(findItem(element.dataset.id));
     });
     element.addEventListener("keydown", (event) => {
@@ -611,7 +802,7 @@ function wireContent(root) {
   });
   root.querySelectorAll("[data-signal]").forEach((button) => {
     button.addEventListener("click", () => {
-      if (button.classList.contains("spotlight-action")) track("spotlight_clicked", { tmdb_id: button.dataset.signal });
+      if (button.classList.contains("spotlight-action")) track("spotlight_clicked", { profile_id: button.dataset.signal });
       openDetail(findItem(button.dataset.signal));
     });
   });
@@ -622,20 +813,46 @@ function wireContent(root) {
 
 function allItems() {
   return [
+    heroLookupItem(state.homepage.homepage_hero),
     ...(state.homepage.most_anticipated || []),
     ...(state.homepage.awards_watch || []),
+    ...(state.homepage.new_notable || []),
     ...state.homepage.screening_room,
     ...state.homepage.opening_soon,
     ...state.homepage.building_buzz,
     ...Object.values(state.discover.views).flatMap((view) => view.all_items),
-  ];
+  ].filter(Boolean);
+}
+
+function heroLookupItem(hero) {
+  if (!hero) return null;
+  return {
+    tile: hero,
+    detail: {
+      ...hero,
+      id: filmPublicId(hero),
+      profile_id: filmPublicId(hero),
+      title: hero.title,
+      release_display: hero.release_display || "",
+      poster_url: hero.poster_url || "",
+      backdrop_url: hero.backdrop_url || "",
+      director: hero.director || "",
+      why_watching: hero.attention_hook || "",
+    },
+  };
+}
+
+function filmPublicId(item) {
+  const tile = item?.tile || item || {};
+  const detail = item?.detail || {};
+  return String(tile.profile_id || tile.id || detail.profile_id || detail.id || tile.canonical_film_id || detail.canonical_film_id || tile.tmdb_id || detail.tmdb_id || "");
 }
 
 function dedupeItems(items, excludeIds) {
   const seen = new Set(excludeIds.filter(Boolean));
   const clean = [];
   for (const item of items || []) {
-    const id = item.tile?.tmdb_id;
+    const id = filmPublicId(item);
     if (!id || seen.has(id)) continue;
     seen.add(id);
     clean.push(item);
@@ -647,6 +864,7 @@ function spotlightFromFirstCard(item) {
   if (!item) return {};
   return {
     tmdb_id: item.tile.tmdb_id,
+    profile_id: filmPublicId(item),
     title: item.tile.title,
     poster_url: item.tile.poster_url,
     release_display: item.tile.release_display,
@@ -657,45 +875,7 @@ function spotlightFromFirstCard(item) {
 }
 
 function findItem(id) {
-  return allItems().find((item) => item.tile.tmdb_id === id);
-}
-
-function schedulePreview(element) {
-  clearTimeout(state.hoverTimer);
-  state.hoverTimer = setTimeout(() => showPreview(element), 180);
-}
-
-function clearPreview() {
-  clearTimeout(state.hoverTimer);
-  setTimeout(() => {
-    if (!preview.matches(":hover")) preview.classList.remove("open");
-  }, 120);
-}
-
-preview.addEventListener("mouseleave", () => preview.classList.remove("open"));
-
-function showPreview(element) {
-  const item = findItem(element.dataset.id);
-  if (!item) return;
-  preview.innerHTML = `
-    <h3>${escapeHtml(item.preview.title)}</h3>
-    <strong>${escapeHtml(item.preview.editorial_category || "")}</strong>
-    <p>${escapeHtml(item.preview.release_line)}${item.preview.director ? ` · Directed by ${escapeHtml(item.preview.director)}` : ""}</p>
-    <p>${escapeHtml(item.preview.why_it_matters)}</p>
-    ${item.preview.primary_signal ? `<p>${escapeHtml(item.preview.primary_signal)}</p>` : ""}
-    <button class="chip" type="button" id="previewOpen">View film</button>
-  `;
-  const rect = element.getBoundingClientRect();
-  const width = 320;
-  const height = 220;
-  let left = rect.right + 12;
-  if (left + width > innerWidth) left = rect.left - width - 12;
-  if (left < 12) left = 12;
-  const top = Math.min(Math.max(12, rect.top), innerHeight - height - 12);
-  preview.style.left = `${left}px`;
-  preview.style.top = `${top}px`;
-  preview.classList.add("open");
-  document.getElementById("previewOpen").addEventListener("click", () => openDetail(item));
+  return allItems().find((item) => filmPublicId(item) === id);
 }
 
 async function openDetail(item) {
@@ -744,7 +924,7 @@ async function openDetail(item) {
   document.getElementById("closeModal").addEventListener("click", closeModal);
   modal.querySelectorAll("[data-film-profile-link]").forEach((link) => link.addEventListener("click", persistReturnContext));
   modal.querySelectorAll("[data-methodology-open]").forEach((button) => button.addEventListener("click", openMethodology));
-  track("film_detail_opened", { tmdb_id: item.tile.tmdb_id, title });
+  track("film_detail_opened", { profile_id: filmPublicId(item), tmdb_id: item.tile.tmdb_id, title });
 }
 
 async function loadModalProfile(item) {
@@ -758,7 +938,7 @@ async function loadModalProfile(item) {
 }
 
 async function loadModalTimeline(item) {
-  const id = item.tile?.tmdb_id || item.detail?.tmdb_id;
+  const id = filmPublicId(item);
   if (!id) return null;
   try {
     return await loadJson(`data/timelines/${encodeURIComponent(id)}.json`);
@@ -791,11 +971,22 @@ function modalRatingsSnapshot(profile) {
 }
 
 function modalOscarSnapshot(profile, detail) {
-  const awards = profile?.awards || {};
-  const probabilities = realOscarProbabilities(awards.probabilities || {});
+  const ai = profile?.awards_intelligence || detail?.awards_intelligence || {};
   const intelligence = profile?.intelligence || detail?.intelligence || {};
   const score = profile?.screening_room_score || profile?.signals?.screening_room_score || detail?.screening_room_score || {};
   const numericScore = Number(score.score);
+  if (ai.public_card_behavior === "show_awards_status_and_rank" || ai.public_card_behavior === "optional_watchlist_badge") {
+    const explanation = editorialAwardsExplanation({ tile: detail, detail: { ...detail, awards_intelligence: ai } });
+    return `
+      <div class="modal-snapshot awards-outlook-snapshot">
+        <strong>Best Picture Outlook</strong>
+        ${awardsMarker(ai, "modal")}
+        ${publicForecastStage({ detail: { awards_intelligence: ai } }).shortLabel ? `<span>${escapeHtml(publicForecastStage({ detail: { awards_intelligence: ai } }).shortLabel)}</span>` : ""}
+        <p>${escapeHtml(explanation)}</p>
+        ${ai.ranking_last_updated_at ? `<small>Updated ${escapeHtml(formatLastUpdatedDate(ai.ranking_last_updated_at))}</small>` : ""}
+      </div>
+    `;
+  }
   if (Number.isFinite(numericScore) || intelligence.summary) {
     return `
       <div class="modal-snapshot">
@@ -808,25 +999,7 @@ function modalOscarSnapshot(profile, detail) {
       </div>
     `;
   }
-  const categories = awards.predicted_categories || detail.awards_path || [];
-  if (!Object.keys(probabilities).length) {
-    return `
-      <div class="modal-snapshot">
-        <strong>Oscar Intelligence</strong>
-        <p>Coming Soon</p>
-        <span>Nomination and win probabilities will appear here.</span>
-      </div>
-    `;
-  }
-  return `
-    <div class="modal-snapshot">
-      <strong>Oscar Intelligence</strong>
-      ${categories.slice(0, 3).map((category) => {
-        const probability = probabilities[category];
-        return probability ? `<p>${escapeHtml(category)} · ${Math.round(probability.value)}% ${escapeHtml(probability.label.toLowerCase())}</p>` : "";
-      }).join("") || `<span>Model not yet available</span>`}
-    </div>
-  `;
+  return "";
 }
 
 function modalBoxOfficeSnapshot(profile) {
@@ -886,38 +1059,6 @@ function ratingPill(label, value) {
       <strong>${escapeHtml(formatRating(label, value))}</strong>
     </span>
   `;
-}
-
-function realOscarProbabilities(probabilities) {
-  const output = {};
-  Object.entries(probabilities || {}).forEach(([category, raw]) => {
-    const probability = normalizeProbability(raw);
-    if (probability) output[category] = probability;
-  });
-  return output;
-}
-
-function normalizeProbability(raw) {
-  if (raw === undefined || raw === null || raw === "") return null;
-  if (typeof raw === "number") return { value: raw <= 1 ? raw * 100 : raw, label: "Nomination probability" };
-  if (typeof raw !== "object") return null;
-  const candidate = raw.nomination_probability ?? raw.nominationProbability ?? raw.win_probability ?? raw.winProbability ?? raw.win_probability_among_nominees ?? raw.winProbabilityAmongNominees;
-  const type = raw.nomination_probability !== undefined || raw.nominationProbability !== undefined
-    ? "Nomination probability"
-    : raw.win_probability !== undefined || raw.winProbability !== undefined
-      ? "Win probability"
-      : raw.win_probability_among_nominees !== undefined || raw.winProbabilityAmongNominees !== undefined
-        ? "Win probability among confirmed nominees"
-        : "";
-  const numeric = Number(candidate);
-  if (!Number.isFinite(numeric) || !type) return null;
-  return { value: numeric <= 1 ? numeric * 100 : numeric, label: type, key: typeKey(type) };
-}
-
-function typeKey(type) {
-  if (type === "Nomination probability") return "nomination_probability";
-  if (type === "Win probability") return "win_probability";
-  return "win_probability_among_nominees";
 }
 
 function latestTrailer(profile, timeline) {
@@ -1022,30 +1163,9 @@ function closeModal() {
   modal.classList.add("hidden");
 }
 
-function openAbout() {
-  scrim.classList.remove("hidden");
-  aboutPanel.classList.remove("hidden");
-  aboutPanel.setAttribute("aria-label", "About The Screening Room");
-  aboutPanel.innerHTML = `
-    <button class="chip close" type="button" id="closeAbout">Close</button>
-    <p class="eyebrow">About</p>
-    <h2>The Screening Room</h2>
-    <p>A movie-intelligence platform for films generating meaningful cultural, commercial, festival, and awards momentum.</p>
-    <p>Monitoring is separate from prediction: a movie can be worth watching before it has a mature Oscar case.</p>
-    <p>Designed and built by Amy Wilson.</p>
-    <a class="chip" href="/projects/awards-intelligence" data-portfolio-return>Portfolio case study</a>
-  `;
-  document.getElementById("closeAbout").addEventListener("click", closeAbout);
-  aboutPanel.querySelector("[data-portfolio-return]").addEventListener("click", () => track("portfolio_return_clicked", { surface: "about_panel" }));
-  track("about_opened", { surface: "app_nav" });
-}
-
-function closeAbout() {
-  aboutPanel?.classList.add("hidden");
-}
-
 function openMethodology() {
   scrim.classList.remove("hidden");
+  const aboutPanel = ensureMethodologyPanel();
   aboutPanel.classList.remove("hidden");
   aboutPanel.setAttribute("aria-label", "How the Screening Room Score works");
   aboutPanel.innerHTML = methodologyDialogHtml("How the Screening Room Score works");
@@ -1055,7 +1175,21 @@ function openMethodology() {
 }
 
 function closeMethodology() {
-  aboutPanel?.classList.add("hidden");
+  document.getElementById("methodologyPanel")?.classList.add("hidden");
+  scrim.classList.add("hidden");
+}
+
+function ensureMethodologyPanel() {
+  let panel = document.getElementById("methodologyPanel");
+  if (!panel) {
+    panel = document.createElement("section");
+    panel.id = "methodologyPanel";
+    panel.className = "film-modal about-modal hidden";
+    panel.setAttribute("role", "dialog");
+    panel.setAttribute("aria-modal", "true");
+    document.body.append(panel);
+  }
+  return panel;
 }
 
 function methodologyDialogHtml(title) {
@@ -1081,26 +1215,35 @@ function setRoute(route, options = {}) {
   if (route === "discover" && !state.view) state.view = "all";
   state.route = route;
   document.body.dataset.route = route;
+  const browserTitle = document.getElementById("browserTitle");
+  if (browserTitle) browserTitle.textContent = `The Screening Room — ${currentNavItem().label}`;
   document.querySelectorAll("[data-route]").forEach((button) => {
     const routeMatches = button.dataset.route === route;
     const navView = button.dataset.navView || "";
-    const viewMatches = route === "discover" ? navView === state.view : !navView;
+    const viewMatches = route === "discover" ? navView === state.view || (navView === "all" && state.view !== "festivals") : !navView;
     button.classList.toggle("active", routeMatches && viewMatches);
     if (routeMatches && viewMatches) button.setAttribute("aria-current", "page");
     else button.removeAttribute("aria-current");
   });
   home.classList.toggle("hidden", route !== "home");
-  discover.classList.toggle("hidden", route !== "discover");
+  discover.classList.toggle("hidden", !["discover", "awards"].includes(route));
+  about.classList.toggle("hidden", route !== "about");
   if (!options.replace) {
-    const target = route === "discover" ? discoverHashForView() : window.location.pathname;
+    const target = route === "discover" ? discoverHashForView() : currentNavItem().hash || window.location.pathname;
     history.pushState({ route }, "", target);
   }
   if (route === "home") {
     setHomeSeo();
     renderHome();
-  } else {
+  } else if (route === "discover") {
     setDiscoverSeo(currentNavItem());
     renderDiscover();
+  } else if (route === "awards") {
+    setAwardsSeo();
+    renderAwardsIntelligence();
+  } else {
+    setAboutSeo();
+    renderAbout();
   }
   restoreReturnStateIfRequested();
 }
@@ -1118,6 +1261,8 @@ function discoverHashForView() {
 
 function currentNavItem() {
   if (state.route === "home") return SCREENING_ROOM_NAV.home;
+  if (state.route === "awards") return SCREENING_ROOM_NAV.awards;
+  if (state.route === "about") return SCREENING_ROOM_NAV.about;
   return Object.values(SCREENING_ROOM_NAV).find((item) => item.view === state.view) || SCREENING_ROOM_NAV.discover;
 }
 
@@ -1139,6 +1284,24 @@ function setDiscoverSeo(item = SCREENING_ROOM_NAV.discover) {
   });
 }
 
+function setAwardsSeo() {
+  if (!window.AwardsSeo) return;
+  AwardsSeo.setMetadata({
+    title: "Awards Intelligence | The Screening Room",
+    description: "The current model-driven Best Picture forecast inside The Screening Room.",
+    url: `${window.location.href.split("#")[0]}#awards-intelligence`,
+  });
+}
+
+function setAboutSeo() {
+  if (!window.AwardsSeo) return;
+  AwardsSeo.setMetadata({
+    title: "About | The Screening Room",
+    description: "How The Screening Room tracks films, signals, and release context.",
+    url: `${window.location.href.split("#")[0]}#about`,
+  });
+}
+
 function persistReturnContext() {
   const item = currentNavItem();
   const context = {
@@ -1147,7 +1310,7 @@ function persistReturnContext() {
     route: item.route,
     view: state.view,
     hash: item.hash,
-    url: `./discovery.html${item.hash || ""}`,
+    url: `/screening-room/${item.hash || ""}`,
     timing: state.timing,
     query: state.query,
     visible: state.visible,
@@ -1207,54 +1370,106 @@ function compactReleaseDisplay(value) {
     .trim();
 }
 
-function homepageAwardsExplanation(item) {
-  const detail = item.detail || {};
-  const title = item.tile?.title || detail.title || "";
-  const labels = [
-    ...(item.tile?.contextual_labels?.labels || []),
-    ...(detail.contextual_labels?.labels || []),
-    item.tile?.public_badge?.label,
-  ].filter(Boolean);
-  const awardsPath = detail.awards_path || [];
-  const genres = detail.genres || [];
-  const hasAnimation = includesAny([...genres, ...awardsPath, ...labels], ["Animation", "Animated Feature", "Animation Contender"]);
-  const hasCraft = includesAny([...awardsPath, ...labels], ["Craft Categories", "Craft Contender"]);
-  const hasSongScore = includesAny(awardsPath, ["Song / Score"]);
-  const hasFestival = /nyff|new york film festival|opening-night|selected as/i.test([
-    detail.whats_changed,
-    detail.why_watching,
-    labels.join(" "),
-  ].filter(Boolean).join(" "));
-  const hasDirector = Boolean(detail.director && detail.director !== "Unknown");
-  const distributor = detail.distributor && detail.distributor !== "Unknown" ? detail.distributor : "";
-  const isVisibleFranchise = /\b(PAW Patrol|Spider-Man|Angry Birds|Movie 3|Beyond the Spider-Verse)\b/i.test(title);
-
-  if (hasFestival && detail.director && distributor) {
-    return `NYFF opening-night selection gives ${detail.director}’s ${distributor} release an early awards-season foothold.`;
-  }
-  if (hasAnimation && hasCraft && isVisibleFranchise && distributor) {
-    return `High-profile animation from ${distributor} keeps it visible across animated-feature and craft races.`;
-  }
-  if (hasAnimation && hasCraft && isVisibleFranchise) {
-    return "A known animated franchise gives it a clear path into feature-animation and craft consideration.";
-  }
-  if (hasAnimation && isVisibleFranchise) {
-    return "A returning animated franchise keeps it relevant to the feature-animation race.";
-  }
-  if (hasAnimation && hasSongScore) {
-    return "Animation and music elements give it multiple paths into craft and song-score consideration.";
-  }
-  if (hasAnimation && hasCraft && hasDirector) {
-    return "Animation and genre craft give it a defined path beyond general release tracking.";
-  }
-  if (hasAnimation) {
-    return "Its animation profile gives it a clear awards category to watch.";
-  }
-  return "";
+function awardsRaceItems() {
+  const allowed = new Set(["AWARDS LEADER", "STRONG CONTENDER", "CONTENDER", "ON THE BUBBLE", "WATCHLIST"]);
+  return dedupeItems(state.discover?.views?.awards?.all_items || [], [])
+    .filter((item) => allowed.has(awardsIntelligenceForItem(item).awards_status))
+    .sort((a, b) => awardsRank(a) - awardsRank(b) || a.tile.title.localeCompare(b.tile.title));
 }
 
-function includesAny(values, needles) {
-  return values.some((value) => needles.some((needle) => String(value || "").toLowerCase().includes(needle.toLowerCase())));
+function awardsRank(item) {
+  const ai = awardsIntelligenceForItem(item);
+  const rank = Number(ai.best_picture_rank);
+  return Number.isFinite(rank) ? rank : 999;
+}
+
+function awardsMetaForSpotlight(spotlight, item) {
+  const ai = awardsIntelligenceForItem(item) || {};
+  return {
+    best_picture_rank: ai.best_picture_rank || spotlight.best_picture_rank,
+    awards_status: ai.awards_status || spotlight.awards_status,
+    status: ai.awards_status || spotlight.awards_status || "",
+  };
+}
+
+function awardsMarker(source, variant = "") {
+  const ai = source || {};
+  const rank = Number(ai.best_picture_rank);
+  const status = ai.awards_status || ai.status || "";
+  if (!status && !Number.isFinite(rank)) return "";
+  const displayRank = Number.isFinite(rank) ? `Current rank ${String(rank).padStart(2, "0")}` : "";
+  const label = status || "WATCHLIST";
+  return `
+    <span class="awards-rank-marker ${variant ? `awards-rank-${escapeHtml(variant)}` : ""}">
+      <span class="awards-rank-label">${escapeHtml(label)}</span>
+      ${displayRank ? `<span class="awards-rank-number">${escapeHtml(displayRank)}</span>` : ""}
+    </span>
+  `;
+}
+
+function publicForecastStage(item) {
+  const ai = awardsIntelligenceForItem(item);
+  const updated = formatLastUpdatedDate(ai.ranking_last_updated_at || state.homepage?.metadata?.last_updated);
+  return {
+    label: "Early Season Forecast",
+    shortLabel: "Early Season",
+    detail: "Release profiles and early festival signals carry more weight before precursor awards arrive.",
+    updated,
+  };
+}
+
+function editorialAwardsExplanation(item, options = {}) {
+  const ai = awardsIntelligenceForItem(item);
+  const status = options.status || ai.awards_status || "";
+  const rank = Number(options.rank || ai.best_picture_rank);
+  const reasons = (ai.why_it_ranks || [])
+    .map(publicAwardsReason)
+    .filter(Boolean);
+  const unique = [...new Set(reasons)].slice(0, 2);
+  if (unique.length) return unique.join(" ");
+  const fallback = String(options.fallback || "");
+  if (fallback && !isRawAwardsReason(fallback)) return normalizeSignalCopy(fallback);
+  if (status === "AWARDS LEADER" || rank === 1) return "Currently leads the model's early Best Picture forecast, with the race still developing as more season evidence arrives.";
+  if (status === "STRONG CONTENDER") return "Ranks among the strongest early-season contenders in the current public forecast.";
+  if (status === "CONTENDER") return "Currently holds a competitive early-season position in the Best Picture race.";
+  if (status === "ON THE BUBBLE") return "Sits near the edge of the current race and needs more season evidence.";
+  if (status === "WATCHLIST") return "Remains on the awards watchlist pending stronger public signals.";
+  return "Currently ranks among the model's early-season films to watch.";
+}
+
+function publicAwardsReason(reason) {
+  const code = String(reason?.code || "").toUpperCase();
+  const text = String(reason?.text || "");
+  if (!code && isRawAwardsReason(text)) return "";
+  if (/FALL_AWARDS_WINDOW_RELEASE/.test(code)) return "Positioned in the traditional awards-season release window.";
+  if (/SELECTED_AT_NYFF/.test(code)) return "Building visibility through a New York Film Festival selection.";
+  if (/CANNES|VENICE|TIFF|TELLURIDE|SUNDANCE|FESTIVAL/.test(code) && !/LIMITED_MODEL_EVIDENCE/.test(code)) return "Building visibility on the festival circuit.";
+  if (/LIMITED_MODEL_EVIDENCE/.test(code)) return "Current placement is based on limited public evidence and may move as the season develops.";
+  if (isRawAwardsReason(text)) return "";
+  return normalizeSignalCopy(text);
+}
+
+function isRawAwardsReason(value) {
+  return /runtime bucket|static metadata|production metadata|genre profile|feature bucket|raw_|logistic|probability|country metadata/i.test(String(value || ""));
+}
+
+function movementMarker(ai) {
+  const movement = ai?.rank_change ?? ai?.movement;
+  if (movement === null || movement === undefined || movement === "") return "";
+  if (movement === "NEW") return `<span class="awards-movement is-new">NEW</span>`;
+  const numeric = Number(movement);
+  if (!Number.isFinite(numeric) || numeric === 0) return `<span class="awards-movement">—</span>`;
+  const direction = numeric > 0 ? "up" : "down";
+  const symbol = numeric > 0 ? "↑" : "↓";
+  return `<span class="awards-movement is-${direction}">${symbol} ${escapeHtml(Math.abs(numeric))}</span>`;
+}
+
+function slugify(value) {
+  return String(value || "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+}
+
+function homepageAwardsExplanation(item) {
+  return editorialAwardsExplanation(item);
 }
 
 function festivalContextLabel(note, item) {

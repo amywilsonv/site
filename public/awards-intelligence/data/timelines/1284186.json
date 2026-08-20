@@ -2,21 +2,21 @@
   "events": [
     {
       "confidence": "Inferred",
-      "event_id": "1284186-77e31af0bdea",
+      "event_id": "1284186-d6d83bf86b47",
       "event_type": "Release Scheduled",
       "film_id": "1284186",
       "importance": "Medium",
       "metadata": {
-        "release_date": "2026-10-16"
+        "release_date": "2026-09-10"
       },
       "source_type": "metadata",
-      "summary": "Release currently scheduled for In theaters Oct. 16.",
-      "timestamp": "2026-10-16",
+      "summary": "Release currently scheduled for In theaters Sep. 10.",
+      "timestamp": "2026-09-10",
       "title": "Release scheduled"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1284186-e56023e22e05",
+      "event_id": "1284186-89aea2ef6a93",
       "event_type": "Awards Tier Changed",
       "film_id": "1284186",
       "importance": "Medium",
@@ -28,12 +28,12 @@
       },
       "source_type": "editorial_model",
       "summary": "insufficient credible awards evidence",
-      "timestamp": "2026-08-20T14:06:23Z",
+      "timestamp": "2026-07-29T21:38:25Z",
       "title": "Awards tier assigned: No Current Awards Case"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1284186-7aca03a03932",
+      "event_id": "1284186-a55aa721b16b",
       "event_type": "Added To Database",
       "film_id": "1284186",
       "importance": "Low",
@@ -42,7 +42,7 @@
       },
       "source_type": "system",
       "summary": "Sacrifice is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-08-20T14:06:23Z",
+      "timestamp": "2026-07-29T21:38:25Z",
       "title": "Added to Awards Intelligence"
     },
     {
@@ -62,22 +62,22 @@
   ],
   "latest_event": {
     "confidence": "Inferred",
-    "event_id": "1284186-77e31af0bdea",
+    "event_id": "1284186-d6d83bf86b47",
     "event_type": "Release Scheduled",
     "film_id": "1284186",
     "importance": "Medium",
     "metadata": {
-      "release_date": "2026-10-16"
+      "release_date": "2026-09-10"
     },
     "source_type": "metadata",
-    "summary": "Release currently scheduled for In theaters Oct. 16.",
-    "timestamp": "2026-10-16",
+    "summary": "Release currently scheduled for In theaters Sep. 10.",
+    "timestamp": "2026-09-10",
     "title": "Release scheduled"
   },
   "metadata": {
     "event_count": 4,
     "film_id": "1284186",
-    "generated_at": "20260820T140623Z",
+    "generated_at": "slice57_current_discovery_enrichment",
     "timeline_version": "phase6b",
     "title": "Sacrifice",
     "tmdb_id": "1284186"

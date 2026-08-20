@@ -1,28 +1,33 @@
 {
   "attention_intelligence": {
-    "anticipation_level": "Moderate",
+    "anticipation_level": "High",
     "attention_confidence": "High",
     "attention_reasons": [
       "Most Anticipated",
       "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 61.1,
+    "attention_score": 77.9,
     "attention_version": "phase7e_attention_v1",
-    "audience_interest": "Developing",
+    "audience_interest": "Moderate",
     "conversation_level": "Unavailable",
-    "cultural_relevance": null,
+    "cultural_relevance": "Moderate",
     "early_reception": null,
     "evidence_sources": [
+      {
+        "evidence": "TMDb popularity 75.0623",
+        "source": "audience_popularity",
+        "status": "verified"
+      },
       {
         "evidence": "Public-interest, franchise, event, or major-studio tracking signal",
         "source": "event_awareness",
         "status": "inferred"
       },
       {
-        "evidence": "TMDb popularity 12.3194",
-        "source": "audience_popularity",
-        "status": "verified"
+        "evidence": "Commercial scale and release context",
+        "source": "commercial_scale",
+        "status": "inferred"
       },
       {
         "evidence": "Principal cast listed: Jake Johnson, Mary Steenburgen, Chloe Fineman, Aaron Chen",
@@ -35,42 +40,37 @@
         "status": "verified"
       },
       {
-        "evidence": "Trailer URL present",
-        "source": "trailer_available",
-        "status": "verified"
-      },
-      {
-        "evidence": "Commercial scale and release context",
-        "source": "commercial_scale",
-        "status": "inferred"
-      },
-      {
         "evidence": "Director: Josh Greenbaum",
         "source": "filmmaker_interest",
         "status": "verified"
       },
       {
-        "evidence": "104",
+        "evidence": "Trailer URL present",
+        "source": "trailer_available",
+        "status": "verified"
+      },
+      {
+        "evidence": "42",
         "source": "tmdb_vote_count",
         "status": "verified"
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 61.1,
-    "industry_interest": null,
-    "last_updated": "20260820T140623Z",
+    "homepage_spotlight_score": 77.9,
+    "industry_interest": "Moderate",
+    "last_updated": "20260729T213825Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
         "evidence_count": 2,
-        "score": 17.8,
+        "score": 26.4,
         "statuses": [
           "verified"
         ]
       },
       "commercial": {
         "evidence_count": 1,
-        "score": 7.1,
+        "score": 13.1,
         "statuses": [
           "inferred"
         ]
@@ -91,7 +91,7 @@
       },
       "talent/prestige": {
         "evidence_count": 2,
-        "score": 12.2,
+        "score": 14.4,
         "statuses": [
           "verified"
         ]
@@ -140,8 +140,30 @@
     "predicted_categories": [],
     "probabilities": {}
   },
+  "awards_intelligence": {
+    "awards_candidate_status": "ACTIVE_CONTENDER",
+    "awards_status": "ON THE BUBBLE",
+    "best_picture_rank": 16,
+    "forecast_stage": "STAGE_B",
+    "forecast_stage_label": "Stage B Early Season",
+    "nominee_probability": null,
+    "percentage_policy": "PERCENTAGES_NOT_READY",
+    "prediction_confidence": "RESEARCH_ONLY",
+    "probability_is_calibrated": false,
+    "public_card_behavior": "show_awards_status_and_rank",
+    "rank_change": null,
+    "ranking_eligibility": "RANKABLE",
+    "ranking_last_updated_at": "2026-08-16T00:00:00Z",
+    "source_artifact": "academy_nominee_website_card_handoff_v1.json",
+    "why_it_ranks": [
+      {
+        "code": "US_PRODUCTION_METADATA",
+        "text": "US production metadata present."
+      }
+    ]
+  },
   "commercial": {
-    "commercial_significance": 27.2,
+    "commercial_significance": 50.5,
     "distributor": "Apple TV",
     "franchise": "",
     "release_strategy": "Active release campaign",
@@ -161,11 +183,11 @@
     }
   },
   "editorial": {
-    "discovery_reason": "Apple TV release worth monitoring for awards-season potential.",
-    "editorial_category": "General Watch",
+    "discovery_reason": "Major Release - Josh Greenbaum film with large-scale commercial or public-interest signals.",
+    "editorial_category": "Major Release",
     "editorial_summary": "Apple TV release worth monitoring for awards-season potential.",
     "importance_tier": "Watchlist",
-    "primary_story": "filmmaker/editorial hook; generic generated rationale",
+    "primary_story": "major studio or streamer scale; high TMDb popularity; filmmaker attached to large-scale release",
     "story_strength": "Developing",
     "why_it_matters": "Apple TV release worth monitoring for awards-season potential."
   },
@@ -185,7 +207,7 @@
       "Comedy"
     ],
     "id": "1361774",
-    "imdb_id": "",
+    "imdb_id": "tt33499146",
     "language": "en",
     "original_title": "The Dink",
     "poster": "https://image.tmdb.org/t/p/original/8dq7vaUkXPqwqKxBFW4qJNBWeop.jpg",
@@ -201,7 +223,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-08-20T14:06:00Z",
+    "generated_at": "2026-07-29T21:38:25Z",
     "headline": "The Dink: release approaching",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -221,13 +243,13 @@
         "tmdb_backdrop_count": 2,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=YyVNFzx5Pl8",
-        "tmdb_popularity": 12.3194,
-        "tmdb_poster_count": 12,
+        "tmdb_popularity": 75.0623,
+        "tmdb_poster_count": 9,
         "tmdb_release_date_us_primary": "2026-07-23",
         "tmdb_release_date_us_theatrical": "",
         "tmdb_release_status": "Released",
-        "tmdb_vote_average": 6.192,
-        "tmdb_vote_count": 104,
+        "tmdb_vote_average": 6.298,
+        "tmdb_vote_count": 42,
         "tmdb_watch_provider_count_us": 2,
         "trailer_available": true,
         "trailer_count": 2,
@@ -244,7 +266,7 @@
         "driver_type": "release_approaching",
         "evidence": "US release is 3 days away on 2026-07-23.",
         "label": "Release approaching",
-        "retrieved_at": "2026-08-20T14:06:00Z",
+        "retrieved_at": "2026-07-29T21:38:25Z",
         "source_metric": "tmdb_release_date_us_primary",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -252,8 +274,9 @@
     ]
   },
   "media": {
+    "backdrop": "https://image.tmdb.org/t/p/original/tJQhL95q63ITeBy5OTGPx51sFks.jpg",
     "canonical_trailer": {
-      "retrieved_at": "2026-08-20",
+      "retrieved_at": "2026-07-29",
       "site": "YouTube",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1361774/videos",
@@ -261,127 +284,126 @@
       "type": "Trailer",
       "url": "https://www.youtube.com/watch?v=YyVNFzx5Pl8"
     },
-    "latest_trailer_url": "https://www.youtube.com/watch?v=YyVNFzx5Pl8"
+    "latest_trailer_url": "https://www.youtube.com/watch?v=YyVNFzx5Pl8",
+    "poster": "https://image.tmdb.org/t/p/original/8dq7vaUkXPqwqKxBFW4qJNBWeop.jpg",
+    "trailer": "https://www.youtube.com/watch?v=YyVNFzx5Pl8"
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260820T140623Z",
-    "profile_version": "phase6a",
+    "awards_intelligence_integrated_at": "2026-08-16T00:00:00Z",
+    "awards_intelligence_source": "academy_nominee_website_card_handoff_v1.json",
+    "generated_at": "slice57_current_discovery_enrichment",
+    "profile_version": "phase6a_registry_canonical_id_bridge_slice57_enriched",
     "source_data_date": "2026-07-20"
   },
   "performance": {
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 12.3194,
-        "retrieved_at": "2026-08-20",
+        "popularity": 75.0623,
+        "retrieved_at": "2026-07-29",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1361774",
         "status": "rated",
-        "vote_average": 6.192,
-        "vote_count": 104
+        "vote_average": 6.298,
+        "vote_count": 42
       }
     },
-    "tmdb_popularity": {
-      "retrieved_at": "2026-08-20",
-      "source": "TMDb",
-      "source_url": "https://www.themoviedb.org/movie/1361774",
-      "value": 12.3194
-    },
+    "tmdb_popularity": 75.0623,
     "watch_providers": {
       "country": "US",
       "flatrate": [
         {
-          "display_priority": 5,
+          "display_priority": 4,
           "logo_url": "https://image.tmdb.org/t/p/original/mcbz1LgtErU9p4UdbZ0rG6RTWHX.jpg",
           "provider_id": 350,
           "provider_name": "Apple TV"
         },
         {
-          "display_priority": 215,
+          "display_priority": 216,
           "logo_url": "https://image.tmdb.org/t/p/original/mHrYMgnZIp6lgW2aXg7ix9zGOnA.jpg",
           "provider_id": 2243,
           "provider_name": "Apple TV Amazon Channel"
         }
       ],
-      "retrieved_at": "2026-08-20",
+      "retrieved_at": "2026-07-29",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1361774-the-dink/watch?locale=US"
     }
   },
   "ratings": {
     "tmdb": {
-      "popularity": 12.3194,
-      "retrieved_at": "2026-08-20",
+      "popularity": 75.0623,
+      "rating": 6.298,
+      "retrieved_at": "2026-07-29",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1361774",
       "status": "rated",
-      "vote_average": 6.192,
-      "vote_count": 104
+      "vote_average": 6.298,
+      "vote_count": 42
     }
   },
   "related": {
     "related_films": [
       {
-        "profile_url": "film.html?id=1148365",
-        "relationship_score": 42,
-        "shared_signals": [
-          "General Watch",
-          "Comedy",
-          "Apple TV"
-        ],
-        "title": "Matchbox: The Movie",
-        "tmdb_id": "1148365"
-      },
-      {
-        "profile_url": "film.html?id=1137844",
-        "relationship_score": 42,
-        "shared_signals": [
-          "General Watch",
-          "Comedy",
-          "Apple TV"
-        ],
-        "title": "Mayday",
-        "tmdb_id": "1137844"
-      },
-      {
         "profile_url": "film.html?id=1306322",
-        "relationship_score": 41,
+        "relationship_score": 57,
         "shared_signals": [
+          "Major Release",
           "Comedy"
         ],
         "title": "Spaceballs: The New One",
         "tmdb_id": "1306322"
       },
       {
-        "profile_url": "film.html?id=1288069",
+        "profile_url": "film.html?id=1353167",
         "relationship_score": 36,
         "shared_signals": [
-          "General Watch",
+          "Major Release",
           "Apple TV"
         ],
-        "title": "Tenzing",
-        "tmdb_id": "1288069"
-      },
-      {
-        "profile_url": "film.html?id=1280115",
-        "relationship_score": 36,
-        "shared_signals": [
-          "General Watch",
-          "Apple TV"
-        ],
-        "title": "Way of the Warrior Kid",
-        "tmdb_id": "1280115"
+        "title": "The Mouse Trap: Welcome to the Mickeyverse",
+        "tmdb_id": "1353167"
       },
       {
         "profile_url": "film.html?id=949838",
         "relationship_score": 32,
         "shared_signals": [
-          "General Watch",
+          "Major Release",
           "Comedy"
         ],
         "title": "72 HOURS",
         "tmdb_id": "949838"
+      },
+      {
+        "profile_url": "film.html?id=1400336",
+        "relationship_score": 32,
+        "shared_signals": [
+          "Major Release",
+          "Comedy"
+        ],
+        "title": "Focker-In-Law",
+        "tmdb_id": "1400336"
+      },
+      {
+        "profile_url": "film.html?id=1457866",
+        "relationship_score": 32,
+        "shared_signals": [
+          "Major Release",
+          "Comedy"
+        ],
+        "title": "The Adventures of Cliff Booth",
+        "tmdb_id": "1457866"
+      },
+      {
+        "profile_url": "film.html?id=1522689",
+        "relationship_score": 32,
+        "shared_signals": [
+          "Major Release",
+          "Comedy"
+        ],
+        "title": "Why Did I Get Married Again?",
+        "tmdb_id": "1522689"
       }
     ],
     "related_people": [
@@ -431,24 +453,24 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 1.024,
-      "audience_quality": 5.882,
+      "audience_momentum": 1.745,
+      "audience_quality": 5.983,
       "availability": 3.967,
       "campaign_activity": 2.7,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-20T14:06:00Z",
+    "generated_at": "2026-07-29T21:38:25Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 16.898,
+    "score": 17.72,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
         "confidence": 0.95,
-        "contribution": 5.882,
+        "contribution": 5.983,
         "metric_name": "tmdb_vote_average",
         "provider": "tmdb",
         "score_family": "audience_quality",
-        "value": 6.192
+        "value": 6.298
       },
       {
         "confidence": 0.9,
@@ -485,16 +507,16 @@
     ]
   },
   "signals": {
-    "cultural_significance": 27.2,
+    "cultural_significance": 50.5,
     "external_intelligence": {
       "confidence": "High",
       "headline": "The Dink: release approaching",
       "summary": "US release is 3 days away on 2026-07-23."
     },
-    "last_updated": "2026-08-20T14:06:23Z",
+    "last_updated": "2026-07-29T21:38:25Z",
     "latest_event": {
       "confidence": "Inferred",
-      "event_id": "1361774-f5e385541fb4",
+      "event_id": "1361774-caba06bd2f95",
       "event_type": "Distributor Change",
       "film_id": "1361774",
       "importance": "Medium",
@@ -503,7 +525,7 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Apple TV.",
-      "timestamp": "2026-08-20T14:06:23Z",
+      "timestamp": "2026-07-29T21:38:25Z",
       "title": "Distributor set: Apple TV"
     },
     "latest_intelligence": "As of 2026-07-18, this is a Apple TV release dated 2026-07-23 with general awards monitoring relevance; current awards profile is Developing and data status is developing.",
@@ -513,7 +535,7 @@
     "recent_activity": [
       {
         "confidence": "Inferred",
-        "event_id": "1361774-f5e385541fb4",
+        "event_id": "1361774-caba06bd2f95",
         "event_type": "Distributor Change",
         "film_id": "1361774",
         "importance": "Medium",
@@ -522,12 +544,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Apple TV.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Distributor set: Apple TV"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1361774-feaf539ffc45",
+        "event_id": "1361774-e25e21726463",
         "event_type": "Awards Tier Changed",
         "film_id": "1361774",
         "importance": "Medium",
@@ -537,12 +559,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1361774-3c873e0dfe2c",
+        "event_id": "1361774-26edc6c86ef7",
         "event_type": "Added To Database",
         "film_id": "1361774",
         "importance": "Low",
@@ -551,15 +573,15 @@
         },
         "source_type": "system",
         "summary": "The Dink is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Added to Awards Intelligence"
       }
     ],
-    "release_relevance": 46.4,
+    "release_relevance": 52.8,
     "screening_room_score": {
       "confidence": "High",
       "explanation": "US release is 3 days away on 2026-07-23.",
-      "score": 16.898
+      "score": 17.72
     },
     "watch_triggers": [
       "Prestige Distributor",
@@ -582,13 +604,15 @@
       "Ben Stiller"
     ],
     "producers": [],
-    "writers": []
+    "writers": [
+      "Sean Clements"
+    ]
   },
   "timeline": {
     "events": [
       {
         "confidence": "Inferred",
-        "event_id": "1361774-f5e385541fb4",
+        "event_id": "1361774-caba06bd2f95",
         "event_type": "Distributor Change",
         "film_id": "1361774",
         "importance": "Medium",
@@ -597,12 +621,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Apple TV.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Distributor set: Apple TV"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1361774-feaf539ffc45",
+        "event_id": "1361774-e25e21726463",
         "event_type": "Awards Tier Changed",
         "film_id": "1361774",
         "importance": "Medium",
@@ -612,12 +636,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1361774-3c873e0dfe2c",
+        "event_id": "1361774-26edc6c86ef7",
         "event_type": "Added To Database",
         "film_id": "1361774",
         "importance": "Low",
@@ -626,7 +650,7 @@
         },
         "source_type": "system",
         "summary": "The Dink is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Added to Awards Intelligence"
       },
       {
@@ -646,7 +670,7 @@
     ],
     "latest_event": {
       "confidence": "Inferred",
-      "event_id": "1361774-f5e385541fb4",
+      "event_id": "1361774-caba06bd2f95",
       "event_type": "Distributor Change",
       "film_id": "1361774",
       "importance": "Medium",
@@ -655,13 +679,13 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Apple TV.",
-      "timestamp": "2026-08-20T14:06:23Z",
+      "timestamp": "2026-07-29T21:38:25Z",
       "title": "Distributor set: Apple TV"
     },
     "recent_activity": [
       {
         "confidence": "Inferred",
-        "event_id": "1361774-f5e385541fb4",
+        "event_id": "1361774-caba06bd2f95",
         "event_type": "Distributor Change",
         "film_id": "1361774",
         "importance": "Medium",
@@ -670,12 +694,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Apple TV.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Distributor set: Apple TV"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1361774-feaf539ffc45",
+        "event_id": "1361774-e25e21726463",
         "event_type": "Awards Tier Changed",
         "film_id": "1361774",
         "importance": "Medium",
@@ -685,12 +709,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1361774-3c873e0dfe2c",
+        "event_id": "1361774-26edc6c86ef7",
         "event_type": "Added To Database",
         "film_id": "1361774",
         "importance": "Low",
@@ -699,7 +723,7 @@
         },
         "source_type": "system",
         "summary": "The Dink is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-20T14:06:23Z",
+        "timestamp": "2026-07-29T21:38:25Z",
         "title": "Added to Awards Intelligence"
       }
     ],
