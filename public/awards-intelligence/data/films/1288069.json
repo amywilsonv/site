@@ -7,7 +7,7 @@
       "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 39.3,
+    "attention_score": 39.6,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -35,7 +35,7 @@
         "status": "inferred"
       },
       {
-        "evidence": "TMDb popularity 1.2584",
+        "evidence": "TMDb popularity 1.4032",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -46,14 +46,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 39.3,
+    "homepage_spotlight_score": 39.6,
     "industry_interest": null,
-    "last_updated": "20260819T140352Z",
+    "last_updated": "20260820T140623Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
         "evidence_count": 1,
-        "score": 4.2,
+        "score": 4.5,
         "statuses": [
           "verified"
         ]
@@ -198,7 +198,7 @@
   "intelligence": {
     "confidence": "Low",
     "confidence_score": 0.25,
-    "generated_at": "2026-08-19T14:03:32Z",
+    "generated_at": "2026-08-20T14:06:00Z",
     "headline": "Tenzing: no material change detected",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -217,7 +217,7 @@
         "streaming_provider_count_us": 0,
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": false,
-        "tmdb_popularity": 1.2584,
+        "tmdb_popularity": 1.4032,
         "tmdb_poster_count": 1,
         "tmdb_release_date_us_primary": "2026-10-09",
         "tmdb_release_date_us_theatrical": "2026-10-09",
@@ -238,7 +238,7 @@
   "media": {},
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260819T140352Z",
+    "generated_at": "20260820T140623Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -246,25 +246,25 @@
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 1.2584,
-        "retrieved_at": "2026-08-19",
+        "popularity": 1.4032,
+        "retrieved_at": "2026-08-20",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1288069",
         "status": "not_yet_rated"
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-08-19",
+      "retrieved_at": "2026-08-20",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1288069",
-      "value": 1.2584
+      "value": 1.4032
     },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 1.2584,
-      "retrieved_at": "2026-08-19",
+      "popularity": 1.4032,
+      "retrieved_at": "2026-08-20",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1288069",
       "status": "not_yet_rated"
@@ -392,13 +392,13 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.024,
+      "audience_momentum": 0.027,
       "awards_relevance": 2.4,
       "talent_profile": 2.125
     },
-    "generated_at": "2026-08-19T14:03:32Z",
+    "generated_at": "2026-08-20T14:06:00Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 4.549,
+    "score": 4.552,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -427,11 +427,11 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.024,
+        "contribution": 0.027,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 1.2584
+        "value": 1.4032
       }
     ]
   },
@@ -478,7 +478,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1288069-a3a0f6699d6d",
+        "event_id": "1288069-80c16fbf2e80",
         "event_type": "Distributor Change",
         "film_id": "1288069",
         "importance": "Medium",
@@ -487,12 +487,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Apple TV.",
-        "timestamp": "2026-08-19T14:03:52Z",
+        "timestamp": "2026-08-20T14:06:23Z",
         "title": "Distributor set: Apple TV"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1288069-2da48a8961c7",
+        "event_id": "1288069-cd45edd153e3",
         "event_type": "Awards Tier Changed",
         "film_id": "1288069",
         "importance": "Medium",
@@ -506,7 +506,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-19T14:03:52Z",
+        "timestamp": "2026-08-20T14:06:23Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],
@@ -514,7 +514,7 @@
     "screening_room_score": {
       "confidence": "Low",
       "explanation": "Current provider signals do not show a supported material change.",
-      "score": 4.549
+      "score": 4.552
     },
     "watch_triggers": [
       "Prestige Distributor",
@@ -555,7 +555,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1288069-a3a0f6699d6d",
+        "event_id": "1288069-80c16fbf2e80",
         "event_type": "Distributor Change",
         "film_id": "1288069",
         "importance": "Medium",
@@ -564,12 +564,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Apple TV.",
-        "timestamp": "2026-08-19T14:03:52Z",
+        "timestamp": "2026-08-20T14:06:23Z",
         "title": "Distributor set: Apple TV"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1288069-2da48a8961c7",
+        "event_id": "1288069-cd45edd153e3",
         "event_type": "Awards Tier Changed",
         "film_id": "1288069",
         "importance": "Medium",
@@ -583,12 +583,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-19T14:03:52Z",
+        "timestamp": "2026-08-20T14:06:23Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1288069-ce663f8973f4",
+        "event_id": "1288069-2df57ba2e7bf",
         "event_type": "Added To Database",
         "film_id": "1288069",
         "importance": "Low",
@@ -597,7 +597,7 @@
         },
         "source_type": "system",
         "summary": "Tenzing is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-19T14:03:52Z",
+        "timestamp": "2026-08-20T14:06:23Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -632,7 +632,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1288069-a3a0f6699d6d",
+        "event_id": "1288069-80c16fbf2e80",
         "event_type": "Distributor Change",
         "film_id": "1288069",
         "importance": "Medium",
@@ -641,12 +641,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Apple TV.",
-        "timestamp": "2026-08-19T14:03:52Z",
+        "timestamp": "2026-08-20T14:06:23Z",
         "title": "Distributor set: Apple TV"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1288069-2da48a8961c7",
+        "event_id": "1288069-cd45edd153e3",
         "event_type": "Awards Tier Changed",
         "film_id": "1288069",
         "importance": "Medium",
@@ -660,7 +660,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-19T14:03:52Z",
+        "timestamp": "2026-08-20T14:06:23Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],

@@ -2,7 +2,7 @@
   "events": [
     {
       "confidence": "Inferred",
-      "event_id": "1698575-1c6b7893488c",
+      "event_id": "1698575-c53adb88c5b7",
       "event_type": "Distributor Change",
       "film_id": "1698575",
       "importance": "Medium",
@@ -11,12 +11,12 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Apple TV.",
-      "timestamp": "2026-08-19T14:03:52Z",
+      "timestamp": "2026-08-20T14:06:23Z",
       "title": "Distributor set: Apple TV"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1698575-f9bfda72734f",
+      "event_id": "1698575-b962df9aa95c",
       "event_type": "Awards Tier Changed",
       "film_id": "1698575",
       "importance": "Medium",
@@ -30,12 +30,12 @@
       },
       "source_type": "editorial_model",
       "summary": "category-specific awards case without broader contender evidence",
-      "timestamp": "2026-08-19T14:03:52Z",
+      "timestamp": "2026-08-20T14:06:23Z",
       "title": "Awards tier assigned: Category Contender"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1698575-426c64294f7e",
+      "event_id": "1698575-2b794b58342a",
       "event_type": "Added To Database",
       "film_id": "1698575",
       "importance": "Low",
@@ -44,7 +44,7 @@
       },
       "source_type": "system",
       "summary": "Snoopy Presents: There's No Place Like Home, Snoopy is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-08-19T14:03:52Z",
+      "timestamp": "2026-08-20T14:06:23Z",
       "title": "Added to Awards Intelligence"
     },
     {
@@ -64,7 +64,7 @@
   ],
   "latest_event": {
     "confidence": "Inferred",
-    "event_id": "1698575-1c6b7893488c",
+    "event_id": "1698575-c53adb88c5b7",
     "event_type": "Distributor Change",
     "film_id": "1698575",
     "importance": "Medium",
@@ -73,13 +73,13 @@
     },
     "source_type": "metadata",
     "summary": "Current distributor is Apple TV.",
-    "timestamp": "2026-08-19T14:03:52Z",
+    "timestamp": "2026-08-20T14:06:23Z",
     "title": "Distributor set: Apple TV"
   },
   "metadata": {
     "event_count": 4,
     "film_id": "1698575",
-    "generated_at": "20260819T140352Z",
+    "generated_at": "20260820T140623Z",
     "timeline_version": "phase6b",
     "title": "Snoopy Presents: There's No Place Like Home, Snoopy",
     "tmdb_id": "1698575"

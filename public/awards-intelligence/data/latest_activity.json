@@ -733,6 +733,23 @@
     },
     {
       "confidence": "Inferred",
+      "event_id": "1284186-77e31af0bdea",
+      "event_type": "Release Scheduled",
+      "film_id": "1284186",
+      "film_title": "Sacrifice",
+      "importance": "Medium",
+      "metadata": {
+        "release_date": "2026-10-16"
+      },
+      "profile_payload_url": "data/films/1284186.json",
+      "profile_url": "film.html?id=1284186",
+      "source_type": "metadata",
+      "summary": "Release currently scheduled for In theaters Oct. 16.",
+      "timestamp": "2026-10-16",
+      "title": "Release scheduled"
+    },
+    {
+      "confidence": "Inferred",
       "event_id": "1553200-3f10d0f7c97d",
       "event_type": "Release Scheduled",
       "film_id": "1553200",
@@ -818,23 +835,6 @@
     },
     {
       "confidence": "Inferred",
-      "event_id": "1461432-5dce3ddd0ed2",
-      "event_type": "Release Scheduled",
-      "film_id": "1461432",
-      "film_title": "Adult Supervision",
-      "importance": "Medium",
-      "metadata": {
-        "release_date": "2026-10-09"
-      },
-      "profile_payload_url": "data/films/1461432.json",
-      "profile_url": "film.html?id=1461432",
-      "source_type": "metadata",
-      "summary": "Release currently scheduled for In theaters Oct. 9.",
-      "timestamp": "2026-10-09",
-      "title": "Release scheduled"
-    },
-    {
-      "confidence": "Inferred",
       "event_id": "1281331-c9631b3f049e",
       "event_type": "Release Scheduled",
       "film_id": "1281331",
@@ -853,7 +853,7 @@
   ],
   "metadata": {
     "event_count": 388,
-    "generated_at": "20260819T140352Z",
+    "generated_at": "20260820T140623Z",
     "returned_count": 50,
     "timeline_version": "phase6b"
   }

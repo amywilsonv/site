@@ -16,7 +16,7 @@
     "early_reception": null,
     "evidence_sources": [
       {
-        "evidence": "TMDb popularity 73.1712",
+        "evidence": "TMDb popularity 69.6725",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -69,7 +69,7 @@
     "homepage_spotlight_override": null,
     "homepage_spotlight_score": 90.4,
     "industry_interest": "Moderate",
-    "last_updated": "20260819T140352Z",
+    "last_updated": "20260820T140623Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
@@ -223,7 +223,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-08-19T14:03:32Z",
+    "generated_at": "2026-08-20T14:06:00Z",
     "headline": "The Debt Collector: release approaching",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -243,12 +243,12 @@
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=U9vJ2Z4SFQI",
-        "tmdb_popularity": 73.1712,
+        "tmdb_popularity": 69.6725,
         "tmdb_poster_count": 4,
         "tmdb_release_date_us_primary": "2026-07-23",
         "tmdb_release_date_us_theatrical": "",
         "tmdb_release_status": "Released",
-        "tmdb_vote_average": 7.968,
+        "tmdb_vote_average": 8.0,
         "tmdb_vote_count": 109,
         "tmdb_watch_provider_count_us": 2,
         "trailer_available": true,
@@ -266,7 +266,7 @@
         "driver_type": "release_approaching",
         "evidence": "US release is 3 days away on 2026-07-23.",
         "label": "Release approaching",
-        "retrieved_at": "2026-08-19T14:03:32Z",
+        "retrieved_at": "2026-08-20T14:06:00Z",
         "source_metric": "tmdb_release_date_us_primary",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -275,7 +275,7 @@
   },
   "media": {
     "canonical_trailer": {
-      "retrieved_at": "2026-08-19",
+      "retrieved_at": "2026-08-20",
       "site": "YouTube",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1630409/videos",
@@ -287,7 +287,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260819T140352Z",
+    "generated_at": "20260820T140623Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -295,20 +295,20 @@
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 73.1712,
-        "retrieved_at": "2026-08-19",
+        "popularity": 69.6725,
+        "retrieved_at": "2026-08-20",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1630409",
         "status": "rated",
-        "vote_average": 7.968,
+        "vote_average": 8.0,
         "vote_count": 109
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-08-19",
+      "retrieved_at": "2026-08-20",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1630409",
-      "value": 73.1712
+      "value": 69.6725
     },
     "watch_providers": {
       "country": "US",
@@ -326,19 +326,19 @@
           "provider_name": "Netflix Standard with Ads"
         }
       ],
-      "retrieved_at": "2026-08-19",
+      "retrieved_at": "2026-08-20",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1630409/watch?locale=US"
     }
   },
   "ratings": {
     "tmdb": {
-      "popularity": 73.1712,
-      "retrieved_at": "2026-08-19",
+      "popularity": 69.6725,
+      "retrieved_at": "2026-08-20",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1630409",
       "status": "rated",
-      "vote_average": 7.968,
+      "vote_average": 8.0,
       "vote_count": 109
     }
   },
@@ -452,25 +452,25 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 2.218,
-      "audience_quality": 7.57,
+      "audience_momentum": 2.152,
+      "audience_quality": 7.6,
       "availability": 3.967,
       "awards_relevance": 0.8,
       "campaign_activity": 1.35,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-19T14:03:32Z",
+    "generated_at": "2026-08-20T14:06:00Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 19.23,
+    "score": 19.194,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
         "confidence": 0.95,
-        "contribution": 7.57,
+        "contribution": 7.6,
         "metric_name": "tmdb_vote_average",
         "provider": "tmdb",
         "score_family": "audience_quality",
-        "value": 7.968
+        "value": 8.0
       },
       {
         "confidence": 0.85,
@@ -497,12 +497,12 @@
         "value": 2
       },
       {
-        "confidence": 0.95,
-        "contribution": 1.39,
-        "metric_name": "tmdb_popularity",
-        "provider": "tmdb",
-        "score_family": "audience_momentum",
-        "value": 73.1712
+        "confidence": 0.9,
+        "contribution": 1.35,
+        "metric_name": "trailer_count",
+        "provider": "trailers",
+        "score_family": "campaign_activity",
+        "value": 1
       }
     ]
   },
@@ -513,10 +513,10 @@
       "headline": "The Debt Collector: release approaching",
       "summary": "US release is 3 days away on 2026-07-23."
     },
-    "last_updated": "2026-08-19T14:03:52Z",
+    "last_updated": "2026-08-20T14:06:23Z",
     "latest_event": {
       "confidence": "Inferred",
-      "event_id": "1630409-32b1a3cb80fc",
+      "event_id": "1630409-74726d6c4195",
       "event_type": "Distributor Change",
       "film_id": "1630409",
       "importance": "Medium",
@@ -525,7 +525,7 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Netflix.",
-      "timestamp": "2026-08-19T14:03:52Z",
+      "timestamp": "2026-08-20T14:06:23Z",
       "title": "Distributor set: Netflix"
     },
     "latest_intelligence": "As of 2026-07-18, this is a Netflix release dated 2026-07-23 with Craft Categories relevance; current awards profile is Craft Potential and data status is developing.",
@@ -535,7 +535,7 @@
     "recent_activity": [
       {
         "confidence": "Inferred",
-        "event_id": "1630409-32b1a3cb80fc",
+        "event_id": "1630409-74726d6c4195",
         "event_type": "Distributor Change",
         "film_id": "1630409",
         "importance": "Medium",
@@ -544,12 +544,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-19T14:03:52Z",
+        "timestamp": "2026-08-20T14:06:23Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1630409-894fb602cae5",
+        "event_id": "1630409-48c54c6ecd7e",
         "event_type": "Awards Tier Changed",
         "film_id": "1630409",
         "importance": "Medium",
@@ -561,12 +561,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-19T14:03:52Z",
+        "timestamp": "2026-08-20T14:06:23Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1630409-d3f51fc6c93c",
+        "event_id": "1630409-47f88c2ee168",
         "event_type": "Added To Database",
         "film_id": "1630409",
         "importance": "Low",
@@ -575,7 +575,7 @@
         },
         "source_type": "system",
         "summary": "The Debt Collector is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-19T14:03:52Z",
+        "timestamp": "2026-08-20T14:06:23Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -583,7 +583,7 @@
     "screening_room_score": {
       "confidence": "High",
       "explanation": "US release is 3 days away on 2026-07-23.",
-      "score": 19.23
+      "score": 19.194
     },
     "watch_triggers": [
       "Prestige Distributor",
@@ -612,7 +612,7 @@
     "events": [
       {
         "confidence": "Inferred",
-        "event_id": "1630409-32b1a3cb80fc",
+        "event_id": "1630409-74726d6c4195",
         "event_type": "Distributor Change",
         "film_id": "1630409",
         "importance": "Medium",
@@ -621,12 +621,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-19T14:03:52Z",
+        "timestamp": "2026-08-20T14:06:23Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1630409-894fb602cae5",
+        "event_id": "1630409-48c54c6ecd7e",
         "event_type": "Awards Tier Changed",
         "film_id": "1630409",
         "importance": "Medium",
@@ -638,12 +638,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-19T14:03:52Z",
+        "timestamp": "2026-08-20T14:06:23Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1630409-d3f51fc6c93c",
+        "event_id": "1630409-47f88c2ee168",
         "event_type": "Added To Database",
         "film_id": "1630409",
         "importance": "Low",
@@ -652,7 +652,7 @@
         },
         "source_type": "system",
         "summary": "The Debt Collector is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-19T14:03:52Z",
+        "timestamp": "2026-08-20T14:06:23Z",
         "title": "Added to Awards Intelligence"
       },
       {
@@ -672,7 +672,7 @@
     ],
     "latest_event": {
       "confidence": "Inferred",
-      "event_id": "1630409-32b1a3cb80fc",
+      "event_id": "1630409-74726d6c4195",
       "event_type": "Distributor Change",
       "film_id": "1630409",
       "importance": "Medium",
@@ -681,13 +681,13 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Netflix.",
-      "timestamp": "2026-08-19T14:03:52Z",
+      "timestamp": "2026-08-20T14:06:23Z",
       "title": "Distributor set: Netflix"
     },
     "recent_activity": [
       {
         "confidence": "Inferred",
-        "event_id": "1630409-32b1a3cb80fc",
+        "event_id": "1630409-74726d6c4195",
         "event_type": "Distributor Change",
         "film_id": "1630409",
         "importance": "Medium",
@@ -696,12 +696,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-19T14:03:52Z",
+        "timestamp": "2026-08-20T14:06:23Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1630409-894fb602cae5",
+        "event_id": "1630409-48c54c6ecd7e",
         "event_type": "Awards Tier Changed",
         "film_id": "1630409",
         "importance": "Medium",
@@ -713,12 +713,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-19T14:03:52Z",
+        "timestamp": "2026-08-20T14:06:23Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1630409-d3f51fc6c93c",
+        "event_id": "1630409-47f88c2ee168",
         "event_type": "Added To Database",
         "film_id": "1630409",
         "importance": "Low",
@@ -727,7 +727,7 @@
         },
         "source_type": "system",
         "summary": "The Debt Collector is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-19T14:03:52Z",
+        "timestamp": "2026-08-20T14:06:23Z",
         "title": "Added to Awards Intelligence"
       }
     ],

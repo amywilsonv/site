@@ -2,21 +2,21 @@
   "events": [
     {
       "confidence": "Inferred",
-      "event_id": "1461432-5dce3ddd0ed2",
+      "event_id": "1461432-e1264ff14658",
       "event_type": "Release Scheduled",
       "film_id": "1461432",
       "importance": "Medium",
       "metadata": {
-        "release_date": "2026-10-09"
+        "release_date": "2026-09-17"
       },
       "source_type": "metadata",
-      "summary": "Release currently scheduled for In theaters Oct. 9.",
-      "timestamp": "2026-10-09",
+      "summary": "Release currently scheduled for In theaters Sep. 17.",
+      "timestamp": "2026-09-17",
       "title": "Release scheduled"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1461432-3ba144cab12c",
+      "event_id": "1461432-1d50c3e44797",
       "event_type": "Awards Tier Changed",
       "film_id": "1461432",
       "importance": "Medium",
@@ -26,12 +26,12 @@
       },
       "source_type": "editorial_model",
       "summary": "insufficient credible awards evidence",
-      "timestamp": "2026-08-19T14:03:52Z",
+      "timestamp": "2026-08-20T14:06:23Z",
       "title": "Awards tier assigned: No Current Awards Case"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1461432-b20ba5ac08b0",
+      "event_id": "1461432-ab2d09adf730",
       "event_type": "Added To Database",
       "film_id": "1461432",
       "importance": "Low",
@@ -40,28 +40,28 @@
       },
       "source_type": "system",
       "summary": "Adult Supervision is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-08-19T14:03:52Z",
+      "timestamp": "2026-08-20T14:06:23Z",
       "title": "Added to Awards Intelligence"
     }
   ],
   "latest_event": {
     "confidence": "Inferred",
-    "event_id": "1461432-5dce3ddd0ed2",
+    "event_id": "1461432-e1264ff14658",
     "event_type": "Release Scheduled",
     "film_id": "1461432",
     "importance": "Medium",
     "metadata": {
-      "release_date": "2026-10-09"
+      "release_date": "2026-09-17"
     },
     "source_type": "metadata",
-    "summary": "Release currently scheduled for In theaters Oct. 9.",
-    "timestamp": "2026-10-09",
+    "summary": "Release currently scheduled for In theaters Sep. 17.",
+    "timestamp": "2026-09-17",
     "title": "Release scheduled"
   },
   "metadata": {
     "event_count": 3,
     "film_id": "1461432",
-    "generated_at": "20260819T140352Z",
+    "generated_at": "20260820T140623Z",
     "timeline_version": "phase6b",
     "title": "Adult Supervision",
     "tmdb_id": "1461432"

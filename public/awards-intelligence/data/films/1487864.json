@@ -7,7 +7,7 @@
       "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 68.9,
+    "attention_score": 68.3,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Moderate",
     "conversation_level": "Unavailable",
@@ -15,7 +15,7 @@
     "early_reception": null,
     "evidence_sources": [
       {
-        "evidence": "TMDb popularity 48.3974",
+        "evidence": "TMDb popularity 42.395",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -56,14 +56,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 68.9,
+    "homepage_spotlight_score": 68.3,
     "industry_interest": null,
-    "last_updated": "20260819T140352Z",
+    "last_updated": "20260820T140623Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
         "evidence_count": 1,
-        "score": 20.1,
+        "score": 19.5,
         "statuses": [
           "verified"
         ]
@@ -207,7 +207,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-08-19T14:03:32Z",
+    "generated_at": "2026-08-20T14:06:00Z",
     "headline": "Nando Between Two Worlds - A Sintonia Film: release approaching",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -226,7 +226,7 @@
         "streaming_provider_count_us": 2,
         "tmdb_backdrop_count": 1,
         "tmdb_canonical_trailer_available": false,
-        "tmdb_popularity": 48.3974,
+        "tmdb_popularity": 42.395,
         "tmdb_poster_count": 2,
         "tmdb_release_date_us_primary": "2026-08-12",
         "tmdb_release_date_us_theatrical": "",
@@ -241,14 +241,14 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "TMDb popularity rose from 2.2073 to 48.3974. US release is 23 days away on 2026-08-12.",
+    "summary": "TMDb popularity rose from 2.2073 to 42.395. US release is 23 days away on 2026-08-12.",
     "supporting_drivers": [
       {
         "confidence_weight": 0.9,
         "driver_type": "popularity_increasing",
-        "evidence": "TMDb popularity rose from 2.2073 to 48.3974.",
+        "evidence": "TMDb popularity rose from 2.2073 to 42.395.",
         "label": "Popularity increasing",
-        "retrieved_at": "2026-08-19T14:03:32Z",
+        "retrieved_at": "2026-08-20T14:06:00Z",
         "source_metric": "tmdb_popularity",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -258,7 +258,7 @@
         "driver_type": "release_approaching",
         "evidence": "US release is 23 days away on 2026-08-12.",
         "label": "Release approaching",
-        "retrieved_at": "2026-08-19T14:03:32Z",
+        "retrieved_at": "2026-08-20T14:06:00Z",
         "source_metric": "tmdb_release_date_us_primary",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -268,7 +268,7 @@
   "media": {},
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260819T140352Z",
+    "generated_at": "20260820T140623Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -276,8 +276,8 @@
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 48.3974,
-        "retrieved_at": "2026-08-19",
+        "popularity": 42.395,
+        "retrieved_at": "2026-08-20",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1487864",
         "status": "rated",
@@ -286,10 +286,10 @@
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-08-19",
+      "retrieved_at": "2026-08-20",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1487864",
-      "value": 48.3974
+      "value": 42.395
     },
     "watch_providers": {
       "country": "US",
@@ -307,15 +307,15 @@
           "provider_name": "Netflix Standard with Ads"
         }
       ],
-      "retrieved_at": "2026-08-19",
+      "retrieved_at": "2026-08-20",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1487864-nando-entre-dois-mundos-um-filme-sintonia/watch?locale=US"
     }
   },
   "ratings": {
     "tmdb": {
-      "popularity": 48.3974,
-      "retrieved_at": "2026-08-19",
+      "popularity": 42.395,
+      "retrieved_at": "2026-08-20",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1487864",
       "status": "rated",
@@ -441,15 +441,15 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 1.019,
+      "audience_momentum": 0.905,
       "audience_quality": 5.035,
       "availability": 3.967,
       "awards_relevance": 2.4,
       "talent_profile": 2.125
     },
-    "generated_at": "2026-08-19T14:03:32Z",
+    "generated_at": "2026-08-20T14:06:00Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 14.546,
+    "score": 14.432,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -499,12 +499,12 @@
     "external_intelligence": {
       "confidence": "High",
       "headline": "Nando Between Two Worlds - A Sintonia Film: release approaching",
-      "summary": "TMDb popularity rose from 2.2073 to 48.3974. US release is 23 days away on 2026-08-12."
+      "summary": "TMDb popularity rose from 2.2073 to 42.395. US release is 23 days away on 2026-08-12."
     },
-    "last_updated": "2026-08-19T14:03:52Z",
+    "last_updated": "2026-08-20T14:06:23Z",
     "latest_event": {
       "confidence": "Inferred",
-      "event_id": "1487864-403264dc13d6",
+      "event_id": "1487864-cb49afae8a44",
       "event_type": "Distributor Change",
       "film_id": "1487864",
       "importance": "Medium",
@@ -513,7 +513,7 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Netflix.",
-      "timestamp": "2026-08-19T14:03:52Z",
+      "timestamp": "2026-08-20T14:06:23Z",
       "title": "Distributor set: Netflix"
     },
     "latest_intelligence": "As of 2026-07-18, this is a Netflix release dated 2026-08-12 with Best Picture, Acting relevance; current awards profile is Developing and data status is developing.",
@@ -523,7 +523,7 @@
     "recent_activity": [
       {
         "confidence": "Inferred",
-        "event_id": "1487864-403264dc13d6",
+        "event_id": "1487864-cb49afae8a44",
         "event_type": "Distributor Change",
         "film_id": "1487864",
         "importance": "Medium",
@@ -532,12 +532,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-19T14:03:52Z",
+        "timestamp": "2026-08-20T14:06:23Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1487864-fed7d95aef82",
+        "event_id": "1487864-5dca6b8383bf",
         "event_type": "Awards Tier Changed",
         "film_id": "1487864",
         "importance": "Medium",
@@ -551,12 +551,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-19T14:03:52Z",
+        "timestamp": "2026-08-20T14:06:23Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1487864-5590f2dcee7a",
+        "event_id": "1487864-fddba059ca32",
         "event_type": "Added To Database",
         "film_id": "1487864",
         "importance": "Low",
@@ -565,15 +565,15 @@
         },
         "source_type": "system",
         "summary": "Nando Between Two Worlds - A Sintonia Film is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-19T14:03:52Z",
+        "timestamp": "2026-08-20T14:06:23Z",
         "title": "Added to Awards Intelligence"
       }
     ],
     "release_relevance": 38.7,
     "screening_room_score": {
       "confidence": "High",
-      "explanation": "TMDb popularity rose from 2.2073 to 48.3974. US release is 23 days away on 2026-08-12.",
-      "score": 14.546
+      "explanation": "TMDb popularity rose from 2.2073 to 42.395. US release is 23 days away on 2026-08-12.",
+      "score": 14.432
     },
     "watch_triggers": [
       "Prestige Distributor",
@@ -601,7 +601,7 @@
     "events": [
       {
         "confidence": "Inferred",
-        "event_id": "1487864-403264dc13d6",
+        "event_id": "1487864-cb49afae8a44",
         "event_type": "Distributor Change",
         "film_id": "1487864",
         "importance": "Medium",
@@ -610,12 +610,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-19T14:03:52Z",
+        "timestamp": "2026-08-20T14:06:23Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1487864-fed7d95aef82",
+        "event_id": "1487864-5dca6b8383bf",
         "event_type": "Awards Tier Changed",
         "film_id": "1487864",
         "importance": "Medium",
@@ -629,12 +629,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-19T14:03:52Z",
+        "timestamp": "2026-08-20T14:06:23Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1487864-5590f2dcee7a",
+        "event_id": "1487864-fddba059ca32",
         "event_type": "Added To Database",
         "film_id": "1487864",
         "importance": "Low",
@@ -643,7 +643,7 @@
         },
         "source_type": "system",
         "summary": "Nando Between Two Worlds - A Sintonia Film is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-19T14:03:52Z",
+        "timestamp": "2026-08-20T14:06:23Z",
         "title": "Added to Awards Intelligence"
       },
       {
@@ -663,7 +663,7 @@
     ],
     "latest_event": {
       "confidence": "Inferred",
-      "event_id": "1487864-403264dc13d6",
+      "event_id": "1487864-cb49afae8a44",
       "event_type": "Distributor Change",
       "film_id": "1487864",
       "importance": "Medium",
@@ -672,13 +672,13 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Netflix.",
-      "timestamp": "2026-08-19T14:03:52Z",
+      "timestamp": "2026-08-20T14:06:23Z",
       "title": "Distributor set: Netflix"
     },
     "recent_activity": [
       {
         "confidence": "Inferred",
-        "event_id": "1487864-403264dc13d6",
+        "event_id": "1487864-cb49afae8a44",
         "event_type": "Distributor Change",
         "film_id": "1487864",
         "importance": "Medium",
@@ -687,12 +687,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-19T14:03:52Z",
+        "timestamp": "2026-08-20T14:06:23Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1487864-fed7d95aef82",
+        "event_id": "1487864-5dca6b8383bf",
         "event_type": "Awards Tier Changed",
         "film_id": "1487864",
         "importance": "Medium",
@@ -706,12 +706,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-19T14:03:52Z",
+        "timestamp": "2026-08-20T14:06:23Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1487864-5590f2dcee7a",
+        "event_id": "1487864-fddba059ca32",
         "event_type": "Added To Database",
         "film_id": "1487864",
         "importance": "Low",
@@ -720,7 +720,7 @@
         },
         "source_type": "system",
         "summary": "Nando Between Two Worlds - A Sintonia Film is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-19T14:03:52Z",
+        "timestamp": "2026-08-20T14:06:23Z",
         "title": "Added to Awards Intelligence"
       }
     ],

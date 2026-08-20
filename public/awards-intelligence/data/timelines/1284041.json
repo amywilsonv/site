@@ -2,7 +2,7 @@
   "events": [
     {
       "confidence": "Inferred",
-      "event_id": "1284041-4ae0d1fbda24",
+      "event_id": "1284041-2307e5424a0c",
       "event_type": "Distributor Change",
       "film_id": "1284041",
       "importance": "Medium",
@@ -11,12 +11,12 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Netflix.",
-      "timestamp": "2026-08-19T14:03:52Z",
+      "timestamp": "2026-08-20T14:06:23Z",
       "title": "Distributor set: Netflix"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1284041-fcce90e404a9",
+      "event_id": "1284041-5cd628611ab7",
       "event_type": "Awards Tier Changed",
       "film_id": "1284041",
       "importance": "Medium",
@@ -28,12 +28,12 @@
       },
       "source_type": "editorial_model",
       "summary": "insufficient credible awards evidence",
-      "timestamp": "2026-08-19T14:03:52Z",
+      "timestamp": "2026-08-20T14:06:23Z",
       "title": "Awards tier assigned: No Current Awards Case"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1284041-f19f0c599393",
+      "event_id": "1284041-7fb7ba075035",
       "event_type": "Added To Database",
       "film_id": "1284041",
       "importance": "Low",
@@ -42,7 +42,7 @@
       },
       "source_type": "system",
       "summary": "The Last House is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-08-19T14:03:52Z",
+      "timestamp": "2026-08-20T14:06:23Z",
       "title": "Added to Awards Intelligence"
     },
     {
@@ -62,7 +62,7 @@
   ],
   "latest_event": {
     "confidence": "Inferred",
-    "event_id": "1284041-4ae0d1fbda24",
+    "event_id": "1284041-2307e5424a0c",
     "event_type": "Distributor Change",
     "film_id": "1284041",
     "importance": "Medium",
@@ -71,13 +71,13 @@
     },
     "source_type": "metadata",
     "summary": "Current distributor is Netflix.",
-    "timestamp": "2026-08-19T14:03:52Z",
+    "timestamp": "2026-08-20T14:06:23Z",
     "title": "Distributor set: Netflix"
   },
   "metadata": {
     "event_count": 4,
     "film_id": "1284041",
-    "generated_at": "20260819T140352Z",
+    "generated_at": "20260820T140623Z",
     "timeline_version": "phase6b",
     "title": "The Last House",
     "tmdb_id": "1284041"

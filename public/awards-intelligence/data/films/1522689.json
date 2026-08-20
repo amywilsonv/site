@@ -7,7 +7,7 @@
       "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 71.1,
+    "attention_score": 70.9,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -55,20 +55,20 @@
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 1.2108",
+        "evidence": "TMDb popularity 1.0852",
         "source": "audience_popularity",
         "status": "verified"
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 71.1,
+    "homepage_spotlight_score": 70.9,
     "industry_interest": "High",
-    "last_updated": "20260819T140352Z",
+    "last_updated": "20260820T140623Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
         "evidence_count": 2,
-        "score": 10.3,
+        "score": 10.1,
         "statuses": [
           "verified"
         ]
@@ -212,7 +212,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-08-19T14:03:32Z",
+    "generated_at": "2026-08-20T14:06:00Z",
     "headline": "Why Did I Get Married Again?: trailer available",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -232,8 +232,8 @@
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=VylsOZBYxQA",
-        "tmdb_popularity": 1.2108,
-        "tmdb_poster_count": 2,
+        "tmdb_popularity": 1.0852,
+        "tmdb_poster_count": 3,
         "tmdb_release_date_us_primary": "2026-09-09",
         "tmdb_release_date_us_theatrical": "",
         "tmdb_release_status": "Post Production",
@@ -255,7 +255,7 @@
         "driver_type": "trailer_available",
         "evidence": "A canonical TMDb trailer URL is available.",
         "label": "Trailer available",
-        "retrieved_at": "2026-08-19T14:03:32Z",
+        "retrieved_at": "2026-08-20T14:06:00Z",
         "source_metric": "tmdb_canonical_trailer_url",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -264,7 +264,7 @@
   },
   "media": {
     "canonical_trailer": {
-      "retrieved_at": "2026-08-19",
+      "retrieved_at": "2026-08-20",
       "site": "YouTube",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1522689/videos",
@@ -276,7 +276,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260819T140352Z",
+    "generated_at": "20260820T140623Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -284,25 +284,25 @@
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 1.2108,
-        "retrieved_at": "2026-08-19",
+        "popularity": 1.0852,
+        "retrieved_at": "2026-08-20",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1522689",
         "status": "not_yet_rated"
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-08-19",
+      "retrieved_at": "2026-08-20",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1522689",
-      "value": 1.2108
+      "value": 1.0852
     },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 1.2108,
-      "retrieved_at": "2026-08-19",
+      "popularity": 1.0852,
+      "retrieved_at": "2026-08-20",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1522689",
       "status": "not_yet_rated"
@@ -421,14 +421,14 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.023,
+      "audience_momentum": 0.021,
       "awards_relevance": 2.4,
       "campaign_activity": 2.7,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-19T14:03:32Z",
+    "generated_at": "2026-08-20T14:06:00Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 8.448,
+    "score": 8.446,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -465,11 +465,11 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.023,
+        "contribution": 0.021,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 1.2108
+        "value": 1.0852
       }
     ]
   },
@@ -516,7 +516,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1522689-236e75804b2a",
+        "event_id": "1522689-8da9e5ec99ef",
         "event_type": "Distributor Change",
         "film_id": "1522689",
         "importance": "Medium",
@@ -525,12 +525,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-19T14:03:52Z",
+        "timestamp": "2026-08-20T14:06:23Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1522689-89424e8929de",
+        "event_id": "1522689-0ee1bef70119",
         "event_type": "Awards Tier Changed",
         "film_id": "1522689",
         "importance": "Medium",
@@ -544,7 +544,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-19T14:03:52Z",
+        "timestamp": "2026-08-20T14:06:23Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],
@@ -552,7 +552,7 @@
     "screening_room_score": {
       "confidence": "High",
       "explanation": "A canonical TMDb trailer URL is available.",
-      "score": 8.448
+      "score": 8.446
     },
     "watch_triggers": [
       "Prestige Distributor",
@@ -596,7 +596,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1522689-236e75804b2a",
+        "event_id": "1522689-8da9e5ec99ef",
         "event_type": "Distributor Change",
         "film_id": "1522689",
         "importance": "Medium",
@@ -605,12 +605,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-19T14:03:52Z",
+        "timestamp": "2026-08-20T14:06:23Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1522689-89424e8929de",
+        "event_id": "1522689-0ee1bef70119",
         "event_type": "Awards Tier Changed",
         "film_id": "1522689",
         "importance": "Medium",
@@ -624,12 +624,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-19T14:03:52Z",
+        "timestamp": "2026-08-20T14:06:23Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1522689-c2d55c2dc740",
+        "event_id": "1522689-42949a04595f",
         "event_type": "Added To Database",
         "film_id": "1522689",
         "importance": "Low",
@@ -638,7 +638,7 @@
         },
         "source_type": "system",
         "summary": "Why Did I Get Married Again? is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-19T14:03:52Z",
+        "timestamp": "2026-08-20T14:06:23Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -673,7 +673,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1522689-236e75804b2a",
+        "event_id": "1522689-8da9e5ec99ef",
         "event_type": "Distributor Change",
         "film_id": "1522689",
         "importance": "Medium",
@@ -682,12 +682,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-19T14:03:52Z",
+        "timestamp": "2026-08-20T14:06:23Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1522689-89424e8929de",
+        "event_id": "1522689-0ee1bef70119",
         "event_type": "Awards Tier Changed",
         "film_id": "1522689",
         "importance": "Medium",
@@ -701,7 +701,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-19T14:03:52Z",
+        "timestamp": "2026-08-20T14:06:23Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],

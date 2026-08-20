@@ -2,7 +2,7 @@
   "events": [
     {
       "confidence": "Inferred",
-      "event_id": "1421594-950878ae00ad",
+      "event_id": "1421594-f0543806f4ff",
       "event_type": "Distributor Change",
       "film_id": "1421594",
       "importance": "Medium",
@@ -11,12 +11,12 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Netflix.",
-      "timestamp": "2026-08-19T14:03:52Z",
+      "timestamp": "2026-08-20T14:06:23Z",
       "title": "Distributor set: Netflix"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1421594-a435561a5b5c",
+      "event_id": "1421594-8ad743e0dd15",
       "event_type": "Awards Tier Changed",
       "film_id": "1421594",
       "importance": "Medium",
@@ -26,12 +26,12 @@
       },
       "source_type": "editorial_model",
       "summary": "insufficient credible awards evidence",
-      "timestamp": "2026-08-19T14:03:52Z",
+      "timestamp": "2026-08-20T14:06:23Z",
       "title": "Awards tier assigned: No Current Awards Case"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1421594-a67174f05612",
+      "event_id": "1421594-9b7ba57e064a",
       "event_type": "Added To Database",
       "film_id": "1421594",
       "importance": "Low",
@@ -40,7 +40,7 @@
       },
       "source_type": "system",
       "summary": "Inside the Trustor Scandal is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-08-19T14:03:52Z",
+      "timestamp": "2026-08-20T14:06:23Z",
       "title": "Added to Awards Intelligence"
     },
     {
@@ -74,7 +74,7 @@
   ],
   "latest_event": {
     "confidence": "Inferred",
-    "event_id": "1421594-950878ae00ad",
+    "event_id": "1421594-f0543806f4ff",
     "event_type": "Distributor Change",
     "film_id": "1421594",
     "importance": "Medium",
@@ -83,13 +83,13 @@
     },
     "source_type": "metadata",
     "summary": "Current distributor is Netflix.",
-    "timestamp": "2026-08-19T14:03:52Z",
+    "timestamp": "2026-08-20T14:06:23Z",
     "title": "Distributor set: Netflix"
   },
   "metadata": {
     "event_count": 5,
     "film_id": "1421594",
-    "generated_at": "20260819T140352Z",
+    "generated_at": "20260820T140623Z",
     "timeline_version": "phase6b",
     "title": "Inside the Trustor Scandal",
     "tmdb_id": "1421594"

@@ -50,7 +50,7 @@
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 2.5867",
+        "evidence": "TMDb popularity 2.526",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -63,7 +63,7 @@
     "homepage_spotlight_override": null,
     "homepage_spotlight_score": 70.4,
     "industry_interest": "High",
-    "last_updated": "20260819T140352Z",
+    "last_updated": "20260820T140623Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
@@ -218,7 +218,7 @@
   "intelligence": {
     "confidence": "Low",
     "confidence_score": 0.25,
-    "generated_at": "2026-08-19T14:03:32Z",
+    "generated_at": "2026-08-20T14:06:00Z",
     "headline": "The Adventures of Cliff Booth: no material change detected",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -238,7 +238,7 @@
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=ik0drfECnPo",
-        "tmdb_popularity": 2.5867,
+        "tmdb_popularity": 2.526,
         "tmdb_poster_count": 0,
         "tmdb_release_date_us_primary": "2026-11-26",
         "tmdb_release_date_us_theatrical": "2026-11-26",
@@ -259,7 +259,7 @@
   },
   "media": {
     "canonical_trailer": {
-      "retrieved_at": "2026-08-19",
+      "retrieved_at": "2026-08-20",
       "site": "YouTube",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1457866/videos",
@@ -271,7 +271,7 @@
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "generated_at": "20260819T140352Z",
+    "generated_at": "20260820T140623Z",
     "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
@@ -279,31 +279,31 @@
     "box_office": {
       "budget": 200000000,
       "currency": "USD",
-      "retrieved_at": "2026-08-19",
+      "retrieved_at": "2026-08-20",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1457866"
     },
     "ratings": {
       "tmdb": {
-        "popularity": 2.5867,
-        "retrieved_at": "2026-08-19",
+        "popularity": 2.526,
+        "retrieved_at": "2026-08-20",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1457866",
         "status": "not_yet_rated"
       }
     },
     "tmdb_popularity": {
-      "retrieved_at": "2026-08-19",
+      "retrieved_at": "2026-08-20",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1457866",
-      "value": 2.5867
+      "value": 2.526
     },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 2.5867,
-      "retrieved_at": "2026-08-19",
+      "popularity": 2.526,
+      "retrieved_at": "2026-08-20",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1457866",
       "status": "not_yet_rated"
@@ -435,14 +435,14 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.049,
+      "audience_momentum": 0.048,
       "awards_relevance": 2.4,
       "campaign_activity": 1.35,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-08-19T14:03:32Z",
+    "generated_at": "2026-08-20T14:06:00Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 7.124,
+    "score": 7.123,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -479,11 +479,11 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.049,
+        "contribution": 0.048,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 2.5867
+        "value": 2.526
       }
     ]
   },
@@ -530,7 +530,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1457866-262d4743b4f5",
+        "event_id": "1457866-6426693e711e",
         "event_type": "Distributor Change",
         "film_id": "1457866",
         "importance": "Medium",
@@ -539,12 +539,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-19T14:03:52Z",
+        "timestamp": "2026-08-20T14:06:23Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1457866-affd8cc66d44",
+        "event_id": "1457866-722f1ec6d04e",
         "event_type": "Awards Tier Changed",
         "film_id": "1457866",
         "importance": "Medium",
@@ -558,7 +558,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-19T14:03:52Z",
+        "timestamp": "2026-08-20T14:06:23Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],
@@ -566,7 +566,7 @@
     "screening_room_score": {
       "confidence": "Low",
       "explanation": "Current provider signals do not show a supported material change.",
-      "score": 7.124
+      "score": 7.123
     },
     "watch_triggers": [
       "Prestige Distributor",
@@ -612,7 +612,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1457866-262d4743b4f5",
+        "event_id": "1457866-6426693e711e",
         "event_type": "Distributor Change",
         "film_id": "1457866",
         "importance": "Medium",
@@ -621,12 +621,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-19T14:03:52Z",
+        "timestamp": "2026-08-20T14:06:23Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1457866-affd8cc66d44",
+        "event_id": "1457866-722f1ec6d04e",
         "event_type": "Awards Tier Changed",
         "film_id": "1457866",
         "importance": "Medium",
@@ -640,12 +640,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-19T14:03:52Z",
+        "timestamp": "2026-08-20T14:06:23Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1457866-103873373bd4",
+        "event_id": "1457866-aa819fe154c1",
         "event_type": "Added To Database",
         "film_id": "1457866",
         "importance": "Low",
@@ -654,7 +654,7 @@
         },
         "source_type": "system",
         "summary": "The Adventures of Cliff Booth is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-08-19T14:03:52Z",
+        "timestamp": "2026-08-20T14:06:23Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -689,7 +689,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1457866-262d4743b4f5",
+        "event_id": "1457866-6426693e711e",
         "event_type": "Distributor Change",
         "film_id": "1457866",
         "importance": "Medium",
@@ -698,12 +698,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-08-19T14:03:52Z",
+        "timestamp": "2026-08-20T14:06:23Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1457866-affd8cc66d44",
+        "event_id": "1457866-722f1ec6d04e",
         "event_type": "Awards Tier Changed",
         "film_id": "1457866",
         "importance": "Medium",
@@ -717,7 +717,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-08-19T14:03:52Z",
+        "timestamp": "2026-08-20T14:06:23Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],
