@@ -48,7 +48,6 @@ for (const [name, html] of [
   ["search", searchHtml],
 ]) {
   assertIncludes(html, "The Screening Room", `${name} route should use The Screening Room product name.`)
-  assertIncludes(html, "Festival Radar", `${name} route should expose Festival Radar navigation.`)
   assertIncludes(html, "Awards Intelligence", `${name} route should expose Awards Intelligence as a destination.`)
   assertIncludes(html, "awards-intelligence.svg", `${name} route should use the product favicon.`)
   assertIncludes(html, "analytics.js", `${name} route should keep analytics hooks.`)
@@ -62,6 +61,9 @@ for (const [name, html] of [
   const primaryNav = html.match(/<nav class="primary-nav"[\s\S]*?<\/nav>/)?.[0] || ""
   if (primaryNav.includes("Built by Amy Wilson")) {
     failures.push(`${name} route should not expose Built by Amy Wilson in primary navigation.`)
+  }
+  if (primaryNav.includes("Festival Radar")) {
+    failures.push(`${name} route should not expose Festival Radar as a primary navigation tab.`)
   }
 }
 
@@ -78,6 +80,7 @@ assertIncludes(discoveryJs, "Now in Focus", "Homepage should render the Now in F
 assertIncludes(discoveryJs, "Coming Soon", "Homepage should render Coming Soon.")
 assertIncludes(discoveryJs, "Festival Radar", "Homepage should render Festival Radar preview.")
 assertIncludes(discoveryJs, "clean.slice(0, 10)", "Homepage Festival Radar should preview 10 items before View all.")
+assertIncludes(discoveryJs, "data-explore=\"festivals\"", "Homepage Festival Radar preview should route to the Discover Festivals filter.")
 assertIncludes(discoveryJs, "What Changed", "Homepage should render the update feed.")
 assertIncludes(discoveryJs, "spotlight_viewed", "Discovery route should track spotlight views.")
 assertIncludes(discoveryJs, "collection_viewed", "Discovery route should track homepage collection views.")

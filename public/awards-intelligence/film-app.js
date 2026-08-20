@@ -2,7 +2,6 @@ const view = document.getElementById("filmView");
 const SCREENING_ROOM_NAV = {
   home: { key: "home", label: "Spotlight", href: "/screening-room/" },
   discover: { key: "discover", label: "Discover", href: "/screening-room/#discover" },
-  festivals: { key: "festivals", label: "Festival Radar", href: "/screening-room/#festival-radar" },
   awards: { key: "awards", label: "Awards Intelligence", href: "/screening-room/#awards-intelligence" },
   about: { key: "about", label: "About", href: "/screening-room/#about" },
 };
@@ -161,7 +160,7 @@ function wireReturnControl(context) {
 
 function filmReturnContext() {
   const params = new URLSearchParams(window.location.search);
-  const from = params.get("from") || "";
+  const from = params.get("from") === "festivals" ? "discover" : params.get("from") || "";
   const nav = SCREENING_ROOM_NAV[from];
   const stored = storedReturnContext();
   if (nav) {
@@ -261,14 +260,24 @@ function heroOscarSnapshot(profile) {
 
 function heroBoxOfficeSnapshot(profile) {
   const boxOffice = profile.performance?.box_office || profile.box_office || {};
-  const commercial = profile.commercial || {};
   const revenue = positiveNumber(boxOffice.revenue || boxOffice.worldwide_gross || boxOffice.worldwide);
   const budget = positiveNumber(boxOffice.budget);
+  const rows = [];
+  if (revenue) rows.push(["Revenue", formatMoney(revenue)]);
+  else rows.push(["Revenue", prereleaseBoxOfficeState(profile)]);
+  if (budget) rows.push(["Budget", formatMoney(budget)]);
+  if (!budget && !revenue && boxOffice.status) rows.push(["Status", boxOffice.status]);
   return `
     <article class="hero-snapshot-card">
       <strong>TMDb Box Office</strong>
-      <p>${escapeHtml(formatMoney(revenue) || formatMoney(budget) || prereleaseBoxOfficeState(profile))}</p>
-      <span>${escapeHtml(revenue ? "Reported revenue" : budget ? "Reported budget" : boxOffice.status || commercial.release_strategy || "Results unavailable")}</span>
+      <div class="box-office-snapshot">
+        ${rows.map(([label, value]) => `
+          <div>
+            <span>${escapeHtml(label)}</span>
+            <p>${escapeHtml(value)}</p>
+          </div>
+        `).join("")}
+      </div>
     </article>
   `;
 }
@@ -341,8 +350,9 @@ function boxOfficeMetrics(profile) {
   const rows = [];
   const budget = formatMoney(boxOffice.budget);
   const revenue = formatMoney(boxOffice.revenue);
-  if (budget) rows.push({ label: "TMDb budget", value: budget });
   if (revenue) rows.push({ label: "TMDb revenue", value: revenue });
+  else rows.push({ label: "TMDb revenue", value: state });
+  if (budget) rows.push({ label: "TMDb budget", value: budget });
   if (boxOffice.opening_weekend) rows.push({ label: "Opening weekend", value: formatMoney(boxOffice.opening_weekend) || state });
   if (boxOffice.domestic_gross || boxOffice.domestic) rows.push({ label: "Domestic", value: formatMoney(boxOffice.domestic_gross || boxOffice.domestic) || state });
   if (boxOffice.international_gross || boxOffice.international) rows.push({ label: "International", value: formatMoney(boxOffice.international_gross || boxOffice.international) || state });

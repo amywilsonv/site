@@ -1974,6 +1974,35 @@ h2 { margin: 0; font-size: 22px; }
   line-height: 1.35;
 }
 
+.box-office-snapshot {
+  display: grid;
+  gap: 6px;
+  margin-top: 10px;
+}
+
+.box-office-snapshot div {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  border-top: 1px solid rgba(23, 25, 28, 0.1);
+  padding-top: 6px;
+}
+
+.box-office-snapshot div:first-child {
+  border-top: 0;
+  padding-top: 0;
+}
+
+.box-office-snapshot span,
+.box-office-snapshot p {
+  margin: 0;
+}
+
+.box-office-snapshot p {
+  text-align: right;
+}
+
 .ratings-snapshot {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -2579,7 +2608,11 @@ h2 { margin: 0; font-size: 22px; }
   .about-route-grid { gap: 34px; padding-bottom: 36px; }
   .about-signal-list li { grid-template-columns: 38px minmax(0, 1fr); gap: 10px 14px; }
   .about-signal-list span { font-size: 26px; }
-  .filter-row { display: none; }
+  .filter-row {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
   .quick-search { grid-template-columns: 1fr; }
   .quick-search span { display: none; }
   .search-panel {

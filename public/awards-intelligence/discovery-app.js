@@ -5,14 +5,19 @@ const state = {
   view: "all",
   homeFilter: "all",
   timing: "",
+  genre: "",
+  festival: "",
+  distributor: "",
+  awardsProfile: "",
+  sort: "Editorial",
   query: "",
   visible: 30,
+  searchIndex: null,
 };
 
 const SCREENING_ROOM_NAV = {
   home: { key: "home", label: "Spotlight", route: "home", view: "", hash: "" },
   discover: { key: "discover", label: "Discover", route: "discover", view: "all", hash: "#discover" },
-  festivals: { key: "festivals", label: "Festival Radar", route: "discover", view: "festivals", hash: "#festival-radar" },
   awards: { key: "awards", label: "Awards Intelligence", route: "awards", view: "", hash: "#awards-intelligence" },
   about: { key: "about", label: "About", route: "about", view: "", hash: "#about" },
 };
@@ -84,12 +89,14 @@ async function init() {
   renderLoadingShell();
   setHomeSeo();
   try {
-    const [homepage, discoverPayload] = await Promise.all([
+    const [homepage, discoverPayload, searchIndex] = await Promise.all([
       loadJson("data/discovery_homepage.json"),
       loadJson("data/discovery_discover.json"),
+      loadJson("data/search_index.json").catch(() => null),
     ]);
     state.homepage = homepage;
     state.discover = discoverPayload;
+    state.searchIndex = searchIndex;
     wireNavigation();
     renderHome();
     renderDiscover();
@@ -511,7 +518,8 @@ function changesSection(signals) {
 function renderDiscover() {
   const items = filteredItems();
   const shown = items.slice(0, state.visible);
-  const title = currentNavItem().label;
+  const title = SCREENING_ROOM_NAV.discover.label;
+  const filterOptions = discoverFilterOptions();
   discover.innerHTML = `
     ${routeHeading(title, "Browse films by editorial category and release timing.", "discoverRouteHeading")}
     <div class="filter-bar">
@@ -519,15 +527,12 @@ function renderDiscover() {
         ${state.discover.top_categories.map((category) => `<button class="tab ${category.key === state.view ? "active" : ""}" type="button" data-view="${category.key}">${escapeHtml(category.label)}</button>`).join("")}
       </div>
       <div class="filter-row">
-        <select id="timingFilter" aria-label="Release timing">
-          <option value="">Release Timing</option>
-          ${state.discover.secondary_filters.release_timing.map((item) => `<option value="${item.key}" ${item.key === state.timing ? "selected" : ""}>${escapeHtml(item.label)}</option>`).join("")}
-        </select>
-        <select aria-label="Genre"><option>Genre</option></select>
-        <select aria-label="Festival"><option>Festival</option></select>
-        <select aria-label="Distributor"><option>Distributor</option></select>
-        <select aria-label="Awards profile"><option>Awards Profile</option></select>
-        <select aria-label="Sort"><option>Sort: Editorial</option></select>
+        ${filterSelect("timingFilter", "Release Timing", state.timing, filterOptions.releaseTiming)}
+        ${filterSelect("genreFilter", "Genre", state.genre, filterOptions.genre)}
+        ${filterSelect("festivalFilter", "Festival", state.festival, filterOptions.festival)}
+        ${filterSelect("distributorFilter", "Distributor", state.distributor, filterOptions.distributor)}
+        ${filterSelect("awardsProfileFilter", "Awards Profile", state.awardsProfile, filterOptions.awardsProfile)}
+        ${filterSelect("sortFilter", "Sort: Editorial", state.sort, filterOptions.sort, { includeEmpty: false, prefix: "Sort: " })}
       </div>
     </div>
     <div class="section-head"><span class="muted">Showing ${shown.length} of ${items.length}</span></div>
@@ -542,15 +547,52 @@ function renderDiscover() {
       renderDiscover();
     });
   });
-  document.getElementById("timingFilter")?.addEventListener("change", (event) => {
-    state.timing = event.target.value;
-    state.visible = 30;
-    renderDiscover();
-  });
+  wireFilterSelect("timingFilter", "timing");
+  wireFilterSelect("genreFilter", "genre");
+  wireFilterSelect("festivalFilter", "festival");
+  wireFilterSelect("distributorFilter", "distributor");
+  wireFilterSelect("awardsProfileFilter", "awardsProfile");
+  wireFilterSelect("sortFilter", "sort");
   document.getElementById("loadMore")?.addEventListener("click", () => {
     state.visible += 30;
     renderDiscover();
   });
+}
+
+function filterSelect(id, label, value, options, config = {}) {
+  const includeEmpty = config.includeEmpty !== false;
+  const normalized = options || [];
+  const prefix = config.prefix || "";
+  return `
+    <select id="${escapeHtml(id)}" aria-label="${escapeHtml(label)}" ${normalized.length ? "" : "disabled"}>
+      ${includeEmpty ? `<option value="">${escapeHtml(label)}</option>` : ""}
+      ${normalized.map((item) => {
+        const optionValue = typeof item === "object" ? item.key : item;
+        const optionLabel = typeof item === "object" ? item.label : item;
+        return `<option value="${escapeHtml(optionValue)}" ${optionValue === value ? "selected" : ""}>${escapeHtml(prefix)}${escapeHtml(optionLabel)}</option>`;
+      }).join("")}
+    </select>
+  `;
+}
+
+function wireFilterSelect(id, key) {
+  document.getElementById(id)?.addEventListener("change", (event) => {
+    state[key] = event.target.value;
+    state.visible = 30;
+    renderDiscover();
+  });
+}
+
+function discoverFilterOptions() {
+  const filters = state.discover.secondary_filters || {};
+  return {
+    releaseTiming: filters.release_timing || [],
+    genre: genreOptions(),
+    festival: (filters.festival || []).filter((item) => item !== "All Festivals"),
+    distributor: filters.distributor || [],
+    awardsProfile: filters.awards_profile || [],
+    sort: filters.sort || ["Editorial", "Release Date", "Title"],
+  };
 }
 
 function renderAbout() {
@@ -590,11 +632,84 @@ function renderAbout() {
 function filteredItems() {
   let items = state.discover.views[state.view].all_items;
   if (state.timing) items = items.filter((item) => item.tile.release_timing.release_timing_key === state.timing);
+  if (state.genre) items = items.filter((item) => itemGenres(item).includes(state.genre));
+  if (state.festival) items = items.filter((item) => itemFestivalNames(item).includes(state.festival));
+  if (state.distributor) items = items.filter((item) => item.detail.distributor === state.distributor);
+  if (state.awardsProfile) items = items.filter((item) => item.detail.awards_profile === state.awardsProfile);
   if (state.query.trim()) {
     const query = state.query.trim().toLowerCase();
     items = items.filter((item) => [item.tile.title, item.detail.director, (item.detail.principal_cast || []).join(" ")].join(" ").toLowerCase().includes(query));
   }
-  return items;
+  return sortItems(items, state.sort);
+}
+
+function genreOptions() {
+  const values = allDiscoverItems()
+    .flatMap((item) => itemGenres(item))
+    .filter(Boolean);
+  return [...new Set(values)].sort((a, b) => a.localeCompare(b));
+}
+
+function allDiscoverItems() {
+  return state.discover ? state.discover.views.all.all_items : [];
+}
+
+function itemGenres(item) {
+  const indexed = searchRecordForItem(item);
+  return [
+    ...(item.detail.genres || []),
+    ...(item.tile.genres || []),
+    ...(indexed?.genres || []),
+  ].filter(Boolean);
+}
+
+function searchRecordForItem(item) {
+  const records = state.searchIndex?.records || [];
+  if (!records.length) return null;
+  const ids = new Set([
+    filmPublicId(item),
+    item.tile?.tmdb_id,
+    item.detail?.tmdb_id,
+    item.tile?.canonical_film_id,
+    item.detail?.canonical_film_id,
+  ].filter(Boolean).map(String));
+  return records.find((record) => [record.id, record.tmdb_id].some((value) => ids.has(String(value || "")))) || null;
+}
+
+function itemFestivalNames(item) {
+  const names = (item.detail.festival_history || []).map((festival) => festival.festival_name).filter(Boolean);
+  const labels = [
+    ...(item.tile.contextual_labels?.labels || []),
+    ...(item.detail.contextual_labels?.labels || []),
+  ];
+  if (labels.some((label) => /multiple festivals/i.test(label)) || names.length > 1) names.push("Multiple Festivals");
+  if (labels.some((label) => /nyff|new york film festival/i.test(label))) names.push("NYFF", "New York Film Festival");
+  if (labels.some((label) => /cannes/i.test(label))) names.push("Cannes");
+  if (labels.some((label) => /tiff|toronto/i.test(label))) names.push("TIFF");
+  if (labels.some((label) => /venice/i.test(label))) names.push("Venice");
+  if (labels.some((label) => /sundance/i.test(label))) names.push("Sundance");
+  return [...new Set(names)];
+}
+
+function sortItems(items, sort) {
+  const sorted = [...items];
+  if (sort === "Title") {
+    return sorted.sort((a, b) => itemTitle(a).localeCompare(itemTitle(b)));
+  }
+  if (sort === "Release Date") {
+    return sorted.sort((a, b) => releaseTimestamp(a) - releaseTimestamp(b) || itemTitle(a).localeCompare(itemTitle(b)));
+  }
+  return sorted;
+}
+
+function itemTitle(item) {
+  return item.tile?.title || item.detail?.title || "";
+}
+
+function releaseTimestamp(item) {
+  const value = item.tile?.release_date || item.detail?.release_date || "";
+  const time = value ? new Date(value).getTime() : Number.POSITIVE_INFINITY;
+  return Number.isFinite(time) ? time : Number.POSITIVE_INFINITY;
 }
 
 function card(item, variant = "") {
@@ -929,12 +1044,21 @@ async function openDetail(item) {
 
 async function loadModalProfile(item) {
   const path = item.detail?.profile_payload_url || item.tile?.profile_payload_url;
-  if (!path) return null;
-  try {
-    return await loadJson(path);
-  } catch {
-    return null;
+  const id = filmPublicId(item);
+  const candidates = [
+    path,
+    path && !path.startsWith("/") ? `/awards-intelligence/${path}` : "",
+    id ? `data/films/${encodeURIComponent(id)}.json` : "",
+    id ? `/awards-intelligence/data/films/${encodeURIComponent(id)}.json` : "",
+  ].filter(Boolean);
+  for (const candidate of [...new Set(candidates)]) {
+    try {
+      return await loadJson(candidate);
+    } catch {
+      // Try the next public data path; clean /screening-room routes are aliases.
+    }
   }
+  return null;
 }
 
 async function loadModalTimeline(item) {
@@ -1005,24 +1129,28 @@ function modalOscarSnapshot(profile, detail) {
 function modalBoxOfficeSnapshot(profile) {
   const boxOffice = profile?.performance?.box_office || profile?.box_office || {};
   const commercial = profile?.commercial || {};
+  const revenue = formatMoney(boxOffice.revenue || boxOffice.worldwide_gross || boxOffice.worldwide);
   const budget = formatMoney(boxOffice.budget);
-  const revenue = formatMoney(boxOffice.revenue);
-  if (budget || revenue) {
-    return `
-      <div class="modal-snapshot">
-        <strong>TMDb Box Office</strong>
-        ${budget ? `<p>Budget · ${escapeHtml(budget)}</p>` : ""}
-        ${revenue ? `<p>Revenue · ${escapeHtml(revenue)}</p>` : ""}
-      </div>
-    `;
-  }
-  return `
+  const revenueState = revenue || prereleaseBoxOfficeState(profile);
+  const rows = [
+    ["Revenue", revenueState],
+    budget ? ["Budget", budget] : null,
+    !budget && !revenue && boxOffice.status ? ["Status", boxOffice.status] : null,
+    !budget && !revenue && commercial.release_strategy ? ["Release strategy", commercial.release_strategy] : null,
+  ].filter(Boolean);
+  return rows.length ? `
     <div class="modal-snapshot">
-      <strong>Box Office</strong>
-      <p>${escapeHtml(formatMoney(boxOffice.domestic_gross || boxOffice.domestic) || prereleaseBoxOfficeState(profile))}</p>
-      <span>${escapeHtml(boxOffice.status || commercial.release_strategy || "Commercial data unavailable")}</span>
+      <strong>TMDb Box Office</strong>
+      <div class="box-office-snapshot modal-box-office-snapshot">
+        ${rows.map(([label, value]) => `
+          <div>
+            <span>${escapeHtml(label)}</span>
+            <p>${escapeHtml(value)}</p>
+          </div>
+        `).join("")}
+      </div>
     </div>
-  `;
+  ` : "";
 }
 
 function modalWatchProviderSnapshot(profile) {
@@ -1220,7 +1348,7 @@ function setRoute(route, options = {}) {
   document.querySelectorAll("[data-route]").forEach((button) => {
     const routeMatches = button.dataset.route === route;
     const navView = button.dataset.navView || "";
-    const viewMatches = route === "discover" ? navView === state.view || (navView === "all" && state.view !== "festivals") : !navView;
+    const viewMatches = route === "discover" ? navView === "all" : !navView;
     button.classList.toggle("active", routeMatches && viewMatches);
     if (routeMatches && viewMatches) button.setAttribute("aria-current", "page");
     else button.removeAttribute("aria-current");
@@ -1249,6 +1377,10 @@ function setRoute(route, options = {}) {
 }
 
 function routeFromLocation() {
+  if (window.location.hash === "#festival-radar") {
+    state.view = "festivals";
+    return "discover";
+  }
   const target = Object.values(SCREENING_ROOM_NAV).find((item) => item.hash === window.location.hash);
   if (!target) return "home";
   if (target.view) state.view = target.view;
@@ -1256,14 +1388,14 @@ function routeFromLocation() {
 }
 
 function discoverHashForView() {
-  return currentNavItem().hash || "#discover";
+  return SCREENING_ROOM_NAV.discover.hash;
 }
 
 function currentNavItem() {
   if (state.route === "home") return SCREENING_ROOM_NAV.home;
   if (state.route === "awards") return SCREENING_ROOM_NAV.awards;
   if (state.route === "about") return SCREENING_ROOM_NAV.about;
-  return Object.values(SCREENING_ROOM_NAV).find((item) => item.view === state.view) || SCREENING_ROOM_NAV.discover;
+  return SCREENING_ROOM_NAV.discover;
 }
 
 function setHomeSeo() {
