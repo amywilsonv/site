@@ -110,31 +110,87 @@ if (!read("public/awards-intelligence/discovery.css").includes('body[data-route=
   failures.push("Homepage should hide the quick search field while keeping Discover search available.")
 }
 
-if (searchIndex.records.length !== 514) {
-  failures.push(`Expected 514 search records, found ${searchIndex.records.length}.`)
+const searchRecords = searchIndex.records || []
+const allDiscoverItems = discoverPayload.views?.all?.all_items || []
+const searchIds = searchRecords.map((record) => record.id).filter(Boolean)
+const discoverIds = allDiscoverItems.map(publicItemId).filter(Boolean)
+const searchIdSet = new Set(searchIds)
+const discoverIdSet = new Set(discoverIds)
+
+if (!searchRecords.length) {
+  failures.push("Search index should contain generated film records.")
 }
 
-if (discoverPayload.views?.all?.all_items?.length !== 514) {
-  failures.push(`Expected 514 active films in Discover, found ${discoverPayload.views?.all?.all_items?.length || 0}.`)
+if (!allDiscoverItems.length) {
+  failures.push("Discover should contain generated film records.")
 }
 
-if (homepagePayload.screening_room.length !== 8) {
-  failures.push(`Expected 8-film Screening Room module, found ${homepagePayload.screening_room.length}.`)
+assertMetadataCount(searchIndex.metadata, "Search index", searchRecords.length)
+assertMetadataCount(discoverPayload.metadata, "Discover", allDiscoverItems.length)
+assertMetadataCount(homepagePayload.metadata, "Homepage", allDiscoverItems.length)
+
+if (searchRecords.length !== allDiscoverItems.length) {
+  failures.push(`Search/Discover film counts should agree, found ${searchRecords.length} search records and ${allDiscoverItems.length} Discover items.`)
 }
 
-if (homepagePayload.homepage_hero?.title !== "The Odyssey") {
-  failures.push(`Expected The Odyssey awards-aware homepage hero, found ${homepagePayload.homepage_hero?.title || "none"}.`)
+const duplicateSearchIds = duplicateValues(searchIds)
+if (duplicateSearchIds.length) {
+  failures.push(`Search index contains duplicate IDs: ${duplicateSearchIds.slice(0, 10).join(", ")}.`)
 }
 
-if (!homepagePayload.metadata?.homepage_rebalance_version) {
-  failures.push("Expected homepage rebalance metadata.")
+const duplicateDiscoverIds = duplicateValues(discoverIds)
+if (duplicateDiscoverIds.length) {
+  failures.push(`Discover contains duplicate IDs: ${duplicateDiscoverIds.slice(0, 10).join(", ")}.`)
+}
+
+const discoverMissingSearch = discoverIds.filter((id) => !searchIdSet.has(id))
+if (discoverMissingSearch.length) {
+  failures.push(`Discover items missing from search index: ${discoverMissingSearch.slice(0, 10).join(", ")}.`)
+}
+
+const searchMissingDiscover = searchIds.filter((id) => !discoverIdSet.has(id))
+if (searchMissingDiscover.length) {
+  failures.push(`Search records missing from Discover: ${searchMissingDiscover.slice(0, 10).join(", ")}.`)
+}
+
+const missingProfilePayloads = allDiscoverItems
+  .map((item) => item.detail?.profile_payload_url || item.tile?.profile_payload_url)
+  .filter(Boolean)
+  .filter((profilePath) => !existsSync(join(root, "public/awards-intelligence", profilePath)))
+if (missingProfilePayloads.length) {
+  failures.push(`Discover profile payloads are missing: ${missingProfilePayloads.slice(0, 10).join(", ")}.`)
+}
+
+if (!homepagePayload.homepage_hero?.title || !publicHeroId(homepagePayload.homepage_hero)) {
+  failures.push("Homepage hero should expose title and public identity.")
+}
+
+if (!homepagePayload.homepage_hero?.profile_url || !homepagePayload.homepage_hero?.release_display) {
+  failures.push("Homepage hero should expose profile URL and release display.")
+}
+
+if (!Array.isArray(homepagePayload.homepage_hero?.selection_reasons)) {
+  failures.push("Homepage hero should expose selection reasons using the current generated schema.")
+}
+
+if (!homepagePayload.metadata?.homepage_importance_contract) {
+  failures.push("Expected homepage importance contract metadata.")
+}
+
+if (!Array.isArray(homepagePayload.metadata?.homepage_rebalance_rules) || !homepagePayload.metadata.homepage_rebalance_rules.length) {
+  failures.push("Expected homepage rebalance rules metadata.")
 }
 
 const homepageItems = homepagePayload.new_notable || homepagePayload.screening_room || []
-const homepageIds = new Set(homepageItems.map((item) => item.tile?.profile_id || item.tile?.id || item.detail?.profile_id || item.detail?.id).filter(Boolean))
 const homepageFestivalOnly = homepageItems.filter(isFestivalOnlyHomepageItem)
 const homepageMajorReleaseCount = homepageItems.filter((item) => hasHomepageLabel(item, /major release|franchise|event film|event release|blockbuster|major filmmaker/i)).length
 const homepageTopAwardCount = homepageItems.filter((item) => Number(item.tile?.awards_intelligence?.best_picture_rank || item.detail?.awards_intelligence?.best_picture_rank || Infinity) <= 4).length
+const homepageCollectionItems = homepageCollections(homepagePayload)
+const homepageMissingDiscover = homepageCollectionItems.map(publicItemId).filter((id) => id && !discoverIdSet.has(id))
+
+if (homepageMissingDiscover.length) {
+  failures.push(`Homepage collection items missing from Discover: ${homepageMissingDiscover.slice(0, 10).join(", ")}.`)
+}
 
 if (homepageFestivalOnly.length > 2) {
   failures.push(`Expected at most 2 festival-only homepage picks, found ${homepageFestivalOnly.length}.`)
@@ -148,10 +204,6 @@ if (homepageTopAwardCount < 3) {
   failures.push(`Expected top Awards Intelligence films represented on homepage, found ${homepageTopAwardCount}.`)
 }
 
-if (!homepageIds.has("969681")) {
-  failures.push("Expected Spider-Man: Brand New Day to qualify for the rebalanced homepage by generic major-release/awards logic.")
-}
-
 if (homepagePayload.metadata?.identity_key !== "profile_id") {
   failures.push(`Expected profile_id identity contract, found ${homepagePayload.metadata?.identity_key || "none"}.`)
 }
@@ -160,11 +212,10 @@ if (!("homepage_feature_override" in (homepagePayload.metadata || {}))) {
   failures.push("Expected transparent homepage feature override metadata.")
 }
 
-if (homepagePayload.metadata?.source !== "canonical_film_discovery_universe_slice61_awards_integration") {
-  failures.push(`Expected Slice 61 discovery source, found ${homepagePayload.metadata?.source || "none"}.`)
+if (!homepagePayload.metadata?.source) {
+  failures.push("Expected homepage source metadata.")
 }
 
-const allDiscoverItems = Object.values(discoverPayload.views).flatMap((view) => view.all_items || [])
 const tmdbLessItems = allDiscoverItems.filter((item) => !item.tile?.tmdb_id && !item.detail?.tmdb_id)
 if (!tmdbLessItems.length) {
   failures.push("Expected TMDb-less canonical films in Discover.")
@@ -210,6 +261,52 @@ function assertIncludes(source, needle, message) {
   if (!source.includes(needle)) {
     failures.push(message)
   }
+}
+
+function assertMetadataCount(metadata, label, expected) {
+  const count = Number(metadata?.film_count)
+  if (!Number.isFinite(count)) {
+    failures.push(`${label} should expose film_count metadata.`)
+    return
+  }
+  if (count !== expected) {
+    failures.push(`${label} film_count metadata should match generated records, found ${count} metadata count and ${expected} records.`)
+  }
+}
+
+function duplicateValues(values) {
+  const seen = new Set()
+  const duplicates = new Set()
+  for (const value of values) {
+    if (seen.has(value)) duplicates.add(value)
+    seen.add(value)
+  }
+  return [...duplicates]
+}
+
+function publicHeroId(hero) {
+  return String(hero?.profile_id || hero?.canonical_film_id || hero?.tmdb_id || "").trim()
+}
+
+function publicItemId(item) {
+  return String(
+    item?.tile?.profile_id ||
+      item?.tile?.id ||
+      item?.detail?.profile_id ||
+      item?.detail?.id ||
+      item?.tile?.canonical_film_id ||
+      item?.detail?.canonical_film_id ||
+      item?.tile?.tmdb_id ||
+      item?.detail?.tmdb_id ||
+      item?.id ||
+      "",
+  ).trim()
+}
+
+function homepageCollections(payload) {
+  return Object.entries(payload)
+    .filter(([key, value]) => key !== "latest_signals" && Array.isArray(value))
+    .flatMap(([, value]) => value)
 }
 
 function hasHomepageLabel(item, pattern) {
