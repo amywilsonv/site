@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "eslint",
     "test": "node scripts/validate-awards-integration.mjs",
+    "screening-room:refresh-guard": "node scripts/guard-screening-room-refresh.mjs",
     "phase7b:report": "node scripts/generate-phase7b-launch-readiness.mjs",
     "phase7c:report": "node scripts/generate-phase7c-product-reframe.mjs",
     "phase7d:report": "node scripts/generate-phase7d-homepage-clarity.mjs",

@@ -49,7 +49,7 @@ function renderResults(query, results) {
   resultsRoot.querySelectorAll("[data-search-result]").forEach((link) => {
     link.addEventListener("click", () => track("search_result_clicked", {
       query: query.trim(),
-      tmdb_id: link.dataset.searchResult,
+      profile_id: link.dataset.searchResult,
       title: link.dataset.title || "",
     }));
   });
@@ -57,7 +57,7 @@ function renderResults(query, results) {
 
 function resultCard(result) {
   return `
-    <a class="search-result" href="${escapeHtml(result.destination_url)}" data-search-result="${escapeHtml(result.tmdb_id)}" data-title="${escapeHtml(result.title)}">
+    <a class="search-result" href="${escapeHtml(result.destination_url)}" data-search-result="${escapeHtml(result.id || result.tmdb_id)}" data-title="${escapeHtml(result.title)}">
       ${result.poster ? `<img src="${escapeHtml(result.poster)}" alt="${escapeHtml(result.title)} poster" loading="lazy">` : `<span class="search-result-placeholder" role="img" aria-label="Poster unavailable for ${escapeHtml(result.title)}">${escapeHtml(result.title)}</span>`}
       <span>
         <span class="badge search-badge">${escapeHtml(result.primary_badge || "Film")}</span>

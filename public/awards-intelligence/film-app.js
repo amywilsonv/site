@@ -1,9 +1,9 @@
 const view = document.getElementById("filmView");
 const SCREENING_ROOM_NAV = {
-  home: { key: "home", label: "Home", href: "./discovery.html" },
-  discover: { key: "discover", label: "Discover", href: "./discovery.html#discover" },
-  festivals: { key: "festivals", label: "Festival Radar", href: "./discovery.html#festival-radar" },
-  awards: { key: "awards", label: "Awards Intelligence", href: "./discovery.html#awards-intelligence" },
+  home: { key: "home", label: "Spotlight", href: "/screening-room/" },
+  discover: { key: "discover", label: "Discover", href: "/screening-room/#discover" },
+  awards: { key: "awards", label: "Awards Intelligence", href: "/screening-room/#awards-intelligence" },
+  about: { key: "about", label: "About", href: "/screening-room/#about" },
 };
 
 const DISCOVERY_STATE_KEY = "screening-room:return-context";
@@ -45,7 +45,7 @@ async function init() {
     ]);
     setFilmSeo(profile);
     renderFilm(profile, timeline, homepage?.metadata?.last_updated, returnContext);
-    track("film_page_viewed", { tmdb_id: id, title: profile.film_identity.title });
+    track("film_page_viewed", { profile_id: id, tmdb_id: profile.film_identity?.tmdb_id || "", title: profile.film_identity.title });
   } catch (error) {
     renderFilmError("Film not found", error.message, "The film may not have a production profile yet.", returnContext);
   }
@@ -90,6 +90,7 @@ function renderFilm(profile, timeline, lastUpdated, returnContext) {
   const reasons = attention.attention_reasons || [];
   const allEvents = timeline?.events || profile.timeline?.events || [];
   const signalEvents = meaningfulSignalEvents(allEvents);
+  const awardsSection = renderAwardsIntelligenceSection(profile);
   view.innerHTML = `
     <section class="film-profile-hero film-profile-v2">
       <div class="film-profile-backdrop" style="${identity.backdrop ? `background-image:url('${escapeAttribute(identity.backdrop)}')` : ""}"></div>
@@ -122,9 +123,7 @@ function renderFilm(profile, timeline, lastUpdated, returnContext) {
       </div>
     `)}
 
-    ${filmSection("Oscar Intelligence", `
-      ${renderOscarIntelligence(profile)}
-    `)}
+    ${awardsSection}
 
     ${filmSection("Latest Developments", `
       <div class="signal-feed" aria-label="Recent intelligence signals">
@@ -161,7 +160,7 @@ function wireReturnControl(context) {
 
 function filmReturnContext() {
   const params = new URLSearchParams(window.location.search);
-  const from = params.get("from") || "";
+  const from = params.get("from") === "festivals" ? "discover" : params.get("from") || "";
   const nav = SCREENING_ROOM_NAV[from];
   const stored = storedReturnContext();
   if (nav) {
@@ -245,35 +244,40 @@ function heroRatingsSnapshot(profile) {
 }
 
 function heroOscarSnapshot(profile) {
-  const probabilities = realOscarProbabilities(profile.awards?.probabilities || {});
-  if (!Object.keys(probabilities).length) {
+  const ai = profile.awards_intelligence || {};
+  const outlook = awardsStatusLabel(ai, true);
+  if (outlook || ai.public_card_behavior === "optional_watchlist_badge") {
     return `
       <article class="hero-snapshot-card">
-        <strong>Oscar Intelligence</strong>
-        <p>Coming Soon</p>
-        <span>Nomination and win probabilities will appear here.</span>
+        <strong>Best Picture Outlook</strong>
+        <p>${escapeHtml(outlook || "WATCHLIST")}</p>
+        <span>${escapeHtml(ai.forecast_stage_label || "Early-season forecast")}</span>
       </article>
     `;
   }
-  return `
-    <article class="hero-snapshot-card">
-      <strong>Oscar Intelligence</strong>
-      <p>Model available</p>
-      <span>${escapeHtml(Object.keys(probabilities).slice(0, 2).join(", "))}</span>
-    </article>
-  `;
+  return "";
 }
 
 function heroBoxOfficeSnapshot(profile) {
   const boxOffice = profile.performance?.box_office || profile.box_office || {};
-  const commercial = profile.commercial || {};
   const revenue = positiveNumber(boxOffice.revenue || boxOffice.worldwide_gross || boxOffice.worldwide);
   const budget = positiveNumber(boxOffice.budget);
+  const rows = [];
+  if (revenue) rows.push(["Revenue", formatMoney(revenue)]);
+  else rows.push(["Revenue", prereleaseBoxOfficeState(profile)]);
+  if (budget) rows.push(["Budget", formatMoney(budget)]);
+  if (!budget && !revenue && boxOffice.status) rows.push(["Status", boxOffice.status]);
   return `
     <article class="hero-snapshot-card">
       <strong>TMDb Box Office</strong>
-      <p>${escapeHtml(formatMoney(revenue) || formatMoney(budget) || prereleaseBoxOfficeState(profile))}</p>
-      <span>${escapeHtml(revenue ? "Reported revenue" : budget ? "Reported budget" : boxOffice.status || commercial.release_strategy || "Results unavailable")}</span>
+      <div class="box-office-snapshot">
+        ${rows.map(([label, value]) => `
+          <div>
+            <span>${escapeHtml(label)}</span>
+            <p>${escapeHtml(value)}</p>
+          </div>
+        `).join("")}
+      </div>
     </article>
   `;
 }
@@ -346,8 +350,9 @@ function boxOfficeMetrics(profile) {
   const rows = [];
   const budget = formatMoney(boxOffice.budget);
   const revenue = formatMoney(boxOffice.revenue);
-  if (budget) rows.push({ label: "TMDb budget", value: budget });
   if (revenue) rows.push({ label: "TMDb revenue", value: revenue });
+  else rows.push({ label: "TMDb revenue", value: state });
+  if (budget) rows.push({ label: "TMDb budget", value: budget });
   if (boxOffice.opening_weekend) rows.push({ label: "Opening weekend", value: formatMoney(boxOffice.opening_weekend) || state });
   if (boxOffice.domestic_gross || boxOffice.domestic) rows.push({ label: "Domestic", value: formatMoney(boxOffice.domestic_gross || boxOffice.domestic) || state });
   if (boxOffice.international_gross || boxOffice.international) rows.push({ label: "International", value: formatMoney(boxOffice.international_gross || boxOffice.international) || state });
@@ -395,7 +400,7 @@ function latestMediaPanel(profile) {
 
 function renderSignalFeed(events) {
   if (!events.length) {
-    return `<div class="empty compact-empty" role="status"><strong>No major developments yet.</strong><p>This section will surface trailers, festival announcements, reviews, release-date changes, box-office updates, Oscar probability movement, and major industry news.</p></div>`;
+    return `<div class="empty compact-empty" role="status"><strong>No major developments yet.</strong><p>This section will surface trailers, festival announcements, reviews, release-date changes, box-office updates, Awards Intelligence updates, and major industry news.</p></div>`;
   }
   return events.slice(0, 5).map((event) => signalFeedItem(event)).join("");
 }
@@ -415,35 +420,78 @@ function signalFeedItem(event) {
 }
 
 function renderOscarIntelligence(profile) {
-  const probabilities = realOscarProbabilities(profile.awards?.probabilities || {});
   return `
     <div class="oscar-model-grid">
-      ${screeningRoomIntelligencePanel(profile)}
-      ${oscarModelPanel("Nomination Model", "Coming Soon", "Will estimate nomination probability by Academy Award category.", "nomination_probability", probabilities)}
-      ${oscarModelPanel("Winner Model", "Coming Soon", "Will estimate win probability and recalculate after nominees are announced.", "win_probability", probabilities)}
+      ${bestPictureOutlookPanel(profile)}
     </div>
   `;
 }
 
-function screeningRoomIntelligencePanel(profile) {
-  const score = profile.screening_room_score || profile.signals?.screening_room_score || {};
-  const intelligence = profile.intelligence || {};
-  const numericScore = Number(score.score);
-  if (!Number.isFinite(numericScore) && !intelligence.summary) return "";
-  const confidence = intelligence.confidence || score.confidence || "Unavailable";
-  const explanation = intelligence.summary || score.explanation || "No current explanation available.";
-  const headline = intelligence.headline || "Screening Room intelligence";
+function renderAwardsIntelligenceSection(profile) {
+  const ai = profile.awards_intelligence || {};
+  if (!["show_awards_status_and_rank", "optional_watchlist_badge"].includes(ai.public_card_behavior)) return "";
+  const content = renderOscarIntelligence(profile);
+  if (!content.trim()) return "";
+  return filmSection("Awards Intelligence", content);
+}
+
+function bestPictureOutlookPanel(profile) {
+  const ai = profile.awards_intelligence || {};
+  if (!["show_awards_status_and_rank", "optional_watchlist_badge"].includes(ai.public_card_behavior)) return "";
+  const status = awardsStatusLabel(ai, true) || "WATCHLIST";
+  const explanation = editorialAwardsExplanation(ai);
   return `
-    <article class="oscar-model-panel">
+    <article class="oscar-model-panel best-picture-outlook">
       <div class="score-panel-title">
-        <strong>Screening Room Score</strong>
-        <button class="methodology-link" type="button" data-methodology-open aria-haspopup="dialog">How this score works</button>
+        <strong>Best Picture Outlook</strong>
+        ${ai.forecast_stage_label ? `<span class="stage-pill">${escapeHtml(ai.forecast_stage_label)}</span>` : ""}
       </div>
-      ${Number.isFinite(numericScore) ? `<div class="oscar-model-row"><strong>${Math.round(numericScore)}</strong><span>${escapeHtml(confidence)} confidence</span><em>Score</em></div>` : ""}
-      <p>${escapeHtml(headline)}</p>
-      <span>${escapeHtml(explanation)}</span>
+      <p class="outlook-status">${escapeHtml(status)}</p>
+      ${explanation ? `<p>${escapeHtml(explanation)}</p>` : ""}
+      ${ai.ranking_last_updated_at ? `<span>Updated ${escapeHtml(formatDate(ai.ranking_last_updated_at))}</span>` : ""}
     </article>
   `;
+}
+
+function awardsStatusLabel(ai, allowNumberOne = false) {
+  if (!ai) return "";
+  if (allowNumberOne && ai.best_picture_rank === 1 && ai.awards_status === "AWARDS LEADER") return "#1 AWARDS LEADER";
+  return ai.awards_status || "";
+}
+
+function editorialAwardsExplanation(ai) {
+  const status = ai.awards_status || "";
+  const rank = Number(ai.best_picture_rank);
+  const reasons = (ai.why_it_ranks || []).map(publicAwardsReason).filter(Boolean);
+  const unique = [...new Set(reasons)].slice(0, 2);
+  if (unique.length) return unique.join(" ");
+  if (status === "AWARDS LEADER" || rank === 1) return "Currently leads the model's early Best Picture forecast, with the race still developing as more season evidence arrives.";
+  if (status === "STRONG CONTENDER") return "Ranks among the strongest early-season contenders in the current public forecast.";
+  if (status === "CONTENDER") return "Currently holds a competitive early-season position in the Best Picture race.";
+  if (status === "ON THE BUBBLE") return "Sits near the edge of the current race and needs more season evidence.";
+  if (status === "WATCHLIST") return "Remains on the awards watchlist pending stronger public signals.";
+  return "";
+}
+
+function publicAwardsReason(reason) {
+  const code = String(reason?.code || "").toUpperCase();
+  const text = String(reason?.text || "");
+  if (/FALL_AWARDS_WINDOW_RELEASE/.test(code)) return "Positioned in the traditional awards-season release window.";
+  if (/SELECTED_AT_NYFF/.test(code)) return "Building visibility through a New York Film Festival selection.";
+  if (/CANNES|VENICE|TIFF|TELLURIDE|SUNDANCE|FESTIVAL/.test(code) && !/LIMITED_MODEL_EVIDENCE/.test(code)) return "Building visibility on the festival circuit.";
+  if (/LIMITED_MODEL_EVIDENCE/.test(code)) return "Current placement is based on limited public evidence and may move as the season develops.";
+  if (isRawAwardsReason(text)) return "";
+  return normalizeSentence(text);
+}
+
+function isRawAwardsReason(value) {
+  return /runtime bucket|static metadata|production metadata|genre profile|feature bucket|raw_|logistic|probability|country metadata/i.test(String(value || ""));
+}
+
+function normalizeSentence(value) {
+  const text = String(value || "").trim();
+  if (!text) return "";
+  return /[.!?]$/.test(text) ? text : `${text}.`;
 }
 
 function wireMethodologyControls() {
@@ -507,38 +555,6 @@ function methodologyDialogHtml(title) {
   `;
 }
 
-function realOscarProbabilities(probabilities) {
-  const output = {};
-  Object.entries(probabilities || {}).forEach(([category, raw]) => {
-    const probability = normalizeProbability(raw);
-    if (probability) output[category] = probability;
-  });
-  return output;
-}
-
-function normalizeProbability(raw) {
-  if (raw === undefined || raw === null || raw === "") return null;
-  if (typeof raw === "number") return { value: raw <= 1 ? raw * 100 : raw, label: "Nomination probability" };
-  if (typeof raw !== "object") return null;
-  const candidate = raw.nomination_probability ?? raw.nominationProbability ?? raw.win_probability ?? raw.winProbability ?? raw.win_probability_among_nominees ?? raw.winProbabilityAmongNominees;
-  const type = raw.nomination_probability !== undefined || raw.nominationProbability !== undefined
-    ? "Nomination probability"
-    : raw.win_probability !== undefined || raw.winProbability !== undefined
-      ? "Win probability"
-      : raw.win_probability_among_nominees !== undefined || raw.winProbabilityAmongNominees !== undefined
-        ? "Win probability among confirmed nominees"
-        : "";
-  const numeric = Number(candidate);
-  if (!Number.isFinite(numeric) || !type) return null;
-  return { value: numeric <= 1 ? numeric * 100 : numeric, label: type, key: typeKey(type) };
-}
-
-function typeKey(type) {
-  if (type === "Nomination probability") return "nomination_probability";
-  if (type === "Win probability") return "win_probability";
-  return "win_probability_among_nominees";
-}
-
 function heroSummary(profile) {
   const synopsis = plotSynopsis(profile);
   return synopsis || "Synopsis unavailable.";
@@ -547,24 +563,6 @@ function heroSummary(profile) {
 function plotSynopsis(profile) {
   const synopsis = profile.film_identity?.synopsis || "";
   return synopsis.trim();
-}
-
-function oscarModelPanel(title, status, description, probabilityKey, probabilities) {
-  const rows = Object.entries(probabilities)
-    .filter(([, probability]) => probability.key === probabilityKey)
-    .map(([category, probability]) => `
-      <div class="oscar-model-row">
-        <strong>${escapeHtml(category)}</strong>
-        <span>${escapeHtml(probability.label)}</span>
-        <em>${Math.round(probability.value)}%</em>
-      </div>
-    `);
-  return `
-    <article class="oscar-model-panel">
-      <strong>${escapeHtml(title)}</strong>
-      ${rows.length ? rows.join("") : `<p>${escapeHtml(status)}</p><span>${escapeHtml(description)}</span>`}
-    </article>
-  `;
 }
 
 function latestMediaRows(profile, trailer) {
@@ -768,6 +766,8 @@ function renderFestivalRecords(records) {
 function setFilmSeo(profile) {
   const identity = profile.film_identity;
   const editorial = profile.editorial;
+  const browserTitle = document.getElementById("browserTitle");
+  if (browserTitle) browserTitle.textContent = `The Screening Room — ${identity.title}`;
   if (!window.AwardsSeo) {
     document.title = `The Screening Room - ${identity.title}`;
     return;
