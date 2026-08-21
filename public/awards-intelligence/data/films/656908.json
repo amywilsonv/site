@@ -1,6 +1,6 @@
 {
   "attention_intelligence": {
-    "anticipation_level": "High",
+    "anticipation_level": "Moderate",
     "attention_confidence": "High",
     "attention_reasons": [
       "Most Anticipated",
@@ -8,18 +8,13 @@
       "Event Release",
       "Awards Watch"
     ],
-    "attention_score": 76.3,
+    "attention_score": 72.0,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
-    "cultural_relevance": "Moderate",
+    "cultural_relevance": null,
     "early_reception": null,
     "evidence_sources": [
-      {
-        "evidence": "TMDb popularity 19.0692",
-        "source": "audience_popularity",
-        "status": "verified"
-      },
       {
         "evidence": "Public-interest, franchise, event, or major-studio tracking signal",
         "source": "event_awareness",
@@ -31,18 +26,23 @@
         "status": "inferred"
       },
       {
+        "evidence": "TMDb popularity 7.5387",
+        "source": "audience_popularity",
+        "status": "verified"
+      },
+      {
+        "evidence": "Principal cast listed: Ranbir Kapoor, Sai Pallavi, Yash, Ravi Dubey",
+        "source": "cast_interest",
+        "status": "verified"
+      },
+      {
         "evidence": "Commercial scale and release context",
         "source": "commercial_scale",
         "status": "inferred"
       },
       {
-        "evidence": "Principal cast listed: Ranbir Kapoor, Sai Pallavi, Ravi Dubey, Yash",
-        "source": "cast_interest",
-        "status": "verified"
-      },
-      {
-        "evidence": "Director: Nitesh Tiwari",
-        "source": "filmmaker_interest",
+        "evidence": "Trailer URL present",
+        "source": "trailer_available",
         "status": "verified"
       },
       {
@@ -56,19 +56,24 @@
         "status": "inferred"
       },
       {
+        "evidence": "Director: Nitesh Tiwari",
+        "source": "filmmaker_interest",
+        "status": "verified"
+      },
+      {
         "evidence": "Editorial distinctiveness score",
         "source": "editorial_importance",
         "status": "inferred"
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 76.3,
+    "homepage_spotlight_score": 72.0,
     "industry_interest": "Moderate",
-    "last_updated": "20260729T213825Z",
-    "promotional_response": null,
+    "last_updated": "20260821T140432Z",
+    "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
-        "evidence_count": 1,
+        "evidence_count": 2,
         "score": 15.5,
         "statuses": [
           "verified"
@@ -76,7 +81,7 @@
       },
       "commercial": {
         "evidence_count": 1,
-        "score": 11.7,
+        "score": 9.6,
         "statuses": [
           "inferred"
         ]
@@ -104,7 +109,7 @@
       },
       "talent/prestige": {
         "evidence_count": 2,
-        "score": 14.4,
+        "score": 12.2,
         "statuses": [
           "verified"
         ]
@@ -155,30 +160,8 @@
     ],
     "probabilities": {}
   },
-  "awards_intelligence": {
-    "awards_candidate_status": "ACTIVE_CONTENDER",
-    "awards_status": "ON THE BUBBLE",
-    "best_picture_rank": 24,
-    "forecast_stage": "STAGE_B",
-    "forecast_stage_label": "Stage B Early Season",
-    "nominee_probability": null,
-    "percentage_policy": "PERCENTAGES_NOT_READY",
-    "prediction_confidence": "RESEARCH_ONLY",
-    "probability_is_calibrated": false,
-    "public_card_behavior": "show_awards_status_and_rank",
-    "rank_change": null,
-    "ranking_eligibility": "RANKABLE_HIGH_UNCERTAINTY",
-    "ranking_last_updated_at": "2026-08-16T00:00:00Z",
-    "source_artifact": "academy_nominee_website_card_handoff_v1.json",
-    "why_it_ranks": [
-      {
-        "code": "FALL_AWARDS_WINDOW_RELEASE",
-        "text": "Release timing falls in the fall awards window."
-      }
-    ]
-  },
   "commercial": {
-    "commercial_significance": 45.1,
+    "commercial_significance": 37.0,
     "distributor": "Unknown",
     "franchise": "Franchise/Event",
     "release_strategy": "Release radar monitoring",
@@ -218,7 +201,7 @@
     "premiere_type": ""
   },
   "film_identity": {
-    "backdrop": "https://image.tmdb.org/t/p/original/ks72NqTPhpupk207NXiqmZIQQVI.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/svGHaToRKhlxwTBslsOxuntz0D7.jpg",
     "country": [
       "IN"
     ],
@@ -228,7 +211,7 @@
       "Action"
     ],
     "id": "656908",
-    "imdb_id": "tt27988879",
+    "imdb_id": "",
     "language": "hi",
     "original_title": "\u0930\u093e\u092e\u093e\u092f\u0923",
     "poster": "https://image.tmdb.org/t/p/original/f3yZZw7zIsWo6m9xJStfjDauIZX.jpg",
@@ -236,16 +219,16 @@
     "profile_url": "film.html?id=656908",
     "release_date": "2026-11-08",
     "release_display": "In theaters Nov. 8",
-    "runtime": 0,
+    "runtime": null,
     "synopsis": "An ancient epic follows a young prince and princess whose marriage and subsequent exile mark the beginning of a legendary journey. Their story of love, duty and destiny sets the stage for greater challenges ahead.",
     "title": "Ramayana",
     "tmdb_id": "656908"
   },
   "intelligence": {
-    "confidence": "Low",
-    "confidence_score": 0.25,
-    "generated_at": "2026-07-29T21:38:25Z",
-    "headline": "Ramayana: no material change detected",
+    "confidence": "High",
+    "confidence_score": 0.99,
+    "generated_at": "2026-08-21T14:04:17Z",
+    "headline": "Ramayana: trailer available",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
       "signal_values": {
@@ -262,61 +245,85 @@
         "streaming_flatrate_provider_count_us": 0,
         "streaming_provider_count_us": 0,
         "tmdb_backdrop_count": 2,
-        "tmdb_canonical_trailer_available": false,
-        "tmdb_popularity": 19.0692,
-        "tmdb_poster_count": 0,
+        "tmdb_canonical_trailer_available": true,
+        "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=le2W_fB_4KY",
+        "tmdb_popularity": 7.5387,
+        "tmdb_poster_count": 6,
         "tmdb_release_date_us_primary": "",
         "tmdb_release_date_us_theatrical": "",
         "tmdb_release_status": "Post Production",
         "tmdb_vote_average": 0,
         "tmdb_vote_count": 0,
         "tmdb_watch_provider_count_us": 0,
-        "trailer_available": false,
-        "trailer_count": 0
+        "trailer_available": true,
+        "trailer_count": 2,
+        "trailer_url": "https://www.youtube.com/watch?v=le2W_fB_4KY"
       },
-      "source_signal_count": 24,
+      "source_signal_count": 26,
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "Current provider signals do not show a supported material change.",
-    "supporting_drivers": []
+    "summary": "A canonical TMDb trailer URL is available.",
+    "supporting_drivers": [
+      {
+        "confidence_weight": 0.85,
+        "driver_type": "trailer_available",
+        "evidence": "A canonical TMDb trailer URL is available.",
+        "label": "Trailer available",
+        "retrieved_at": "2026-08-21T14:04:17Z",
+        "source_metric": "tmdb_canonical_trailer_url",
+        "source_provider": "tmdb",
+        "source_status": "available"
+      }
+    ]
   },
   "media": {
-    "backdrop": "https://image.tmdb.org/t/p/original/ks72NqTPhpupk207NXiqmZIQQVI.jpg",
-    "poster": "https://image.tmdb.org/t/p/original/f3yZZw7zIsWo6m9xJStfjDauIZX.jpg"
+    "canonical_trailer": {
+      "retrieved_at": "2026-08-21",
+      "site": "YouTube",
+      "source": "TMDb",
+      "source_url": "https://www.themoviedb.org/movie/656908/videos",
+      "title": "UK Official Trailer [ENG DUB]",
+      "type": "Trailer",
+      "url": "https://www.youtube.com/watch?v=le2W_fB_4KY"
+    },
+    "latest_trailer_url": "https://www.youtube.com/watch?v=le2W_fB_4KY"
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "awards_intelligence_integrated_at": "2026-08-16T00:00:00Z",
-    "awards_intelligence_source": "academy_nominee_website_card_handoff_v1.json",
-    "generated_at": "slice57_current_discovery_enrichment",
-    "profile_version": "phase6a_registry_canonical_id_bridge_slice57_enriched",
+    "generated_at": "20260821T140432Z",
+    "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
   "performance": {
     "box_office": {
       "budget": 230000000,
       "currency": "USD",
-      "retrieved_at": "2026-07-29",
+      "retrieved_at": "2026-08-21",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/656908"
     },
     "ratings": {
       "tmdb": {
-        "popularity": 19.0692,
-        "retrieved_at": "2026-07-29",
+        "popularity": 7.5387,
+        "retrieved_at": "2026-08-21",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/656908",
         "status": "not_yet_rated"
       }
     },
-    "tmdb_popularity": 19.0692,
+    "tmdb_popularity": {
+      "retrieved_at": "2026-08-21",
+      "source": "TMDb",
+      "source_url": "https://www.themoviedb.org/movie/656908",
+      "value": 7.5387
+    },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 19.0692,
-      "retrieved_at": "2026-07-29",
+      "popularity": 7.5387,
+      "retrieved_at": "2026-08-21",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/656908",
       "status": "not_yet_rated"
@@ -408,11 +415,11 @@
         "role": "actor"
       },
       {
-        "name": "Ravi Dubey",
+        "name": "Yash",
         "role": "actor"
       },
       {
-        "name": "Yash",
+        "name": "Ravi Dubey",
         "role": "actor"
       },
       {
@@ -420,7 +427,7 @@
         "role": "actor"
       },
       {
-        "name": "Sunny Deol",
+        "name": "Rakul Preet Singh",
         "role": "actor"
       }
     ],
@@ -441,15 +448,24 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.362,
+      "audience_momentum": 0.143,
       "awards_relevance": 0.8,
+      "campaign_activity": 2.7,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-07-29T21:38:25Z",
+    "generated_at": "2026-08-21T14:04:17Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 4.487,
+    "score": 6.968,
     "source": "derived_screening_room_score",
     "top_drivers": [
+      {
+        "confidence": 0.9,
+        "contribution": 2.7,
+        "metric_name": "trailer_count",
+        "provider": "trailers",
+        "score_family": "campaign_activity",
+        "value": 2
+      },
       {
         "confidence": 0.55,
         "contribution": 2.2,
@@ -476,20 +492,20 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.362,
+        "contribution": 0.143,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 19.0692
+        "value": 7.5387
       }
     ]
   },
   "signals": {
-    "cultural_significance": 45.1,
+    "cultural_significance": 37.0,
     "external_intelligence": {
-      "confidence": "Low",
-      "headline": "Ramayana: no material change detected",
-      "summary": "Current provider signals do not show a supported material change."
+      "confidence": "High",
+      "headline": "Ramayana: trailer available",
+      "summary": "A canonical TMDb trailer URL is available."
     },
     "last_updated": "2026-11-08",
     "latest_event": {
@@ -527,7 +543,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "656908-62b2704313ed",
+        "event_id": "656908-bd611652a49b",
         "event_type": "Awards Tier Changed",
         "film_id": "656908",
         "importance": "Medium",
@@ -539,12 +555,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "656908-4918a541e116",
+        "event_id": "656908-bb671a05d7e9",
         "event_type": "Added To Database",
         "film_id": "656908",
         "importance": "Low",
@@ -553,15 +569,15 @@
         },
         "source_type": "system",
         "summary": "Ramayana is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Added to Awards Intelligence"
       }
     ],
-    "release_relevance": 32.5,
+    "release_relevance": 31.1,
     "screening_room_score": {
-      "confidence": "Low",
-      "explanation": "Current provider signals do not show a supported material change.",
-      "score": 4.487
+      "confidence": "High",
+      "explanation": "A canonical TMDb trailer URL is available.",
+      "score": 6.968
     },
     "watch_triggers": [
       "Awards-Season Release",
@@ -577,17 +593,15 @@
     "principal_cast": [
       "Ranbir Kapoor",
       "Sai Pallavi",
-      "Ravi Dubey",
       "Yash",
+      "Ravi Dubey",
       "Arun Govil",
-      "Sunny Deol",
-      "Kajal Aggarwal",
-      "Rakul Preet Singh"
+      "Rakul Preet Singh",
+      "Lara Dutta",
+      "Indira Krishnan"
     ],
     "producers": [],
-    "writers": [
-      "Shridhar Raghavan"
-    ]
+    "writers": []
   },
   "timeline": {
     "events": [
@@ -607,7 +621,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "656908-62b2704313ed",
+        "event_id": "656908-bd611652a49b",
         "event_type": "Awards Tier Changed",
         "film_id": "656908",
         "importance": "Medium",
@@ -619,12 +633,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "656908-4918a541e116",
+        "event_id": "656908-bb671a05d7e9",
         "event_type": "Added To Database",
         "film_id": "656908",
         "importance": "Low",
@@ -633,7 +647,7 @@
         },
         "source_type": "system",
         "summary": "Ramayana is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -668,7 +682,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "656908-62b2704313ed",
+        "event_id": "656908-bd611652a49b",
         "event_type": "Awards Tier Changed",
         "film_id": "656908",
         "importance": "Medium",
@@ -680,12 +694,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "656908-4918a541e116",
+        "event_id": "656908-bb671a05d7e9",
         "event_type": "Added To Database",
         "film_id": "656908",
         "importance": "Low",
@@ -694,7 +708,7 @@
         },
         "source_type": "system",
         "summary": "Ramayana is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Added to Awards Intelligence"
       }
     ],

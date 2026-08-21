@@ -7,7 +7,7 @@
       "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 46.9,
+    "attention_score": 46.5,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -45,20 +45,20 @@
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 0.9091",
+        "evidence": "TMDb popularity 0.7374",
         "source": "audience_popularity",
         "status": "verified"
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 46.9,
+    "homepage_spotlight_score": 46.5,
     "industry_interest": null,
-    "last_updated": "20260729T213825Z",
+    "last_updated": "20260821T140432Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
         "evidence_count": 1,
-        "score": 3.3,
+        "score": 2.9,
         "statuses": [
           "verified"
         ]
@@ -140,23 +140,6 @@
     ],
     "probabilities": {}
   },
-  "awards_intelligence": {
-    "awards_candidate_status": "PROVISIONAL",
-    "awards_status": null,
-    "best_picture_rank": null,
-    "forecast_stage": null,
-    "forecast_stage_label": null,
-    "nominee_probability": null,
-    "percentage_policy": "PERCENTAGES_NOT_READY",
-    "prediction_confidence": null,
-    "probability_is_calibrated": false,
-    "public_card_behavior": "no_awards_badge",
-    "rank_change": null,
-    "ranking_eligibility": "NOT_RANKED",
-    "ranking_last_updated_at": null,
-    "source_artifact": "academy_nominee_website_card_handoff_v1.json",
-    "why_it_ranks": []
-  },
   "commercial": {
     "commercial_significance": 19.0,
     "distributor": "Netflix",
@@ -169,11 +152,9 @@
     ]
   },
   "diagnostics": {
-    "completeness_score": 89,
+    "completeness_score": 100,
     "confidence": "High",
-    "missing_fields": [
-      "runtime"
-    ],
+    "missing_fields": [],
     "relationship_counts": {
       "related_films": 6,
       "related_people": 7,
@@ -206,7 +187,7 @@
       "Drama"
     ],
     "id": "1365884",
-    "imdb_id": "tt38267923",
+    "imdb_id": "",
     "language": "fr",
     "original_title": "Dix Pour Cent ! Le Film",
     "poster": "https://image.tmdb.org/t/p/original/s0NJyZcmuG91MgFwflfGyQFeg41.jpg",
@@ -214,15 +195,15 @@
     "profile_url": "film.html?id=1365884",
     "release_date": "2026-09-10",
     "release_display": "In theaters Sep. 10",
-    "runtime": 0,
-    "synopsis": "Five years after the series finale, Andr\u00e9a Martel is now a director on her first film. Things, however, are not running smoothly. When her lead actor drops days before cameras are set to roll, she must get the team back together, rekindling all the old friendships and rivalries.",
+    "runtime": 117,
+    "synopsis": "Five years after ASK Agency closed, debut director Andr\u00e9a loses her lead actor just days before filming and reunited with her old team \u2014 for better or worse.",
     "title": "Call My Agent! The Movie",
     "tmdb_id": "1365884"
   },
   "intelligence": {
     "confidence": "Low",
     "confidence_score": 0.25,
-    "generated_at": "2026-07-29T21:38:25Z",
+    "generated_at": "2026-08-21T14:04:17Z",
     "headline": "Call My Agent! The Movie: no material change detected",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -241,7 +222,7 @@
         "streaming_provider_count_us": 0,
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": false,
-        "tmdb_popularity": 0.9091,
+        "tmdb_popularity": 0.7374,
         "tmdb_poster_count": 0,
         "tmdb_release_date_us_primary": "2026-09-10",
         "tmdb_release_date_us_theatrical": "",
@@ -259,36 +240,36 @@
     "summary": "Current provider signals do not show a supported material change.",
     "supporting_drivers": []
   },
-  "media": {
-    "backdrop": "https://image.tmdb.org/t/p/original/glef8XbizwfHKfY274aOMZtiJnL.jpg",
-    "poster": "https://image.tmdb.org/t/p/original/s0NJyZcmuG91MgFwflfGyQFeg41.jpg"
-  },
+  "media": {},
   "metadata": {
     "algorithm_version": "phase5b",
-    "awards_intelligence_integrated_at": "2026-08-16T00:00:00Z",
-    "awards_intelligence_source": "academy_nominee_website_card_handoff_v1.json",
-    "generated_at": "slice57_current_discovery_enrichment",
-    "profile_version": "phase6a_registry_canonical_id_bridge_slice57_enriched",
+    "generated_at": "20260821T140432Z",
+    "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
   "performance": {
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 0.9091,
-        "retrieved_at": "2026-07-29",
+        "popularity": 0.7374,
+        "retrieved_at": "2026-08-21",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1365884",
         "status": "not_yet_rated"
       }
     },
-    "tmdb_popularity": 0.9091,
+    "tmdb_popularity": {
+      "retrieved_at": "2026-08-21",
+      "source": "TMDb",
+      "source_url": "https://www.themoviedb.org/movie/1365884",
+      "value": 0.7374
+    },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 0.9091,
-      "retrieved_at": "2026-07-29",
+      "popularity": 0.7374,
+      "retrieved_at": "2026-08-21",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1365884",
       "status": "not_yet_rated"
@@ -296,18 +277,6 @@
   },
   "related": {
     "related_films": [
-      {
-        "profile_url": "film.html?id=1504358",
-        "relationship_score": 72,
-        "shared_signals": [
-          "General Watch",
-          "Comedy",
-          "Drama",
-          "Acting"
-        ],
-        "title": "Don't Say Good Luck",
-        "tmdb_id": "1504358"
-      },
       {
         "profile_url": "film.html?id=1422041",
         "relationship_score": 66,
@@ -333,18 +302,6 @@
         "tmdb_id": "1487864"
       },
       {
-        "profile_url": "film.html?id=1631807",
-        "relationship_score": 66,
-        "shared_signals": [
-          "General Watch",
-          "Drama",
-          "Acting",
-          "Best Picture"
-        ],
-        "title": "The Secret Woman",
-        "tmdb_id": "1631807"
-      },
-      {
         "profile_url": "film.html?id=1654566",
         "relationship_score": 62,
         "shared_signals": [
@@ -367,6 +324,30 @@
         ],
         "title": "A Place in Hell",
         "tmdb_id": "1437882"
+      },
+      {
+        "profile_url": "film.html?id=1504358",
+        "relationship_score": 56,
+        "shared_signals": [
+          "Comedy",
+          "Drama",
+          "Acting",
+          "Best Picture"
+        ],
+        "title": "Don't Say Good Luck",
+        "tmdb_id": "1504358"
+      },
+      {
+        "profile_url": "film.html?id=1286656",
+        "relationship_score": 56,
+        "shared_signals": [
+          "General Watch",
+          "Drama",
+          "Acting",
+          "Best Picture"
+        ],
+        "title": "I Play Rocky",
+        "tmdb_id": "1286656"
       }
     ],
     "related_people": [
@@ -420,13 +401,13 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.017,
+      "audience_momentum": 0.014,
       "awards_relevance": 2.4,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-07-29T21:38:25Z",
+    "generated_at": "2026-08-21T14:04:17Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 5.742,
+    "score": 5.739,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -455,11 +436,11 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.017,
+        "contribution": 0.014,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 0.9091
+        "value": 0.7374
       }
     ]
   },
@@ -506,7 +487,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1365884-80453028c886",
+        "event_id": "1365884-7a0a0d9008c4",
         "event_type": "Distributor Change",
         "film_id": "1365884",
         "importance": "Medium",
@@ -515,12 +496,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1365884-6e1643e5a31b",
+        "event_id": "1365884-bb93df61519f",
         "event_type": "Awards Tier Changed",
         "film_id": "1365884",
         "importance": "Medium",
@@ -534,7 +515,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],
@@ -542,7 +523,7 @@
     "screening_room_score": {
       "confidence": "Low",
       "explanation": "Current provider signals do not show a supported material change.",
-      "score": 5.742
+      "score": 5.739
     },
     "watch_triggers": [
       "Prestige Distributor",
@@ -565,10 +546,7 @@
       "Oph\u00e9lia Kolb"
     ],
     "producers": [],
-    "writers": [
-      "Fanny Herrero",
-      "Lison Daniel"
-    ]
+    "writers": []
   },
   "timeline": {
     "events": [
@@ -588,7 +566,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1365884-80453028c886",
+        "event_id": "1365884-7a0a0d9008c4",
         "event_type": "Distributor Change",
         "film_id": "1365884",
         "importance": "Medium",
@@ -597,12 +575,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1365884-6e1643e5a31b",
+        "event_id": "1365884-bb93df61519f",
         "event_type": "Awards Tier Changed",
         "film_id": "1365884",
         "importance": "Medium",
@@ -616,12 +594,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1365884-52a980efa7b8",
+        "event_id": "1365884-8308cbe1c9fe",
         "event_type": "Added To Database",
         "film_id": "1365884",
         "importance": "Low",
@@ -630,7 +608,7 @@
         },
         "source_type": "system",
         "summary": "Call My Agent! The Movie is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -665,7 +643,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1365884-80453028c886",
+        "event_id": "1365884-7a0a0d9008c4",
         "event_type": "Distributor Change",
         "film_id": "1365884",
         "importance": "Medium",
@@ -674,12 +652,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1365884-6e1643e5a31b",
+        "event_id": "1365884-bb93df61519f",
         "event_type": "Awards Tier Changed",
         "film_id": "1365884",
         "importance": "Medium",
@@ -693,7 +671,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],

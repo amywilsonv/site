@@ -8,7 +8,7 @@
       "Event Release",
       "Awards Watch"
     ],
-    "attention_score": 57.7,
+    "attention_score": 57.6,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -26,7 +26,7 @@
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 4.9172",
+        "evidence": "TMDb popularity 4.8758",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -57,14 +57,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 57.7,
+    "homepage_spotlight_score": 57.6,
     "industry_interest": null,
-    "last_updated": "20260729T213825Z",
+    "last_updated": "20260821T140432Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
         "evidence_count": 2,
-        "score": 13.6,
+        "score": 13.5,
         "statuses": [
           "verified"
         ]
@@ -147,23 +147,6 @@
     ],
     "probabilities": {}
   },
-  "awards_intelligence": {
-    "awards_candidate_status": "PROVISIONAL",
-    "awards_status": null,
-    "best_picture_rank": null,
-    "forecast_stage": null,
-    "forecast_stage_label": null,
-    "nominee_probability": null,
-    "percentage_policy": "PERCENTAGES_NOT_READY",
-    "prediction_confidence": null,
-    "probability_is_calibrated": false,
-    "public_card_behavior": "no_awards_badge",
-    "rank_change": null,
-    "ranking_eligibility": "NOT_RANKED",
-    "ranking_last_updated_at": null,
-    "source_artifact": "academy_nominee_website_card_handoff_v1.json",
-    "why_it_ranks": []
-  },
   "commercial": {
     "commercial_significance": 0,
     "distributor": "Focus Features",
@@ -205,7 +188,7 @@
     "premiere_type": ""
   },
   "film_identity": {
-    "backdrop": "https://image.tmdb.org/t/p/original/w2iQlj8KaC8LARWkfBXEoxBEWQ3.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/4YyuSadBoc5k6krj0REcYH15DXG.jpg",
     "country": [
       "DE",
       "GB",
@@ -213,12 +196,11 @@
     ],
     "genres": [
       "Drama",
-      "Action",
       "History",
       "War"
     ],
     "id": "977942",
-    "imdb_id": "tt36983905",
+    "imdb_id": "",
     "language": "en",
     "original_title": "The Uprising",
     "poster": "https://image.tmdb.org/t/p/original/7TUl15TOsIvndKlgMWTtLgtEzZP.jpg",
@@ -227,14 +209,14 @@
     "release_date": "2026-09-11",
     "release_display": "In theaters Sep. 11",
     "runtime": 127,
-    "synopsis": "As war and plague devastate 14th-century England, humble peasant Wat Tyler ignites a rebellion, uniting an army of commoners to defy the king's brutal rule in a desperate fight for freedom and survival.",
+    "synopsis": "As war and plague devastate 14th-century England, a humble peasant ignites a rebellion, uniting an army of commoners to defy the King\u2019s might in a desperate fight for justice and survival.",
     "title": "The Uprising",
     "tmdb_id": "977942"
   },
   "intelligence": {
     "confidence": "Low",
     "confidence_score": 0.25,
-    "generated_at": "2026-07-29T21:38:25Z",
+    "generated_at": "2026-08-21T14:04:17Z",
     "headline": "The Uprising: no material change detected",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -251,10 +233,10 @@
         "streaming_available_us": false,
         "streaming_flatrate_provider_count_us": 0,
         "streaming_provider_count_us": 0,
-        "tmdb_backdrop_count": 0,
+        "tmdb_backdrop_count": 1,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=lyhCxZN4Ro8",
-        "tmdb_popularity": 4.9172,
+        "tmdb_popularity": 4.8758,
         "tmdb_poster_count": 5,
         "tmdb_release_date_us_primary": "2026-09-11",
         "tmdb_release_date_us_theatrical": "2026-09-11",
@@ -274,9 +256,8 @@
     "supporting_drivers": []
   },
   "media": {
-    "backdrop": "https://image.tmdb.org/t/p/original/w2iQlj8KaC8LARWkfBXEoxBEWQ3.jpg",
     "canonical_trailer": {
-      "retrieved_at": "2026-07-29",
+      "retrieved_at": "2026-08-21",
       "site": "YouTube",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/977942/videos",
@@ -284,36 +265,37 @@
       "type": "Trailer",
       "url": "https://www.youtube.com/watch?v=lyhCxZN4Ro8"
     },
-    "latest_trailer_url": "https://www.youtube.com/watch?v=lyhCxZN4Ro8",
-    "poster": "https://image.tmdb.org/t/p/original/7TUl15TOsIvndKlgMWTtLgtEzZP.jpg",
-    "trailer": "https://www.youtube.com/watch?v=lyhCxZN4Ro8"
+    "latest_trailer_url": "https://www.youtube.com/watch?v=lyhCxZN4Ro8"
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "awards_intelligence_integrated_at": "2026-08-16T00:00:00Z",
-    "awards_intelligence_source": "academy_nominee_website_card_handoff_v1.json",
-    "generated_at": "slice57_current_discovery_enrichment",
-    "profile_version": "phase6a_registry_canonical_id_bridge_slice57_enriched",
+    "generated_at": "20260821T140432Z",
+    "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
   "performance": {
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 4.9172,
-        "retrieved_at": "2026-07-29",
+        "popularity": 4.8758,
+        "retrieved_at": "2026-08-21",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/977942",
         "status": "not_yet_rated"
       }
     },
-    "tmdb_popularity": 4.9172,
+    "tmdb_popularity": {
+      "retrieved_at": "2026-08-21",
+      "source": "TMDb",
+      "source_url": "https://www.themoviedb.org/movie/977942",
+      "value": 4.8758
+    },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 4.9172,
-      "retrieved_at": "2026-07-29",
+      "popularity": 4.8758,
+      "retrieved_at": "2026-08-21",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/977942",
       "status": "not_yet_rated"
@@ -382,7 +364,7 @@
         "tmdb_id": "1365884"
       },
       {
-        "profile_url": "film.html?id=1504358",
+        "profile_url": "film.html?id=1558094",
         "relationship_score": 56,
         "shared_signals": [
           "General Watch",
@@ -390,8 +372,8 @@
           "Acting",
           "Best Picture"
         ],
-        "title": "Don't Say Good Luck",
-        "tmdb_id": "1504358"
+        "title": "Let Love In",
+        "tmdb_id": "1558094"
       }
     ],
     "related_people": [
@@ -462,7 +444,7 @@
       "campaign_activity": 2.7,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-07-29T21:38:25Z",
+    "generated_at": "2026-08-21T14:04:17Z",
     "schema_version": "phase3_screening_room_score_v1",
     "score": 9.318,
     "source": "derived_screening_room_score",
@@ -505,7 +487,7 @@
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 4.9172
+        "value": 4.8758
       }
     ]
   },
@@ -552,7 +534,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "977942-b4d4e0193f76",
+        "event_id": "977942-fc8b981d9238",
         "event_type": "Distributor Change",
         "film_id": "977942",
         "importance": "Medium",
@@ -561,12 +543,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Focus Features.",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Distributor set: Focus Features"
       },
       {
         "confidence": "Inferred",
-        "event_id": "977942-f723b40f067c",
+        "event_id": "977942-a88b324ec38e",
         "event_type": "Awards Tier Changed",
         "film_id": "977942",
         "importance": "Medium",
@@ -581,7 +563,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],
@@ -614,9 +596,7 @@
       "Woody Norman"
     ],
     "producers": [],
-    "writers": [
-      "Paul Greengrass"
-    ]
+    "writers": []
   },
   "timeline": {
     "events": [
@@ -636,7 +616,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "977942-b4d4e0193f76",
+        "event_id": "977942-fc8b981d9238",
         "event_type": "Distributor Change",
         "film_id": "977942",
         "importance": "Medium",
@@ -645,12 +625,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Focus Features.",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Distributor set: Focus Features"
       },
       {
         "confidence": "Inferred",
-        "event_id": "977942-f723b40f067c",
+        "event_id": "977942-a88b324ec38e",
         "event_type": "Awards Tier Changed",
         "film_id": "977942",
         "importance": "Medium",
@@ -665,12 +645,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "977942-22e77abbfed1",
+        "event_id": "977942-2f35587b47e8",
         "event_type": "Added To Database",
         "film_id": "977942",
         "importance": "Low",
@@ -679,7 +659,7 @@
         },
         "source_type": "system",
         "summary": "The Uprising is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Added to Awards Intelligence"
       },
       {
@@ -728,7 +708,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "977942-b4d4e0193f76",
+        "event_id": "977942-fc8b981d9238",
         "event_type": "Distributor Change",
         "film_id": "977942",
         "importance": "Medium",
@@ -737,12 +717,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Focus Features.",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Distributor set: Focus Features"
       },
       {
         "confidence": "Inferred",
-        "event_id": "977942-f723b40f067c",
+        "event_id": "977942-a88b324ec38e",
         "event_type": "Awards Tier Changed",
         "film_id": "977942",
         "importance": "Medium",
@@ -757,7 +737,7 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Awards tier assigned: No Current Awards Case"
       }
     ],

@@ -2,21 +2,7 @@
   "events": [
     {
       "confidence": "Inferred",
-      "event_id": "1284041-81e841a7ccda",
-      "event_type": "Release Scheduled",
-      "film_id": "1284041",
-      "importance": "Medium",
-      "metadata": {
-        "release_date": "2026-08-07"
-      },
-      "source_type": "metadata",
-      "summary": "Release currently scheduled for In theaters Aug. 7.",
-      "timestamp": "2026-08-07",
-      "title": "Release scheduled"
-    },
-    {
-      "confidence": "Inferred",
-      "event_id": "1284041-3849e16706db",
+      "event_id": "1284041-507a1af1483b",
       "event_type": "Distributor Change",
       "film_id": "1284041",
       "importance": "Medium",
@@ -25,12 +11,12 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Netflix.",
-      "timestamp": "2026-07-29T21:38:25Z",
+      "timestamp": "2026-08-21T14:04:32Z",
       "title": "Distributor set: Netflix"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1284041-c8fcc40cd879",
+      "event_id": "1284041-7443462d2501",
       "event_type": "Awards Tier Changed",
       "film_id": "1284041",
       "importance": "Medium",
@@ -42,12 +28,12 @@
       },
       "source_type": "editorial_model",
       "summary": "insufficient credible awards evidence",
-      "timestamp": "2026-07-29T21:38:25Z",
+      "timestamp": "2026-08-21T14:04:32Z",
       "title": "Awards tier assigned: No Current Awards Case"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1284041-f5aa488ad119",
+      "event_id": "1284041-fb537017dd62",
       "event_type": "Added To Database",
       "film_id": "1284041",
       "importance": "Low",
@@ -56,28 +42,42 @@
       },
       "source_type": "system",
       "summary": "The Last House is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-07-29T21:38:25Z",
+      "timestamp": "2026-08-21T14:04:32Z",
       "title": "Added to Awards Intelligence"
+    },
+    {
+      "confidence": "Inferred",
+      "event_id": "1284041-81e841a7ccda",
+      "event_type": "Release Scheduled",
+      "film_id": "1284041",
+      "importance": "Medium",
+      "metadata": {
+        "release_date": "2026-08-07"
+      },
+      "source_type": "metadata",
+      "summary": "Release currently scheduled for In theaters Aug. 7.",
+      "timestamp": "2026-08-07",
+      "title": "Release scheduled"
     }
   ],
   "latest_event": {
     "confidence": "Inferred",
-    "event_id": "1284041-81e841a7ccda",
-    "event_type": "Release Scheduled",
+    "event_id": "1284041-507a1af1483b",
+    "event_type": "Distributor Change",
     "film_id": "1284041",
     "importance": "Medium",
     "metadata": {
-      "release_date": "2026-08-07"
+      "distributor": "Netflix"
     },
     "source_type": "metadata",
-    "summary": "Release currently scheduled for In theaters Aug. 7.",
-    "timestamp": "2026-08-07",
-    "title": "Release scheduled"
+    "summary": "Current distributor is Netflix.",
+    "timestamp": "2026-08-21T14:04:32Z",
+    "title": "Distributor set: Netflix"
   },
   "metadata": {
     "event_count": 4,
     "film_id": "1284041",
-    "generated_at": "slice57_current_discovery_enrichment",
+    "generated_at": "20260821T140432Z",
     "timeline_version": "phase6b",
     "title": "The Last House",
     "tmdb_id": "1284041"

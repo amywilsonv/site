@@ -16,7 +16,7 @@
     "early_reception": null,
     "evidence_sources": [
       {
-        "evidence": "TMDb popularity 211.904",
+        "evidence": "TMDb popularity 1819.54",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -36,7 +36,7 @@
         "status": "inferred"
       },
       {
-        "evidence": "Principal cast listed: Tom Holland, Zendaya, Sadie Sink, Jacob Batalon",
+        "evidence": "Principal cast listed: Tom Holland, Zendaya, Mark Ruffalo, Jon Bernthal",
         "source": "cast_interest",
         "status": "verified"
       },
@@ -61,7 +61,7 @@
         "status": "inferred"
       },
       {
-        "evidence": "14",
+        "evidence": "1993",
         "source": "tmdb_vote_count",
         "status": "verified"
       }
@@ -69,7 +69,7 @@
     "homepage_spotlight_override": null,
     "homepage_spotlight_score": 96.4,
     "industry_interest": "High",
-    "last_updated": "20260729T213825Z",
+    "last_updated": "20260821T140432Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
@@ -160,32 +160,6 @@
     ],
     "probabilities": {}
   },
-  "awards_intelligence": {
-    "awards_candidate_status": "ACTIVE_CONTENDER",
-    "awards_status": "STRONG CONTENDER",
-    "best_picture_rank": 3,
-    "forecast_stage": "STAGE_B",
-    "forecast_stage_label": "Stage B Early Season",
-    "nominee_probability": null,
-    "percentage_policy": "PERCENTAGES_NOT_READY",
-    "prediction_confidence": "RESEARCH_ONLY",
-    "probability_is_calibrated": false,
-    "public_card_behavior": "show_awards_status_and_rank",
-    "rank_change": null,
-    "ranking_eligibility": "RANKABLE",
-    "ranking_last_updated_at": "2026-08-16T00:00:00Z",
-    "source_artifact": "academy_nominee_website_card_handoff_v1.json",
-    "why_it_ranks": [
-      {
-        "code": "RUNTIME_BUCKET_120_149",
-        "text": "Runtime bucket: 120-149 minutes."
-      },
-      {
-        "code": "US_PRODUCTION_METADATA",
-        "text": "US production metadata present."
-      }
-    ]
-  },
   "commercial": {
     "commercial_significance": 100,
     "distributor": "Columbia Pictures",
@@ -195,7 +169,7 @@
       "Marvel Studios",
       "Columbia Pictures",
       "Pascal Pictures",
-      "TSG Entertainment II"
+      "TSG Entertainment"
     ]
   },
   "diagnostics": {
@@ -225,7 +199,7 @@
     "premiere_type": ""
   },
   "film_identity": {
-    "backdrop": "https://image.tmdb.org/t/p/original/vjMvFSmGUxEtqVdaZgvFee9XkZl.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/7iwUUcKURMT7aKfCwMy6YnGtchD.jpg",
     "country": [
       "US"
     ],
@@ -235,10 +209,10 @@
       "Adventure"
     ],
     "id": "969681",
-    "imdb_id": "tt22084616",
+    "imdb_id": "",
     "language": "en",
     "original_title": "Spider-Man: Brand New Day",
-    "poster": "https://image.tmdb.org/t/p/original/6Q21yptoOCUq4ErwVncesLPVplb.jpg",
+    "poster": "https://image.tmdb.org/t/p/original/iPOn6DinuVyLY17YM9mKuPofV08.jpg",
     "profile_payload_url": "data/films/969681.json",
     "profile_url": "film.html?id=969681",
     "release_date": "2026-07-31",
@@ -251,7 +225,7 @@
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-07-29T21:38:25Z",
+    "generated_at": "2026-08-21T14:04:17Z",
     "headline": "Spider-Man: Brand New Day: release approaching",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -268,33 +242,43 @@
         "streaming_available_us": false,
         "streaming_flatrate_provider_count_us": 0,
         "streaming_provider_count_us": 0,
-        "tmdb_backdrop_count": 2,
+        "tmdb_backdrop_count": 11,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=P3uI5sLosKU",
-        "tmdb_popularity": 211.9043,
-        "tmdb_poster_count": 67,
+        "tmdb_popularity": 1819.537,
+        "tmdb_poster_count": 127,
         "tmdb_release_date_us_primary": "2026-07-31",
         "tmdb_release_date_us_theatrical": "2026-07-31",
         "tmdb_release_status": "Released",
-        "tmdb_vote_average": 9.1,
-        "tmdb_vote_count": 14,
+        "tmdb_vote_average": 7.9,
+        "tmdb_vote_count": 1993,
         "tmdb_watch_provider_count_us": 0,
         "trailer_available": true,
-        "trailer_count": 122,
+        "trailer_count": 198,
         "trailer_url": "https://www.youtube.com/watch?v=P3uI5sLosKU"
       },
       "source_signal_count": 26,
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "US release is 11 days away on 2026-07-31.",
+    "summary": "TMDb popularity rose from 211.904 to 1819.54. US release is 11 days away on 2026-07-31.",
     "supporting_drivers": [
+      {
+        "confidence_weight": 0.9,
+        "driver_type": "popularity_increasing",
+        "evidence": "TMDb popularity rose from 211.904 to 1819.54.",
+        "label": "Popularity increasing",
+        "retrieved_at": "2026-08-21T14:04:17Z",
+        "source_metric": "tmdb_popularity",
+        "source_provider": "tmdb",
+        "source_status": "available"
+      },
       {
         "confidence_weight": 0.8,
         "driver_type": "release_approaching",
         "evidence": "US release is 11 days away on 2026-07-31.",
         "label": "Release approaching",
-        "retrieved_at": "2026-07-29T21:38:25Z",
+        "retrieved_at": "2026-08-21T14:04:17Z",
         "source_metric": "tmdb_release_date_us_primary",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -302,9 +286,8 @@
     ]
   },
   "media": {
-    "backdrop": "https://image.tmdb.org/t/p/original/vjMvFSmGUxEtqVdaZgvFee9XkZl.jpg",
     "canonical_trailer": {
-      "retrieved_at": "2026-07-29",
+      "retrieved_at": "2026-08-21",
       "site": "YouTube",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/969681/videos",
@@ -312,50 +295,51 @@
       "type": "Trailer",
       "url": "https://www.youtube.com/watch?v=P3uI5sLosKU"
     },
-    "latest_trailer_url": "https://www.youtube.com/watch?v=P3uI5sLosKU",
-    "poster": "https://image.tmdb.org/t/p/original/6Q21yptoOCUq4ErwVncesLPVplb.jpg",
-    "trailer": "https://www.youtube.com/watch?v=P3uI5sLosKU"
+    "latest_trailer_url": "https://www.youtube.com/watch?v=P3uI5sLosKU"
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "awards_intelligence_integrated_at": "2026-08-16T00:00:00Z",
-    "awards_intelligence_source": "academy_nominee_website_card_handoff_v1.json",
-    "generated_at": "slice57_current_discovery_enrichment",
-    "profile_version": "phase6a_registry_canonical_id_bridge_slice57_enriched",
+    "generated_at": "20260821T140432Z",
+    "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
   "performance": {
     "box_office": {
-      "budget": 275000000,
+      "budget": 225000000,
       "currency": "USD",
-      "retrieved_at": "2026-07-29",
+      "retrieved_at": "2026-08-21",
+      "revenue": 2039929225,
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/969681"
     },
     "ratings": {
       "tmdb": {
-        "popularity": 211.9043,
-        "retrieved_at": "2026-07-29",
+        "popularity": 1819.537,
+        "retrieved_at": "2026-08-21",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/969681",
         "status": "rated",
-        "vote_average": 9.1,
-        "vote_count": 14
+        "vote_average": 7.9,
+        "vote_count": 1993
       }
     },
-    "tmdb_popularity": 211.9043,
+    "tmdb_popularity": {
+      "retrieved_at": "2026-08-21",
+      "source": "TMDb",
+      "source_url": "https://www.themoviedb.org/movie/969681",
+      "value": 1819.537
+    },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 211.9043,
-      "rating": 9.1,
-      "retrieved_at": "2026-07-29",
+      "popularity": 1819.537,
+      "retrieved_at": "2026-08-21",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/969681",
       "status": "rated",
-      "vote_average": 9.1,
-      "vote_count": 14
+      "vote_average": 7.9,
+      "vote_count": 1993
     }
   },
   "related": {
@@ -447,11 +431,7 @@
         "role": "actor"
       },
       {
-        "name": "Sadie Sink",
-        "role": "actor"
-      },
-      {
-        "name": "Jacob Batalon",
+        "name": "Mark Ruffalo",
         "role": "actor"
       },
       {
@@ -459,7 +439,11 @@
         "role": "actor"
       },
       {
-        "name": "Tramell Tillman",
+        "name": "Jacob Batalon",
+        "role": "actor"
+      },
+      {
+        "name": "Sadie Sink",
         "role": "actor"
       }
     ],
@@ -481,31 +465,47 @@
         "role": "production_company"
       },
       {
-        "name": "TSG Entertainment II",
+        "name": "TSG Entertainment",
         "role": "production_company"
       }
     ]
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 4.132,
-      "audience_quality": 8.645,
+      "audience_momentum": 26.6,
+      "audience_quality": 7.505,
       "awards_relevance": 0.8,
       "campaign_activity": 5.4,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-07-29T21:38:25Z",
+    "generated_at": "2026-08-21T14:04:17Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 22.302,
+    "score": 43.63,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
         "confidence": 0.95,
-        "contribution": 8.645,
+        "contribution": 19.0,
+        "metric_name": "tmdb_popularity",
+        "provider": "tmdb",
+        "score_family": "audience_momentum",
+        "value": 1819.537
+      },
+      {
+        "confidence": 0.95,
+        "contribution": 7.6,
+        "metric_name": "tmdb_vote_count",
+        "provider": "tmdb",
+        "score_family": "audience_momentum",
+        "value": 1993
+      },
+      {
+        "confidence": 0.95,
+        "contribution": 7.505,
         "metric_name": "tmdb_vote_average",
         "provider": "tmdb",
         "score_family": "audience_quality",
-        "value": 9.1
+        "value": 7.9
       },
       {
         "confidence": 0.9,
@@ -513,15 +513,7 @@
         "metric_name": "trailer_count",
         "provider": "trailers",
         "score_family": "campaign_activity",
-        "value": 122
-      },
-      {
-        "confidence": 0.95,
-        "contribution": 4.026,
-        "metric_name": "tmdb_popularity",
-        "provider": "tmdb",
-        "score_family": "audience_momentum",
-        "value": 211.9043
+        "value": 198
       },
       {
         "confidence": 0.55,
@@ -530,14 +522,6 @@
         "provider": "legacy_dashboard_talent_history_adapter",
         "score_family": "talent_profile",
         "value": 8
-      },
-      {
-        "confidence": 0.5,
-        "contribution": 1.125,
-        "metric_name": "legacy_dashboard_credited_talent_count",
-        "provider": "legacy_dashboard_talent_history_adapter",
-        "score_family": "talent_profile",
-        "value": 9
       }
     ]
   },
@@ -546,22 +530,22 @@
     "external_intelligence": {
       "confidence": "High",
       "headline": "Spider-Man: Brand New Day: release approaching",
-      "summary": "US release is 11 days away on 2026-07-31."
+      "summary": "TMDb popularity rose from 211.904 to 1819.54. US release is 11 days away on 2026-07-31."
     },
-    "last_updated": "2026-07-31",
+    "last_updated": "2026-08-21T14:04:32Z",
     "latest_event": {
       "confidence": "Inferred",
-      "event_id": "969681-24e0a495b200",
-      "event_type": "Release Scheduled",
+      "event_id": "969681-c2b6a0cfe408",
+      "event_type": "Homepage Featured",
       "film_id": "969681",
       "importance": "Medium",
       "metadata": {
-        "release_date": "2026-07-31"
+        "editorial_category": "Major Release"
       },
-      "source_type": "metadata",
-      "summary": "Release currently scheduled for In theaters Jul. 31.",
-      "timestamp": "2026-07-31",
-      "title": "Release scheduled"
+      "source_type": "discovery_homepage",
+      "summary": "Spider-Man: Brand New Day is currently selected for the homepage experience.",
+      "timestamp": "2026-08-21T14:04:32Z",
+      "title": "Featured in The Screening Room"
     },
     "latest_intelligence": "As of 2026-07-18, this is a Columbia Pictures release dated 2026-07-31 with Craft Categories relevance; current awards profile is Craft Potential and data status is developing.",
     "momentum": 0.0,
@@ -570,21 +554,7 @@
     "recent_activity": [
       {
         "confidence": "Inferred",
-        "event_id": "969681-24e0a495b200",
-        "event_type": "Release Scheduled",
-        "film_id": "969681",
-        "importance": "Medium",
-        "metadata": {
-          "release_date": "2026-07-31"
-        },
-        "source_type": "metadata",
-        "summary": "Release currently scheduled for In theaters Jul. 31.",
-        "timestamp": "2026-07-31",
-        "title": "Release scheduled"
-      },
-      {
-        "confidence": "Inferred",
-        "event_id": "969681-c1ce1396264b",
+        "event_id": "969681-c2b6a0cfe408",
         "event_type": "Homepage Featured",
         "film_id": "969681",
         "importance": "Medium",
@@ -593,12 +563,12 @@
         },
         "source_type": "discovery_homepage",
         "summary": "Spider-Man: Brand New Day is currently selected for the homepage experience.",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Featured in The Screening Room"
       },
       {
         "confidence": "Inferred",
-        "event_id": "969681-c3efdf7e5394",
+        "event_id": "969681-e8f03e7cef6b",
         "event_type": "Distributor Change",
         "film_id": "969681",
         "importance": "Medium",
@@ -607,15 +577,32 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Columbia Pictures.",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Distributor set: Columbia Pictures"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "969681-f4ebc22884e7",
+        "event_type": "Awards Tier Changed",
+        "film_id": "969681",
+        "importance": "Medium",
+        "metadata": {
+          "awards_tier": "Emerging",
+          "categories": [
+            "Craft Categories"
+          ]
+        },
+        "source_type": "editorial_model",
+        "summary": "plausible but incomplete awards evidence",
+        "timestamp": "2026-08-21T14:04:32Z",
+        "title": "Awards tier assigned: Emerging"
       }
     ],
     "release_relevance": 66.0,
     "screening_room_score": {
       "confidence": "High",
-      "explanation": "US release is 11 days away on 2026-07-31.",
-      "score": 22.302
+      "explanation": "TMDb popularity rose from 211.904 to 1819.54. US release is 11 days away on 2026-07-31.",
+      "score": 43.63
     },
     "watch_triggers": [
       "Major Studio/Streamer",
@@ -631,38 +618,21 @@
     "principal_cast": [
       "Tom Holland",
       "Zendaya",
-      "Sadie Sink",
-      "Jacob Batalon",
+      "Mark Ruffalo",
       "Jon Bernthal",
-      "Tramell Tillman",
-      "Michael Mando",
-      "Mark Ruffalo"
+      "Jacob Batalon",
+      "Sadie Sink",
+      "Florence Pugh",
+      "Liza Col\u00f3n-Zayas"
     ],
     "producers": [],
-    "writers": [
-      "Erik Sommers",
-      "Chris McKenna"
-    ]
+    "writers": []
   },
   "timeline": {
     "events": [
       {
         "confidence": "Inferred",
-        "event_id": "969681-24e0a495b200",
-        "event_type": "Release Scheduled",
-        "film_id": "969681",
-        "importance": "Medium",
-        "metadata": {
-          "release_date": "2026-07-31"
-        },
-        "source_type": "metadata",
-        "summary": "Release currently scheduled for In theaters Jul. 31.",
-        "timestamp": "2026-07-31",
-        "title": "Release scheduled"
-      },
-      {
-        "confidence": "Inferred",
-        "event_id": "969681-c1ce1396264b",
+        "event_id": "969681-c2b6a0cfe408",
         "event_type": "Homepage Featured",
         "film_id": "969681",
         "importance": "Medium",
@@ -671,12 +641,12 @@
         },
         "source_type": "discovery_homepage",
         "summary": "Spider-Man: Brand New Day is currently selected for the homepage experience.",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Featured in The Screening Room"
       },
       {
         "confidence": "Inferred",
-        "event_id": "969681-c3efdf7e5394",
+        "event_id": "969681-e8f03e7cef6b",
         "event_type": "Distributor Change",
         "film_id": "969681",
         "importance": "Medium",
@@ -685,12 +655,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Columbia Pictures.",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Distributor set: Columbia Pictures"
       },
       {
         "confidence": "Inferred",
-        "event_id": "969681-3d263626663d",
+        "event_id": "969681-f4ebc22884e7",
         "event_type": "Awards Tier Changed",
         "film_id": "969681",
         "importance": "Medium",
@@ -702,12 +672,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "969681-8aca941e809d",
+        "event_id": "969681-6f80ff168374",
         "event_type": "Added To Database",
         "film_id": "969681",
         "importance": "Low",
@@ -716,25 +686,9 @@
         },
         "source_type": "system",
         "summary": "Spider-Man: Brand New Day is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Added to Awards Intelligence"
-      }
-    ],
-    "latest_event": {
-      "confidence": "Inferred",
-      "event_id": "969681-24e0a495b200",
-      "event_type": "Release Scheduled",
-      "film_id": "969681",
-      "importance": "Medium",
-      "metadata": {
-        "release_date": "2026-07-31"
       },
-      "source_type": "metadata",
-      "summary": "Release currently scheduled for In theaters Jul. 31.",
-      "timestamp": "2026-07-31",
-      "title": "Release scheduled"
-    },
-    "recent_activity": [
       {
         "confidence": "Inferred",
         "event_id": "969681-24e0a495b200",
@@ -748,10 +702,26 @@
         "summary": "Release currently scheduled for In theaters Jul. 31.",
         "timestamp": "2026-07-31",
         "title": "Release scheduled"
+      }
+    ],
+    "latest_event": {
+      "confidence": "Inferred",
+      "event_id": "969681-c2b6a0cfe408",
+      "event_type": "Homepage Featured",
+      "film_id": "969681",
+      "importance": "Medium",
+      "metadata": {
+        "editorial_category": "Major Release"
       },
+      "source_type": "discovery_homepage",
+      "summary": "Spider-Man: Brand New Day is currently selected for the homepage experience.",
+      "timestamp": "2026-08-21T14:04:32Z",
+      "title": "Featured in The Screening Room"
+    },
+    "recent_activity": [
       {
         "confidence": "Inferred",
-        "event_id": "969681-c1ce1396264b",
+        "event_id": "969681-c2b6a0cfe408",
         "event_type": "Homepage Featured",
         "film_id": "969681",
         "importance": "Medium",
@@ -760,12 +730,12 @@
         },
         "source_type": "discovery_homepage",
         "summary": "Spider-Man: Brand New Day is currently selected for the homepage experience.",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Featured in The Screening Room"
       },
       {
         "confidence": "Inferred",
-        "event_id": "969681-c3efdf7e5394",
+        "event_id": "969681-e8f03e7cef6b",
         "event_type": "Distributor Change",
         "film_id": "969681",
         "importance": "Medium",
@@ -774,8 +744,25 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Columbia Pictures.",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Distributor set: Columbia Pictures"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "969681-f4ebc22884e7",
+        "event_type": "Awards Tier Changed",
+        "film_id": "969681",
+        "importance": "Medium",
+        "metadata": {
+          "awards_tier": "Emerging",
+          "categories": [
+            "Craft Categories"
+          ]
+        },
+        "source_type": "editorial_model",
+        "summary": "plausible but incomplete awards evidence",
+        "timestamp": "2026-08-21T14:04:32Z",
+        "title": "Awards tier assigned: Emerging"
       }
     ],
     "supported_event_types": [

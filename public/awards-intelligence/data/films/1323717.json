@@ -7,7 +7,7 @@
       "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 51.1,
+    "attention_score": 51.5,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -40,25 +40,25 @@
         "status": "verified"
       },
       {
-        "evidence": "Director: Marcus Baldini",
-        "source": "filmmaker_interest",
+        "evidence": "TMDb popularity 1.2956",
+        "source": "audience_popularity",
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 1.1221",
-        "source": "audience_popularity",
+        "evidence": "Director: Marcus Baldini",
+        "source": "filmmaker_interest",
         "status": "verified"
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 51.1,
+    "homepage_spotlight_score": 51.5,
     "industry_interest": "Moderate",
-    "last_updated": "20260729T213825Z",
+    "last_updated": "20260821T140432Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
         "evidence_count": 1,
-        "score": 3.9,
+        "score": 4.3,
         "statuses": [
           "verified"
         ]
@@ -135,23 +135,6 @@
     "predicted_categories": [],
     "probabilities": {}
   },
-  "awards_intelligence": {
-    "awards_candidate_status": "PROVISIONAL",
-    "awards_status": null,
-    "best_picture_rank": null,
-    "forecast_stage": null,
-    "forecast_stage_label": null,
-    "nominee_probability": null,
-    "percentage_policy": "PERCENTAGES_NOT_READY",
-    "prediction_confidence": null,
-    "probability_is_calibrated": false,
-    "public_card_behavior": "no_awards_badge",
-    "rank_change": null,
-    "ranking_eligibility": "NOT_RANKED",
-    "ranking_last_updated_at": null,
-    "source_artifact": "academy_nominee_website_card_handoff_v1.json",
-    "why_it_ranks": []
-  },
   "commercial": {
     "commercial_significance": 37.0,
     "distributor": "Unknown",
@@ -201,7 +184,7 @@
       "Drama"
     ],
     "id": "1323717",
-    "imdb_id": "tt33055902",
+    "imdb_id": "",
     "language": "pt",
     "original_title": "Bruna Surfistinha 2",
     "poster": "https://image.tmdb.org/t/p/original/jn3bV2L73VimOaPFkQAPc6nHrfk.jpg",
@@ -209,16 +192,16 @@
     "profile_url": "film.html?id=1323717",
     "release_date": "2026-12-31",
     "release_display": "In theaters Dec. 31",
-    "runtime": 0,
+    "runtime": null,
     "synopsis": "",
     "title": "Confessions of a Brazilian Call Girl 2",
     "tmdb_id": "1323717"
   },
   "intelligence": {
-    "confidence": "Low",
-    "confidence_score": 0.25,
-    "generated_at": "2026-07-29T21:38:25Z",
-    "headline": "Confessions of a Brazilian Call Girl 2: no material change detected",
+    "confidence": "High",
+    "confidence_score": 0.99,
+    "generated_at": "2026-08-21T14:04:17Z",
+    "headline": "Confessions of a Brazilian Call Girl 2: popularity increasing",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
       "signal_values": {
@@ -236,7 +219,7 @@
         "streaming_provider_count_us": 0,
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": false,
-        "tmdb_popularity": 1.1221,
+        "tmdb_popularity": 1.2956,
         "tmdb_poster_count": 0,
         "tmdb_release_date_us_primary": "",
         "tmdb_release_date_us_theatrical": "",
@@ -251,39 +234,50 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "Current provider signals do not show a supported material change.",
-    "supporting_drivers": []
+    "summary": "TMDb popularity rose from 1.1221 to 1.2956.",
+    "supporting_drivers": [
+      {
+        "confidence_weight": 0.9,
+        "driver_type": "popularity_increasing",
+        "evidence": "TMDb popularity rose from 1.1221 to 1.2956.",
+        "label": "Popularity increasing",
+        "retrieved_at": "2026-08-21T14:04:17Z",
+        "source_metric": "tmdb_popularity",
+        "source_provider": "tmdb",
+        "source_status": "available"
+      }
+    ]
   },
-  "media": {
-    "backdrop": "https://image.tmdb.org/t/p/original/r2XeGm0mWdCJrV68kgUK1vgdnY5.jpg",
-    "poster": "https://image.tmdb.org/t/p/original/jn3bV2L73VimOaPFkQAPc6nHrfk.jpg"
-  },
+  "media": {},
   "metadata": {
     "algorithm_version": "phase5b",
-    "awards_intelligence_integrated_at": "2026-08-16T00:00:00Z",
-    "awards_intelligence_source": "academy_nominee_website_card_handoff_v1.json",
-    "generated_at": "slice57_current_discovery_enrichment",
-    "profile_version": "phase6a_registry_canonical_id_bridge_slice57_enriched",
+    "generated_at": "20260821T140432Z",
+    "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
   "performance": {
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 1.1221,
-        "retrieved_at": "2026-07-29",
+        "popularity": 1.2956,
+        "retrieved_at": "2026-08-21",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1323717",
         "status": "not_yet_rated"
       }
     },
-    "tmdb_popularity": 1.1221,
+    "tmdb_popularity": {
+      "retrieved_at": "2026-08-21",
+      "source": "TMDb",
+      "source_url": "https://www.themoviedb.org/movie/1323717",
+      "value": 1.2956
+    },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 1.1221,
-      "retrieved_at": "2026-07-29",
+      "popularity": 1.2956,
+      "retrieved_at": "2026-08-21",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1323717",
       "status": "not_yet_rated"
@@ -401,12 +395,12 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.021,
+      "audience_momentum": 0.025,
       "talent_profile": 2.925
     },
-    "generated_at": "2026-07-29T21:38:25Z",
+    "generated_at": "2026-08-21T14:04:17Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 2.946,
+    "score": 2.95,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -427,20 +421,20 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.021,
+        "contribution": 0.025,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 1.1221
+        "value": 1.2956
       }
     ]
   },
   "signals": {
     "cultural_significance": 37.0,
     "external_intelligence": {
-      "confidence": "Low",
-      "headline": "Confessions of a Brazilian Call Girl 2: no material change detected",
-      "summary": "Current provider signals do not show a supported material change."
+      "confidence": "High",
+      "headline": "Confessions of a Brazilian Call Girl 2: popularity increasing",
+      "summary": "TMDb popularity rose from 1.1221 to 1.2956."
     },
     "last_updated": "2026-12-31",
     "latest_event": {
@@ -478,7 +472,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1323717-879f136d6fdd",
+        "event_id": "1323717-a70b9d07f56e",
         "event_type": "Awards Tier Changed",
         "film_id": "1323717",
         "importance": "Medium",
@@ -488,12 +482,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1323717-ede3b588416c",
+        "event_id": "1323717-3733a1d9283b",
         "event_type": "Added To Database",
         "film_id": "1323717",
         "importance": "Low",
@@ -502,15 +496,15 @@
         },
         "source_type": "system",
         "summary": "Confessions of a Brazilian Call Girl 2 is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Added to Awards Intelligence"
       }
     ],
     "release_relevance": 22.9,
     "screening_room_score": {
-      "confidence": "Low",
-      "explanation": "Current provider signals do not show a supported material change.",
-      "score": 2.946
+      "confidence": "High",
+      "explanation": "TMDb popularity rose from 1.1221 to 1.2956.",
+      "score": 2.95
     },
     "watch_triggers": [
       "Awards-Season Release",
@@ -551,7 +545,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1323717-879f136d6fdd",
+        "event_id": "1323717-a70b9d07f56e",
         "event_type": "Awards Tier Changed",
         "film_id": "1323717",
         "importance": "Medium",
@@ -561,12 +555,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1323717-ede3b588416c",
+        "event_id": "1323717-3733a1d9283b",
         "event_type": "Added To Database",
         "film_id": "1323717",
         "importance": "Low",
@@ -575,7 +569,7 @@
         },
         "source_type": "system",
         "summary": "Confessions of a Brazilian Call Girl 2 is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -610,7 +604,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1323717-879f136d6fdd",
+        "event_id": "1323717-a70b9d07f56e",
         "event_type": "Awards Tier Changed",
         "film_id": "1323717",
         "importance": "Medium",
@@ -620,12 +614,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1323717-ede3b588416c",
+        "event_id": "1323717-3733a1d9283b",
         "event_type": "Added To Database",
         "film_id": "1323717",
         "importance": "Low",
@@ -634,7 +628,7 @@
         },
         "source_type": "system",
         "summary": "Confessions of a Brazilian Call Girl 2 is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Added to Awards Intelligence"
       }
     ],

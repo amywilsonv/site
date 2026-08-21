@@ -7,7 +7,7 @@
       "Major Filmmaker",
       "Awards Watch"
     ],
-    "attention_score": 30.6,
+    "attention_score": 30.9,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -40,7 +40,7 @@
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 0.6574",
+        "evidence": "TMDb popularity 0.7742",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -51,14 +51,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 30.6,
+    "homepage_spotlight_score": 30.9,
     "industry_interest": null,
-    "last_updated": "20260729T213825Z",
+    "last_updated": "20260821T140432Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
         "evidence_count": 2,
-        "score": 9.4,
+        "score": 9.7,
         "statuses": [
           "verified"
         ]
@@ -130,23 +130,6 @@
     ],
     "probabilities": {}
   },
-  "awards_intelligence": {
-    "awards_candidate_status": "PROVISIONAL",
-    "awards_status": null,
-    "best_picture_rank": null,
-    "forecast_stage": null,
-    "forecast_stage_label": null,
-    "nominee_probability": null,
-    "percentage_policy": "PERCENTAGES_NOT_READY",
-    "prediction_confidence": null,
-    "probability_is_calibrated": false,
-    "public_card_behavior": "no_awards_badge",
-    "rank_change": null,
-    "ranking_eligibility": "NOT_RANKED",
-    "ranking_last_updated_at": null,
-    "source_artifact": "academy_nominee_website_card_handoff_v1.json",
-    "why_it_ranks": []
-  },
   "commercial": {
     "commercial_significance": 0,
     "distributor": "Unknown",
@@ -154,7 +137,8 @@
     "release_strategy": "Release radar monitoring",
     "studio": [
       "Toei Films",
-      "Toei Company"
+      "Toei Company",
+      "Toei Tokyo"
     ]
   },
   "diagnostics": {
@@ -166,7 +150,7 @@
     "relationship_counts": {
       "related_films": 6,
       "related_people": 4,
-      "related_studios": 2
+      "related_studios": 3
     }
   },
   "editorial": {
@@ -186,7 +170,7 @@
     "premiere_type": ""
   },
   "film_identity": {
-    "backdrop": "https://image.tmdb.org/t/p/original/fMrUAdZkpcVopuO6FbVcSLPXenW.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/qX7s3ua73yxP3C1etvTcpDF45qG.jpg",
     "country": [
       "JP"
     ],
@@ -198,24 +182,24 @@
       "Crime"
     ],
     "id": "1670061",
-    "imdb_id": "tt43697931",
+    "imdb_id": "",
     "language": "ja",
     "original_title": "\u85c1\u306b\u3082\u3059\u304c\u308b\u7363\u305f\u3061",
-    "poster": "https://image.tmdb.org/t/p/original/n5gXSMpvetQzC2wAYUc4Hl0VCge.jpg",
+    "poster": "https://image.tmdb.org/t/p/original/g9eZ49X7CtZfNttXaYKsEIkW5xf.jpg",
     "profile_payload_url": "data/films/1670061.json",
     "profile_url": "film.html?id=1670061",
     "release_date": "2026-09-25",
     "release_display": "In theaters Sep. 25",
     "runtime": 94,
-    "synopsis": "After stumbling upon 100m yen at work, Kanji finds himself involved in a battle royal for the money. Based on the novel by Keisuke Sone",
+    "synopsis": "Wara nimo Sugaru Kemono tachi (\u85c1\u306b\u3082\u3059\u304c\u308b\u7363\u305f\u3061 / Beasts Clutching at Straws) is a 2026 Japanese neo-noir crime suspense thriller directed by Hideo Jojo and written by Yasuko Kobayashi. Based on Keisuke Sone's 2011 novel, the film is set for a nationwide theatrical release in Japan on September 25, 2026, distributed by Toei.  The story centers on a lost gym bag containing 100 million yen in cash found at an internet caf\u00e9 by a struggling YouTuber living with his ailing grandmother. The discovery triggers a chaotic and violent chain reaction, entwining a corrupt police officer indebted to the Yakuza, a scheming femme fatale, and ruthless criminals all fighting to claim the fortune. The ensemble cast stars Oji Suzuka, Hiroki Narimiya, Nana Mori, MEGUMI, and Jun Fubuki.",
     "title": "Beasts Clutching at Straws",
     "tmdb_id": "1670061"
   },
   "intelligence": {
-    "confidence": "Low",
-    "confidence_score": 0.25,
-    "generated_at": "2026-07-29T21:38:25Z",
-    "headline": "Beasts Clutching at Straws: no material change detected",
+    "confidence": "High",
+    "confidence_score": 0.99,
+    "generated_at": "2026-08-21T14:04:17Z",
+    "headline": "Beasts Clutching at Straws: popularity increasing",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
       "signal_values": {
@@ -234,7 +218,7 @@
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=7sH5Zy4KhE8",
-        "tmdb_popularity": 0.6574,
+        "tmdb_popularity": 0.7742,
         "tmdb_poster_count": 0,
         "tmdb_release_date_us_primary": "",
         "tmdb_release_date_us_theatrical": "",
@@ -250,13 +234,23 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "Current provider signals do not show a supported material change.",
-    "supporting_drivers": []
+    "summary": "TMDb popularity rose from 0.6574 to 0.7742.",
+    "supporting_drivers": [
+      {
+        "confidence_weight": 0.9,
+        "driver_type": "popularity_increasing",
+        "evidence": "TMDb popularity rose from 0.6574 to 0.7742.",
+        "label": "Popularity increasing",
+        "retrieved_at": "2026-08-21T14:04:17Z",
+        "source_metric": "tmdb_popularity",
+        "source_provider": "tmdb",
+        "source_status": "available"
+      }
+    ]
   },
   "media": {
-    "backdrop": "https://image.tmdb.org/t/p/original/fMrUAdZkpcVopuO6FbVcSLPXenW.jpg",
     "canonical_trailer": {
-      "retrieved_at": "2026-07-29",
+      "retrieved_at": "2026-08-21",
       "site": "YouTube",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1670061/videos",
@@ -264,36 +258,37 @@
       "type": "Trailer",
       "url": "https://www.youtube.com/watch?v=7sH5Zy4KhE8"
     },
-    "latest_trailer_url": "https://www.youtube.com/watch?v=7sH5Zy4KhE8",
-    "poster": "https://image.tmdb.org/t/p/original/n5gXSMpvetQzC2wAYUc4Hl0VCge.jpg",
-    "trailer": "https://www.youtube.com/watch?v=7sH5Zy4KhE8"
+    "latest_trailer_url": "https://www.youtube.com/watch?v=7sH5Zy4KhE8"
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "awards_intelligence_integrated_at": "2026-08-16T00:00:00Z",
-    "awards_intelligence_source": "academy_nominee_website_card_handoff_v1.json",
-    "generated_at": "slice57_current_discovery_enrichment",
-    "profile_version": "phase6a_registry_canonical_id_bridge_slice57_enriched",
+    "generated_at": "20260821T140432Z",
+    "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
   "performance": {
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 0.6574,
-        "retrieved_at": "2026-07-29",
+        "popularity": 0.7742,
+        "retrieved_at": "2026-08-21",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1670061",
         "status": "not_yet_rated"
       }
     },
-    "tmdb_popularity": 0.6574,
+    "tmdb_popularity": {
+      "retrieved_at": "2026-08-21",
+      "source": "TMDb",
+      "source_url": "https://www.themoviedb.org/movie/1670061",
+      "value": 0.7742
+    },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 0.6574,
-      "retrieved_at": "2026-07-29",
+      "popularity": 0.7742,
+      "retrieved_at": "2026-08-21",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1670061",
       "status": "not_yet_rated"
@@ -400,19 +395,23 @@
       {
         "name": "Toei Company",
         "role": "production_company"
+      },
+      {
+        "name": "Toei Tokyo",
+        "role": "production_company"
       }
     ]
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.012,
+      "audience_momentum": 0.015,
       "awards_relevance": 0.8,
       "campaign_activity": 1.35,
       "talent_profile": 1.325
     },
-    "generated_at": "2026-07-29T21:38:25Z",
+    "generated_at": "2026-08-21T14:04:17Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 3.487,
+    "score": 3.49,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -449,20 +448,20 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.012,
+        "contribution": 0.015,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 0.6574
+        "value": 0.7742
       }
     ]
   },
   "signals": {
     "cultural_significance": 0,
     "external_intelligence": {
-      "confidence": "Low",
-      "headline": "Beasts Clutching at Straws: no material change detected",
-      "summary": "Current provider signals do not show a supported material change."
+      "confidence": "High",
+      "headline": "Beasts Clutching at Straws: popularity increasing",
+      "summary": "TMDb popularity rose from 0.6574 to 0.7742."
     },
     "last_updated": "2026-09-25",
     "latest_event": {
@@ -500,7 +499,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1670061-73fc9d50b261",
+        "event_id": "1670061-eba892f1014f",
         "event_type": "Awards Tier Changed",
         "film_id": "1670061",
         "importance": "Medium",
@@ -512,12 +511,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1670061-9b5ba61028d6",
+        "event_id": "1670061-93a91c9788e7",
         "event_type": "Added To Database",
         "film_id": "1670061",
         "importance": "Low",
@@ -526,15 +525,15 @@
         },
         "source_type": "system",
         "summary": "Beasts Clutching at Straws is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Added to Awards Intelligence"
       }
     ],
     "release_relevance": 25.4,
     "screening_room_score": {
-      "confidence": "Low",
-      "explanation": "Current provider signals do not show a supported material change.",
-      "score": 3.487
+      "confidence": "High",
+      "explanation": "TMDb popularity rose from 0.6574 to 0.7742.",
+      "score": 3.49
     },
     "watch_triggers": [
       "Awards-Season Release",
@@ -553,10 +552,7 @@
       "Ouji Suzuka"
     ],
     "producers": [],
-    "writers": [
-      "Hideo Jojo",
-      "Yasuko Kobayashi"
-    ]
+    "writers": []
   },
   "timeline": {
     "events": [
@@ -576,7 +572,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1670061-73fc9d50b261",
+        "event_id": "1670061-eba892f1014f",
         "event_type": "Awards Tier Changed",
         "film_id": "1670061",
         "importance": "Medium",
@@ -588,12 +584,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1670061-9b5ba61028d6",
+        "event_id": "1670061-93a91c9788e7",
         "event_type": "Added To Database",
         "film_id": "1670061",
         "importance": "Low",
@@ -602,7 +598,7 @@
         },
         "source_type": "system",
         "summary": "Beasts Clutching at Straws is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -637,7 +633,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1670061-73fc9d50b261",
+        "event_id": "1670061-eba892f1014f",
         "event_type": "Awards Tier Changed",
         "film_id": "1670061",
         "importance": "Medium",
@@ -649,12 +645,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1670061-9b5ba61028d6",
+        "event_id": "1670061-93a91c9788e7",
         "event_type": "Added To Database",
         "film_id": "1670061",
         "importance": "Low",
@@ -663,7 +659,7 @@
         },
         "source_type": "system",
         "summary": "Beasts Clutching at Straws is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Added to Awards Intelligence"
       }
     ],

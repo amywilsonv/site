@@ -1,17 +1,17 @@
 {
   "metadata": {
     "film_count": 104,
-    "generated_at": "20260729T213825Z",
+    "generated_at": "20260821T140432Z",
     "timeline_version": "phase6b"
   },
   "timelines": [
     {
       "event_count": 4,
       "film_id": "949838",
-      "last_updated": "2026-07-29T21:38:25Z",
+      "last_updated": "2026-08-21T14:04:32Z",
       "latest_event": {
         "confidence": "Inferred",
-        "event_id": "949838-7f2363c96424",
+        "event_id": "949838-e833693f5ae6",
         "event_type": "Distributor Change",
         "film_id": "949838",
         "importance": "Medium",
@@ -20,7 +20,7 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Distributor set: Netflix"
       },
       "profile_url": "film.html?id=949838",
@@ -54,19 +54,19 @@
     {
       "event_count": 4,
       "film_id": "1437882",
-      "last_updated": "2026-12-25",
+      "last_updated": "2027-04-23",
       "latest_event": {
         "confidence": "Inferred",
-        "event_id": "1437882-718a2b65dac3",
+        "event_id": "1437882-439850660959",
         "event_type": "Release Scheduled",
         "film_id": "1437882",
         "importance": "Medium",
         "metadata": {
-          "release_date": "2026-12-25"
+          "release_date": "2027-04-23"
         },
         "source_type": "metadata",
-        "summary": "Release currently scheduled for In theaters Dec. 25.",
-        "timestamp": "2026-12-25",
+        "summary": "Release currently scheduled for Apr. 23, 2027.",
+        "timestamp": "2027-04-23",
         "title": "Release scheduled"
       },
       "profile_url": "film.html?id=1437882",
@@ -77,10 +77,10 @@
     {
       "event_count": 4,
       "film_id": "1723460",
-      "last_updated": "2026-07-29T21:38:25Z",
+      "last_updated": "2026-08-21T14:04:32Z",
       "latest_event": {
         "confidence": "Inferred",
-        "event_id": "1723460-df44e825dc5c",
+        "event_id": "1723460-715ed2d42b4b",
         "event_type": "Distributor Change",
         "film_id": "1723460",
         "importance": "Medium",
@@ -89,7 +89,7 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Distributor set: Netflix"
       },
       "profile_url": "film.html?id=1723460",
@@ -123,19 +123,19 @@
     {
       "event_count": 3,
       "film_id": "1461432",
-      "last_updated": "2026-10-09",
+      "last_updated": "2026-09-17",
       "latest_event": {
         "confidence": "Inferred",
-        "event_id": "1461432-5dce3ddd0ed2",
+        "event_id": "1461432-e1264ff14658",
         "event_type": "Release Scheduled",
         "film_id": "1461432",
         "importance": "Medium",
         "metadata": {
-          "release_date": "2026-10-09"
+          "release_date": "2026-09-17"
         },
         "source_type": "metadata",
-        "summary": "Release currently scheduled for In theaters Oct. 9.",
-        "timestamp": "2026-10-09",
+        "summary": "Release currently scheduled for In theaters Sep. 17.",
+        "timestamp": "2026-09-17",
         "title": "Release scheduled"
       },
       "profile_url": "film.html?id=1461432",
@@ -238,10 +238,10 @@
     {
       "event_count": 6,
       "film_id": "980431",
-      "last_updated": "2026-07-29T21:38:25Z",
+      "last_updated": "2026-08-21T14:04:32Z",
       "latest_event": {
         "confidence": "Inferred",
-        "event_id": "980431-bc9b49059c14",
+        "event_id": "980431-d11d0c6f897f",
         "event_type": "Homepage Featured",
         "film_id": "980431",
         "importance": "Medium",
@@ -250,7 +250,7 @@
         },
         "source_type": "discovery_homepage",
         "summary": "Avatar Aang: The Last Airbender is currently selected for the homepage experience.",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Featured in The Screening Room"
       },
       "profile_url": "film.html?id=980431",
@@ -376,20 +376,20 @@
     {
       "event_count": 4,
       "film_id": "1728056",
-      "last_updated": "2026-08-05",
+      "last_updated": "2026-08-21T14:04:32Z",
       "latest_event": {
         "confidence": "Inferred",
-        "event_id": "1728056-2442e38cc2ed",
-        "event_type": "Release Scheduled",
+        "event_id": "1728056-affb957ab1c6",
+        "event_type": "Distributor Change",
         "film_id": "1728056",
         "importance": "Medium",
         "metadata": {
-          "release_date": "2026-08-05"
+          "distributor": "Netflix"
         },
         "source_type": "metadata",
-        "summary": "Release currently scheduled for In theaters Aug. 5.",
-        "timestamp": "2026-08-05",
-        "title": "Release scheduled"
+        "summary": "Current distributor is Netflix.",
+        "timestamp": "2026-08-21T14:04:32Z",
+        "title": "Distributor set: Netflix"
       },
       "profile_url": "film.html?id=1728056",
       "timeline_payload_url": "data/timelines/1728056.json",
@@ -443,22 +443,22 @@
       "tmdb_id": "1365884"
     },
     {
-      "event_count": 4,
+      "event_count": 5,
       "film_id": "1493400",
-      "last_updated": "2026-08-13",
+      "last_updated": "2026-08-21T14:04:32Z",
       "latest_event": {
         "confidence": "Inferred",
-        "event_id": "1493400-6e8eb0fcc46b",
-        "event_type": "Release Scheduled",
+        "event_id": "1493400-8261e410bb1f",
+        "event_type": "Homepage Featured",
         "film_id": "1493400",
         "importance": "Medium",
         "metadata": {
-          "release_date": "2026-08-13"
+          "editorial_category": "Major Release"
         },
-        "source_type": "metadata",
-        "summary": "Release currently scheduled for In theaters Aug. 13.",
-        "timestamp": "2026-08-13",
-        "title": "Release scheduled"
+        "source_type": "discovery_homepage",
+        "summary": "Camp Rock 3 is currently selected for the homepage experience.",
+        "timestamp": "2026-08-21T14:04:32Z",
+        "title": "Featured in The Screening Room"
       },
       "profile_url": "film.html?id=1493400",
       "timeline_payload_url": "data/timelines/1493400.json",
@@ -512,22 +512,22 @@
       "tmdb_id": "1204680"
     },
     {
-      "event_count": 5,
+      "event_count": 4,
       "film_id": "1318621",
-      "last_updated": "2026-07-29T21:38:25Z",
+      "last_updated": "2026-08-21T14:04:32Z",
       "latest_event": {
         "confidence": "Inferred",
-        "event_id": "1318621-09fc8740c60b",
-        "event_type": "Homepage Featured",
+        "event_id": "1318621-be54fc5bd8a0",
+        "event_type": "Distributor Change",
         "film_id": "1318621",
         "importance": "Medium",
         "metadata": {
-          "editorial_category": "Major Release"
+          "distributor": "Disney"
         },
-        "source_type": "discovery_homepage",
-        "summary": "Descendants: Wicked Wonderland is currently selected for the homepage experience.",
-        "timestamp": "2026-07-29T21:38:25Z",
-        "title": "Featured in The Screening Room"
+        "source_type": "metadata",
+        "summary": "Current distributor is Disney.",
+        "timestamp": "2026-08-21T14:04:32Z",
+        "title": "Distributor set: Disney"
       },
       "profile_url": "film.html?id=1318621",
       "timeline_payload_url": "data/timelines/1318621.json",
@@ -537,20 +537,20 @@
     {
       "event_count": 4,
       "film_id": "1504358",
-      "last_updated": "2026-08-14",
+      "last_updated": "2026-08-21T14:04:32Z",
       "latest_event": {
         "confidence": "Inferred",
-        "event_id": "1504358-e47d699f0c90",
-        "event_type": "Release Scheduled",
+        "event_id": "1504358-0461953aa85b",
+        "event_type": "Distributor Change",
         "film_id": "1504358",
         "importance": "Medium",
         "metadata": {
-          "release_date": "2026-08-14"
+          "distributor": "Netflix"
         },
         "source_type": "metadata",
-        "summary": "Release currently scheduled for In theaters Aug. 14.",
-        "timestamp": "2026-08-14",
-        "title": "Release scheduled"
+        "summary": "Current distributor is Netflix.",
+        "timestamp": "2026-08-21T14:04:32Z",
+        "title": "Distributor set: Netflix"
       },
       "profile_url": "film.html?id=1504358",
       "timeline_payload_url": "data/timelines/1504358.json",
@@ -606,19 +606,19 @@
     {
       "event_count": 3,
       "film_id": "1170608",
-      "last_updated": "2026-12-18",
+      "last_updated": "2026-12-15",
       "latest_event": {
         "confidence": "Inferred",
-        "event_id": "1170608-576341e12a60",
+        "event_id": "1170608-7b34b4ef2631",
         "event_type": "Release Scheduled",
         "film_id": "1170608",
         "importance": "Medium",
         "metadata": {
-          "release_date": "2026-12-18"
+          "release_date": "2026-12-15"
         },
         "source_type": "metadata",
-        "summary": "Release currently scheduled for In theaters Dec. 18.",
-        "timestamp": "2026-12-18",
+        "summary": "Release currently scheduled for In theaters Dec. 15.",
+        "timestamp": "2026-12-15",
         "title": "Release scheduled"
       },
       "profile_url": "film.html?id=1170608",
@@ -629,10 +629,10 @@
     {
       "event_count": 4,
       "film_id": "1487861",
-      "last_updated": "2026-07-29T21:38:25Z",
+      "last_updated": "2026-08-21T14:04:32Z",
       "latest_event": {
         "confidence": "Inferred",
-        "event_id": "1487861-51bcc4967bf4",
+        "event_id": "1487861-52aa71ad4094",
         "event_type": "Distributor Change",
         "film_id": "1487861",
         "importance": "Medium",
@@ -641,7 +641,7 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Distributor set: Netflix"
       },
       "profile_url": "film.html?id=1487861",
@@ -669,7 +669,7 @@
       },
       "profile_url": "film.html?id=1400336",
       "timeline_payload_url": "data/timelines/1400336.json",
-      "title": "Focker-In-Law",
+      "title": "Focker-in-Law",
       "tmdb_id": "1400336"
     },
     {
@@ -721,10 +721,10 @@
     {
       "event_count": 6,
       "film_id": "1468683",
-      "last_updated": "2026-07-29T21:38:25Z",
+      "last_updated": "2026-08-21T14:04:32Z",
       "latest_event": {
         "confidence": "Inferred",
-        "event_id": "1468683-702641c02473",
+        "event_id": "1468683-74783a567ec5",
         "event_type": "Homepage Featured",
         "film_id": "1468683",
         "importance": "Medium",
@@ -733,7 +733,7 @@
         },
         "source_type": "discovery_homepage",
         "summary": "Heartstopper Forever is currently selected for the homepage experience.",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Featured in The Screening Room"
       },
       "profile_url": "film.html?id=1468683",
@@ -859,20 +859,20 @@
     {
       "event_count": 5,
       "film_id": "1421594",
-      "last_updated": "2026-08-05",
+      "last_updated": "2026-08-21T14:04:32Z",
       "latest_event": {
         "confidence": "Inferred",
-        "event_id": "1421594-a44d478fd506",
-        "event_type": "Release Scheduled",
+        "event_id": "1421594-2962e28a550e",
+        "event_type": "Distributor Change",
         "film_id": "1421594",
         "importance": "Medium",
         "metadata": {
-          "release_date": "2026-08-05"
+          "distributor": "Netflix"
         },
         "source_type": "metadata",
-        "summary": "Release currently scheduled for In theaters Aug. 5.",
-        "timestamp": "2026-08-05",
-        "title": "Release scheduled"
+        "summary": "Current distributor is Netflix.",
+        "timestamp": "2026-08-21T14:04:32Z",
+        "title": "Distributor set: Netflix"
       },
       "profile_url": "film.html?id=1421594",
       "timeline_payload_url": "data/timelines/1421594.json",
@@ -951,19 +951,19 @@
     {
       "event_count": 5,
       "film_id": "1422041",
-      "last_updated": "2026-11-06",
+      "last_updated": "2026-10-16",
       "latest_event": {
         "confidence": "Inferred",
-        "event_id": "1422041-ab1be4d2ef6e",
+        "event_id": "1422041-a759ca9cde92",
         "event_type": "Release Scheduled",
         "film_id": "1422041",
         "importance": "Medium",
         "metadata": {
-          "release_date": "2026-11-06"
+          "release_date": "2026-10-16"
         },
         "source_type": "metadata",
-        "summary": "Release currently scheduled for In theaters Nov. 6.",
-        "timestamp": "2026-11-06",
+        "summary": "Release currently scheduled for In theaters Oct. 16.",
+        "timestamp": "2026-10-16",
         "title": "Release scheduled"
       },
       "profile_url": "film.html?id=1422041",
@@ -1020,10 +1020,10 @@
     {
       "event_count": 4,
       "film_id": "1620682",
-      "last_updated": "2026-07-29T21:38:25Z",
+      "last_updated": "2026-08-21T14:04:32Z",
       "latest_event": {
         "confidence": "Inferred",
-        "event_id": "1620682-06fbd10be7b5",
+        "event_id": "1620682-ac1bea471845",
         "event_type": "Distributor Change",
         "film_id": "1620682",
         "importance": "Medium",
@@ -1032,7 +1032,7 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Distributor set: Netflix"
       },
       "profile_url": "film.html?id=1620682",
@@ -1043,19 +1043,19 @@
     {
       "event_count": 4,
       "film_id": "1131943",
-      "last_updated": "2026-11-26",
+      "last_updated": "2026-11-18",
       "latest_event": {
         "confidence": "Inferred",
-        "event_id": "1131943-288d9e540e94",
+        "event_id": "1131943-186254a05363",
         "event_type": "Release Scheduled",
         "film_id": "1131943",
         "importance": "Medium",
         "metadata": {
-          "release_date": "2026-11-26"
+          "release_date": "2026-11-18"
         },
         "source_type": "metadata",
-        "summary": "Release currently scheduled for In theaters Nov. 26.",
-        "timestamp": "2026-11-26",
+        "summary": "Release currently scheduled for In theaters Nov. 18.",
+        "timestamp": "2026-11-18",
         "title": "Release scheduled"
       },
       "profile_url": "film.html?id=1131943",
@@ -1112,20 +1112,20 @@
     {
       "event_count": 4,
       "film_id": "1487864",
-      "last_updated": "2026-08-12",
+      "last_updated": "2026-08-21T14:04:32Z",
       "latest_event": {
         "confidence": "Inferred",
-        "event_id": "1487864-78cd09e64f47",
-        "event_type": "Release Scheduled",
+        "event_id": "1487864-a4bc0f57c671",
+        "event_type": "Distributor Change",
         "film_id": "1487864",
         "importance": "Medium",
         "metadata": {
-          "release_date": "2026-08-12"
+          "distributor": "Netflix"
         },
         "source_type": "metadata",
-        "summary": "Release currently scheduled for In theaters Aug. 12.",
-        "timestamp": "2026-08-12",
-        "title": "Release scheduled"
+        "summary": "Current distributor is Netflix.",
+        "timestamp": "2026-08-21T14:04:32Z",
+        "title": "Distributor set: Netflix"
       },
       "profile_url": "film.html?id=1487864",
       "timeline_payload_url": "data/timelines/1487864.json",
@@ -1250,20 +1250,25 @@
     {
       "event_count": 3,
       "film_id": "1185806",
-      "last_updated": "2026-08-14",
+      "last_updated": "2026-08-21T14:04:32Z",
       "latest_event": {
         "confidence": "Inferred",
-        "event_id": "1185806-501fee6975bc",
-        "event_type": "Release Scheduled",
+        "event_id": "1185806-3777c0bfc38e",
+        "event_type": "Awards Tier Changed",
         "film_id": "1185806",
         "importance": "Medium",
         "metadata": {
-          "release_date": "2026-08-14"
+          "awards_tier": "Category Contender",
+          "categories": [
+            "Animated Feature",
+            "Craft Categories",
+            "Multiple Pathways"
+          ]
         },
-        "source_type": "metadata",
-        "summary": "Release currently scheduled for In theaters Aug. 14.",
-        "timestamp": "2026-08-14",
-        "title": "Release scheduled"
+        "source_type": "editorial_model",
+        "summary": "category-specific awards case without broader contender evidence",
+        "timestamp": "2026-08-21T14:04:32Z",
+        "title": "Awards tier assigned: Category Contender"
       },
       "profile_url": "film.html?id=1185806",
       "timeline_payload_url": "data/timelines/1185806.json",
@@ -1411,19 +1416,19 @@
     {
       "event_count": 4,
       "film_id": "1284186",
-      "last_updated": "2026-09-10",
+      "last_updated": "2026-10-16",
       "latest_event": {
         "confidence": "Inferred",
-        "event_id": "1284186-d6d83bf86b47",
+        "event_id": "1284186-77e31af0bdea",
         "event_type": "Release Scheduled",
         "film_id": "1284186",
         "importance": "Medium",
         "metadata": {
-          "release_date": "2026-09-10"
+          "release_date": "2026-10-16"
         },
         "source_type": "metadata",
-        "summary": "Release currently scheduled for In theaters Sep. 10.",
-        "timestamp": "2026-09-10",
+        "summary": "Release currently scheduled for In theaters Oct. 16.",
+        "timestamp": "2026-10-16",
         "title": "Release scheduled"
       },
       "profile_url": "film.html?id=1284186",
@@ -1480,20 +1485,20 @@
     {
       "event_count": 4,
       "film_id": "1698575",
-      "last_updated": "2026-07-31",
+      "last_updated": "2026-08-21T14:04:32Z",
       "latest_event": {
         "confidence": "Inferred",
-        "event_id": "1698575-d70367310936",
-        "event_type": "Release Scheduled",
+        "event_id": "1698575-4aa5c4436d1b",
+        "event_type": "Distributor Change",
         "film_id": "1698575",
         "importance": "Medium",
         "metadata": {
-          "release_date": "2026-07-31"
+          "distributor": "Apple TV"
         },
         "source_type": "metadata",
-        "summary": "Release currently scheduled for In theaters Jul. 31.",
-        "timestamp": "2026-07-31",
-        "title": "Release scheduled"
+        "summary": "Current distributor is Apple TV.",
+        "timestamp": "2026-08-21T14:04:32Z",
+        "title": "Distributor set: Apple TV"
       },
       "profile_url": "film.html?id=1698575",
       "timeline_payload_url": "data/timelines/1698575.json",
@@ -1595,20 +1600,20 @@
     {
       "event_count": 5,
       "film_id": "969681",
-      "last_updated": "2026-07-31",
+      "last_updated": "2026-08-21T14:04:32Z",
       "latest_event": {
         "confidence": "Inferred",
-        "event_id": "969681-24e0a495b200",
-        "event_type": "Release Scheduled",
+        "event_id": "969681-c2b6a0cfe408",
+        "event_type": "Homepage Featured",
         "film_id": "969681",
         "importance": "Medium",
         "metadata": {
-          "release_date": "2026-07-31"
+          "editorial_category": "Major Release"
         },
-        "source_type": "metadata",
-        "summary": "Release currently scheduled for In theaters Jul. 31.",
-        "timestamp": "2026-07-31",
-        "title": "Release scheduled"
+        "source_type": "discovery_homepage",
+        "summary": "Spider-Man: Brand New Day is currently selected for the homepage experience.",
+        "timestamp": "2026-08-21T14:04:32Z",
+        "title": "Featured in The Screening Room"
       },
       "profile_url": "film.html?id=969681",
       "timeline_payload_url": "data/timelines/969681.json",
@@ -1664,20 +1669,20 @@
     {
       "event_count": 4,
       "film_id": "675871",
-      "last_updated": "2026-08-07",
+      "last_updated": "2026-08-21T14:04:32Z",
       "latest_event": {
         "confidence": "Inferred",
-        "event_id": "675871-aec80524fb0d",
-        "event_type": "Release Scheduled",
+        "event_id": "675871-2ff420f9fdeb",
+        "event_type": "Distributor Change",
         "film_id": "675871",
         "importance": "Medium",
         "metadata": {
-          "release_date": "2026-08-07"
+          "distributor": "Searchlight Pictures"
         },
         "source_type": "metadata",
-        "summary": "Release currently scheduled for In theaters Aug. 7.",
-        "timestamp": "2026-08-07",
-        "title": "Release scheduled"
+        "summary": "Current distributor is Searchlight Pictures.",
+        "timestamp": "2026-08-21T14:04:32Z",
+        "title": "Distributor set: Searchlight Pictures"
       },
       "profile_url": "film.html?id=675871",
       "timeline_payload_url": "data/timelines/675871.json",
@@ -1756,10 +1761,10 @@
     {
       "event_count": 4,
       "film_id": "1630409",
-      "last_updated": "2026-07-29T21:38:25Z",
+      "last_updated": "2026-08-21T14:04:32Z",
       "latest_event": {
         "confidence": "Inferred",
-        "event_id": "1630409-073569fc4ecd",
+        "event_id": "1630409-e7a05fa177c5",
         "event_type": "Distributor Change",
         "film_id": "1630409",
         "importance": "Medium",
@@ -1768,7 +1773,7 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Distributor set: Netflix"
       },
       "profile_url": "film.html?id=1630409",
@@ -1779,10 +1784,10 @@
     {
       "event_count": 4,
       "film_id": "1361774",
-      "last_updated": "2026-07-29T21:38:25Z",
+      "last_updated": "2026-08-21T14:04:32Z",
       "latest_event": {
         "confidence": "Inferred",
-        "event_id": "1361774-caba06bd2f95",
+        "event_id": "1361774-55912d95ef24",
         "event_type": "Distributor Change",
         "film_id": "1361774",
         "importance": "Medium",
@@ -1791,7 +1796,7 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Apple TV.",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Distributor set: Apple TV"
       },
       "profile_url": "film.html?id=1361774",
@@ -1894,20 +1899,20 @@
     {
       "event_count": 4,
       "film_id": "1284041",
-      "last_updated": "2026-08-07",
+      "last_updated": "2026-08-21T14:04:32Z",
       "latest_event": {
         "confidence": "Inferred",
-        "event_id": "1284041-81e841a7ccda",
-        "event_type": "Release Scheduled",
+        "event_id": "1284041-507a1af1483b",
+        "event_type": "Distributor Change",
         "film_id": "1284041",
         "importance": "Medium",
         "metadata": {
-          "release_date": "2026-08-07"
+          "distributor": "Netflix"
         },
         "source_type": "metadata",
-        "summary": "Release currently scheduled for In theaters Aug. 7.",
-        "timestamp": "2026-08-07",
-        "title": "Release scheduled"
+        "summary": "Current distributor is Netflix.",
+        "timestamp": "2026-08-21T14:04:32Z",
+        "title": "Distributor set: Netflix"
       },
       "profile_url": "film.html?id=1284041",
       "timeline_payload_url": "data/timelines/1284041.json",
@@ -1940,20 +1945,20 @@
     {
       "event_count": 4,
       "film_id": "1353167",
-      "last_updated": "2026-08-01",
+      "last_updated": "2026-08-21T14:04:32Z",
       "latest_event": {
         "confidence": "Inferred",
-        "event_id": "1353167-c3319b07dcab",
-        "event_type": "Release Scheduled",
+        "event_id": "1353167-1b9195b8ed97",
+        "event_type": "Distributor Change",
         "film_id": "1353167",
         "importance": "Medium",
         "metadata": {
-          "release_date": "2026-08-01"
+          "distributor": "Apple TV"
         },
         "source_type": "metadata",
-        "summary": "Release currently scheduled for In theaters Aug. 1.",
-        "timestamp": "2026-08-01",
-        "title": "Release scheduled"
+        "summary": "Current distributor is Apple TV.",
+        "timestamp": "2026-08-21T14:04:32Z",
+        "title": "Distributor set: Apple TV"
       },
       "profile_url": "film.html?id=1353167",
       "timeline_payload_url": "data/timelines/1353167.json",
@@ -1963,10 +1968,10 @@
     {
       "event_count": 5,
       "film_id": "1368337",
-      "last_updated": "2026-07-29T21:38:25Z",
+      "last_updated": "2026-08-21T14:04:32Z",
       "latest_event": {
         "confidence": "Inferred",
-        "event_id": "1368337-e58e19053183",
+        "event_id": "1368337-b48fbdd7a70b",
         "event_type": "Homepage Featured",
         "film_id": "1368337",
         "importance": "Medium",
@@ -1975,7 +1980,7 @@
         },
         "source_type": "discovery_homepage",
         "summary": "The Odyssey is currently selected for the homepage experience.",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Featured in The Screening Room"
       },
       "profile_url": "film.html?id=1368337",
@@ -2009,20 +2014,20 @@
     {
       "event_count": 4,
       "film_id": "1679730",
-      "last_updated": "2026-08-07",
+      "last_updated": "2026-08-21T14:04:32Z",
       "latest_event": {
         "confidence": "Inferred",
-        "event_id": "1679730-3ba6a706c6e6",
-        "event_type": "Release Scheduled",
+        "event_id": "1679730-1919b9c48860",
+        "event_type": "Distributor Change",
         "film_id": "1679730",
         "importance": "Medium",
         "metadata": {
-          "release_date": "2026-08-07"
+          "distributor": "Netflix"
         },
         "source_type": "metadata",
-        "summary": "Release currently scheduled for In theaters Aug. 7.",
-        "timestamp": "2026-08-07",
-        "title": "Release scheduled"
+        "summary": "Current distributor is Netflix.",
+        "timestamp": "2026-08-21T14:04:32Z",
+        "title": "Distributor set: Netflix"
       },
       "profile_url": "film.html?id=1679730",
       "timeline_payload_url": "data/timelines/1679730.json",
@@ -2078,10 +2083,10 @@
     {
       "event_count": 4,
       "film_id": "1659155",
-      "last_updated": "2026-07-29T21:38:25Z",
+      "last_updated": "2026-08-21T14:04:32Z",
       "latest_event": {
         "confidence": "Inferred",
-        "event_id": "1659155-152a92852079",
+        "event_id": "1659155-b1d2164d6c4c",
         "event_type": "Distributor Change",
         "film_id": "1659155",
         "importance": "Medium",
@@ -2090,7 +2095,7 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Distributor set: Netflix"
       },
       "profile_url": "film.html?id=1659155",

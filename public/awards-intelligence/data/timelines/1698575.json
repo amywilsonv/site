@@ -2,21 +2,7 @@
   "events": [
     {
       "confidence": "Inferred",
-      "event_id": "1698575-d70367310936",
-      "event_type": "Release Scheduled",
-      "film_id": "1698575",
-      "importance": "Medium",
-      "metadata": {
-        "release_date": "2026-07-31"
-      },
-      "source_type": "metadata",
-      "summary": "Release currently scheduled for In theaters Jul. 31.",
-      "timestamp": "2026-07-31",
-      "title": "Release scheduled"
-    },
-    {
-      "confidence": "Inferred",
-      "event_id": "1698575-bd7856a3dd90",
+      "event_id": "1698575-4aa5c4436d1b",
       "event_type": "Distributor Change",
       "film_id": "1698575",
       "importance": "Medium",
@@ -25,12 +11,12 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Apple TV.",
-      "timestamp": "2026-07-29T21:38:25Z",
+      "timestamp": "2026-08-21T14:04:32Z",
       "title": "Distributor set: Apple TV"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1698575-b29db37e616c",
+      "event_id": "1698575-8970fdd2a833",
       "event_type": "Awards Tier Changed",
       "film_id": "1698575",
       "importance": "Medium",
@@ -44,12 +30,12 @@
       },
       "source_type": "editorial_model",
       "summary": "category-specific awards case without broader contender evidence",
-      "timestamp": "2026-07-29T21:38:25Z",
+      "timestamp": "2026-08-21T14:04:32Z",
       "title": "Awards tier assigned: Category Contender"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1698575-83520b54553e",
+      "event_id": "1698575-b5ad21677b0d",
       "event_type": "Added To Database",
       "film_id": "1698575",
       "importance": "Low",
@@ -58,28 +44,42 @@
       },
       "source_type": "system",
       "summary": "Snoopy Presents: There's No Place Like Home, Snoopy is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-07-29T21:38:25Z",
+      "timestamp": "2026-08-21T14:04:32Z",
       "title": "Added to Awards Intelligence"
+    },
+    {
+      "confidence": "Inferred",
+      "event_id": "1698575-17da27cb199f",
+      "event_type": "Release Scheduled",
+      "film_id": "1698575",
+      "importance": "Medium",
+      "metadata": {
+        "release_date": "2026-07-30"
+      },
+      "source_type": "metadata",
+      "summary": "Release currently scheduled for In theaters Jul. 30.",
+      "timestamp": "2026-07-30",
+      "title": "Release scheduled"
     }
   ],
   "latest_event": {
     "confidence": "Inferred",
-    "event_id": "1698575-d70367310936",
-    "event_type": "Release Scheduled",
+    "event_id": "1698575-4aa5c4436d1b",
+    "event_type": "Distributor Change",
     "film_id": "1698575",
     "importance": "Medium",
     "metadata": {
-      "release_date": "2026-07-31"
+      "distributor": "Apple TV"
     },
     "source_type": "metadata",
-    "summary": "Release currently scheduled for In theaters Jul. 31.",
-    "timestamp": "2026-07-31",
-    "title": "Release scheduled"
+    "summary": "Current distributor is Apple TV.",
+    "timestamp": "2026-08-21T14:04:32Z",
+    "title": "Distributor set: Apple TV"
   },
   "metadata": {
     "event_count": 4,
     "film_id": "1698575",
-    "generated_at": "slice57_current_discovery_enrichment",
+    "generated_at": "20260821T140432Z",
     "timeline_version": "phase6b",
     "title": "Snoopy Presents: There's No Place Like Home, Snoopy",
     "tmdb_id": "1698575"

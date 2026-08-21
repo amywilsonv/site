@@ -2,21 +2,7 @@
   "events": [
     {
       "confidence": "Inferred",
-      "event_id": "1504358-e47d699f0c90",
-      "event_type": "Release Scheduled",
-      "film_id": "1504358",
-      "importance": "Medium",
-      "metadata": {
-        "release_date": "2026-08-14"
-      },
-      "source_type": "metadata",
-      "summary": "Release currently scheduled for In theaters Aug. 14.",
-      "timestamp": "2026-08-14",
-      "title": "Release scheduled"
-    },
-    {
-      "confidence": "Inferred",
-      "event_id": "1504358-72ec8c229701",
+      "event_id": "1504358-0461953aa85b",
       "event_type": "Distributor Change",
       "film_id": "1504358",
       "importance": "Medium",
@@ -25,12 +11,12 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Netflix.",
-      "timestamp": "2026-07-29T21:38:25Z",
+      "timestamp": "2026-08-21T14:04:32Z",
       "title": "Distributor set: Netflix"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1504358-9a8a42f02e96",
+      "event_id": "1504358-147e783c9136",
       "event_type": "Awards Tier Changed",
       "film_id": "1504358",
       "importance": "Medium",
@@ -45,12 +31,12 @@
       },
       "source_type": "editorial_model",
       "summary": "insufficient credible awards evidence",
-      "timestamp": "2026-07-29T21:38:25Z",
+      "timestamp": "2026-08-21T14:04:32Z",
       "title": "Awards tier assigned: No Current Awards Case"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1504358-1878ab155963",
+      "event_id": "1504358-7d596f51c9f5",
       "event_type": "Added To Database",
       "film_id": "1504358",
       "importance": "Low",
@@ -59,28 +45,42 @@
       },
       "source_type": "system",
       "summary": "Don't Say Good Luck is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-07-29T21:38:25Z",
+      "timestamp": "2026-08-21T14:04:32Z",
       "title": "Added to Awards Intelligence"
+    },
+    {
+      "confidence": "Inferred",
+      "event_id": "1504358-e47d699f0c90",
+      "event_type": "Release Scheduled",
+      "film_id": "1504358",
+      "importance": "Medium",
+      "metadata": {
+        "release_date": "2026-08-14"
+      },
+      "source_type": "metadata",
+      "summary": "Release currently scheduled for In theaters Aug. 14.",
+      "timestamp": "2026-08-14",
+      "title": "Release scheduled"
     }
   ],
   "latest_event": {
     "confidence": "Inferred",
-    "event_id": "1504358-e47d699f0c90",
-    "event_type": "Release Scheduled",
+    "event_id": "1504358-0461953aa85b",
+    "event_type": "Distributor Change",
     "film_id": "1504358",
     "importance": "Medium",
     "metadata": {
-      "release_date": "2026-08-14"
+      "distributor": "Netflix"
     },
     "source_type": "metadata",
-    "summary": "Release currently scheduled for In theaters Aug. 14.",
-    "timestamp": "2026-08-14",
-    "title": "Release scheduled"
+    "summary": "Current distributor is Netflix.",
+    "timestamp": "2026-08-21T14:04:32Z",
+    "title": "Distributor set: Netflix"
   },
   "metadata": {
     "event_count": 4,
     "film_id": "1504358",
-    "generated_at": "slice57_current_discovery_enrichment",
+    "generated_at": "20260821T140432Z",
     "timeline_version": "phase6b",
     "title": "Don't Say Good Luck",
     "tmdb_id": "1504358"

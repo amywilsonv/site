@@ -1,12 +1,13 @@
 {
   "attention_intelligence": {
-    "anticipation_level": "Developing",
-    "attention_confidence": "Medium",
+    "anticipation_level": "Moderate",
+    "attention_confidence": "High",
     "attention_reasons": [
       "Most Anticipated",
+      "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 29.0,
+    "attention_score": 54.3,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -24,32 +25,59 @@
         "status": "verified"
       },
       {
+        "evidence": "Principal cast listed: Natalie Madue\u00f1o, Claes Bang, P\u00e5l Sverre Hagen, Stina Ekblad",
+        "source": "cast_interest",
+        "status": "verified"
+      },
+      {
+        "evidence": "Trailer URL present",
+        "source": "trailer_available",
+        "status": "verified"
+      },
+      {
         "evidence": "Release date: 2026-08-28",
         "source": "release_proximity",
+        "status": "verified"
+      },
+      {
+        "evidence": "Commercial scale and release context",
+        "source": "commercial_scale",
+        "status": "inferred"
+      },
+      {
+        "evidence": "TMDb popularity 1.3241",
+        "source": "audience_popularity",
+        "status": "verified"
+      },
+      {
+        "evidence": "Director: Barbara Tops\u00f8e-Rothenborg",
+        "source": "filmmaker_interest",
         "status": "verified"
       },
       {
         "evidence": "Editorial distinctiveness score",
         "source": "editorial_importance",
         "status": "inferred"
-      },
-      {
-        "evidence": "TMDb popularity 0.1331",
-        "source": "audience_popularity",
-        "status": "verified"
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 29.0,
-    "industry_interest": null,
-    "last_updated": "20260729T213825Z",
-    "promotional_response": null,
+    "homepage_spotlight_score": 54.3,
+    "industry_interest": "Moderate",
+    "last_updated": "20260821T140432Z",
+    "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
-        "evidence_count": 1,
-        "score": 0.6,
+        "evidence_count": 2,
+        "score": 10.4,
         "statuses": [
           "verified"
+        ]
+      },
+      "commercial": {
+        "evidence_count": 1,
+        "score": 4.9,
+        "statuses": [
+          "inferred"
         ]
       },
       "industry/cultural": {
@@ -71,6 +99,13 @@
         "score": 19.5,
         "statuses": [
           "inferred",
+          "verified"
+        ]
+      },
+      "talent/prestige": {
+        "evidence_count": 2,
+        "score": 10.6,
+        "statuses": [
           "verified"
         ]
       }
@@ -110,11 +145,11 @@
   },
   "awards": {
     "award_history": [],
-    "awards_tier": "No Current Awards Case",
+    "awards_tier": "Emerging",
     "comparable_nominees": [],
-    "confidence": "Medium",
+    "confidence": "High",
     "current_awards_profile": "Developing",
-    "explanation": "insufficient credible awards evidence",
+    "explanation": "plausible but incomplete awards evidence",
     "predicted_categories": [
       "Best Picture",
       "Acting",
@@ -122,44 +157,25 @@
     ],
     "probabilities": {}
   },
-  "awards_intelligence": {
-    "awards_candidate_status": "PROVISIONAL",
-    "awards_status": null,
-    "best_picture_rank": null,
-    "forecast_stage": null,
-    "forecast_stage_label": null,
-    "nominee_probability": null,
-    "percentage_policy": "PERCENTAGES_NOT_READY",
-    "prediction_confidence": null,
-    "probability_is_calibrated": false,
-    "public_card_behavior": "no_awards_badge",
-    "rank_change": null,
-    "ranking_eligibility": "NOT_RANKED",
-    "ranking_last_updated_at": null,
-    "source_artifact": "academy_nominee_website_card_handoff_v1.json",
-    "why_it_ranks": []
-  },
   "commercial": {
-    "commercial_significance": 0,
+    "commercial_significance": 19.0,
     "distributor": "Netflix",
     "franchise": "",
     "release_strategy": "Streamer awards release",
-    "studio": []
+    "studio": [
+      "SF Studios"
+    ]
   },
   "diagnostics": {
-    "completeness_score": 44,
-    "confidence": "Low",
+    "completeness_score": 89,
+    "confidence": "High",
     "missing_fields": [
-      "runtime",
-      "poster",
-      "director",
-      "principal_cast",
-      "production_companies"
+      "runtime"
     ],
     "relationship_counts": {
       "related_films": 6,
-      "related_people": 0,
-      "related_studios": 1
+      "related_people": 7,
+      "related_studios": 2
     }
   },
   "editorial": {
@@ -168,7 +184,7 @@
     "editorial_summary": "As of 2026-07-18, this is a Netflix release dated 2026-08-28 with Best Picture, Acting relevance; current awards profile is Developing and data status is limited data.",
     "importance_tier": "Watchlist",
     "primary_story": "specialty/prestige positioning; international profile",
-    "story_strength": "Developing",
+    "story_strength": "Strong",
     "why_it_matters": "Netflix release worth monitoring for Best Picture, Acting potential."
   },
   "festival": {
@@ -179,8 +195,10 @@
     "premiere_type": ""
   },
   "film_identity": {
-    "backdrop": "",
-    "country": [],
+    "backdrop": "https://image.tmdb.org/t/p/original/ryf3wj8VD7ZqBWEHbjfHRdBrTai.jpg",
+    "country": [
+      "DK"
+    ],
     "genres": [
       "Crime",
       "Mystery",
@@ -188,23 +206,23 @@
       "Thriller"
     ],
     "id": "1631807",
-    "imdb_id": "tt37275992",
+    "imdb_id": "",
     "language": "da",
     "original_title": "Den hemmelige kvinde",
-    "poster": "",
+    "poster": "https://image.tmdb.org/t/p/original/dIl3cGBcR9AwOjWhEbMuagXdVtG.jpg",
     "profile_payload_url": "data/films/1631807.json",
     "profile_url": "film.html?id=1631807",
     "release_date": "2026-08-28",
     "release_display": "In theaters Aug. 28",
-    "runtime": 0,
-    "synopsis": "N/A",
+    "runtime": null,
+    "synopsis": "A woman with memory loss discovers she has a family and a shipping empire. She returns to a seemingly perfect past to uncover the truth about why she left.",
     "title": "The Secret Woman",
     "tmdb_id": "1631807"
   },
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-07-29T21:38:25Z",
+    "generated_at": "2026-08-21T14:04:17Z",
     "headline": "The Secret Woman: release approaching",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -222,63 +240,99 @@
         "streaming_flatrate_provider_count_us": 0,
         "streaming_provider_count_us": 0,
         "tmdb_backdrop_count": 0,
-        "tmdb_canonical_trailer_available": false,
-        "tmdb_popularity": 0.1331,
-        "tmdb_poster_count": 0,
+        "tmdb_canonical_trailer_available": true,
+        "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=FldeGkt4e4k",
+        "tmdb_popularity": 1.3241,
+        "tmdb_poster_count": 1,
         "tmdb_release_date_us_primary": "2026-08-28",
         "tmdb_release_date_us_theatrical": "",
         "tmdb_release_status": "In Production",
         "tmdb_vote_average": 0,
         "tmdb_vote_count": 0,
         "tmdb_watch_provider_count_us": 0,
-        "trailer_available": false,
-        "trailer_count": 0
+        "trailer_available": true,
+        "trailer_count": 1,
+        "trailer_url": "https://www.youtube.com/watch?v=FldeGkt4e4k"
       },
-      "source_signal_count": 24,
+      "source_signal_count": 26,
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "US release is 39 days away on 2026-08-28.",
+    "summary": "TMDb popularity rose from 0.1331 to 1.3241. US release is 39 days away on 2026-08-28. A canonical TMDb trailer URL is available.",
     "supporting_drivers": [
+      {
+        "confidence_weight": 0.9,
+        "driver_type": "popularity_increasing",
+        "evidence": "TMDb popularity rose from 0.1331 to 1.3241.",
+        "label": "Popularity increasing",
+        "retrieved_at": "2026-08-21T14:04:17Z",
+        "source_metric": "tmdb_popularity",
+        "source_provider": "tmdb",
+        "source_status": "available"
+      },
       {
         "confidence_weight": 0.8,
         "driver_type": "release_approaching",
         "evidence": "US release is 39 days away on 2026-08-28.",
         "label": "Release approaching",
-        "retrieved_at": "2026-07-29T21:38:25Z",
+        "retrieved_at": "2026-08-21T14:04:17Z",
         "source_metric": "tmdb_release_date_us_primary",
+        "source_provider": "tmdb",
+        "source_status": "available"
+      },
+      {
+        "confidence_weight": 0.85,
+        "driver_type": "trailer_available",
+        "evidence": "A canonical TMDb trailer URL is available.",
+        "label": "Trailer available",
+        "retrieved_at": "2026-08-21T14:04:17Z",
+        "source_metric": "tmdb_canonical_trailer_url",
         "source_provider": "tmdb",
         "source_status": "available"
       }
     ]
   },
-  "media": {},
+  "media": {
+    "canonical_trailer": {
+      "retrieved_at": "2026-08-21",
+      "site": "YouTube",
+      "source": "TMDb",
+      "source_url": "https://www.themoviedb.org/movie/1631807/videos",
+      "title": "Official Trailer [Subtitled]",
+      "type": "Trailer",
+      "url": "https://www.youtube.com/watch?v=FldeGkt4e4k"
+    },
+    "latest_trailer_url": "https://www.youtube.com/watch?v=FldeGkt4e4k"
+  },
   "metadata": {
     "algorithm_version": "phase5b",
-    "awards_intelligence_integrated_at": "2026-08-16T00:00:00Z",
-    "awards_intelligence_source": "academy_nominee_website_card_handoff_v1.json",
-    "generated_at": "slice57_current_discovery_enrichment",
-    "profile_version": "phase6a_registry_canonical_id_bridge_slice57_enriched",
+    "generated_at": "20260821T140432Z",
+    "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
   "performance": {
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 0.1331,
-        "retrieved_at": "2026-07-29",
+        "popularity": 1.3241,
+        "retrieved_at": "2026-08-21",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1631807",
         "status": "not_yet_rated"
       }
     },
-    "tmdb_popularity": 0.1331,
+    "tmdb_popularity": {
+      "retrieved_at": "2026-08-21",
+      "source": "TMDb",
+      "source_url": "https://www.themoviedb.org/movie/1631807",
+      "value": 1.3241
+    },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 0.1331,
-      "retrieved_at": "2026-07-29",
+      "popularity": 1.3241,
+      "retrieved_at": "2026-08-21",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1631807",
       "status": "not_yet_rated"
@@ -288,7 +342,7 @@
     "related_films": [
       {
         "profile_url": "film.html?id=1487864",
-        "relationship_score": 72,
+        "relationship_score": 68,
         "shared_signals": [
           "General Watch",
           "Crime",
@@ -300,7 +354,7 @@
       },
       {
         "profile_url": "film.html?id=1365884",
-        "relationship_score": 66,
+        "relationship_score": 56,
         "shared_signals": [
           "General Watch",
           "Drama",
@@ -311,20 +365,8 @@
         "tmdb_id": "1365884"
       },
       {
-        "profile_url": "film.html?id=1504358",
-        "relationship_score": 66,
-        "shared_signals": [
-          "General Watch",
-          "Drama",
-          "Acting",
-          "Best Picture"
-        ],
-        "title": "Don't Say Good Luck",
-        "tmdb_id": "1504358"
-      },
-      {
         "profile_url": "film.html?id=1422041",
-        "relationship_score": 66,
+        "relationship_score": 56,
         "shared_signals": [
           "General Watch",
           "Drama",
@@ -336,7 +378,7 @@
       },
       {
         "profile_url": "film.html?id=1437882",
-        "relationship_score": 62,
+        "relationship_score": 52,
         "shared_signals": [
           "General Watch",
           "Drama",
@@ -348,7 +390,7 @@
       },
       {
         "profile_url": "film.html?id=1286656",
-        "relationship_score": 56,
+        "relationship_score": 46,
         "shared_signals": [
           "General Watch",
           "Drama",
@@ -357,24 +399,70 @@
         ],
         "title": "I Play Rocky",
         "tmdb_id": "1286656"
+      },
+      {
+        "profile_url": "film.html?id=1558094",
+        "relationship_score": 46,
+        "shared_signals": [
+          "General Watch",
+          "Drama",
+          "Acting",
+          "Best Picture"
+        ],
+        "title": "Let Love In",
+        "tmdb_id": "1558094"
       }
     ],
-    "related_people": [],
+    "related_people": [
+      {
+        "name": "Barbara Tops\u00f8e-Rothenborg",
+        "role": "director"
+      },
+      {
+        "name": "Natalie Madue\u00f1o",
+        "role": "actor"
+      },
+      {
+        "name": "Claes Bang",
+        "role": "actor"
+      },
+      {
+        "name": "P\u00e5l Sverre Hagen",
+        "role": "actor"
+      },
+      {
+        "name": "Stina Ekblad",
+        "role": "actor"
+      },
+      {
+        "name": "Ingrid Bols\u00f8 Berdal",
+        "role": "actor"
+      },
+      {
+        "name": "Lars Simonsen",
+        "role": "actor"
+      }
+    ],
     "related_studios": [
       {
         "name": "Netflix",
         "role": "distributor"
+      },
+      {
+        "name": "SF Studios",
+        "role": "production_company"
       }
     ]
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.003,
-      "awards_relevance": 2.4
+      "audience_momentum": 0.025,
+      "awards_relevance": 2.4,
+      "campaign_activity": 1.35
     },
-    "generated_at": "2026-07-29T21:38:25Z",
+    "generated_at": "2026-08-21T14:04:17Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 2.403,
+    "score": 3.775,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -386,21 +474,29 @@
         "value": 3
       },
       {
+        "confidence": 0.9,
+        "contribution": 1.35,
+        "metric_name": "trailer_count",
+        "provider": "trailers",
+        "score_family": "campaign_activity",
+        "value": 1
+      },
+      {
         "confidence": 0.95,
-        "contribution": 0.003,
+        "contribution": 0.025,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 0.1331
+        "value": 1.3241
       }
     ]
   },
   "signals": {
-    "cultural_significance": 0,
+    "cultural_significance": 19.0,
     "external_intelligence": {
       "confidence": "High",
       "headline": "The Secret Woman: release approaching",
-      "summary": "US release is 39 days away on 2026-08-28."
+      "summary": "TMDb popularity rose from 0.1331 to 1.3241. US release is 39 days away on 2026-08-28. A canonical TMDb trailer URL is available."
     },
     "last_updated": "2026-08-28",
     "latest_event": {
@@ -438,7 +534,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1631807-0025cc1e6122",
+        "event_id": "1631807-87f14f47ace5",
         "event_type": "Distributor Change",
         "film_id": "1631807",
         "importance": "Medium",
@@ -447,17 +543,17 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1631807-dc2d74cc404a",
+        "event_id": "1631807-0b8aff8e2b66",
         "event_type": "Awards Tier Changed",
         "film_id": "1631807",
         "importance": "Medium",
         "metadata": {
-          "awards_tier": "No Current Awards Case",
+          "awards_tier": "Emerging",
           "categories": [
             "Best Picture",
             "Acting",
@@ -465,16 +561,16 @@
           ]
         },
         "source_type": "editorial_model",
-        "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-29T21:38:25Z",
-        "title": "Awards tier assigned: No Current Awards Case"
+        "summary": "plausible but incomplete awards evidence",
+        "timestamp": "2026-08-21T14:04:32Z",
+        "title": "Awards tier assigned: Emerging"
       }
     ],
-    "release_relevance": 37.8,
+    "release_relevance": 40.6,
     "screening_room_score": {
       "confidence": "High",
-      "explanation": "US release is 39 days away on 2026-08-28.",
-      "score": 2.403
+      "explanation": "TMDb popularity rose from 0.1331 to 1.3241. US release is 39 days away on 2026-08-28. A canonical TMDb trailer URL is available.",
+      "score": 3.775
     },
     "watch_triggers": [
       "Prestige Distributor",
@@ -484,8 +580,15 @@
     "whats_changed": ""
   },
   "talent": {
-    "director": "",
-    "principal_cast": [],
+    "director": "Barbara Tops\u00f8e-Rothenborg",
+    "principal_cast": [
+      "Natalie Madue\u00f1o",
+      "Claes Bang",
+      "P\u00e5l Sverre Hagen",
+      "Stina Ekblad",
+      "Ingrid Bols\u00f8 Berdal",
+      "Lars Simonsen"
+    ],
     "producers": [],
     "writers": []
   },
@@ -507,7 +610,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1631807-0025cc1e6122",
+        "event_id": "1631807-87f14f47ace5",
         "event_type": "Distributor Change",
         "film_id": "1631807",
         "importance": "Medium",
@@ -516,17 +619,17 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1631807-dc2d74cc404a",
+        "event_id": "1631807-0b8aff8e2b66",
         "event_type": "Awards Tier Changed",
         "film_id": "1631807",
         "importance": "Medium",
         "metadata": {
-          "awards_tier": "No Current Awards Case",
+          "awards_tier": "Emerging",
           "categories": [
             "Best Picture",
             "Acting",
@@ -534,13 +637,13 @@
           ]
         },
         "source_type": "editorial_model",
-        "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-29T21:38:25Z",
-        "title": "Awards tier assigned: No Current Awards Case"
+        "summary": "plausible but incomplete awards evidence",
+        "timestamp": "2026-08-21T14:04:32Z",
+        "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1631807-ca18d2b38e60",
+        "event_id": "1631807-74f7880a1ef4",
         "event_type": "Added To Database",
         "film_id": "1631807",
         "importance": "Low",
@@ -549,7 +652,7 @@
         },
         "source_type": "system",
         "summary": "The Secret Woman is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -584,7 +687,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1631807-0025cc1e6122",
+        "event_id": "1631807-87f14f47ace5",
         "event_type": "Distributor Change",
         "film_id": "1631807",
         "importance": "Medium",
@@ -593,17 +696,17 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1631807-dc2d74cc404a",
+        "event_id": "1631807-0b8aff8e2b66",
         "event_type": "Awards Tier Changed",
         "film_id": "1631807",
         "importance": "Medium",
         "metadata": {
-          "awards_tier": "No Current Awards Case",
+          "awards_tier": "Emerging",
           "categories": [
             "Best Picture",
             "Acting",
@@ -611,9 +714,9 @@
           ]
         },
         "source_type": "editorial_model",
-        "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-29T21:38:25Z",
-        "title": "Awards tier assigned: No Current Awards Case"
+        "summary": "plausible but incomplete awards evidence",
+        "timestamp": "2026-08-21T14:04:32Z",
+        "title": "Awards tier assigned: Emerging"
       }
     ],
     "supported_event_types": [

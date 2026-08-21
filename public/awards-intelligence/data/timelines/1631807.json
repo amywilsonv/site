@@ -16,7 +16,7 @@
     },
     {
       "confidence": "Inferred",
-      "event_id": "1631807-0025cc1e6122",
+      "event_id": "1631807-87f14f47ace5",
       "event_type": "Distributor Change",
       "film_id": "1631807",
       "importance": "Medium",
@@ -25,17 +25,17 @@
       },
       "source_type": "metadata",
       "summary": "Current distributor is Netflix.",
-      "timestamp": "2026-07-29T21:38:25Z",
+      "timestamp": "2026-08-21T14:04:32Z",
       "title": "Distributor set: Netflix"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1631807-dc2d74cc404a",
+      "event_id": "1631807-0b8aff8e2b66",
       "event_type": "Awards Tier Changed",
       "film_id": "1631807",
       "importance": "Medium",
       "metadata": {
-        "awards_tier": "No Current Awards Case",
+        "awards_tier": "Emerging",
         "categories": [
           "Best Picture",
           "Acting",
@@ -43,13 +43,13 @@
         ]
       },
       "source_type": "editorial_model",
-      "summary": "insufficient credible awards evidence",
-      "timestamp": "2026-07-29T21:38:25Z",
-      "title": "Awards tier assigned: No Current Awards Case"
+      "summary": "plausible but incomplete awards evidence",
+      "timestamp": "2026-08-21T14:04:32Z",
+      "title": "Awards tier assigned: Emerging"
     },
     {
       "confidence": "Inferred",
-      "event_id": "1631807-ca18d2b38e60",
+      "event_id": "1631807-74f7880a1ef4",
       "event_type": "Added To Database",
       "film_id": "1631807",
       "importance": "Low",
@@ -58,7 +58,7 @@
       },
       "source_type": "system",
       "summary": "The Secret Woman is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-07-29T21:38:25Z",
+      "timestamp": "2026-08-21T14:04:32Z",
       "title": "Added to Awards Intelligence"
     }
   ],
@@ -79,7 +79,7 @@
   "metadata": {
     "event_count": 4,
     "film_id": "1631807",
-    "generated_at": "slice57_current_discovery_enrichment",
+    "generated_at": "20260821T140432Z",
     "timeline_version": "phase6b",
     "title": "The Secret Woman",
     "tmdb_id": "1631807"

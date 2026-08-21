@@ -7,7 +7,7 @@
       "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 47.8,
+    "attention_score": 48.0,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -45,20 +45,20 @@
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 0.9171",
+        "evidence": "TMDb popularity 0.99",
         "source": "audience_popularity",
         "status": "verified"
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 47.8,
+    "homepage_spotlight_score": 48.0,
     "industry_interest": "Moderate",
-    "last_updated": "20260729T213825Z",
+    "last_updated": "20260821T140432Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
         "evidence_count": 1,
-        "score": 3.4,
+        "score": 3.6,
         "statuses": [
           "verified"
         ]
@@ -135,23 +135,6 @@
     "predicted_categories": [],
     "probabilities": {}
   },
-  "awards_intelligence": {
-    "awards_candidate_status": "PROVISIONAL",
-    "awards_status": null,
-    "best_picture_rank": null,
-    "forecast_stage": null,
-    "forecast_stage_label": null,
-    "nominee_probability": null,
-    "percentage_policy": "PERCENTAGES_NOT_READY",
-    "prediction_confidence": null,
-    "probability_is_calibrated": false,
-    "public_card_behavior": "no_awards_badge",
-    "rank_change": null,
-    "ranking_eligibility": "NOT_RANKED",
-    "ranking_last_updated_at": null,
-    "source_artifact": "academy_nominee_website_card_handoff_v1.json",
-    "why_it_ranks": []
-  },
   "commercial": {
     "commercial_significance": 37.0,
     "distributor": "Unknown",
@@ -199,7 +182,7 @@
       "Romance"
     ],
     "id": "1530151",
-    "imdb_id": "tt37969278",
+    "imdb_id": "",
     "language": "sv",
     "original_title": "H\u00f6sten med G\u00f6ran",
     "poster": "https://image.tmdb.org/t/p/original/lQ2xrg0BEg2E2wvP7yI3CSXOWiy.jpg",
@@ -207,16 +190,16 @@
     "profile_url": "film.html?id=1530151",
     "release_date": "2026-12-25",
     "release_display": "In theaters Dec. 25",
-    "runtime": 0,
+    "runtime": null,
     "synopsis": "The film follows the narcissist and divorced father G\u00f6ran as he tries to balance his life between having children, an expensive ADHD diagnosis and the search for love. At the same time, his best friend Alex struggles with a failing marriage. Together, they try to find joy in life, hope and maybe even love.",
     "title": "H\u00f6sten med G\u00f6ran",
     "tmdb_id": "1530151"
   },
   "intelligence": {
-    "confidence": "Low",
-    "confidence_score": 0.25,
-    "generated_at": "2026-07-29T21:38:25Z",
-    "headline": "H\u00f6sten med G\u00f6ran: no material change detected",
+    "confidence": "High",
+    "confidence_score": 0.99,
+    "generated_at": "2026-08-21T14:04:17Z",
+    "headline": "H\u00f6sten med G\u00f6ran: popularity increasing",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
       "signal_values": {
@@ -234,7 +217,7 @@
         "streaming_provider_count_us": 0,
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": false,
-        "tmdb_popularity": 0.9171,
+        "tmdb_popularity": 0.99,
         "tmdb_poster_count": 0,
         "tmdb_release_date_us_primary": "",
         "tmdb_release_date_us_theatrical": "",
@@ -249,38 +232,50 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "Current provider signals do not show a supported material change.",
-    "supporting_drivers": []
+    "summary": "TMDb popularity rose from 0.9171 to 0.99.",
+    "supporting_drivers": [
+      {
+        "confidence_weight": 0.9,
+        "driver_type": "popularity_increasing",
+        "evidence": "TMDb popularity rose from 0.9171 to 0.99.",
+        "label": "Popularity increasing",
+        "retrieved_at": "2026-08-21T14:04:17Z",
+        "source_metric": "tmdb_popularity",
+        "source_provider": "tmdb",
+        "source_status": "available"
+      }
+    ]
   },
-  "media": {
-    "poster": "https://image.tmdb.org/t/p/original/lQ2xrg0BEg2E2wvP7yI3CSXOWiy.jpg"
-  },
+  "media": {},
   "metadata": {
     "algorithm_version": "phase5b",
-    "awards_intelligence_integrated_at": "2026-08-16T00:00:00Z",
-    "awards_intelligence_source": "academy_nominee_website_card_handoff_v1.json",
-    "generated_at": "slice57_current_discovery_enrichment",
-    "profile_version": "phase6a_registry_canonical_id_bridge_slice57_enriched",
+    "generated_at": "20260821T140432Z",
+    "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
   "performance": {
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 0.9171,
-        "retrieved_at": "2026-07-29",
+        "popularity": 0.99,
+        "retrieved_at": "2026-08-21",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1530151",
         "status": "not_yet_rated"
       }
     },
-    "tmdb_popularity": 0.9171,
+    "tmdb_popularity": {
+      "retrieved_at": "2026-08-21",
+      "source": "TMDb",
+      "source_url": "https://www.themoviedb.org/movie/1530151",
+      "value": 0.99
+    },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 0.9171,
-      "retrieved_at": "2026-07-29",
+      "popularity": 0.99,
+      "retrieved_at": "2026-08-21",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1530151",
       "status": "not_yet_rated"
@@ -384,12 +379,12 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.017,
+      "audience_momentum": 0.019,
       "talent_profile": 2.125
     },
-    "generated_at": "2026-07-29T21:38:25Z",
+    "generated_at": "2026-08-21T14:04:17Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 2.142,
+    "score": 2.144,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -410,20 +405,20 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.017,
+        "contribution": 0.019,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 0.9171
+        "value": 0.99
       }
     ]
   },
   "signals": {
     "cultural_significance": 37.0,
     "external_intelligence": {
-      "confidence": "Low",
-      "headline": "H\u00f6sten med G\u00f6ran: no material change detected",
-      "summary": "Current provider signals do not show a supported material change."
+      "confidence": "High",
+      "headline": "H\u00f6sten med G\u00f6ran: popularity increasing",
+      "summary": "TMDb popularity rose from 0.9171 to 0.99."
     },
     "last_updated": "2026-12-25",
     "latest_event": {
@@ -461,7 +456,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1530151-b999627b1ca5",
+        "event_id": "1530151-037f70ca9f52",
         "event_type": "Awards Tier Changed",
         "film_id": "1530151",
         "importance": "Medium",
@@ -471,12 +466,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1530151-91fa88ce9e48",
+        "event_id": "1530151-0a3c27ac9040",
         "event_type": "Added To Database",
         "film_id": "1530151",
         "importance": "Low",
@@ -485,15 +480,15 @@
         },
         "source_type": "system",
         "summary": "H\u00f6sten med G\u00f6ran is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Added to Awards Intelligence"
       }
     ],
     "release_relevance": 22.9,
     "screening_room_score": {
-      "confidence": "Low",
-      "explanation": "Current provider signals do not show a supported material change.",
-      "score": 2.142
+      "confidence": "High",
+      "explanation": "TMDb popularity rose from 0.9171 to 0.99.",
+      "score": 2.144
     },
     "watch_triggers": [
       "Awards-Season Release",
@@ -512,9 +507,7 @@
       "Mattias \u00d6sterman"
     ],
     "producers": [],
-    "writers": [
-      "Peter Magnusson"
-    ]
+    "writers": []
   },
   "timeline": {
     "events": [
@@ -534,7 +527,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1530151-b999627b1ca5",
+        "event_id": "1530151-037f70ca9f52",
         "event_type": "Awards Tier Changed",
         "film_id": "1530151",
         "importance": "Medium",
@@ -544,12 +537,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1530151-91fa88ce9e48",
+        "event_id": "1530151-0a3c27ac9040",
         "event_type": "Added To Database",
         "film_id": "1530151",
         "importance": "Low",
@@ -558,7 +551,7 @@
         },
         "source_type": "system",
         "summary": "H\u00f6sten med G\u00f6ran is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -593,7 +586,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1530151-b999627b1ca5",
+        "event_id": "1530151-037f70ca9f52",
         "event_type": "Awards Tier Changed",
         "film_id": "1530151",
         "importance": "Medium",
@@ -603,12 +596,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1530151-91fa88ce9e48",
+        "event_id": "1530151-0a3c27ac9040",
         "event_type": "Added To Database",
         "film_id": "1530151",
         "importance": "Low",
@@ -617,7 +610,7 @@
         },
         "source_type": "system",
         "summary": "H\u00f6sten med G\u00f6ran is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Added to Awards Intelligence"
       }
     ],

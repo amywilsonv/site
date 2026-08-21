@@ -8,7 +8,7 @@
       "Event Release",
       "Awards Watch"
     ],
-    "attention_score": 73.6,
+    "attention_score": 72.7,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -46,14 +46,14 @@
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 3.5266",
-        "source": "audience_popularity",
-        "status": "verified"
-      },
-      {
         "evidence": "Current awards or craft-category potential",
         "source": "awards_potential",
         "status": "inferred"
+      },
+      {
+        "evidence": "TMDb popularity 2.8135",
+        "source": "audience_popularity",
+        "status": "verified"
       },
       {
         "evidence": "Release date: 2027-04-23",
@@ -62,14 +62,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 73.6,
+    "homepage_spotlight_score": 72.7,
     "industry_interest": "High",
-    "last_updated": "20260729T213825Z",
+    "last_updated": "20260821T140432Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
         "evidence_count": 1,
-        "score": 7.8,
+        "score": 6.9,
         "statuses": [
           "verified"
         ]
@@ -156,23 +156,6 @@
     ],
     "probabilities": {}
   },
-  "awards_intelligence": {
-    "awards_candidate_status": "ELIGIBILITY_UNCERTAIN",
-    "awards_status": null,
-    "best_picture_rank": null,
-    "forecast_stage": null,
-    "forecast_stage_label": null,
-    "nominee_probability": null,
-    "percentage_policy": "PERCENTAGES_NOT_READY",
-    "prediction_confidence": null,
-    "probability_is_calibrated": false,
-    "public_card_behavior": "no_awards_badge",
-    "rank_change": null,
-    "ranking_eligibility": "NOT_RANKED",
-    "ranking_last_updated_at": null,
-    "source_artifact": "academy_nominee_website_card_handoff_v1.json",
-    "why_it_ranks": []
-  },
   "commercial": {
     "commercial_significance": 62.8,
     "distributor": "Amazon MGM Studios",
@@ -219,10 +202,11 @@
     ],
     "genres": [
       "Comedy",
-      "Science Fiction"
+      "Science Fiction",
+      "Adventure"
     ],
     "id": "1306322",
-    "imdb_id": "tt32659463",
+    "imdb_id": "",
     "language": "en",
     "original_title": "Spaceballs: The New One",
     "poster": "https://image.tmdb.org/t/p/original/9usPcpMm8GhzkHIXqiklhPrflY3.jpg",
@@ -230,7 +214,7 @@
     "profile_url": "film.html?id=1306322",
     "release_date": "2027-04-23",
     "release_display": "Apr. 23, 2027",
-    "runtime": 0,
+    "runtime": null,
     "synopsis": "Forty years after the events of the first Spaceballs, the galaxy is once again under threat. A threat so evil, so unstoppable, so completely lacking in any original ideas, that it has vowed to bring back the past... every last bit of it. With Lone Starr in hiding, Queen Vespa on the throne, and the Schwartz stretched thinner than a franchise releasing TV episodes theatrically, the only hope for the galaxy is Vespa's undisciplined son, Prince Starburst, and a mysterious Palace advisor named Destiny. Together, they must find Lone Starr, Yogurt, and any other iconic legacy characters fans are demanding before they discover the hard way that, while some threats you can fight, the reboot is not one of them.",
     "title": "Spaceballs: The New One",
     "tmdb_id": "1306322"
@@ -238,7 +222,7 @@
   "intelligence": {
     "confidence": "Low",
     "confidence_score": 0.25,
-    "generated_at": "2026-07-29T21:38:25Z",
+    "generated_at": "2026-08-21T14:04:17Z",
     "headline": "Spaceballs: The New One: no material change detected",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -257,7 +241,7 @@
         "streaming_provider_count_us": 0,
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": false,
-        "tmdb_popularity": 3.5266,
+        "tmdb_popularity": 2.8135,
         "tmdb_poster_count": 6,
         "tmdb_release_date_us_primary": "2027-04-23",
         "tmdb_release_date_us_theatrical": "2027-04-23",
@@ -266,7 +250,7 @@
         "tmdb_vote_count": 0,
         "tmdb_watch_provider_count_us": 0,
         "trailer_available": false,
-        "trailer_count": 2
+        "trailer_count": 5
       },
       "source_signal_count": 24,
       "stale_signal_count": 0
@@ -275,36 +259,36 @@
     "summary": "Current provider signals do not show a supported material change.",
     "supporting_drivers": []
   },
-  "media": {
-    "backdrop": "https://image.tmdb.org/t/p/original/6dOmk6RoedeTSelTj2b473xThZH.jpg",
-    "poster": "https://image.tmdb.org/t/p/original/9usPcpMm8GhzkHIXqiklhPrflY3.jpg"
-  },
+  "media": {},
   "metadata": {
     "algorithm_version": "phase5b",
-    "awards_intelligence_integrated_at": "2026-08-16T00:00:00Z",
-    "awards_intelligence_source": "academy_nominee_website_card_handoff_v1.json",
-    "generated_at": "slice57_current_discovery_enrichment",
-    "profile_version": "phase6a_registry_canonical_id_bridge_slice57_enriched",
+    "generated_at": "20260821T140432Z",
+    "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
   "performance": {
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 3.5266,
-        "retrieved_at": "2026-07-29",
+        "popularity": 2.8135,
+        "retrieved_at": "2026-08-21",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1306322",
         "status": "not_yet_rated"
       }
     },
-    "tmdb_popularity": 3.5266,
+    "tmdb_popularity": {
+      "retrieved_at": "2026-08-21",
+      "source": "TMDb",
+      "source_url": "https://www.themoviedb.org/movie/1306322",
+      "value": 2.8135
+    },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 3.5266,
-      "retrieved_at": "2026-07-29",
+      "popularity": 2.8135,
+      "retrieved_at": "2026-08-21",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1306322",
       "status": "not_yet_rated"
@@ -313,20 +297,11 @@
   "related": {
     "related_films": [
       {
-        "profile_url": "film.html?id=1361774",
-        "relationship_score": 57,
-        "shared_signals": [
-          "Major Release",
-          "Comedy"
-        ],
-        "title": "The Dink",
-        "tmdb_id": "1361774"
-      },
-      {
         "profile_url": "film.html?id=1204680",
-        "relationship_score": 52,
+        "relationship_score": 58,
         "shared_signals": [
           "Major Release",
+          "Adventure",
           "Comedy",
           "Craft Categories"
         ],
@@ -356,26 +331,40 @@
         "tmdb_id": "1078446"
       },
       {
-        "profile_url": "film.html?id=1401586",
+        "profile_url": "film.html?id=1003596",
         "relationship_score": 46,
         "shared_signals": [
           "Major Release",
-          "Comedy",
+          "Adventure",
           "Science Fiction",
           "Craft Categories"
         ],
-        "title": "Sonic the Hedgehog 4",
-        "tmdb_id": "1401586"
+        "title": "Avengers: Doomsday",
+        "tmdb_id": "1003596"
       },
       {
-        "profile_url": "film.html?id=1493400",
-        "relationship_score": 44,
+        "profile_url": "film.html?id=1170608",
+        "relationship_score": 46,
         "shared_signals": [
           "Major Release",
-          "Comedy"
+          "Adventure",
+          "Science Fiction",
+          "Craft Categories"
         ],
-        "title": "Camp Rock 3",
-        "tmdb_id": "1493400"
+        "title": "Dune: Part Three",
+        "tmdb_id": "1170608"
+      },
+      {
+        "profile_url": "film.html?id=1260649",
+        "relationship_score": 46,
+        "shared_signals": [
+          "Major Release",
+          "Adventure",
+          "Comedy",
+          "Craft Categories"
+        ],
+        "title": "Jumanji: Open World",
+        "tmdb_id": "1260649"
       }
     ],
     "related_people": [
@@ -429,23 +418,23 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.067,
+      "audience_momentum": 0.053,
       "awards_relevance": 0.8,
-      "campaign_activity": 2.7,
+      "campaign_activity": 5.4,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-07-29T21:38:25Z",
+    "generated_at": "2026-08-21T14:04:17Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 6.892,
+    "score": 9.578,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
         "confidence": 0.9,
-        "contribution": 2.7,
+        "contribution": 5.4,
         "metric_name": "trailer_count",
         "provider": "trailers",
         "score_family": "campaign_activity",
-        "value": 2
+        "value": 5
       },
       {
         "confidence": 0.55,
@@ -473,11 +462,11 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.067,
+        "contribution": 0.053,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 3.5266
+        "value": 2.8135
       }
     ]
   },
@@ -524,7 +513,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1306322-f0b7598cc435",
+        "event_id": "1306322-92bbcffa0d98",
         "event_type": "Distributor Change",
         "film_id": "1306322",
         "importance": "Medium",
@@ -533,12 +522,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Amazon MGM Studios.",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Distributor set: Amazon MGM Studios"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1306322-f9253341b314",
+        "event_id": "1306322-0b086d7e5a9b",
         "event_type": "Awards Tier Changed",
         "film_id": "1306322",
         "importance": "Medium",
@@ -550,7 +539,7 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Awards tier assigned: Emerging"
       }
     ],
@@ -558,7 +547,7 @@
     "screening_room_score": {
       "confidence": "Low",
       "explanation": "Current provider signals do not show a supported material change.",
-      "score": 6.892
+      "score": 9.578
     },
     "watch_triggers": [
       "Prestige Distributor",
@@ -581,11 +570,7 @@
       "Michael Winslow"
     ],
     "producers": [],
-    "writers": [
-      "Benji Samit",
-      "Josh Gad",
-      "Dan Hernandez"
-    ]
+    "writers": []
   },
   "timeline": {
     "events": [
@@ -605,7 +590,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1306322-f0b7598cc435",
+        "event_id": "1306322-92bbcffa0d98",
         "event_type": "Distributor Change",
         "film_id": "1306322",
         "importance": "Medium",
@@ -614,12 +599,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Amazon MGM Studios.",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Distributor set: Amazon MGM Studios"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1306322-f9253341b314",
+        "event_id": "1306322-0b086d7e5a9b",
         "event_type": "Awards Tier Changed",
         "film_id": "1306322",
         "importance": "Medium",
@@ -631,12 +616,12 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Awards tier assigned: Emerging"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1306322-79bdbf62c6a0",
+        "event_id": "1306322-b72db02969fa",
         "event_type": "Added To Database",
         "film_id": "1306322",
         "importance": "Low",
@@ -645,7 +630,7 @@
         },
         "source_type": "system",
         "summary": "Spaceballs: The New One is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -680,7 +665,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1306322-f0b7598cc435",
+        "event_id": "1306322-92bbcffa0d98",
         "event_type": "Distributor Change",
         "film_id": "1306322",
         "importance": "Medium",
@@ -689,12 +674,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Amazon MGM Studios.",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Distributor set: Amazon MGM Studios"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1306322-f9253341b314",
+        "event_id": "1306322-0b086d7e5a9b",
         "event_type": "Awards Tier Changed",
         "film_id": "1306322",
         "importance": "Medium",
@@ -706,7 +691,7 @@
         },
         "source_type": "editorial_model",
         "summary": "plausible but incomplete awards evidence",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Awards tier assigned: Emerging"
       }
     ],

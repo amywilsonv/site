@@ -8,7 +8,7 @@
       "Event Release",
       "Awards Watch"
     ],
-    "attention_score": 68.0,
+    "attention_score": 66.8,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -51,7 +51,7 @@
         "status": "inferred"
       },
       {
-        "evidence": "TMDb popularity 2.5049",
+        "evidence": "TMDb popularity 1.3365",
         "source": "audience_popularity",
         "status": "verified"
       },
@@ -62,14 +62,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 68.0,
+    "homepage_spotlight_score": 66.8,
     "industry_interest": "Moderate",
-    "last_updated": "20260729T213825Z",
+    "last_updated": "20260821T140432Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
         "evidence_count": 2,
-        "score": 11.6,
+        "score": 10.4,
         "statuses": [
           "verified"
         ]
@@ -157,23 +157,6 @@
     ],
     "probabilities": {}
   },
-  "awards_intelligence": {
-    "awards_candidate_status": "ACTIVE_CONTENDER",
-    "awards_status": null,
-    "best_picture_rank": null,
-    "forecast_stage": null,
-    "forecast_stage_label": null,
-    "nominee_probability": null,
-    "percentage_policy": "PERCENTAGES_NOT_READY",
-    "prediction_confidence": null,
-    "probability_is_calibrated": false,
-    "public_card_behavior": "no_public_badge_pending_evidence",
-    "rank_change": null,
-    "ranking_eligibility": "RANKING_PENDING_MORE_EVIDENCE",
-    "ranking_last_updated_at": null,
-    "source_artifact": "academy_nominee_website_card_handoff_v1.json",
-    "why_it_ranks": []
-  },
   "commercial": {
     "commercial_significance": 37.0,
     "distributor": "Unknown",
@@ -230,7 +213,7 @@
     "profile_url": "film.html?id=1722484",
     "release_date": "2026-09-24",
     "release_display": "In theaters Sep. 24",
-    "runtime": 0,
+    "runtime": null,
     "synopsis": "In the near future in Blokhavn, 24-year-old craftsman Ali lives in the ghetto area Valhalalparken with his wife Yasmina. Their everyday life changes drastically when the rich man Jasper Puch sends high-tech robots into the labor market, which immediately take over all the underpaid jobs. The residents of Valhalalparken, including Ali and Yasmina, lose their income and are reluctantly forced to relocate to Nakskov on Lolland. In the meantime, the robots start demolishing Valhalalparken so that expensive luxury apartments can be built for the rich citizens. However, Ali refuses to let go of his beloved hometown and decides to gather his old group of friends Hassan, Davito, Ahmed, Abdi, Musti, even though they are no longer on speaking terms. Ali manages to persuade them, and together they go on a wild and crazy adventure in the fight against the robots and Jasper Puch to win back their jobs and their beloved Blokhavn.",
     "title": "Brohr",
     "tmdb_id": "1722484"
@@ -238,7 +221,7 @@
   "intelligence": {
     "confidence": "Low",
     "confidence_score": 0.25,
-    "generated_at": "2026-07-29T21:38:25Z",
+    "generated_at": "2026-08-21T14:04:17Z",
     "headline": "Brohr: no material change detected",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -258,7 +241,7 @@
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=7CO8HaLsRnM",
-        "tmdb_popularity": 2.5049,
+        "tmdb_popularity": 1.3365,
         "tmdb_poster_count": 0,
         "tmdb_release_date_us_primary": "",
         "tmdb_release_date_us_theatrical": "",
@@ -278,9 +261,8 @@
     "supporting_drivers": []
   },
   "media": {
-    "backdrop": "https://image.tmdb.org/t/p/original/6OvMXJOKDZo385sLVmHQ8NOig8w.jpg",
     "canonical_trailer": {
-      "retrieved_at": "2026-07-29",
+      "retrieved_at": "2026-08-21",
       "site": "YouTube",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1722484/videos",
@@ -288,36 +270,37 @@
       "type": "Trailer",
       "url": "https://www.youtube.com/watch?v=7CO8HaLsRnM"
     },
-    "latest_trailer_url": "https://www.youtube.com/watch?v=7CO8HaLsRnM",
-    "poster": "https://image.tmdb.org/t/p/original/z6Rjj9gpU9Rp4W9SAJBgyv8BHuh.jpg",
-    "trailer": "https://www.youtube.com/watch?v=7CO8HaLsRnM"
+    "latest_trailer_url": "https://www.youtube.com/watch?v=7CO8HaLsRnM"
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "awards_intelligence_integrated_at": "2026-08-16T00:00:00Z",
-    "awards_intelligence_source": "academy_nominee_website_card_handoff_v1.json",
-    "generated_at": "slice57_current_discovery_enrichment",
-    "profile_version": "phase6a_registry_canonical_id_bridge_slice57_enriched",
+    "generated_at": "20260821T140432Z",
+    "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
   "performance": {
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 2.5049,
-        "retrieved_at": "2026-07-29",
+        "popularity": 1.3365,
+        "retrieved_at": "2026-08-21",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1722484",
         "status": "not_yet_rated"
       }
     },
-    "tmdb_popularity": 2.5049,
+    "tmdb_popularity": {
+      "retrieved_at": "2026-08-21",
+      "source": "TMDb",
+      "source_url": "https://www.themoviedb.org/movie/1722484",
+      "value": 1.3365
+    },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 2.5049,
-      "retrieved_at": "2026-07-29",
+      "popularity": 1.3365,
+      "retrieved_at": "2026-08-21",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1722484",
       "status": "not_yet_rated"
@@ -433,14 +416,14 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.048,
+      "audience_momentum": 0.025,
       "awards_relevance": 2.4,
       "campaign_activity": 5.4,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-07-29T21:38:25Z",
+    "generated_at": "2026-08-21T14:04:17Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 11.173,
+    "score": 11.15,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -477,11 +460,11 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.048,
+        "contribution": 0.025,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 2.5049
+        "value": 1.3365
       }
     ]
   },
@@ -528,7 +511,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1722484-27269c542cb1",
+        "event_id": "1722484-f8a4a1c6fcf6",
         "event_type": "Awards Tier Changed",
         "film_id": "1722484",
         "importance": "Medium",
@@ -542,12 +525,12 @@
         },
         "source_type": "editorial_model",
         "summary": "category-specific awards case without broader contender evidence",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Awards tier assigned: Category Contender"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1722484-ae1d8a544b54",
+        "event_id": "1722484-e329319e9e35",
         "event_type": "Added To Database",
         "film_id": "1722484",
         "importance": "Low",
@@ -556,7 +539,7 @@
         },
         "source_type": "system",
         "summary": "Brohr is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -564,7 +547,7 @@
     "screening_room_score": {
       "confidence": "Low",
       "explanation": "Current provider signals do not show a supported material change.",
-      "score": 11.173
+      "score": 11.15
     },
     "watch_triggers": [
       "Awards-Season Release",
@@ -589,10 +572,7 @@
       "Mads Mikkelsen"
     ],
     "producers": [],
-    "writers": [
-      "Adrian Hosseinpour",
-      "Malthe Emil Kibsgaard"
-    ]
+    "writers": []
   },
   "timeline": {
     "events": [
@@ -612,7 +592,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1722484-27269c542cb1",
+        "event_id": "1722484-f8a4a1c6fcf6",
         "event_type": "Awards Tier Changed",
         "film_id": "1722484",
         "importance": "Medium",
@@ -626,12 +606,12 @@
         },
         "source_type": "editorial_model",
         "summary": "category-specific awards case without broader contender evidence",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Awards tier assigned: Category Contender"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1722484-ae1d8a544b54",
+        "event_id": "1722484-e329319e9e35",
         "event_type": "Added To Database",
         "film_id": "1722484",
         "importance": "Low",
@@ -640,7 +620,7 @@
         },
         "source_type": "system",
         "summary": "Brohr is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -675,7 +655,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1722484-27269c542cb1",
+        "event_id": "1722484-f8a4a1c6fcf6",
         "event_type": "Awards Tier Changed",
         "film_id": "1722484",
         "importance": "Medium",
@@ -689,12 +669,12 @@
         },
         "source_type": "editorial_model",
         "summary": "category-specific awards case without broader contender evidence",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Awards tier assigned: Category Contender"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1722484-ae1d8a544b54",
+        "event_id": "1722484-e329319e9e35",
         "event_type": "Added To Database",
         "film_id": "1722484",
         "importance": "Low",
@@ -703,7 +683,7 @@
         },
         "source_type": "system",
         "summary": "Brohr is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Added to Awards Intelligence"
       }
     ],

@@ -1,22 +1,32 @@
 {
   "attention_intelligence": {
-    "anticipation_level": "Moderate",
+    "anticipation_level": "High",
     "attention_confidence": "High",
     "attention_reasons": [
       "Most Anticipated",
       "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 57.6,
+    "attention_score": 82.4,
     "attention_version": "phase7e_attention_v1",
-    "audience_interest": "Developing",
+    "audience_interest": "Moderate",
     "conversation_level": "Unavailable",
-    "cultural_relevance": null,
+    "cultural_relevance": "Moderate",
     "early_reception": null,
     "evidence_sources": [
       {
+        "evidence": "TMDb popularity 57.0413",
+        "source": "audience_popularity",
+        "status": "verified"
+      },
+      {
         "evidence": "Public-interest, franchise, event, or major-studio tracking signal",
         "source": "event_awareness",
+        "status": "inferred"
+      },
+      {
+        "evidence": "Commercial scale and release context",
+        "source": "commercial_scale",
         "status": "inferred"
       },
       {
@@ -25,13 +35,18 @@
         "status": "verified"
       },
       {
+        "evidence": "Principal cast listed: Sunny Sandler, Melanie Lynskey, Max Greenfield, Stephanie Beatriz",
+        "source": "cast_interest",
+        "status": "verified"
+      },
+      {
         "evidence": "Release date: 2026-08-14",
         "source": "release_proximity",
         "status": "verified"
       },
       {
-        "evidence": "Principal cast listed: Sunny Sandler, Melanie Lynskey, Max Greenfield, Stephanie Beatriz",
-        "source": "cast_interest",
+        "evidence": "Director: Julia Hart",
+        "source": "filmmaker_interest",
         "status": "verified"
       },
       {
@@ -40,37 +55,27 @@
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 2.1291",
-        "source": "audience_popularity",
-        "status": "verified"
-      },
-      {
-        "evidence": "Commercial scale and release context",
-        "source": "commercial_scale",
-        "status": "inferred"
-      },
-      {
-        "evidence": "Director: Julia Hart",
-        "source": "filmmaker_interest",
+        "evidence": "43",
+        "source": "tmdb_vote_count",
         "status": "verified"
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 57.6,
-    "industry_interest": null,
-    "last_updated": "20260729T213825Z",
+    "homepage_spotlight_score": 82.4,
+    "industry_interest": "Moderate",
+    "last_updated": "20260821T140432Z",
     "promotional_response": "Trailer available",
     "score_families": {
       "audience/popularity": {
         "evidence_count": 2,
-        "score": 11.2,
+        "score": 25.4,
         "statuses": [
           "verified"
         ]
       },
       "commercial": {
         "evidence_count": 1,
-        "score": 4.9,
+        "score": 13.1,
         "statuses": [
           "inferred"
         ]
@@ -92,7 +97,7 @@
       },
       "talent/prestige": {
         "evidence_count": 2,
-        "score": 12.0,
+        "score": 14.4,
         "statuses": [
           "verified"
         ]
@@ -146,25 +151,8 @@
     ],
     "probabilities": {}
   },
-  "awards_intelligence": {
-    "awards_candidate_status": "PROVISIONAL",
-    "awards_status": null,
-    "best_picture_rank": null,
-    "forecast_stage": null,
-    "forecast_stage_label": null,
-    "nominee_probability": null,
-    "percentage_policy": "PERCENTAGES_NOT_READY",
-    "prediction_confidence": null,
-    "probability_is_calibrated": false,
-    "public_card_behavior": "no_awards_badge",
-    "rank_change": null,
-    "ranking_eligibility": "NOT_RANKED",
-    "ranking_last_updated_at": null,
-    "source_artifact": "academy_nominee_website_card_handoff_v1.json",
-    "why_it_ranks": []
-  },
   "commercial": {
-    "commercial_significance": 19.0,
+    "commercial_significance": 50.5,
     "distributor": "Netflix",
     "franchise": "",
     "release_strategy": "Active release campaign",
@@ -175,11 +163,9 @@
     ]
   },
   "diagnostics": {
-    "completeness_score": 89,
+    "completeness_score": 100,
     "confidence": "High",
-    "missing_fields": [
-      "runtime"
-    ],
+    "missing_fields": [],
     "relationship_counts": {
       "related_films": 6,
       "related_people": 7,
@@ -187,11 +173,11 @@
     }
   },
   "editorial": {
-    "discovery_reason": "Netflix release worth monitoring for Best Picture, Song / Score, Acting potential.",
-    "editorial_category": "General Watch",
+    "discovery_reason": "Major Release - Julia Hart film with large-scale commercial or public-interest signals.",
+    "editorial_category": "Major Release",
     "editorial_summary": "Netflix release worth monitoring for Best Picture, Song / Score, Acting potential.",
     "importance_tier": "Watchlist",
-    "primary_story": "filmmaker/editorial hook; generic generated rationale",
+    "primary_story": "major studio or streamer scale; high TMDb popularity; filmmaker attached to large-scale release",
     "story_strength": "Strong",
     "why_it_matters": "Netflix release worth monitoring for Best Picture, Song / Score, Acting potential."
   },
@@ -203,7 +189,7 @@
     "premiere_type": ""
   },
   "film_identity": {
-    "backdrop": "",
+    "backdrop": "https://image.tmdb.org/t/p/original/yzdMGn8IRHSGuV8AIzw19wkRU2W.jpg",
     "country": [
       "US"
     ],
@@ -213,23 +199,23 @@
       "Drama"
     ],
     "id": "1504358",
-    "imdb_id": "tt36590417",
+    "imdb_id": "",
     "language": "en",
     "original_title": "Don't Say Good Luck",
-    "poster": "https://image.tmdb.org/t/p/original/w3NNwo7kImaJS7fL6YlBsJx0i6R.jpg",
+    "poster": "https://image.tmdb.org/t/p/original/dgTKahWonzVLeN8Lm22WR2S7D0A.jpg",
     "profile_payload_url": "data/films/1504358.json",
     "profile_url": "film.html?id=1504358",
     "release_date": "2026-08-14",
     "release_display": "In theaters Aug. 14",
-    "runtime": 0,
-    "synopsis": "Sophie Birenbaum is ready for the spotlight as the lead in her high school musical \u2014 until suddenly she\u2019s living with even more drama at home than on the stage.",
+    "runtime": 96,
+    "synopsis": "Sophie Birenbaum is ready for the spotlight as the lead in her high school musical \u2014 until she's suddenly facing more drama at home than on the stage.",
     "title": "Don't Say Good Luck",
     "tmdb_id": "1504358"
   },
   "intelligence": {
     "confidence": "High",
     "confidence_score": 0.99,
-    "generated_at": "2026-07-29T21:38:25Z",
+    "generated_at": "2026-08-21T14:04:17Z",
     "headline": "Don't Say Good Luck: release approaching",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
@@ -243,20 +229,20 @@
         "legacy_dashboard_festival_status": "",
         "legacy_dashboard_precursor_award_count": 0,
         "legacy_dashboard_principal_cast_count": 7,
-        "streaming_available_us": false,
-        "streaming_flatrate_provider_count_us": 0,
-        "streaming_provider_count_us": 0,
-        "tmdb_backdrop_count": 0,
+        "streaming_available_us": true,
+        "streaming_flatrate_provider_count_us": 2,
+        "streaming_provider_count_us": 2,
+        "tmdb_backdrop_count": 3,
         "tmdb_canonical_trailer_available": true,
         "tmdb_canonical_trailer_url": "https://www.youtube.com/watch?v=bvWqHSFkO5s",
-        "tmdb_popularity": 2.1291,
-        "tmdb_poster_count": 1,
+        "tmdb_popularity": 57.0413,
+        "tmdb_poster_count": 12,
         "tmdb_release_date_us_primary": "2026-08-14",
         "tmdb_release_date_us_theatrical": "",
-        "tmdb_release_status": "Post Production",
-        "tmdb_vote_average": 0,
-        "tmdb_vote_count": 0,
-        "tmdb_watch_provider_count_us": 0,
+        "tmdb_release_status": "Released",
+        "tmdb_vote_average": 6.977,
+        "tmdb_vote_count": 43,
+        "tmdb_watch_provider_count_us": 2,
         "trailer_available": true,
         "trailer_count": 1,
         "trailer_url": "https://www.youtube.com/watch?v=bvWqHSFkO5s"
@@ -265,14 +251,24 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "US release is 25 days away on 2026-08-14.",
+    "summary": "TMDb popularity rose from 2.1291 to 57.0413. US release is 25 days away on 2026-08-14.",
     "supporting_drivers": [
+      {
+        "confidence_weight": 0.9,
+        "driver_type": "popularity_increasing",
+        "evidence": "TMDb popularity rose from 2.1291 to 57.0413.",
+        "label": "Popularity increasing",
+        "retrieved_at": "2026-08-21T14:04:17Z",
+        "source_metric": "tmdb_popularity",
+        "source_provider": "tmdb",
+        "source_status": "available"
+      },
       {
         "confidence_weight": 0.8,
         "driver_type": "release_approaching",
         "evidence": "US release is 25 days away on 2026-08-14.",
         "label": "Release approaching",
-        "retrieved_at": "2026-07-29T21:38:25Z",
+        "retrieved_at": "2026-08-21T14:04:17Z",
         "source_metric": "tmdb_release_date_us_primary",
         "source_provider": "tmdb",
         "source_status": "available"
@@ -281,7 +277,7 @@
   },
   "media": {
     "canonical_trailer": {
-      "retrieved_at": "2026-07-29",
+      "retrieved_at": "2026-08-21",
       "site": "YouTube",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1504358/videos",
@@ -289,114 +285,138 @@
       "type": "Trailer",
       "url": "https://www.youtube.com/watch?v=bvWqHSFkO5s"
     },
-    "latest_trailer_url": "https://www.youtube.com/watch?v=bvWqHSFkO5s",
-    "poster": "https://image.tmdb.org/t/p/original/w3NNwo7kImaJS7fL6YlBsJx0i6R.jpg",
-    "trailer": "https://www.youtube.com/watch?v=bvWqHSFkO5s"
+    "latest_trailer_url": "https://www.youtube.com/watch?v=bvWqHSFkO5s"
   },
   "metadata": {
     "algorithm_version": "phase5b",
-    "awards_intelligence_integrated_at": "2026-08-16T00:00:00Z",
-    "awards_intelligence_source": "academy_nominee_website_card_handoff_v1.json",
-    "generated_at": "slice57_current_discovery_enrichment",
-    "profile_version": "phase6a_registry_canonical_id_bridge_slice57_enriched",
+    "generated_at": "20260821T140432Z",
+    "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
   "performance": {
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 2.1291,
-        "retrieved_at": "2026-07-29",
+        "popularity": 57.0413,
+        "retrieved_at": "2026-08-21",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1504358",
-        "status": "not_yet_rated"
+        "status": "rated",
+        "vote_average": 6.977,
+        "vote_count": 43
       }
     },
-    "tmdb_popularity": 2.1291,
-    "watch_providers": {}
+    "tmdb_popularity": {
+      "retrieved_at": "2026-08-21",
+      "source": "TMDb",
+      "source_url": "https://www.themoviedb.org/movie/1504358",
+      "value": 57.0413
+    },
+    "watch_providers": {
+      "country": "US",
+      "flatrate": [
+        {
+          "display_priority": 2,
+          "logo_url": "https://image.tmdb.org/t/p/original/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+          "provider_id": 8,
+          "provider_name": "Netflix"
+        },
+        {
+          "display_priority": 151,
+          "logo_url": "https://image.tmdb.org/t/p/original/dpR8r13zWDeUR0QkzWidrdMxa56.jpg",
+          "provider_id": 1796,
+          "provider_name": "Netflix Standard with Ads"
+        }
+      ],
+      "retrieved_at": "2026-08-21",
+      "source": "TMDb",
+      "source_url": "https://www.themoviedb.org/movie/1504358-don-t-say-good-luck/watch?locale=US"
+    }
   },
   "ratings": {
     "tmdb": {
-      "popularity": 2.1291,
-      "retrieved_at": "2026-07-29",
+      "popularity": 57.0413,
+      "retrieved_at": "2026-08-21",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1504358",
-      "status": "not_yet_rated"
+      "status": "rated",
+      "vote_average": 6.977,
+      "vote_count": 43
     }
   },
   "related": {
     "related_films": [
       {
-        "profile_url": "film.html?id=1365884",
+        "profile_url": "film.html?id=1457866",
         "relationship_score": 72,
         "shared_signals": [
-          "General Watch",
+          "Major Release",
           "Comedy",
           "Drama",
           "Acting"
+        ],
+        "title": "The Adventures of Cliff Booth",
+        "tmdb_id": "1457866"
+      },
+      {
+        "profile_url": "film.html?id=1522689",
+        "relationship_score": 72,
+        "shared_signals": [
+          "Major Release",
+          "Comedy",
+          "Drama",
+          "Acting"
+        ],
+        "title": "Why Did I Get Married Again?",
+        "tmdb_id": "1522689"
+      },
+      {
+        "profile_url": "film.html?id=1468683",
+        "relationship_score": 66,
+        "shared_signals": [
+          "Major Release",
+          "Drama",
+          "Acting",
+          "Best Picture"
+        ],
+        "title": "Heartstopper Forever",
+        "tmdb_id": "1468683"
+      },
+      {
+        "profile_url": "film.html?id=1365884",
+        "relationship_score": 56,
+        "shared_signals": [
+          "Comedy",
+          "Drama",
+          "Acting",
+          "Best Picture"
         ],
         "title": "Call My Agent! The Movie",
         "tmdb_id": "1365884"
       },
       {
         "profile_url": "film.html?id=1422041",
-        "relationship_score": 66,
+        "relationship_score": 50,
         "shared_signals": [
-          "General Watch",
           "Drama",
           "Acting",
-          "Best Picture"
+          "Best Picture",
+          "Netflix"
         ],
         "title": "La Bola Negra",
         "tmdb_id": "1422041"
       },
       {
         "profile_url": "film.html?id=1487864",
-        "relationship_score": 66,
+        "relationship_score": 50,
         "shared_signals": [
-          "General Watch",
           "Drama",
           "Acting",
-          "Best Picture"
+          "Best Picture",
+          "Netflix"
         ],
         "title": "Nando Between Two Worlds - A Sintonia Film",
         "tmdb_id": "1487864"
-      },
-      {
-        "profile_url": "film.html?id=1631807",
-        "relationship_score": 66,
-        "shared_signals": [
-          "General Watch",
-          "Drama",
-          "Acting",
-          "Best Picture"
-        ],
-        "title": "The Secret Woman",
-        "tmdb_id": "1631807"
-      },
-      {
-        "profile_url": "film.html?id=1654566",
-        "relationship_score": 62,
-        "shared_signals": [
-          "General Watch",
-          "Comedy",
-          "Drama",
-          "Acting"
-        ],
-        "title": "Vibe",
-        "tmdb_id": "1654566"
-      },
-      {
-        "profile_url": "film.html?id=1437882",
-        "relationship_score": 56,
-        "shared_signals": [
-          "General Watch",
-          "Drama",
-          "Acting",
-          "Best Picture"
-        ],
-        "title": "A Place in Hell",
-        "tmdb_id": "1437882"
       }
     ],
     "related_people": [
@@ -450,16 +470,26 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.04,
+      "audience_momentum": 1.411,
+      "audience_quality": 6.628,
+      "availability": 3.967,
       "awards_relevance": 3.2,
       "campaign_activity": 1.35,
       "talent_profile": 2.925
     },
-    "generated_at": "2026-07-29T21:38:25Z",
+    "generated_at": "2026-08-21T14:04:17Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 7.515,
+    "score": 19.481,
     "source": "derived_screening_room_score",
     "top_drivers": [
+      {
+        "confidence": 0.95,
+        "contribution": 6.628,
+        "metric_name": "tmdb_vote_average",
+        "provider": "tmdb",
+        "score_family": "audience_quality",
+        "value": 6.977
+      },
       {
         "confidence": 0.5,
         "contribution": 3.2,
@@ -467,6 +497,14 @@
         "provider": "legacy_dashboard_awards_precursors_adapter",
         "score_family": "awards_relevance",
         "value": 4
+      },
+      {
+        "confidence": 0.85,
+        "contribution": 2.267,
+        "metric_name": "streaming_flatrate_provider_count_us",
+        "provider": "streaming_availability",
+        "score_family": "availability",
+        "value": 2
       },
       {
         "confidence": 0.55,
@@ -477,52 +515,36 @@
         "value": 7
       },
       {
-        "confidence": 0.9,
-        "contribution": 1.35,
-        "metric_name": "trailer_count",
-        "provider": "trailers",
-        "score_family": "campaign_activity",
-        "value": 1
-      },
-      {
-        "confidence": 0.5,
-        "contribution": 1.0,
-        "metric_name": "legacy_dashboard_credited_talent_count",
-        "provider": "legacy_dashboard_talent_history_adapter",
-        "score_family": "talent_profile",
-        "value": 8
-      },
-      {
-        "confidence": 0.95,
-        "contribution": 0.04,
-        "metric_name": "tmdb_popularity",
-        "provider": "tmdb",
-        "score_family": "audience_momentum",
-        "value": 2.1291
+        "confidence": 0.85,
+        "contribution": 1.7,
+        "metric_name": "streaming_provider_count_us",
+        "provider": "streaming_availability",
+        "score_family": "availability",
+        "value": 2
       }
     ]
   },
   "signals": {
-    "cultural_significance": 19.0,
+    "cultural_significance": 50.5,
     "external_intelligence": {
       "confidence": "High",
       "headline": "Don't Say Good Luck: release approaching",
-      "summary": "US release is 25 days away on 2026-08-14."
+      "summary": "TMDb popularity rose from 2.1291 to 57.0413. US release is 25 days away on 2026-08-14."
     },
-    "last_updated": "2026-08-14",
+    "last_updated": "2026-08-21T14:04:32Z",
     "latest_event": {
       "confidence": "Inferred",
-      "event_id": "1504358-e47d699f0c90",
-      "event_type": "Release Scheduled",
+      "event_id": "1504358-0461953aa85b",
+      "event_type": "Distributor Change",
       "film_id": "1504358",
       "importance": "Medium",
       "metadata": {
-        "release_date": "2026-08-14"
+        "distributor": "Netflix"
       },
       "source_type": "metadata",
-      "summary": "Release currently scheduled for In theaters Aug. 14.",
-      "timestamp": "2026-08-14",
-      "title": "Release scheduled"
+      "summary": "Current distributor is Netflix.",
+      "timestamp": "2026-08-21T14:04:32Z",
+      "title": "Distributor set: Netflix"
     },
     "latest_intelligence": "As of 2026-07-18, this is a Netflix release dated 2026-08-14 with Best Picture, Acting, Song / Score relevance; current awards profile is Developing and data status is developing.",
     "momentum": 0.0,
@@ -531,21 +553,7 @@
     "recent_activity": [
       {
         "confidence": "Inferred",
-        "event_id": "1504358-e47d699f0c90",
-        "event_type": "Release Scheduled",
-        "film_id": "1504358",
-        "importance": "Medium",
-        "metadata": {
-          "release_date": "2026-08-14"
-        },
-        "source_type": "metadata",
-        "summary": "Release currently scheduled for In theaters Aug. 14.",
-        "timestamp": "2026-08-14",
-        "title": "Release scheduled"
-      },
-      {
-        "confidence": "Inferred",
-        "event_id": "1504358-72ec8c229701",
+        "event_id": "1504358-0461953aa85b",
         "event_type": "Distributor Change",
         "film_id": "1504358",
         "importance": "Medium",
@@ -554,12 +562,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1504358-9a8a42f02e96",
+        "event_id": "1504358-147e783c9136",
         "event_type": "Awards Tier Changed",
         "film_id": "1504358",
         "importance": "Medium",
@@ -574,15 +582,29 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Awards tier assigned: No Current Awards Case"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1504358-7d596f51c9f5",
+        "event_type": "Added To Database",
+        "film_id": "1504358",
+        "importance": "Low",
+        "metadata": {
+          "profile_version": "phase6a"
+        },
+        "source_type": "system",
+        "summary": "Don't Say Good Luck is tracked in the Film Intelligence profile set.",
+        "timestamp": "2026-08-21T14:04:32Z",
+        "title": "Added to Awards Intelligence"
       }
     ],
-    "release_relevance": 36.8,
+    "release_relevance": 44.0,
     "screening_room_score": {
       "confidence": "High",
-      "explanation": "US release is 25 days away on 2026-08-14.",
-      "score": 7.515
+      "explanation": "TMDb popularity rose from 2.1291 to 57.0413. US release is 25 days away on 2026-08-14.",
+      "score": 19.481
     },
     "watch_triggers": [
       "Prestige Distributor",
@@ -601,34 +623,17 @@
       "Stephanie Beatriz",
       "Bebe Neuwirth",
       "Steve Buscemi",
-      "Jack Champion"
+      "Matan Friedman",
+      "Eitan Friedman"
     ],
     "producers": [],
-    "writers": [
-      "Jordan Horowitz",
-      "Julia Hart",
-      "Laura Hankin"
-    ]
+    "writers": []
   },
   "timeline": {
     "events": [
       {
         "confidence": "Inferred",
-        "event_id": "1504358-e47d699f0c90",
-        "event_type": "Release Scheduled",
-        "film_id": "1504358",
-        "importance": "Medium",
-        "metadata": {
-          "release_date": "2026-08-14"
-        },
-        "source_type": "metadata",
-        "summary": "Release currently scheduled for In theaters Aug. 14.",
-        "timestamp": "2026-08-14",
-        "title": "Release scheduled"
-      },
-      {
-        "confidence": "Inferred",
-        "event_id": "1504358-72ec8c229701",
+        "event_id": "1504358-0461953aa85b",
         "event_type": "Distributor Change",
         "film_id": "1504358",
         "importance": "Medium",
@@ -637,12 +642,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1504358-9a8a42f02e96",
+        "event_id": "1504358-147e783c9136",
         "event_type": "Awards Tier Changed",
         "film_id": "1504358",
         "importance": "Medium",
@@ -657,12 +662,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1504358-1878ab155963",
+        "event_id": "1504358-7d596f51c9f5",
         "event_type": "Added To Database",
         "film_id": "1504358",
         "importance": "Low",
@@ -671,25 +676,9 @@
         },
         "source_type": "system",
         "summary": "Don't Say Good Luck is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Added to Awards Intelligence"
-      }
-    ],
-    "latest_event": {
-      "confidence": "Inferred",
-      "event_id": "1504358-e47d699f0c90",
-      "event_type": "Release Scheduled",
-      "film_id": "1504358",
-      "importance": "Medium",
-      "metadata": {
-        "release_date": "2026-08-14"
       },
-      "source_type": "metadata",
-      "summary": "Release currently scheduled for In theaters Aug. 14.",
-      "timestamp": "2026-08-14",
-      "title": "Release scheduled"
-    },
-    "recent_activity": [
       {
         "confidence": "Inferred",
         "event_id": "1504358-e47d699f0c90",
@@ -703,10 +692,26 @@
         "summary": "Release currently scheduled for In theaters Aug. 14.",
         "timestamp": "2026-08-14",
         "title": "Release scheduled"
+      }
+    ],
+    "latest_event": {
+      "confidence": "Inferred",
+      "event_id": "1504358-0461953aa85b",
+      "event_type": "Distributor Change",
+      "film_id": "1504358",
+      "importance": "Medium",
+      "metadata": {
+        "distributor": "Netflix"
       },
+      "source_type": "metadata",
+      "summary": "Current distributor is Netflix.",
+      "timestamp": "2026-08-21T14:04:32Z",
+      "title": "Distributor set: Netflix"
+    },
+    "recent_activity": [
       {
         "confidence": "Inferred",
-        "event_id": "1504358-72ec8c229701",
+        "event_id": "1504358-0461953aa85b",
         "event_type": "Distributor Change",
         "film_id": "1504358",
         "importance": "Medium",
@@ -715,12 +720,12 @@
         },
         "source_type": "metadata",
         "summary": "Current distributor is Netflix.",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Distributor set: Netflix"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1504358-9a8a42f02e96",
+        "event_id": "1504358-147e783c9136",
         "event_type": "Awards Tier Changed",
         "film_id": "1504358",
         "importance": "Medium",
@@ -735,8 +740,22 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Awards tier assigned: No Current Awards Case"
+      },
+      {
+        "confidence": "Inferred",
+        "event_id": "1504358-7d596f51c9f5",
+        "event_type": "Added To Database",
+        "film_id": "1504358",
+        "importance": "Low",
+        "metadata": {
+          "profile_version": "phase6a"
+        },
+        "source_type": "system",
+        "summary": "Don't Say Good Luck is tracked in the Film Intelligence profile set.",
+        "timestamp": "2026-08-21T14:04:32Z",
+        "title": "Added to Awards Intelligence"
       }
     ],
     "supported_event_types": [

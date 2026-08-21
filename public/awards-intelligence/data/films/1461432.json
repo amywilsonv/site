@@ -7,7 +7,7 @@
       "Major Filmmaker",
       "Event Release"
     ],
-    "attention_score": 43.1,
+    "attention_score": 43.3,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -25,19 +25,19 @@
         "status": "verified"
       },
       {
-        "evidence": "Release date: 2026-10-09",
+        "evidence": "Release date: 2026-09-17",
         "source": "release_proximity",
+        "status": "verified"
+      },
+      {
+        "evidence": "TMDb popularity 1.6438",
+        "source": "audience_popularity",
         "status": "verified"
       },
       {
         "evidence": "Commercial scale and release context",
         "source": "commercial_scale",
         "status": "inferred"
-      },
-      {
-        "evidence": "TMDb popularity 1.541",
-        "source": "audience_popularity",
-        "status": "verified"
       },
       {
         "evidence": "Director: Alex Schulman",
@@ -51,14 +51,14 @@
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 43.1,
+    "homepage_spotlight_score": 43.3,
     "industry_interest": null,
-    "last_updated": "20260729T213825Z",
+    "last_updated": "20260821T140432Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
         "evidence_count": 1,
-        "score": 4.8,
+        "score": 5.0,
         "statuses": [
           "verified"
         ]
@@ -142,23 +142,6 @@
     "predicted_categories": [],
     "probabilities": {}
   },
-  "awards_intelligence": {
-    "awards_candidate_status": "PROVISIONAL",
-    "awards_status": null,
-    "best_picture_rank": null,
-    "forecast_stage": null,
-    "forecast_stage_label": null,
-    "nominee_probability": null,
-    "percentage_policy": "PERCENTAGES_NOT_READY",
-    "prediction_confidence": null,
-    "probability_is_calibrated": false,
-    "public_card_behavior": "no_awards_badge",
-    "rank_change": null,
-    "ranking_eligibility": "NOT_RANKED",
-    "ranking_last_updated_at": null,
-    "source_artifact": "academy_nominee_website_card_handoff_v1.json",
-    "why_it_ranks": []
-  },
   "commercial": {
     "commercial_significance": 19.0,
     "distributor": "Unknown",
@@ -207,24 +190,24 @@
       "Comedy"
     ],
     "id": "1461432",
-    "imdb_id": "tt36462731",
+    "imdb_id": "",
     "language": "sv",
     "original_title": "Arkipelag",
     "poster": "https://image.tmdb.org/t/p/original/4v3uRZDrkhZRV3jjVF2496xUOAJ.jpg",
     "profile_payload_url": "data/films/1461432.json",
     "profile_url": "film.html?id=1461432",
-    "release_date": "2026-10-09",
-    "release_display": "In theaters Oct. 9",
+    "release_date": "2026-09-17",
+    "release_display": "In theaters Sep. 17",
     "runtime": 108,
     "synopsis": "Three fathers join their daughters on a school trip to a quiet island. Stranded with a chaotic group of teenagers, they\u2019re forced to confront past traumas as the line between play and power games slowly dissolves.",
     "title": "Adult Supervision",
     "tmdb_id": "1461432"
   },
   "intelligence": {
-    "confidence": "Low",
-    "confidence_score": 0.25,
-    "generated_at": "2026-07-29T21:38:25Z",
-    "headline": "Adult Supervision: no material change detected",
+    "confidence": "High",
+    "confidence_score": 0.99,
+    "generated_at": "2026-08-21T14:04:17Z",
+    "headline": "Adult Supervision: popularity increasing",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
       "signal_values": {
@@ -242,9 +225,9 @@
         "streaming_provider_count_us": 0,
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": false,
-        "tmdb_popularity": 1.541,
+        "tmdb_popularity": 1.6438,
         "tmdb_poster_count": 0,
-        "tmdb_release_date_us_primary": "",
+        "tmdb_release_date_us_primary": "2026-09-17",
         "tmdb_release_date_us_theatrical": "",
         "tmdb_release_status": "Post Production",
         "tmdb_vote_average": 0,
@@ -257,39 +240,50 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "Current provider signals do not show a supported material change.",
-    "supporting_drivers": []
+    "summary": "TMDb popularity rose from 1.541 to 1.6438.",
+    "supporting_drivers": [
+      {
+        "confidence_weight": 0.9,
+        "driver_type": "popularity_increasing",
+        "evidence": "TMDb popularity rose from 1.541 to 1.6438.",
+        "label": "Popularity increasing",
+        "retrieved_at": "2026-08-21T14:04:17Z",
+        "source_metric": "tmdb_popularity",
+        "source_provider": "tmdb",
+        "source_status": "available"
+      }
+    ]
   },
-  "media": {
-    "backdrop": "https://image.tmdb.org/t/p/original/3aUjIxyIP80A1h0VR6GogU3zsJn.jpg",
-    "poster": "https://image.tmdb.org/t/p/original/4v3uRZDrkhZRV3jjVF2496xUOAJ.jpg"
-  },
+  "media": {},
   "metadata": {
     "algorithm_version": "phase5b",
-    "awards_intelligence_integrated_at": "2026-08-16T00:00:00Z",
-    "awards_intelligence_source": "academy_nominee_website_card_handoff_v1.json",
-    "generated_at": "slice57_current_discovery_enrichment",
-    "profile_version": "phase6a_registry_canonical_id_bridge_slice57_enriched",
+    "generated_at": "20260821T140432Z",
+    "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
   "performance": {
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 1.541,
-        "retrieved_at": "2026-07-29",
+        "popularity": 1.6438,
+        "retrieved_at": "2026-08-21",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1461432",
         "status": "not_yet_rated"
       }
     },
-    "tmdb_popularity": 1.541,
+    "tmdb_popularity": {
+      "retrieved_at": "2026-08-21",
+      "source": "TMDb",
+      "source_url": "https://www.themoviedb.org/movie/1461432",
+      "value": 1.6438
+    },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 1.541,
-      "retrieved_at": "2026-07-29",
+      "popularity": 1.6438,
+      "retrieved_at": "2026-08-21",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1461432",
       "status": "not_yet_rated"
@@ -408,12 +402,12 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.029,
+      "audience_momentum": 0.031,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-07-29T21:38:25Z",
+    "generated_at": "2026-08-21T14:04:17Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 3.354,
+    "score": 3.356,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -434,34 +428,34 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.029,
+        "contribution": 0.031,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 1.541
+        "value": 1.6438
       }
     ]
   },
   "signals": {
     "cultural_significance": 19.0,
     "external_intelligence": {
-      "confidence": "Low",
-      "headline": "Adult Supervision: no material change detected",
-      "summary": "Current provider signals do not show a supported material change."
+      "confidence": "High",
+      "headline": "Adult Supervision: popularity increasing",
+      "summary": "TMDb popularity rose from 1.541 to 1.6438."
     },
-    "last_updated": "2026-10-09",
+    "last_updated": "2026-09-17",
     "latest_event": {
       "confidence": "Inferred",
-      "event_id": "1461432-5dce3ddd0ed2",
+      "event_id": "1461432-e1264ff14658",
       "event_type": "Release Scheduled",
       "film_id": "1461432",
       "importance": "Medium",
       "metadata": {
-        "release_date": "2026-10-09"
+        "release_date": "2026-09-17"
       },
       "source_type": "metadata",
-      "summary": "Release currently scheduled for In theaters Oct. 9.",
-      "timestamp": "2026-10-09",
+      "summary": "Release currently scheduled for In theaters Sep. 17.",
+      "timestamp": "2026-09-17",
       "title": "Release scheduled"
     },
     "latest_intelligence": "As of 2026-07-18, this is a unknown distributor release dated 2026-10-09 with general awards monitoring relevance; current awards profile is Unknown and data status is developing.",
@@ -471,21 +465,21 @@
     "recent_activity": [
       {
         "confidence": "Inferred",
-        "event_id": "1461432-5dce3ddd0ed2",
+        "event_id": "1461432-e1264ff14658",
         "event_type": "Release Scheduled",
         "film_id": "1461432",
         "importance": "Medium",
         "metadata": {
-          "release_date": "2026-10-09"
+          "release_date": "2026-09-17"
         },
         "source_type": "metadata",
-        "summary": "Release currently scheduled for In theaters Oct. 9.",
-        "timestamp": "2026-10-09",
+        "summary": "Release currently scheduled for In theaters Sep. 17.",
+        "timestamp": "2026-09-17",
         "title": "Release scheduled"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1461432-cfe868e7722e",
+        "event_id": "1461432-3589d44d7baa",
         "event_type": "Awards Tier Changed",
         "film_id": "1461432",
         "importance": "Medium",
@@ -495,12 +489,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1461432-821f8333c3fa",
+        "event_id": "1461432-dc1732bc953d",
         "event_type": "Added To Database",
         "film_id": "1461432",
         "importance": "Low",
@@ -509,15 +503,15 @@
         },
         "source_type": "system",
         "summary": "Adult Supervision is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Added to Awards Intelligence"
       }
     ],
     "release_relevance": 28.0,
     "screening_room_score": {
-      "confidence": "Low",
-      "explanation": "Current provider signals do not show a supported material change.",
-      "score": 3.354
+      "confidence": "High",
+      "explanation": "TMDb popularity rose from 1.541 to 1.6438.",
+      "score": 3.356
     },
     "watch_triggers": [
       "Major Studio/Streamer",
@@ -540,29 +534,27 @@
       "Elaine Green"
     ],
     "producers": [],
-    "writers": [
-      "Alex Schulman"
-    ]
+    "writers": []
   },
   "timeline": {
     "events": [
       {
         "confidence": "Inferred",
-        "event_id": "1461432-5dce3ddd0ed2",
+        "event_id": "1461432-e1264ff14658",
         "event_type": "Release Scheduled",
         "film_id": "1461432",
         "importance": "Medium",
         "metadata": {
-          "release_date": "2026-10-09"
+          "release_date": "2026-09-17"
         },
         "source_type": "metadata",
-        "summary": "Release currently scheduled for In theaters Oct. 9.",
-        "timestamp": "2026-10-09",
+        "summary": "Release currently scheduled for In theaters Sep. 17.",
+        "timestamp": "2026-09-17",
         "title": "Release scheduled"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1461432-cfe868e7722e",
+        "event_id": "1461432-3589d44d7baa",
         "event_type": "Awards Tier Changed",
         "film_id": "1461432",
         "importance": "Medium",
@@ -572,12 +564,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1461432-821f8333c3fa",
+        "event_id": "1461432-dc1732bc953d",
         "event_type": "Added To Database",
         "film_id": "1461432",
         "importance": "Low",
@@ -586,42 +578,42 @@
         },
         "source_type": "system",
         "summary": "Adult Supervision is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Added to Awards Intelligence"
       }
     ],
     "latest_event": {
       "confidence": "Inferred",
-      "event_id": "1461432-5dce3ddd0ed2",
+      "event_id": "1461432-e1264ff14658",
       "event_type": "Release Scheduled",
       "film_id": "1461432",
       "importance": "Medium",
       "metadata": {
-        "release_date": "2026-10-09"
+        "release_date": "2026-09-17"
       },
       "source_type": "metadata",
-      "summary": "Release currently scheduled for In theaters Oct. 9.",
-      "timestamp": "2026-10-09",
+      "summary": "Release currently scheduled for In theaters Sep. 17.",
+      "timestamp": "2026-09-17",
       "title": "Release scheduled"
     },
     "recent_activity": [
       {
         "confidence": "Inferred",
-        "event_id": "1461432-5dce3ddd0ed2",
+        "event_id": "1461432-e1264ff14658",
         "event_type": "Release Scheduled",
         "film_id": "1461432",
         "importance": "Medium",
         "metadata": {
-          "release_date": "2026-10-09"
+          "release_date": "2026-09-17"
         },
         "source_type": "metadata",
-        "summary": "Release currently scheduled for In theaters Oct. 9.",
-        "timestamp": "2026-10-09",
+        "summary": "Release currently scheduled for In theaters Sep. 17.",
+        "timestamp": "2026-09-17",
         "title": "Release scheduled"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1461432-cfe868e7722e",
+        "event_id": "1461432-3589d44d7baa",
         "event_type": "Awards Tier Changed",
         "film_id": "1461432",
         "importance": "Medium",
@@ -631,12 +623,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1461432-821f8333c3fa",
+        "event_id": "1461432-dc1732bc953d",
         "event_type": "Added To Database",
         "film_id": "1461432",
         "importance": "Low",
@@ -645,7 +637,7 @@
         },
         "source_type": "system",
         "summary": "Adult Supervision is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Added to Awards Intelligence"
       }
     ],

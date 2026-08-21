@@ -2,6 +2,49 @@
   "events": [
     {
       "confidence": "Inferred",
+      "event_id": "1728056-affb957ab1c6",
+      "event_type": "Distributor Change",
+      "film_id": "1728056",
+      "importance": "Medium",
+      "metadata": {
+        "distributor": "Netflix"
+      },
+      "source_type": "metadata",
+      "summary": "Current distributor is Netflix.",
+      "timestamp": "2026-08-21T14:04:32Z",
+      "title": "Distributor set: Netflix"
+    },
+    {
+      "confidence": "Inferred",
+      "event_id": "1728056-d4eb56d20582",
+      "event_type": "Awards Tier Changed",
+      "film_id": "1728056",
+      "importance": "Medium",
+      "metadata": {
+        "awards_tier": "No Current Awards Case",
+        "categories": []
+      },
+      "source_type": "editorial_model",
+      "summary": "insufficient credible awards evidence",
+      "timestamp": "2026-08-21T14:04:32Z",
+      "title": "Awards tier assigned: No Current Awards Case"
+    },
+    {
+      "confidence": "Inferred",
+      "event_id": "1728056-61350b26fe24",
+      "event_type": "Added To Database",
+      "film_id": "1728056",
+      "importance": "Low",
+      "metadata": {
+        "profile_version": "phase6a"
+      },
+      "source_type": "system",
+      "summary": "Big Chicken: A Fast Food Conspiracy is tracked in the Film Intelligence profile set.",
+      "timestamp": "2026-08-21T14:04:32Z",
+      "title": "Added to Awards Intelligence"
+    },
+    {
+      "confidence": "Inferred",
       "event_id": "1728056-2442e38cc2ed",
       "event_type": "Release Scheduled",
       "film_id": "1728056",
@@ -13,69 +56,26 @@
       "summary": "Release currently scheduled for In theaters Aug. 5.",
       "timestamp": "2026-08-05",
       "title": "Release scheduled"
-    },
-    {
-      "confidence": "Inferred",
-      "event_id": "1728056-64230940af07",
-      "event_type": "Distributor Change",
-      "film_id": "1728056",
-      "importance": "Medium",
-      "metadata": {
-        "distributor": "Netflix"
-      },
-      "source_type": "metadata",
-      "summary": "Current distributor is Netflix.",
-      "timestamp": "2026-07-29T21:38:25Z",
-      "title": "Distributor set: Netflix"
-    },
-    {
-      "confidence": "Inferred",
-      "event_id": "1728056-bd308a608836",
-      "event_type": "Awards Tier Changed",
-      "film_id": "1728056",
-      "importance": "Medium",
-      "metadata": {
-        "awards_tier": "No Current Awards Case",
-        "categories": []
-      },
-      "source_type": "editorial_model",
-      "summary": "insufficient credible awards evidence",
-      "timestamp": "2026-07-29T21:38:25Z",
-      "title": "Awards tier assigned: No Current Awards Case"
-    },
-    {
-      "confidence": "Inferred",
-      "event_id": "1728056-e89f756d4921",
-      "event_type": "Added To Database",
-      "film_id": "1728056",
-      "importance": "Low",
-      "metadata": {
-        "profile_version": "phase6a"
-      },
-      "source_type": "system",
-      "summary": "Big Chicken: A Fast Food Conspiracy is tracked in the Film Intelligence profile set.",
-      "timestamp": "2026-07-29T21:38:25Z",
-      "title": "Added to Awards Intelligence"
     }
   ],
   "latest_event": {
     "confidence": "Inferred",
-    "event_id": "1728056-2442e38cc2ed",
-    "event_type": "Release Scheduled",
+    "event_id": "1728056-affb957ab1c6",
+    "event_type": "Distributor Change",
     "film_id": "1728056",
     "importance": "Medium",
     "metadata": {
-      "release_date": "2026-08-05"
+      "distributor": "Netflix"
     },
     "source_type": "metadata",
-    "summary": "Release currently scheduled for In theaters Aug. 5.",
-    "timestamp": "2026-08-05",
-    "title": "Release scheduled"
+    "summary": "Current distributor is Netflix.",
+    "timestamp": "2026-08-21T14:04:32Z",
+    "title": "Distributor set: Netflix"
   },
   "metadata": {
     "event_count": 4,
     "film_id": "1728056",
-    "generated_at": "slice57_current_discovery_enrichment",
+    "generated_at": "20260821T140432Z",
     "timeline_version": "phase6b",
     "title": "Big Chicken: A Fast Food Conspiracy",
     "tmdb_id": "1728056"

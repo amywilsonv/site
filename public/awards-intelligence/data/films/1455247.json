@@ -6,7 +6,7 @@
       "Most Anticipated",
       "Major Filmmaker"
     ],
-    "attention_score": 19.7,
+    "attention_score": 20.3,
     "attention_version": "phase7e_attention_v1",
     "audience_interest": "Developing",
     "conversation_level": "Unavailable",
@@ -29,20 +29,20 @@
         "status": "verified"
       },
       {
-        "evidence": "TMDb popularity 0.6183",
+        "evidence": "TMDb popularity 0.8276",
         "source": "audience_popularity",
         "status": "verified"
       }
     ],
     "homepage_spotlight_override": null,
-    "homepage_spotlight_score": 19.7,
+    "homepage_spotlight_score": 20.3,
     "industry_interest": null,
-    "last_updated": "20260729T213825Z",
+    "last_updated": "20260821T140432Z",
     "promotional_response": null,
     "score_families": {
       "audience/popularity": {
         "evidence_count": 1,
-        "score": 2.5,
+        "score": 3.1,
         "statuses": [
           "verified"
         ]
@@ -105,23 +105,6 @@
     "predicted_categories": [],
     "probabilities": {}
   },
-  "awards_intelligence": {
-    "awards_candidate_status": "PROVISIONAL",
-    "awards_status": null,
-    "best_picture_rank": null,
-    "forecast_stage": null,
-    "forecast_stage_label": null,
-    "nominee_probability": null,
-    "percentage_policy": "PERCENTAGES_NOT_READY",
-    "prediction_confidence": null,
-    "probability_is_calibrated": false,
-    "public_card_behavior": "no_awards_badge",
-    "rank_change": null,
-    "ranking_eligibility": "NOT_RANKED",
-    "ranking_last_updated_at": null,
-    "source_artifact": "academy_nominee_website_card_handoff_v1.json",
-    "why_it_ranks": []
-  },
   "commercial": {
     "commercial_significance": 0,
     "distributor": "Unknown",
@@ -172,7 +155,7 @@
       "Drama"
     ],
     "id": "1455247",
-    "imdb_id": "tt38991615",
+    "imdb_id": "",
     "language": "en",
     "original_title": "I See Buildings Fall Like Lightning",
     "poster": "https://image.tmdb.org/t/p/original/lsHuNs9qT8aVhVIxXNdLuVhr5CM.jpg",
@@ -186,10 +169,10 @@
     "tmdb_id": "1455247"
   },
   "intelligence": {
-    "confidence": "Low",
-    "confidence_score": 0.25,
-    "generated_at": "2026-07-29T21:38:25Z",
-    "headline": "I See Buildings Fall Like Lightning: no material change detected",
+    "confidence": "High",
+    "confidence_score": 0.99,
+    "generated_at": "2026-08-21T14:04:17Z",
+    "headline": "I See Buildings Fall Like Lightning: popularity increasing",
     "metadata": {
       "fabrication_guardrail": "Only observable provider signals or existing editorial evidence may appear as drivers.",
       "signal_values": {
@@ -207,7 +190,7 @@
         "streaming_provider_count_us": 0,
         "tmdb_backdrop_count": 0,
         "tmdb_canonical_trailer_available": false,
-        "tmdb_popularity": 0.6183,
+        "tmdb_popularity": 0.8276,
         "tmdb_poster_count": 5,
         "tmdb_release_date_us_primary": "",
         "tmdb_release_date_us_theatrical": "",
@@ -222,39 +205,50 @@
       "stale_signal_count": 0
     },
     "schema_version": "phase2b_intelligence_explanation_v1",
-    "summary": "Current provider signals do not show a supported material change.",
-    "supporting_drivers": []
+    "summary": "TMDb popularity rose from 0.6183 to 0.8276.",
+    "supporting_drivers": [
+      {
+        "confidence_weight": 0.9,
+        "driver_type": "popularity_increasing",
+        "evidence": "TMDb popularity rose from 0.6183 to 0.8276.",
+        "label": "Popularity increasing",
+        "retrieved_at": "2026-08-21T14:04:17Z",
+        "source_metric": "tmdb_popularity",
+        "source_provider": "tmdb",
+        "source_status": "available"
+      }
+    ]
   },
-  "media": {
-    "backdrop": "https://image.tmdb.org/t/p/original/hpeJZsjwcySRYOxveHZlETVBwE3.jpg",
-    "poster": "https://image.tmdb.org/t/p/original/lsHuNs9qT8aVhVIxXNdLuVhr5CM.jpg"
-  },
+  "media": {},
   "metadata": {
     "algorithm_version": "phase5b",
-    "awards_intelligence_integrated_at": "2026-08-16T00:00:00Z",
-    "awards_intelligence_source": "academy_nominee_website_card_handoff_v1.json",
-    "generated_at": "slice57_current_discovery_enrichment",
-    "profile_version": "phase6a_registry_canonical_id_bridge_slice57_enriched",
+    "generated_at": "20260821T140432Z",
+    "profile_version": "phase6a",
     "source_data_date": "2026-07-20"
   },
   "performance": {
     "box_office": {},
     "ratings": {
       "tmdb": {
-        "popularity": 0.6183,
-        "retrieved_at": "2026-07-29",
+        "popularity": 0.8276,
+        "retrieved_at": "2026-08-21",
         "source": "TMDb",
         "source_url": "https://www.themoviedb.org/movie/1455247",
         "status": "not_yet_rated"
       }
     },
-    "tmdb_popularity": 0.6183,
+    "tmdb_popularity": {
+      "retrieved_at": "2026-08-21",
+      "source": "TMDb",
+      "source_url": "https://www.themoviedb.org/movie/1455247",
+      "value": 0.8276
+    },
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 0.6183,
-      "retrieved_at": "2026-07-29",
+      "popularity": 0.8276,
+      "retrieved_at": "2026-08-21",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1455247",
       "status": "not_yet_rated"
@@ -380,13 +374,13 @@
   },
   "screening_room_score": {
     "families": {
-      "audience_momentum": 0.012,
+      "audience_momentum": 0.016,
       "campaign_activity": 1.35,
       "talent_profile": 3.325
     },
-    "generated_at": "2026-07-29T21:38:25Z",
+    "generated_at": "2026-08-21T14:04:17Z",
     "schema_version": "phase3_screening_room_score_v1",
-    "score": 4.687,
+    "score": 4.691,
     "source": "derived_screening_room_score",
     "top_drivers": [
       {
@@ -415,20 +409,20 @@
       },
       {
         "confidence": 0.95,
-        "contribution": 0.012,
+        "contribution": 0.016,
         "metric_name": "tmdb_popularity",
         "provider": "tmdb",
         "score_family": "audience_momentum",
-        "value": 0.6183
+        "value": 0.8276
       }
     ]
   },
   "signals": {
     "cultural_significance": 0,
     "external_intelligence": {
-      "confidence": "Low",
-      "headline": "I See Buildings Fall Like Lightning: no material change detected",
-      "summary": "Current provider signals do not show a supported material change."
+      "confidence": "High",
+      "headline": "I See Buildings Fall Like Lightning: popularity increasing",
+      "summary": "TMDb popularity rose from 0.6183 to 0.8276."
     },
     "last_updated": "2026-12-16",
     "latest_event": {
@@ -466,7 +460,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1455247-66166877219b",
+        "event_id": "1455247-5de1d47fa11c",
         "event_type": "Awards Tier Changed",
         "film_id": "1455247",
         "importance": "Medium",
@@ -476,12 +470,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1455247-151a4f38ed09",
+        "event_id": "1455247-b6471752d2b0",
         "event_type": "Added To Database",
         "film_id": "1455247",
         "importance": "Low",
@@ -490,15 +484,15 @@
         },
         "source_type": "system",
         "summary": "I See Buildings Fall Like Lightning is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Added to Awards Intelligence"
       }
     ],
     "release_relevance": 18.2,
     "screening_room_score": {
-      "confidence": "Low",
-      "explanation": "Current provider signals do not show a supported material change.",
-      "score": 4.687
+      "confidence": "High",
+      "explanation": "TMDb popularity rose from 0.6183 to 0.8276.",
+      "score": 4.691
     },
     "watch_triggers": [
       "Prestige Producer",
@@ -521,9 +515,7 @@
       "James Eeles"
     ],
     "producers": [],
-    "writers": [
-      "Enda Walsh"
-    ]
+    "writers": []
   },
   "timeline": {
     "events": [
@@ -543,7 +535,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1455247-66166877219b",
+        "event_id": "1455247-5de1d47fa11c",
         "event_type": "Awards Tier Changed",
         "film_id": "1455247",
         "importance": "Medium",
@@ -553,12 +545,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1455247-151a4f38ed09",
+        "event_id": "1455247-b6471752d2b0",
         "event_type": "Added To Database",
         "film_id": "1455247",
         "importance": "Low",
@@ -567,7 +559,7 @@
         },
         "source_type": "system",
         "summary": "I See Buildings Fall Like Lightning is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Added to Awards Intelligence"
       }
     ],
@@ -602,7 +594,7 @@
       },
       {
         "confidence": "Inferred",
-        "event_id": "1455247-66166877219b",
+        "event_id": "1455247-5de1d47fa11c",
         "event_type": "Awards Tier Changed",
         "film_id": "1455247",
         "importance": "Medium",
@@ -612,12 +604,12 @@
         },
         "source_type": "editorial_model",
         "summary": "insufficient credible awards evidence",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Awards tier assigned: No Current Awards Case"
       },
       {
         "confidence": "Inferred",
-        "event_id": "1455247-151a4f38ed09",
+        "event_id": "1455247-b6471752d2b0",
         "event_type": "Added To Database",
         "film_id": "1455247",
         "importance": "Low",
@@ -626,7 +618,7 @@
         },
         "source_type": "system",
         "summary": "I See Buildings Fall Like Lightning is tracked in the Film Intelligence profile set.",
-        "timestamp": "2026-07-29T21:38:25Z",
+        "timestamp": "2026-08-21T14:04:32Z",
         "title": "Added to Awards Intelligence"
       }
     ],
