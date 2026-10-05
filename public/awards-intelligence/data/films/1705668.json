@@ -191,7 +191,7 @@
     "premiere_type": ""
   },
   "film_identity": {
-    "backdrop": "",
+    "backdrop": "https://image.tmdb.org/t/p/original/2itr8hos1ApFhIdr66vzOluumiH.jpg",
     "country": [],
     "genres": [
       "Drama",
@@ -252,6 +252,7 @@
     "supporting_drivers": []
   },
   "media": {
+    "backdrop": "https://image.tmdb.org/t/p/original/2itr8hos1ApFhIdr66vzOluumiH.jpg",
     "poster": "https://image.tmdb.org/t/p/original/fY580I9hKqKDaiisEkQjs8dR7sB.jpg"
   },
   "metadata": {
@@ -273,12 +274,12 @@
         "status": "not_yet_rated"
       }
     },
-    "tmdb_popularity": 1.4172,
+    "tmdb_popularity": 1.293,
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 1.4172,
+      "popularity": 1.293,
       "retrieved_at": "2026-07-29",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1705668",
@@ -526,7 +527,10 @@
       "Naren Khadka"
     ],
     "producers": [],
-    "writers": []
+    "writers": [
+      "Chandra Pant",
+      "Roshan Bhatt"
+    ]
   },
   "timeline": {
     "events": [

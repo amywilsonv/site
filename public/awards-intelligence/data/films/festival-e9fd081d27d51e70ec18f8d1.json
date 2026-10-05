@@ -73,7 +73,7 @@
     "premiere_type": ""
   },
   "film_identity": {
-    "backdrop": "",
+    "backdrop": "https://image.tmdb.org/t/p/original/ryoB4QAgd1fw7ZbOQPTXvvSId5Z.jpg",
     "canonical_film_id": "festival-e9fd081d27d51e70ec18f8d1",
     "country": [
       "PL",
@@ -88,7 +88,7 @@
     "imdb_id": "tt37674760",
     "language": "pl",
     "original_title": "Wild, Wild East",
-    "poster": "",
+    "poster": "https://image.tmdb.org/t/p/original/xaiJzTCdZpbFC4JB0sTNMFgAu1A.jpg",
     "profile_id": "festival-e9fd081d27d51e70ec18f8d1",
     "profile_payload_url": "data/films/festival-e9fd081d27d51e70ec18f8d1.json",
     "profile_url": "film.html?id=festival-e9fd081d27d51e70ec18f8d1",
@@ -100,8 +100,8 @@
     "tmdb_id": "1514333"
   },
   "media": {
-    "backdrop": "",
-    "poster": "",
+    "backdrop": "https://image.tmdb.org/t/p/original/ryoB4QAgd1fw7ZbOQPTXvvSId5Z.jpg",
+    "poster": "https://image.tmdb.org/t/p/original/xaiJzTCdZpbFC4JB0sTNMFgAu1A.jpg",
     "trailer": ""
   },
   "metadata": {
@@ -121,11 +121,13 @@
     "source_data_date": "2026-08-15"
   },
   "performance": {
-    "tmdb_popularity": 0.9682
+    "tmdb_popularity": 0.9133
   },
   "ratings": {
     "tmdb": {
-      "popularity": 0.9682
+      "popularity": 0.9133,
+      "rating": 6.0,
+      "vote_count": 1
     }
   },
   "related": {

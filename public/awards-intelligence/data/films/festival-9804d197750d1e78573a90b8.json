@@ -32,7 +32,10 @@
     "distributor": "Unknown",
     "franchise": "",
     "release_strategy": "",
-    "studio": []
+    "studio": [
+      "BHD",
+      "TV360"
+    ]
   },
   "diagnostics": {
     "completeness_score": 0,
@@ -68,7 +71,9 @@
   "film_identity": {
     "backdrop": "https://image.tmdb.org/t/p/original/2H8hOTgw5Rrbl70CXi3hPKfzhhn.jpg",
     "canonical_film_id": "festival-9804d197750d1e78573a90b8",
-    "country": [],
+    "country": [
+      "VN"
+    ],
     "genres": [
       "Action",
       "Drama",
@@ -96,7 +101,7 @@
   "media": {
     "backdrop": "https://image.tmdb.org/t/p/original/2H8hOTgw5Rrbl70CXi3hPKfzhhn.jpg",
     "poster": "https://image.tmdb.org/t/p/original/uaXDal48MG0sTGs2XU6L1wuVaUO.jpg",
-    "trailer": ""
+    "trailer": "https://www.youtube.com/watch?v=AprX_KLKnZg"
   },
   "metadata": {
     "algorithm_version": "phase5b",
@@ -115,11 +120,13 @@
     "source_data_date": "2026-08-15"
   },
   "performance": {
-    "tmdb_popularity": 1.109
+    "tmdb_popularity": 1.8928
   },
   "ratings": {
     "tmdb": {
-      "popularity": 1.109
+      "popularity": 1.8928,
+      "rating": 5.0,
+      "vote_count": 1
     }
   },
   "related": {

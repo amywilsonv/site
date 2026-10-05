@@ -70,7 +70,7 @@
     "premiere_type": ""
   },
   "film_identity": {
-    "backdrop": "",
+    "backdrop": "https://image.tmdb.org/t/p/original/qDSsj7Or7ul4I8ERF6sU9QNP7Yj.jpg",
     "canonical_film_id": "festival-155688a6456d0fdb489e67b5",
     "country": [
       "CA",
@@ -83,7 +83,7 @@
     "imdb_id": "tt36959329",
     "language": "en",
     "original_title": "Closing Night",
-    "poster": "",
+    "poster": "https://image.tmdb.org/t/p/original/bJ6G2VlowQrJKrKR2rZLnS467dH.jpg",
     "profile_id": "festival-155688a6456d0fdb489e67b5",
     "profile_payload_url": "data/films/festival-155688a6456d0fdb489e67b5.json",
     "profile_url": "film.html?id=festival-155688a6456d0fdb489e67b5",
@@ -95,8 +95,8 @@
     "tmdb_id": "1481609"
   },
   "media": {
-    "backdrop": "",
-    "poster": "",
+    "backdrop": "https://image.tmdb.org/t/p/original/qDSsj7Or7ul4I8ERF6sU9QNP7Yj.jpg",
+    "poster": "https://image.tmdb.org/t/p/original/bJ6G2VlowQrJKrKR2rZLnS467dH.jpg",
     "trailer": ""
   },
   "metadata": {
@@ -116,11 +116,13 @@
     "source_data_date": "2026-08-15"
   },
   "performance": {
-    "tmdb_popularity": 3.1192
+    "tmdb_popularity": 4.851
   },
   "ratings": {
     "tmdb": {
-      "popularity": 3.1192
+      "popularity": 4.851,
+      "rating": 10.0,
+      "vote_count": 1
     }
   },
   "related": {

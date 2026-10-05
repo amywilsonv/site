@@ -68,7 +68,7 @@
     "premiere_type": ""
   },
   "film_identity": {
-    "backdrop": "",
+    "backdrop": "https://image.tmdb.org/t/p/original/ek5mEOjuAOxJJd3FCeXnp9pLChM.jpg",
     "canonical_film_id": "festival-cb904b20e687e96a29439b6c",
     "country": [
       "US"
@@ -80,7 +80,7 @@
     "imdb_id": "tt40792103",
     "language": "en",
     "original_title": "Union Town",
-    "poster": "",
+    "poster": "https://image.tmdb.org/t/p/original/wxaSeSZ2BCHxfeJTCZ88zjbs4EX.jpg",
     "profile_id": "festival-cb904b20e687e96a29439b6c",
     "profile_payload_url": "data/films/festival-cb904b20e687e96a29439b6c.json",
     "profile_url": "film.html?id=festival-cb904b20e687e96a29439b6c",
@@ -92,8 +92,8 @@
     "tmdb_id": "1736513"
   },
   "media": {
-    "backdrop": "",
-    "poster": "",
+    "backdrop": "https://image.tmdb.org/t/p/original/ek5mEOjuAOxJJd3FCeXnp9pLChM.jpg",
+    "poster": "https://image.tmdb.org/t/p/original/wxaSeSZ2BCHxfeJTCZ88zjbs4EX.jpg",
     "trailer": ""
   },
   "metadata": {
@@ -113,11 +113,13 @@
     "source_data_date": "2026-08-15"
   },
   "performance": {
-    "tmdb_popularity": 0.5304
+    "tmdb_popularity": 2.812
   },
   "ratings": {
     "tmdb": {
-      "popularity": 0.5304
+      "popularity": 2.812,
+      "rating": 7.0,
+      "vote_count": 1
     }
   },
   "related": {

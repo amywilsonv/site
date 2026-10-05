@@ -69,7 +69,7 @@
     "premiere_type": ""
   },
   "film_identity": {
-    "backdrop": "",
+    "backdrop": "https://image.tmdb.org/t/p/original/oep5pxCHuMgx6UyNpPEd2Snsgtw.jpg",
     "canonical_film_id": "festival-c521895b47e4522234fbe0e7",
     "country": [
       "DE"
@@ -78,7 +78,7 @@
       "Documentary"
     ],
     "id": "festival-c521895b47e4522234fbe0e7",
-    "imdb_id": "",
+    "imdb_id": "tt43704808",
     "language": "de",
     "original_title": "From Inside Out \u2013 The Architecture of Peter Zumthor",
     "poster": "https://image.tmdb.org/t/p/original/6Fl3Ie5qevVdDBJaHJZ2hZe98kD.jpg",
@@ -93,7 +93,7 @@
     "tmdb_id": "1355885"
   },
   "media": {
-    "backdrop": "",
+    "backdrop": "https://image.tmdb.org/t/p/original/oep5pxCHuMgx6UyNpPEd2Snsgtw.jpg",
     "poster": "https://image.tmdb.org/t/p/original/6Fl3Ie5qevVdDBJaHJZ2hZe98kD.jpg",
     "trailer": ""
   },
@@ -114,11 +114,11 @@
     "source_data_date": "2026-08-15"
   },
   "performance": {
-    "tmdb_popularity": 1.3216
+    "tmdb_popularity": 2.2334
   },
   "ratings": {
     "tmdb": {
-      "popularity": 1.3216
+      "popularity": 2.2334
     }
   },
   "related": {
@@ -140,7 +140,9 @@
   },
   "talent": {
     "director": "Wim Wenders",
-    "principal_cast": [],
+    "principal_cast": [
+      "Peter Zumthor"
+    ],
     "producers": [],
     "writers": [
       "Wim Wenders"

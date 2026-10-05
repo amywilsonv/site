@@ -260,7 +260,8 @@
   },
   "media": {
     "backdrop": "https://image.tmdb.org/t/p/original/9qxyrJfjk577ym5WD6HCDmunoyO.jpg",
-    "poster": "https://image.tmdb.org/t/p/original/dGSsPovyUW5XVekXcy7F2GyhTEh.jpg"
+    "poster": "https://image.tmdb.org/t/p/original/dGSsPovyUW5XVekXcy7F2GyhTEh.jpg",
+    "trailer": "https://www.youtube.com/watch?v=xdPMKhjMSFs"
   },
   "metadata": {
     "algorithm_version": "phase5b",
@@ -275,6 +276,7 @@
       "budget": 40000000,
       "currency": "USD",
       "retrieved_at": "2026-07-29",
+      "revenue": 62500000,
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1283515"
     },
@@ -287,16 +289,18 @@
         "status": "not_yet_rated"
       }
     },
-    "tmdb_popularity": 4.4021,
+    "tmdb_popularity": 148.3582,
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 4.4021,
+      "popularity": 148.3582,
+      "rating": 6.682,
       "retrieved_at": "2026-07-29",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1283515",
-      "status": "not_yet_rated"
+      "status": "not_yet_rated",
+      "vote_count": 85
     }
   },
   "related": {

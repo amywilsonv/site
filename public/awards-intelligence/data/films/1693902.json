@@ -253,7 +253,8 @@
   },
   "media": {
     "backdrop": "https://image.tmdb.org/t/p/original/3g1v4mWCHwvcqKavw7dQmCOd3m1.jpg",
-    "poster": "https://image.tmdb.org/t/p/original/9GhyuqIrjKRaWeXjGCHGjthUJD8.jpg"
+    "poster": "https://image.tmdb.org/t/p/original/9GhyuqIrjKRaWeXjGCHGjthUJD8.jpg",
+    "trailer": "https://www.youtube.com/watch?v=X_uzq1-I6Gc"
   },
   "metadata": {
     "algorithm_version": "phase5b",
@@ -274,12 +275,12 @@
         "status": "not_yet_rated"
       }
     },
-    "tmdb_popularity": 1.6952,
+    "tmdb_popularity": 1.1586,
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 1.6952,
+      "popularity": 1.1586,
       "retrieved_at": "2026-07-29",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1693902",
@@ -527,7 +528,11 @@
       "Basundhara Bhusal"
     ],
     "producers": [],
-    "writers": []
+    "writers": [
+      "Parichhed Sen",
+      "Shishir Chalise",
+      "Govinda Phuyal"
+    ]
   },
   "timeline": {
     "events": [

@@ -72,7 +72,7 @@
     "premiere_type": ""
   },
   "film_identity": {
-    "backdrop": "",
+    "backdrop": "https://image.tmdb.org/t/p/original/rbF8b5NqcN5SprJmWz9CwGquMGa.jpg",
     "canonical_film_id": "festival-9d45b7611b172ad4ea60e501",
     "country": [
       "US"
@@ -96,9 +96,9 @@
     "tmdb_id": "1096228"
   },
   "media": {
-    "backdrop": "",
+    "backdrop": "https://image.tmdb.org/t/p/original/rbF8b5NqcN5SprJmWz9CwGquMGa.jpg",
     "poster": "https://image.tmdb.org/t/p/original/fAyZqyN78VYb0usFgsmYjxZIFcN.jpg",
-    "trailer": ""
+    "trailer": "https://www.youtube.com/watch?v=eY_8SyndC10"
   },
   "metadata": {
     "algorithm_version": "phase5b",
@@ -117,11 +117,11 @@
     "source_data_date": "2026-08-15"
   },
   "performance": {
-    "tmdb_popularity": 1.1255
+    "tmdb_popularity": 2.7589
   },
   "ratings": {
     "tmdb": {
-      "popularity": 1.1255
+      "popularity": 2.7589
     }
   },
   "related": {
@@ -147,7 +147,10 @@
       "Elon Musk"
     ],
     "producers": [],
-    "writers": []
+    "writers": [
+      "Alex Gibney",
+      "Michael J. Palmer"
+    ]
   },
   "timeline": {
     "events": [],

@@ -76,7 +76,7 @@
     "premiere_type": ""
   },
   "film_identity": {
-    "backdrop": "",
+    "backdrop": "https://image.tmdb.org/t/p/original/xFSgmfIxCltUkdeJ4m346fugHY4.jpg",
     "canonical_film_id": "festival-473a13e951dd7abaf859c96d",
     "country": [
       "GB",
@@ -102,7 +102,7 @@
     "tmdb_id": "717041"
   },
   "media": {
-    "backdrop": "",
+    "backdrop": "https://image.tmdb.org/t/p/original/xFSgmfIxCltUkdeJ4m346fugHY4.jpg",
     "poster": "https://image.tmdb.org/t/p/original/lCMMf7RgnPX0TVOXvCZuR3r92Ek.jpg",
     "trailer": ""
   },
@@ -123,11 +123,13 @@
     "source_data_date": "2026-08-15"
   },
   "performance": {
-    "tmdb_popularity": 1.4188
+    "tmdb_popularity": 2.4112
   },
   "ratings": {
     "tmdb": {
-      "popularity": 1.4188
+      "popularity": 2.4112,
+      "rating": 5.0,
+      "vote_count": 1
     }
   },
   "related": {

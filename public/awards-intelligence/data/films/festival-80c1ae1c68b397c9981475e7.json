@@ -68,7 +68,7 @@
     "premiere_type": ""
   },
   "film_identity": {
-    "backdrop": "",
+    "backdrop": "https://image.tmdb.org/t/p/original/mCUZLymzVjfYJXEON4wg8ilx2H8.jpg",
     "canonical_film_id": "festival-80c1ae1c68b397c9981475e7",
     "country": [
       "KR"
@@ -95,7 +95,7 @@
     "tmdb_id": "1418428"
   },
   "media": {
-    "backdrop": "",
+    "backdrop": "https://image.tmdb.org/t/p/original/mCUZLymzVjfYJXEON4wg8ilx2H8.jpg",
     "poster": "https://image.tmdb.org/t/p/original/vxLkqJHsFmrnOg78KoTvwxXDTKo.jpg",
     "trailer": ""
   },
@@ -116,11 +116,13 @@
     "source_data_date": "2026-08-15"
   },
   "performance": {
-    "tmdb_popularity": 1.3929
+    "tmdb_popularity": 5.0671
   },
   "ratings": {
     "tmdb": {
-      "popularity": 1.3929
+      "popularity": 5.0671,
+      "rating": 7.5,
+      "vote_count": 4
     }
   },
   "related": {

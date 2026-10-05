@@ -255,7 +255,9 @@
     "supporting_drivers": []
   },
   "media": {
-    "backdrop": "https://image.tmdb.org/t/p/original/1ewgN7tG15VPpYbW0CE3UCXabVD.jpg"
+    "backdrop": "https://image.tmdb.org/t/p/original/1ewgN7tG15VPpYbW0CE3UCXabVD.jpg",
+    "poster": "https://image.tmdb.org/t/p/original/6rpvddXbaQPOi0fB2HKWbZ3uUSg.jpg",
+    "trailer": "https://www.youtube.com/watch?v=WlGzP8FvsfY"
   },
   "metadata": {
     "algorithm_version": "phase5b",
@@ -276,16 +278,18 @@
         "status": "not_yet_rated"
       }
     },
-    "tmdb_popularity": 2.9055,
+    "tmdb_popularity": 73.7956,
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 2.9055,
+      "popularity": 73.7956,
+      "rating": 6.923,
       "retrieved_at": "2026-07-29",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1440098",
-      "status": "not_yet_rated"
+      "status": "not_yet_rated",
+      "vote_count": 176
     }
   },
   "related": {

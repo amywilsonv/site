@@ -32,7 +32,9 @@
     "distributor": "Unknown",
     "franchise": "",
     "release_strategy": "",
-    "studio": []
+    "studio": [
+      "Kii no Muneyuki"
+    ]
   },
   "diagnostics": {
     "completeness_score": 0,
@@ -68,13 +70,15 @@
   "film_identity": {
     "backdrop": "https://image.tmdb.org/t/p/original/BsRL1j77lmnLBQIWniWwOPruQ8.jpg",
     "canonical_film_id": "festival-3bf360ebd188fb05c0cbf855",
-    "country": [],
+    "country": [
+      "JP"
+    ],
     "genres": [
       "Drama",
       "War"
     ],
     "id": "festival-3bf360ebd188fb05c0cbf855",
-    "imdb_id": "",
+    "imdb_id": "tt42669159",
     "language": "ja",
     "original_title": "Children Untold",
     "poster": "https://image.tmdb.org/t/p/original/aKCxG6PHndWojQx3JA5pkZDIm2H.jpg",
@@ -84,14 +88,14 @@
     "release_date": "2026-10-16",
     "release_display": "2026-10-16",
     "runtime": 150,
-    "synopsis": "",
+    "synopsis": "War may be over, but for the children of Miwa Nishikawa\u2019s latest film \u2014 adapted from her forthcoming novel \u2014 survival has only begun.",
     "title": "Children Untold",
     "tmdb_id": "1692852"
   },
   "media": {
     "backdrop": "https://image.tmdb.org/t/p/original/BsRL1j77lmnLBQIWniWwOPruQ8.jpg",
     "poster": "https://image.tmdb.org/t/p/original/aKCxG6PHndWojQx3JA5pkZDIm2H.jpg",
-    "trailer": ""
+    "trailer": "https://www.youtube.com/watch?v=T1G7A907TWc"
   },
   "metadata": {
     "algorithm_version": "phase5b",
@@ -110,11 +114,11 @@
     "source_data_date": "2026-08-15"
   },
   "performance": {
-    "tmdb_popularity": 1.1658
+    "tmdb_popularity": 1.7194
   },
   "ratings": {
     "tmdb": {
-      "popularity": 1.1658
+      "popularity": 1.7194
     }
   },
   "related": {

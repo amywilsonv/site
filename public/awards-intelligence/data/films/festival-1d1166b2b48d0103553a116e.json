@@ -83,7 +83,7 @@
     "premiere_type": ""
   },
   "film_identity": {
-    "backdrop": "",
+    "backdrop": "https://image.tmdb.org/t/p/original/cDwX753Ui2ZOxH9IGFAFld6Qs0F.jpg",
     "canonical_film_id": "festival-1d1166b2b48d0103553a116e",
     "country": [
       "SE",
@@ -100,7 +100,7 @@
     "imdb_id": "tt29010951",
     "language": "sv",
     "original_title": "Brace Your Heart",
-    "poster": "",
+    "poster": "https://image.tmdb.org/t/p/original/jRd3jRaSN34aSVZL051thpXVyB8.jpg",
     "profile_id": "festival-1d1166b2b48d0103553a116e",
     "profile_payload_url": "data/films/festival-1d1166b2b48d0103553a116e.json",
     "profile_url": "film.html?id=festival-1d1166b2b48d0103553a116e",
@@ -112,9 +112,9 @@
     "tmdb_id": "1432701"
   },
   "media": {
-    "backdrop": "",
-    "poster": "",
-    "trailer": ""
+    "backdrop": "https://image.tmdb.org/t/p/original/cDwX753Ui2ZOxH9IGFAFld6Qs0F.jpg",
+    "poster": "https://image.tmdb.org/t/p/original/jRd3jRaSN34aSVZL051thpXVyB8.jpg",
+    "trailer": "https://www.youtube.com/watch?v=Iqlj97-ZtEw"
   },
   "metadata": {
     "algorithm_version": "phase5b",
@@ -133,11 +133,14 @@
     "source_data_date": "2026-08-15"
   },
   "performance": {
-    "tmdb_popularity": 0.7561
+    "box_office": {
+      "budget": 5800000
+    },
+    "tmdb_popularity": 1.0189
   },
   "ratings": {
     "tmdb": {
-      "popularity": 0.7561
+      "popularity": 1.0189
     }
   },
   "related": {

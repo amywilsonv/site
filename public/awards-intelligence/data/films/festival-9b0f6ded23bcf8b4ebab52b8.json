@@ -71,7 +71,7 @@
     "premiere_type": ""
   },
   "film_identity": {
-    "backdrop": "",
+    "backdrop": "https://image.tmdb.org/t/p/original/5ZYB2wWVfQmSvpxY43bnPYNB0Lj.jpg",
     "canonical_film_id": "festival-9b0f6ded23bcf8b4ebab52b8",
     "country": [
       "US"
@@ -95,9 +95,9 @@
     "tmdb_id": "1594307"
   },
   "media": {
-    "backdrop": "",
+    "backdrop": "https://image.tmdb.org/t/p/original/5ZYB2wWVfQmSvpxY43bnPYNB0Lj.jpg",
     "poster": "https://image.tmdb.org/t/p/original/4vGkzPtWPNW3OEQ1EvULEJhzL1B.jpg",
-    "trailer": ""
+    "trailer": "https://www.youtube.com/watch?v=pCVB13sFJ8w"
   },
   "metadata": {
     "algorithm_version": "phase5b",
@@ -116,11 +116,11 @@
     "source_data_date": "2026-08-15"
   },
   "performance": {
-    "tmdb_popularity": 0.56
+    "tmdb_popularity": 1.8949
   },
   "ratings": {
     "tmdb": {
-      "popularity": 0.56
+      "popularity": 1.8949
     }
   },
   "related": {
@@ -142,7 +142,16 @@
   },
   "talent": {
     "director": "Julia Loktev",
-    "principal_cast": [],
+    "principal_cast": [
+      "Anna Nemzer",
+      "Valeria Ratnikova",
+      "Ksenia Mironova",
+      "Alesya Marokhovskaya",
+      "Irina Dolinina",
+      "Peter Ruzavin",
+      "Nataliya Gumenyuk",
+      "Elena Kostyuchenko"
+    ],
     "producers": [],
     "writers": [
       "Julia Loktev"

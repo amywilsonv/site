@@ -71,7 +71,7 @@
     "premiere_type": ""
   },
   "film_identity": {
-    "backdrop": "",
+    "backdrop": "https://image.tmdb.org/t/p/original/5uClAJ6ByWLVEJwdaWP53NK0sFw.jpg",
     "canonical_film_id": "festival-9bbcb1d62c5df2e51d457c6a",
     "country": [
       "CA"
@@ -85,7 +85,7 @@
     "imdb_id": "tt37677746",
     "language": "en",
     "original_title": "In the Heart of the South",
-    "poster": "",
+    "poster": "https://image.tmdb.org/t/p/original/d15p7sgc5Of0lwlSuXz2XkreXbK.jpg",
     "profile_id": "festival-9bbcb1d62c5df2e51d457c6a",
     "profile_payload_url": "data/films/festival-9bbcb1d62c5df2e51d457c6a.json",
     "profile_url": "film.html?id=festival-9bbcb1d62c5df2e51d457c6a",
@@ -97,9 +97,9 @@
     "tmdb_id": "1535659"
   },
   "media": {
-    "backdrop": "",
-    "poster": "",
-    "trailer": ""
+    "backdrop": "https://image.tmdb.org/t/p/original/5uClAJ6ByWLVEJwdaWP53NK0sFw.jpg",
+    "poster": "https://image.tmdb.org/t/p/original/d15p7sgc5Of0lwlSuXz2XkreXbK.jpg",
+    "trailer": "https://www.youtube.com/watch?v=vLY7lmqQ2DY"
   },
   "metadata": {
     "algorithm_version": "phase5b",
@@ -118,11 +118,11 @@
     "source_data_date": "2026-08-15"
   },
   "performance": {
-    "tmdb_popularity": 1.646
+    "tmdb_popularity": 2.0775
   },
   "ratings": {
     "tmdb": {
-      "popularity": 1.646
+      "popularity": 2.0775
     }
   },
   "related": {

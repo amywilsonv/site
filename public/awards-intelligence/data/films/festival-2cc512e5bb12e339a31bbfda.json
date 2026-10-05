@@ -69,7 +69,7 @@
     "premiere_type": ""
   },
   "film_identity": {
-    "backdrop": "",
+    "backdrop": "https://image.tmdb.org/t/p/original/fYLA50MzIYXlzAWgin8bI3JTjM1.jpg",
     "canonical_film_id": "festival-2cc512e5bb12e339a31bbfda",
     "country": [
       "GB",
@@ -83,7 +83,7 @@
     "imdb_id": "tt6367170",
     "language": "en",
     "original_title": "Back in Black",
-    "poster": "",
+    "poster": "https://image.tmdb.org/t/p/original/pvOW7uXLgLxxa9eRpc2kJciNi2h.jpg",
     "profile_id": "festival-2cc512e5bb12e339a31bbfda",
     "profile_payload_url": "data/films/festival-2cc512e5bb12e339a31bbfda.json",
     "profile_url": "film.html?id=festival-2cc512e5bb12e339a31bbfda",
@@ -95,8 +95,8 @@
     "tmdb_id": "1575391"
   },
   "media": {
-    "backdrop": "",
-    "poster": "",
+    "backdrop": "https://image.tmdb.org/t/p/original/fYLA50MzIYXlzAWgin8bI3JTjM1.jpg",
+    "poster": "https://image.tmdb.org/t/p/original/pvOW7uXLgLxxa9eRpc2kJciNi2h.jpg",
     "trailer": ""
   },
   "metadata": {
@@ -116,11 +116,13 @@
     "source_data_date": "2026-08-15"
   },
   "performance": {
-    "tmdb_popularity": 0.8889
+    "tmdb_popularity": 1.6729
   },
   "ratings": {
     "tmdb": {
-      "popularity": 0.8889
+      "popularity": 1.6729,
+      "rating": 10.0,
+      "vote_count": 1
     }
   },
   "related": {

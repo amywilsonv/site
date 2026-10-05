@@ -94,7 +94,7 @@
     "imdb_id": "tt36985382",
     "language": "ar",
     "original_title": "Furies",
-    "poster": "",
+    "poster": "https://image.tmdb.org/t/p/original/w6L7SBFDv6uo93ZbIFaFddMuyLe.jpg",
     "profile_id": "festival-ef626c9f96de70f5db1f8149",
     "profile_payload_url": "data/films/festival-ef626c9f96de70f5db1f8149.json",
     "profile_url": "film.html?id=festival-ef626c9f96de70f5db1f8149",
@@ -107,7 +107,7 @@
   },
   "media": {
     "backdrop": "https://image.tmdb.org/t/p/original/zxv3siwIUFRBNoA7eO4D6xWrMnJ.jpg",
-    "poster": "",
+    "poster": "https://image.tmdb.org/t/p/original/w6L7SBFDv6uo93ZbIFaFddMuyLe.jpg",
     "trailer": ""
   },
   "metadata": {
@@ -127,11 +127,13 @@
     "source_data_date": "2026-08-15"
   },
   "performance": {
-    "tmdb_popularity": 1.4599
+    "tmdb_popularity": 2.5828
   },
   "ratings": {
     "tmdb": {
-      "popularity": 1.4599
+      "popularity": 2.5828,
+      "rating": 9.0,
+      "vote_count": 4
     }
   },
   "related": {

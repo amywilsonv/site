@@ -84,7 +84,7 @@
     "imdb_id": "tt34611096",
     "language": "en",
     "original_title": "The Stunt Driver",
-    "poster": "",
+    "poster": "https://image.tmdb.org/t/p/original/jFiMdTG8Hw41A3VxrzLEWtMFIYX.jpg",
     "profile_id": "festival-d6f6b21f83073fa2e6760e63",
     "profile_payload_url": "data/films/festival-d6f6b21f83073fa2e6760e63.json",
     "profile_url": "film.html?id=festival-d6f6b21f83073fa2e6760e63",
@@ -97,7 +97,7 @@
   },
   "media": {
     "backdrop": "https://image.tmdb.org/t/p/original/mCSWDVb87GpfQKEyvHIlBt6Obht.jpg",
-    "poster": "",
+    "poster": "https://image.tmdb.org/t/p/original/jFiMdTG8Hw41A3VxrzLEWtMFIYX.jpg",
     "trailer": "https://www.youtube.com/watch?v=dcbRqIuFAiE"
   },
   "metadata": {
@@ -117,11 +117,13 @@
     "source_data_date": "2026-08-15"
   },
   "performance": {
-    "tmdb_popularity": 1.5714
+    "tmdb_popularity": 2.8526
   },
   "ratings": {
     "tmdb": {
-      "popularity": 1.5714
+      "popularity": 2.8526,
+      "rating": 5.0,
+      "vote_count": 1
     }
   },
   "related": {

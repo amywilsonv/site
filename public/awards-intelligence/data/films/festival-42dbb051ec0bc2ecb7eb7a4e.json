@@ -92,10 +92,10 @@
       "Drama"
     ],
     "id": "festival-42dbb051ec0bc2ecb7eb7a4e",
-    "imdb_id": "",
+    "imdb_id": "tt39307632",
     "language": "it",
     "original_title": "Una storia",
-    "poster": "",
+    "poster": "https://image.tmdb.org/t/p/original/kZzFOWsc3LbCGRLdsFofbMM7dly.jpg",
     "profile_id": "festival-42dbb051ec0bc2ecb7eb7a4e",
     "profile_payload_url": "data/films/festival-42dbb051ec0bc2ecb7eb7a4e.json",
     "profile_url": "film.html?id=festival-42dbb051ec0bc2ecb7eb7a4e",
@@ -108,7 +108,7 @@
   },
   "media": {
     "backdrop": "https://image.tmdb.org/t/p/original/A9o4NioTKtKKY731uyPGP3lqjlU.jpg",
-    "poster": "",
+    "poster": "https://image.tmdb.org/t/p/original/kZzFOWsc3LbCGRLdsFofbMM7dly.jpg",
     "trailer": ""
   },
   "metadata": {
@@ -131,11 +131,13 @@
     "source_data_date": "2026-08-15"
   },
   "performance": {
-    "tmdb_popularity": 1.3414
+    "tmdb_popularity": 2.2323
   },
   "ratings": {
     "tmdb": {
-      "popularity": 1.3414
+      "popularity": 2.2323,
+      "rating": 6.0,
+      "vote_count": 3
     }
   },
   "related": {

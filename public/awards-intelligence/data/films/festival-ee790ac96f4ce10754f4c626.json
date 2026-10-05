@@ -32,7 +32,11 @@
     "distributor": "Unknown",
     "franchise": "",
     "release_strategy": "",
-    "studio": []
+    "studio": [
+      "asterisk*",
+      "El Viaje Films",
+      "La Banda Negra"
+    ]
   },
   "diagnostics": {
     "completeness_score": 0,
@@ -66,12 +70,17 @@
     "premiere_type": ""
   },
   "film_identity": {
-    "backdrop": "",
+    "backdrop": "https://image.tmdb.org/t/p/original/dvNXQu8m3T5lXd2bXTpslAQjSX3.jpg",
     "canonical_film_id": "festival-ee790ac96f4ce10754f4c626",
-    "country": [],
-    "genres": [],
+    "country": [
+      "GR",
+      "ES"
+    ],
+    "genres": [
+      "Drama"
+    ],
     "id": "festival-ee790ac96f4ce10754f4c626",
-    "imdb_id": "",
+    "imdb_id": "tt43441520",
     "language": "es",
     "original_title": "The Fortunate Isles",
     "poster": "https://image.tmdb.org/t/p/original/g2l3aDHoDqLzLbSP8Xfe8kaXNhA.jpg",
@@ -86,7 +95,7 @@
     "tmdb_id": "1736324"
   },
   "media": {
-    "backdrop": "",
+    "backdrop": "https://image.tmdb.org/t/p/original/dvNXQu8m3T5lXd2bXTpslAQjSX3.jpg",
     "poster": "https://image.tmdb.org/t/p/original/g2l3aDHoDqLzLbSP8Xfe8kaXNhA.jpg",
     "trailer": ""
   },
@@ -107,11 +116,11 @@
     "source_data_date": "2026-08-15"
   },
   "performance": {
-    "tmdb_popularity": 1.0881
+    "tmdb_popularity": 1.2759
   },
   "ratings": {
     "tmdb": {
-      "popularity": 1.0881
+      "popularity": 1.2759
     }
   },
   "related": {
@@ -133,7 +142,12 @@
   },
   "talent": {
     "director": "Helena Gir\u00f3n; Samuel Delgado",
-    "principal_cast": [],
+    "principal_cast": [
+      "Luisa Ahl Laabiad",
+      "Lou Castel",
+      "Gr\u00e9goire Colin",
+      "Ayoze Carrillo"
+    ],
     "producers": [],
     "writers": []
   },

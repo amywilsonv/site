@@ -70,15 +70,17 @@
     "premiere_type": ""
   },
   "film_identity": {
-    "backdrop": "",
+    "backdrop": "https://image.tmdb.org/t/p/original/zGvs5d706MwykXV06u6hQZ91nsr.jpg",
     "canonical_film_id": "festival-46eaf5d92e7e6d868ace2067",
     "country": [
       "IT",
       "FR"
     ],
-    "genres": [],
+    "genres": [
+      "Drama"
+    ],
     "id": "festival-46eaf5d92e7e6d868ace2067",
-    "imdb_id": "",
+    "imdb_id": "tt39390583",
     "language": "it",
     "original_title": "I figli della scimmia",
     "poster": "https://image.tmdb.org/t/p/original/9N8Aelv5u9DV3xtY3fcqPYqqJ1d.jpg",
@@ -93,7 +95,7 @@
     "tmdb_id": "1554129"
   },
   "media": {
-    "backdrop": "",
+    "backdrop": "https://image.tmdb.org/t/p/original/zGvs5d706MwykXV06u6hQZ91nsr.jpg",
     "poster": "https://image.tmdb.org/t/p/original/9N8Aelv5u9DV3xtY3fcqPYqqJ1d.jpg",
     "trailer": ""
   },
@@ -114,11 +116,13 @@
     "source_data_date": "2026-08-15"
   },
   "performance": {
-    "tmdb_popularity": 0.4604
+    "tmdb_popularity": 1.9361
   },
   "ratings": {
     "tmdb": {
-      "popularity": 0.4604
+      "popularity": 1.9361,
+      "rating": 6.5,
+      "vote_count": 4
     }
   },
   "related": {
@@ -140,7 +144,15 @@
   },
   "talent": {
     "director": "Tommaso Landucci",
-    "principal_cast": [],
+    "principal_cast": [
+      "Riccardo Scamarcio",
+      "Fausto Russo Alesi",
+      "Lidia Liberman",
+      "Cristina Odasso",
+      "Tancredi Naldini",
+      "Andrea Aggio",
+      "Luigi Diberti"
+    ],
     "producers": [],
     "writers": [
       "Damiano Femfert",

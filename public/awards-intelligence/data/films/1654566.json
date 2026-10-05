@@ -197,7 +197,7 @@
     "premiere_type": ""
   },
   "film_identity": {
-    "backdrop": "",
+    "backdrop": "https://image.tmdb.org/t/p/original/paZuQDNYwuD0WBwZERfvgSNQZDz.jpg",
     "country": [
       "IN"
     ],
@@ -209,7 +209,7 @@
     "imdb_id": "tt40856286",
     "language": "hi",
     "original_title": "\u0935\u093e\u0907\u092c",
-    "poster": "",
+    "poster": "https://image.tmdb.org/t/p/original/1K2cYaK42vcQkg1iITxF6xcbJrs.jpg",
     "profile_payload_url": "data/films/1654566.json",
     "profile_url": "film.html?id=1654566",
     "release_date": "2026-09-18",
@@ -259,7 +259,10 @@
     "summary": "Current provider signals do not show a supported material change.",
     "supporting_drivers": []
   },
-  "media": {},
+  "media": {
+    "backdrop": "https://image.tmdb.org/t/p/original/paZuQDNYwuD0WBwZERfvgSNQZDz.jpg",
+    "poster": "https://image.tmdb.org/t/p/original/1K2cYaK42vcQkg1iITxF6xcbJrs.jpg"
+  },
   "metadata": {
     "algorithm_version": "phase5b",
     "awards_intelligence_integrated_at": "2026-08-16T00:00:00Z",
@@ -279,16 +282,18 @@
         "status": "not_yet_rated"
       }
     },
-    "tmdb_popularity": 0.9721,
+    "tmdb_popularity": 4.1659,
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 0.9721,
+      "popularity": 4.1659,
+      "rating": 7.0,
       "retrieved_at": "2026-07-29",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1654566",
-      "status": "not_yet_rated"
+      "status": "not_yet_rated",
+      "vote_count": 1
     }
   },
   "related": {

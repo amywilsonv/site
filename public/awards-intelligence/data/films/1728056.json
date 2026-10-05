@@ -196,7 +196,7 @@
     "premiere_type": ""
   },
   "film_identity": {
-    "backdrop": "",
+    "backdrop": "https://image.tmdb.org/t/p/original/d4p2sqbxC2AYkuyxT7tRBSsP4IM.jpg",
     "country": [
       "GB"
     ],
@@ -207,7 +207,7 @@
     "imdb_id": "tt43657327",
     "language": "en",
     "original_title": "Big Chicken: A Fast Food Conspiracy",
-    "poster": "",
+    "poster": "https://image.tmdb.org/t/p/original/vNvkzG9HpVbnAPqAgkDJBzYi8be.jpg",
     "profile_payload_url": "data/films/1728056.json",
     "profile_url": "film.html?id=1728056",
     "release_date": "2026-08-05",
@@ -271,6 +271,7 @@
     ]
   },
   "media": {
+    "backdrop": "https://image.tmdb.org/t/p/original/d4p2sqbxC2AYkuyxT7tRBSsP4IM.jpg",
     "canonical_trailer": {
       "retrieved_at": "2026-07-29",
       "site": "YouTube",
@@ -281,6 +282,7 @@
       "url": "https://www.youtube.com/watch?v=7sGkQM6TyQU"
     },
     "latest_trailer_url": "https://www.youtube.com/watch?v=7sGkQM6TyQU",
+    "poster": "https://image.tmdb.org/t/p/original/vNvkzG9HpVbnAPqAgkDJBzYi8be.jpg",
     "trailer": "https://www.youtube.com/watch?v=7sGkQM6TyQU"
   },
   "metadata": {
@@ -302,16 +304,18 @@
         "status": "not_yet_rated"
       }
     },
-    "tmdb_popularity": 1.2613,
+    "tmdb_popularity": 3.7715,
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 1.2613,
+      "popularity": 3.7715,
+      "rating": 5.4,
       "retrieved_at": "2026-07-29",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1728056",
-      "status": "not_yet_rated"
+      "status": "not_yet_rated",
+      "vote_count": 16
     }
   },
   "related": {

@@ -32,7 +32,10 @@
     "distributor": "Unknown",
     "franchise": "",
     "release_strategy": "",
-    "studio": []
+    "studio": [
+      "Amazon MGM Studios",
+      "Namah Pictures"
+    ]
   },
   "diagnostics": {
     "completeness_score": 0,
@@ -66,10 +69,16 @@
     "premiere_type": ""
   },
   "film_identity": {
-    "backdrop": "",
+    "backdrop": "https://image.tmdb.org/t/p/original/uTJRFhaVtBJcgeWswMe2d9xPYWS.jpg",
     "canonical_film_id": "festival-b44703823b7bf32d2f7f52d2",
-    "country": [],
-    "genres": [],
+    "country": [
+      "IN"
+    ],
+    "genres": [
+      "Action",
+      "Drama",
+      "History"
+    ],
     "id": "festival-b44703823b7bf32d2f7f52d2",
     "imdb_id": "tt43696902",
     "language": "hi",
@@ -86,9 +95,9 @@
     "tmdb_id": "1736689"
   },
   "media": {
-    "backdrop": "",
+    "backdrop": "https://image.tmdb.org/t/p/original/uTJRFhaVtBJcgeWswMe2d9xPYWS.jpg",
     "poster": "https://image.tmdb.org/t/p/original/5LYhhFiLIHUmvxo1wONCVlGdb0V.jpg",
-    "trailer": ""
+    "trailer": "https://www.youtube.com/watch?v=iNMko1_UEDg"
   },
   "metadata": {
     "algorithm_version": "phase5b",
@@ -107,11 +116,11 @@
     "source_data_date": "2026-08-15"
   },
   "performance": {
-    "tmdb_popularity": 0.573
+    "tmdb_popularity": 1.3018
   },
   "ratings": {
     "tmdb": {
-      "popularity": 0.573
+      "popularity": 1.3018
     }
   },
   "related": {
@@ -133,7 +142,16 @@
   },
   "talent": {
     "director": "Richie Mehta",
-    "principal_cast": [],
+    "principal_cast": [
+      "Sneha Kumari",
+      "Anurag Thakur",
+      "Vikram Pratap",
+      "Aakash Dahiya",
+      "Prateek Pachori",
+      "Rajesh Tailang",
+      "Man Singh Karamati",
+      "Meghna Agarwal"
+    ],
     "producers": [],
     "writers": [
       "Richie Mehta"

@@ -97,7 +97,7 @@
   "media": {
     "backdrop": "https://image.tmdb.org/t/p/original/2QWJHuCeYyFvDRY5CGJ4nlmaqYn.jpg",
     "poster": "https://image.tmdb.org/t/p/original/geoYKcLBlTHfuFLyQy9GHH8M9Hh.jpg",
-    "trailer": ""
+    "trailer": "https://www.youtube.com/watch?v=O05arcJjOd0"
   },
   "metadata": {
     "algorithm_version": "phase5b",
@@ -116,11 +116,16 @@
     "source_data_date": "2026-08-15"
   },
   "performance": {
-    "tmdb_popularity": 1.6071
+    "box_office": {
+      "revenue": 90000
+    },
+    "tmdb_popularity": 5.1349
   },
   "ratings": {
     "tmdb": {
-      "popularity": 1.6071
+      "popularity": 5.1349,
+      "rating": 6.5,
+      "vote_count": 2
     }
   },
   "related": {

@@ -82,7 +82,7 @@
     "imdb_id": "tt13153946",
     "language": "en",
     "original_title": "In Alaska",
-    "poster": "",
+    "poster": "https://image.tmdb.org/t/p/original/wKfOFuRt16BAH3oRARHsTfNoqIf.jpg",
     "profile_id": "festival-0a5ad606e2eb3a88f48460b0",
     "profile_payload_url": "data/films/festival-0a5ad606e2eb3a88f48460b0.json",
     "profile_url": "film.html?id=festival-0a5ad606e2eb3a88f48460b0",
@@ -95,7 +95,7 @@
   },
   "media": {
     "backdrop": "https://image.tmdb.org/t/p/original/a6yojt55cBRGyTYPIS45rScUrLO.jpg",
-    "poster": "",
+    "poster": "https://image.tmdb.org/t/p/original/wKfOFuRt16BAH3oRARHsTfNoqIf.jpg",
     "trailer": ""
   },
   "metadata": {
@@ -115,11 +115,13 @@
     "source_data_date": "2026-08-15"
   },
   "performance": {
-    "tmdb_popularity": 1.5109
+    "tmdb_popularity": 2.8864
   },
   "ratings": {
     "tmdb": {
-      "popularity": 1.5109
+      "popularity": 2.8864,
+      "rating": 9.0,
+      "vote_count": 1
     }
   },
   "related": {

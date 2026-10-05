@@ -323,16 +323,18 @@
         "status": "not_yet_rated"
       }
     },
-    "tmdb_popularity": 3.4032,
+    "tmdb_popularity": 10.6834,
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 3.4032,
+      "popularity": 10.6834,
+      "rating": 6.443,
       "retrieved_at": "2026-07-29",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1493400",
-      "status": "not_yet_rated"
+      "status": "not_yet_rated",
+      "vote_count": 132
     }
   },
   "related": {

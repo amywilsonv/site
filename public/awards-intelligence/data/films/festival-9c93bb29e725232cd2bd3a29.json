@@ -79,7 +79,7 @@
     "imdb_id": "tt35486511",
     "language": "zh",
     "original_title": "The Age of Goodbyes",
-    "poster": "",
+    "poster": "https://image.tmdb.org/t/p/original/uvHiuF2gcnmdmQDoj3o3fJmG8xL.jpg",
     "profile_id": "festival-9c93bb29e725232cd2bd3a29",
     "profile_payload_url": "data/films/festival-9c93bb29e725232cd2bd3a29.json",
     "profile_url": "film.html?id=festival-9c93bb29e725232cd2bd3a29",
@@ -92,7 +92,7 @@
   },
   "media": {
     "backdrop": "https://image.tmdb.org/t/p/original/rA5t6Ui2kOF7gZtjQ3xuZWYBjnM.jpg",
-    "poster": "",
+    "poster": "https://image.tmdb.org/t/p/original/uvHiuF2gcnmdmQDoj3o3fJmG8xL.jpg",
     "trailer": ""
   },
   "metadata": {
@@ -112,11 +112,11 @@
     "source_data_date": "2026-08-15"
   },
   "performance": {
-    "tmdb_popularity": 1.5627
+    "tmdb_popularity": 1.5234
   },
   "ratings": {
     "tmdb": {
-      "popularity": 1.5627
+      "popularity": 1.5234
     }
   },
   "related": {
@@ -145,7 +145,9 @@
       "Li Xuan Siow"
     ],
     "producers": [],
-    "writers": []
+    "writers": [
+      "Edmund Yeo"
+    ]
   },
   "timeline": {
     "events": [],

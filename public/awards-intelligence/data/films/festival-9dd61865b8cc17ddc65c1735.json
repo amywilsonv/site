@@ -32,7 +32,11 @@
     "distributor": "Unknown",
     "franchise": "",
     "release_strategy": "",
-    "studio": []
+    "studio": [
+      "T\u00e9l\u00e9film Canada",
+      "Farpoint Films",
+      "Thin Stuff Productions"
+    ]
   },
   "diagnostics": {
     "completeness_score": 0,
@@ -66,9 +70,11 @@
     "premiere_type": ""
   },
   "film_identity": {
-    "backdrop": "",
+    "backdrop": "https://image.tmdb.org/t/p/original/6sPDqPgfb4jRB0EMQakybIJAGFg.jpg",
     "canonical_film_id": "festival-9dd61865b8cc17ddc65c1735",
-    "country": [],
+    "country": [
+      "CA"
+    ],
     "genres": [
       "Drama"
     ],
@@ -76,7 +82,7 @@
     "imdb_id": "tt35069630",
     "language": "en",
     "original_title": "Strong Son",
-    "poster": "",
+    "poster": "https://image.tmdb.org/t/p/original/6dXSDxew877wyy1tHWcx0Dx5EQd.jpg",
     "profile_id": "festival-9dd61865b8cc17ddc65c1735",
     "profile_payload_url": "data/films/festival-9dd61865b8cc17ddc65c1735.json",
     "profile_url": "film.html?id=festival-9dd61865b8cc17ddc65c1735",
@@ -88,8 +94,8 @@
     "tmdb_id": "1737831"
   },
   "media": {
-    "backdrop": "",
-    "poster": "",
+    "backdrop": "https://image.tmdb.org/t/p/original/6sPDqPgfb4jRB0EMQakybIJAGFg.jpg",
+    "poster": "https://image.tmdb.org/t/p/original/6dXSDxew877wyy1tHWcx0Dx5EQd.jpg",
     "trailer": ""
   },
   "metadata": {
@@ -109,11 +115,11 @@
     "source_data_date": "2026-08-15"
   },
   "performance": {
-    "tmdb_popularity": 1.8828
+    "tmdb_popularity": 2.7187
   },
   "ratings": {
     "tmdb": {
-      "popularity": 1.8828
+      "popularity": 2.7187
     }
   },
   "related": {

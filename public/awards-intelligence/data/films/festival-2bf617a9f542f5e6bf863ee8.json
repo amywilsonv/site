@@ -69,7 +69,7 @@
     "premiere_type": ""
   },
   "film_identity": {
-    "backdrop": "",
+    "backdrop": "https://image.tmdb.org/t/p/original/kuBdmhXYQ4k3Y15QVFxyJ6p0dif.jpg",
     "canonical_film_id": "festival-2bf617a9f542f5e6bf863ee8",
     "country": [
       "US",
@@ -84,7 +84,7 @@
     "imdb_id": "tt40386615",
     "language": "en",
     "original_title": "Vintage Violence",
-    "poster": "",
+    "poster": "https://image.tmdb.org/t/p/original/f7L9ZWZkkYuJ1XFGihGnE8eJxoZ.jpg",
     "profile_id": "festival-2bf617a9f542f5e6bf863ee8",
     "profile_payload_url": "data/films/festival-2bf617a9f542f5e6bf863ee8.json",
     "profile_url": "film.html?id=festival-2bf617a9f542f5e6bf863ee8",
@@ -96,8 +96,8 @@
     "tmdb_id": "1608727"
   },
   "media": {
-    "backdrop": "",
-    "poster": "",
+    "backdrop": "https://image.tmdb.org/t/p/original/kuBdmhXYQ4k3Y15QVFxyJ6p0dif.jpg",
+    "poster": "https://image.tmdb.org/t/p/original/f7L9ZWZkkYuJ1XFGihGnE8eJxoZ.jpg",
     "trailer": ""
   },
   "metadata": {
@@ -117,11 +117,11 @@
     "source_data_date": "2026-08-15"
   },
   "performance": {
-    "tmdb_popularity": 2.781
+    "tmdb_popularity": 2.7331
   },
   "ratings": {
     "tmdb": {
-      "popularity": 2.781
+      "popularity": 2.7331
     }
   },
   "related": {
@@ -154,7 +154,9 @@
       "Jean Shin Vavra"
     ],
     "producers": [],
-    "writers": []
+    "writers": [
+      "Eugene Kotlyarenko"
+    ]
   },
   "timeline": {
     "events": [],

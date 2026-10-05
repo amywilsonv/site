@@ -32,7 +32,11 @@
     "distributor": "Unknown",
     "franchise": "",
     "release_strategy": "",
-    "studio": []
+    "studio": [
+      "Umbrella Entertainment",
+      "Fableist",
+      "BlueFinch Film Releasing"
+    ]
   },
   "diagnostics": {
     "completeness_score": 0,
@@ -66,15 +70,21 @@
     "premiere_type": ""
   },
   "film_identity": {
-    "backdrop": "",
+    "backdrop": "https://image.tmdb.org/t/p/original/rUZzujBbItnqHOI4Uz8vc5suc3o.jpg",
     "canonical_film_id": "festival-148d7525331ea97fed67ee03",
-    "country": [],
-    "genres": [],
+    "country": [
+      "AU"
+    ],
+    "genres": [
+      "Action",
+      "Horror",
+      "Thriller"
+    ],
     "id": "festival-148d7525331ea97fed67ee03",
-    "imdb_id": "",
+    "imdb_id": "tt43486312",
     "language": "en",
     "original_title": "Kick On",
-    "poster": "",
+    "poster": "https://image.tmdb.org/t/p/original/7AihSWB66IwoIudtAA0aHkHt17D.jpg",
     "profile_id": "festival-148d7525331ea97fed67ee03",
     "profile_payload_url": "data/films/festival-148d7525331ea97fed67ee03.json",
     "profile_url": "film.html?id=festival-148d7525331ea97fed67ee03",
@@ -86,8 +96,8 @@
     "tmdb_id": "1744889"
   },
   "media": {
-    "backdrop": "",
-    "poster": "",
+    "backdrop": "https://image.tmdb.org/t/p/original/rUZzujBbItnqHOI4Uz8vc5suc3o.jpg",
+    "poster": "https://image.tmdb.org/t/p/original/7AihSWB66IwoIudtAA0aHkHt17D.jpg",
     "trailer": ""
   },
   "metadata": {
@@ -107,11 +117,11 @@
     "source_data_date": "2026-08-15"
   },
   "performance": {
-    "tmdb_popularity": 2.2367
+    "tmdb_popularity": 4.8934
   },
   "ratings": {
     "tmdb": {
-      "popularity": 2.2367
+      "popularity": 4.8934
     }
   },
   "related": {
@@ -133,7 +143,16 @@
   },
   "talent": {
     "director": "Nick Kozakis",
-    "principal_cast": [],
+    "principal_cast": [
+      "Markella Kavenagh",
+      "Nikolai Nikolaeff",
+      "Jacek Koman",
+      "Ras-Samuel Welda'abzgi",
+      "Nikita Chronis",
+      "Thom Green",
+      "Eddie Baroo",
+      "Julian Weeks"
+    ],
     "producers": [],
     "writers": [
       "Phillip Klimek"

@@ -96,10 +96,10 @@
       "Horror"
     ],
     "id": "festival-3746eb9aa0efddeec335c3e2",
-    "imdb_id": "",
+    "imdb_id": "tt42827406",
     "language": "bn",
     "original_title": "The Difficult Bride",
-    "poster": "",
+    "poster": "https://image.tmdb.org/t/p/original/y4HdnyUE13LgtMovP3nTaI4gJuR.jpg",
     "profile_id": "festival-3746eb9aa0efddeec335c3e2",
     "profile_payload_url": "data/films/festival-3746eb9aa0efddeec335c3e2.json",
     "profile_url": "film.html?id=festival-3746eb9aa0efddeec335c3e2",
@@ -112,7 +112,7 @@
   },
   "media": {
     "backdrop": "https://image.tmdb.org/t/p/original/pibWtkHZq2RlKOkLxabTFV6TzsR.jpg",
-    "poster": "",
+    "poster": "https://image.tmdb.org/t/p/original/y4HdnyUE13LgtMovP3nTaI4gJuR.jpg",
     "trailer": ""
   },
   "metadata": {
@@ -132,11 +132,13 @@
     "source_data_date": "2026-08-15"
   },
   "performance": {
-    "tmdb_popularity": 1.0341
+    "tmdb_popularity": 1.6307
   },
   "ratings": {
     "tmdb": {
-      "popularity": 1.0341
+      "popularity": 1.6307,
+      "rating": 6.0,
+      "vote_count": 1
     }
   },
   "related": {

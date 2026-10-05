@@ -74,12 +74,15 @@
     "country": [
       "GB"
     ],
-    "genres": [],
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
     "id": "festival-62ecca46ee66e6c1342434ba",
     "imdb_id": "tt11445200",
     "language": "en",
     "original_title": "Onwards and Sideways",
-    "poster": "",
+    "poster": "https://image.tmdb.org/t/p/original/9GrdyiydFaa0OP7bjQrp8exlcPi.jpg",
     "profile_id": "festival-62ecca46ee66e6c1342434ba",
     "profile_payload_url": "data/films/festival-62ecca46ee66e6c1342434ba.json",
     "profile_url": "film.html?id=festival-62ecca46ee66e6c1342434ba",
@@ -92,8 +95,8 @@
   },
   "media": {
     "backdrop": "",
-    "poster": "",
-    "trailer": ""
+    "poster": "https://image.tmdb.org/t/p/original/9GrdyiydFaa0OP7bjQrp8exlcPi.jpg",
+    "trailer": "https://www.youtube.com/watch?v=MR5Nkdndv18"
   },
   "metadata": {
     "algorithm_version": "phase5b",
@@ -112,11 +115,11 @@
     "source_data_date": "2026-08-15"
   },
   "performance": {
-    "tmdb_popularity": 1.3831
+    "tmdb_popularity": 2.8202
   },
   "ratings": {
     "tmdb": {
-      "popularity": 1.3831
+      "popularity": 2.8202
     }
   },
   "related": {

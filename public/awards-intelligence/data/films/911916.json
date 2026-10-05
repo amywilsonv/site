@@ -289,7 +289,9 @@
     "source_data_date": "2026-07-20"
   },
   "performance": {
-    "box_office": {},
+    "box_office": {
+      "budget": 125000000
+    },
     "ratings": {
       "tmdb": {
         "popularity": 6.3919,
@@ -299,12 +301,12 @@
         "status": "not_yet_rated"
       }
     },
-    "tmdb_popularity": 6.3919,
+    "tmdb_popularity": 8.5166,
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 6.3919,
+      "popularity": 8.5166,
       "retrieved_at": "2026-07-29",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/911916",

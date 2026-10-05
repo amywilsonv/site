@@ -193,7 +193,7 @@
     "premiere_type": ""
   },
   "film_identity": {
-    "backdrop": "",
+    "backdrop": "https://image.tmdb.org/t/p/original/5m1j7Wibh3HnZq5QHm97v8dI3GH.jpg",
     "country": [
       "US"
     ],
@@ -204,7 +204,7 @@
     "imdb_id": "tt16478058",
     "language": "en",
     "original_title": "Best of the Best",
-    "poster": "",
+    "poster": "https://image.tmdb.org/t/p/original/9soOjsZ91vtMzypK2F3MC378JI5.jpg",
     "profile_payload_url": "data/films/1514863.json",
     "profile_url": "film.html?id=1514863",
     "release_date": "2026-09-18",
@@ -254,7 +254,11 @@
     "summary": "Current provider signals do not show a supported material change.",
     "supporting_drivers": []
   },
-  "media": {},
+  "media": {
+    "backdrop": "https://image.tmdb.org/t/p/original/5m1j7Wibh3HnZq5QHm97v8dI3GH.jpg",
+    "poster": "https://image.tmdb.org/t/p/original/9soOjsZ91vtMzypK2F3MC378JI5.jpg",
+    "trailer": "https://www.youtube.com/watch?v=PuNATO-6a9U"
+  },
   "metadata": {
     "algorithm_version": "phase5b",
     "awards_intelligence_integrated_at": "2026-08-16T00:00:00Z",
@@ -274,16 +278,18 @@
         "status": "not_yet_rated"
       }
     },
-    "tmdb_popularity": 0.5045,
+    "tmdb_popularity": 14.1988,
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 0.5045,
+      "popularity": 14.1988,
+      "rating": 5.4,
       "retrieved_at": "2026-07-29",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1514863",
-      "status": "not_yet_rated"
+      "status": "not_yet_rated",
+      "vote_count": 79
     }
   },
   "related": {

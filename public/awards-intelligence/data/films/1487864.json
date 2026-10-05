@@ -196,7 +196,7 @@
     "premiere_type": ""
   },
   "film_identity": {
-    "backdrop": "",
+    "backdrop": "https://image.tmdb.org/t/p/original/pWvYluV8GNWQJRC4IdrZuJPLwzO.jpg",
     "country": [
       "BR"
     ],
@@ -214,7 +214,7 @@
     "release_date": "2026-08-12",
     "release_display": "In theaters Aug. 12",
     "runtime": 0,
-    "synopsis": "",
+    "synopsis": "Caught between family life and his obligations to the criminal underworld, Nando faces an impossible choice about where his true loyalties lie.",
     "title": "Nando Between Two Worlds - A Sintonia Film",
     "tmdb_id": "1487864"
   },
@@ -270,6 +270,7 @@
     ]
   },
   "media": {
+    "backdrop": "https://image.tmdb.org/t/p/original/pWvYluV8GNWQJRC4IdrZuJPLwzO.jpg",
     "poster": "https://image.tmdb.org/t/p/original/dwnqhUeXO1vRgXH9zgyeeihpxqo.jpg"
   },
   "metadata": {
@@ -291,16 +292,18 @@
         "status": "not_yet_rated"
       }
     },
-    "tmdb_popularity": 2.2073,
+    "tmdb_popularity": 8.7036,
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 2.2073,
+      "popularity": 8.7036,
+      "rating": 5.8,
       "retrieved_at": "2026-07-29",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1487864",
-      "status": "not_yet_rated"
+      "status": "not_yet_rated",
+      "vote_count": 27
     }
   },
   "related": {

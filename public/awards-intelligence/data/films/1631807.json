@@ -144,7 +144,9 @@
     "distributor": "Netflix",
     "franchise": "",
     "release_strategy": "Streamer awards release",
-    "studio": []
+    "studio": [
+      "SF Studios"
+    ]
   },
   "diagnostics": {
     "completeness_score": 44,
@@ -179,8 +181,10 @@
     "premiere_type": ""
   },
   "film_identity": {
-    "backdrop": "",
-    "country": [],
+    "backdrop": "https://image.tmdb.org/t/p/original/ziOpmyZufqM7IusfThzBr1E9wqa.jpg",
+    "country": [
+      "DK"
+    ],
     "genres": [
       "Crime",
       "Mystery",
@@ -191,7 +195,7 @@
     "imdb_id": "tt37275992",
     "language": "da",
     "original_title": "Den hemmelige kvinde",
-    "poster": "",
+    "poster": "https://image.tmdb.org/t/p/original/5FC5vUHFz0fbJOd0bhyzJpCSLrc.jpg",
     "profile_payload_url": "data/films/1631807.json",
     "profile_url": "film.html?id=1631807",
     "release_date": "2026-08-28",
@@ -252,7 +256,11 @@
       }
     ]
   },
-  "media": {},
+  "media": {
+    "backdrop": "https://image.tmdb.org/t/p/original/ziOpmyZufqM7IusfThzBr1E9wqa.jpg",
+    "poster": "https://image.tmdb.org/t/p/original/5FC5vUHFz0fbJOd0bhyzJpCSLrc.jpg",
+    "trailer": "https://www.youtube.com/watch?v=FldeGkt4e4k"
+  },
   "metadata": {
     "algorithm_version": "phase5b",
     "awards_intelligence_integrated_at": "2026-08-16T00:00:00Z",
@@ -272,16 +280,18 @@
         "status": "not_yet_rated"
       }
     },
-    "tmdb_popularity": 0.1331,
+    "tmdb_popularity": 17.5485,
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 0.1331,
+      "popularity": 17.5485,
+      "rating": 6.518,
       "retrieved_at": "2026-07-29",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1631807",
-      "status": "not_yet_rated"
+      "status": "not_yet_rated",
+      "vote_count": 136
     }
   },
   "related": {
@@ -484,10 +494,22 @@
     "whats_changed": ""
   },
   "talent": {
-    "director": "",
-    "principal_cast": [],
+    "director": "Barbara Tops\u00f8e-Rothenborg",
+    "principal_cast": [
+      "Natalie Madue\u00f1o",
+      "Claes Bang",
+      "P\u00e5l Sverre Hagen",
+      "Stina Ekblad",
+      "Ingrid Bols\u00f8 Berdal",
+      "Thea Sofie Loch N\u00e6ss",
+      "Lars Simonsen",
+      "Ida Appel"
+    ],
     "producers": [],
-    "writers": []
+    "writers": [
+      "Anders Frithiof August",
+      "Barbara Tops\u00f8e-Rothenborg"
+    ]
   },
   "timeline": {
     "events": [

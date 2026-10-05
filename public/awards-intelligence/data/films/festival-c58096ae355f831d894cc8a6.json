@@ -70,7 +70,7 @@
     "premiere_type": ""
   },
   "film_identity": {
-    "backdrop": "",
+    "backdrop": "https://image.tmdb.org/t/p/original/k7ZBAS71NNnY7wMyL8fEhv3rlQJ.jpg",
     "canonical_film_id": "festival-c58096ae355f831d894cc8a6",
     "country": [
       "US",
@@ -97,7 +97,7 @@
     "tmdb_id": "1736503"
   },
   "media": {
-    "backdrop": "",
+    "backdrop": "https://image.tmdb.org/t/p/original/k7ZBAS71NNnY7wMyL8fEhv3rlQJ.jpg",
     "poster": "https://image.tmdb.org/t/p/original/pTZJRGvJGy5FCWwwGQypbEwfDUu.jpg",
     "trailer": ""
   },
@@ -118,11 +118,11 @@
     "source_data_date": "2026-08-15"
   },
   "performance": {
-    "tmdb_popularity": 1.393
+    "tmdb_popularity": 1.1356
   },
   "ratings": {
     "tmdb": {
-      "popularity": 1.393
+      "popularity": 1.1356
     }
   },
   "related": {
@@ -144,7 +144,16 @@
   },
   "talent": {
     "director": "Xavier Tera",
-    "principal_cast": [],
+    "principal_cast": [
+      "Naoto Shimajiri",
+      "West Mulholland",
+      "Ichiro Andre Castro",
+      "Daido",
+      "Yuma Taira",
+      "Shiyun Nakamura",
+      "Erika Oda",
+      "Sachiko Fukumoto"
+    ],
     "producers": [],
     "writers": [
       "Xavier Tera"

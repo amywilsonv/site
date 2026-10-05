@@ -72,7 +72,9 @@
   "film_identity": {
     "backdrop": "https://image.tmdb.org/t/p/original/uceTF8vmIOkIFL98Y9ZGGZ0rAJt.jpg",
     "canonical_film_id": "festival-ac81e3ec45a8e8a6dff00e04",
-    "country": [],
+    "country": [
+      "IT"
+    ],
     "genres": [
       "Comedy",
       "Drama"
@@ -114,11 +116,11 @@
     "source_data_date": "2026-08-15"
   },
   "performance": {
-    "tmdb_popularity": 0.7468
+    "tmdb_popularity": 1.4546
   },
   "ratings": {
     "tmdb": {
-      "popularity": 0.7468
+      "popularity": 1.4546
     }
   },
   "related": {

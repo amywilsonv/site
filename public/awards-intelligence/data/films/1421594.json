@@ -191,7 +191,7 @@
     "premiere_type": ""
   },
   "film_identity": {
-    "backdrop": "",
+    "backdrop": "https://image.tmdb.org/t/p/original/gSC6TjQcc1aqqd7bqpUrhNjDsvX.jpg",
     "country": [
       "SE"
     ],
@@ -267,6 +267,7 @@
     ]
   },
   "media": {
+    "backdrop": "https://image.tmdb.org/t/p/original/gSC6TjQcc1aqqd7bqpUrhNjDsvX.jpg",
     "canonical_trailer": {
       "retrieved_at": "2026-07-29",
       "site": "YouTube",
@@ -299,16 +300,18 @@
         "status": "not_yet_rated"
       }
     },
-    "tmdb_popularity": 1.3386,
+    "tmdb_popularity": 3.6787,
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 1.3386,
+      "popularity": 3.6787,
+      "rating": 6.5,
       "retrieved_at": "2026-07-29",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1421594",
-      "status": "not_yet_rated"
+      "status": "not_yet_rated",
+      "vote_count": 10
     }
   },
   "related": {
@@ -519,7 +522,14 @@
   },
   "talent": {
     "director": "Karin af Klintberg",
-    "principal_cast": [],
+    "principal_cast": [
+      "Joachim Posener",
+      "Thomas Johansson",
+      "Richard Djurs\u00e9n",
+      "Gunnar Lindstedt",
+      "Jochum S\u00f6derstr\u00f6m",
+      "Michael Wynne-Parker"
+    ],
     "producers": [],
     "writers": []
   },

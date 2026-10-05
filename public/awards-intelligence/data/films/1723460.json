@@ -306,7 +306,7 @@
         "vote_count": 21
       }
     },
-    "tmdb_popularity": 17.368,
+    "tmdb_popularity": 7.6901,
     "watch_providers": {
       "country": "US",
       "flatrate": [
@@ -330,14 +330,14 @@
   },
   "ratings": {
     "tmdb": {
-      "popularity": 17.368,
-      "rating": 7.143,
+      "popularity": 7.6901,
+      "rating": 6.4,
       "retrieved_at": "2026-07-29",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1723460",
       "status": "rated",
       "vote_average": 7.143,
-      "vote_count": 21
+      "vote_count": 57
     }
   },
   "related": {
@@ -563,7 +563,12 @@
   },
   "talent": {
     "director": "Alexandra Lacey",
-    "principal_cast": [],
+    "principal_cast": [
+      "Amanda Wear",
+      "Gavin Marck",
+      "Katia Plotnikoff",
+      "Lainey Baldwin"
+    ],
     "producers": [],
     "writers": []
   },

@@ -216,7 +216,7 @@
     "premiere_type": ""
   },
   "film_identity": {
-    "backdrop": "",
+    "backdrop": "https://image.tmdb.org/t/p/original/eGrXlD0bHsCxUrDXDJA8q5rVIB8.jpg",
     "country": [
       "RU"
     ],
@@ -228,7 +228,7 @@
     "imdb_id": "",
     "language": "ru",
     "original_title": "\u0420\u0443\u043a\u0438 \u0432\u0432\u0435\u0440\u0445! 2",
-    "poster": "",
+    "poster": "https://image.tmdb.org/t/p/original/6KKadNSD9vA4otJSAslJJI4nRGf.jpg",
     "profile_payload_url": "data/films/1700889.json",
     "profile_url": "film.html?id=1700889",
     "release_date": "2026-10-15",
@@ -278,7 +278,10 @@
     "summary": "Current provider signals do not show a supported material change.",
     "supporting_drivers": []
   },
-  "media": {},
+  "media": {
+    "backdrop": "https://image.tmdb.org/t/p/original/eGrXlD0bHsCxUrDXDJA8q5rVIB8.jpg",
+    "poster": "https://image.tmdb.org/t/p/original/6KKadNSD9vA4otJSAslJJI4nRGf.jpg"
+  },
   "metadata": {
     "algorithm_version": "phase5b",
     "awards_intelligence_integrated_at": "2026-08-16T00:00:00Z",
@@ -298,12 +301,12 @@
         "status": "not_yet_rated"
       }
     },
-    "tmdb_popularity": 1.2733,
+    "tmdb_popularity": 1.3167,
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 1.2733,
+      "popularity": 1.3167,
       "retrieved_at": "2026-07-29",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1700889",

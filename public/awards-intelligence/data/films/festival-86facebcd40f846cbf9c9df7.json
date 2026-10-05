@@ -112,9 +112,13 @@
     },
     "source_data_date": "2026-08-15"
   },
-  "performance": {},
+  "performance": {
+    "tmdb_popularity": 1.4982
+  },
   "ratings": {
-    "tmdb": {}
+    "tmdb": {
+      "popularity": 1.4982
+    }
   },
   "related": {
     "related_films": [],

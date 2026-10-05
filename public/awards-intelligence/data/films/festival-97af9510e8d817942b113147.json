@@ -68,9 +68,11 @@
     "premiere_type": ""
   },
   "film_identity": {
-    "backdrop": "",
+    "backdrop": "https://image.tmdb.org/t/p/original/hDM5YVejVuyJmvAIYvB96dTLeGw.jpg",
     "canonical_film_id": "festival-97af9510e8d817942b113147",
-    "country": [],
+    "country": [
+      "CA"
+    ],
     "genres": [
       "Crime",
       "Comedy",
@@ -80,7 +82,7 @@
     "imdb_id": "tt38789467",
     "language": "fr",
     "original_title": "Toy Gun Bandit",
-    "poster": "",
+    "poster": "https://image.tmdb.org/t/p/original/bSP9pHN6mBrQjjaXlHsAOi4gIZR.jpg",
     "profile_id": "festival-97af9510e8d817942b113147",
     "profile_payload_url": "data/films/festival-97af9510e8d817942b113147.json",
     "profile_url": "film.html?id=festival-97af9510e8d817942b113147",
@@ -92,8 +94,8 @@
     "tmdb_id": "1570650"
   },
   "media": {
-    "backdrop": "",
-    "poster": "",
+    "backdrop": "https://image.tmdb.org/t/p/original/hDM5YVejVuyJmvAIYvB96dTLeGw.jpg",
+    "poster": "https://image.tmdb.org/t/p/original/bSP9pHN6mBrQjjaXlHsAOi4gIZR.jpg",
     "trailer": ""
   },
   "metadata": {
@@ -113,11 +115,11 @@
     "source_data_date": "2026-08-15"
   },
   "performance": {
-    "tmdb_popularity": 0.7325
+    "tmdb_popularity": 1.0518
   },
   "ratings": {
     "tmdb": {
-      "popularity": 0.7325
+      "popularity": 1.0518
     }
   },
   "related": {
@@ -139,7 +141,16 @@
   },
   "talent": {
     "director": "R\u00e9mi St-Michel",
-    "principal_cast": [],
+    "principal_cast": [
+      "F\u00e9lix Munger",
+      "David Beaudoin",
+      "Sara Montpetit",
+      "Brandon Truong",
+      "Lou Thompson",
+      "Chau-Phi Van Quirion",
+      "Jenny-Mark Turmel-Pichette",
+      "Mathieu Bourret"
+    ],
     "producers": [],
     "writers": [
       "R\u00e9mi St-Michel"

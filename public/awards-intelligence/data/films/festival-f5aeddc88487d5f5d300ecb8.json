@@ -71,9 +71,11 @@
     "premiere_type": ""
   },
   "film_identity": {
-    "backdrop": "",
+    "backdrop": "https://image.tmdb.org/t/p/original/m8yGYnc9JNo5DT88MsXaUvsZ1kU.jpg",
     "canonical_film_id": "festival-f5aeddc88487d5f5d300ecb8",
-    "country": [],
+    "country": [
+      "US"
+    ],
     "genres": [
       "Comedy"
     ],
@@ -93,7 +95,7 @@
     "tmdb_id": "1684663"
   },
   "media": {
-    "backdrop": "",
+    "backdrop": "https://image.tmdb.org/t/p/original/m8yGYnc9JNo5DT88MsXaUvsZ1kU.jpg",
     "poster": "https://image.tmdb.org/t/p/original/xxtI4Tyd87VfhSjVCltGVkDt6Rf.jpg",
     "trailer": ""
   },
@@ -114,11 +116,11 @@
     "source_data_date": "2026-08-15"
   },
   "performance": {
-    "tmdb_popularity": 1.4298
+    "tmdb_popularity": 1.9933
   },
   "ratings": {
     "tmdb": {
-      "popularity": 1.4298
+      "popularity": 1.9933
     }
   },
   "related": {

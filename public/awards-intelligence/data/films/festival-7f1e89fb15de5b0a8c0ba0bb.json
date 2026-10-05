@@ -117,11 +117,17 @@
     "source_data_date": "2026-08-15"
   },
   "performance": {
-    "tmdb_popularity": 4.1415
+    "box_office": {
+      "budget": 3000000,
+      "revenue": 26848371
+    },
+    "tmdb_popularity": 32.8068
   },
   "ratings": {
     "tmdb": {
-      "popularity": 4.1415
+      "popularity": 32.8068,
+      "rating": 7.9,
+      "vote_count": 70
     }
   },
   "related": {

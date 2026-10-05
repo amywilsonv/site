@@ -203,7 +203,7 @@
     "premiere_type": ""
   },
   "film_identity": {
-    "backdrop": "",
+    "backdrop": "https://image.tmdb.org/t/p/original/yzdMGn8IRHSGuV8AIzw19wkRU2W.jpg",
     "country": [
       "US"
     ],
@@ -280,6 +280,7 @@
     ]
   },
   "media": {
+    "backdrop": "https://image.tmdb.org/t/p/original/yzdMGn8IRHSGuV8AIzw19wkRU2W.jpg",
     "canonical_trailer": {
       "retrieved_at": "2026-07-29",
       "site": "YouTube",
@@ -312,16 +313,18 @@
         "status": "not_yet_rated"
       }
     },
-    "tmdb_popularity": 2.1291,
+    "tmdb_popularity": 9.6162,
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 2.1291,
+      "popularity": 9.6162,
+      "rating": 7.283,
       "retrieved_at": "2026-07-29",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1504358",
-      "status": "not_yet_rated"
+      "status": "not_yet_rated",
+      "vote_count": 129
     }
   },
   "related": {

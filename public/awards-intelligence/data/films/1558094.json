@@ -209,7 +209,7 @@
     "imdb_id": "tt38608081",
     "language": "nl",
     "original_title": "Let Love In",
-    "poster": "",
+    "poster": "https://image.tmdb.org/t/p/original/9vvaZNsGyTSqQslrHVl9yg8j5nv.jpg",
     "profile_payload_url": "data/films/1558094.json",
     "profile_url": "film.html?id=1558094",
     "release_date": "2026-10-21",
@@ -260,7 +260,8 @@
     "supporting_drivers": []
   },
   "media": {
-    "backdrop": "https://image.tmdb.org/t/p/original/sUsilL87qamoWLLV9E7Liop2NcG.jpg"
+    "backdrop": "https://image.tmdb.org/t/p/original/sUsilL87qamoWLLV9E7Liop2NcG.jpg",
+    "poster": "https://image.tmdb.org/t/p/original/9vvaZNsGyTSqQslrHVl9yg8j5nv.jpg"
   },
   "metadata": {
     "algorithm_version": "phase5b",
@@ -281,12 +282,12 @@
         "status": "not_yet_rated"
       }
     },
-    "tmdb_popularity": 1.3786,
+    "tmdb_popularity": 1.2806,
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 1.3786,
+      "popularity": 1.2806,
       "retrieved_at": "2026-07-29",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1558094",

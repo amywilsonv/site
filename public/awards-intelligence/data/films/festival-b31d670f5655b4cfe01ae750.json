@@ -107,7 +107,7 @@
   "media": {
     "backdrop": "https://image.tmdb.org/t/p/original/2BIqyTEGOd7AaqsEDUXrDukynqo.jpg",
     "poster": "https://image.tmdb.org/t/p/original/au4H3o2uAudaiLq7v41Qayk7X2T.jpg",
-    "trailer": ""
+    "trailer": "https://www.youtube.com/watch?v=l6A7hHXcO0k"
   },
   "metadata": {
     "algorithm_version": "phase5b",
@@ -126,11 +126,13 @@
     "source_data_date": "2026-08-15"
   },
   "performance": {
-    "tmdb_popularity": 1.2104
+    "tmdb_popularity": 2.4606
   },
   "ratings": {
     "tmdb": {
-      "popularity": 1.2104
+      "popularity": 2.4606,
+      "rating": 10.0,
+      "vote_count": 2
     }
   },
   "related": {

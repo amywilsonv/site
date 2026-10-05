@@ -189,7 +189,7 @@
     "imdb_id": "",
     "language": "ru",
     "original_title": "\u0416\u0438\u0432\u0430\u044f \u043a\u043d\u0438\u0433\u0430",
-    "poster": "",
+    "poster": "https://image.tmdb.org/t/p/original/huBvsWOlXvQ3rxPLwkOi3J3WxYj.jpg",
     "profile_payload_url": "data/films/1668297.json",
     "profile_url": "film.html?id=1668297",
     "release_date": "2026-11-04",
@@ -239,7 +239,9 @@
     "summary": "Current provider signals do not show a supported material change.",
     "supporting_drivers": []
   },
-  "media": {},
+  "media": {
+    "poster": "https://image.tmdb.org/t/p/original/huBvsWOlXvQ3rxPLwkOi3J3WxYj.jpg"
+  },
   "metadata": {
     "algorithm_version": "phase5b",
     "awards_intelligence_integrated_at": "2026-08-16T00:00:00Z",
@@ -259,12 +261,12 @@
         "status": "not_yet_rated"
       }
     },
-    "tmdb_popularity": 1.5844,
+    "tmdb_popularity": 1.3536,
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 1.5844,
+      "popularity": 1.3536,
       "retrieved_at": "2026-07-29",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1668297",

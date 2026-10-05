@@ -70,9 +70,11 @@
     "premiere_type": ""
   },
   "film_identity": {
-    "backdrop": "",
+    "backdrop": "https://image.tmdb.org/t/p/original/A5JUrNQE5Xsty8BdNDAI89rn0lx.jpg",
     "canonical_film_id": "festival-c6db39ef2c74a0b9a08aacb6",
-    "country": [],
+    "country": [
+      "US"
+    ],
     "genres": [
       "Drama",
       "Music"
@@ -81,7 +83,7 @@
     "imdb_id": "tt36847382",
     "language": "en",
     "original_title": "Voices",
-    "poster": "",
+    "poster": "https://image.tmdb.org/t/p/original/6J530tB0vURFcGwdJ3UygNy3W8u.jpg",
     "profile_id": "festival-c6db39ef2c74a0b9a08aacb6",
     "profile_payload_url": "data/films/festival-c6db39ef2c74a0b9a08aacb6.json",
     "profile_url": "film.html?id=festival-c6db39ef2c74a0b9a08aacb6",
@@ -93,8 +95,8 @@
     "tmdb_id": "1671257"
   },
   "media": {
-    "backdrop": "",
-    "poster": "",
+    "backdrop": "https://image.tmdb.org/t/p/original/A5JUrNQE5Xsty8BdNDAI89rn0lx.jpg",
+    "poster": "https://image.tmdb.org/t/p/original/6J530tB0vURFcGwdJ3UygNy3W8u.jpg",
     "trailer": "https://www.youtube.com/watch?v=5K_jw_NkXJs"
   },
   "metadata": {
@@ -114,11 +116,11 @@
     "source_data_date": "2026-08-15"
   },
   "performance": {
-    "tmdb_popularity": 2.1931
+    "tmdb_popularity": 3.4837
   },
   "ratings": {
     "tmdb": {
-      "popularity": 2.1931
+      "popularity": 3.4837
     }
   },
   "related": {

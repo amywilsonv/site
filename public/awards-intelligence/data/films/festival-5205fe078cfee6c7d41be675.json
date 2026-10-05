@@ -77,7 +77,7 @@
     "premiere_type": ""
   },
   "film_identity": {
-    "backdrop": "",
+    "backdrop": "https://image.tmdb.org/t/p/original/yZrs26H7MmXt1c9td4ZKegVp7rn.jpg",
     "canonical_film_id": "festival-5205fe078cfee6c7d41be675",
     "country": [
       "MX"
@@ -102,9 +102,9 @@
     "tmdb_id": "1632166"
   },
   "media": {
-    "backdrop": "",
+    "backdrop": "https://image.tmdb.org/t/p/original/yZrs26H7MmXt1c9td4ZKegVp7rn.jpg",
     "poster": "https://image.tmdb.org/t/p/original/w2cCu7Ymwrvj8MWBs5vcFfYUO24.jpg",
-    "trailer": ""
+    "trailer": "https://www.youtube.com/watch?v=_TCEC8MYILI"
   },
   "metadata": {
     "algorithm_version": "phase5b",
@@ -123,11 +123,13 @@
     "source_data_date": "2026-08-15"
   },
   "performance": {
-    "tmdb_popularity": 1.3231
+    "tmdb_popularity": 2.4617
   },
   "ratings": {
     "tmdb": {
-      "popularity": 1.3231
+      "popularity": 2.4617,
+      "rating": 5.75,
+      "vote_count": 2
     }
   },
   "related": {

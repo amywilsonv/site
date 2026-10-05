@@ -217,7 +217,7 @@
     "premiere_type": ""
   },
   "film_identity": {
-    "backdrop": "",
+    "backdrop": "https://image.tmdb.org/t/p/original/b9VWo2XKURxkleaDlbobIXB2qIo.jpg",
     "country": [
       "NL"
     ],
@@ -283,6 +283,7 @@
     "supporting_drivers": []
   },
   "media": {
+    "backdrop": "https://image.tmdb.org/t/p/original/b9VWo2XKURxkleaDlbobIXB2qIo.jpg",
     "canonical_trailer": {
       "retrieved_at": "2026-07-29",
       "site": "YouTube",
@@ -315,12 +316,12 @@
         "status": "not_yet_rated"
       }
     },
-    "tmdb_popularity": 2.4792,
+    "tmdb_popularity": 1.7993,
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 2.4792,
+      "popularity": 1.7993,
       "retrieved_at": "2026-07-29",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1620873",

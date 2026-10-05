@@ -32,7 +32,13 @@
     "distributor": "Unknown",
     "franchise": "",
     "release_strategy": "",
-    "studio": []
+    "studio": [
+      "Academy Films",
+      "War Child Records",
+      "Dirty Looks",
+      "The Quarry",
+      "Factory"
+    ]
   },
   "diagnostics": {
     "completeness_score": 0,
@@ -68,7 +74,9 @@
   "film_identity": {
     "backdrop": "https://image.tmdb.org/t/p/original/xOtxvwRoYlFd9N4b68ceGTOkRqy.jpg",
     "canonical_film_id": "festival-f34ccf64f9538d64a79b5eb0",
-    "country": [],
+    "country": [
+      "GB"
+    ],
     "genres": [
       "Documentary"
     ],
@@ -76,7 +84,7 @@
     "imdb_id": "tt44049804",
     "language": "en",
     "original_title": "Joy of Joys",
-    "poster": "",
+    "poster": "https://image.tmdb.org/t/p/original/87G2FJLzDUUiN2gzjQYIIkOozwG.jpg",
     "profile_id": "festival-f34ccf64f9538d64a79b5eb0",
     "profile_payload_url": "data/films/festival-f34ccf64f9538d64a79b5eb0.json",
     "profile_url": "film.html?id=festival-f34ccf64f9538d64a79b5eb0",
@@ -89,8 +97,8 @@
   },
   "media": {
     "backdrop": "https://image.tmdb.org/t/p/original/xOtxvwRoYlFd9N4b68ceGTOkRqy.jpg",
-    "poster": "",
-    "trailer": ""
+    "poster": "https://image.tmdb.org/t/p/original/87G2FJLzDUUiN2gzjQYIIkOozwG.jpg",
+    "trailer": "https://www.youtube.com/watch?v=kjkGSbQuR1w"
   },
   "metadata": {
     "algorithm_version": "phase5b",
@@ -109,11 +117,11 @@
     "source_data_date": "2026-08-15"
   },
   "performance": {
-    "tmdb_popularity": 0.5685
+    "tmdb_popularity": 2.2004
   },
   "ratings": {
     "tmdb": {
-      "popularity": 0.5685
+      "popularity": 2.2004
     }
   },
   "related": {
@@ -135,7 +143,16 @@
   },
   "talent": {
     "director": "Jonathan Glazer",
-    "principal_cast": [],
+    "principal_cast": [
+      "Olivia Rodrigo",
+      "Graham Coxon",
+      "Jarvis Cocker",
+      "Candida Doyle",
+      "Nick Banks",
+      "Mark Webber",
+      "Damon Albarn",
+      "Grian Chatten"
+    ],
     "producers": [],
     "writers": []
   },
