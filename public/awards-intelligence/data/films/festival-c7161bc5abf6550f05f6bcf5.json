@@ -95,7 +95,7 @@
   "media": {
     "backdrop": "https://image.tmdb.org/t/p/original/3E7yiIPQDEETOBVYDzVDgbnUM0.jpg",
     "poster": "https://image.tmdb.org/t/p/original/et5zMzsVgC9sXqPico8I6ij9cNZ.jpg",
-    "trailer": ""
+    "trailer": "https://www.youtube.com/watch?v=NVPD94LeDGY"
   },
   "metadata": {
     "algorithm_version": "phase5b",
@@ -114,11 +114,11 @@
     "source_data_date": "2026-08-15"
   },
   "performance": {
-    "tmdb_popularity": 1.5518
+    "tmdb_popularity": 1.6799
   },
   "ratings": {
     "tmdb": {
-      "popularity": 1.5518,
+      "popularity": 1.6799,
       "rating": 10.0,
       "vote_count": 1
     }
@@ -142,7 +142,14 @@
   },
   "talent": {
     "director": "Liz Garbus; Elizabeth Wolff",
-    "principal_cast": [],
+    "principal_cast": [
+      "Billie Jean King",
+      "Elton John",
+      "Larry King",
+      "Serena Williams",
+      "Chris Evert",
+      "Bobby Riggs"
+    ],
     "producers": [],
     "writers": []
   },
