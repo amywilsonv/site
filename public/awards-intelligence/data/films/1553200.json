@@ -308,7 +308,9 @@
     "source_data_date": "2026-07-20"
   },
   "performance": {
-    "box_office": {},
+    "box_office": {
+      "revenue": 1186000
+    },
     "ratings": {
       "tmdb": {
         "popularity": 2.1799,
@@ -318,12 +320,12 @@
         "status": "not_yet_rated"
       }
     },
-    "tmdb_popularity": 8.6951,
+    "tmdb_popularity": 7.4774,
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 8.6951,
+      "popularity": 7.4774,
       "rating": 8.0,
       "retrieved_at": "2026-07-29",
       "source": "TMDb",

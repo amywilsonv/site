@@ -320,16 +320,18 @@
         "status": "not_yet_rated"
       }
     },
-    "tmdb_popularity": 32.582,
+    "tmdb_popularity": 29.529,
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 32.582,
+      "popularity": 29.529,
+      "rating": 7.0,
       "retrieved_at": "2026-07-29",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/891621",
-      "status": "not_yet_rated"
+      "status": "not_yet_rated",
+      "vote_count": 1
     }
   },
   "related": {
