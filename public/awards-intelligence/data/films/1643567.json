@@ -298,7 +298,9 @@
     "source_data_date": "2026-07-20"
   },
   "performance": {
-    "box_office": {},
+    "box_office": {
+      "revenue": 3200000
+    },
     "ratings": {
       "tmdb": {
         "popularity": 1.1425,
@@ -308,18 +310,18 @@
         "status": "not_yet_rated"
       }
     },
-    "tmdb_popularity": 8.1531,
+    "tmdb_popularity": 8.0384,
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 8.1531,
-      "rating": 7.0,
+      "popularity": 8.0384,
+      "rating": 7.273,
       "retrieved_at": "2026-07-29",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1643567",
       "status": "not_yet_rated",
-      "vote_count": 10
+      "vote_count": 11
     }
   },
   "related": {
