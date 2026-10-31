@@ -123,13 +123,16 @@
     "source_data_date": "2026-08-15"
   },
   "performance": {
-    "tmdb_popularity": 40.0889
+    "box_office": {
+      "revenue": 203920
+    },
+    "tmdb_popularity": 39.124
   },
   "ratings": {
     "tmdb": {
-      "popularity": 40.0889,
-      "rating": 7.3,
-      "vote_count": 7
+      "popularity": 39.124,
+      "rating": 7.2,
+      "vote_count": 8
     }
   },
   "related": {
