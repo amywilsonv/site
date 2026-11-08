@@ -72,7 +72,7 @@
     "premiere_type": ""
   },
   "film_identity": {
-    "backdrop": "",
+    "backdrop": "https://image.tmdb.org/t/p/original/svYJolViDboW44AVC12PdkbJ8Ec.jpg",
     "canonical_film_id": "festival-9afb6986605c7bfd89265681",
     "country": [
       "US"
@@ -96,7 +96,7 @@
     "tmdb_id": "1591604"
   },
   "media": {
-    "backdrop": "",
+    "backdrop": "https://image.tmdb.org/t/p/original/svYJolViDboW44AVC12PdkbJ8Ec.jpg",
     "poster": "https://image.tmdb.org/t/p/original/oeNGDDT1GFQYaCtKyIwG8WTxYIE.jpg",
     "trailer": ""
   },
@@ -117,11 +117,11 @@
     "source_data_date": "2026-08-15"
   },
   "performance": {
-    "tmdb_popularity": 2.5552
+    "tmdb_popularity": 1.8928
   },
   "ratings": {
     "tmdb": {
-      "popularity": 2.5552,
+      "popularity": 1.8928,
       "rating": 1.0,
       "vote_count": 3
     }
@@ -151,7 +151,9 @@
       "Deion Smith"
     ],
     "producers": [],
-    "writers": []
+    "writers": [
+      "J.M. Harper"
+    ]
   },
   "timeline": {
     "events": [],
