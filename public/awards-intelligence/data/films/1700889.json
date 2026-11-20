@@ -216,7 +216,7 @@
     "premiere_type": ""
   },
   "film_identity": {
-    "backdrop": "https://image.tmdb.org/t/p/original/eGrXlD0bHsCxUrDXDJA8q5rVIB8.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/dRYeSMvmzLPmQdftvaNcnpBwBBJ.jpg",
     "country": [
       "RU"
     ],
@@ -279,7 +279,7 @@
     "supporting_drivers": []
   },
   "media": {
-    "backdrop": "https://image.tmdb.org/t/p/original/eGrXlD0bHsCxUrDXDJA8q5rVIB8.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/dRYeSMvmzLPmQdftvaNcnpBwBBJ.jpg",
     "poster": "https://image.tmdb.org/t/p/original/6KKadNSD9vA4otJSAslJJI4nRGf.jpg"
   },
   "metadata": {
@@ -301,16 +301,18 @@
         "status": "not_yet_rated"
       }
     },
-    "tmdb_popularity": 0.8167,
+    "tmdb_popularity": 1.7972,
     "watch_providers": {}
   },
   "ratings": {
     "tmdb": {
-      "popularity": 0.8167,
+      "popularity": 1.7972,
+      "rating": 7.0,
       "retrieved_at": "2026-07-29",
       "source": "TMDb",
       "source_url": "https://www.themoviedb.org/movie/1700889",
-      "status": "not_yet_rated"
+      "status": "not_yet_rated",
+      "vote_count": 1
     }
   },
   "related": {
